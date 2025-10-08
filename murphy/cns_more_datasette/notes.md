@@ -23,7 +23,19 @@ it wasn't perfect, but the outputs were far less variable.
 
 transit -- 24%
 
+Supporters, opponents of high speed rail square off at Annapolis demonstration (24)
+
+Pipeline protesters take frustrations to Hogan’s doorstep (transcanada) (21)
+
+Special sailing program aims to help veterans transition back to civilian life (20)
+
 corruption -- 17%
+
+moore-enters-office-with-a-unique-perspective-in-mind/	Gov.-elect Wes Moore enters office with a unique perspective in mind (17)
+
+Turning Pages, Changing Lives: How Books for International Goodwill is Building a More Literate Future (16.9)
+
+Mayors join Maryland Comptroller in call for change in craft brewery regulations (16.7)
 
 ### Do the results make sense?
 
