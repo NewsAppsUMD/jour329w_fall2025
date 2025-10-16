@@ -54,9 +54,9 @@ Choose a topic from the list that has a good number of stories (aim for at least
 # Save all stories for your chosen topic
 # Replace 'Elections' with your actual topic name as it appears in the data
 uv run sqlite-utils memory ../../data/story_summaries.json \
-  "SELECT * FROM story_summaries 
-   WHERE topic = 'Elections'" \
-  --json-cols > story_summaries_elections.json
+  "SELECT * FROM story_summaries"
+   WHERE topic = 'Economy'" \
+  --json-cols > story_summaries_economy.json
 ```
 
 **Examples for other topics:**
@@ -64,20 +64,20 @@ uv run sqlite-utils memory ../../data/story_summaries.json \
 ```bash
 # For Maryland Government & Politics:
 uv run sqlite-utils memory ../../data/story_summaries.json \
-  "SELECT * FROM story_summaries 
+  "SELECT * FROM story_summaries" 
    WHERE topic = 'Maryland Government & Politics'" \
   --json-cols > story_summaries_maryland_government_politics.json
 
 # For Education:
 uv run sqlite-utils memory ../../data/story_summaries.json \
-  "SELECT * FROM story_summaries 
-   WHERE topic = 'Education'" \
+  "SELECT * FROM story_summaries"
+   "WHERE topic = 'Education'" \
   --json-cols > story_summaries_education.json
 
 # For Baltimore:
 uv run sqlite-utils memory ../../data/story_summaries.json \
-  "SELECT * FROM story_summaries 
-   WHERE topic = 'Baltimore'" \
+  "SELECT * FROM story_summaries"
+   "WHERE topic = 'Baltimore'" \
   --json-cols > story_summaries_baltimore.json
 ```
 
@@ -85,7 +85,7 @@ Verify your results:
 
 ```bash
 # Check how many stories you got
-uv run jq 'length' story_summaries_elections.json
+uv run jq 'length' story_summaries_economy.json
 
 ```
 
@@ -237,10 +237,10 @@ Run the script with the required arguments:
 
 ```bash
 # Example usage - replace with your actual input file and preferred model
-uv run python add_metadata.py --model gpt-4o-mini --input story_summaries_housing.json
+uv run python add_metadata.py --model gpt-4o-mini --input story_summaries_economy.json
 
 # Or use Claude (if you have the API key set)
-uv run python add_metadata.py --model claude-3.5-haiku --input story_summaries_housing.json
+uv run python add_metadata.py --model claude-3.5-haiku --input story_summaries_sports.json
 
 # Run without arguments to see help
 uv run python add_metadata.py
@@ -254,7 +254,7 @@ Use sqlite-utils to create a database from your enhanced collection:
 
 ```bash
 # Create database and import your stories
-uv run sqlite-utils insert beat_stories.db stories enhanced_beat_stories.json --pk link
+c
 
 # Now the metadata fields are stored as separate columns:
 # - metadata_people (JSON array as text)
