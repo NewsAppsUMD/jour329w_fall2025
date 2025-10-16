@@ -10,7 +10,9 @@
 
 well. i tried running this with claude four or five times ... and still got "llm failed" messages across the board every time. so i switched to chat because i couldn't think of anything else to try as far as troubleshooting. now, notably, chat was *considerably* faster. claude fully took over 40 minutes to "add metadata" ... and it didn't actually do that, so idk what that's about. chat was SO MUCH faster. ok but then that didn't work either. so i asked copilot (chat is below). it seems that at some point along the way a few backslashes got deleted, so i think that was it. anyway, then i reran it (still w/ chat, it's just faster).and it still didn't work. so yeah, i dont really know what to do here. i've run it like 15 times in total at this point.
 
-so then i went back to my schema — i was thinking of maybe picking a different topic, see where that got me. but then i noticed that i was missing a pair of brackets in my schema. so i fixed that and tried again. still nothing. and then i tried switching the prompt — i tried economy and hastily rewrote the schema just to see if it would work. that also did not work. i'm super frustrated and don't know what to do and you're going to have to deal with me tomorrow LOL.
+so then i went back to my schema — i was thinking of maybe picking a different topic, see where that got me. but then i noticed that i was missing a pair of brackets in my schema. so i fixed that and tried again. still nothing. and then i tried switching the prompt — i tried economy and hastily rewrote the schema just to see if it would work. that also did not work. so i committed the changes and restarted my codespace.
+
+i'm super frustrated and don't know what to do and you're going to have to deal with me tomorrow LOL.
 
 **geographic patterns**: which areas get the most coverage?
 
