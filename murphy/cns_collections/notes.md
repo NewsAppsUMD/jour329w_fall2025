@@ -2,9 +2,9 @@
 
 ## today's questions
 
-**what topic i chose:** sports
+**what topic i chose:** economy**
 
-**how many stories:** 265
+**how many stories:** 79**
 
 **key players**: Who appears most frequently?
 
@@ -12,7 +12,11 @@ well. i tried running this with claude four or five times ... and still got "llm
 
 so then i went back to my schema — i was thinking of maybe picking a different topic, see where that got me. but then i noticed that i was missing a pair of brackets in my schema. so i fixed that and tried again. still nothing. and then i tried switching the prompt — i tried economy and hastily rewrote the schema just to see if it would work. that also did not work. so i committed the changes and restarted my codespace.
 
-i'm super frustrated and don't know what to do and you're going to have to deal with me tomorrow LOL.
+i'm super frustrated and don't know what to do LOL.
+
+okkkkkkkkkkkk then you slacked me back and eventually i got it to work — could i tell you how? not really. 
+
+and after all that, it only worked on two of the links. it supposedly analyzed all 79 rows, but my db only has rows for the two most recent stories, no matter how many times i run it. i don't know if i'm just stupid or what the issue is but this simply won't work and it's 5:30 a.m. and i'm losing my mind and you're going to have to help me later lol, so i'm just going to push and submit. i will say that the metadata it pulled for those two stories isn't bad ... it correcly tagged the story about the microsoft quantum center opening at umd with wes moore, maryland, baltimore, microsoft, umd, tech and business. 
 
 **geographic patterns**: which areas get the most coverage?
 
@@ -49,6 +53,14 @@ schema_prompt = """
       "topic": ["Policy", "Elections", "Business", "Society"]
     }
     """
+
+
+uv run sqlite-utils memory ../../data/story_summaries.json \
+  "SELECT * FROM story_summaries 
+   WHERE topic = 'Economy'" \
+  --json-cols > story_summaries_economy.json
+
+uv run python add_metadata.py --model claude-3.5-haiku --input story_summaries_economy.json
 
 
 ## tomorrow's questions:
