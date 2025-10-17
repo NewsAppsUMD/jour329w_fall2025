@@ -63,21 +63,16 @@ def main():
     # Define your schema prompt based on your beat - CUSTOMIZE THIS!
     schema_prompt = """
     {
-      "people": ["Donald Trump", "Wes Moore"],
-      "geographic_focus": ["Maryland", "Baltimore"],
-      "key_institutions": ["Ravens", "Trump Administration"],
-      "topic": ["Policy", "Elections", "Business", "Society"]
+      "people": ["Caitlyn Phipps", "Emma Hayes"],
+      "geographic_focus": ["Fairfax County", "Annapolis", "Maryland"],
+      "key_institutions": ["Towson University", "Capitals"],
+      "sport": ["Soccer", "Football", "eSports"],
+      "subcategory": ["Sports Finance", "Law", "Title IX", "Professional Sports", "Youth Sports", "College Sports"]
     }
     """
 
     
 
-    # Process each story
-    enhanced_stories = []
-    for i, story in enumerate(stories):
-        print(f"Processing {i+1}/{len(stories)}: {story['title']}")
-        
-        metadata = extract_metadata(story['title'], story['content'], schema_prompt, args.model)
     # Process each story
     enhanced_stories = []
     for i, story in enumerate(stories):

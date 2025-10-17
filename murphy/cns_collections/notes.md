@@ -57,10 +57,10 @@ schema_prompt = """
 
 uv run sqlite-utils memory ../../data/story_summaries.json \
   "SELECT * FROM story_summaries 
-   WHERE topic = 'Economy'" \
-  --json-cols > story_summaries_economy.json
+   WHERE topic = 'Sports'" \
+  --json-cols > story_summaries_sports.json
 
-uv run python add_metadata.py --model claude-3.5-haiku --input story_summaries_economy.json
+uv run python add_metadata.py --model claude-3.5-haiku --input story_summaries_sports.json
 
 
 ## tomorrow's questions:
