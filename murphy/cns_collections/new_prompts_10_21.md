@@ -22,7 +22,9 @@ It should focus on what needs to be covered rather than what has been covered. S
 
 The language should be business casual but easy enough for a high schooler to read. It should not be primarily a list of bullet points. Make sure you introduce and explain ideas, people and issues with substantive but concise language. Not too many adjectives. Cite relevant stories with the headline, link, and month and year of publication.
 
-cat edited_prompt.txt enhanced_beat_stories_immigration.json | uv run llm -m "claude-sonnet-4.5" > immigration_prototype_2.md
+cat edited_prompt.txt enhanced_beat_stories_immigration_no_content.json | uv run llm -m "claude-sonnet-4.5" > immigration_prototype_4_no_content.md
+
+cat edited_prompt.txt enhanced_beat_stories_immigration.json | uv run llm -m "claude-4-sonnet" > immigration_prototype_5_claude_4_sonnet.md
 
 cat edited_prompt.txt enhanced_beat_stories_sports.json | uv run llm -m "claude-sonnet-4.5" > sports_prototype.md
 
@@ -30,17 +32,7 @@ cat edited_prompt.txt enhanced_beat_stories_education_no_content.json | uv run l
 
 cat edited_prompt.txt enhanced_beat_stories_sports_no_metadata_no_content.json | uv run llm -m "claude-sonnet-4.5" > sports_prototype_2.md
 
-## third edited prompt — tried to cut some more from the prompt, but the previous had far better results
-
-Produce a comprehensive narrative guide in Markdown format for a journalist unfamiliar with the area that explains in detail the people, policies, institutions and locations central to the topic. 
-
-Focus on what needs to be covered rather than what has been covered. Suggest ideas, questions and potential sources for stories that haven't been covered, are undercovered or need to be followed up on. Be careful about stories that are ongoing or not resolved; include a caveat to let the reporter know that it is unclear if the issue has been resolved. Give more weight to stories published in 2025.
-
-The language should be business casual but easy enough for a high schooler to read. It should not be a list of bullet points. Make sure you thoroughly explain yourself with substantive but concise language. Not too many adjectives. Give the headline, link, and month and year of publication for every story you reference.
-
-cat edited_prompt.txt enhanced_beat_stories_immigration.json | uv run llm -m "claude-sonnet-4.5" > immigration_prototype_3.md
-
-## fourth edited prompt — straight up just wanted to be bossy
+## third edited prompt — straight up just wanted to be bossy
 
 You're a newsroom assistant. Using Markdown format, you need to produce a detailed narrative guide for an early-career journalist unfamiliar with the area to help them understand the topic and the relevant people, locations, current issues and institutions. 
 
@@ -48,4 +40,4 @@ You need to focus on what needs to be covered rather than what has been covered.
 
 DO NOT create primarily a list of bullet points. Make sure you thoroughly introduce and explain ideas, people and issues with substantive but concise language. Do not use too many adjectives. No longer than 300 lines. Always cite relevant stories with the headline, link, and month and year of publication. 
 
-cat edited_prompt.txt enhanced_beat_stories_immigration.json | uv run llm -m "claude-sonnet-4.5" > immigration_prototype_4.md
+cat edited_prompt.txt enhanced_beat_stories_immigration.json | uv run llm -m "claude-sonnet-4.5" > immigration_prototype_3.md
