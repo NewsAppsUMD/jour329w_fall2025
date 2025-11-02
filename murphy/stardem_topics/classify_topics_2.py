@@ -2,7 +2,7 @@ import json
 import subprocess
 
 SAMPLE_JSON = "stardem_sample.json"
-OUTPUT_JSON = "stardem_topics_classified.json"
+OUTPUT_JSON = "stardem_topics_classified_2.json"
 
 # Define the topic list with definitions
 topic_list = [
@@ -71,12 +71,12 @@ topic_list = [
         "definition": "Legal notices."
     },
     {
-        "topic": "Columns & Editorials",
-        "definition": "Columns and editorials."
+        "topic": "Columns, Editorials & Letters to the Editor",
+        "definition": "Columns, editorials and letters to the editor."
     },
     {
         "topic": "Other",
-        "definition": "Other non-news articles that do not fall under another clearly defined topic."
+        "definition": "Last-resort classification of other content that doesn't fall under another category."
     }
 ]
 
@@ -123,7 +123,7 @@ Return only the topic name from the list above.
         result = subprocess.run(
             [
                 "llm",
-                "-m", "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+                "-m", "groq-kimi-k2",
                 "--no-stream"
             ],
             input=prompt.encode("utf-8"),
