@@ -80,7 +80,7 @@ topic_list = [
     }
 ]
 
-maryland_county_list = [
+maryland_counties_list = [
     {
         "county": "Dorchester County",
         "municipalities": "Brookview, Cambridge, Church Creek, Crapo, Crocheron, East New Market, Eldorado, Fishing Creek, Galestown, Hurlock, Linkwood, Madison, Rhodesdale, Secretary, Taylors Island, Toddville, Vienna, Wingate, Woolford"
@@ -179,71 +179,81 @@ maryland_county_list = [
     }
 ]
 
-I need to make a python script called `starmdem_entities_script_2.py`.
+I need to make a python script called `starmdem_entities_script_3.py`.
 
 Here are the script requirements:
-- Use the `llm` command-line tool with the model `groq/openai/gpt-oss-120b`
+- Use the `llm` command-line tool with the model `groq/moonshotai/kimi-k2-instruct-0905`
 - Use subprocess to call the `llm` command
-- Have the LLM process each story from `stardem_sample.json`
-- Have the LLM add four fields to each story: `content_type`, `topic`, `people`, `events`, `locations`, `municipalities`, `county`, `institutions`.
-- Have the LLM save the updated stories to `stories_with_entities_1.json`
+- Have the LLM process each story from `stardem_sample_2.json`
+- Have the LLM add the following fields to each story: `content_type`, `primary_topic`, `secondary_topic`, `municipalities`, `counties`, `key_people`, `key_locations`, `key_events`, `key_organizations`, `key_bodies`.
+- Have the LLM save the updated stories to `stories_with_entities_3.json`
 - Print progress as it processes stories
 
 Here are the guidelines:
 - The `content_type` field should contain the single best-fitting content type from list provided in `content_type_list`.
-- The `topic` field should contain the single best-fitting topic from list provided in `topic_list`.
-- The `people` field should contain a list, separated by `;`, of important people mentioned or quoted in the story. Important people would include people like politicians, political candidates, coaches, community leaders, public officials, board members and council members.
-- The `sources` field should contain a list, separated by `;`, of categories of sources cited or quoted in the story, using these categories: government officials, politicians, residents, advocates, organizers, community leaders, coaches.
-- The `events` field should contain the names of relevant events mentioned in the text. This includes named, organized events, like a county fair or a march, and not generalized events like a fire. Use title case when an event is capitalized in the text.
-- The `locations` field should contain a list, separated by `;`, of all specific places within municipalities that are mentioned in the story, such as rivers, parks, neighborhoods, and street names. Unabbreviate abbreviated street suffixes, do not include the number of the address, and, when possible, include in parentheses the name of the municipality where the place is located. 
-- The `municipalities` field should contain a list, separated by `;`, of all municipalities mentioned in or central to the story. Exclude "Easton" if it is only mentioned in the dateline in the context of the location of the Star-Democrat, but not the main body of the story. If there is no municipality mentioned, put "N/A". 
-- The `county` field should contain a list, separated by `;`, of the counties where the municipalities mentioned in the the story are located, based on `maryland_county_list`. When localities are mentioned across multiple stories, ensure their names are standardized. If there is no relation to one of the listed counties, put "N/A". Use title case when a county, municipality or location is capitalized in the text.
-- The `institutions` field should contain a list, separated by `;`, of relevant organizations, businesses, government agencies, councils, boards, churches, teams and other entities mentioned in the story. When organizations are mentioned across multiple stories, ensure their names are standardized. Exclude the name of the main paper, the "Star-Democrat", and the names of the publishers, "Chesapeake Publishing Group" and "Adams Publishing/APGMedia", but when the article was written by someone other than the Star-Democrat, include the name of the organization.
+- The `primary_topic` field should contain the single best-fitting topic from the list provided in `topic_list`.
+- The `secondary_topic` field should contain, when applicable, a second topic from the list provided in `topic_list`. 
+- The `municipalities` field should contain a json array of all Maryland municipalities mentioned in or central to the story, using `maryland_county_list` as a guide. Always exclude "Easton" if it not mentioned in the main body of the story.
+- The `counties` field should contain a json array of the counties where the municipalities mentioned in the the story are located, based on `maryland_county_list`. When localities are mentioned across multiple stories, ensure their names are standardized. 
+- The `key_people` field should contain a json array of important people mentioned or quoted in the story, along with their title in parentheses. Important people would include people like politicians, political candidates, coaches, community leaders, public officials, board members and council members. Do not include the names of people listed in obituaries unless they were important figures during their lives. No more than four people. Never include the name of the author of the article.
+- The `key_locations` field should contain a json array of all specific locations within municipalities that are mentioned in the story, such as rivers, parks, neighborhoods, and street names. This does not include physical places like schools, community centers or town halls. Unabbreviate abbreviated street suffixes like "St." or "Ave.". Do not include the number associated with the address, and, when possible, include in parentheses the name of the municipality where the location is. When a state or city outside of Maryland is mentioned, include it here.
+- The `key_events_and_initiatives` field should contain a json array of the names of relevant organized events or initiatives central to the story. This includes named, planned events, like a county fair or a march, and initiatives like a hazard mitigation plan. It does not include generalized events like a fire or funeral.
+- The `key_organizations` field should contain a json array of the relevant private organizations central to the story, such as businesses, churches, nonprofits, advocacy organizations, community centers, food pantries, fundraising organizations or political organizations. When organizations are mentioned across multiple stories, ensure their names are standardized.
+- The `key_bodies` field should contain a json array of the relevant government bodies and other public institutions central to the story, such as agencies, schools and school districts, councils, boards and similar entities. When organizations are mentioned across multiple stories, ensure their names are standardized.
 
-Keep in mind:
-- Be careful when `content_type` == "Sports" — many of the teams will be referred to by multiple names, and they may appear to be people when they are not. For example, the "Stephen Decatur High School Seahawks" will be referred to as "Stephen Decatur", "Decatur" and "Seahawks." List high school names as `locations` and team names as `institutions`, and include the full title, like "Stephen Decatur High School Seahawks".
+Remember:
+- Use title case when the original text is capitalized
+- Never include the name of the main paper, the "Star-Democrat", or the names of the publishers, "Chesapeake Publishing Group" and "Adams Publishing/APGMedia"
+- Leave fields blank where there are no applicable data
+- The state legislature should always be written as "Maryland General Assembly"
 
 example_output = [
     {
-        "title": "Ironman brings economic boost to Cambridge",
-        "date": "2025-09-19",
-        "author": "Lily Tierney",
-        "content": "Ironman brings economic boost to Cambridge\n\n September 19, 2025 | Star Democrat, The (Easton, MD)\n\n Author/Byline: Lily Tierney | Section: Dorchester \n \n 394\n Words \n\n Read News Document\n\n CAMBRIDGE — Cambridge residents may have noticed it has been trickier getting around this past week.Traffic has increased, reservations at their favorite restaurant are difficult to get and all hotels and Airbnb's from Salisbury to Annapolis are filled, according to Operations Manager at the Ironman Angie Hengst.\n1,250 athletes who will be participating in the Maryland Ironman on Saturday began making their way to Cambridge on Monday to preview the courses, enjoy their welcoming events and attend athlete briefings.\n\"Driving around town, it's about three times as busy as you would normally see it,\" Hengst said.\nA few years ago, the Ironman did an economic impact study on Cambridge and Dorchester Counting post-event that discovered the event has a $7.14 million impact on the community, Hengst said. This number may have increased since the study.\nThis is the 11th annual Maryland Ironman, an extreme triathlon race that requires approximately 1,200 volunteers to pull off. The Ironman Foundation has grant funding available for local nonprofits that volunteer for the race, per this year's Race Director Brian Snow.\n\"We have over $40,000 in nonprofit money, and it goes to volunteers and groups to help stimulate the economy with people participating as volunteers,\" Snow said.\nBoth Hengst and Snow said Friday that they were still looking for volunteers for Saturday's big race.\nThe race will include a 2.4-mile swim in the Choptank River in between Gerry Boyle Park at Great Marsh and the Yacht Club, finishing at the boat ramp at Gerry Boyle Park. Next, there will be a 112-mile bike ride through Dorchester County and the scenic Blackwater Wildlife Refuge. The race will finish with a 26.2-mile run through historic downtown Cambridge and beyond.\nSnow said athletes from all 50 states and over 30 countries will be participating on Saturday. He said every athlete generally comes with one other person considering the intensity of the race.\nBoth Snow and Hengst expressed their gratitude to the volunteers and residents of Cambridge and Dorchester County for being gracious hosts.\n\"I do want to put a huge thank you out to the community, you know, Cambridge, Dorchester County, everyone, for being so welcoming and supportive of the athletes,\" Hengst said.\n\"We're one of the smaller towns that hosts an event of this size, and we couldn't do it without the community's support. The athletes always comment about how nice everyone is and how welcoming it is here,\" she said. \n\n © Copyright © 2025 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
-        "docref": "news/1A33A6215B20A808",
-        "article_id": "search-hits__hit--380",
-        "content_source": "full_document",
-        "year": 2025,
-        "month": 9,
-        "day": 19,
-        "content_type": "News",
-        "topic": "Economy & Budget",
-        "people": "Angie Hengst; Brian Snow",
-        "events": "Maryland Ironman",
-        "locations": "Gerry Boyle Park at Great Marsh; Choptank River; Blackwater Wildlife Refuge",
-        "municipalities": "Cambridge; Salisbury; Annapolis",
-        "county": "Dorchester County",
-        "institutions": "Ironman Foundation; Airbnb; The Yacht Club"
-    },
-    {
-        "title": "Lions rally for first Bayside title; Caroline boys defend throne",
-        "date": "2024-05-15",
-        "author": "Bill Haufe",
-        "content": "Lions rally for first Bayside title; Caroline boys defend throne\n\n May 15, 2024 | Star Democrat, The (Easton, MD)\n\n Author/Byline: Bill Haufe | Section: Sports \n \n 838\n Words \n\n Read News Document\n\n Queen Anne's County High's No. 3 girls doubles team of Sydney Pinder and Kara Ringold were down 4-1 when head coach Dee Fisher approached.\"I asked them, 'Hey, are you guys having fun?'\" Fisher said. \"And they were like, 'No. We're not.' I was like, 'You guys need to go out there and have fun and relax.' Just the things you can say to kids, and nothing tennis related, and it just made them relax.\"\nPinder and Ringold rallied to win, then watched Hayden Legg rally for a clinching victory at No. 3 singles Tuesday, May 7, helping Queen Anne's defeat Stephen Decatur, 4-3, at Washington College for its first Bayside Conference championship in girls tennis.\nWhile the Lions were winning their first title, North Caroline's boys were winning a second straight conference crown, topping James M. Bennett, 4-3, to cap a perfect 15-0 season.\n\"We lost one match last season,\" Bulldogs second-year boys head coach James Donelan said. \"It was their goal to go undefeated this year. And we were able to do that, which was huge.\nWe had a couple of close matches at the end of the season that just took some real grit to pull out and some real mental toughness from our boys,\" Donelan said of a 4-3 win at St. Michaels on April 24 and a 4-3 victory over Easton in the regular-season finale May 1. \"It was really impressive to watch. Their growth and their ability to face adversity, face everybody coming at you, giving you their best every single night and just finding a way to win.\"\nThe Bulldogs did that again against the South champion Clippers.\nNorth Caroline's No. 1 singles team of Josh Huster and Jesse Link defeated Cypress Schnatterly and Joe Chen, 9-7, while Ryan Canter and Hayden Kent beat Bennett's Daniel Ryu and Mason Layne, 8-4, in second doubles. But the Clippers avoided a double sweep, when Shafay Qaiser and Rishi Kandagatla earned an 8-5 win over Gavin O'Brien and Yossin Roblero-Velasquez at No. 3.\nIt remained close, as Bennett's Chen defeated Link, 8-5, at second singles, and Ryu outlasted Canter, 9-7 at No. 3. But Roblero-Velasquez rolled to an 8-1 victory over Landon Blumenthal at No. 4. Huster, who last year teamed with Rebecca White to win the Class 2A state mixed doubles title — North Caroline's first-ever state tennis title of any kind — clinched the victory against Bennett and the perfect record with an 8-3 victory over Schnatterly at No. 1.\n\"Going into this season, after the success that we had last year, we were definitely very confident,\" Donelan said. \"We knew it wasn't going to be handed to us. We knew that everybody was going to be putting a target on our back, and that they knew we only graduated one senior and then all these boys were returning.\"\nUnlike Donelan, Fisher entered the season thinking rebuild after graduating nine seniors from a year ago. Instead, the Lions went unbeaten in the North and 13-1 overall, with the lone loss coming against Decatur.\nAnd while Queen Anne's drew a rematch with the Seahawks for the Bayside championship, Fisher didn't want his team deviating from its usual approach.\n\"Just treat it like a regular match and have fun,\" Fisher said to his team.\nThe Lions' No. 1 doubles team of Lucy Taylor and younger sister Meg Taylor lost 8-6 to Decatur's Ana Pena and Emily Ferguson. But Queen Anne's Hayden Legg and Marylee Kline beat Brooke Berquist and Kalli Nordstrom, 8-2, at No. 2, while Pinder and Ringold erased their 4-1 deficit en route to an 8-6 victory over Anika Karl and Emmie Weber at No. 3.\nThe Seahawks moved to a 3-2 lead, when Pena defeated Lucy Taylor, 8-2 at first singles, and Ferguson earned an 8-2 win over Meg Taylor at No. 2. Kline tied the match at 3-3 with her 8-6 win over Nordstrom at No. 4.\nThat left No. 3 singles, where Karl built a 4-1 lead on Legg. Again Fisher spoke with his player.\n\"I was like, 'Come on Hayden. You can play better,'\" Fisher said. \"'Focus. Take your time.' And basically she just started turning it around.\"\nLegg did turn it around, rallying for an 8-6 title-clinching victory.\n\"I was like, 'It's going to be tough,'\" Fisher said. \"She's like the most chill person. She just kept coming back and coming back.\"\nYet after Legg had completed her comeback to seal the title, nobody from Queen Anne's stormed the court or hoisted their teammate onto their shoulders for a victory lap.\n\"Nobody got excited,\" Fisher said. \"We just all like took it all in, like, 'Good job Hayden.'\" Fisher said. \"I think that's just the mentality of our team. We treat it like a regular match. We just do what we do.\n\"It felt even better because we lost to Decatur during the regular season,\" Fisher said. \"Hey we fixed our wrongs, made some corrections and won it.\"\nWhat Fisher wasn't expecting came next.\n\"They were like, 'Come here coach Fisher and take a picture,'\" Fisher said. \"And then they started spraying me with silly string. It was fun.\" \n\n © Copyright © 2024 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
-        "docref": "news/1991795D2BD2A0C0",
-        "article_id": "search-hits__hit--4769",
+        "title": "Easton traffic dashboard gives residents detailed look at crash trends",
+        "date": "2024-07-17",
+        "author": "KONNER METZ kmetz@chespub.com",
+        "content": "Easton traffic dashboard gives residents detailed look at crash trends\n\n July 17, 2024 | Star Democrat, The (Easton, MD)\n\n Author/Byline: KONNER METZ kmetz@chespub.com | Section: Local News \n \n 537\n Words \n\n Read News Document\n\n EASTON — Residents can now easily access traffic statistics online thanks to a new traffic dashboard released by the town last week.The Easton Interactive Traffic Dashboard allows users to view up-to-date vehicle, pedestrian and bicycle data from 2018 to the present.\nIt includes maps, charts and filters that allow users to see crash information based on time of day, where the crash took place and the weather circumstances. Residents can find specific information on categories such as drunk driving, Route 50 and distracted driving incidents.\nEaston Police Chief Alan Lowrey said it will be a valuable resource for the community to better understand where an alarming number of accidents or traffic citations may happen.\n\"We are focusing on making transportation safety in Easton better,\" Lowrey said. \"We're trying to take a methodical approach, a thoughtful approach to it. … Here is a resource, here's a transparent resource to see what is going on in the town where you live.\"\nRon Engle, a former town council member, helped spearhead the project, along with the Washington College Geographic Information Systems Program and the Maryland Highway Safety Office. Engle has a background in law enforcement and with the National Highway Traffic Safety Administration.\nSean Lynn, the GIS program manager at Washington College, presented the tool to the Easton Town Council on Monday.\n\"Hopefully it allows the folks here in the town to be able to get the information quickly,\" Lynn said.\nEver since the pandemic in 2020, Lowrey said it's been hard to recruit officers. With limited human resources but a need to improve traffic safety, Lowrey began to think about solutions from an \"engineering\" standpoint.\n\"An officer sitting at a location, the impact ends soon after the officer leaves,\" he said. \"Engineering (and) other means are more of a 24-hour solution.\"\nLowrey added that it'll help not just residents, but his team of officers as well. The department will be better-equipped to answer questions such as, \"How many of these are left turn-related? How many of these are red light-related?,\" Lowrey said.\nThe dashboard is a step in completing a Strategic Highway Safety Plan for the town. Engle, Lowrey and Mayor Megan Cook have been working to develop the plan.\nLowrey said a Strategic Highway Safety Plan will open up the ability for the town to acquire grant funding. He pointed to Salisbury as a local jurisdiction that has embraced the state's \"Vision Zero' initiative that was passed by the state legislature in 2019.\n\"Behind it is the notion that you try to reduce fatalities and serious injury accidents down to zero,\" Lowrey said. \"It's a pretty big goal, a really difficult one.\"\nAccording to Lowrey, a plan outline for Easton will be completed in about a month. Engle told council members on Monday that a lack of data was perhaps the \"biggest problem\" for the town in terms of developing a highway safety plan.\nEngle said the dashboard will be a \"strong compliment\" to developing the plan in line with the Vision Zero initiative.\n\"I would hope by fall that we're at a place where we can present a finalized plan before the council with a pretty good idea that they're going to approve it,\" Lowrey said.\nThe interactive traffic dashboard can be accessed by visiting https://eastonmd.gov/196/Police and clicking on the dashboard image. \n\n © Copyright © 2024 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
+        "docref": "news/19AAC74B244EC4F0",
+        "article_id": "search-hits__hit--4053",
         "content_source": "full_document",
         "year": 2024,
-        "month": 5,
-        "day": 15,
-        "content_type": "Sports",
-        "people": "Dee Fisher; James Donelan",
-        "events": "Bayside Conference championship",
-        "locations": "",
-        "municipalities": "Easton",
-        "county": "Queen Anne's County; Caroline County; Talbot County",
-        "institutions": "Lions; Bayside Conference; Bulldogs; Clippers; Seahawks; Queen Anne's County High School; Stephen Decatur High School; Washington College; James M. Bennett High School; St. Michaels High School; Easton High School; North Caroline High School"
-  }
+        "month": 7,
+        "day": 17,
+        "content_type": "News",
+        "primary_topic": "Transportation, Infrastructure & Public Works",
+        "secondary_topic": "Public Safety & Crime",
+        "municipalities": [
+            "Easton"
+        ],
+        "counties": [
+            "Talbot County"
+        ]
+        "key_people": [
+            "Alan Lowrey (Easton Police Chief)",
+            "Ron Engle (Former Town Council Member)"
+        ],
+        "key_locations": [
+            "Route 50",
+
+        ],
+        "key_events_and_initiatives": [
+            "Easton Interactive Traffic Dashboard",
+            "Strategic Highway Safety Plan",
+            "Vision Zero initiative",
+            "Pandemic"
+        ]
+        "key_organizations": [
+            "Washington College Geographic Information Systems Program",
+            "Washington College",
+
+        ],
+        "key_bodies": [
+            "Easton Police Department",
+            "Maryland Highway Safety Office",
+            "National Highway Traffic Safety Administration",
+            "Easton Town Council",
+            "Maryland General Assembly"
+        ]
+    }
 ]
 ```
-
-uv run python stardem_entities_script_2_ish.py --model groq/meta-llama/llama-4-maverick-17b-128e-instruct  --input stardem_sample_55_forward.json --output stories_with_entities_2_ish.json
