@@ -2,13 +2,8 @@
 content_type_list = [
     {
         "content_type": "News",
-        "definition": "Full articles, excluding calendars, obituaries, legal notices, opinion pieces and other listings, meant to inform, not persuade, readers on news topics such as politics, elections, government, agriculture, education, housing, economy and budget, transportation, infrastructure, public works, public safety, crime, environment, arts, society and community.",
+        "definition": "Full articles, excluding calendars, obituaries, legal notices, opinion pieces and other listings, meant to inform, not persuade, readers on news topics such as politics, elections, government, agriculture, education, housing, economy and budget, transportation, infrastructure, public works, public safety, crime, environment, arts, society, community and sports.",
         "examples": "Police investigating Easton homicide"; "Robbins YMCA opening reading hub to tackle childhood illiteracy"
-    },
-    {
-        "content_type": "Sports"
-        "definition": "Full articles, excluding calendars, obituaries, legal notices, opinion pieces and other listings, about local sports topics and teams. Excludes listings and articles about professional teams." 
-        "examples": "Lions move closer to first North Bayside title in program history"; 
     },
     {
         "content_type": "Calendars",
@@ -184,8 +179,8 @@ I need to make a python script called `starmdem_entities_script_3.py`.
 Here are the script requirements:
 - Use the `llm` command-line tool with the model `groq/moonshotai/kimi-k2-instruct-0905`
 - Use subprocess to call the `llm` command
-- Have the LLM process each story from `stardem_sample_2.json`
-- Have the LLM add the following fields to each story: `content_type`, `primary_topic`, `secondary_topic`, `municipalities`, `counties`, `key_people`, `key_locations`, `key_events`, `key_organizations`, `key_bodies`.
+- Have the LLM process each story from `stardem_sample.json`
+- Have the LLM add the following fields to each story: `content_type`, `primary_topic`, `secondary_topic`, `regions`, `municipalities`, `counties`, `key_people`, `key_locations`, `key_events_and_initiatives`, `key_establishments`, `key_organizations`, `key_bodies`.
 - Have the LLM save the updated stories to `stories_with_entities_3.json`
 - Print progress as it processes stories
 
@@ -193,13 +188,15 @@ Here are the guidelines:
 - The `content_type` field should contain the single best-fitting content type from list provided in `content_type_list`.
 - The `primary_topic` field should contain the single best-fitting topic from the list provided in `topic_list`.
 - The `secondary_topic` field should contain, when applicable, a second topic from the list provided in `topic_list`. 
+- The `regions` field should contain the general region of the story: Maryland, Virginia, D.C., or other specific country, state or region. Use "U.S." for national stories.
 - The `municipalities` field should contain a json array of all Maryland municipalities mentioned in or central to the story, using `maryland_county_list` as a guide. Always exclude "Easton" if it not mentioned in the main body of the story.
 - The `counties` field should contain a json array of the counties where the municipalities mentioned in the the story are located, based on `maryland_county_list`. When localities are mentioned across multiple stories, ensure their names are standardized. 
-- The `key_people` field should contain a json array of important people mentioned or quoted in the story, along with their title in parentheses. Important people would include people like politicians, political candidates, coaches, community leaders, public officials, board members and council members. Do not include the names of people listed in obituaries unless they were important figures during their lives. No more than four people. Never include the name of the author of the article.
+- The `key_people` field should contain a json array of important people mentioned or quoted in the story, along with their title in parentheses. Important people would include people who are relevant beyond a single story — like politicians, political candidates, coaches, community leaders, public officials, board members and council members. names of people listed in obituaries unless they were important figures during their lives. No more than four people. Never include the name of the author of the article.
 - The `key_locations` field should contain a json array of all specific locations within municipalities that are mentioned in the story, such as rivers, parks, neighborhoods, and street names. This does not include physical places like schools, community centers or town halls. Unabbreviate abbreviated street suffixes like "St." or "Ave.". Do not include the number associated with the address, and, when possible, include in parentheses the name of the municipality where the location is. When a state or city outside of Maryland is mentioned, include it here.
-- The `key_events_and_initiatives` field should contain a json array of the names of relevant organized events or initiatives central to the story. This includes named, planned events, like a county fair or a march, and initiatives like a hazard mitigation plan. It does not include generalized events like a fire or funeral.
-- The `key_organizations` field should contain a json array of the relevant private organizations central to the story, such as businesses, churches, nonprofits, advocacy organizations, community centers, food pantries, fundraising organizations or political organizations. When organizations are mentioned across multiple stories, ensure their names are standardized.
-- The `key_bodies` field should contain a json array of the relevant government bodies and other public institutions central to the story, such as agencies, schools and school districts, councils, boards and similar entities. When organizations are mentioned across multiple stories, ensure their names are standardized.
+- The `key_events_and_initiatives` field should contain a json array of the names of relevant organized events or initiatives central to the story. This includes named, planned events, like a county fair or a march, and initiatives like legislation, policies or a town plan. It does not include generalized events like a fire or funeral.
+- The `key_establishments` field should contain a json array of any relevant businesses, restaurants and other private establishments central to the story.
+- The `key_organizations` field should contain a json array of the relevant organizations central to the story, such as nonprofits, advocacy organizations, community centers, museums, fundraising organizations, political organizations. When organizations are mentioned across multiple stories, ensure their names are standardized.
+- The `key_bodies` field should contain a json array of the relevant government bodies and other public institutions central to the story, such as agencies, school districts, councils, boards and similar entities. When organizations are mentioned across multiple stories, ensure their names are standardized.
 
 Remember:
 - Use title case when the original text is capitalized
@@ -209,19 +206,22 @@ Remember:
 
 example_output = [
     {
-        "title": "Easton traffic dashboard gives residents detailed look at crash trends",
-        "date": "2024-07-17",
-        "author": "KONNER METZ kmetz@chespub.com",
-        "content": "Easton traffic dashboard gives residents detailed look at crash trends\n\n July 17, 2024 | Star Democrat, The (Easton, MD)\n\n Author/Byline: KONNER METZ kmetz@chespub.com | Section: Local News \n \n 537\n Words \n\n Read News Document\n\n EASTON — Residents can now easily access traffic statistics online thanks to a new traffic dashboard released by the town last week.The Easton Interactive Traffic Dashboard allows users to view up-to-date vehicle, pedestrian and bicycle data from 2018 to the present.\nIt includes maps, charts and filters that allow users to see crash information based on time of day, where the crash took place and the weather circumstances. Residents can find specific information on categories such as drunk driving, Route 50 and distracted driving incidents.\nEaston Police Chief Alan Lowrey said it will be a valuable resource for the community to better understand where an alarming number of accidents or traffic citations may happen.\n\"We are focusing on making transportation safety in Easton better,\" Lowrey said. \"We're trying to take a methodical approach, a thoughtful approach to it. … Here is a resource, here's a transparent resource to see what is going on in the town where you live.\"\nRon Engle, a former town council member, helped spearhead the project, along with the Washington College Geographic Information Systems Program and the Maryland Highway Safety Office. Engle has a background in law enforcement and with the National Highway Traffic Safety Administration.\nSean Lynn, the GIS program manager at Washington College, presented the tool to the Easton Town Council on Monday.\n\"Hopefully it allows the folks here in the town to be able to get the information quickly,\" Lynn said.\nEver since the pandemic in 2020, Lowrey said it's been hard to recruit officers. With limited human resources but a need to improve traffic safety, Lowrey began to think about solutions from an \"engineering\" standpoint.\n\"An officer sitting at a location, the impact ends soon after the officer leaves,\" he said. \"Engineering (and) other means are more of a 24-hour solution.\"\nLowrey added that it'll help not just residents, but his team of officers as well. The department will be better-equipped to answer questions such as, \"How many of these are left turn-related? How many of these are red light-related?,\" Lowrey said.\nThe dashboard is a step in completing a Strategic Highway Safety Plan for the town. Engle, Lowrey and Mayor Megan Cook have been working to develop the plan.\nLowrey said a Strategic Highway Safety Plan will open up the ability for the town to acquire grant funding. He pointed to Salisbury as a local jurisdiction that has embraced the state's \"Vision Zero' initiative that was passed by the state legislature in 2019.\n\"Behind it is the notion that you try to reduce fatalities and serious injury accidents down to zero,\" Lowrey said. \"It's a pretty big goal, a really difficult one.\"\nAccording to Lowrey, a plan outline for Easton will be completed in about a month. Engle told council members on Monday that a lack of data was perhaps the \"biggest problem\" for the town in terms of developing a highway safety plan.\nEngle said the dashboard will be a \"strong compliment\" to developing the plan in line with the Vision Zero initiative.\n\"I would hope by fall that we're at a place where we can present a finalized plan before the council with a pretty good idea that they're going to approve it,\" Lowrey said.\nThe interactive traffic dashboard can be accessed by visiting https://eastonmd.gov/196/Police and clicking on the dashboard image. \n\n © Copyright © 2024 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
-        "docref": "news/19AAC74B244EC4F0",
-        "article_id": "search-hits__hit--4053",
+        "title": "Attorney general visits Easton to honor first responders at annual celebration",
+        "date": "2025-06-13",
+        "author": "Konner Metz",
+        "content": "Attorney general visits Easton to honor first responders at annual celebration\n\n June 13, 2025 | Star Democrat, The (Easton, MD)\n\n Author/Byline: Konner Metz | Section: Local News \n \n 433\n Words \n\n Read News Document\n\n EASTON — First responders across different Talbot County agencies were honored Thursday in Easton by local residents, business leaders and Maryland Attorney General Anthony Brown.Bluepoint Hospitality Group hosted the fifth annual First Responders Celebration, closing down North Washington Street temporarily on Thursday afternoon to pay thanks to the county's police officers, firefighters, EMTs and other first responders.\n\"These people put their lives on the line so that we can live in a civil and safe community,\" said Bluepoint Hospitality owner Paul Prager.\nThe event was headlined by Maryland Attorney General Anthony Brown, who called the Talbot County first responders — paid or volunteers — \"heroes.\"\n\"When others run away from danger, you run toward it,\" Brown said. \"From volunteers who respond to dangerous house fires in the middle of the night, to police officers who take drugs, and guns and bad people off our streets, to emergency medical service personnel who rush people to the hospital for life-saving care, our first responders are the backbone of public safety and the cornerstone of our communities.\"\nDuring the brief ceremonies, Ed Forte, vice president of the Friends of Easton Volunteer Fire Department, revealed a new rendering of an in-construction training campus to Easton Fire Chief J.R. Dobson.\nThe A. James Clark Emergency Services Training Campus, located on Mistletoe Drive, will be 7,200 square feet and provide state-of-the-art training opportunities for all first responders.\nAs the rendering showed, a building on the training campus will be named after Paul Prager and his wife, Joanne. The Pragers donated $500,000 to the project.\nForte said Thursday that $4.5 million has been raised in the last two-and-a-half years, nearly all of the project's $5 million goal. Project leaders hope for the campus to open by the end of this year.\n\"(It's) taken many, many years; many, many people; many hours; many ideas,\" Forte said. \" … Raising the money was the hardest thing.\"\nAfter the event, Brown said in an interview he's impressed with the coordination between the different first responder agencies in Talbot County.\n\"Often people think small, rural community on the Eastern Shore, 'how busy does it get?'\" Brown said. \"But clearly the numbers show that they're busy. It's important to stand ready. The facility that is going to be built is going to help them do that.\"\nWhen asked afterward if the First Responders Celebration is becoming a tradition, Prager had no hesitation.\n\"It's gotta be, absolutely,\" Prager said. \"These people do thankless jobs. And there's not a whole lot you can do to enable them to make their lives better. So I think if you at least just say thank you, that goes a long way.\" \n\n © Copyright © 2025 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
+        "docref": "news/1A1356326A94CD78",
+        "article_id": "search-hits__hit--421",
         "content_source": "full_document",
-        "year": 2024,
-        "month": 7,
-        "day": 17,
+        "year": 2025,
+        "month": 6,
+        "day": 13
         "content_type": "News",
-        "primary_topic": "Transportation, Infrastructure & Public Works",
-        "secondary_topic": "Public Safety & Crime",
+        "primary_topic": "Public Safety & Crime",
+        "secondary_topic": "",
+        "regions": [
+            "Maryland"
+        ]
         "municipalities": [
             "Easton"
         ],
@@ -229,31 +229,81 @@ example_output = [
             "Talbot County"
         ]
         "key_people": [
-            "Alan Lowrey (Easton Police Chief)",
-            "Ron Engle (Former Town Council Member)"
+            "Anthony Brown (Maryland Attorney General)",
+            "J.R. Dobson (Easton Fire Chief)"
         ],
         "key_locations": [
-            "Route 50",
-
+            "North Washington Street (Easton)",
+            "Mistletoe Drive"
         ],
         "key_events_and_initiatives": [
-            "Easton Interactive Traffic Dashboard",
-            "Strategic Highway Safety Plan",
-            "Vision Zero initiative",
-            "Pandemic"
-        ]
+            "First Responders Celebration"
+        ],
+        "key_establishments": [
+            "A. James Clark Emergency Services Training Campus"
+        ],
         "key_organizations": [
-            "Washington College Geographic Information Systems Program",
-            "Washington College",
-
+            "Bluepoint Hospitality Group"
         ],
         "key_bodies": [
-            "Easton Police Department",
-            "Maryland Highway Safety Office",
-            "National Highway Traffic Safety Administration",
-            "Easton Town Council",
-            "Maryland General Assembly"
+            "Easton Volunteer Fire Department"
+        ]
+    },
+    {
+        "title": "Chesapeake Bay cleanup at a crossroads: new path or stay the course?",
+        "date": "2024-10-03",
+        "author": "JEREMY COX Bay Journal",
+        "content": "Chesapeake Bay cleanup at a crossroads: new path or stay the course?\n\n October 3, 2024 | Star Democrat, The (Easton, MD)\n\n Author/Byline: JEREMY COX Bay Journal | Section: State News \n \n 1014\n Words \n\n Read News Document\n\n As the Chesapeake Bay cleanup's leaders close in on a revised working agreement, many of the effort's most influential supporters are endorsing a major thematic shift: putting less emphasis on improving the estuary's seldom-seen deep waters and more on helping people and living resources in the Bay watershed.\"This is an opportunity for our movement to understand our successes and failures, and adjust accordingly,\" said Kate Fritz, CEO of the Alliance for the Chesapeake Bay, in a letter to the Chesapeake Bay Program, the multi-state and federal partnership in charge of reviving the Bay. \"This means … intentionally including people and living resources at the center of the partnership's work.\"\nThat closely aligns with the recommendations of the Bay Program team that was tasked with drafting an update of the 2014 Chesapeake Bay Agreement. A draft was released for public feedback on July 1.\nThe team urged the program to \"better incentivize practices that maximize benefits to living resources and people.\" This, they argued, could be accomplished largely through actions that target water quality improvements — long the effort's central focus — but only if local community concerns take precedent.\nMore than 80 people and organizations submitted comments on the draft agreement by the Aug. 30 deadline. The Chesapeake Executive Council — the governors of the six watershed states, mayor of the District of Columbia, chair of the Chesapeake Bay Commission and administrator of the Environmental Protection Agency — is set to vote on a final draft during its annual meeting in December.\nThe revised agreement is intended to serve as a top-line strategy for cleaning up the Bay and its 64,000-square-mile drainage basin beyond 2025, when the deadline for goals in the current agreement expires.\nFor decades, the partnership has centered its work on reducing nutrient and sediment pollution flowing into the Bay. The main goal has been to shrink the annual \"dead zones,\" pockets of oxygen-starved water in the estuary's deepest waters where aquatic creatures struggle to survive.\nDespite billions of dollars invested in the effort, pollution reductions have been modest and slow in coming, according to the Bay Program's own calculations. Some advocates and scientists fear that the cleanup risks falling out of favor with the public if it doesn't shift toward more visible quests, such as restoring shallow waters along the edge of the Bay and its tributaries.\n\"Without renewed attention to those things that matter the most to people, we run the risk of leaving potential living resource benefits unaddressed and potentially losing public support for our efforts,\" wrote Larry Sanford, chair of the Bay Program's Scientific and Technical Advisory Committee (STAC), on behalf of the panel.\nBut in remarks to STAC on Sept. 12, Sanford, a professor at the University of Maryland Center for Environmental Science, described the new draft agreement as a \"compromise\" between two factions: those seeking a pronounced change in direction and those who want to stay the course.\nFor his part, Sanford said the program needs to maintain much of its existing work but also \"go back to the original reason for the Bay Program, and that was what was happening to the living resources.\"\nIf that recalibration is to move forward, it will have to survive a big test later this fall when the agreement goes before the Principals' Staff Committee — senior officials from the Bay states and DC, who sounded a note of caution about that approach when they met in March.\nMeeting water quality goals is a legal requirement, enforced by the EPA. The committee appeared concerned that de-stressing that goal could lead to potential lawsuits. Several members at the time also said they believed that those authoring the revised agreement had gone beyond what they had been authorized to do.\nA group of agricultural industry groups in Virginia, including the Virginia Farm Bureau, signed on to a letter that said they \"appreciate\" the draft's call to better address climate change and public engagement. But they are concerned that such measures would \"change the original intent and shared goals\" of the 2014 agreement. The state in its current two-year budget has set aside a record $207 million to reduce farm-based pollution.\nMeanwhile, several environmental groups touted how reorienting the program toward people and living creatures would support other important goals. Much could be achieved, for example, through tougher enforcement of state and federal water pollution control laws, according to a letter signed by Waterkeepers Chesapeake and several local waterkeepers.\n\"While the status quo elevates considerations of nutrient pollutants and the dissolved oxygen levels in the mainstem of the Bay, the path forward must elevate the role that enforcement of illegal pollution from point sources has on protecting humans and wildlife from toxic and carcinogenic substances,\" the waterkeepers said.\nThe needs of people and wildlife will be difficult to meet without more land conservation, said the Chesapeake Conservation Partnership, an alliance of land trusts and related organizations. Bay leaders, they added, should elevate land conservation to stand as a \"key guiding pillar\" along those already on that top tier: science, restoration and partnership.\nThe document being readied for the Executive Council's approval this December isn't the final revised agreement but rather a framework for a more detailed compact to be worked out in the future. The current draft doesn't call for a full revision of the agreement until the council meets in 2026.\nSeveral commenters urged leadership to put the finalized agreement on a faster schedule. To wait until late 2026 could lead to a pause or slowdown in oyster restoration activities in key Bay tributaries, said Oyster Recovery Partnership Executive Director H. Ward Slacum. It should be ready by the end of 2025 instead, he said.\nA group of about 40 retired Bay scientists and former public officials also weighed in. The coalition, calling itself \"Chesapeake Bay Program Veterans,\" echoed the push to have the revisions in place in 2025.\nAnd the program should look at the problems and benefits that arise from local, state and federal greenhouse gas reduction goals, they said. They suggested that the transition from fossil fuels to renewable energy, for example, is likely to reduce nitrogen pollution that enters Bay waters from the atmosphere. \n\n © Copyright © 2024 Star Democrat, Chesapeake Publishing Group (Adams Publishing/APGMedia). All rights reserved.",
+        "docref": "news/19BFA26DA1B954D0",
+        "article_id": "search-hits__hit--3174",
+        "content_source": "full_document",
+        "year": 2024,
+        "month": 10,
+        "day": 3,
+        "content_type": "News",
+        "primary_topic": "Agriculture & Environment",
+        "secondary_topic": "Local Government & Politics",
+        "regions": [
+            "Maryland",
+            "D.C.",
+            "Virginia",
+            "Bay States"
+        ]
+        "municipalities": [
+            ""
+        ],
+        "counties": [
+            ""
+        ]
+        "key_people": [
+            ""
+        ],
+        "key_locations": [
+            "Chesapeake Bay"
+        ],
+        "key_events_and_initiatives": [
+            "2014 Chesapeake Bay Agreement"
+        ],
+        "key_establishments": [
+            ""
+        ]
+        "key_organizations": [
+            "Alliance for the Chesapeake Bay",
+            "University of Maryland Center for Environmental Science",
+            "Chesapeake Conservation Partnership",
+            "Chesapeake Bay Program Veterans",
+            "Oyster Recovery Partnership"
+        ],
+        "key_bodies": [
+            "Chesapeake Bay Program",
+            "Chesapeake Executive Council",
+            "Chesapeake Bay Commission",
+            "Environmental Protection Agency",
+            "Scientific and Technical Advisory Committee",
+            "Principals' Staff Committee",
+            "Virginia Farm Bureau"
         ]
     }
 ]
 ```
+uv run python stardem_entities_script_3.py --model groq/moonshotai/kimi-k2-instruct-0905  --input stardem_sample.json --output stories_with_entities_3.json
