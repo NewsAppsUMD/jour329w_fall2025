@@ -175,11 +175,19 @@ honestly, the quality floored me. i didn't really have any expectations going in
 
 #### what's the best use case for automated beat book generation?
 
-
+local journalism. it's not going to be that difficult to get the gist of a beat when you work for the times or the post. but when you're covering hyper-local news, that becomes a lot harder, particularly if you're not from the area or, in the case of the star-dem, if you don't have a writer or editor who has been there for generations. i also wonder if this would be helpful for college newspapers. i know at quinnipiac we were always trying to draft a sort of "guide book" because people would graduate and we would lose subject matter expertise and source info and records tips. but we never quite nailed down how to do that, and everything would just fall apart every year.
 
 #### where does human judgment remain essential?
 
+i mean, all of this would need to be ... you know, fact checked. like i'm not for just generating these and calling it a day and hoping for the best. even when the content it generated was pretty good, there were things that i easily caught — spelling errors, confusing statistics — and that's even without reading the entire thing in-depth. also, what the hell do i know? i'm just a grad student from connecticut. someone from the star-dem would need to check this. i actually think the biggest thing is currency, though — there was a lot of info that was "accurate" but outdated and therefore irrelevant or incomplete. that, i think, would be the biggest thing to check for.
+
+oh, and i forgot to mention this earlier, but the tone. the llm would sometimes slip into the whole "proved pivotal" and "could redefine Talbot County’s educational trajectory" nonsense where it gets a little lofty and presumptive. that should be addressed prompt-wise, but it wouldn't hurt to check that over as well.
 
 #### how would you improve your approach?
 
-less neurotic.
+- less neurotic
+- longer summaries
+- statewide issue overview
+- citations
+- tone
+
