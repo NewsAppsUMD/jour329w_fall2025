@@ -3,5 +3,6 @@
         "*": false
     },
     "python-envs.defaultEnvManager": "ms-python.python:venv",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "editor.maxTokenizationLineLength": 20000 // Default value
 }
