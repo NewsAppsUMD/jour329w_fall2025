@@ -1,0 +1,104 @@
+================================================================================
+MARYLAND SCHOOLS COMPREHENSIVE STATISTICAL REPORT
+Data Source: Maryland State Department of Education Report Card
+Collection Date: November 2025
+================================================================================
+
+COUNTY SUMMARY TABLE
+--------------------------------------------------------------------------------
+County                Schools  Avg Stars   Avg %ile           Range
+--------------------------------------------------------------------------------
+Caroline                   10       2.80       37.4       0-67    
+Dorchester                 13       2.54       30.5       0-68    
+Kent                        5       3.00       42.0      15-79    
+Queen Anne's               14       3.00       47.3       0-79    
+Talbot                      8       3.38       49.9      13-81    
+--------------------------------------------------------------------------------
+TOTAL/AVERAGE              50       2.90       40.8
+
+================================================================================
+COMPLETE SCHOOL LISTING WITH STATISTICS
+================================================================================
+
+CAROLINE COUNTY (10 schools)
+--------------------------------------------------------------------------------
+School Name                                         Stars   %ile
+--------------------------------------------------------------------------------
+Preston Elementary School (0401)                     ⭐⭐⭐⭐     67
+Colonel Richardson High School (0801)                 ⭐⭐⭐     54
+Greensboro Elementary School (0201)                   ⭐⭐⭐     49
+Colonel Richardson Middle School (0802)               ⭐⭐⭐     44
+Denton Elementary School (0301)                       ⭐⭐⭐     42
+North Caroline High School (0703)                     ⭐⭐⭐     38
+Ridgely Elementary School (0701)                      ⭐⭐⭐     34
+Lockerman Middle School (0302)                        ⭐⭐⭐     29
+Federalsburg Elementary School (0501)                 ⭐⭐⭐     17
+Caroline Career & Technology Center (0704)            N/A      0
+
+DORCHESTER COUNTY (13 schools)
+--------------------------------------------------------------------------------
+School Name                                         Stars   %ile
+--------------------------------------------------------------------------------
+North Dorchester Middle School (0208)                 ⭐⭐⭐     68
+Vienna Elementary School (0302)                      ⭐⭐⭐⭐     64
+South Dorchester School (0508)                       ⭐⭐⭐⭐     63
+Warwick Elementary School (0205)                      ⭐⭐⭐     50
+Maple Elementary School (0711)                        ⭐⭐⭐     45
+North Dorchester High School (0207)                   ⭐⭐⭐     36
+Hurlock Elementary School (1503)                      ⭐⭐⭐     25
+Cambridge-South Dorchester High School (0713)         ⭐⭐⭐     20
+Sandy Hill Elementary School (0710)                   ⭐⭐⭐     15
+Choptank Elementary School (0716)                      ⭐⭐      7
+Mace's Lane Middle School (0707)                       ⭐⭐      4
+Dorchester County Career and Technology Center (      N/A      0
+Judith P. Hoyer Early Childhood Center (0709)         N/A      0
+
+KENT COUNTY (5 schools)
+--------------------------------------------------------------------------------
+School Name                                         Stars   %ile
+--------------------------------------------------------------------------------
+Rock Hall Elementary (0504)                          ⭐⭐⭐⭐     79
+H. H. Garnett Elementary (0403)                       ⭐⭐⭐     48
+Kent County High (0301)                               ⭐⭐⭐     43
+Galena Elementary School (0105)                       ⭐⭐⭐     25
+Kent County Middle School (0402)                       ⭐⭐     15
+
+QUEEN ANNE'S COUNTY (14 schools)
+--------------------------------------------------------------------------------
+School Name                                         Stars   %ile
+--------------------------------------------------------------------------------
+Matapeake Elementary School (0406)                   ⭐⭐⭐⭐     79
+Matapeake Middle School (0407)                       ⭐⭐⭐⭐     75
+Kent Island High School (0405)                       ⭐⭐⭐⭐     72
+Bayside Elementary School (0403)                     ⭐⭐⭐⭐     65
+Queen Anne's County High School (0301)                ⭐⭐⭐     58
+Grasonville Elementary School (0503)                 ⭐⭐⭐⭐     54
+Sudlersville Elementary School (0106)                ⭐⭐⭐⭐     54
+Centreville Middle School (0303)                      ⭐⭐⭐     53
+Stevensville Middle School (0404)                     ⭐⭐⭐     48
+Kennard Elementary School (0302)                      ⭐⭐⭐     48
+Church Hill Elementary School (0202)                  ⭐⭐⭐     45
+Sudlersville Middle School (0101)                     ⭐⭐⭐     11
+Kent Island Elementary School (0402)                  N/A      0
+Centreville Elementary School (0308)                  N/A      0
+
+TALBOT COUNTY (8 schools)
+--------------------------------------------------------------------------------
+School Name                                         Stars   %ile
+--------------------------------------------------------------------------------
+St. Michaels Elementary (0204)                       ⭐⭐⭐⭐     81
+Chapel District Elementary (0401)                    ⭐⭐⭐⭐     76
+White Marsh Elementary (0302)                        ⭐⭐⭐⭐     74
+St. Michaels Middle/High School (0202)                ⭐⭐⭐     54
+Easton High (0101)                                    ⭐⭐⭐     41
+Easton Middle (0106)                                  ⭐⭐⭐     34
+Easton Elementary (0104)                              ⭐⭐⭐     26
+Tilghman Elementary (0501)                            ⭐⭐⭐     13
+
+================================================================================
+DATA FILES AVAILABLE:
+  • schools_enhanced_data.json - Full JSON data with demographics
+  • schools_enhanced_data.csv - Spreadsheet format
+  • schools_list.json - School names and URLs
+  • screenshots/ - Visual captures of each school page
+================================================================================

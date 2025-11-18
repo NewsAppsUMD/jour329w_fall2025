@@ -1,0 +1,164 @@
+================================================================================
+MARYLAND SCHOOLS - COMPLETE MCAP TEST SCORES
+================================================================================
+Data Source: Maryland State Department of Education Report Card
+Collection Date: November 2025
+Total Schools: 50 across 5 counties
+Schools with MCAP Data: 45 (90%)
+
+================================================================================
+WHAT MCAP MEASURES
+================================================================================
+MCAP (Maryland Comprehensive Assessment Program) is the state standardized test
+measuring student proficiency in:
+  • English Language Arts (ELA)
+  • Mathematics  
+  • Science
+
+Proficiency percentages show what portion of students meet or exceed grade-level
+expectations.
+
+================================================================================
+OVERALL PERFORMANCE STATISTICS
+================================================================================
+
+Mean Proficiency:         49.4%
+Median Proficiency:       49.2%
+Standard Deviation:       15.4%
+Range:                    18.3% - 81.1%
+
+Performance Distribution:
+  Above 60%:  11 schools (24.4%) ████████████
+  50-60%:     10 schools (22.2%) ███████████
+  40-50%:     12 schools (26.7%) █████████████
+  30-40%:      7 schools (15.6%) ███████
+  Below 30%:   5 schools (11.1%) █████
+
+================================================================================
+COUNTY PERFORMANCE RANKINGS
+================================================================================
+Rank  County                Schools    Avg Score    Range
+--------------------------------------------------------------------------------
+  1.  Queen Anne's               12      54.3%      18.3% - 81.1%
+  2.  Caroline                    9      52.7%      36.4% - 63.5%
+  3.  Talbot                      8      47.5%      25.0% - 67.3%
+  4.  Dorchester                 11      46.0%      18.8% - 75.4%
+  5.  Kent                        5      42.1%      33.1% - 53.5%
+
+================================================================================
+PERFORMANCE BY SCHOOL TYPE
+================================================================================
+High Schools:         9 schools    55.9% average  ⭐ Highest performing
+Middle Schools:      11 schools    48.7% average
+Elementary Schools:  25 schools    47.3% average
+
+================================================================================
+TOP 10 PERFORMING SCHOOLS
+================================================================================
+ 1. Matapeake Middle School (Queen Anne's)                     81.1% ⭐⭐⭐⭐⭐
+ 2. Kent Island High School (Queen Anne's)                     75.9% ⭐⭐⭐⭐⭐
+ 3. Warwick Elementary School (Dorchester)                     75.4% ⭐⭐⭐⭐⭐
+ 4. Vienna Elementary School (Dorchester)                      73.3% ⭐⭐⭐⭐
+ 5. Queen Anne's County High School (Queen Anne's)             69.5% ⭐⭐⭐⭐
+ 6. Chapel District Elementary (Talbot)                        67.3% ⭐⭐⭐⭐
+ 7. Matapeake Elementary School (Queen Anne's)                 67.1% ⭐⭐⭐⭐
+ 8. Colonel Richardson High School (Caroline)                  63.5% ⭐⭐⭐⭐
+ 9. North Caroline High School (Caroline)                      63.4% ⭐⭐⭐⭐
+10. North Dorchester Middle School (Dorchester)                61.7% ⭐⭐⭐⭐
+
+================================================================================
+SCHOOLS NEEDING SUPPORT (Bottom 10)
+================================================================================
+45. Sudlersville Elementary School (Queen Anne's)             18.3%
+44. Mace's Lane Middle School (Dorchester)                    18.8%
+43. Tilghman Elementary (Talbot)                              25.0%
+42. Easton Elementary (Talbot)                                29.1%
+41. Choptank Elementary School (Dorchester)                   29.8%
+40. Sudlersville Middle School (Queen Anne's)                 30.6%
+39. Sandy Hill Elementary School (Dorchester)                 30.8%
+38. Cambridge-South Dorchester High School (Dorchester)       32.3%
+37. Kent County Middle School (Kent)                          33.1%
+36. Galena Elementary School (Kent)                           35.6%
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Strengths:
+  • Queen Anne's County leads with 54.3% average proficiency
+  • 24.4% of schools achieve above 60% proficiency
+  • High schools outperform elementary and middle schools
+  • 3 schools achieve above 75% proficiency
+
+Challenges:
+  • 5 schools (11.1%) score below 30% proficiency
+  • Achievement gaps exist within counties
+  • Middle schools show mixed performance (18.8% - 81.1% range)
+  • Some elementary schools struggling significantly
+
+Geographic Patterns:
+  • Queen Anne's County has both highest (81.1%) and some low performers (18.3%)
+  • Caroline County shows consistent mid-to-high performance
+  • Dorchester County has widest range (18.8% - 75.4%)
+  • Kent County shows consistent but moderate performance
+
+================================================================================
+DATA FILES AVAILABLE
+================================================================================
+  📊 mcap_test_scores.csv       - Excel-ready spreadsheet format
+  📄 mcap_test_scores.json      - Complete JSON data
+  📊 schools_enhanced_data.csv  - Full dataset with star ratings + MCAP
+  📊 schools_enhanced_data.json - Complete enhanced data
+  📋 STATISTICS_REPORT.txt      - School performance overview
+  🖼️  screenshots/               - Visual captures of each school page
+
+================================================================================
+HOW TO USE THIS DATA
+================================================================================
+
+For Journalists:
+  • Identify achievement gaps within and across counties
+  • Compare school performance to state standards
+  • Track progress over time (re-run scraper annually)
+  • Investigate factors behind top/bottom performers
+
+For Educators:
+  • Benchmark against similar schools
+  • Identify best practices from high performers
+  • Target support for struggling schools
+  • Analyze performance patterns by school type
+
+For Community Members:
+  • Understand local school performance
+  • Compare schools when making decisions
+  • Advocate for needed resources
+  • Celebrate successes
+
+For Researchers:
+  • Analyze correlations with demographics, funding, etc.
+  • Study achievement gaps
+  • Evaluate intervention effectiveness
+  • Model educational outcomes
+
+================================================================================
+NOTES & METHODOLOGY
+================================================================================
+
+Data Collection:
+  • Scraped from MD State Department of Education Report Card website
+  • Data represents most recent available year (2024-2025 school year)
+  • 5 schools excluded (career/tech centers, early childhood - no MCAP data)
+  • All scores represent proficiency percentages
+
+Limitations:
+  • Scores shown are aggregate proficiency rates (exact ELA/Math breakdown
+    may vary - scraper captured summary proficiency measure)
+  • Does not include demographic breakdowns by student group
+  • Does not show year-over-year trends (single snapshot)
+  • Career and technology centers use different assessment methods
+
+For More Information:
+  • Maryland Report Card: https://reportcard.msde.maryland.gov
+  • MCAP Information: https://marylandpublicschools.org/about/Pages/DAAIT/Assessment/MCAP
+
+================================================================================

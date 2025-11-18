@@ -1,0 +1,387 @@
+[
+  {
+    "school_name": "Chapel District Elementary (0401)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0401/0",
+    "ela_proficient": 67.3,
+    "math_proficient": 67.3,
+    "science_proficient": 67.3
+  },
+  {
+    "school_name": "Easton Elementary (0104)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0104/0",
+    "ela_proficient": 29.1,
+    "math_proficient": 29.1,
+    "science_proficient": 29.1
+  },
+  {
+    "school_name": "St. Michaels Elementary (0204)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0204/0",
+    "ela_proficient": 50.8,
+    "math_proficient": 50.8,
+    "science_proficient": 50.8
+  },
+  {
+    "school_name": "Tilghman Elementary (0501)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0501/0",
+    "ela_proficient": 25.0,
+    "math_proficient": 25.0,
+    "science_proficient": 25.0
+  },
+  {
+    "school_name": "White Marsh Elementary (0302)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0302/0",
+    "ela_proficient": 60.0,
+    "math_proficient": 60.0,
+    "science_proficient": 60.0
+  },
+  {
+    "school_name": "Easton Middle (0106)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/20/0106/0",
+    "ela_proficient": 42.4,
+    "math_proficient": 42.4,
+    "science_proficient": 42.4
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/MH/1/20/0202/0",
+    "ela_proficient": 49.2,
+    "math_proficient": 49.2,
+    "science_proficient": 49.2
+  },
+  {
+    "school_name": "Easton High (0101)",
+    "county": "Talbot",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/20/0101/0",
+    "ela_proficient": 56.6,
+    "math_proficient": 56.6,
+    "science_proficient": 56.6
+  },
+  {
+    "school_name": "Galena Elementary School (0105)",
+    "county": "Kent",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0105/0",
+    "ela_proficient": 35.6,
+    "math_proficient": 35.6,
+    "science_proficient": 35.6
+  },
+  {
+    "school_name": "H. H. Garnett Elementary (0403)",
+    "county": "Kent",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0403/0",
+    "ela_proficient": 47.8,
+    "math_proficient": 47.8,
+    "science_proficient": 47.8
+  },
+  {
+    "school_name": "Rock Hall Elementary (0504)",
+    "county": "Kent",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0504/0",
+    "ela_proficient": 40.6,
+    "math_proficient": 40.6,
+    "science_proficient": 40.6
+  },
+  {
+    "school_name": "Kent County Middle School (0402)",
+    "county": "Kent",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/14/0402/0",
+    "ela_proficient": 33.1,
+    "math_proficient": 33.1,
+    "science_proficient": 33.1
+  },
+  {
+    "school_name": "Kent County High (0301)",
+    "county": "Kent",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/14/0301/0",
+    "ela_proficient": 53.5,
+    "math_proficient": 53.5,
+    "science_proficient": 53.5
+  },
+  {
+    "school_name": "Choptank Elementary School (0716)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0716/0",
+    "ela_proficient": 29.8,
+    "math_proficient": 29.8,
+    "science_proficient": 29.8
+  },
+  {
+    "school_name": "Hurlock Elementary School (1503)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/1503/0",
+    "ela_proficient": 50.0,
+    "math_proficient": 50.0,
+    "science_proficient": 50.0
+  },
+  {
+    "school_name": "Maple Elementary School (0711)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0711/0",
+    "ela_proficient": 42.9,
+    "math_proficient": 42.9,
+    "science_proficient": 42.9
+  },
+  {
+    "school_name": "Sandy Hill Elementary School (0710)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0710/0",
+    "ela_proficient": 30.8,
+    "math_proficient": 30.8,
+    "science_proficient": 30.8
+  },
+  {
+    "school_name": "Vienna Elementary School (0302)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0302/0",
+    "ela_proficient": 73.3,
+    "math_proficient": 73.3,
+    "science_proficient": 73.3
+  },
+  {
+    "school_name": "Warwick Elementary School (0205)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0205/0",
+    "ela_proficient": 75.4,
+    "math_proficient": 75.4,
+    "science_proficient": 75.4
+  },
+  {
+    "school_name": "South Dorchester School (0508)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/09/0508/0",
+    "ela_proficient": 52.2,
+    "math_proficient": 52.2,
+    "science_proficient": 52.2
+  },
+  {
+    "school_name": "Mace's Lane Middle School (0707)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0707/0",
+    "ela_proficient": 18.8,
+    "math_proficient": 18.8,
+    "science_proficient": 18.8
+  },
+  {
+    "school_name": "North Dorchester Middle School (0208)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0208/0",
+    "ela_proficient": 61.7,
+    "math_proficient": 61.7,
+    "science_proficient": 61.7
+  },
+  {
+    "school_name": "Cambridge-South Dorchester High School (0713)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0713/0",
+    "ela_proficient": 32.3,
+    "math_proficient": 32.3,
+    "science_proficient": 32.3
+  },
+  {
+    "school_name": "North Dorchester High School (0207)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0207/0",
+    "ela_proficient": 39.1,
+    "math_proficient": 39.1,
+    "science_proficient": 39.1
+  },
+  {
+    "school_name": "Dorchester County Career and Technology Center (0714)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0714/0"
+  },
+  {
+    "school_name": "Judith P. Hoyer Early Childhood Center (0709)",
+    "county": "Dorchester",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0709/0"
+  },
+  {
+    "school_name": "Denton Elementary School (0301)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0301/0",
+    "ela_proficient": 60.2,
+    "math_proficient": 60.2,
+    "science_proficient": 60.2
+  },
+  {
+    "school_name": "Federalsburg Elementary School (0501)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0501/0",
+    "ela_proficient": 36.4,
+    "math_proficient": 36.4,
+    "science_proficient": 36.4
+  },
+  {
+    "school_name": "Greensboro Elementary School (0201)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0201/0",
+    "ela_proficient": 41.5,
+    "math_proficient": 41.5,
+    "science_proficient": 41.5
+  },
+  {
+    "school_name": "Preston Elementary School (0401)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0401/0",
+    "ela_proficient": 47.8,
+    "math_proficient": 47.8,
+    "science_proficient": 47.8
+  },
+  {
+    "school_name": "Ridgely Elementary School (0701)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0701/0",
+    "ela_proficient": 56.1,
+    "math_proficient": 56.1,
+    "science_proficient": 56.1
+  },
+  {
+    "school_name": "Colonel Richardson Middle School (0802)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0802/0",
+    "ela_proficient": 56.8,
+    "math_proficient": 56.8,
+    "science_proficient": 56.8
+  },
+  {
+    "school_name": "Lockerman Middle School (0302)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0302/0",
+    "ela_proficient": 48.6,
+    "math_proficient": 48.6,
+    "science_proficient": 48.6
+  },
+  {
+    "school_name": "Colonel Richardson High School (0801)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0801/0",
+    "ela_proficient": 63.5,
+    "math_proficient": 63.5,
+    "science_proficient": 63.5
+  },
+  {
+    "school_name": "North Caroline High School (0703)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0703/0",
+    "ela_proficient": 63.4,
+    "math_proficient": 63.4,
+    "science_proficient": 63.4
+  },
+  {
+    "school_name": "Caroline Career & Technology Center (0704)",
+    "county": "Caroline",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/05/0704/0"
+  },
+  {
+    "school_name": "Bayside Elementary School (0403)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0403/0",
+    "ela_proficient": 58.1,
+    "math_proficient": 58.1,
+    "science_proficient": 58.1
+  },
+  {
+    "school_name": "Centreville Elementary School (0308)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0308/0"
+  },
+  {
+    "school_name": "Church Hill Elementary School (0202)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0202/0",
+    "ela_proficient": 45.3,
+    "math_proficient": 45.3,
+    "science_proficient": 45.3
+  },
+  {
+    "school_name": "Grasonville Elementary School (0503)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0503/0",
+    "ela_proficient": 47.4,
+    "math_proficient": 47.4,
+    "science_proficient": 47.4
+  },
+  {
+    "school_name": "Kennard Elementary School (0302)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0302/0",
+    "ela_proficient": 45.2,
+    "math_proficient": 45.2,
+    "science_proficient": 45.2
+  },
+  {
+    "school_name": "Kent Island Elementary School (0402)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0402/0"
+  },
+  {
+    "school_name": "Matapeake Elementary School (0406)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0406/0",
+    "ela_proficient": 67.1,
+    "math_proficient": 67.1,
+    "science_proficient": 67.1
+  },
+  {
+    "school_name": "Sudlersville Elementary School (0106)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0106/0",
+    "ela_proficient": 18.3,
+    "math_proficient": 18.3,
+    "science_proficient": 18.3
+  },
+  {
+    "school_name": "Sudlersville Middle School (0101)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/17/0101/0",
+    "ela_proficient": 30.6,
+    "math_proficient": 30.6,
+    "science_proficient": 30.6
+  },
+  {
+    "school_name": "Centreville Middle School (0303)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0303/0",
+    "ela_proficient": 58.6,
+    "math_proficient": 58.6,
+    "science_proficient": 58.6
+  },
+  {
+    "school_name": "Matapeake Middle School (0407)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0407/0",
+    "ela_proficient": 81.1,
+    "math_proficient": 81.1,
+    "science_proficient": 81.1
+  },
+  {
+    "school_name": "Stevensville Middle School (0404)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0404/0",
+    "ela_proficient": 54.7,
+    "math_proficient": 54.7,
+    "science_proficient": 54.7
+  },
+  {
+    "school_name": "Kent Island High School (0405)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0405/0",
+    "ela_proficient": 75.9,
+    "math_proficient": 75.9,
+    "science_proficient": 75.9
+  },
+  {
+    "school_name": "Queen Anne's County High School (0301)",
+    "county": "Queen Anne's",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0301/0",
+    "ela_proficient": 69.5,
+    "math_proficient": 69.5,
+    "science_proficient": 69.5
+  }
+]
