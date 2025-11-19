@@ -13,8 +13,7 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-MODEL_NAME = "groq/qwen/qwen3-32b"
-
+MODEL_NAME = "groq/openai/gpt-oss-120b"
 COUNTIES = [
     "Talbot County",
     "Kent County",
@@ -25,7 +24,7 @@ COUNTIES = [
 
 INPUT_STORIES = "refined_beat_book_stories.json"
 INPUT_COUNTY_DATA = "COUNTY_SUMMARY_BOOK.md"
-OUTPUT_FILE = "comprehensive_education_beatbook.md"
+OUTPUT_FILE = "comprehensive_education_beatbook_v2.md"
 
 
 # ---------------------------------------------------------
