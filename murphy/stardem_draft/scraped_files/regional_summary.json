@@ -1,0 +1,49 @@
+{
+  "regional_stats": {
+    "elementary": {
+      "ELA": 40.2,
+      "Math": 26.1,
+      "Science": 24.4,
+      "count": 5
+    },
+    "middle": {
+      "ELA": 41.3,
+      "Math": 7.8,
+      "Science": 22.9,
+      "count": 5
+    },
+    "high": {
+      "ELA": 56.4,
+      "Math": 5.4,
+      "Science": 39.5,
+      "count": 5
+    }
+  },
+  "county_rankings": [
+    {
+      "rank": 1,
+      "county": "Queen Anne's",
+      "average": 39.2
+    },
+    {
+      "rank": 2,
+      "county": "Caroline",
+      "average": 30.3
+    },
+    {
+      "rank": 3,
+      "county": "Talbot",
+      "average": 29.7
+    },
+    {
+      "rank": 4,
+      "county": "Kent",
+      "average": 24.1
+    },
+    {
+      "rank": 5,
+      "county": "Dorchester",
+      "average": 23.4
+    }
+  ]
+}

@@ -1,0 +1,1318 @@
+{
+  "Talbot": {
+    "county_name": "Talbot",
+    "census": {
+      "total_population": 37663,
+      "median_household_income": 81667,
+      "poverty_rate": 9.3,
+      "school_age_population_5_17": 5280,
+      "school_enrollment": {
+        "total_enrolled": 7122,
+        "grades_1_4": 1735,
+        "grades_5_8": 1477,
+        "grades_9_12": 1533
+      },
+      "broadband_access_rate": 88.1,
+      "education_attainment_25_plus": {
+        "high_school_graduate": 6023,
+        "bachelors_degree": 6565,
+        "masters_degree": 3227
+      },
+      "demographics": {
+        "white_alone": 29600,
+        "black_or_african_american": 4593,
+        "asian_alone": 488,
+        "hispanic_or_latino": 2744
+      }
+    },
+    "district_leadership": {
+      "superintendent": {
+        "name": "Dr. Sharon Pepukayi",
+        "website": "https://www.tcps.k12.md.us/"
+      },
+      "board_members": [
+        {
+          "name": "Emily Jackson",
+          "position": "President",
+          "district": "District 4"
+        },
+        {
+          "name": "Amy Dodson",
+          "position": "Vice President",
+          "district": "District 3"
+        },
+        {
+          "name": "Dyshekia W. M. Strawberry",
+          "position": "Board Member",
+          "district": "District 1"
+        },
+        {
+          "name": "Ann O'Connor",
+          "position": "Board Member",
+          "district": "District 2"
+        },
+        {
+          "name": "Karla Wieland-Cherry",
+          "position": "Board Member",
+          "district": "District 5"
+        },
+        {
+          "name": "Cynthia M. Jurrius",
+          "position": "Board Member",
+          "district": "District 6"
+        },
+        {
+          "name": "Deborah Bridges",
+          "position": "Board Member",
+          "district": "District 7"
+        }
+      ],
+      "total_board_members": 7
+    },
+    "board_meetings": {
+      "regular_schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+      "location": "Talbot County Education Center",
+      "time": null,
+      "phone": null,
+      "upcoming_meetings": [
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "5:00 PM"
+        },
+        {
+          "date": "November 19, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "7:00 PM"
+        },
+        {
+          "date": "December 15, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "TBA"
+        },
+        {
+          "date": "December 17, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "TBA"
+        }
+      ]
+    },
+    "schools": [
+      {
+        "name": "Chapel District Elementary (0401)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0401/0",
+        "star_rating": 4,
+        "percentile_rank": 76,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 67.5,
+            "Math": 55.0,
+            "Science": 45.0
+          }
+        }
+      },
+      {
+        "name": "Easton Elementary (0104)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0104/0",
+        "star_rating": 3,
+        "percentile_rank": 26,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 19.8,
+            "Math": 11.9,
+            "Science": 11.9
+          }
+        }
+      },
+      {
+        "name": "St. Michaels Elementary (0204)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0204/0",
+        "star_rating": 4,
+        "percentile_rank": 81,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 38.0,
+            "Math": 26.0,
+            "Science": 30.0
+          }
+        }
+      },
+      {
+        "name": "Tilghman Elementary (0501)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0501/0",
+        "star_rating": 3,
+        "percentile_rank": 13,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 29.4,
+            "Math": 5.9,
+            "Science": 17.6
+          }
+        }
+      },
+      {
+        "name": "White Marsh Elementary (0302)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0302/0",
+        "star_rating": 4,
+        "percentile_rank": 74,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 58.5,
+            "Math": 39.0,
+            "Science": 41.5
+          }
+        }
+      },
+      {
+        "name": "Easton Middle (0106)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/20/0106/0",
+        "star_rating": 3,
+        "percentile_rank": 34,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 33.2,
+            "Math": 5.2,
+            "Science": 18.1
+          }
+        }
+      },
+      {
+        "name": "St. Michaels Middle/High School (0202)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/MH/1/20/0202/0",
+        "star_rating": 3,
+        "percentile_rank": 54,
+        "highest_grade_mcap": {}
+      },
+      {
+        "name": "Easton High (0101)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/20/0101/0",
+        "star_rating": 3,
+        "percentile_rank": 41,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 56.6,
+            "Math": 5.0,
+            "Science": 49.4
+          }
+        }
+      }
+    ],
+    "performance_summary": {
+      "total_schools": 8,
+      "schools_with_mcap_data": 7,
+      "average_proficiency": {
+        "ELA": 43.3,
+        "Math": 21.1,
+        "Science": 30.5
+      },
+      "top_performing_schools": [
+        {
+          "name": "Chapel District Elementary (0401)",
+          "average_proficiency": 55.8
+        },
+        {
+          "name": "White Marsh Elementary (0302)",
+          "average_proficiency": 46.3
+        },
+        {
+          "name": "Easton High (0101)",
+          "average_proficiency": 37.0
+        }
+      ],
+      "proficiency_by_level": {
+        "elementary": {
+          "ELA": 42.6,
+          "Math": 27.6,
+          "Science": 29.2,
+          "count": 5
+        },
+        "middle": {
+          "ELA": 33.2,
+          "Math": 5.2,
+          "Science": 18.1,
+          "count": 1
+        },
+        "high": {
+          "ELA": 56.6,
+          "Math": 5.0,
+          "Science": 49.4,
+          "count": 1
+        }
+      }
+    }
+  },
+  "Kent": {
+    "county_name": "Kent",
+    "census": {
+      "total_population": 19289,
+      "median_household_income": 71635,
+      "poverty_rate": 9.5,
+      "school_age_population_5_17": 2311,
+      "school_enrollment": {
+        "total_enrolled": 4279,
+        "grades_1_4": 650,
+        "grades_5_8": 701,
+        "grades_9_12": 783
+      },
+      "broadband_access_rate": 79.4,
+      "education_attainment_25_plus": {
+        "high_school_graduate": 4103,
+        "bachelors_degree": 2939,
+        "masters_degree": 1474
+      },
+      "demographics": {
+        "white_alone": 15082,
+        "black_or_african_american": 2729,
+        "asian_alone": 187,
+        "hispanic_or_latino": 900
+      }
+    },
+    "district_leadership": {
+      "superintendent": {
+        "name": "Dr. Mary McComas",
+        "website": "https://www.kent.k12.md.us/"
+      },
+      "board_members": [
+        {
+          "name": "Laura McKenzie",
+          "position": "Board Member"
+        },
+        {
+          "name": "John Queen",
+          "position": "Board Member"
+        },
+        {
+          "name": "Aretha Dorsey",
+          "position": "Board Member"
+        },
+        {
+          "name": "Frank Rhodes",
+          "position": "Board Member"
+        },
+        {
+          "name": "Trish McGee",
+          "position": "Board Member"
+        }
+      ],
+      "total_board_members": 5
+    },
+    "board_meetings": {
+      "regular_schedule": "2nd Monday of each month",
+      "location": "5608 Boundary Ave, Rock Hall, MD 21661",
+      "time": null,
+      "phone": "410-778-1595",
+      "upcoming_meetings": [
+        {
+          "date": "November 10, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        },
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        }
+      ]
+    },
+    "schools": [
+      {
+        "name": "Galena Elementary School (0105)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0105/0",
+        "star_rating": 3,
+        "percentile_rank": 25,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 27.0,
+            "Math": 8.3,
+            "Science": 10.5
+          }
+        }
+      },
+      {
+        "name": "H. H. Garnett Elementary (0403)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0403/0",
+        "star_rating": 3,
+        "percentile_rank": 48,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 47.2,
+            "Math": 15.1,
+            "Science": 11.3
+          }
+        }
+      },
+      {
+        "name": "Rock Hall Elementary (0504)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0504/0",
+        "star_rating": 4,
+        "percentile_rank": 79,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 36.0,
+            "Math": 36.0,
+            "Science": 58.3
+          }
+        }
+      },
+      {
+        "name": "Kent County Middle School (0402)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/14/0402/0",
+        "star_rating": 2,
+        "percentile_rank": 15,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 25.0,
+            "Math": 5.0,
+            "Science": 16.8
+          }
+        }
+      },
+      {
+        "name": "Kent County High (0301)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/14/0301/0",
+        "star_rating": 3,
+        "percentile_rank": 43,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 53.5,
+            "Math": 6.1,
+            "Science": 27.7
+          }
+        }
+      }
+    ],
+    "performance_summary": {
+      "total_schools": 5,
+      "schools_with_mcap_data": 5,
+      "average_proficiency": {
+        "ELA": 37.7,
+        "Math": 14.1,
+        "Science": 24.9
+      },
+      "top_performing_schools": [
+        {
+          "name": "Rock Hall Elementary (0504)",
+          "average_proficiency": 43.4
+        },
+        {
+          "name": "Kent County High (0301)",
+          "average_proficiency": 29.1
+        },
+        {
+          "name": "H. H. Garnett Elementary (0403)",
+          "average_proficiency": 24.5
+        }
+      ],
+      "proficiency_by_level": {
+        "elementary": {
+          "ELA": 36.7,
+          "Math": 19.8,
+          "Science": 26.7,
+          "count": 3
+        },
+        "middle": {
+          "ELA": 25.0,
+          "Math": 5.0,
+          "Science": 16.8,
+          "count": 1
+        },
+        "high": {
+          "ELA": 53.5,
+          "Math": 6.1,
+          "Science": 27.7,
+          "count": 1
+        }
+      }
+    }
+  },
+  "Dorchester": {
+    "county_name": "Dorchester",
+    "census": {
+      "total_population": 32557,
+      "median_household_income": 57490,
+      "poverty_rate": 15.4,
+      "school_age_population_5_17": 5100,
+      "school_enrollment": {
+        "total_enrolled": 7006,
+        "grades_1_4": 1512,
+        "grades_5_8": 1507,
+        "grades_9_12": 1799
+      },
+      "broadband_access_rate": 85.7,
+      "education_attainment_25_plus": {
+        "high_school_graduate": 8376,
+        "bachelors_degree": 2425,
+        "masters_degree": 1381
+      },
+      "demographics": {
+        "white_alone": 20381,
+        "black_or_african_american": 8342,
+        "asian_alone": 438,
+        "hispanic_or_latino": 1992
+      }
+    },
+    "district_leadership": {
+      "superintendent": {
+        "name": "Dr. Jymil Thompson",
+        "website": "https://www.dcpsmd.org/"
+      },
+      "board_members": [],
+      "total_board_members": 0
+    },
+    "board_meetings": {
+      "regular_schedule": "3rd Thursday of each month",
+      "location": "700 Glasgow St, Cambridge, MD 21613",
+      "time": "6:00 PM",
+      "phone": "410-228-4747",
+      "upcoming_meetings": [
+        {
+          "date": "September 18, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "October 23, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "November 20, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        }
+      ]
+    },
+    "schools": [
+      {
+        "name": "Choptank Elementary School (0716)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0716/0",
+        "star_rating": 2,
+        "percentile_rank": 7,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 21.2,
+            "Math": 5.0,
+            "Science": 8.9
+          }
+        }
+      },
+      {
+        "name": "Hurlock Elementary School (1503)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/1503/0",
+        "star_rating": 3,
+        "percentile_rank": 25,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 43.3,
+            "Math": 23.8,
+            "Science": 21.3
+          }
+        }
+      },
+      {
+        "name": "Maple Elementary School (0711)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0711/0",
+        "star_rating": 3,
+        "percentile_rank": 45,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 32.1,
+            "Math": 5.1,
+            "Science": 5.0
+          }
+        }
+      },
+      {
+        "name": "Sandy Hill Elementary School (0710)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0710/0",
+        "star_rating": 3,
+        "percentile_rank": 15,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 20.9,
+            "Math": 9.3,
+            "Science": 9.1
+          }
+        }
+      },
+      {
+        "name": "Vienna Elementary School (0302)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0302/0",
+        "star_rating": 4,
+        "percentile_rank": 64,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 59.3,
+            "Math": 25.9,
+            "Science": 18.5
+          }
+        }
+      },
+      {
+        "name": "Warwick Elementary School (0205)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0205/0",
+        "star_rating": 3,
+        "percentile_rank": 50,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 51.1,
+            "Math": 40.4,
+            "Science": 34.0
+          }
+        }
+      },
+      {
+        "name": "South Dorchester School (0508)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/09/0508/0",
+        "star_rating": 4,
+        "percentile_rank": 63,
+        "highest_grade_mcap": {}
+      },
+      {
+        "name": "Mace's Lane Middle School (0707)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0707/0",
+        "star_rating": 2,
+        "percentile_rank": 4,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 27.5,
+            "Math": 5.0,
+            "Science": 6.5
+          }
+        }
+      },
+      {
+        "name": "North Dorchester Middle School (0208)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0208/0",
+        "star_rating": 3,
+        "percentile_rank": 68,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 52.7,
+            "Math": 14.9,
+            "Science": 24.6
+          }
+        }
+      },
+      {
+        "name": "Cambridge-South Dorchester High School (0713)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0713/0",
+        "star_rating": 3,
+        "percentile_rank": 20,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 32.3,
+            "Math": 5.0,
+            "Science": 24.9
+          }
+        }
+      },
+      {
+        "name": "North Dorchester High School (0207)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0207/0",
+        "star_rating": 3,
+        "percentile_rank": 36,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 39.1,
+            "Math": 5.0,
+            "Science": 38.6
+          }
+        }
+      },
+      {
+        "name": "Dorchester County Career and Technology Center (0714)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0714/0",
+        "star_rating": null,
+        "percentile_rank": null,
+        "highest_grade_mcap": {}
+      },
+      {
+        "name": "Judith P. Hoyer Early Childhood Center (0709)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0709/0",
+        "star_rating": null,
+        "percentile_rank": null,
+        "highest_grade_mcap": {}
+      }
+    ],
+    "performance_summary": {
+      "total_schools": 13,
+      "schools_with_mcap_data": 10,
+      "average_proficiency": {
+        "ELA": 38.0,
+        "Math": 13.9,
+        "Science": 19.1
+      },
+      "top_performing_schools": [
+        {
+          "name": "Warwick Elementary School (0205)",
+          "average_proficiency": 41.8
+        },
+        {
+          "name": "Vienna Elementary School (0302)",
+          "average_proficiency": 34.6
+        },
+        {
+          "name": "North Dorchester Middle School (0208)",
+          "average_proficiency": 30.7
+        }
+      ],
+      "proficiency_by_level": {
+        "elementary": {
+          "ELA": 38.0,
+          "Math": 18.2,
+          "Science": 16.1,
+          "count": 6
+        },
+        "middle": {
+          "ELA": 40.1,
+          "Math": 9.9,
+          "Science": 15.6,
+          "count": 2
+        },
+        "high": {
+          "ELA": 35.7,
+          "Math": 5.0,
+          "Science": 31.8,
+          "count": 2
+        }
+      }
+    }
+  },
+  "Caroline": {
+    "county_name": "Caroline",
+    "census": {
+      "total_population": 33320,
+      "median_household_income": 65326,
+      "poverty_rate": 12.9,
+      "school_age_population_5_17": 5791,
+      "school_enrollment": {
+        "total_enrolled": 8080,
+        "grades_1_4": 1955,
+        "grades_5_8": 1482,
+        "grades_9_12": 1891
+      },
+      "broadband_access_rate": 85.6,
+      "education_attainment_25_plus": {
+        "high_school_graduate": 8201,
+        "bachelors_degree": 2362,
+        "masters_degree": 1335
+      },
+      "demographics": {
+        "white_alone": 25025,
+        "black_or_african_american": 4565,
+        "asian_alone": 153,
+        "hispanic_or_latino": 2736
+      }
+    },
+    "district_leadership": {
+      "superintendent": {
+        "name": "Derek L. Simmons",
+        "website": "https://www.carolineschools.org/"
+      },
+      "board_members": [
+        {
+          "name": "Arevia Michele Wayman",
+          "position": "President",
+          "type": "Appointed",
+          "appointed": "2021, reappointed 2022",
+          "term": "Ends 2026"
+        },
+        {
+          "name": "Mark R. Jones",
+          "position": "Vice President",
+          "type": "Appointed",
+          "appointed": "2020, reappointed 2024",
+          "term": "Ends 2028"
+        },
+        {
+          "name": "Chrissy Bartz",
+          "position": "Member",
+          "type": "Elected",
+          "appointed": "July 2024",
+          "elected": "November 2024",
+          "term": "Ends 2028"
+        },
+        {
+          "name": "Stefanie Johnson",
+          "position": "Member",
+          "type": "Elected",
+          "district": "District 2",
+          "elected": "November 2024",
+          "term": "Ends 2028"
+        },
+        {
+          "name": "P. Troy Plutschak",
+          "position": "Member",
+          "type": "Elected",
+          "elected": "2022",
+          "term": "Ends 2026"
+        }
+      ],
+      "total_board_members": 5
+    },
+    "board_meetings": {
+      "regular_schedule": "1st Tuesday of each month (Regular Meeting), 3rd Thursday of each month (Work Session)",
+      "location": "Caroline County Board of Education",
+      "time": null,
+      "phone": null,
+      "upcoming_meetings": []
+    },
+    "schools": [
+      {
+        "name": "Denton Elementary School (0301)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0301/0",
+        "star_rating": 3,
+        "percentile_rank": 42,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 36.0,
+            "Math": 25.8,
+            "Science": 17.8
+          }
+        }
+      },
+      {
+        "name": "Federalsburg Elementary School (0501)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0501/0",
+        "star_rating": 3,
+        "percentile_rank": 17,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 26.5,
+            "Math": 16.7,
+            "Science": 8.0
+          }
+        }
+      },
+      {
+        "name": "Greensboro Elementary School (0201)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0201/0",
+        "star_rating": 3,
+        "percentile_rank": 49,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 42.5,
+            "Math": 26.5,
+            "Science": 26.1
+          }
+        }
+      },
+      {
+        "name": "Preston Elementary School (0401)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0401/0",
+        "star_rating": 4,
+        "percentile_rank": 67,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 47.3,
+            "Math": 38.2,
+            "Science": 21.4
+          }
+        }
+      },
+      {
+        "name": "Ridgely Elementary School (0701)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0701/0",
+        "star_rating": 3,
+        "percentile_rank": 34,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 36.1,
+            "Math": 26.4,
+            "Science": 15.3
+          }
+        }
+      },
+      {
+        "name": "Colonel Richardson Middle School (0802)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0802/0",
+        "star_rating": 3,
+        "percentile_rank": 44,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 60.0,
+            "Math": 5.9,
+            "Science": 27.8
+          }
+        }
+      },
+      {
+        "name": "Lockerman Middle School (0302)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0302/0",
+        "star_rating": 3,
+        "percentile_rank": 29,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 45.0,
+            "Math": 5.0,
+            "Science": 22.0
+          }
+        }
+      },
+      {
+        "name": "Colonel Richardson High School (0801)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0801/0",
+        "star_rating": 3,
+        "percentile_rank": 54,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 63.5,
+            "Math": 5.0,
+            "Science": 28.3
+          }
+        }
+      },
+      {
+        "name": "North Caroline High School (0703)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0703/0",
+        "star_rating": 3,
+        "percentile_rank": 38,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 63.4,
+            "Math": 5.2,
+            "Science": 49.4
+          }
+        }
+      },
+      {
+        "name": "Caroline Career & Technology Center (0704)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/05/0704/0",
+        "star_rating": null,
+        "percentile_rank": null,
+        "highest_grade_mcap": {}
+      }
+    ],
+    "performance_summary": {
+      "total_schools": 10,
+      "schools_with_mcap_data": 9,
+      "average_proficiency": {
+        "ELA": 46.7,
+        "Math": 17.2,
+        "Science": 24.0
+      },
+      "top_performing_schools": [
+        {
+          "name": "North Caroline High School (0703)",
+          "average_proficiency": 39.3
+        },
+        {
+          "name": "Preston Elementary School (0401)",
+          "average_proficiency": 35.6
+        },
+        {
+          "name": "Colonel Richardson High School (0801)",
+          "average_proficiency": 32.3
+        }
+      ],
+      "proficiency_by_level": {
+        "elementary": {
+          "ELA": 37.7,
+          "Math": 26.7,
+          "Science": 17.7,
+          "count": 5
+        },
+        "middle": {
+          "ELA": 52.5,
+          "Math": 5.5,
+          "Science": 24.9,
+          "count": 2
+        },
+        "high": {
+          "ELA": 63.5,
+          "Math": 5.1,
+          "Science": 38.9,
+          "count": 2
+        }
+      }
+    }
+  },
+  "Queen Anne's": {
+    "county_name": "Queen Anne's",
+    "census": {
+      "total_population": 50316,
+      "median_household_income": 108332,
+      "poverty_rate": 6.9,
+      "school_age_population_5_17": 8146,
+      "school_enrollment": {
+        "total_enrolled": 11238,
+        "grades_1_4": 2099,
+        "grades_5_8": 2581,
+        "grades_9_12": 2580
+      },
+      "broadband_access_rate": 86.4,
+      "education_attainment_25_plus": {
+        "high_school_graduate": 9450,
+        "bachelors_degree": 8244,
+        "masters_degree": 3623
+      },
+      "demographics": {
+        "white_alone": 42958,
+        "black_or_african_american": 2952,
+        "asian_alone": 557,
+        "hispanic_or_latino": 2303
+      }
+    },
+    "district_leadership": {
+      "superintendent": {
+        "name": "Dr. Matthew Kibler (Interim)",
+        "website": "https://www.qacps.org/"
+      },
+      "board_members": [
+        {
+          "name": "Shannon Bent",
+          "position": "Board President",
+          "district": "District 1",
+          "term": "2022-2026"
+        },
+        {
+          "name": "Alexis Capes",
+          "position": "Board Vice President",
+          "district": null,
+          "term": "2022-2026"
+        },
+        {
+          "name": "Mathew Drayer",
+          "position": "Board Member",
+          "district": "District 2",
+          "term": "2024-2028"
+        },
+        {
+          "name": "Carrie Sutherland",
+          "position": "Board Member",
+          "district": "District 3",
+          "term": "2024-2028"
+        },
+        {
+          "name": "Kendra Eichler",
+          "position": "Board Member",
+          "district": "District 4",
+          "term": "2024-2028"
+        }
+      ],
+      "total_board_members": 5,
+      "additional_leadership": [
+        {
+          "name": "Dr. Matthew Kibler",
+          "position": "Interim Superintendent"
+        },
+        {
+          "name": "Dr. Jennifer Schrecongost",
+          "position": "Interim Assistant Superintendent"
+        },
+        {
+          "name": "Sid Pinder, Jr.",
+          "position": "Chief Operating Officer"
+        },
+        {
+          "name": "Dr. Michael Noel",
+          "position": "Director of Human Resources"
+        },
+        {
+          "name": "Rob Watkins",
+          "position": "Interim Chief Financial Officer"
+        }
+      ]
+    },
+    "board_meetings": {
+      "regular_schedule": "1st Wednesday of each month",
+      "location": "202 Chesterfield Avenue, Centreville, MD 21617",
+      "time": null,
+      "phone": "410-758-2403",
+      "upcoming_meetings": [
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Closed Session",
+          "time": "4:30 PM"
+        },
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Open Session",
+          "time": "6:00 PM"
+        }
+      ]
+    },
+    "schools": [
+      {
+        "name": "Bayside Elementary School (0403)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0403/0",
+        "star_rating": 4,
+        "percentile_rank": 65,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 59.7,
+            "Math": 50.0,
+            "Science": 44.1
+          }
+        }
+      },
+      {
+        "name": "Centreville Elementary School (0308)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0308/0",
+        "star_rating": null,
+        "percentile_rank": null,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": null,
+            "Math": null,
+            "Science": null
+          }
+        }
+      },
+      {
+        "name": "Church Hill Elementary School (0202)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0202/0",
+        "star_rating": 3,
+        "percentile_rank": 45,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 45.3,
+            "Math": 39.6,
+            "Science": null
+          }
+        }
+      },
+      {
+        "name": "Grasonville Elementary School (0503)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0503/0",
+        "star_rating": 4,
+        "percentile_rank": 54,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 43.2,
+            "Math": 40.9,
+            "Science": 25.3
+          }
+        }
+      },
+      {
+        "name": "Kennard Elementary School (0302)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0302/0",
+        "star_rating": 3,
+        "percentile_rank": 48,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 49.7,
+            "Math": 36.7,
+            "Science": 27.9
+          }
+        }
+      },
+      {
+        "name": "Kent Island Elementary School (0402)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0402/0",
+        "star_rating": null,
+        "percentile_rank": null,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": null,
+            "Math": null,
+            "Science": null
+          }
+        }
+      },
+      {
+        "name": "Matapeake Elementary School (0406)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0406/0",
+        "star_rating": 4,
+        "percentile_rank": 79,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 58.6,
+            "Math": 42.9,
+            "Science": 31.4
+          }
+        }
+      },
+      {
+        "name": "Sudlersville Elementary School (0106)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0106/0",
+        "star_rating": 4,
+        "percentile_rank": 54,
+        "highest_grade_mcap": {
+          "grade_tested": 5,
+          "scores": {
+            "ELA": 18.3,
+            "Math": 20.0,
+            "Science": null
+          }
+        }
+      },
+      {
+        "name": "Sudlersville Middle School (0101)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/17/0101/0",
+        "star_rating": 3,
+        "percentile_rank": 11,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 46.2,
+            "Math": 5.0,
+            "Science": 16.8
+          }
+        }
+      },
+      {
+        "name": "Centreville Middle School (0303)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0303/0",
+        "star_rating": 3,
+        "percentile_rank": 53,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 48.3,
+            "Math": 6.6,
+            "Science": 44.3
+          }
+        }
+      },
+      {
+        "name": "Matapeake Middle School (0407)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0407/0",
+        "star_rating": 4,
+        "percentile_rank": 75,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 73.6,
+            "Math": 22.5,
+            "Science": 52.5
+          }
+        }
+      },
+      {
+        "name": "Stevensville Middle School (0404)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0404/0",
+        "star_rating": 3,
+        "percentile_rank": 48,
+        "highest_grade_mcap": {
+          "grade_tested": 8,
+          "scores": {
+            "ELA": 55.2,
+            "Math": 18.5,
+            "Science": 42.9
+          }
+        }
+      },
+      {
+        "name": "Kent Island High School (0405)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0405/0",
+        "star_rating": 4,
+        "percentile_rank": 72,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 75.9,
+            "Math": 5.1,
+            "Science": 53.1
+          }
+        }
+      },
+      {
+        "name": "Queen Anne's County High School (0301)",
+        "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0301/0",
+        "star_rating": 3,
+        "percentile_rank": 58,
+        "highest_grade_mcap": {
+          "grade_tested": 10,
+          "scores": {
+            "ELA": 69.5,
+            "Math": 6.2,
+            "Science": 46.6
+          }
+        }
+      }
+    ],
+    "performance_summary": {
+      "total_schools": 14,
+      "schools_with_mcap_data": 14,
+      "average_proficiency": {
+        "ELA": 53.6,
+        "Math": 24.5,
+        "Science": 38.5
+      },
+      "top_performing_schools": [
+        {
+          "name": "Bayside Elementary School (0403)",
+          "average_proficiency": 51.3
+        },
+        {
+          "name": "Matapeake Middle School (0407)",
+          "average_proficiency": 49.5
+        },
+        {
+          "name": "Kent Island High School (0405)",
+          "average_proficiency": 44.7
+        }
+      ],
+      "proficiency_by_level": {
+        "elementary": {
+          "ELA": 45.8,
+          "Math": 38.4,
+          "Science": 32.2,
+          "count": 8
+        },
+        "middle": {
+          "ELA": 55.8,
+          "Math": 13.2,
+          "Science": 39.1,
+          "count": 4
+        },
+        "high": {
+          "ELA": 72.7,
+          "Math": 5.7,
+          "Science": 49.9,
+          "count": 2
+        }
+      }
+    }
+  }
+}

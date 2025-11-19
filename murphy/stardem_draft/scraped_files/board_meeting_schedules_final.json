@@ -1,0 +1,89 @@
+{
+  "Talbot": {
+    "county": "Talbot",
+    "url": "https://go.boarddocs.com/mabe/tcps/Board.nsf/Public",
+    "meetings": [],
+    "pattern": "No meetings found",
+    "total_meetings": 0
+  },
+  "Kent": {
+    "county": "Kent",
+    "url": "https://go.boarddocs.com/mabe/kcps/Board.nsf/Public",
+    "meetings": [
+      {
+        "month": "Nov",
+        "day": 10,
+        "weekday": "Mon",
+        "description": "Open Session Meeting",
+        "full_date": "Nov 10, 2025 (Mon)"
+      },
+      {
+        "month": "Nov",
+        "day": 17,
+        "weekday": "Mon",
+        "description": "Open Session Meeting",
+        "full_date": "Nov 17, 2025 (Mon)"
+      }
+    ],
+    "pattern": "2nd Mon of each month",
+    "total_meetings": 2
+  },
+  "Dorchester": {
+    "county": "Dorchester",
+    "url": "https://go.boarddocs.com/mabe/dcps/Board.nsf/Public",
+    "meetings": [
+      {
+        "month": "Sep",
+        "day": 18,
+        "weekday": "Thu",
+        "description": "Monthly Meeting, 6:00 p.m.",
+        "full_date": "Sep 18, 2025 (Thu)"
+      },
+      {
+        "month": "Oct",
+        "day": 23,
+        "weekday": "Thu",
+        "description": "Monthly Meeting, 6:00 p.m.",
+        "full_date": "Oct 23, 2025 (Thu)"
+      },
+      {
+        "month": "Nov",
+        "day": 20,
+        "weekday": "Thu",
+        "description": "Monthly Meeting, 6:00 p.m.",
+        "full_date": "Nov 20, 2025 (Thu)"
+      }
+    ],
+    "pattern": "3rd Thu of each month",
+    "total_meetings": 3
+  },
+  "Caroline": {
+    "county": "Caroline",
+    "url": "https://go.boarddocs.com/mabe/ccps/Board.nsf/Public",
+    "meetings": [],
+    "pattern": "No meetings found",
+    "total_meetings": 0
+  },
+  "Queen Anne's": {
+    "county": "Queen Anne's",
+    "url": "https://go.boarddocs.com/mabe/qacps/Board.nsf/Public",
+    "meetings": [
+      {
+        "month": "Nov",
+        "day": 5,
+        "weekday": "Wed",
+        "description": "School Board Meeting - Open Session - 6:00 p.m.",
+        "full_date": "Nov 5, 2025 (Wed)"
+      },
+      {
+        "month": "Nov",
+        "day": 5,
+        "weekday": "Wed",
+        "description": "School Board Meeting - Closed Session - 4:30 p.m.",
+        "full_date": "Nov 5, 2025 (Wed)"
+      }
+    ],
+    "pattern": "1st Wed of each month",
+    "total_meetings": 2
+  }
+}

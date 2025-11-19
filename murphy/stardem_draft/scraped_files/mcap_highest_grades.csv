@@ -1,0 +1,136 @@
+school_name,county,grade,subject,proficiency_rate
+Colonel Richardson High School (0801),Caroline,10,ELA,63.5
+Colonel Richardson High School (0801),Caroline,10,Math,5.0
+Colonel Richardson High School (0801),Caroline,10,Science,28.3
+Colonel Richardson Middle School (0802),Caroline,8,ELA,60.0
+Colonel Richardson Middle School (0802),Caroline,8,Math,5.9
+Colonel Richardson Middle School (0802),Caroline,8,Science,27.8
+Denton Elementary School (0301),Caroline,5,ELA,36.0
+Denton Elementary School (0301),Caroline,5,Math,25.8
+Denton Elementary School (0301),Caroline,5,Science,17.8
+Federalsburg Elementary School (0501),Caroline,5,ELA,26.5
+Federalsburg Elementary School (0501),Caroline,5,Math,16.7
+Federalsburg Elementary School (0501),Caroline,5,Science,8.0
+Greensboro Elementary School (0201),Caroline,5,ELA,42.5
+Greensboro Elementary School (0201),Caroline,5,Math,26.5
+Greensboro Elementary School (0201),Caroline,5,Science,26.1
+Lockerman Middle School (0302),Caroline,8,ELA,45.0
+Lockerman Middle School (0302),Caroline,8,Math,5.0
+Lockerman Middle School (0302),Caroline,8,Science,22.0
+North Caroline High School (0703),Caroline,10,ELA,63.4
+North Caroline High School (0703),Caroline,10,Math,5.2
+North Caroline High School (0703),Caroline,10,Science,49.4
+Preston Elementary School (0401),Caroline,5,ELA,47.3
+Preston Elementary School (0401),Caroline,5,Math,38.2
+Preston Elementary School (0401),Caroline,5,Science,21.4
+Ridgely Elementary School (0701),Caroline,5,ELA,36.1
+Ridgely Elementary School (0701),Caroline,5,Math,26.4
+Ridgely Elementary School (0701),Caroline,5,Science,15.3
+Cambridge-South Dorchester High School (0713),Dorchester,10,ELA,32.3
+Cambridge-South Dorchester High School (0713),Dorchester,10,Math,5.0
+Cambridge-South Dorchester High School (0713),Dorchester,10,Science,24.9
+Choptank Elementary School (0716),Dorchester,5,ELA,21.2
+Choptank Elementary School (0716),Dorchester,5,Math,5.0
+Choptank Elementary School (0716),Dorchester,5,Science,8.9
+Hurlock Elementary School (1503),Dorchester,5,ELA,43.3
+Hurlock Elementary School (1503),Dorchester,5,Math,23.8
+Hurlock Elementary School (1503),Dorchester,5,Science,21.3
+Mace's Lane Middle School (0707),Dorchester,8,ELA,27.5
+Mace's Lane Middle School (0707),Dorchester,8,Math,5.0
+Mace's Lane Middle School (0707),Dorchester,8,Science,6.5
+Maple Elementary School (0711),Dorchester,5,ELA,32.1
+Maple Elementary School (0711),Dorchester,5,Math,5.1
+Maple Elementary School (0711),Dorchester,5,Science,5.0
+North Dorchester High School (0207),Dorchester,10,ELA,39.1
+North Dorchester High School (0207),Dorchester,10,Math,5.0
+North Dorchester High School (0207),Dorchester,10,Science,38.6
+North Dorchester Middle School (0208),Dorchester,8,ELA,52.7
+North Dorchester Middle School (0208),Dorchester,8,Math,14.9
+North Dorchester Middle School (0208),Dorchester,8,Science,24.6
+Sandy Hill Elementary School (0710),Dorchester,5,ELA,20.9
+Sandy Hill Elementary School (0710),Dorchester,5,Math,9.3
+Sandy Hill Elementary School (0710),Dorchester,5,Science,9.1
+Vienna Elementary School (0302),Dorchester,5,ELA,59.3
+Vienna Elementary School (0302),Dorchester,5,Math,25.9
+Vienna Elementary School (0302),Dorchester,5,Science,18.5
+Warwick Elementary School (0205),Dorchester,5,ELA,51.1
+Warwick Elementary School (0205),Dorchester,5,Math,40.4
+Warwick Elementary School (0205),Dorchester,5,Science,34.0
+Galena Elementary School (0105),Kent,5,ELA,27.0
+Galena Elementary School (0105),Kent,5,Math,8.3
+Galena Elementary School (0105),Kent,5,Science,10.5
+H. H. Garnett Elementary (0403),Kent,5,ELA,47.2
+H. H. Garnett Elementary (0403),Kent,5,Math,15.1
+H. H. Garnett Elementary (0403),Kent,5,Science,11.3
+Kent County High (0301),Kent,10,ELA,53.5
+Kent County High (0301),Kent,10,Math,6.1
+Kent County High (0301),Kent,10,Science,27.7
+Kent County Middle School (0402),Kent,8,ELA,25.0
+Kent County Middle School (0402),Kent,8,Math,5.0
+Kent County Middle School (0402),Kent,8,Science,16.8
+Rock Hall Elementary (0504),Kent,5,ELA,36.0
+Rock Hall Elementary (0504),Kent,5,Math,36.0
+Rock Hall Elementary (0504),Kent,5,Science,58.3
+Bayside Elementary School (0403),Queen Anne's,5,ELA,59.7
+Bayside Elementary School (0403),Queen Anne's,5,Math,50.0
+Bayside Elementary School (0403),Queen Anne's,5,Science,44.1
+Centreville Elementary School (0308),Queen Anne's,5,ELA,
+Centreville Elementary School (0308),Queen Anne's,5,Math,
+Centreville Elementary School (0308),Queen Anne's,5,Science,
+Centreville Middle School (0303),Queen Anne's,8,ELA,48.3
+Centreville Middle School (0303),Queen Anne's,8,Math,6.6
+Centreville Middle School (0303),Queen Anne's,8,Science,44.3
+Church Hill Elementary School (0202),Queen Anne's,5,ELA,45.3
+Church Hill Elementary School (0202),Queen Anne's,5,Math,39.6
+Church Hill Elementary School (0202),Queen Anne's,5,Science,
+Grasonville Elementary School (0503),Queen Anne's,5,ELA,43.2
+Grasonville Elementary School (0503),Queen Anne's,5,Math,40.9
+Grasonville Elementary School (0503),Queen Anne's,5,Science,25.3
+Kennard Elementary School (0302),Queen Anne's,5,ELA,49.7
+Kennard Elementary School (0302),Queen Anne's,5,Math,36.7
+Kennard Elementary School (0302),Queen Anne's,5,Science,27.9
+Kent Island Elementary School (0402),Queen Anne's,5,ELA,
+Kent Island Elementary School (0402),Queen Anne's,5,Math,
+Kent Island Elementary School (0402),Queen Anne's,5,Science,
+Kent Island High School (0405),Queen Anne's,10,ELA,75.9
+Kent Island High School (0405),Queen Anne's,10,Math,5.1
+Kent Island High School (0405),Queen Anne's,10,Science,53.1
+Matapeake Elementary School (0406),Queen Anne's,5,ELA,58.6
+Matapeake Elementary School (0406),Queen Anne's,5,Math,42.9
+Matapeake Elementary School (0406),Queen Anne's,5,Science,31.4
+Matapeake Middle School (0407),Queen Anne's,8,ELA,73.6
+Matapeake Middle School (0407),Queen Anne's,8,Math,22.5
+Matapeake Middle School (0407),Queen Anne's,8,Science,52.5
+Queen Anne's County High School (0301),Queen Anne's,10,ELA,69.5
+Queen Anne's County High School (0301),Queen Anne's,10,Math,6.2
+Queen Anne's County High School (0301),Queen Anne's,10,Science,46.6
+Stevensville Middle School (0404),Queen Anne's,8,ELA,55.2
+Stevensville Middle School (0404),Queen Anne's,8,Math,18.5
+Stevensville Middle School (0404),Queen Anne's,8,Science,42.9
+Sudlersville Elementary School (0106),Queen Anne's,5,ELA,18.3
+Sudlersville Elementary School (0106),Queen Anne's,5,Math,20.0
+Sudlersville Elementary School (0106),Queen Anne's,5,Science,
+Sudlersville Middle School (0101),Queen Anne's,8,ELA,46.2
+Sudlersville Middle School (0101),Queen Anne's,8,Math,5.0
+Sudlersville Middle School (0101),Queen Anne's,8,Science,16.8
+Chapel District Elementary (0401),Talbot,5,ELA,67.5
+Chapel District Elementary (0401),Talbot,5,Math,55.0
+Chapel District Elementary (0401),Talbot,5,Science,45.0
+Easton Elementary (0104),Talbot,5,ELA,19.8
+Easton Elementary (0104),Talbot,5,Math,11.9
+Easton Elementary (0104),Talbot,5,Science,11.9
+Easton High (0101),Talbot,10,ELA,56.6
+Easton High (0101),Talbot,10,Math,5.0
+Easton High (0101),Talbot,10,Science,49.4
+Easton Middle (0106),Talbot,8,ELA,33.2
+Easton Middle (0106),Talbot,8,Math,5.2
+Easton Middle (0106),Talbot,8,Science,18.1
+St. Michaels Elementary (0204),Talbot,5,ELA,38.0
+St. Michaels Elementary (0204),Talbot,5,Math,26.0
+St. Michaels Elementary (0204),Talbot,5,Science,30.0
+Tilghman Elementary (0501),Talbot,5,ELA,29.4
+Tilghman Elementary (0501),Talbot,5,Math,5.9
+Tilghman Elementary (0501),Talbot,5,Science,17.6
+White Marsh Elementary (0302),Talbot,5,ELA,58.5
+White Marsh Elementary (0302),Talbot,5,Math,39.0
+White Marsh Elementary (0302),Talbot,5,Science,41.5

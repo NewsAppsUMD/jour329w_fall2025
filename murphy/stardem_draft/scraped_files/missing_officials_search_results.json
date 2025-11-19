@@ -1,0 +1,17 @@
+{
+  "Kent": {
+    "superintendent": "View Message",
+    "board_members": [],
+    "working_url": "https://www.kent.k12.md.us/"
+  },
+  "Dorchester": {
+    "superintendent": null,
+    "board_members": [],
+    "working_url": null
+  },
+  "Caroline": {
+    "superintendent": null,
+    "board_members": [],
+    "working_url": null
+  }
+}

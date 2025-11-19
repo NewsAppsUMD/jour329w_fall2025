@@ -1,0 +1,98 @@
+{
+  "elementary": [
+    {
+      "rank": 1,
+      "county": "Queen Anne's",
+      "average": 38.8,
+      "count": 8
+    },
+    {
+      "rank": 2,
+      "county": "Talbot",
+      "average": 33.1,
+      "count": 5
+    },
+    {
+      "rank": 3,
+      "county": "Kent",
+      "average": 27.7,
+      "count": 3
+    },
+    {
+      "rank": 4,
+      "county": "Caroline",
+      "average": 27.4,
+      "count": 5
+    },
+    {
+      "rank": 5,
+      "county": "Dorchester",
+      "average": 24.1,
+      "count": 6
+    }
+  ],
+  "middle": [
+    {
+      "rank": 1,
+      "county": "Queen Anne's",
+      "average": 36.0,
+      "count": 4
+    },
+    {
+      "rank": 2,
+      "county": "Caroline",
+      "average": 27.6,
+      "count": 2
+    },
+    {
+      "rank": 3,
+      "county": "Dorchester",
+      "average": 21.9,
+      "count": 2
+    },
+    {
+      "rank": 4,
+      "county": "Talbot",
+      "average": 18.8,
+      "count": 1
+    },
+    {
+      "rank": 5,
+      "county": "Kent",
+      "average": 15.6,
+      "count": 1
+    }
+  ],
+  "high": [
+    {
+      "rank": 1,
+      "county": "Queen Anne's",
+      "average": 42.8,
+      "count": 2
+    },
+    {
+      "rank": 2,
+      "county": "Talbot",
+      "average": 37.0,
+      "count": 1
+    },
+    {
+      "rank": 3,
+      "county": "Caroline",
+      "average": 35.8,
+      "count": 2
+    },
+    {
+      "rank": 4,
+      "county": "Kent",
+      "average": 29.1,
+      "count": 1
+    },
+    {
+      "rank": 5,
+      "county": "Dorchester",
+      "average": 24.2,
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Talbot": {
+    "county": "Talbot",
+    "district_name": "Talbot County Public Schools",
+    "boarddocs_data": {
+      "schedule_text": "Not found",
+      "upcoming_meetings": [],
+      "regular_schedule": ""
+    },
+    "website_data": null
+  },
+  "Kent": {
+    "county": "Kent",
+    "district_name": "Kent County Public Schools",
+    "boarddocs_data": {
+      "schedule_text": "Not found",
+      "upcoming_meetings": [
+        "Monday, November 17, 2025",
+        "Monday, November 10, 2025"
+      ],
+      "regular_schedule": "",
+      "meetings_page": "5608 Boundary Ave | Rock Hall, MD 21661 | 410-778-1595\nKent County Public Schools Board of Education\nMain Governing Board\nFEATURED\nMEETINGS\nPOLICIES \nLIBRARY \nFeatured\nNov 17, 2025 (Mon)\nOpen Session Meeting\nNov 10, 2025 (Mon)\nOpen Session Meeting\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\nBoardDocs\u00ae A Diligent Brand, \u00a9 2002-2025"
+    },
+    "website_data": null
+  },
+  "Dorchester": {
+    "county": "Dorchester",
+    "district_name": "Dorchester County Public Schools",
+    "boarddocs_data": {
+      "schedule_text": "Not found",
+      "upcoming_meetings": [
+        "Thursday, November 20, 2025",
+        "Thursday, October 23, 2025",
+        "Thursday, September 18, 2025"
+      ],
+      "regular_schedule": "",
+      "meetings_page": "700 Glasgow St | Cambridge, MD 21613 | Ph. 410-228-4747 | Fax. 410-228-1847\nDorchester County Public Schools\nMain Governing Board\nFEATURED\nMEETINGS\nPOLICIES\nLIBRARY \nFeatured\nNov 20, 2025 (Thu)\nMonthly Meeting, 6:00 p.m.\nOct 23, 2025 (Thu)\nMonthly Meeting, 6:00 p.m.\nSep 18, 2025 (Thu)\nMonthly Meeting, 6:00 p.m.\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010\n2009\n2008\n2007\n2006\n2005\nBoardDocs\u00ae A Diligent Brand, \u00a9 2002-2025"
+    },
+    "website_data": null
+  },
+  "Caroline": {
+    "county": "Caroline",
+    "district_name": "Caroline County Public Schools",
+    "boarddocs_data": {
+      "schedule_text": "Not found",
+      "upcoming_meetings": [],
+      "regular_schedule": ""
+    },
+    "website_data": null
+  },
+  "Queen Anne's": {
+    "county": "Queen Anne's",
+    "district_name": "Queen Anne's County Public Schools",
+    "boarddocs_data": {
+      "schedule_text": "Public Meetings: The Board of Education holds regular public meetings generally the first Wednesday each month, typically at 202 Chesterfield Avenue, Centreville. The Board welcomes citizens at these sessions.",
+      "upcoming_meetings": [
+        "Wednesday, November 5, 2025",
+        "Wednesday, November 5, 2025"
+      ],
+      "regular_schedule": "",
+      "meetings_page": "202 Chesterfield Avenue | Centreville, MD 21617 | Phone: 410-758-2403\nQueen Anne's County Public Schools\nBoard of Education\nFEATURED\nMEETINGS\nLIBRARY \nFeatured\nNov 5, 2025 (Wed)\nSchool Board Meeting - Open Session - 6:00 p.m.\nNov 5, 2025 (Wed)\nSchool Board Meeting - Closed Session - 4:30 p.m.\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010\n2009\n2008\n2007\n2006\nBoardDocs\u00ae A Diligent Brand, \u00a9 2002-2025"
+    },
+    "website_data": null
+  }
+}
