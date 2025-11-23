@@ -1,0 +1,5261 @@
+{
+  "metadata": {
+    "generated_date": "November 2025",
+    "data_sources_summary": {
+      "demographic_data": {
+        "source": "U.S. Census Bureau American Community Survey",
+        "year": "2022 (5-Year Estimates)",
+        "notes": "Population, income, poverty, education, broadband access"
+      },
+      "school_performance": {
+        "source": "Maryland Comprehensive Assessment Program (MCAP)",
+        "year": "2023-2024 school year",
+        "notes": "Test scores in ELA, Math, and Science"
+      },
+      "school_information": {
+        "source": "Maryland Report Card",
+        "year": "2023-2024 school year",
+        "notes": "School ratings, enrollment, staff data"
+      },
+      "district_leadership": {
+        "source": "County School Board websites",
+        "year": "2024-2025 school year",
+        "notes": "Superintendent and board member information"
+      },
+      "teacher_staffing": {
+        "source": "MSDE Educator Dashboard",
+        "year": "2024",
+        "notes": "Teacher counts, student-teacher ratios, year-over-year changes, new hires"
+      },
+      "discipline_data": {
+        "source": "Maryland Report Card",
+        "year": "2023-2024 school year",
+        "notes": "Suspension counts and rates by county (in-school and out-of-school)"
+      }
+    },
+    "counties_included": [
+      "Caroline",
+      "Dorchester",
+      "Kent",
+      "Queen Anne's",
+      "Talbot"
+    ],
+    "total_schools": 50
+  },
+  "Talbot": {
+    "county_name": "Talbot",
+    "demographics": {
+      "census_data": {
+        "total_population": 37663,
+        "median_household_income": 81667,
+        "poverty_rate": 9.3,
+        "school_age_population_5_17": 5280,
+        "school_enrollment": {
+          "total_enrolled": 7122,
+          "grades_1_4": 1735,
+          "grades_5_8": 1477,
+          "grades_9_12": 1533
+        },
+        "broadband_access_rate": 88.1,
+        "education_attainment_25_plus": {
+          "high_school_graduate": 6023,
+          "bachelors_degree": 6565,
+          "masters_degree": 3227
+        },
+        "demographics": {
+          "white_alone": 29600,
+          "black_or_african_american": 4593,
+          "asian_alone": 488,
+          "hispanic_or_latino": 2744
+        }
+      },
+      "data_year": "2022 ACS 5-Year Estimates"
+    },
+    "district": {
+      "leadership": {
+        "superintendent": {
+          "name": "Dr. Sharon Pepukayi",
+          "website": "https://www.tcps.k12.md.us/"
+        },
+        "board_members": [
+          {
+            "name": "Emily Jackson",
+            "position": "President",
+            "district": "District 4"
+          },
+          {
+            "name": "Amy Dodson",
+            "position": "Vice President",
+            "district": "District 3"
+          },
+          {
+            "name": "Dyshekia W. M. Strawberry",
+            "position": "Board Member",
+            "district": "District 1"
+          },
+          {
+            "name": "Ann O'Connor",
+            "position": "Board Member",
+            "district": "District 2"
+          },
+          {
+            "name": "Karla Wieland-Cherry",
+            "position": "Board Member",
+            "district": "District 5"
+          },
+          {
+            "name": "Cynthia M. Jurrius",
+            "position": "Board Member",
+            "district": "District 6"
+          },
+          {
+            "name": "Deborah Bridges",
+            "position": "Board Member",
+            "district": "District 7"
+          }
+        ],
+        "total_board_members": 7
+      },
+      "board_meetings": {
+        "regular_schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+        "location": "Talbot County Education Center",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": [
+          {
+            "date": "November 17, 2025",
+            "day": "Monday",
+            "type": "Work Session",
+            "time": "5:00 PM"
+          },
+          {
+            "date": "November 19, 2025",
+            "day": "Wednesday",
+            "type": "Regular Meeting",
+            "time": "7:00 PM"
+          },
+          {
+            "date": "December 15, 2025",
+            "day": "Monday",
+            "type": "Work Session",
+            "time": "TBA"
+          },
+          {
+            "date": "December 17, 2025",
+            "day": "Wednesday",
+            "type": "Regular Meeting",
+            "time": "TBA"
+          }
+        ]
+      },
+      "staffing": {
+        "teachers": {
+          "total_teachers": 345,
+          "year_over_year_change_percent": 1.8,
+          "new_hires": 51,
+          "new_hires_percent": 14.8,
+          "student_teacher_ratio": 20.6
+        },
+        "data_year": "2024"
+      }
+    },
+    "student_discipline": {
+      "total_suspensions": 352,
+      "in_school_suspensions": {
+        "total": 0,
+        "by_gender": {
+          "male": 0,
+          "female": 0
+        },
+        "by_race": {
+          "black": 0,
+          "hispanic": 0,
+          "white": 0,
+          "asian": 0,
+          "american_indian": 0,
+          "two_or_more": 0
+        },
+        "students_with_disabilities": 0,
+        "economically_disadvantaged": 0
+      },
+      "out_of_school_suspensions": {
+        "total": 352,
+        "by_gender": {
+          "male": {
+            "count": 247,
+            "percent": 70.2
+          },
+          "female": {
+            "count": 74,
+            "percent": 21.0
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 130,
+            "percent": 36.9
+          },
+          "hispanic": {
+            "count": 24,
+            "percent": 6.8
+          },
+          "white": {
+            "count": 75,
+            "percent": 21.3
+          },
+          "asian": {
+            "count": 1,
+            "percent": 0.3
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 28,
+            "percent": 8.0
+          }
+        },
+        "students_with_disabilities": {
+          "count": 65,
+          "percent": 18.5
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      }
+    },
+    "schools_and_performance": {
+      "schools": [
+        {
+          "name": "Chapel District Elementary (0401)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0401/0",
+          "star_rating": 4,
+          "percentile_rank": 76,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 67.5,
+              "Math": 55.0,
+              "Science": 45.0
+            }
+          },
+          "discipline": {
+            "total_suspensions": 8,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 8,
+              "by_gender": {
+                "male": {
+                  "count": 8,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 8,
+                  "percent": 100.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 5,
+                "percent": 62.5
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Easton Elementary (0104)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0104/0",
+          "star_rating": 3,
+          "percentile_rank": 26,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 19.8,
+              "Math": 11.9,
+              "Science": 11.9
+            }
+          },
+          "discipline": {
+            "total_suspensions": 40,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 40,
+              "by_gender": {
+                "male": {
+                  "count": 31,
+                  "percent": 77.5
+                },
+                "female": {
+                  "count": 9,
+                  "percent": 22.5
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 16,
+                  "percent": 40.0
+                },
+                "hispanic": {
+                  "count": 4,
+                  "percent": 10.0
+                },
+                "white": {
+                  "count": 13,
+                  "percent": 32.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 7,
+                  "percent": 17.5
+                }
+              },
+              "students_with_disabilities": {
+                "count": 18,
+                "percent": 45.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "St. Michaels Elementary (0204)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0204/0",
+          "star_rating": 4,
+          "percentile_rank": 81,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 38.0,
+              "Math": 26.0,
+              "Science": 30.0
+            }
+          }
+        },
+        {
+          "name": "Tilghman Elementary (0501)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0501/0",
+          "star_rating": 3,
+          "percentile_rank": 13,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 29.4,
+              "Math": 5.9,
+              "Science": 17.6
+            }
+          }
+        },
+        {
+          "name": "White Marsh Elementary (0302)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0302/0",
+          "star_rating": 4,
+          "percentile_rank": 74,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 58.5,
+              "Math": 39.0,
+              "Science": 41.5
+            }
+          }
+        },
+        {
+          "name": "Easton Middle (0106)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/20/0106/0",
+          "star_rating": 3,
+          "percentile_rank": 34,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 33.2,
+              "Math": 5.2,
+              "Science": 18.1
+            }
+          },
+          "discipline": {
+            "total_suspensions": 94,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 94,
+              "by_gender": {
+                "male": {
+                  "count": 63,
+                  "percent": 67.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "St. Michaels Middle/High School (0202)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/MH/1/20/0202/0",
+          "star_rating": 3,
+          "percentile_rank": 54,
+          "highest_grade_mcap": {},
+          "discipline": {
+            "total_suspensions": 40,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 40,
+              "by_gender": {
+                "male": {
+                  "count": 29,
+                  "percent": 72.5
+                },
+                "female": {
+                  "count": 11,
+                  "percent": 27.5
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 20,
+                  "percent": 50.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 15,
+                  "percent": 37.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 5,
+                  "percent": 12.5
+                }
+              },
+              "students_with_disabilities": {
+                "count": 8,
+                "percent": 20.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Easton High (0101)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/20/0101/0",
+          "star_rating": 3,
+          "percentile_rank": 41,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 56.6,
+              "Math": 5.0,
+              "Science": 49.4
+            }
+          },
+          "discipline": {
+            "total_suspensions": 170,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 170,
+              "by_gender": {
+                "male": {
+                  "count": 116,
+                  "percent": 68.2
+                },
+                "female": {
+                  "count": 54,
+                  "percent": 31.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 94,
+                  "percent": 55.3
+                },
+                "hispanic": {
+                  "count": 20,
+                  "percent": 11.8
+                },
+                "white": {
+                  "count": 39,
+                  "percent": 22.9
+                },
+                "asian": {
+                  "count": 1,
+                  "percent": 0.6
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 16,
+                  "percent": 9.4
+                }
+              },
+              "students_with_disabilities": {
+                "count": 34,
+                "percent": 20.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "performance_summary": {
+        "total_schools": 8,
+        "schools_with_mcap_data": 7,
+        "average_proficiency": {
+          "ELA": 43.3,
+          "Math": 21.1,
+          "Science": 30.5
+        },
+        "top_performing_schools": [
+          {
+            "name": "Chapel District Elementary (0401)",
+            "average_proficiency": 55.8
+          },
+          {
+            "name": "White Marsh Elementary (0302)",
+            "average_proficiency": 46.3
+          },
+          {
+            "name": "Easton High (0101)",
+            "average_proficiency": 37.0
+          }
+        ],
+        "proficiency_by_level": {
+          "elementary": {
+            "ELA": 42.6,
+            "Math": 27.6,
+            "Science": 29.2,
+            "count": 5
+          },
+          "middle": {
+            "ELA": 33.2,
+            "Math": 5.2,
+            "Science": 18.1,
+            "count": 1
+          },
+          "high": {
+            "ELA": 56.6,
+            "Math": 5.0,
+            "Science": 49.4,
+            "count": 1
+          }
+        }
+      },
+      "data_year": "2023-2024 school year"
+    },
+    "data_sources": {
+      "census": "2022 American Community Survey 5-Year Estimates",
+      "district_leadership": "2024-2025 school year",
+      "board_meetings": "2025 (current)",
+      "schools_mcap": "2023-2024 school year (MCAP scores)",
+      "performance_summary": "2023-2024 school year (MCAP assessments)",
+      "teacher_staffing": "2024 Educator Dashboard data",
+      "discipline": "2023-2024 school year"
+    }
+  },
+  "Kent": {
+    "county_name": "Kent",
+    "demographics": {
+      "census_data": {
+        "total_population": 19289,
+        "median_household_income": 71635,
+        "poverty_rate": 9.5,
+        "school_age_population_5_17": 2311,
+        "school_enrollment": {
+          "total_enrolled": 4279,
+          "grades_1_4": 650,
+          "grades_5_8": 701,
+          "grades_9_12": 783
+        },
+        "broadband_access_rate": 79.4,
+        "education_attainment_25_plus": {
+          "high_school_graduate": 4103,
+          "bachelors_degree": 2939,
+          "masters_degree": 1474
+        },
+        "demographics": {
+          "white_alone": 15082,
+          "black_or_african_american": 2729,
+          "asian_alone": 187,
+          "hispanic_or_latino": 900
+        }
+      },
+      "data_year": "2022 ACS 5-Year Estimates"
+    },
+    "district": {
+      "leadership": {
+        "superintendent": {
+          "name": "Dr. Mary McComas",
+          "website": "https://www.kent.k12.md.us/"
+        },
+        "board_members": [
+          {
+            "name": "Laura McKenzie",
+            "position": "Board Member"
+          },
+          {
+            "name": "John Queen",
+            "position": "Board Member"
+          },
+          {
+            "name": "Aretha Dorsey",
+            "position": "Board Member"
+          },
+          {
+            "name": "Frank Rhodes",
+            "position": "Board Member"
+          },
+          {
+            "name": "Trish McGee",
+            "position": "Board Member"
+          }
+        ],
+        "total_board_members": 5
+      },
+      "board_meetings": {
+        "regular_schedule": "2nd Monday of each month",
+        "location": "5608 Boundary Ave, Rock Hall, MD 21661",
+        "time": null,
+        "phone": "410-778-1595",
+        "upcoming_meetings": [
+          {
+            "date": "November 10, 2025",
+            "day": "Monday",
+            "type": "Open Session Meeting"
+          },
+          {
+            "date": "November 17, 2025",
+            "day": "Monday",
+            "type": "Open Session Meeting"
+          }
+        ]
+      },
+      "staffing": {
+        "teachers": {
+          "total_teachers": 158,
+          "year_over_year_change_percent": 2.5,
+          "new_hires": 4,
+          "new_hires_percent": 2.5,
+          "student_teacher_ratio": 27.1
+        },
+        "data_year": "2024"
+      }
+    },
+    "student_discipline": {
+      "total_suspensions": 518,
+      "in_school_suspensions": {
+        "total": 284,
+        "by_gender": {
+          "male": {
+            "count": 204,
+            "percent": 71.8
+          },
+          "female": {
+            "count": 79,
+            "percent": 27.8
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 124,
+            "percent": 43.7
+          },
+          "hispanic": {
+            "count": 30,
+            "percent": 10.6
+          },
+          "white": {
+            "count": 83,
+            "percent": 29.2
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 46,
+            "percent": 16.2
+          }
+        },
+        "students_with_disabilities": {
+          "count": 49,
+          "percent": 17.3
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      },
+      "out_of_school_suspensions": {
+        "total": 234,
+        "by_gender": {
+          "male": {
+            "count": 161,
+            "percent": 68.8
+          },
+          "female": {
+            "count": 72,
+            "percent": 30.8
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 108,
+            "percent": 46.2
+          },
+          "hispanic": {
+            "count": 19,
+            "percent": 8.1
+          },
+          "white": {
+            "count": 64,
+            "percent": 27.4
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 41,
+            "percent": 17.5
+          }
+        },
+        "students_with_disabilities": {
+          "count": 51,
+          "percent": 21.8
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      }
+    },
+    "schools_and_performance": {
+      "schools": [
+        {
+          "name": "Galena Elementary School (0105)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0105/0",
+          "star_rating": 3,
+          "percentile_rank": 25,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 27.0,
+              "Math": 8.3,
+              "Science": 10.5
+            }
+          },
+          "discipline": {
+            "total_suspensions": 11,
+            "in_school_suspensions": {
+              "total": 7,
+              "by_gender": {
+                "male": {
+                  "count": 7,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 3,
+                  "percent": 42.9
+                },
+                "hispanic": {
+                  "count": 1,
+                  "percent": 14.3
+                },
+                "white": {
+                  "count": 1,
+                  "percent": 14.3
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 28.6
+                }
+              },
+              "students_with_disabilities": {
+                "count": 2,
+                "percent": 28.6
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 4,
+              "by_gender": {
+                "male": {
+                  "count": 4,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 2,
+                  "percent": 50.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 2,
+                  "percent": 50.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 25.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "H. H. Garnett Elementary (0403)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0403/0",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 47.2,
+              "Math": 15.1,
+              "Science": 11.3
+            }
+          }
+        },
+        {
+          "name": "Rock Hall Elementary (0504)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0504/0",
+          "star_rating": 4,
+          "percentile_rank": 79,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 36.0,
+              "Math": 36.0,
+              "Science": 58.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 2,
+            "in_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Kent County Middle School (0402)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/14/0402/0",
+          "star_rating": 2,
+          "percentile_rank": 15,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 25.0,
+              "Math": 5.0,
+              "Science": 16.8
+            }
+          },
+          "discipline": {
+            "total_suspensions": 278,
+            "in_school_suspensions": {
+              "total": 143,
+              "by_gender": {
+                "male": {
+                  "count": 101,
+                  "percent": 70.6
+                },
+                "female": {
+                  "count": 42,
+                  "percent": 29.4
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 62,
+                  "percent": 43.4
+                },
+                "hispanic": {
+                  "count": 17,
+                  "percent": 11.9
+                },
+                "white": {
+                  "count": 48,
+                  "percent": 33.6
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 16,
+                  "percent": 11.2
+                }
+              },
+              "students_with_disabilities": {
+                "count": 19,
+                "percent": 13.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 135,
+              "by_gender": {
+                "male": {
+                  "count": 79,
+                  "percent": 58.5
+                },
+                "female": {
+                  "count": 56,
+                  "percent": 41.5
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 62,
+                  "percent": 45.9
+                },
+                "hispanic": {
+                  "count": 14,
+                  "percent": 10.4
+                },
+                "white": {
+                  "count": 28,
+                  "percent": 20.7
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 30,
+                  "percent": 22.2
+                }
+              },
+              "students_with_disabilities": {
+                "count": 20,
+                "percent": 14.8
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Kent County High (0301)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/14/0301/0",
+          "star_rating": 3,
+          "percentile_rank": 43,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 53.5,
+              "Math": 6.1,
+              "Science": 27.7
+            }
+          },
+          "discipline": {
+            "total_suspensions": 227,
+            "in_school_suspensions": {
+              "total": 133,
+              "by_gender": {
+                "male": {
+                  "count": 96,
+                  "percent": 72.2
+                },
+                "female": {
+                  "count": 37,
+                  "percent": 27.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 59,
+                  "percent": 44.4
+                },
+                "hispanic": {
+                  "count": 12,
+                  "percent": 9.0
+                },
+                "white": {
+                  "count": 34,
+                  "percent": 25.6
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 28,
+                  "percent": 21.1
+                }
+              },
+              "students_with_disabilities": {
+                "count": 28,
+                "percent": 21.1
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 94,
+              "by_gender": {
+                "male": {
+                  "count": 78,
+                  "percent": 83.0
+                },
+                "female": {
+                  "count": 16,
+                  "percent": 17.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 44,
+                  "percent": 46.8
+                },
+                "hispanic": {
+                  "count": 5,
+                  "percent": 5.3
+                },
+                "white": {
+                  "count": 34,
+                  "percent": 36.2
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 11,
+                  "percent": 11.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 30,
+                "percent": 31.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "performance_summary": {
+        "total_schools": 5,
+        "schools_with_mcap_data": 5,
+        "average_proficiency": {
+          "ELA": 37.7,
+          "Math": 14.1,
+          "Science": 24.9
+        },
+        "top_performing_schools": [
+          {
+            "name": "Rock Hall Elementary (0504)",
+            "average_proficiency": 43.4
+          },
+          {
+            "name": "Kent County High (0301)",
+            "average_proficiency": 29.1
+          },
+          {
+            "name": "H. H. Garnett Elementary (0403)",
+            "average_proficiency": 24.5
+          }
+        ],
+        "proficiency_by_level": {
+          "elementary": {
+            "ELA": 36.7,
+            "Math": 19.8,
+            "Science": 26.7,
+            "count": 3
+          },
+          "middle": {
+            "ELA": 25.0,
+            "Math": 5.0,
+            "Science": 16.8,
+            "count": 1
+          },
+          "high": {
+            "ELA": 53.5,
+            "Math": 6.1,
+            "Science": 27.7,
+            "count": 1
+          }
+        }
+      },
+      "data_year": "2023-2024 school year"
+    },
+    "data_sources": {
+      "census": "2022 American Community Survey 5-Year Estimates",
+      "district_leadership": "2024-2025 school year",
+      "board_meetings": "2025 (current)",
+      "schools_mcap": "2023-2024 school year (MCAP scores)",
+      "performance_summary": "2023-2024 school year (MCAP assessments)",
+      "teacher_staffing": "2024 Educator Dashboard data",
+      "discipline": "2023-2024 school year"
+    }
+  },
+  "Dorchester": {
+    "county_name": "Dorchester",
+    "demographics": {
+      "census_data": {
+        "total_population": 32557,
+        "median_household_income": 57490,
+        "poverty_rate": 15.4,
+        "school_age_population_5_17": 5100,
+        "school_enrollment": {
+          "total_enrolled": 7006,
+          "grades_1_4": 1512,
+          "grades_5_8": 1507,
+          "grades_9_12": 1799
+        },
+        "broadband_access_rate": 85.7,
+        "education_attainment_25_plus": {
+          "high_school_graduate": 8376,
+          "bachelors_degree": 2425,
+          "masters_degree": 1381
+        },
+        "demographics": {
+          "white_alone": 20381,
+          "black_or_african_american": 8342,
+          "asian_alone": 438,
+          "hispanic_or_latino": 1992
+        }
+      },
+      "data_year": "2022 ACS 5-Year Estimates"
+    },
+    "district": {
+      "leadership": {
+        "superintendent": {
+          "name": "Dr. Jymil Thompson",
+          "website": "https://www.dcpsmd.org/"
+        },
+        "board_members": [],
+        "total_board_members": 0
+      },
+      "board_meetings": {
+        "regular_schedule": "3rd Thursday of each month",
+        "location": "700 Glasgow St, Cambridge, MD 21613",
+        "time": "6:00 PM",
+        "phone": "410-228-4747",
+        "upcoming_meetings": [
+          {
+            "date": "September 18, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          },
+          {
+            "date": "October 23, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          },
+          {
+            "date": "November 20, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          }
+        ]
+      },
+      "staffing": {
+        "teachers": {
+          "total_teachers": 353,
+          "year_over_year_change_percent": -1.7,
+          "new_hires": 48,
+          "new_hires_percent": 13.6,
+          "student_teacher_ratio": 19.8
+        },
+        "data_year": "2024"
+      }
+    },
+    "student_discipline": {
+      "total_suspensions": 1547,
+      "in_school_suspensions": {
+        "total": 0,
+        "by_gender": {
+          "male": 0,
+          "female": 0
+        },
+        "by_race": {
+          "black": 0,
+          "hispanic": 0,
+          "white": 0,
+          "asian": 0,
+          "american_indian": 0,
+          "two_or_more": 0
+        },
+        "students_with_disabilities": 0,
+        "economically_disadvantaged": 0
+      },
+      "out_of_school_suspensions": {
+        "total": 1547,
+        "by_gender": {
+          "male": {
+            "count": 985,
+            "percent": 63.7
+          },
+          "female": {
+            "count": 562,
+            "percent": 36.3
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 1149,
+            "percent": 74.3
+          },
+          "hispanic": {
+            "count": 58,
+            "percent": 3.7
+          },
+          "white": {
+            "count": 195,
+            "percent": 12.6
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 136,
+            "percent": 8.8
+          }
+        },
+        "students_with_disabilities": {
+          "count": 142,
+          "percent": 9.2
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      }
+    },
+    "schools_and_performance": {
+      "schools": [
+        {
+          "name": "Choptank Elementary School (0716)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0716/0",
+          "star_rating": 2,
+          "percentile_rank": 7,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 21.2,
+              "Math": 5.0,
+              "Science": 8.9
+            }
+          },
+          "discipline": {
+            "total_suspensions": 204,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 204,
+              "by_gender": {
+                "male": {
+                  "count": 129,
+                  "percent": 63.2
+                },
+                "female": {
+                  "count": 75,
+                  "percent": 36.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 183,
+                  "percent": 89.7
+                },
+                "hispanic": {
+                  "count": 4,
+                  "percent": 2.0
+                },
+                "white": {
+                  "count": 3,
+                  "percent": 1.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 14,
+                  "percent": 6.9
+                }
+              },
+              "students_with_disabilities": {
+                "count": 10,
+                "percent": 4.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Hurlock Elementary School (1503)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/1503/0",
+          "star_rating": 3,
+          "percentile_rank": 25,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 43.3,
+              "Math": 23.8,
+              "Science": 21.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 52,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 52,
+              "by_gender": {
+                "male": {
+                  "count": 41,
+                  "percent": 78.8
+                },
+                "female": {
+                  "count": 11,
+                  "percent": 21.2
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 20,
+                  "percent": 38.5
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 23,
+                  "percent": 44.2
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 3,
+                  "percent": 5.8
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Maple Elementary School (0711)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0711/0",
+          "star_rating": 3,
+          "percentile_rank": 45,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 32.1,
+              "Math": 5.1,
+              "Science": 5.0
+            }
+          },
+          "discipline": {
+            "total_suspensions": 39,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 39,
+              "by_gender": {
+                "male": {
+                  "count": 35,
+                  "percent": 89.7
+                },
+                "female": {
+                  "count": 4,
+                  "percent": 10.3
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 24,
+                  "percent": 61.5
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 7,
+                  "percent": 17.9
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 8,
+                  "percent": 20.5
+                }
+              },
+              "students_with_disabilities": {
+                "count": 10,
+                "percent": 25.6
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Sandy Hill Elementary School (0710)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0710/0",
+          "star_rating": 3,
+          "percentile_rank": 15,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 20.9,
+              "Math": 9.3,
+              "Science": 9.1
+            }
+          },
+          "discipline": {
+            "total_suspensions": 204,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 204,
+              "by_gender": {
+                "male": {
+                  "count": 131,
+                  "percent": 64.2
+                },
+                "female": {
+                  "count": 73,
+                  "percent": 35.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 175,
+                  "percent": 85.8
+                },
+                "hispanic": {
+                  "count": 8,
+                  "percent": 3.9
+                },
+                "white": {
+                  "count": 1,
+                  "percent": 0.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 20,
+                  "percent": 9.8
+                }
+              },
+              "students_with_disabilities": {
+                "count": 10,
+                "percent": 4.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Vienna Elementary School (0302)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0302/0",
+          "star_rating": 4,
+          "percentile_rank": 64,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 59.3,
+              "Math": 25.9,
+              "Science": 18.5
+            }
+          },
+          "discipline": {
+            "total_suspensions": 3,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 3,
+              "by_gender": {
+                "male": {
+                  "count": 3,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Warwick Elementary School (0205)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0205/0",
+          "star_rating": 3,
+          "percentile_rank": 50,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 51.1,
+              "Math": 40.4,
+              "Science": 34.0
+            }
+          }
+        },
+        {
+          "name": "South Dorchester School (0508)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/09/0508/0",
+          "star_rating": 4,
+          "percentile_rank": 63,
+          "highest_grade_mcap": {},
+          "discipline": {
+            "total_suspensions": 2,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 2,
+              "by_gender": {
+                "male": {
+                  "count": 1,
+                  "percent": 50.0
+                },
+                "female": {
+                  "count": 1,
+                  "percent": 50.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 2,
+                  "percent": 100.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Mace's Lane Middle School (0707)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0707/0",
+          "star_rating": 2,
+          "percentile_rank": 4,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 27.5,
+              "Math": 5.0,
+              "Science": 6.5
+            }
+          },
+          "discipline": {
+            "total_suspensions": 345,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 345,
+              "by_gender": {
+                "male": {
+                  "count": 231,
+                  "percent": 67.0
+                },
+                "female": {
+                  "count": 114,
+                  "percent": 33.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 282,
+                  "percent": 81.7
+                },
+                "hispanic": {
+                  "count": 13,
+                  "percent": 3.8
+                },
+                "white": {
+                  "count": 20,
+                  "percent": 5.8
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 30,
+                  "percent": 8.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 46,
+                "percent": 13.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "North Dorchester Middle School (0208)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0208/0",
+          "star_rating": 3,
+          "percentile_rank": 68,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 52.7,
+              "Math": 14.9,
+              "Science": 24.6
+            }
+          },
+          "discipline": {
+            "total_suspensions": 113,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 113,
+              "by_gender": {
+                "male": {
+                  "count": 75,
+                  "percent": 66.4
+                },
+                "female": {
+                  "count": 38,
+                  "percent": 33.6
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 58,
+                  "percent": 51.3
+                },
+                "hispanic": {
+                  "count": 6,
+                  "percent": 5.3
+                },
+                "white": {
+                  "count": 41,
+                  "percent": 36.3
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 8,
+                  "percent": 7.1
+                }
+              },
+              "students_with_disabilities": {
+                "count": 18,
+                "percent": 15.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Cambridge-South Dorchester High School (0713)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0713/0",
+          "star_rating": 3,
+          "percentile_rank": 20,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 32.3,
+              "Math": 5.0,
+              "Science": 24.9
+            }
+          },
+          "discipline": {
+            "total_suspensions": 438,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 438,
+              "by_gender": {
+                "male": {
+                  "count": 242,
+                  "percent": 55.3
+                },
+                "female": {
+                  "count": 196,
+                  "percent": 44.7
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 333,
+                  "percent": 76.0
+                },
+                "hispanic": {
+                  "count": 25,
+                  "percent": 5.7
+                },
+                "white": {
+                  "count": 46,
+                  "percent": 10.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 34,
+                  "percent": 7.8
+                }
+              },
+              "students_with_disabilities": {
+                "count": 48,
+                "percent": 11.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "North Dorchester High School (0207)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0207/0",
+          "star_rating": 3,
+          "percentile_rank": 36,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 39.1,
+              "Math": 5.0,
+              "Science": 38.6
+            }
+          },
+          "discipline": {
+            "total_suspensions": 147,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 147,
+              "by_gender": {
+                "male": {
+                  "count": 97,
+                  "percent": 66.0
+                },
+                "female": {
+                  "count": 50,
+                  "percent": 34.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 74,
+                  "percent": 50.3
+                },
+                "hispanic": {
+                  "count": 2,
+                  "percent": 1.4
+                },
+                "white": {
+                  "count": 52,
+                  "percent": 35.4
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 19,
+                  "percent": 12.9
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Dorchester County Career and Technology Center (0714)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0714/0",
+          "star_rating": null,
+          "percentile_rank": null,
+          "highest_grade_mcap": {}
+        },
+        {
+          "name": "Judith P. Hoyer Early Childhood Center (0709)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0709/0",
+          "star_rating": null,
+          "percentile_rank": null,
+          "highest_grade_mcap": {}
+        }
+      ],
+      "performance_summary": {
+        "total_schools": 13,
+        "schools_with_mcap_data": 10,
+        "average_proficiency": {
+          "ELA": 38.0,
+          "Math": 13.9,
+          "Science": 19.1
+        },
+        "top_performing_schools": [
+          {
+            "name": "Warwick Elementary School (0205)",
+            "average_proficiency": 41.8
+          },
+          {
+            "name": "Vienna Elementary School (0302)",
+            "average_proficiency": 34.6
+          },
+          {
+            "name": "North Dorchester Middle School (0208)",
+            "average_proficiency": 30.7
+          }
+        ],
+        "proficiency_by_level": {
+          "elementary": {
+            "ELA": 38.0,
+            "Math": 18.2,
+            "Science": 16.1,
+            "count": 6
+          },
+          "middle": {
+            "ELA": 40.1,
+            "Math": 9.9,
+            "Science": 15.6,
+            "count": 2
+          },
+          "high": {
+            "ELA": 35.7,
+            "Math": 5.0,
+            "Science": 31.8,
+            "count": 2
+          }
+        }
+      },
+      "data_year": "2023-2024 school year"
+    },
+    "data_sources": {
+      "census": "2022 American Community Survey 5-Year Estimates",
+      "district_leadership": "2024-2025 school year",
+      "board_meetings": "2025 (current)",
+      "schools_mcap": "2023-2024 school year (MCAP scores)",
+      "performance_summary": "2023-2024 school year (MCAP assessments)",
+      "teacher_staffing": "2024 Educator Dashboard data",
+      "discipline": "2023-2024 school year"
+    }
+  },
+  "Caroline": {
+    "county_name": "Caroline",
+    "demographics": {
+      "census_data": {
+        "total_population": 33320,
+        "median_household_income": 65326,
+        "poverty_rate": 12.9,
+        "school_age_population_5_17": 5791,
+        "school_enrollment": {
+          "total_enrolled": 8080,
+          "grades_1_4": 1955,
+          "grades_5_8": 1482,
+          "grades_9_12": 1891
+        },
+        "broadband_access_rate": 85.6,
+        "education_attainment_25_plus": {
+          "high_school_graduate": 8201,
+          "bachelors_degree": 2362,
+          "masters_degree": 1335
+        },
+        "demographics": {
+          "white_alone": 25025,
+          "black_or_african_american": 4565,
+          "asian_alone": 153,
+          "hispanic_or_latino": 2736
+        }
+      },
+      "data_year": "2022 ACS 5-Year Estimates"
+    },
+    "district": {
+      "leadership": {
+        "superintendent": {
+          "name": "Derek L. Simmons",
+          "website": "https://www.carolineschools.org/"
+        },
+        "board_members": [
+          {
+            "name": "Arevia Michele Wayman",
+            "position": "President",
+            "type": "Appointed",
+            "appointed": "2021, reappointed 2022",
+            "term": "Ends 2026"
+          },
+          {
+            "name": "Mark R. Jones",
+            "position": "Vice President",
+            "type": "Appointed",
+            "appointed": "2020, reappointed 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "Chrissy Bartz",
+            "position": "Member",
+            "type": "Elected",
+            "appointed": "July 2024",
+            "elected": "November 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "Stefanie Johnson",
+            "position": "Member",
+            "type": "Elected",
+            "district": "District 2",
+            "elected": "November 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "P. Troy Plutschak",
+            "position": "Member",
+            "type": "Elected",
+            "elected": "2022",
+            "term": "Ends 2026"
+          }
+        ],
+        "total_board_members": 5
+      },
+      "board_meetings": {
+        "regular_schedule": "1st Tuesday of each month (Regular Meeting), 3rd Thursday of each month (Work Session)",
+        "location": "Caroline County Board of Education",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": []
+      },
+      "staffing": {
+        "teachers": {
+          "total_teachers": 431,
+          "year_over_year_change_percent": 3.1,
+          "new_hires": 60,
+          "new_hires_percent": 13.9,
+          "student_teacher_ratio": 18.7
+        },
+        "data_year": "2024"
+      }
+    },
+    "student_discipline": {
+      "total_suspensions": 937,
+      "in_school_suspensions": {
+        "total": 371,
+        "by_gender": {
+          "male": {
+            "count": 274,
+            "percent": 73.9
+          },
+          "female": {
+            "count": 97,
+            "percent": 26.1
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 128,
+            "percent": 34.5
+          },
+          "hispanic": {
+            "count": 30,
+            "percent": 8.1
+          },
+          "white": {
+            "count": 141,
+            "percent": 38.0
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 29,
+            "percent": 7.8
+          }
+        },
+        "students_with_disabilities": {
+          "count": 54,
+          "percent": 14.6
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      },
+      "out_of_school_suspensions": {
+        "total": 566,
+        "by_gender": {
+          "male": {
+            "count": 387,
+            "percent": 68.4
+          },
+          "female": {
+            "count": 165,
+            "percent": 29.2
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 142,
+            "percent": 25.1
+          },
+          "hispanic": {
+            "count": 15,
+            "percent": 2.7
+          },
+          "white": {
+            "count": 182,
+            "percent": 32.2
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 37,
+            "percent": 6.5
+          }
+        },
+        "students_with_disabilities": {
+          "count": 91,
+          "percent": 16.1
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      }
+    },
+    "schools_and_performance": {
+      "schools": [
+        {
+          "name": "Denton Elementary School (0301)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0301/0",
+          "star_rating": 3,
+          "percentile_rank": 42,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 36.0,
+              "Math": 25.8,
+              "Science": 17.8
+            }
+          },
+          "discipline": {
+            "total_suspensions": 34,
+            "in_school_suspensions": {
+              "total": 20,
+              "by_gender": {
+                "male": {
+                  "count": 17,
+                  "percent": 85.0
+                },
+                "female": {
+                  "count": 3,
+                  "percent": 15.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 11,
+                  "percent": 55.0
+                },
+                "hispanic": {
+                  "count": 2,
+                  "percent": 10.0
+                },
+                "white": {
+                  "count": 4,
+                  "percent": 20.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 3,
+                  "percent": 15.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 14,
+                "percent": 70.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 14,
+              "by_gender": {
+                "male": {
+                  "count": 14,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 42.9
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 3,
+                  "percent": 21.4
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 5,
+                  "percent": 35.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 12,
+                "percent": 85.7
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Federalsburg Elementary School (0501)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0501/0",
+          "star_rating": 3,
+          "percentile_rank": 17,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 26.5,
+              "Math": 16.7,
+              "Science": 8.0
+            }
+          },
+          "discipline": {
+            "total_suspensions": 43,
+            "in_school_suspensions": {
+              "total": 8,
+              "by_gender": {
+                "male": {
+                  "count": 6,
+                  "percent": 75.0
+                },
+                "female": {
+                  "count": 2,
+                  "percent": 25.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 75.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 25.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 35,
+              "by_gender": {
+                "male": {
+                  "count": 21,
+                  "percent": 60.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Greensboro Elementary School (0201)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0201/0",
+          "star_rating": 3,
+          "percentile_rank": 49,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 42.5,
+              "Math": 26.5,
+              "Science": 26.1
+            }
+          },
+          "discipline": {
+            "total_suspensions": 70,
+            "in_school_suspensions": {
+              "total": 41,
+              "by_gender": {
+                "male": {
+                  "count": 35,
+                  "percent": 85.4
+                },
+                "female": {
+                  "count": 6,
+                  "percent": 14.6
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 14.6
+                },
+                "hispanic": {
+                  "count": 6,
+                  "percent": 14.6
+                },
+                "white": {
+                  "count": 28,
+                  "percent": 68.3
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 2.4
+                }
+              },
+              "students_with_disabilities": {
+                "count": 11,
+                "percent": 26.8
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 29,
+              "by_gender": {
+                "male": {
+                  "count": 19,
+                  "percent": 65.5
+                },
+                "female": {
+                  "count": 10,
+                  "percent": 34.5
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 5,
+                  "percent": 17.2
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 24,
+                  "percent": 82.8
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 11,
+                "percent": 37.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Preston Elementary School (0401)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0401/0",
+          "star_rating": 4,
+          "percentile_rank": 67,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 47.3,
+              "Math": 38.2,
+              "Science": 21.4
+            }
+          },
+          "discipline": {
+            "total_suspensions": 20,
+            "in_school_suspensions": {
+              "total": 11,
+              "by_gender": {
+                "male": {
+                  "count": 10,
+                  "percent": 90.9
+                },
+                "female": {
+                  "count": 1,
+                  "percent": 9.1
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 1,
+                  "percent": 9.1
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 8,
+                  "percent": 72.7
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 18.2
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 9.1
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 9,
+              "by_gender": {
+                "male": {
+                  "count": 9,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 6,
+                  "percent": 66.7
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 3,
+                  "percent": 33.3
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 11.1
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Ridgely Elementary School (0701)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0701/0",
+          "star_rating": 3,
+          "percentile_rank": 34,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 36.1,
+              "Math": 26.4,
+              "Science": 15.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 24,
+            "in_school_suspensions": {
+              "total": 17,
+              "by_gender": {
+                "male": {
+                  "count": 15,
+                  "percent": 88.2
+                },
+                "female": {
+                  "count": 2,
+                  "percent": 11.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 35.3
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 9,
+                  "percent": 52.9
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 11.8
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 5.9
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 7,
+              "by_gender": {
+                "male": {
+                  "count": 7,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 3,
+                  "percent": 42.9
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 4,
+                  "percent": 57.1
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 14.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Colonel Richardson Middle School (0802)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0802/0",
+          "star_rating": 3,
+          "percentile_rank": 44,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 60.0,
+              "Math": 5.9,
+              "Science": 27.8
+            }
+          },
+          "discipline": {
+            "total_suspensions": 108,
+            "in_school_suspensions": {
+              "total": 55,
+              "by_gender": {
+                "male": {
+                  "count": 45,
+                  "percent": 81.8
+                },
+                "female": {
+                  "count": 10,
+                  "percent": 18.2
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 32,
+                  "percent": 58.2
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 20,
+                  "percent": 36.4
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 3,
+                  "percent": 5.5
+                }
+              },
+              "students_with_disabilities": {
+                "count": 5,
+                "percent": 9.1
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 53,
+              "by_gender": {
+                "male": {
+                  "count": 43,
+                  "percent": 81.1
+                },
+                "female": {
+                  "count": 10,
+                  "percent": 18.9
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 25,
+                  "percent": 47.2
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 21,
+                  "percent": 39.6
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 7,
+                  "percent": 13.2
+                }
+              },
+              "students_with_disabilities": {
+                "count": 3,
+                "percent": 5.7
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Lockerman Middle School (0302)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0302/0",
+          "star_rating": 3,
+          "percentile_rank": 29,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 45.0,
+              "Math": 5.0,
+              "Science": 22.0
+            }
+          },
+          "discipline": {
+            "total_suspensions": 320,
+            "in_school_suspensions": {
+              "total": 118,
+              "by_gender": {
+                "male": {
+                  "count": 80,
+                  "percent": 67.8
+                },
+                "female": {
+                  "count": 38,
+                  "percent": 32.2
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 47,
+                  "percent": 39.8
+                },
+                "hispanic": {
+                  "count": 11,
+                  "percent": 9.3
+                },
+                "white": {
+                  "count": 50,
+                  "percent": 42.4
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 10,
+                  "percent": 8.5
+                }
+              },
+              "students_with_disabilities": {
+                "count": 16,
+                "percent": 13.6
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 202,
+              "by_gender": {
+                "male": {
+                  "count": 144,
+                  "percent": 71.3
+                },
+                "female": {
+                  "count": 58,
+                  "percent": 28.7
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 78,
+                  "percent": 38.6
+                },
+                "hispanic": {
+                  "count": 13,
+                  "percent": 6.4
+                },
+                "white": {
+                  "count": 96,
+                  "percent": 47.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 15,
+                  "percent": 7.4
+                }
+              },
+              "students_with_disabilities": {
+                "count": 56,
+                "percent": 27.7
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Colonel Richardson High School (0801)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0801/0",
+          "star_rating": 3,
+          "percentile_rank": 54,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 63.5,
+              "Math": 5.0,
+              "Science": 28.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 120,
+            "in_school_suspensions": {
+              "total": 58,
+              "by_gender": {
+                "male": {
+                  "count": 33,
+                  "percent": 56.9
+                },
+                "female": {
+                  "count": 25,
+                  "percent": 43.1
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 19,
+                  "percent": 32.8
+                },
+                "hispanic": {
+                  "count": 11,
+                  "percent": 19.0
+                },
+                "white": {
+                  "count": 22,
+                  "percent": 37.9
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 6,
+                  "percent": 10.3
+                }
+              },
+              "students_with_disabilities": {
+                "count": 6,
+                "percent": 10.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 62,
+              "by_gender": {
+                "male": {
+                  "count": 25,
+                  "percent": 40.3
+                },
+                "female": {
+                  "count": 37,
+                  "percent": 59.7
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 25,
+                  "percent": 40.3
+                },
+                "hispanic": {
+                  "count": 2,
+                  "percent": 3.2
+                },
+                "white": {
+                  "count": 28,
+                  "percent": 45.2
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 7,
+                  "percent": 11.3
+                }
+              },
+              "students_with_disabilities": {
+                "count": 7,
+                "percent": 11.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "North Caroline High School (0703)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0703/0",
+          "star_rating": 3,
+          "percentile_rank": 38,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 63.4,
+              "Math": 5.2,
+              "Science": 49.4
+            }
+          },
+          "discipline": {
+            "total_suspensions": 198,
+            "in_school_suspensions": {
+              "total": 43,
+              "by_gender": {
+                "male": {
+                  "count": 33,
+                  "percent": 76.7
+                },
+                "female": {
+                  "count": 10,
+                  "percent": 23.3
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 155,
+              "by_gender": {
+                "male": {
+                  "count": 105,
+                  "percent": 67.7
+                },
+                "female": {
+                  "count": 50,
+                  "percent": 32.3
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Caroline Career & Technology Center (0704)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/05/0704/0",
+          "star_rating": null,
+          "percentile_rank": null,
+          "highest_grade_mcap": {}
+        }
+      ],
+      "performance_summary": {
+        "total_schools": 10,
+        "schools_with_mcap_data": 9,
+        "average_proficiency": {
+          "ELA": 46.7,
+          "Math": 17.2,
+          "Science": 24.0
+        },
+        "top_performing_schools": [
+          {
+            "name": "North Caroline High School (0703)",
+            "average_proficiency": 39.3
+          },
+          {
+            "name": "Preston Elementary School (0401)",
+            "average_proficiency": 35.6
+          },
+          {
+            "name": "Colonel Richardson High School (0801)",
+            "average_proficiency": 32.3
+          }
+        ],
+        "proficiency_by_level": {
+          "elementary": {
+            "ELA": 37.7,
+            "Math": 26.7,
+            "Science": 17.7,
+            "count": 5
+          },
+          "middle": {
+            "ELA": 52.5,
+            "Math": 5.5,
+            "Science": 24.9,
+            "count": 2
+          },
+          "high": {
+            "ELA": 63.5,
+            "Math": 5.1,
+            "Science": 38.9,
+            "count": 2
+          }
+        }
+      },
+      "data_year": "2023-2024 school year"
+    },
+    "data_sources": {
+      "census": "2022 American Community Survey 5-Year Estimates",
+      "district_leadership": "2024-2025 school year",
+      "board_meetings": "2025 (current)",
+      "schools_mcap": "2023-2024 school year (MCAP scores)",
+      "performance_summary": "2023-2024 school year (MCAP assessments)",
+      "teacher_staffing": "2024 Educator Dashboard data",
+      "discipline": "2023-2024 school year"
+    }
+  },
+  "Queen Anne's": {
+    "county_name": "Queen Anne's",
+    "demographics": {
+      "census_data": {
+        "total_population": 50316,
+        "median_household_income": 108332,
+        "poverty_rate": 6.9,
+        "school_age_population_5_17": 8146,
+        "school_enrollment": {
+          "total_enrolled": 11238,
+          "grades_1_4": 2099,
+          "grades_5_8": 2581,
+          "grades_9_12": 2580
+        },
+        "broadband_access_rate": 86.4,
+        "education_attainment_25_plus": {
+          "high_school_graduate": 9450,
+          "bachelors_degree": 8244,
+          "masters_degree": 3623
+        },
+        "demographics": {
+          "white_alone": 42958,
+          "black_or_african_american": 2952,
+          "asian_alone": 557,
+          "hispanic_or_latino": 2303
+        }
+      },
+      "data_year": "2022 ACS 5-Year Estimates"
+    },
+    "district": {
+      "leadership": {
+        "superintendent": {
+          "name": "Dr. Matthew Kibler (Interim)",
+          "website": "https://www.qacps.org/"
+        },
+        "board_members": [
+          {
+            "name": "Shannon Bent",
+            "position": "Board President",
+            "district": "District 1",
+            "term": "2022-2026"
+          },
+          {
+            "name": "Alexis Capes",
+            "position": "Board Vice President",
+            "district": null,
+            "term": "2022-2026"
+          },
+          {
+            "name": "Mathew Drayer",
+            "position": "Board Member",
+            "district": "District 2",
+            "term": "2024-2028"
+          },
+          {
+            "name": "Carrie Sutherland",
+            "position": "Board Member",
+            "district": "District 3",
+            "term": "2024-2028"
+          },
+          {
+            "name": "Kendra Eichler",
+            "position": "Board Member",
+            "district": "District 4",
+            "term": "2024-2028"
+          }
+        ],
+        "total_board_members": 5,
+        "additional_leadership": [
+          {
+            "name": "Dr. Matthew Kibler",
+            "position": "Interim Superintendent"
+          },
+          {
+            "name": "Dr. Jennifer Schrecongost",
+            "position": "Interim Assistant Superintendent"
+          },
+          {
+            "name": "Sid Pinder, Jr.",
+            "position": "Chief Operating Officer"
+          },
+          {
+            "name": "Dr. Michael Noel",
+            "position": "Director of Human Resources"
+          },
+          {
+            "name": "Rob Watkins",
+            "position": "Interim Chief Financial Officer"
+          }
+        ]
+      },
+      "board_meetings": {
+        "regular_schedule": "1st Wednesday of each month",
+        "location": "202 Chesterfield Avenue, Centreville, MD 21617",
+        "time": null,
+        "phone": "410-758-2403",
+        "upcoming_meetings": [
+          {
+            "date": "November 5, 2025",
+            "day": "Wednesday",
+            "type": "School Board Meeting - Closed Session",
+            "time": "4:30 PM"
+          },
+          {
+            "date": "November 5, 2025",
+            "day": "Wednesday",
+            "type": "School Board Meeting - Open Session",
+            "time": "6:00 PM"
+          }
+        ]
+      },
+      "staffing": {
+        "teachers": null,
+        "data_year": "2024"
+      }
+    },
+    "student_discipline": {
+      "total_suspensions": 464,
+      "in_school_suspensions": {
+        "total": 124,
+        "by_gender": {
+          "male": {
+            "count": 91,
+            "percent": 73.4
+          },
+          "female": {
+            "count": 33,
+            "percent": 26.6
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 20,
+            "percent": 16.1
+          },
+          "hispanic": {
+            "count": 11,
+            "percent": 8.9
+          },
+          "white": {
+            "count": 78,
+            "percent": 62.9
+          },
+          "asian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 15,
+            "percent": 12.1
+          }
+        },
+        "students_with_disabilities": {
+          "count": 23,
+          "percent": 18.5
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      },
+      "out_of_school_suspensions": {
+        "total": 340,
+        "by_gender": {
+          "male": {
+            "count": 239,
+            "percent": 70.3
+          },
+          "female": {
+            "count": 88,
+            "percent": 25.9
+          }
+        },
+        "by_race": {
+          "black": {
+            "count": 58,
+            "percent": 17.1
+          },
+          "hispanic": {
+            "count": 29,
+            "percent": 8.5
+          },
+          "white": {
+            "count": 143,
+            "percent": 42.1
+          },
+          "asian": {
+            "count": 1,
+            "percent": 0.3
+          },
+          "american_indian": {
+            "count": 0,
+            "percent": 0.0
+          },
+          "two_or_more": {
+            "count": 34,
+            "percent": 10.0
+          }
+        },
+        "students_with_disabilities": {
+          "count": 80,
+          "percent": 23.5
+        },
+        "economically_disadvantaged": {
+          "count": 0,
+          "percent": 0.0
+        }
+      }
+    },
+    "schools_and_performance": {
+      "schools": [
+        {
+          "name": "Bayside Elementary School (0403)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0403/0",
+          "star_rating": 4,
+          "percentile_rank": 65,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 59.7,
+              "Math": 50.0,
+              "Science": 44.1
+            }
+          }
+        },
+        {
+          "name": "Centreville Elementary School (0308)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0308/0",
+          "star_rating": null,
+          "percentile_rank": null,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": null,
+              "Math": null,
+              "Science": null
+            }
+          },
+          "discipline": {
+            "total_suspensions": 1,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 1,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 1,
+                  "percent": 100.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 100.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Church Hill Elementary School (0202)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0202/0",
+          "star_rating": 3,
+          "percentile_rank": 45,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 45.3,
+              "Math": 39.6,
+              "Science": null
+            }
+          },
+          "discipline": {
+            "total_suspensions": 10,
+            "in_school_suspensions": {
+              "total": 2,
+              "by_gender": {
+                "male": {
+                  "count": 2,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 1,
+                  "percent": 50.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 50.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 50.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 8,
+              "by_gender": {
+                "male": {
+                  "count": 8,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 3,
+                  "percent": 37.5
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 4,
+                  "percent": 50.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Grasonville Elementary School (0503)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0503/0",
+          "star_rating": 4,
+          "percentile_rank": 54,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 43.2,
+              "Math": 40.9,
+              "Science": 25.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 13,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 13,
+              "by_gender": {
+                "male": {
+                  "count": 11,
+                  "percent": 84.6
+                },
+                "female": {
+                  "count": 2,
+                  "percent": 15.4
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 11,
+                  "percent": 84.6
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 2,
+                  "percent": 15.4
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 6,
+                "percent": 46.2
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Kennard Elementary School (0302)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0302/0",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 49.7,
+              "Math": 36.7,
+              "Science": 27.9
+            }
+          },
+          "discipline": {
+            "total_suspensions": 1,
+            "in_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 1,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 100.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            }
+          }
+        },
+        {
+          "name": "Kent Island Elementary School (0402)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0402/0",
+          "star_rating": null,
+          "percentile_rank": null,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": null,
+              "Math": null,
+              "Science": null
+            }
+          },
+          "discipline": {
+            "total_suspensions": 1,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Matapeake Elementary School (0406)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0406/0",
+          "star_rating": 4,
+          "percentile_rank": 79,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 58.6,
+              "Math": 42.9,
+              "Science": 31.4
+            }
+          },
+          "discipline": {
+            "total_suspensions": 12,
+            "in_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            },
+            "out_of_school_suspensions": {
+              "total": 12,
+              "by_gender": {
+                "male": {
+                  "count": 10,
+                  "percent": 83.3
+                },
+                "female": {
+                  "count": 2,
+                  "percent": 16.7
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 1,
+                  "percent": 8.3
+                },
+                "white": {
+                  "count": 10,
+                  "percent": 83.3
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 8.3
+                }
+              },
+              "students_with_disabilities": {
+                "count": 5,
+                "percent": 41.7
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Sudlersville Elementary School (0106)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0106/0",
+          "star_rating": 4,
+          "percentile_rank": 54,
+          "highest_grade_mcap": {
+            "grade_tested": 5,
+            "scores": {
+              "ELA": 18.3,
+              "Math": 20.0,
+              "Science": null
+            }
+          },
+          "discipline": {
+            "total_suspensions": 1,
+            "in_school_suspensions": {
+              "total": 1,
+              "by_gender": {
+                "male": {
+                  "count": 1,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 1,
+                  "percent": 100.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 0,
+              "by_gender": {
+                "male": 0,
+                "female": 0
+              },
+              "by_race": {
+                "black": 0,
+                "hispanic": 0,
+                "white": 0,
+                "asian": 0,
+                "american_indian": 0,
+                "two_or_more": 0
+              },
+              "students_with_disabilities": 0,
+              "economically_disadvantaged": 0
+            }
+          }
+        },
+        {
+          "name": "Sudlersville Middle School (0101)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/17/0101/0",
+          "star_rating": 3,
+          "percentile_rank": 11,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 46.2,
+              "Math": 5.0,
+              "Science": 16.8
+            }
+          },
+          "discipline": {
+            "total_suspensions": 38,
+            "in_school_suspensions": {
+              "total": 2,
+              "by_gender": {
+                "male": {
+                  "count": 2,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 1,
+                  "percent": 50.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 50.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 36,
+              "by_gender": {
+                "male": {
+                  "count": 24,
+                  "percent": 66.7
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Centreville Middle School (0303)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0303/0",
+          "star_rating": 3,
+          "percentile_rank": 53,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 48.3,
+              "Math": 6.6,
+              "Science": 44.3
+            }
+          },
+          "discipline": {
+            "total_suspensions": 30,
+            "in_school_suspensions": {
+              "total": 18,
+              "by_gender": {
+                "male": {
+                  "count": 13,
+                  "percent": 72.2
+                },
+                "female": {
+                  "count": 5,
+                  "percent": 27.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 33.3
+                },
+                "hispanic": {
+                  "count": 1,
+                  "percent": 5.6
+                },
+                "white": {
+                  "count": 11,
+                  "percent": 61.1
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 1,
+                "percent": 5.6
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 12,
+              "by_gender": {
+                "male": {
+                  "count": 10,
+                  "percent": 83.3
+                },
+                "female": {
+                  "count": 2,
+                  "percent": 16.7
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 2,
+                  "percent": 16.7
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 8,
+                  "percent": 66.7
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 16.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 4,
+                "percent": 33.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Matapeake Middle School (0407)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0407/0",
+          "star_rating": 4,
+          "percentile_rank": 75,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 73.6,
+              "Math": 22.5,
+              "Science": 52.5
+            }
+          },
+          "discipline": {
+            "total_suspensions": 57,
+            "in_school_suspensions": {
+              "total": 20,
+              "by_gender": {
+                "male": {
+                  "count": 16,
+                  "percent": 80.0
+                },
+                "female": {
+                  "count": 4,
+                  "percent": 20.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 1,
+                  "percent": 5.0
+                },
+                "hispanic": {
+                  "count": 2,
+                  "percent": 10.0
+                },
+                "white": {
+                  "count": 15,
+                  "percent": 75.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 2,
+                  "percent": 10.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 6,
+                "percent": 30.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 37,
+              "by_gender": {
+                "male": {
+                  "count": 27,
+                  "percent": 73.0
+                },
+                "female": {
+                  "count": 10,
+                  "percent": 27.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 2,
+                  "percent": 5.4
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Stevensville Middle School (0404)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0404/0",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "highest_grade_mcap": {
+            "grade_tested": 8,
+            "scores": {
+              "ELA": 55.2,
+              "Math": 18.5,
+              "Science": 42.9
+            }
+          },
+          "discipline": {
+            "total_suspensions": 49,
+            "in_school_suspensions": {
+              "total": 31,
+              "by_gender": {
+                "male": {
+                  "count": 25,
+                  "percent": 80.6
+                },
+                "female": {
+                  "count": 6,
+                  "percent": 19.4
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 7,
+                  "percent": 22.6
+                },
+                "hispanic": {
+                  "count": 3,
+                  "percent": 9.7
+                },
+                "white": {
+                  "count": 20,
+                  "percent": 64.5
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 3.2
+                }
+              },
+              "students_with_disabilities": {
+                "count": 8,
+                "percent": 25.8
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 18,
+              "by_gender": {
+                "male": {
+                  "count": 13,
+                  "percent": 72.2
+                },
+                "female": {
+                  "count": 5,
+                  "percent": 27.8
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 2,
+                  "percent": 11.1
+                },
+                "hispanic": {
+                  "count": 1,
+                  "percent": 5.6
+                },
+                "white": {
+                  "count": 12,
+                  "percent": 66.7
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 3,
+                  "percent": 16.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 3,
+                "percent": 16.7
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Kent Island High School (0405)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0405/0",
+          "star_rating": 4,
+          "percentile_rank": 72,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 75.9,
+              "Math": 5.1,
+              "Science": 53.1
+            }
+          },
+          "discipline": {
+            "total_suspensions": 115,
+            "in_school_suspensions": {
+              "total": 43,
+              "by_gender": {
+                "male": {
+                  "count": 25,
+                  "percent": 58.1
+                },
+                "female": {
+                  "count": 18,
+                  "percent": 41.9
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 6,
+                  "percent": 14.0
+                },
+                "hispanic": {
+                  "count": 5,
+                  "percent": 11.6
+                },
+                "white": {
+                  "count": 24,
+                  "percent": 55.8
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 8,
+                  "percent": 18.6
+                }
+              },
+              "students_with_disabilities": {
+                "count": 7,
+                "percent": 16.3
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 72,
+              "by_gender": {
+                "male": {
+                  "count": 51,
+                  "percent": 70.8
+                },
+                "female": {
+                  "count": 21,
+                  "percent": 29.2
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 14,
+                  "percent": 19.4
+                },
+                "hispanic": {
+                  "count": 7,
+                  "percent": 9.7
+                },
+                "white": {
+                  "count": 37,
+                  "percent": 51.4
+                },
+                "asian": {
+                  "count": 1,
+                  "percent": 1.4
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 11,
+                  "percent": 15.3
+                }
+              },
+              "students_with_disabilities": {
+                "count": 9,
+                "percent": 12.5
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        },
+        {
+          "name": "Queen Anne's County High School (0301)",
+          "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0301/0",
+          "star_rating": 3,
+          "percentile_rank": 58,
+          "highest_grade_mcap": {
+            "grade_tested": 10,
+            "scores": {
+              "ELA": 69.5,
+              "Math": 6.2,
+              "Science": 46.6
+            }
+          },
+          "discipline": {
+            "total_suspensions": 136,
+            "in_school_suspensions": {
+              "total": 6,
+              "by_gender": {
+                "male": {
+                  "count": 6,
+                  "percent": 100.0
+                },
+                "female": {
+                  "count": 0,
+                  "percent": 0.0
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "hispanic": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "white": {
+                  "count": 5,
+                  "percent": 83.3
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 1,
+                  "percent": 16.7
+                }
+              },
+              "students_with_disabilities": {
+                "count": 0,
+                "percent": 0.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            },
+            "out_of_school_suspensions": {
+              "total": 130,
+              "by_gender": {
+                "male": {
+                  "count": 84,
+                  "percent": 64.6
+                },
+                "female": {
+                  "count": 46,
+                  "percent": 35.4
+                }
+              },
+              "by_race": {
+                "black": {
+                  "count": 23,
+                  "percent": 17.7
+                },
+                "hispanic": {
+                  "count": 20,
+                  "percent": 15.4
+                },
+                "white": {
+                  "count": 70,
+                  "percent": 53.8
+                },
+                "asian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "american_indian": {
+                  "count": 0,
+                  "percent": 0.0
+                },
+                "two_or_more": {
+                  "count": 17,
+                  "percent": 13.1
+                }
+              },
+              "students_with_disabilities": {
+                "count": 52,
+                "percent": 40.0
+              },
+              "economically_disadvantaged": {
+                "count": 0,
+                "percent": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "performance_summary": {
+        "total_schools": 14,
+        "schools_with_mcap_data": 14,
+        "average_proficiency": {
+          "ELA": 53.6,
+          "Math": 24.5,
+          "Science": 38.5
+        },
+        "top_performing_schools": [
+          {
+            "name": "Bayside Elementary School (0403)",
+            "average_proficiency": 51.3
+          },
+          {
+            "name": "Matapeake Middle School (0407)",
+            "average_proficiency": 49.5
+          },
+          {
+            "name": "Kent Island High School (0405)",
+            "average_proficiency": 44.7
+          }
+        ],
+        "proficiency_by_level": {
+          "elementary": {
+            "ELA": 45.8,
+            "Math": 38.4,
+            "Science": 32.2,
+            "count": 8
+          },
+          "middle": {
+            "ELA": 55.8,
+            "Math": 13.2,
+            "Science": 39.1,
+            "count": 4
+          },
+          "high": {
+            "ELA": 72.7,
+            "Math": 5.7,
+            "Science": 49.9,
+            "count": 2
+          }
+        }
+      },
+      "data_year": "2023-2024 school year"
+    },
+    "data_sources": {
+      "census": "2022 American Community Survey 5-Year Estimates",
+      "district_leadership": "2024-2025 school year",
+      "board_meetings": "2025 (current)",
+      "schools_mcap": "2023-2024 school year (MCAP scores)",
+      "performance_summary": "2023-2024 school year (MCAP assessments)",
+      "discipline": "2023-2024 school year"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "county": "Caroline",
+    "teachers": 431,
+    "teacher_change_pct": 3.1,
+    "new_hires": 60,
+    "new_hires_pct": 13.9,
+    "student_enrollment": 8080,
+    "student_teacher_ratio": 18.7
+  },
+  {
+    "county": "Dorchester",
+    "teachers": 353,
+    "teacher_change_pct": -1.7,
+    "new_hires": 48,
+    "new_hires_pct": 13.6,
+    "student_enrollment": 7006,
+    "student_teacher_ratio": 19.8
+  },
+  {
+    "county": "Kent",
+    "teachers": 158,
+    "teacher_change_pct": 2.5,
+    "new_hires": 4,
+    "new_hires_pct": 2.5,
+    "student_enrollment": 4279,
+    "student_teacher_ratio": 27.1
+  },
+  {
+    "county": "Queen Anne's",
+    "teachers": 552,
+    "teacher_change_pct": 4.3,
+    "new_hires": 0,
+    "new_hires_pct": 0.0,
+    "student_enrollment": 11238,
+    "student_teacher_ratio": 20.4
+  },
+  {
+    "county": "Talbot",
+    "teachers": 345,
+    "teacher_change_pct": 1.8,
+    "new_hires": 51,
+    "new_hires_pct": 14.8,
+    "student_enrollment": 7122,
+    "student_teacher_ratio": 20.6
+  }
+]

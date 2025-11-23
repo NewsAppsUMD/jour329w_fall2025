@@ -1,0 +1,112 @@
+{
+  "Talbot": {
+    "county": "Talbot",
+    "total_k12_enrollment": 4529,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3096,
+        "percentage": 68.4
+      },
+      "Black_or_African_American": {
+        "count": 678,
+        "percentage": 15.0
+      },
+      "Asian": {
+        "count": 40,
+        "percentage": 0.9
+      },
+      "Hispanic_or_Latino": {
+        "count": 715,
+        "percentage": 15.8
+      }
+    }
+  },
+  "Kent": {
+    "county": "Kent",
+    "total_k12_enrollment": 1880,
+    "enrollment_by_race": {
+      "White": {
+        "count": 1347,
+        "percentage": 71.6
+      },
+      "Black_or_African_American": {
+        "count": 321,
+        "percentage": 17.1
+      },
+      "Asian": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Hispanic_or_Latino": {
+        "count": 212,
+        "percentage": 11.3
+      }
+    }
+  },
+  "Dorchester": {
+    "county": "Dorchester",
+    "total_k12_enrollment": 4353,
+    "enrollment_by_race": {
+      "White": {
+        "count": 2297,
+        "percentage": 52.8
+      },
+      "Black_or_African_American": {
+        "count": 1427,
+        "percentage": 32.8
+      },
+      "Asian": {
+        "count": 145,
+        "percentage": 3.3
+      },
+      "Hispanic_or_Latino": {
+        "count": 484,
+        "percentage": 11.1
+      }
+    }
+  },
+  "Caroline": {
+    "county": "Caroline",
+    "total_k12_enrollment": 4781,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3372,
+        "percentage": 70.5
+      },
+      "Black_or_African_American": {
+        "count": 706,
+        "percentage": 14.8
+      },
+      "Asian": {
+        "count": 9,
+        "percentage": 0.2
+      },
+      "Hispanic_or_Latino": {
+        "count": 694,
+        "percentage": 14.5
+      }
+    }
+  },
+  "Queen Anne's": {
+    "county": "Queen Anne's",
+    "total_k12_enrollment": 6626,
+    "enrollment_by_race": {
+      "White": {
+        "count": 5675,
+        "percentage": 85.6
+      },
+      "Black_or_African_American": {
+        "count": 275,
+        "percentage": 4.2
+      },
+      "Asian": {
+        "count": 86,
+        "percentage": 1.3
+      },
+      "Hispanic_or_Latino": {
+        "count": 590,
+        "percentage": 8.9
+      }
+    }
+  }
+}

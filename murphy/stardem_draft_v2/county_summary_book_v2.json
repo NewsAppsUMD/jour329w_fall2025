@@ -1,0 +1,1217 @@
+{
+  "metadata": {
+    "generated_date": "November 2025",
+    "data_sources_summary": {
+      "demographic_data": {
+        "source": "U.S. Census Bureau American Community Survey",
+        "year": "2022 (5-Year Estimates)",
+        "notes": "Population, income, poverty, education, broadband access, K-12 enrollment by race"
+      },
+      "school_performance": {
+        "source": "Maryland Comprehensive Assessment Program (MCAP)",
+        "year": "2023-2024 school year",
+        "notes": "Test scores in ELA, Math, and Science with comparisons to state averages"
+      },
+      "district_leadership": {
+        "source": "County School Board websites",
+        "year": "2024-2025 school year",
+        "notes": "Superintendent and board member information"
+      },
+      "teacher_staffing": {
+        "source": "MSDE Educator Dashboard",
+        "year": "2024",
+        "notes": "Teacher counts, student-teacher ratios, year-over-year changes, new hires"
+      },
+      "discipline_data": {
+        "source": "Maryland Department of Education Suspension Reports",
+        "year": "2023-2024 school year",
+        "notes": "Suspension counts by type, demographics, and offense categories"
+      }
+    },
+    "counties_included": [
+      "Talbot County",
+      "Kent County",
+      "Dorchester County",
+      "Caroline County",
+      "Queen Anne's County"
+    ],
+    "total_schools": 50,
+    "state_mcap_averages": {
+      "ELA_5": 45.0,
+      "ELA_8": 48.4,
+      "ELA_10": 59.5,
+      "Math_5": 30.7,
+      "Math_8": 8.7,
+      "Math_Algebra_1": 21.4,
+      "Science_5": 25.6,
+      "Science_8": 31.4,
+      "Science_All_High": 44.2
+    }
+  },
+  "Talbot County": {
+    "demographics": {
+      "total_population": 37663,
+      "school_age_population_5_17": 5280,
+      "total_k12_enrollment": 4529,
+      "enrollment_by_race": {
+        "White": {
+          "count": 3096,
+          "percentage": 68.4
+        },
+        "Black_or_African_American": {
+          "count": 678,
+          "percentage": 15.0
+        },
+        "Asian": {
+          "count": 40,
+          "percentage": 0.9
+        },
+        "Hispanic_or_Latino": {
+          "count": 715,
+          "percentage": 15.8
+        }
+      },
+      "poverty_rate_percent": 9.3,
+      "median_household_income": 81667,
+      "broadband_access_rate_percent": 88.1,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 19.5,
+        "adult_education_25_and_over": {
+          "total_population": 28623,
+          "high_school_graduate": 6023,
+          "bachelors_degree": 6565,
+          "masters_degree": 3227,
+          "professional_degree": 1424,
+          "doctorate": 649
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Sharon Pepukayi",
+        "website": "https://www.tcps.k12.md.us/",
+        "board_members": [
+          {
+            "name": "Emily Jackson",
+            "position": "President",
+            "district": "District 4"
+          },
+          {
+            "name": "Amy Dodson",
+            "position": "Vice President",
+            "district": "District 3"
+          },
+          {
+            "name": "Dyshekia W. M. Strawberry",
+            "position": "Board Member",
+            "district": "District 1"
+          },
+          {
+            "name": "Ann O'Connor",
+            "position": "Board Member",
+            "district": "District 2"
+          },
+          {
+            "name": "Karla Wieland-Cherry",
+            "position": "Board Member",
+            "district": "District 5"
+          },
+          {
+            "name": "Cynthia M. Jurrius",
+            "position": "Board Member",
+            "district": "District 6"
+          },
+          {
+            "name": "Deborah Bridges",
+            "position": "Board Member",
+            "district": "District 7"
+          }
+        ]
+      },
+      "board_meetings": {
+        "schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+        "location": "Talbot County Education Center",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": [
+          {
+            "date": "November 17, 2025",
+            "day": "Monday",
+            "type": "Work Session",
+            "time": "5:00 PM"
+          },
+          {
+            "date": "November 19, 2025",
+            "day": "Wednesday",
+            "type": "Regular Meeting",
+            "time": "7:00 PM"
+          },
+          {
+            "date": "December 15, 2025",
+            "day": "Monday",
+            "type": "Work Session",
+            "time": "TBA"
+          },
+          {
+            "date": "December 17, 2025",
+            "day": "Wednesday",
+            "type": "Regular Meeting",
+            "time": "TBA"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 345,
+        "year_over_year_change_pct": 1.8,
+        "new_hires": 51,
+        "new_hires_pct": 14.8,
+        "student_teacher_ratio": 20.6
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Chapel District Elementary (0401)",
+        "Easton Elementary (0104)",
+        "St. Michaels Elementary (0204)",
+        "Tilghman Elementary (0501)",
+        "White Marsh Elementary (0302)"
+      ],
+      "middle": [
+        "Easton Middle (0106)",
+        "St. Michaels Middle/High School (0202)"
+      ],
+      "high": [
+        "Easton High (0101)"
+      ],
+      "other": []
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 43.8,
+            "state_average": 45.0,
+            "comparison": "-1.2 below state",
+            "schools_counted": 4
+          },
+          "Math": {
+            "average_rate": 27.9,
+            "state_average": 30.7,
+            "comparison": "-2.8 below state",
+            "schools_counted": 4
+          },
+          "Science": {
+            "average_rate": 29.0,
+            "state_average": 25.6,
+            "comparison": "+3.4 above state",
+            "schools_counted": 4
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 41.2,
+            "state_average": 48.4,
+            "comparison": "-7.2 below state",
+            "schools_counted": 2
+          },
+          "Math": {
+            "average_rate": 5.1,
+            "state_average": 8.7,
+            "comparison": "-3.6 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 21.0,
+            "state_average": 31.4,
+            "comparison": "-10.4 below state",
+            "schools_counted": 2
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 66.7,
+            "state_average": 59.5,
+            "comparison": "+7.2 above state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 6.1,
+            "state_average": 21.4,
+            "comparison": "-15.3 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 46.1,
+            "state_average": 44.2,
+            "comparison": "+1.9 above state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Talbot",
+      "school_name": "Talbot County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "total",
+      "total_suspensions": 357,
+      "gender": {
+        "male": 251,
+        "male_pct": 70.3,
+        "female": 106,
+        "female_pct": 29.7
+      },
+      "race": {
+        "asian": 1,
+        "asian_pct": 0.3,
+        "black": 171,
+        "black_pct": 47.9,
+        "hispanic": 43,
+        "hispanic_pct": 12.0,
+        "white": 101,
+        "white_pct": 28.3,
+        "two_or_more": 41,
+        "two_or_more_pct": 11.5
+      },
+      "disability": {
+        "students_with_disabilities": 87,
+        "students_with_disabilities_pct": 24.4
+      },
+      "offense": {
+        "attendance": 0,
+        "attendance_pct": 0.0,
+        "dangerous_substances": 49,
+        "dangerous_substances_pct": 13.7,
+        "weapons": 11,
+        "weapons_pct": 3.1,
+        "attacks_threats_fighting": 194,
+        "attacks_threats_fighting_pct": 54.3,
+        "arson_fire_explosives": 3,
+        "arson_fire_explosives_pct": 0.8,
+        "sex_offenses": 2,
+        "sex_offenses_pct": 0.6,
+        "disrespect_disruption": 88,
+        "disrespect_disruption_pct": 24.6,
+        "other": 10,
+        "other_pct": 2.8
+      }
+    }
+  },
+  "Kent County": {
+    "demographics": {
+      "total_population": 19289,
+      "school_age_population_5_17": 2311,
+      "total_k12_enrollment": 1880,
+      "enrollment_by_race": {
+        "White": {
+          "count": 1347,
+          "percentage": 71.6
+        },
+        "Black_or_African_American": {
+          "count": 321,
+          "percentage": 17.1
+        },
+        "Asian": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "Hispanic_or_Latino": {
+          "count": 212,
+          "percentage": 11.3
+        }
+      },
+      "poverty_rate_percent": 9.5,
+      "median_household_income": 71635,
+      "broadband_access_rate_percent": 79.4,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 22.5,
+        "adult_education_25_and_over": {
+          "total_population": 13958,
+          "high_school_graduate": 4103,
+          "bachelors_degree": 2939,
+          "masters_degree": 1474,
+          "professional_degree": 404,
+          "doctorate": 397
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Mary McComas",
+        "website": "https://www.kent.k12.md.us/",
+        "board_members": [
+          {
+            "name": "Laura McKenzie",
+            "position": "Board Member"
+          },
+          {
+            "name": "John Queen",
+            "position": "Board Member"
+          },
+          {
+            "name": "Aretha Dorsey",
+            "position": "Board Member"
+          },
+          {
+            "name": "Frank Rhodes",
+            "position": "Board Member"
+          },
+          {
+            "name": "Trish McGee",
+            "position": "Board Member"
+          }
+        ]
+      },
+      "board_meetings": {
+        "schedule": "2nd Monday of each month",
+        "location": "5608 Boundary Ave, Rock Hall, MD 21661",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": [
+          {
+            "date": "November 10, 2025",
+            "day": "Monday",
+            "type": "Open Session Meeting"
+          },
+          {
+            "date": "November 17, 2025",
+            "day": "Monday",
+            "type": "Open Session Meeting"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 158,
+        "year_over_year_change_pct": 2.5,
+        "new_hires": 4,
+        "new_hires_pct": 2.5,
+        "student_teacher_ratio": 27.1
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Galena Elementary School (0105)",
+        "H. H. Garnett Elementary (0403)",
+        "Rock Hall Elementary (0504)"
+      ],
+      "middle": [
+        "Kent County Middle School (0402)"
+      ],
+      "high": [
+        "Kent County High (0301)"
+      ],
+      "other": []
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 36.7,
+            "state_average": 45.0,
+            "comparison": "-8.3 below state",
+            "schools_counted": 3
+          },
+          "Math": {
+            "average_rate": 19.8,
+            "state_average": 30.7,
+            "comparison": "-10.9 below state",
+            "schools_counted": 3
+          },
+          "Science": {
+            "average_rate": 26.7,
+            "state_average": 25.6,
+            "comparison": "+1.1 above state",
+            "schools_counted": 3
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 25.0,
+            "state_average": 48.4,
+            "comparison": "-23.4 below state",
+            "schools_counted": 1
+          },
+          "Math": {
+            "average_rate": 5.0,
+            "state_average": 8.7,
+            "comparison": "-3.7 below state",
+            "schools_counted": 1
+          },
+          "Science": {
+            "average_rate": 16.8,
+            "state_average": 31.4,
+            "comparison": "-14.6 below state",
+            "schools_counted": 1
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 53.5,
+            "state_average": 59.5,
+            "comparison": "-6.0 below state",
+            "schools_counted": 1
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 6.1,
+            "state_average": 21.4,
+            "comparison": "-15.3 below state",
+            "schools_counted": 1
+          },
+          "Science": {
+            "average_rate": 27.7,
+            "state_average": 44.2,
+            "comparison": "-16.5 below state",
+            "schools_counted": 1
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Kent",
+      "school_name": "Kent County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "total",
+      "total_suspensions": 518,
+      "gender": {
+        "male": 365,
+        "male_pct": 70.5,
+        "female": 153,
+        "female_pct": 29.5
+      },
+      "race": {
+        "asian": 1,
+        "asian_pct": 0.2,
+        "black": 234,
+        "black_pct": 45.2,
+        "hispanic": 49,
+        "hispanic_pct": 9.5,
+        "white": 147,
+        "white_pct": 28.4,
+        "two_or_more": 87,
+        "two_or_more_pct": 16.8
+      },
+      "disability": {
+        "students_with_disabilities": 100,
+        "students_with_disabilities_pct": 19.3
+      },
+      "offense": {
+        "attendance": 58,
+        "attendance_pct": 11.2,
+        "dangerous_substances": 34,
+        "dangerous_substances_pct": 6.6,
+        "weapons": 6,
+        "weapons_pct": 1.2,
+        "attacks_threats_fighting": 127,
+        "attacks_threats_fighting_pct": 24.5,
+        "arson_fire_explosives": 2,
+        "arson_fire_explosives_pct": 0.4,
+        "sex_offenses": 3,
+        "sex_offenses_pct": 0.6,
+        "disrespect_disruption": 278,
+        "disrespect_disruption_pct": 53.7,
+        "other": 10,
+        "other_pct": 1.9
+      }
+    }
+  },
+  "Dorchester County": {
+    "demographics": {
+      "total_population": 32557,
+      "school_age_population_5_17": 5100,
+      "total_k12_enrollment": 4353,
+      "enrollment_by_race": {
+        "White": {
+          "count": 2297,
+          "percentage": 52.8
+        },
+        "Black_or_African_American": {
+          "count": 1427,
+          "percentage": 32.8
+        },
+        "Asian": {
+          "count": 145,
+          "percentage": 3.3
+        },
+        "Hispanic_or_Latino": {
+          "count": 484,
+          "percentage": 11.1
+        }
+      },
+      "poverty_rate_percent": 15.4,
+      "median_household_income": 57490,
+      "broadband_access_rate_percent": 85.7,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 22.1,
+        "adult_education_25_and_over": {
+          "total_population": 23327,
+          "high_school_graduate": 8376,
+          "bachelors_degree": 2425,
+          "masters_degree": 1381,
+          "professional_degree": 379,
+          "doctorate": 283
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Jymil Thompson",
+        "website": "https://www.dcpsmd.org/",
+        "board_members": []
+      },
+      "board_meetings": {
+        "schedule": "3rd Thursday of each month",
+        "location": "700 Glasgow St, Cambridge, MD 21613",
+        "time": "6:00 PM",
+        "phone": null,
+        "upcoming_meetings": [
+          {
+            "date": "September 18, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          },
+          {
+            "date": "October 23, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          },
+          {
+            "date": "November 20, 2025",
+            "day": "Thursday",
+            "type": "Monthly Meeting",
+            "time": "6:00 PM"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 353,
+        "year_over_year_change_pct": -1.7,
+        "new_hires": 48,
+        "new_hires_pct": 13.6,
+        "student_teacher_ratio": 19.8
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Choptank Elementary School (0716)",
+        "Hurlock Elementary School (1503)",
+        "Maple Elementary School (0711)",
+        "Sandy Hill Elementary School (0710)",
+        "Vienna Elementary School (0302)",
+        "Warwick Elementary School (0205)"
+      ],
+      "middle": [
+        "Mace's Lane Middle School (0707)",
+        "North Dorchester Middle School (0208)"
+      ],
+      "high": [
+        "Cambridge-South Dorchester High School (0713)",
+        "North Dorchester High School (0207)"
+      ],
+      "other": [
+        "South Dorchester School (0508)",
+        "Dorchester County Career and Technology Center (0714)",
+        "Judith P. Hoyer Early Childhood Center (0709)"
+      ]
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 38.0,
+            "state_average": 45.0,
+            "comparison": "-7.0 below state",
+            "schools_counted": 6
+          },
+          "Math": {
+            "average_rate": 18.2,
+            "state_average": 30.7,
+            "comparison": "-12.4 below state",
+            "schools_counted": 6
+          },
+          "Science": {
+            "average_rate": 16.1,
+            "state_average": 25.6,
+            "comparison": "-9.5 below state",
+            "schools_counted": 6
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 40.1,
+            "state_average": 48.4,
+            "comparison": "-8.3 below state",
+            "schools_counted": 2
+          },
+          "Math": {
+            "average_rate": 9.9,
+            "state_average": 8.7,
+            "comparison": "+1.2 above state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 15.6,
+            "state_average": 31.4,
+            "comparison": "-15.8 below state",
+            "schools_counted": 2
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 35.7,
+            "state_average": 59.5,
+            "comparison": "-23.8 below state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 5.0,
+            "state_average": 21.4,
+            "comparison": "-16.4 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 31.8,
+            "state_average": 44.2,
+            "comparison": "-12.5 below state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Dorchester",
+      "school_name": "Dorchester County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "total",
+      "total_suspensions": 1547,
+      "gender": {
+        "male": 985,
+        "male_pct": 63.7,
+        "female": 562,
+        "female_pct": 36.3
+      },
+      "race": {
+        "asian": 6,
+        "asian_pct": 0.4,
+        "black": 1149,
+        "black_pct": 74.3,
+        "hispanic": 58,
+        "hispanic_pct": 3.7,
+        "white": 198,
+        "white_pct": 12.8,
+        "two_or_more": 136,
+        "two_or_more_pct": 8.8
+      },
+      "disability": {
+        "students_with_disabilities": 163,
+        "students_with_disabilities_pct": 10.5
+      },
+      "offense": {
+        "attendance": 0,
+        "attendance_pct": 0.0,
+        "dangerous_substances": 103,
+        "dangerous_substances_pct": 6.7,
+        "weapons": 12,
+        "weapons_pct": 0.8,
+        "attacks_threats_fighting": 856,
+        "attacks_threats_fighting_pct": 55.3,
+        "arson_fire_explosives": 3,
+        "arson_fire_explosives_pct": 0.2,
+        "sex_offenses": 20,
+        "sex_offenses_pct": 1.3,
+        "disrespect_disruption": 490,
+        "disrespect_disruption_pct": 31.7,
+        "other": 63,
+        "other_pct": 4.1
+      }
+    }
+  },
+  "Caroline County": {
+    "demographics": {
+      "total_population": 33320,
+      "school_age_population_5_17": 5791,
+      "total_k12_enrollment": 4781,
+      "enrollment_by_race": {
+        "White": {
+          "count": 3372,
+          "percentage": 70.5
+        },
+        "Black_or_African_American": {
+          "count": 706,
+          "percentage": 14.8
+        },
+        "Asian": {
+          "count": 9,
+          "percentage": 0.2
+        },
+        "Hispanic_or_Latino": {
+          "count": 694,
+          "percentage": 14.5
+        }
+      },
+      "poverty_rate_percent": 12.9,
+      "median_household_income": 65326,
+      "broadband_access_rate_percent": 85.6,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 25.2,
+        "adult_education_25_and_over": {
+          "total_population": 22837,
+          "high_school_graduate": 8201,
+          "bachelors_degree": 2362,
+          "masters_degree": 1335,
+          "professional_degree": 259,
+          "doctorate": 88
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Derek L. Simmons",
+        "website": "https://www.carolineschools.org/",
+        "board_members": [
+          {
+            "name": "Arevia Michele Wayman",
+            "position": "President",
+            "type": "Appointed",
+            "appointed": "2021, reappointed 2022",
+            "term": "Ends 2026"
+          },
+          {
+            "name": "Mark R. Jones",
+            "position": "Vice President",
+            "type": "Appointed",
+            "appointed": "2020, reappointed 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "Chrissy Bartz",
+            "position": "Member",
+            "type": "Elected",
+            "appointed": "July 2024",
+            "elected": "November 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "Stefanie Johnson",
+            "position": "Member",
+            "type": "Elected",
+            "district": "District 2",
+            "elected": "November 2024",
+            "term": "Ends 2028"
+          },
+          {
+            "name": "P. Troy Plutschak",
+            "position": "Member",
+            "type": "Elected",
+            "elected": "2022",
+            "term": "Ends 2026"
+          }
+        ]
+      },
+      "board_meetings": {
+        "schedule": "1st Tuesday of each month (Regular Meeting), 3rd Thursday of each month (Work Session)",
+        "location": "Caroline County Board of Education",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": []
+      },
+      "teacher_data": {
+        "total_teachers": 431,
+        "year_over_year_change_pct": 3.1,
+        "new_hires": 60,
+        "new_hires_pct": 13.9,
+        "student_teacher_ratio": 18.7
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Denton Elementary School (0301)",
+        "Federalsburg Elementary School (0501)",
+        "Greensboro Elementary School (0201)",
+        "Preston Elementary School (0401)",
+        "Ridgely Elementary School (0701)"
+      ],
+      "middle": [
+        "Colonel Richardson Middle School (0802)",
+        "Lockerman Middle School (0302)"
+      ],
+      "high": [
+        "Colonel Richardson High School (0801)",
+        "North Caroline High School (0703)"
+      ],
+      "other": [
+        "Caroline Career & Technology Center (0704)"
+      ]
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 37.7,
+            "state_average": 45.0,
+            "comparison": "-7.3 below state",
+            "schools_counted": 5
+          },
+          "Math": {
+            "average_rate": 26.7,
+            "state_average": 30.7,
+            "comparison": "-4.0 below state",
+            "schools_counted": 5
+          },
+          "Science": {
+            "average_rate": 17.7,
+            "state_average": 25.6,
+            "comparison": "-7.9 below state",
+            "schools_counted": 5
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 52.5,
+            "state_average": 48.4,
+            "comparison": "+4.1 above state",
+            "schools_counted": 2
+          },
+          "Math": {
+            "average_rate": 5.5,
+            "state_average": 8.7,
+            "comparison": "-3.2 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 24.9,
+            "state_average": 31.4,
+            "comparison": "-6.5 below state",
+            "schools_counted": 2
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 63.5,
+            "state_average": 59.5,
+            "comparison": "+4.0 above state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 5.1,
+            "state_average": 21.4,
+            "comparison": "-16.3 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 38.9,
+            "state_average": 44.2,
+            "comparison": "-5.4 below state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Caroline",
+      "school_name": "Caroline County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "total",
+      "total_suspensions": 937,
+      "gender": {
+        "male": 661,
+        "male_pct": 70.5,
+        "female": 276,
+        "female_pct": 29.5
+      },
+      "race": {
+        "asian": 1,
+        "asian_pct": 0.1,
+        "black": 368,
+        "black_pct": 39.3,
+        "hispanic": 72,
+        "hispanic_pct": 7.7,
+        "white": 402,
+        "white_pct": 42.9,
+        "two_or_more": 94,
+        "two_or_more_pct": 10.0
+      },
+      "disability": {
+        "students_with_disabilities": 213,
+        "students_with_disabilities_pct": 22.7
+      },
+      "offense": {
+        "attendance": 18,
+        "attendance_pct": 1.9,
+        "dangerous_substances": 93,
+        "dangerous_substances_pct": 9.9,
+        "weapons": 7,
+        "weapons_pct": 0.7,
+        "attacks_threats_fighting": 439,
+        "attacks_threats_fighting_pct": 46.9,
+        "arson_fire_explosives": 4,
+        "arson_fire_explosives_pct": 0.4,
+        "sex_offenses": 6,
+        "sex_offenses_pct": 0.6,
+        "disrespect_disruption": 341,
+        "disrespect_disruption_pct": 36.4,
+        "other": 29,
+        "other_pct": 3.1
+      }
+    }
+  },
+  "Queen Anne's County": {
+    "demographics": {
+      "total_population": 50316,
+      "school_age_population_5_17": 8146,
+      "total_k12_enrollment": 6626,
+      "enrollment_by_race": {
+        "White": {
+          "count": 5675,
+          "percentage": 85.6
+        },
+        "Black_or_African_American": {
+          "count": 275,
+          "percentage": 4.2
+        },
+        "Asian": {
+          "count": 86,
+          "percentage": 1.3
+        },
+        "Hispanic_or_Latino": {
+          "count": 590,
+          "percentage": 8.9
+        }
+      },
+      "poverty_rate_percent": 6.9,
+      "median_household_income": 108332,
+      "broadband_access_rate_percent": 86.4,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 23.0,
+        "adult_education_25_and_over": {
+          "total_population": 36066,
+          "high_school_graduate": 9450,
+          "bachelors_degree": 8244,
+          "masters_degree": 3623,
+          "professional_degree": 774,
+          "doctorate": 549
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Matthew Kibler (Interim)",
+        "website": "https://www.qacps.org/",
+        "board_members": [
+          {
+            "name": "Shannon Bent",
+            "position": "Board President",
+            "district": "District 1",
+            "term": "2022-2026"
+          },
+          {
+            "name": "Alexis Capes",
+            "position": "Board Vice President",
+            "district": null,
+            "term": "2022-2026"
+          },
+          {
+            "name": "Mathew Drayer",
+            "position": "Board Member",
+            "district": "District 2",
+            "term": "2024-2028"
+          },
+          {
+            "name": "Carrie Sutherland",
+            "position": "Board Member",
+            "district": "District 3",
+            "term": "2024-2028"
+          },
+          {
+            "name": "Kendra Eichler",
+            "position": "Board Member",
+            "district": "District 4",
+            "term": "2024-2028"
+          }
+        ]
+      },
+      "board_meetings": {
+        "schedule": "1st Wednesday of each month",
+        "location": "202 Chesterfield Avenue, Centreville, MD 21617",
+        "time": null,
+        "phone": null,
+        "upcoming_meetings": [
+          {
+            "date": "November 5, 2025",
+            "day": "Wednesday",
+            "type": "School Board Meeting - Closed Session",
+            "time": "4:30 PM"
+          },
+          {
+            "date": "November 5, 2025",
+            "day": "Wednesday",
+            "type": "School Board Meeting - Open Session",
+            "time": "6:00 PM"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 552,
+        "year_over_year_change_pct": 4.3,
+        "new_hires": 0,
+        "new_hires_pct": 0.0,
+        "student_teacher_ratio": 20.4
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Bayside Elementary School (0403)",
+        "Centreville Elementary School (0308)",
+        "Church Hill Elementary School (0202)",
+        "Grasonville Elementary School (0503)",
+        "Kennard Elementary School (0302)",
+        "Kent Island Elementary School (0402)",
+        "Matapeake Elementary School (0406)",
+        "Sudlersville Elementary School (0106)"
+      ],
+      "middle": [
+        "Sudlersville Middle School (0101)",
+        "Centreville Middle School (0303)",
+        "Matapeake Middle School (0407)",
+        "Stevensville Middle School (0404)"
+      ],
+      "high": [
+        "Kent Island High School (0405)",
+        "Queen Anne's County High School (0301)"
+      ],
+      "other": []
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 45.8,
+            "state_average": 45.0,
+            "comparison": "+0.8 above state",
+            "schools_counted": 6
+          },
+          "Math": {
+            "average_rate": 38.4,
+            "state_average": 30.7,
+            "comparison": "+7.7 above state",
+            "schools_counted": 6
+          },
+          "Science": {
+            "average_rate": 32.2,
+            "state_average": 25.6,
+            "comparison": "+6.6 above state",
+            "schools_counted": 4
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 55.8,
+            "state_average": 48.4,
+            "comparison": "+7.4 above state",
+            "schools_counted": 4
+          },
+          "Math": {
+            "average_rate": 13.2,
+            "state_average": 8.7,
+            "comparison": "+4.5 above state",
+            "schools_counted": 4
+          },
+          "Science": {
+            "average_rate": 39.1,
+            "state_average": 31.4,
+            "comparison": "+7.7 above state",
+            "schools_counted": 4
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 72.7,
+            "state_average": 59.5,
+            "comparison": "+13.2 above state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 5.7,
+            "state_average": 21.4,
+            "comparison": "-15.7 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 49.9,
+            "state_average": 44.2,
+            "comparison": "+5.6 above state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Queen Anne's",
+      "school_name": "Queen Anne's County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "total",
+      "total_suspensions": 464,
+      "gender": {
+        "male": 330,
+        "male_pct": 71.1,
+        "female": 134,
+        "female_pct": 28.9
+      },
+      "race": {
+        "asian": 1,
+        "asian_pct": 0.2,
+        "black": 83,
+        "black_pct": 17.9,
+        "hispanic": 46,
+        "hispanic_pct": 9.9,
+        "white": 256,
+        "white_pct": 55.2,
+        "two_or_more": 73,
+        "two_or_more_pct": 15.7
+      },
+      "disability": {
+        "students_with_disabilities": 118,
+        "students_with_disabilities_pct": 25.4
+      },
+      "offense": {
+        "attendance": 22,
+        "attendance_pct": 4.7,
+        "dangerous_substances": 55,
+        "dangerous_substances_pct": 11.9,
+        "weapons": 5,
+        "weapons_pct": 1.1,
+        "attacks_threats_fighting": 191,
+        "attacks_threats_fighting_pct": 41.2,
+        "arson_fire_explosives": 7,
+        "arson_fire_explosives_pct": 1.5,
+        "sex_offenses": 6,
+        "sex_offenses_pct": 1.3,
+        "disrespect_disruption": 163,
+        "disrespect_disruption_pct": 35.1,
+        "other": 15,
+        "other_pct": 3.2
+      }
+    }
+  }
+}

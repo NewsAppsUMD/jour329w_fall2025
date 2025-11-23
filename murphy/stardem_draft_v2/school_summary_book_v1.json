@@ -1,0 +1,3710 @@
+{
+  "metadata": {
+    "generated_date": "November 2025",
+    "data_sources_summary": {
+      "demographic_data": {
+        "source": "U.S. Census Bureau American Community Survey",
+        "year": "2022 (5-Year Estimates)",
+        "notes": "Population, income, poverty, education, broadband access"
+      },
+      "school_performance": {
+        "source": "Maryland Comprehensive Assessment Program (MCAP)",
+        "year": "2023-2024 school year",
+        "notes": "Test scores in ELA, Math, and Science"
+      },
+      "school_information": {
+        "source": "Maryland Report Card",
+        "year": "2023-2024 school year",
+        "notes": "School ratings, enrollment, staff data"
+      },
+      "district_leadership": {
+        "source": "County School Board websites",
+        "year": "2024-2025 school year",
+        "notes": "Superintendent and board member information"
+      },
+      "teacher_staffing": {
+        "source": "MSDE Educator Dashboard",
+        "year": "2024",
+        "notes": "Teacher counts, student-teacher ratios, year-over-year changes, new hires"
+      },
+      "discipline_data": {
+        "source": "Maryland Department of Education Suspension Reports",
+        "year": "2023-2024 school year",
+        "notes": "Suspension counts by type, demographics, and offense categories"
+      }
+    },
+    "counties_included": [
+      "Talbot",
+      "Kent",
+      "Dorchester",
+      "Caroline",
+      "Queen Anne's"
+    ],
+    "total_schools": 50
+  },
+  "schools_by_county": {
+    "Talbot": {
+      "county_name": "Talbot",
+      "total_schools": 8,
+      "schools": [
+        {
+          "school_name": "Chapel District Elementary (0401)",
+          "school_number": "0401",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 76,
+          "mcap_scores": {
+            "ELA_5": 67.5,
+            "Math_5": 55.0,
+            "Science_5": 45.0
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "Chapel District Elementary",
+              "school_number": "0401",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 8,
+              "gender": {
+                "male": 8,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 8,
+                "white_pct": 100.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 5,
+                "students_with_disabilities_pct": 62.5
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 8,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Easton Elementary (0104)",
+          "school_number": "0104",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 26,
+          "mcap_scores": {
+            "ELA_5": 19.8,
+            "Math_5": 11.9,
+            "Science_5": 11.9
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "Easton Elementary",
+              "school_number": "0104",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 40,
+              "gender": {
+                "male": 31,
+                "male_pct": 77.5,
+                "female": 9,
+                "female_pct": 22.5
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 16,
+                "black_pct": 40.0,
+                "hispanic": 4,
+                "hispanic_pct": 10.0,
+                "white": 13,
+                "white_pct": 32.5,
+                "two_or_more": 7,
+                "two_or_more_pct": 17.5
+              },
+              "disability": {
+                "students_with_disabilities": 18,
+                "students_with_disabilities_pct": 45.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 2,
+                "weapons_pct": 5.0,
+                "attacks_threats_fighting": 30,
+                "attacks_threats_fighting_pct": 75.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.5,
+                "disrespect_disruption": 6,
+                "disrespect_disruption_pct": 15.0,
+                "other": 1,
+                "other_pct": 2.5
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "St. Michaels Elementary (0204)",
+          "school_number": "0204",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 81,
+          "mcap_scores": {
+            "ELA_5": 38.0,
+            "Math_5": 26.0,
+            "Science_5": 30.0
+          }
+        },
+        {
+          "school_name": "Tilghman Elementary (0501)",
+          "school_number": "0501",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 13,
+          "mcap_scores": {
+            "ELA_5": 29.4,
+            "Math_5": 5.9,
+            "Science_5": 17.6
+          }
+        },
+        {
+          "school_name": "White Marsh Elementary (0302)",
+          "school_number": "0302",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 74,
+          "mcap_scores": {
+            "ELA_5": 58.5,
+            "Math_5": 39.0,
+            "Science_5": 41.5
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "White Marsh Elementary",
+              "school_number": "0302",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 5,
+              "gender": {
+                "male": 4,
+                "male_pct": 80.0,
+                "female": 1,
+                "female_pct": 20.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 2,
+                "white_pct": 40.0,
+                "two_or_more": 3,
+                "two_or_more_pct": 60.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 20.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 1,
+                "weapons_pct": 20.0,
+                "attacks_threats_fighting": 2,
+                "attacks_threats_fighting_pct": 40.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 2,
+                "disrespect_disruption_pct": 40.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Easton Middle (0106)",
+          "school_number": "0106",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 34,
+          "mcap_scores": {
+            "ELA_8": 33.2,
+            "Math_8": 5.2,
+            "Science_8": 18.1
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "Easton Middle",
+              "school_number": "0106",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 94,
+              "gender": {
+                "male": 63,
+                "male_pct": 67.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 5,
+                "dangerous_substances_pct": 5.3,
+                "weapons": 2,
+                "weapons_pct": 2.1,
+                "attacks_threats_fighting": 60,
+                "attacks_threats_fighting_pct": 63.8,
+                "arson_fire_explosives": 1,
+                "arson_fire_explosives_pct": 1.1,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 1.1,
+                "disrespect_disruption": 25,
+                "disrespect_disruption_pct": 26.6,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "St. Michaels Middle/High School (0202)",
+          "school_number": "0202",
+          "school_level": "Middle/High",
+          "star_rating": 3,
+          "percentile_rank": 54,
+          "mcap_scores": {
+            "ELA_5": 45.3,
+            "Math_5": 39.6,
+            "Science_5": null
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "St. Michaels Middle/High School",
+              "school_number": "0202",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 40,
+              "gender": {
+                "male": 29,
+                "male_pct": 72.5,
+                "female": 11,
+                "female_pct": 27.5
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 20,
+                "black_pct": 50.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 15,
+                "white_pct": 37.5,
+                "two_or_more": 5,
+                "two_or_more_pct": 12.5
+              },
+              "disability": {
+                "students_with_disabilities": 8,
+                "students_with_disabilities_pct": 20.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 3,
+                "dangerous_substances_pct": 7.5,
+                "weapons": 1,
+                "weapons_pct": 2.5,
+                "attacks_threats_fighting": 18,
+                "attacks_threats_fighting_pct": 45.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 14,
+                "disrespect_disruption_pct": 35.0,
+                "other": 4,
+                "other_pct": 10.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Easton High (0101)",
+          "school_number": "0101",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 41,
+          "mcap_scores": {
+            "ELA_10": 56.6,
+            "Math_10": 5.0,
+            "Science_10": 49.4
+          },
+          "suspensions": [
+            {
+              "county": "Talbot",
+              "school_name": "Easton High",
+              "school_number": "0101",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 170,
+              "gender": {
+                "male": 116,
+                "male_pct": 68.2,
+                "female": 54,
+                "female_pct": 31.8
+              },
+              "race": {
+                "asian": 1,
+                "asian_pct": 0.6,
+                "black": 94,
+                "black_pct": 55.3,
+                "hispanic": 20,
+                "hispanic_pct": 11.8,
+                "white": 39,
+                "white_pct": 22.9,
+                "two_or_more": 16,
+                "two_or_more_pct": 9.4
+              },
+              "disability": {
+                "students_with_disabilities": 34,
+                "students_with_disabilities_pct": 20.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 41,
+                "dangerous_substances_pct": 24.1,
+                "weapons": 5,
+                "weapons_pct": 2.9,
+                "attacks_threats_fighting": 76,
+                "attacks_threats_fighting_pct": 44.7,
+                "arson_fire_explosives": 2,
+                "arson_fire_explosives_pct": 1.2,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 41,
+                "disrespect_disruption_pct": 24.1,
+                "other": 5,
+                "other_pct": 2.9
+              }
+            }
+          ]
+        }
+      ],
+      "state_mcap_averages": {
+        "ELA_5": 45.0,
+        "ELA_8": 48.4,
+        "ELA_10": 59.5,
+        "Math_5": 30.7,
+        "Math_8": 8.7,
+        "Math_Algebra_1": 21.4,
+        "Science_5": 25.6,
+        "Science_8": 31.4,
+        "Science_All_High": 44.2
+      }
+    },
+    "Kent": {
+      "county_name": "Kent",
+      "total_schools": 5,
+      "schools": [
+        {
+          "school_name": "Galena Elementary School (0105)",
+          "school_number": "0105",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 25,
+          "mcap_scores": {
+            "ELA_5": 27.0,
+            "Math_5": 8.3,
+            "Science_5": 10.5
+          },
+          "suspensions": [
+            {
+              "county": "Kent",
+              "school_name": "Galena Elementary School",
+              "school_number": "0105",
+              "suspension_type": "in_school",
+              "total_suspensions": 7,
+              "gender": {
+                "male": 7,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 3,
+                "black_pct": 42.9,
+                "hispanic": 1,
+                "hispanic_pct": 14.3,
+                "white": 1,
+                "white_pct": 14.3,
+                "two_or_more": 2,
+                "two_or_more_pct": 28.6
+              },
+              "disability": {
+                "students_with_disabilities": 2,
+                "students_with_disabilities_pct": 28.6
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 5,
+                "attacks_threats_fighting_pct": 71.4,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 2,
+                "disrespect_disruption_pct": 28.6,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Kent",
+              "school_name": "Galena Elementary School",
+              "school_number": "0105",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 4,
+              "gender": {
+                "male": 4,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 2,
+                "black_pct": 50.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 2,
+                "white_pct": 50.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 25.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 2,
+                "attacks_threats_fighting_pct": 50.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 2,
+                "disrespect_disruption_pct": 50.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "H. H. Garnett Elementary (0403)",
+          "school_number": "0403",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "mcap_scores": {
+            "ELA_5": 47.2,
+            "Math_5": 15.1,
+            "Science_5": 11.3
+          }
+        },
+        {
+          "school_name": "Rock Hall Elementary (0504)",
+          "school_number": "0504",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 79,
+          "mcap_scores": {
+            "ELA_5": 36.0,
+            "Math_5": 36.0,
+            "Science_5": 58.3
+          },
+          "suspensions": [
+            {
+              "county": "Kent",
+              "school_name": "Rock Hall Elementary",
+              "school_number": "0504",
+              "suspension_type": "in_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 0,
+                "male_pct": 0.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Kent",
+              "school_name": "Rock Hall Elementary",
+              "school_number": "0504",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 0,
+                "male_pct": 0.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Kent County Middle School (0402)",
+          "school_number": "0402",
+          "school_level": "Middle",
+          "star_rating": 2,
+          "percentile_rank": 15,
+          "mcap_scores": {
+            "ELA_8": 25.0,
+            "Math_8": 5.0,
+            "Science_8": 16.8
+          },
+          "suspensions": [
+            {
+              "county": "Kent",
+              "school_name": "Kent County Middle School",
+              "school_number": "0402",
+              "suspension_type": "in_school",
+              "total_suspensions": 143,
+              "gender": {
+                "male": 101,
+                "male_pct": 70.6,
+                "female": 42,
+                "female_pct": 29.4
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 62,
+                "black_pct": 43.4,
+                "hispanic": 17,
+                "hispanic_pct": 11.9,
+                "white": 48,
+                "white_pct": 33.6,
+                "two_or_more": 16,
+                "two_or_more_pct": 11.2
+              },
+              "disability": {
+                "students_with_disabilities": 19,
+                "students_with_disabilities_pct": 13.3
+              },
+              "offense": {
+                "attendance": 15,
+                "attendance_pct": 10.5,
+                "dangerous_substances": 8,
+                "dangerous_substances_pct": 5.6,
+                "weapons": 1,
+                "weapons_pct": 0.7,
+                "attacks_threats_fighting": 23,
+                "attacks_threats_fighting_pct": 16.1,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 92,
+                "disrespect_disruption_pct": 64.3,
+                "other": 4,
+                "other_pct": 2.8
+              }
+            },
+            {
+              "county": "Kent",
+              "school_name": "Kent County Middle School",
+              "school_number": "0402",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 135,
+              "gender": {
+                "male": 79,
+                "male_pct": 58.5,
+                "female": 56,
+                "female_pct": 41.5
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 62,
+                "black_pct": 45.9,
+                "hispanic": 14,
+                "hispanic_pct": 10.4,
+                "white": 28,
+                "white_pct": 20.7,
+                "two_or_more": 30,
+                "two_or_more_pct": 22.2
+              },
+              "disability": {
+                "students_with_disabilities": 20,
+                "students_with_disabilities_pct": 14.8
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 7,
+                "dangerous_substances_pct": 5.2,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 67,
+                "attacks_threats_fighting_pct": 49.6,
+                "arson_fire_explosives": 2,
+                "arson_fire_explosives_pct": 1.5,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 0.7,
+                "disrespect_disruption": 55,
+                "disrespect_disruption_pct": 40.7,
+                "other": 3,
+                "other_pct": 2.2
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Kent County High (0301)",
+          "school_number": "0301",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 43,
+          "mcap_scores": {
+            "ELA_10": 53.5,
+            "Math_10": 6.1,
+            "Science_10": 27.7
+          },
+          "suspensions": [
+            {
+              "county": "Kent",
+              "school_name": "Kent County High",
+              "school_number": "0301",
+              "suspension_type": "in_school",
+              "total_suspensions": 133,
+              "gender": {
+                "male": 96,
+                "male_pct": 72.2,
+                "female": 37,
+                "female_pct": 27.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 59,
+                "black_pct": 44.4,
+                "hispanic": 12,
+                "hispanic_pct": 9.0,
+                "white": 34,
+                "white_pct": 25.6,
+                "two_or_more": 28,
+                "two_or_more_pct": 21.1
+              },
+              "disability": {
+                "students_with_disabilities": 28,
+                "students_with_disabilities_pct": 21.1
+              },
+              "offense": {
+                "attendance": 43,
+                "attendance_pct": 32.3,
+                "dangerous_substances": 15,
+                "dangerous_substances_pct": 11.3,
+                "weapons": 2,
+                "weapons_pct": 1.5,
+                "attacks_threats_fighting": 7,
+                "attacks_threats_fighting_pct": 5.3,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 64,
+                "disrespect_disruption_pct": 48.1,
+                "other": 2,
+                "other_pct": 1.5
+              }
+            },
+            {
+              "county": "Kent",
+              "school_name": "Kent County High",
+              "school_number": "0301",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 94,
+              "gender": {
+                "male": 78,
+                "male_pct": 83.0,
+                "female": 16,
+                "female_pct": 17.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 44,
+                "black_pct": 46.8,
+                "hispanic": 5,
+                "hispanic_pct": 5.3,
+                "white": 34,
+                "white_pct": 36.2,
+                "two_or_more": 11,
+                "two_or_more_pct": 11.7
+              },
+              "disability": {
+                "students_with_disabilities": 30,
+                "students_with_disabilities_pct": 31.9
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 4,
+                "dangerous_substances_pct": 4.3,
+                "weapons": 3,
+                "weapons_pct": 3.2,
+                "attacks_threats_fighting": 21,
+                "attacks_threats_fighting_pct": 22.3,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 2,
+                "sex_offenses_pct": 2.1,
+                "disrespect_disruption": 63,
+                "disrespect_disruption_pct": 67.0,
+                "other": 1,
+                "other_pct": 1.1
+              }
+            }
+          ]
+        }
+      ],
+      "state_mcap_averages": {
+        "ELA_5": 45.0,
+        "ELA_8": 48.4,
+        "ELA_10": 59.5,
+        "Math_5": 30.7,
+        "Math_8": 8.7,
+        "Math_Algebra_1": 21.4,
+        "Science_5": 25.6,
+        "Science_8": 31.4,
+        "Science_All_High": 44.2
+      }
+    },
+    "Dorchester": {
+      "county_name": "Dorchester",
+      "total_schools": 13,
+      "schools": [
+        {
+          "school_name": "Choptank Elementary School (0716)",
+          "school_number": "0716",
+          "school_level": "Elementary",
+          "star_rating": 2,
+          "percentile_rank": 7,
+          "mcap_scores": {
+            "ELA_5": 21.2,
+            "Math_5": 5.0,
+            "Science_5": 8.9
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Choptank Elementary School",
+              "school_number": "0716",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 204,
+              "gender": {
+                "male": 129,
+                "male_pct": 63.2,
+                "female": 75,
+                "female_pct": 36.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 183,
+                "black_pct": 89.7,
+                "hispanic": 4,
+                "hispanic_pct": 2.0,
+                "white": 3,
+                "white_pct": 1.5,
+                "two_or_more": 14,
+                "two_or_more_pct": 6.9
+              },
+              "disability": {
+                "students_with_disabilities": 10,
+                "students_with_disabilities_pct": 4.9
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 2,
+                "dangerous_substances_pct": 1.0,
+                "weapons": 2,
+                "weapons_pct": 1.0,
+                "attacks_threats_fighting": 166,
+                "attacks_threats_fighting_pct": 81.4,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 31,
+                "disrespect_disruption_pct": 15.2,
+                "other": 3,
+                "other_pct": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Hurlock Elementary School (1503)",
+          "school_number": "1503",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 25,
+          "mcap_scores": {
+            "ELA_5": 43.3,
+            "Math_5": 23.8,
+            "Science_5": 21.3
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Hurlock Elementary School",
+              "school_number": "1503",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 52,
+              "gender": {
+                "male": 41,
+                "male_pct": 78.8,
+                "female": 11,
+                "female_pct": 21.2
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 20,
+                "black_pct": 38.5,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 23,
+                "white_pct": 44.2,
+                "two_or_more": 3,
+                "two_or_more_pct": 5.8
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 2,
+                "weapons_pct": 3.8,
+                "attacks_threats_fighting": 33,
+                "attacks_threats_fighting_pct": 63.5,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 11,
+                "disrespect_disruption_pct": 21.2,
+                "other": 6,
+                "other_pct": 11.5
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Maple Elementary School (0711)",
+          "school_number": "0711",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 45,
+          "mcap_scores": {
+            "ELA_5": 32.1,
+            "Math_5": 5.1,
+            "Science_5": 5.0
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Maple Elementary School",
+              "school_number": "0711",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 39,
+              "gender": {
+                "male": 35,
+                "male_pct": 89.7,
+                "female": 4,
+                "female_pct": 10.3
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 24,
+                "black_pct": 61.5,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 7,
+                "white_pct": 17.9,
+                "two_or_more": 8,
+                "two_or_more_pct": 20.5
+              },
+              "disability": {
+                "students_with_disabilities": 10,
+                "students_with_disabilities_pct": 25.6
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 35,
+                "attacks_threats_fighting_pct": 89.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.6,
+                "disrespect_disruption": 3,
+                "disrespect_disruption_pct": 7.7,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Sandy Hill Elementary School (0710)",
+          "school_number": "0710",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 15,
+          "mcap_scores": {
+            "ELA_5": 20.9,
+            "Math_5": 9.3,
+            "Science_5": 9.1
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Sandy Hill Elementary",
+              "school_number": "0710",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 204,
+              "gender": {
+                "male": 131,
+                "male_pct": 64.2,
+                "female": 73,
+                "female_pct": 35.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 175,
+                "black_pct": 85.8,
+                "hispanic": 8,
+                "hispanic_pct": 3.9,
+                "white": 1,
+                "white_pct": 0.5,
+                "two_or_more": 20,
+                "two_or_more_pct": 9.8
+              },
+              "disability": {
+                "students_with_disabilities": 10,
+                "students_with_disabilities_pct": 4.9
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 151,
+                "attacks_threats_fighting_pct": 74.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 2,
+                "sex_offenses_pct": 1.0,
+                "disrespect_disruption": 47,
+                "disrespect_disruption_pct": 23.0,
+                "other": 4,
+                "other_pct": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Vienna Elementary School (0302)",
+          "school_number": "0302",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 64,
+          "mcap_scores": {
+            "ELA_5": 59.3,
+            "Math_5": 25.9,
+            "Science_5": 18.5
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Vienna Elementary School",
+              "school_number": "0302",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 3,
+              "gender": {
+                "male": 3,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 3,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Warwick Elementary School (0205)",
+          "school_number": "0205",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 50,
+          "mcap_scores": {
+            "ELA_5": 51.1,
+            "Math_5": 40.4,
+            "Science_5": 34.0
+          }
+        },
+        {
+          "school_name": "South Dorchester School (0508)",
+          "school_number": "0508",
+          "school_level": "Unknown",
+          "star_rating": 4,
+          "percentile_rank": 63,
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "South Dorchester School",
+              "school_number": "0508",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 2,
+              "gender": {
+                "male": 1,
+                "male_pct": 50.0,
+                "female": 1,
+                "female_pct": 50.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 2,
+                "white_pct": 100.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 1,
+                "weapons_pct": 50.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 50.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Mace's Lane Middle School (0707)",
+          "school_number": "0707",
+          "school_level": "Middle",
+          "star_rating": 2,
+          "percentile_rank": 4,
+          "mcap_scores": {
+            "ELA_8": 27.5,
+            "Math_8": 5.0,
+            "Science_8": 6.5
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Mace's Lane Middle School",
+              "school_number": "0707",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 345,
+              "gender": {
+                "male": 231,
+                "male_pct": 67.0,
+                "female": 114,
+                "female_pct": 33.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 282,
+                "black_pct": 81.7,
+                "hispanic": 13,
+                "hispanic_pct": 3.8,
+                "white": 20,
+                "white_pct": 5.8,
+                "two_or_more": 30,
+                "two_or_more_pct": 8.7
+              },
+              "disability": {
+                "students_with_disabilities": 46,
+                "students_with_disabilities_pct": 13.3
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 15,
+                "dangerous_substances_pct": 4.3,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 222,
+                "attacks_threats_fighting_pct": 64.3,
+                "arson_fire_explosives": 2,
+                "arson_fire_explosives_pct": 0.6,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 0.3,
+                "disrespect_disruption": 100,
+                "disrespect_disruption_pct": 29.0,
+                "other": 5,
+                "other_pct": 1.4
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "North Dorchester Middle School (0208)",
+          "school_number": "0208",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 68,
+          "mcap_scores": {
+            "ELA_8": 52.7,
+            "Math_8": 14.9,
+            "Science_8": 24.6
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "North Dorchester Middle School",
+              "school_number": "0208",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 113,
+              "gender": {
+                "male": 75,
+                "male_pct": 66.4,
+                "female": 38,
+                "female_pct": 33.6
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 58,
+                "black_pct": 51.3,
+                "hispanic": 6,
+                "hispanic_pct": 5.3,
+                "white": 41,
+                "white_pct": 36.3,
+                "two_or_more": 8,
+                "two_or_more_pct": 7.1
+              },
+              "disability": {
+                "students_with_disabilities": 18,
+                "students_with_disabilities_pct": 15.9
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 8,
+                "dangerous_substances_pct": 7.1,
+                "weapons": 1,
+                "weapons_pct": 0.9,
+                "attacks_threats_fighting": 55,
+                "attacks_threats_fighting_pct": 48.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 3,
+                "sex_offenses_pct": 2.7,
+                "disrespect_disruption": 35,
+                "disrespect_disruption_pct": 31.0,
+                "other": 11,
+                "other_pct": 9.7
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Cambridge-South Dorchester High School (0713)",
+          "school_number": "0713",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 20,
+          "mcap_scores": {
+            "ELA_10": 32.3,
+            "Math_10": 5.0,
+            "Science_10": 24.9
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "Cambridge-South Dorchester High School",
+              "school_number": "0713",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 438,
+              "gender": {
+                "male": 242,
+                "male_pct": 55.3,
+                "female": 196,
+                "female_pct": 44.7
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 333,
+                "black_pct": 76.0,
+                "hispanic": 25,
+                "hispanic_pct": 5.7,
+                "white": 46,
+                "white_pct": 10.5,
+                "two_or_more": 34,
+                "two_or_more_pct": 7.8
+              },
+              "disability": {
+                "students_with_disabilities": 48,
+                "students_with_disabilities_pct": 11.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 64,
+                "dangerous_substances_pct": 14.6,
+                "weapons": 5,
+                "weapons_pct": 1.1,
+                "attacks_threats_fighting": 156,
+                "attacks_threats_fighting_pct": 35.6,
+                "arson_fire_explosives": 1,
+                "arson_fire_explosives_pct": 0.2,
+                "sex_offenses": 11,
+                "sex_offenses_pct": 2.5,
+                "disrespect_disruption": 182,
+                "disrespect_disruption_pct": 41.6,
+                "other": 19,
+                "other_pct": 4.3
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "North Dorchester High School (0207)",
+          "school_number": "0207",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 36,
+          "mcap_scores": {
+            "ELA_10": 39.1,
+            "Math_10": 5.0,
+            "Science_10": 38.6
+          },
+          "suspensions": [
+            {
+              "county": "Dorchester",
+              "school_name": "North Dorchester High School",
+              "school_number": "0207",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 147,
+              "gender": {
+                "male": 97,
+                "male_pct": 66.0,
+                "female": 50,
+                "female_pct": 34.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 74,
+                "black_pct": 50.3,
+                "hispanic": 2,
+                "hispanic_pct": 1.4,
+                "white": 52,
+                "white_pct": 35.4,
+                "two_or_more": 19,
+                "two_or_more_pct": 12.9
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 14,
+                "dangerous_substances_pct": 9.5,
+                "weapons": 1,
+                "weapons_pct": 0.7,
+                "attacks_threats_fighting": 34,
+                "attacks_threats_fighting_pct": 23.1,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 2,
+                "sex_offenses_pct": 1.4,
+                "disrespect_disruption": 81,
+                "disrespect_disruption_pct": 55.1,
+                "other": 15,
+                "other_pct": 10.2
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Dorchester County Career and Technology Center (0714)",
+          "school_number": "0714",
+          "school_level": "Unknown",
+          "star_rating": null,
+          "percentile_rank": null
+        },
+        {
+          "school_name": "Judith P. Hoyer Early Childhood Center (0709)",
+          "school_number": "0709",
+          "school_level": "Unknown",
+          "star_rating": null,
+          "percentile_rank": null
+        }
+      ],
+      "state_mcap_averages": {
+        "ELA_5": 45.0,
+        "ELA_8": 48.4,
+        "ELA_10": 59.5,
+        "Math_5": 30.7,
+        "Math_8": 8.7,
+        "Math_Algebra_1": 21.4,
+        "Science_5": 25.6,
+        "Science_8": 31.4,
+        "Science_All_High": 44.2
+      }
+    },
+    "Caroline": {
+      "county_name": "Caroline",
+      "total_schools": 10,
+      "schools": [
+        {
+          "school_name": "Denton Elementary School (0301)",
+          "school_number": "0301",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 42,
+          "mcap_scores": {
+            "ELA_5": 36.0,
+            "Math_5": 25.8,
+            "Science_5": 17.8
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Denton Elementary School",
+              "school_number": "0301",
+              "suspension_type": "in_school",
+              "total_suspensions": 20,
+              "gender": {
+                "male": 17,
+                "male_pct": 85.0,
+                "female": 3,
+                "female_pct": 15.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 11,
+                "black_pct": 55.0,
+                "hispanic": 2,
+                "hispanic_pct": 10.0,
+                "white": 4,
+                "white_pct": 20.0,
+                "two_or_more": 3,
+                "two_or_more_pct": 15.0
+              },
+              "disability": {
+                "students_with_disabilities": 14,
+                "students_with_disabilities_pct": 70.0
+              },
+              "offense": {
+                "attendance": 1,
+                "attendance_pct": 5.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 16,
+                "attacks_threats_fighting_pct": 80.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 3,
+                "disrespect_disruption_pct": 15.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Denton Elementary School",
+              "school_number": "0301",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 14,
+              "gender": {
+                "male": 14,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 42.9,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 3,
+                "white_pct": 21.4,
+                "two_or_more": 5,
+                "two_or_more_pct": 35.7
+              },
+              "disability": {
+                "students_with_disabilities": 12,
+                "students_with_disabilities_pct": 85.7
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 12,
+                "attacks_threats_fighting_pct": 85.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 7.1,
+                "other": 1,
+                "other_pct": 7.1
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Federalsburg Elementary School (0501)",
+          "school_number": "0501",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 17,
+          "mcap_scores": {
+            "ELA_5": 26.5,
+            "Math_5": 16.7,
+            "Science_5": 8.0
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Federalsburg Elementary School",
+              "school_number": "0501",
+              "suspension_type": "in_school",
+              "total_suspensions": 8,
+              "gender": {
+                "male": 6,
+                "male_pct": 75.0,
+                "female": 2,
+                "female_pct": 25.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 75.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 2,
+                "two_or_more_pct": 25.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 4,
+                "attacks_threats_fighting_pct": 50.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 4,
+                "disrespect_disruption_pct": 50.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Federalsburg Elementary School",
+              "school_number": "0501",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 35,
+              "gender": {
+                "male": 21,
+                "male_pct": 60.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 31,
+                "attacks_threats_fighting_pct": 88.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.9,
+                "disrespect_disruption": 3,
+                "disrespect_disruption_pct": 8.6,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Greensboro Elementary School (0201)",
+          "school_number": "0201",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 49,
+          "mcap_scores": {
+            "ELA_5": 42.5,
+            "Math_5": 26.5,
+            "Science_5": 26.1
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Greensboro Elementary School",
+              "school_number": "0201",
+              "suspension_type": "in_school",
+              "total_suspensions": 41,
+              "gender": {
+                "male": 35,
+                "male_pct": 85.4,
+                "female": 6,
+                "female_pct": 14.6
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 14.6,
+                "hispanic": 6,
+                "hispanic_pct": 14.6,
+                "white": 28,
+                "white_pct": 68.3,
+                "two_or_more": 1,
+                "two_or_more_pct": 2.4
+              },
+              "disability": {
+                "students_with_disabilities": 11,
+                "students_with_disabilities_pct": 26.8
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 29,
+                "attacks_threats_fighting_pct": 70.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.4,
+                "disrespect_disruption": 10,
+                "disrespect_disruption_pct": 24.4,
+                "other": 1,
+                "other_pct": 2.4
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Greensboro Elementary School",
+              "school_number": "0201",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 29,
+              "gender": {
+                "male": 19,
+                "male_pct": 65.5,
+                "female": 10,
+                "female_pct": 34.5
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 5,
+                "black_pct": 17.2,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 24,
+                "white_pct": 82.8,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 11,
+                "students_with_disabilities_pct": 37.9
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 17,
+                "attacks_threats_fighting_pct": 58.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 12,
+                "disrespect_disruption_pct": 41.4,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Preston Elementary School (0401)",
+          "school_number": "0401",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 67,
+          "mcap_scores": {
+            "ELA_5": 47.3,
+            "Math_5": 38.2,
+            "Science_5": 21.4
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Preston Elementary School",
+              "school_number": "0401",
+              "suspension_type": "in_school",
+              "total_suspensions": 11,
+              "gender": {
+                "male": 10,
+                "male_pct": 90.9,
+                "female": 1,
+                "female_pct": 9.1
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 1,
+                "black_pct": 9.1,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 8,
+                "white_pct": 72.7,
+                "two_or_more": 2,
+                "two_or_more_pct": 18.2
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 9.1
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 1,
+                "weapons_pct": 9.1,
+                "attacks_threats_fighting": 5,
+                "attacks_threats_fighting_pct": 45.5,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 4,
+                "disrespect_disruption_pct": 36.4,
+                "other": 1,
+                "other_pct": 9.1
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Preston Elementary School",
+              "school_number": "0401",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 9,
+              "gender": {
+                "male": 9,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 6,
+                "white_pct": 66.7,
+                "two_or_more": 3,
+                "two_or_more_pct": 33.3
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 11.1
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 1,
+                "weapons_pct": 11.1,
+                "attacks_threats_fighting": 5,
+                "attacks_threats_fighting_pct": 55.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 2,
+                "disrespect_disruption_pct": 22.2,
+                "other": 1,
+                "other_pct": 11.1
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Ridgely Elementary School (0701)",
+          "school_number": "0701",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 34,
+          "mcap_scores": {
+            "ELA_5": 36.1,
+            "Math_5": 26.4,
+            "Science_5": 15.3
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Ridgely Elementary School",
+              "school_number": "0701",
+              "suspension_type": "in_school",
+              "total_suspensions": 17,
+              "gender": {
+                "male": 15,
+                "male_pct": 88.2,
+                "female": 2,
+                "female_pct": 11.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 35.3,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 9,
+                "white_pct": 52.9,
+                "two_or_more": 2,
+                "two_or_more_pct": 11.8
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 5.9
+              },
+              "offense": {
+                "attendance": 1,
+                "attendance_pct": 5.9,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 9,
+                "attacks_threats_fighting_pct": 52.9,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 5.9,
+                "disrespect_disruption": 6,
+                "disrespect_disruption_pct": 35.3,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Ridgely Elementary School",
+              "school_number": "0701",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 7,
+              "gender": {
+                "male": 7,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 3,
+                "black_pct": 42.9,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 4,
+                "white_pct": 57.1,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 14.3
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 4,
+                "dangerous_substances_pct": 57.1,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 2,
+                "attacks_threats_fighting_pct": 28.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 14.3,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Colonel Richardson Middle School (0802)",
+          "school_number": "0802",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 44,
+          "mcap_scores": {
+            "ELA_8": 60.0,
+            "Math_8": 5.9,
+            "Science_8": 27.8
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Colonel Richardson Middle School",
+              "school_number": "0802",
+              "suspension_type": "in_school",
+              "total_suspensions": 55,
+              "gender": {
+                "male": 45,
+                "male_pct": 81.8,
+                "female": 10,
+                "female_pct": 18.2
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 32,
+                "black_pct": 58.2,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 20,
+                "white_pct": 36.4,
+                "two_or_more": 3,
+                "two_or_more_pct": 5.5
+              },
+              "disability": {
+                "students_with_disabilities": 5,
+                "students_with_disabilities_pct": 9.1
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 2,
+                "dangerous_substances_pct": 3.6,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 13,
+                "attacks_threats_fighting_pct": 23.6,
+                "arson_fire_explosives": 2,
+                "arson_fire_explosives_pct": 3.6,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 1.8,
+                "disrespect_disruption": 37,
+                "disrespect_disruption_pct": 67.3,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Colonel Richardson Middle School",
+              "school_number": "0802",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 53,
+              "gender": {
+                "male": 43,
+                "male_pct": 81.1,
+                "female": 10,
+                "female_pct": 18.9
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 25,
+                "black_pct": 47.2,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 21,
+                "white_pct": 39.6,
+                "two_or_more": 7,
+                "two_or_more_pct": 13.2
+              },
+              "disability": {
+                "students_with_disabilities": 3,
+                "students_with_disabilities_pct": 5.7
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 7,
+                "dangerous_substances_pct": 13.2,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 44,
+                "attacks_threats_fighting_pct": 83.0,
+                "arson_fire_explosives": 1,
+                "arson_fire_explosives_pct": 1.9,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 1.9,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Lockerman Middle School (0302)",
+          "school_number": "0302",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 29,
+          "mcap_scores": {
+            "ELA_8": 45.0,
+            "Math_8": 5.0,
+            "Science_8": 22.0
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Lockerman Middle School",
+              "school_number": "0302",
+              "suspension_type": "in_school",
+              "total_suspensions": 118,
+              "gender": {
+                "male": 80,
+                "male_pct": 67.8,
+                "female": 38,
+                "female_pct": 32.2
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 47,
+                "black_pct": 39.8,
+                "hispanic": 11,
+                "hispanic_pct": 9.3,
+                "white": 50,
+                "white_pct": 42.4,
+                "two_or_more": 10,
+                "two_or_more_pct": 8.5
+              },
+              "disability": {
+                "students_with_disabilities": 16,
+                "students_with_disabilities_pct": 13.6
+              },
+              "offense": {
+                "attendance": 2,
+                "attendance_pct": 1.7,
+                "dangerous_substances": 8,
+                "dangerous_substances_pct": 6.8,
+                "weapons": 1,
+                "weapons_pct": 0.8,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 0.8,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 99,
+                "disrespect_disruption_pct": 83.9,
+                "other": 7,
+                "other_pct": 5.9
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Lockerman Middle School",
+              "school_number": "0302",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 202,
+              "gender": {
+                "male": 144,
+                "male_pct": 71.3,
+                "female": 58,
+                "female_pct": 28.7
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 78,
+                "black_pct": 38.6,
+                "hispanic": 13,
+                "hispanic_pct": 6.4,
+                "white": 96,
+                "white_pct": 47.5,
+                "two_or_more": 15,
+                "two_or_more_pct": 7.4
+              },
+              "disability": {
+                "students_with_disabilities": 56,
+                "students_with_disabilities_pct": 27.7
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 10,
+                "dangerous_substances_pct": 5.0,
+                "weapons": 1,
+                "weapons_pct": 0.5,
+                "attacks_threats_fighting": 141,
+                "attacks_threats_fighting_pct": 69.8,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 46,
+                "disrespect_disruption_pct": 22.8,
+                "other": 4,
+                "other_pct": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Colonel Richardson High School (0801)",
+          "school_number": "0801",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 54,
+          "mcap_scores": {
+            "ELA_10": 63.5,
+            "Math_10": 5.0,
+            "Science_10": 28.3
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "Colonel Richardson High School",
+              "school_number": "0801",
+              "suspension_type": "in_school",
+              "total_suspensions": 58,
+              "gender": {
+                "male": 33,
+                "male_pct": 56.9,
+                "female": 25,
+                "female_pct": 43.1
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 19,
+                "black_pct": 32.8,
+                "hispanic": 11,
+                "hispanic_pct": 19.0,
+                "white": 22,
+                "white_pct": 37.9,
+                "two_or_more": 6,
+                "two_or_more_pct": 10.3
+              },
+              "disability": {
+                "students_with_disabilities": 6,
+                "students_with_disabilities_pct": 10.3
+              },
+              "offense": {
+                "attendance": 14,
+                "attendance_pct": 24.1,
+                "dangerous_substances": 6,
+                "dangerous_substances_pct": 10.3,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 6,
+                "attacks_threats_fighting_pct": 10.3,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 30,
+                "disrespect_disruption_pct": 51.7,
+                "other": 2,
+                "other_pct": 3.4
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "Colonel Richardson High School",
+              "school_number": "0801",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 62,
+              "gender": {
+                "male": 25,
+                "male_pct": 40.3,
+                "female": 37,
+                "female_pct": 59.7
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 25,
+                "black_pct": 40.3,
+                "hispanic": 2,
+                "hispanic_pct": 3.2,
+                "white": 28,
+                "white_pct": 45.2,
+                "two_or_more": 7,
+                "two_or_more_pct": 11.3
+              },
+              "disability": {
+                "students_with_disabilities": 7,
+                "students_with_disabilities_pct": 11.3
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 6,
+                "dangerous_substances_pct": 9.7,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 32,
+                "attacks_threats_fighting_pct": 51.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 24,
+                "disrespect_disruption_pct": 38.7,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "North Caroline High School (0703)",
+          "school_number": "0703",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 38,
+          "mcap_scores": {
+            "ELA_10": 63.4,
+            "Math_10": 5.2,
+            "Science_10": 49.4
+          },
+          "suspensions": [
+            {
+              "county": "Caroline",
+              "school_name": "North Caroline High School",
+              "school_number": "0703",
+              "suspension_type": "in_school",
+              "total_suspensions": 43,
+              "gender": {
+                "male": 33,
+                "male_pct": 76.7,
+                "female": 10,
+                "female_pct": 23.3
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 2,
+                "dangerous_substances_pct": 4.7,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 2.3,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 31,
+                "disrespect_disruption_pct": 72.1,
+                "other": 9,
+                "other_pct": 20.9
+              }
+            },
+            {
+              "county": "Caroline",
+              "school_name": "North Caroline High School",
+              "school_number": "0703",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 155,
+              "gender": {
+                "male": 105,
+                "male_pct": 67.7,
+                "female": 50,
+                "female_pct": 32.3
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 48,
+                "dangerous_substances_pct": 31.0,
+                "weapons": 3,
+                "weapons_pct": 1.9,
+                "attacks_threats_fighting": 71,
+                "attacks_threats_fighting_pct": 45.8,
+                "arson_fire_explosives": 1,
+                "arson_fire_explosives_pct": 0.6,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 0.6,
+                "disrespect_disruption": 28,
+                "disrespect_disruption_pct": 18.1,
+                "other": 3,
+                "other_pct": 1.9
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Caroline Career & Technology Center (0704)",
+          "school_number": "0704",
+          "school_level": "Unknown",
+          "star_rating": null,
+          "percentile_rank": null
+        }
+      ],
+      "state_mcap_averages": {
+        "ELA_5": 45.0,
+        "ELA_8": 48.4,
+        "ELA_10": 59.5,
+        "Math_5": 30.7,
+        "Math_8": 8.7,
+        "Math_Algebra_1": 21.4,
+        "Science_5": 25.6,
+        "Science_8": 31.4,
+        "Science_All_High": 44.2
+      }
+    },
+    "Queen Anne's": {
+      "county_name": "Queen Anne's",
+      "total_schools": 14,
+      "schools": [
+        {
+          "school_name": "Bayside Elementary School (0403)",
+          "school_number": "0403",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 65,
+          "mcap_scores": {
+            "ELA_5": 59.7,
+            "Math_5": 50.0,
+            "Science_5": 44.1
+          }
+        },
+        {
+          "school_name": "Centreville Elementary School (0308)",
+          "school_number": "0308",
+          "school_level": "Elementary",
+          "star_rating": null,
+          "percentile_rank": null,
+          "mcap_scores": {
+            "ELA_5": null,
+            "Math_5": null,
+            "Science_5": null
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Centreville Elementary School",
+              "school_number": "0308",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 1,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 1,
+                "black_pct": 100.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 100.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Church Hill Elementary School (0202)",
+          "school_number": "0202",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 45,
+          "mcap_scores": {
+            "ELA_5": 45.3,
+            "Math_5": 39.6,
+            "Science_5": null
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Church Hill Elementary School",
+              "school_number": "0202",
+              "suspension_type": "in_school",
+              "total_suspensions": 2,
+              "gender": {
+                "male": 2,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 1,
+                "white_pct": 50.0,
+                "two_or_more": 1,
+                "two_or_more_pct": 50.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 50.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 0,
+                "attacks_threats_fighting_pct": 0.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 50.0,
+                "other": 1,
+                "other_pct": 50.0
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Church Hill Elementary School",
+              "school_number": "0202",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 8,
+              "gender": {
+                "male": 8,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 3,
+                "black_pct": 37.5,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 4,
+                "white_pct": 50.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 2,
+                "dangerous_substances_pct": 25.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 3,
+                "attacks_threats_fighting_pct": 37.5,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 3,
+                "disrespect_disruption_pct": 37.5,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Grasonville Elementary School (0503)",
+          "school_number": "0503",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 54,
+          "mcap_scores": {
+            "ELA_5": 43.2,
+            "Math_5": 40.9,
+            "Science_5": 25.3
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Grasonville Elementary School",
+              "school_number": "0503",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 13,
+              "gender": {
+                "male": 11,
+                "male_pct": 84.6,
+                "female": 2,
+                "female_pct": 15.4
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 11,
+                "black_pct": 84.6,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 2,
+                "white_pct": 15.4,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 6,
+                "students_with_disabilities_pct": 46.2
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 6,
+                "attacks_threats_fighting_pct": 46.2,
+                "arson_fire_explosives": 2,
+                "arson_fire_explosives_pct": 15.4,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 5,
+                "disrespect_disruption_pct": 38.5,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Kennard Elementary School (0302)",
+          "school_number": "0302",
+          "school_level": "Elementary",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "mcap_scores": {
+            "ELA_5": 49.7,
+            "Math_5": 36.7,
+            "Science_5": 27.9
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Kennard Elementary School",
+              "school_number": "0302",
+              "suspension_type": "in_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 1,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 1,
+                "two_or_more_pct": 100.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 0,
+                "attacks_threats_fighting_pct": 0.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 100.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Kent Island Elementary School (0402)",
+          "school_number": "0402",
+          "school_level": "Elementary",
+          "star_rating": null,
+          "percentile_rank": null,
+          "mcap_scores": {
+            "ELA_5": null,
+            "Math_5": null,
+            "Science_5": null
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Kent Island Elementary School",
+              "school_number": "0402",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 0,
+                "male_pct": 0.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 0,
+                "attacks_threats_fighting_pct": 0.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 100.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Matapeake Elementary School (0406)",
+          "school_number": "0406",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 79,
+          "mcap_scores": {
+            "ELA_5": 58.6,
+            "Math_5": 42.9,
+            "Science_5": 31.4
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Matapeake Elementary School",
+              "school_number": "0406",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 12,
+              "gender": {
+                "male": 10,
+                "male_pct": 83.3,
+                "female": 2,
+                "female_pct": 16.7
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 1,
+                "hispanic_pct": 8.3,
+                "white": 10,
+                "white_pct": 83.3,
+                "two_or_more": 1,
+                "two_or_more_pct": 8.3
+              },
+              "disability": {
+                "students_with_disabilities": 5,
+                "students_with_disabilities_pct": 41.7
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 2,
+                "attacks_threats_fighting_pct": 16.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 10,
+                "disrespect_disruption_pct": 83.3,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Sudlersville Elementary School (0106)",
+          "school_number": "0106",
+          "school_level": "Elementary",
+          "star_rating": 4,
+          "percentile_rank": 54,
+          "mcap_scores": {
+            "ELA_5": 18.3,
+            "Math_5": 20.0,
+            "Science_5": null
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Sudlersville Elementary School",
+              "school_number": "0106",
+              "suspension_type": "in_school",
+              "total_suspensions": 1,
+              "gender": {
+                "male": 1,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 1,
+                "white_pct": 100.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 100.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 0,
+                "disrespect_disruption_pct": 0.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Sudlersville Middle School (0101)",
+          "school_number": "0101",
+          "school_level": "Unknown",
+          "star_rating": 3,
+          "percentile_rank": 11,
+          "mcap_scores": {
+            "ELA_8": 46.2,
+            "Math_8": 5.0,
+            "Science_8": 16.8
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Sudlersville Middle School",
+              "school_number": "0101",
+              "suspension_type": "in_school",
+              "total_suspensions": 2,
+              "gender": {
+                "male": 2,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 1,
+                "white_pct": 50.0,
+                "two_or_more": 1,
+                "two_or_more_pct": 50.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 0,
+                "attacks_threats_fighting_pct": 0.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 2,
+                "disrespect_disruption_pct": 100.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Sudlersville Middle School",
+              "school_number": "0101",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 36,
+              "gender": {
+                "male": 24,
+                "male_pct": 66.7,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 2,
+                "dangerous_substances_pct": 5.6,
+                "weapons": 1,
+                "weapons_pct": 2.8,
+                "attacks_threats_fighting": 18,
+                "attacks_threats_fighting_pct": 50.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.8,
+                "disrespect_disruption": 10,
+                "disrespect_disruption_pct": 27.8,
+                "other": 4,
+                "other_pct": 11.1
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Centreville Middle School (0303)",
+          "school_number": "0303",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 53,
+          "mcap_scores": {
+            "ELA_8": 48.3,
+            "Math_8": 6.6,
+            "Science_8": 44.3
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Centreville Middle School",
+              "school_number": "0303",
+              "suspension_type": "in_school",
+              "total_suspensions": 18,
+              "gender": {
+                "male": 13,
+                "male_pct": 72.2,
+                "female": 5,
+                "female_pct": 27.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 33.3,
+                "hispanic": 1,
+                "hispanic_pct": 5.6,
+                "white": 11,
+                "white_pct": 61.1,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 1,
+                "students_with_disabilities_pct": 5.6
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 12,
+                "attacks_threats_fighting_pct": 66.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 5,
+                "disrespect_disruption_pct": 27.8,
+                "other": 1,
+                "other_pct": 5.6
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Centreville Middle School",
+              "school_number": "0303",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 12,
+              "gender": {
+                "male": 10,
+                "male_pct": 83.3,
+                "female": 2,
+                "female_pct": 16.7
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 2,
+                "black_pct": 16.7,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 8,
+                "white_pct": 66.7,
+                "two_or_more": 2,
+                "two_or_more_pct": 16.7
+              },
+              "disability": {
+                "students_with_disabilities": 4,
+                "students_with_disabilities_pct": 33.3
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 9,
+                "attacks_threats_fighting_pct": 75.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 3,
+                "disrespect_disruption_pct": 25.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Matapeake Middle School (0407)",
+          "school_number": "0407",
+          "school_level": "Middle",
+          "star_rating": 4,
+          "percentile_rank": 75,
+          "mcap_scores": {
+            "ELA_8": 73.6,
+            "Math_8": 22.5,
+            "Science_8": 52.5
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Matapeake Middle School",
+              "school_number": "0407",
+              "suspension_type": "in_school",
+              "total_suspensions": 20,
+              "gender": {
+                "male": 16,
+                "male_pct": 80.0,
+                "female": 4,
+                "female_pct": 20.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 1,
+                "black_pct": 5.0,
+                "hispanic": 2,
+                "hispanic_pct": 10.0,
+                "white": 15,
+                "white_pct": 75.0,
+                "two_or_more": 2,
+                "two_or_more_pct": 10.0
+              },
+              "disability": {
+                "students_with_disabilities": 6,
+                "students_with_disabilities_pct": 30.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 1,
+                "weapons_pct": 5.0,
+                "attacks_threats_fighting": 7,
+                "attacks_threats_fighting_pct": 35.0,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 3,
+                "sex_offenses_pct": 15.0,
+                "disrespect_disruption": 9,
+                "disrespect_disruption_pct": 45.0,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Matapeake Middle School",
+              "school_number": "0407",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 37,
+              "gender": {
+                "male": 27,
+                "male_pct": 73.0,
+                "female": 10,
+                "female_pct": 27.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 2,
+                "black_pct": 5.4,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 0,
+                "white_pct": 0.0,
+                "two_or_more": 0,
+                "two_or_more_pct": 0.0
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 5,
+                "dangerous_substances_pct": 13.5,
+                "weapons": 1,
+                "weapons_pct": 2.7,
+                "attacks_threats_fighting": 23,
+                "attacks_threats_fighting_pct": 62.2,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 2.7,
+                "disrespect_disruption": 7,
+                "disrespect_disruption_pct": 18.9,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Stevensville Middle School (0404)",
+          "school_number": "0404",
+          "school_level": "Middle",
+          "star_rating": 3,
+          "percentile_rank": 48,
+          "mcap_scores": {
+            "ELA_8": 55.2,
+            "Math_8": 18.5,
+            "Science_8": 42.9
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Stevensville Middle School",
+              "school_number": "0404",
+              "suspension_type": "in_school",
+              "total_suspensions": 31,
+              "gender": {
+                "male": 25,
+                "male_pct": 80.6,
+                "female": 6,
+                "female_pct": 19.4
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 7,
+                "black_pct": 22.6,
+                "hispanic": 3,
+                "hispanic_pct": 9.7,
+                "white": 20,
+                "white_pct": 64.5,
+                "two_or_more": 1,
+                "two_or_more_pct": 3.2
+              },
+              "disability": {
+                "students_with_disabilities": 8,
+                "students_with_disabilities_pct": 25.8
+              },
+              "offense": {
+                "attendance": 1,
+                "attendance_pct": 3.2,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 15,
+                "attacks_threats_fighting_pct": 48.4,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 12,
+                "disrespect_disruption_pct": 38.7,
+                "other": 3,
+                "other_pct": 9.7
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Stevensville Middle School",
+              "school_number": "0404",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 18,
+              "gender": {
+                "male": 13,
+                "male_pct": 72.2,
+                "female": 5,
+                "female_pct": 27.8
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 2,
+                "black_pct": 11.1,
+                "hispanic": 1,
+                "hispanic_pct": 5.6,
+                "white": 12,
+                "white_pct": 66.7,
+                "two_or_more": 3,
+                "two_or_more_pct": 16.7
+              },
+              "disability": {
+                "students_with_disabilities": 3,
+                "students_with_disabilities_pct": 16.7
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 13,
+                "attacks_threats_fighting_pct": 72.2,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 1,
+                "disrespect_disruption_pct": 5.6,
+                "other": 4,
+                "other_pct": 22.2
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Kent Island High School (0405)",
+          "school_number": "0405",
+          "school_level": "High",
+          "star_rating": 4,
+          "percentile_rank": 72,
+          "mcap_scores": {
+            "ELA_10": 75.9,
+            "Math_10": 5.1,
+            "Science_10": 53.1
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Kent Island High School",
+              "school_number": "0405",
+              "suspension_type": "in_school",
+              "total_suspensions": 43,
+              "gender": {
+                "male": 25,
+                "male_pct": 58.1,
+                "female": 18,
+                "female_pct": 41.9
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 6,
+                "black_pct": 14.0,
+                "hispanic": 5,
+                "hispanic_pct": 11.6,
+                "white": 24,
+                "white_pct": 55.8,
+                "two_or_more": 8,
+                "two_or_more_pct": 18.6
+              },
+              "disability": {
+                "students_with_disabilities": 7,
+                "students_with_disabilities_pct": 16.3
+              },
+              "offense": {
+                "attendance": 21,
+                "attendance_pct": 48.8,
+                "dangerous_substances": 3,
+                "dangerous_substances_pct": 7.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 5,
+                "attacks_threats_fighting_pct": 11.6,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 14,
+                "disrespect_disruption_pct": 32.6,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Kent Island High School",
+              "school_number": "0405",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 72,
+              "gender": {
+                "male": 51,
+                "male_pct": 70.8,
+                "female": 21,
+                "female_pct": 29.2
+              },
+              "race": {
+                "asian": 1,
+                "asian_pct": 1.4,
+                "black": 14,
+                "black_pct": 19.4,
+                "hispanic": 7,
+                "hispanic_pct": 9.7,
+                "white": 37,
+                "white_pct": 51.4,
+                "two_or_more": 11,
+                "two_or_more_pct": 15.3
+              },
+              "disability": {
+                "students_with_disabilities": 9,
+                "students_with_disabilities_pct": 12.5
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 11,
+                "dangerous_substances_pct": 15.3,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 41,
+                "attacks_threats_fighting_pct": 56.9,
+                "arson_fire_explosives": 1,
+                "arson_fire_explosives_pct": 1.4,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 19,
+                "disrespect_disruption_pct": 26.4,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "school_name": "Queen Anne's County High School (0301)",
+          "school_number": "0301",
+          "school_level": "High",
+          "star_rating": 3,
+          "percentile_rank": 58,
+          "mcap_scores": {
+            "ELA_10": 69.5,
+            "Math_10": 6.2,
+            "Science_10": 46.6
+          },
+          "suspensions": [
+            {
+              "county": "Queen Anne's",
+              "school_name": "Queen Anne's County High School",
+              "school_number": "0301",
+              "suspension_type": "in_school",
+              "total_suspensions": 6,
+              "gender": {
+                "male": 6,
+                "male_pct": 100.0,
+                "female": 0,
+                "female_pct": 0.0
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 0,
+                "black_pct": 0.0,
+                "hispanic": 0,
+                "hispanic_pct": 0.0,
+                "white": 5,
+                "white_pct": 83.3,
+                "two_or_more": 1,
+                "two_or_more_pct": 16.7
+              },
+              "disability": {
+                "students_with_disabilities": 0,
+                "students_with_disabilities_pct": 0.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 0,
+                "dangerous_substances_pct": 0.0,
+                "weapons": 0,
+                "weapons_pct": 0.0,
+                "attacks_threats_fighting": 1,
+                "attacks_threats_fighting_pct": 16.7,
+                "arson_fire_explosives": 0,
+                "arson_fire_explosives_pct": 0.0,
+                "sex_offenses": 0,
+                "sex_offenses_pct": 0.0,
+                "disrespect_disruption": 5,
+                "disrespect_disruption_pct": 83.3,
+                "other": 0,
+                "other_pct": 0.0
+              }
+            },
+            {
+              "county": "Queen Anne's",
+              "school_name": "Queen Anne's County High School",
+              "school_number": "0301",
+              "suspension_type": "out_of_school",
+              "total_suspensions": 130,
+              "gender": {
+                "male": 84,
+                "male_pct": 64.6,
+                "female": 46,
+                "female_pct": 35.4
+              },
+              "race": {
+                "asian": 0,
+                "asian_pct": 0.0,
+                "black": 23,
+                "black_pct": 17.7,
+                "hispanic": 20,
+                "hispanic_pct": 15.4,
+                "white": 70,
+                "white_pct": 53.8,
+                "two_or_more": 17,
+                "two_or_more_pct": 13.1
+              },
+              "disability": {
+                "students_with_disabilities": 52,
+                "students_with_disabilities_pct": 40.0
+              },
+              "offense": {
+                "attendance": 0,
+                "attendance_pct": 0.0,
+                "dangerous_substances": 32,
+                "dangerous_substances_pct": 24.6,
+                "weapons": 2,
+                "weapons_pct": 1.5,
+                "attacks_threats_fighting": 34,
+                "attacks_threats_fighting_pct": 26.2,
+                "arson_fire_explosives": 4,
+                "arson_fire_explosives_pct": 3.1,
+                "sex_offenses": 1,
+                "sex_offenses_pct": 0.8,
+                "disrespect_disruption": 55,
+                "disrespect_disruption_pct": 42.3,
+                "other": 2,
+                "other_pct": 1.5
+              }
+            }
+          ]
+        }
+      ],
+      "state_mcap_averages": {
+        "ELA_5": 45.0,
+        "ELA_8": 48.4,
+        "ELA_10": 59.5,
+        "Math_5": 30.7,
+        "Math_8": 8.7,
+        "Math_Algebra_1": 21.4,
+        "Science_5": 25.6,
+        "Science_8": 31.4,
+        "Science_All_High": 44.2
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Talbot",
+      "district": "Talbot County Public Schools",
+      "regular_meetings": {
+        "schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+        "location": "Talbot County Education Center",
+        "notes": "Pattern varies monthly, not strictly 1st/2nd/3rd week"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "5:00 PM"
+        },
+        {
+          "date": "November 19, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "7:00 PM"
+        },
+        {
+          "date": "December 15, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "TBA"
+        },
+        {
+          "date": "December 17, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "TBA"
+        }
+      ],
+      "source": "https://www.tcps.k12.md.us"
+    },
+    {
+      "county": "Kent",
+      "district": "Kent County Public Schools",
+      "regular_meetings": {
+        "schedule": "2nd Monday of each month",
+        "location": "5608 Boundary Ave, Rock Hall, MD 21661",
+        "phone": "410-778-1595",
+        "notes": "Open Session meetings"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 10, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        },
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/kcps/Board.nsf/Public"
+    },
+    {
+      "county": "Dorchester",
+      "district": "Dorchester County Public Schools",
+      "regular_meetings": {
+        "schedule": "3rd Thursday of each month",
+        "time": "6:00 PM",
+        "location": "700 Glasgow St, Cambridge, MD 21613",
+        "phone": "410-228-4747",
+        "notes": "Monthly meetings"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "September 18, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "October 23, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "November 20, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/dcps/Board.nsf/Public"
+    },
+    {
+      "county": "Caroline",
+      "district": "Caroline County Public Schools",
+      "regular_meetings": {
+        "schedule": "1st Tuesday of each month (Regular Meeting), 3rd Thursday of each month (Work Session)",
+        "location": "Caroline County Board of Education",
+        "notes": "Closed sessions scheduled for personnel matters, property acquisition, collective bargaining, and legal advice"
+      },
+      "public_comment": {
+        "process": "Sign up in advance by emailing publiccomment@ccpsstaff.org",
+        "requirement": "Must sign in at podium before meeting starts",
+        "priority": "Those who email in advance called first"
+      },
+      "upcoming_meetings": [],
+      "source": "https://www.carolineschools.org/o/ccps/page/board"
+    },
+    {
+      "county": "Queen Anne's",
+      "district": "Queen Anne's County Public Schools",
+      "regular_meetings": {
+        "schedule": "1st Wednesday of each month",
+        "closed_session_time": "4:30 PM",
+        "open_session_time": "6:00 PM",
+        "location": "202 Chesterfield Avenue, Centreville, MD 21617",
+        "phone": "410-758-2403",
+        "notes": "Closed session followed by open session same day"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Closed Session",
+          "time": "4:30 PM"
+        },
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Open Session",
+          "time": "6:00 PM"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/qacps/Board.nsf/Public"
+    }
+  ],
+  "summary": {
+    "data_collected": "November 19, 2025",
+    "counties_covered": 5,
+    "notes": "All counties hold regular monthly meetings. Talbot has most flexible schedule with work sessions and regular meetings on different days each month. Caroline and Queen Anne's meet on 1st Tuesday/Wednesday. Kent meets 2nd Monday. Dorchester meets 3rd Thursday."
+  }
+}

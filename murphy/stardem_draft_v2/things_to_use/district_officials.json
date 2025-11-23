@@ -1,0 +1,74 @@
+[
+  {
+    "county": "Talbot",
+    "superintendent": "Dr. Sharon Pepukayi",
+    "website": "https://www.tcps.k12.md.us/",
+    "board_url": "https://www.tcps.k12.md.us/page/board-of-education",
+    "board_members": [
+      {"name": "Emily Jackson", "position": "President", "district": "District 4"},
+      {"name": "Amy Dodson", "position": "Vice President", "district": "District 3"},
+      {"name": "Dyshekia W. M. Strawberry", "position": "Board Member", "district": "District 1"},
+      {"name": "Ann O'Connor", "position": "Board Member", "district": "District 2"},
+      {"name": "Karla Wieland-Cherry", "position": "Board Member", "district": "District 5"},
+      {"name": "Cynthia M. Jurrius", "position": "Board Member", "district": "District 6"},
+      {"name": "Deborah Bridges", "position": "Board Member", "district": "District 7"}
+    ],
+    "note": "Board members serve by district. Specific election/appointment dates not publicly listed on board website."
+  },
+  {
+    "county": "Kent",
+    "superintendent": "Dr. Mary McComas",
+    "website": "https://www.kent.k12.md.us/",
+    "board_url": "https://go.boarddocs.com/mabe/kcps/Board.nsf/Public",
+    "board_members": [
+      {"name": "Laura McKenzie", "position": "Board Member"},
+      {"name": "John Queen", "position": "Board Member"},
+      {"name": "Aretha Dorsey", "position": "Board Member"},
+      {"name": "Frank Rhodes", "position": "Board Member"},
+      {"name": "Trish McGee", "position": "Board Member"}
+    ],
+    "note": "Five member elected board. Each member serves a four year term. Student member serves one year. Specific election dates not listed on board website."
+  },
+  {
+    "county": "Dorchester",
+    "superintendent": "Dr. Jymil Thompson",
+    "website": "https://www.dcpsmd.org/",
+    "board_url": "https://go.boarddocs.com/mabe/dcps/Board.nsf/Public",
+    "board_members": [],
+    "note": "Five member elected board serving four-year terms. Board member names available in BoardDocs meeting minutes but not listed on main board page. Two non-voting student representatives also serve. Executive Assistant: Chris Dayton (daytonc@dcpsmd.org)"
+  },
+  {
+    "county": "Caroline",
+    "superintendent": "Derek L. Simmons",
+    "website": "https://www.carolineschools.org/",
+    "board_url": "https://www.carolineschools.org/o/ccps/page/board#members",
+    "board_members": [
+      {"name": "Arevia Michele Wayman", "position": "President", "type": "Appointed", "appointed": "2021, reappointed 2022", "term": "Ends 2026"},
+      {"name": "Mark R. Jones", "position": "Vice President", "type": "Appointed", "appointed": "2020, reappointed 2024", "term": "Ends 2028"},
+      {"name": "Chrissy Bartz", "position": "Member", "type": "Elected", "appointed": "July 2024", "elected": "November 2024", "term": "Ends 2028"},
+      {"name": "Stefanie Johnson", "position": "Member", "type": "Elected", "district": "District 2", "elected": "November 2024", "term": "Ends 2028"},
+      {"name": "P. Troy Plutschak", "position": "Member", "type": "Elected", "elected": "2022", "term": "Ends 2026"}
+    ],
+    "note": "Board has 3 elected members (one from each district), 2 appointed by governor, and 2 non-voting student members (one from each high school). All serve 4-year terms except students who serve 1 year."
+  },
+  {
+    "county": "Queen Anne's",
+    "superintendent": "Dr. Matthew Kibler (Interim)",
+    "website": "https://www.qacps.org/",
+    "board_url": "https://www.qacps.org/board-of-education/",
+    "leadership": [
+      {"name": "Dr. Matthew Kibler", "position": "Interim Superintendent"},
+      {"name": "Dr. Jennifer Schrecongost", "position": "Interim Assistant Superintendent"},
+      {"name": "Sid Pinder, Jr.", "position": "Chief Operating Officer"},
+      {"name": "Dr. Michael Noel", "position": "Director of Human Resources"},
+      {"name": "Rob Watkins", "position": "Interim Chief Financial Officer"}
+    ],
+    "board_members": [
+      {"name": "Shannon Bent", "position": "Board President", "district": "District 1", "term": "2022-2026"},
+      {"name": "Alexis Capes", "position": "Board Vice President", "district": null, "term": "2022-2026"},
+      {"name": "Mathew Drayer", "position": "Board Member", "district": "District 2", "term": "2024-2028"},
+      {"name": "Carrie Sutherland", "position": "Board Member", "district": "District 3", "term": "2024-2028"},
+      {"name": "Kendra Eichler", "position": "Board Member", "district": "District 4", "term": "2024-2028"}
+    ]
+  }
+]
