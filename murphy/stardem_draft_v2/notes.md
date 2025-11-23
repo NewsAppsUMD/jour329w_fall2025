@@ -29,7 +29,6 @@ Specific principal names were not provided in the source data; please refer to t
 
 the formatting also lowkey was worse ??? instead of listing things in, you know, a list, it just kind of put them together separated by semicolons.
 
-point being, i switched models to use `groq/meta-llama/llama-4-maverick-17b-128e-instruct`instead of gpt so i could compare the results. because while i think my beatbook draft is fine, i'm kind of disappointed it didn't necessarily come out the way i wanted. the meta-llama one was good – it semed to turn out slightly better in terms of organization and citations, and the length seemed slightly more reasonable.
+point being, i switched models to use `groq/meta-llama/llama-4-maverick-17b-128e-instruct`instead of gpt so i could compare the results. because while i think my beatbook draft is fine, i'm kind of disappointed it didn't necessarily come out the way i wanted. the meta-llama one was good – see v3_enhanced. it semed to turn out slightly better in terms of organization and citations, and the length seemed slightly more reasonable.
 
 either way, though, it made it very clear that i am still missing some key contextual data — namely school enrollment broken down by race and special populations, particularly given that it provides a comparison point for suspension rates. i tried to get it, but it was proving very difficult to scrape, so i moved on to other, easier to capture data (for now). 
-
