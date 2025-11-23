@@ -1,0 +1,502 @@
+[
+  {
+    "county": "Caroline",
+    "school_code": "050301",
+    "school_name": "Denton Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050501",
+    "school_name": "Federalsburg Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050201",
+    "school_name": "Greensboro Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050401",
+    "school_name": "Preston Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050701",
+    "school_name": "Ridgely Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050802",
+    "school_name": "Colonel Richardson Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050302",
+    "school_name": "Lockerman Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050801",
+    "school_name": "Colonel Richardson High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050703",
+    "school_name": "North Caroline High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Caroline",
+    "school_code": "050704",
+    "school_name": "Caroline Career & Technology Center",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090716",
+    "school_name": "Choptank Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "091503",
+    "school_name": "Hurlock Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090711",
+    "school_name": "Maple Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090710",
+    "school_name": "Sandy Hill Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090302",
+    "school_name": "Vienna Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090205",
+    "school_name": "Warwick Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090508",
+    "school_name": "South Dorchester School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090707",
+    "school_name": "Mace's Lane Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090208",
+    "school_name": "North Dorchester Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090713",
+    "school_name": "Cambridge-South Dorchester High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090207",
+    "school_name": "North Dorchester High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090714",
+    "school_name": "Dorchester County Career and Technology Center",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Dorchester",
+    "school_code": "090709",
+    "school_name": "Judith P. Hoyer Early Childhood Center",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Kent",
+    "school_code": "140105",
+    "school_name": "Galena Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Kent",
+    "school_code": "140403",
+    "school_name": "H. H. Garnett Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Kent",
+    "school_code": "140504",
+    "school_name": "Rock Hall Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Kent",
+    "school_code": "140402",
+    "school_name": "Kent County Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Kent",
+    "school_code": "140301",
+    "school_name": "Kent County High",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170403",
+    "school_name": "Bayside Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170308",
+    "school_name": "Centreville Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170202",
+    "school_name": "Church Hill Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170503",
+    "school_name": "Grasonville Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170302",
+    "school_name": "Kennard Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170402",
+    "school_name": "Kent Island Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170406",
+    "school_name": "Matapeake Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170106",
+    "school_name": "Sudlersville Elementary School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170101",
+    "school_name": "Sudlersville Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170303",
+    "school_name": "Centreville Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170407",
+    "school_name": "Matapeake Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170404",
+    "school_name": "Stevensville Middle School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170405",
+    "school_name": "Kent Island High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Queen Anne's",
+    "school_code": "170301",
+    "school_name": "Queen Anne's County High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200401",
+    "school_name": "Chapel District Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200104",
+    "school_name": "Easton Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200204",
+    "school_name": "St. Michaels Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200501",
+    "school_name": "Tilghman Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200302",
+    "school_name": "White Marsh Elementary",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200106",
+    "school_name": "Easton Middle",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200202",
+    "school_name": "St. Michaels Middle/High School",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  },
+  {
+    "county": "Talbot",
+    "school_code": "200101",
+    "school_name": "Easton High",
+    "counselors": null,
+    "psychologists": null,
+    "social_workers": null,
+    "nurses": null,
+    "total_staff": null
+  }
+]

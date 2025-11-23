@@ -1,0 +1,65 @@
+RAISINGTEACHERSALARIES
+WITH
+LARGE
+BLUEPRINT
+INVESTMENTS
+IN
+EDUCATION,
+WHY
+ARE
+SOME
+MARYLAND
+DISTRICTS
+STRUGGLING
+TO
+FUND
+THEIR
+SCHOOLS?
+K a y l aB i l l,D a v i dB l a z a r,&C a m p b e l lF .S c r i b n e r/ /U n i v e r s i t yo fM a r y l a n d
+CENTRAL
+QUESTION
+M a r y l a n di si n v e s t i n gb i l l i o n so fd o l l a r si ne d u c a t i o nt h r o u g hT h eB l u e p r i n tf o rM a r y l a n d ’ sF u t u r e .W h ya r es o m ed i s t r i c t ss t r u g g l i n gt of u n dt h e i rs c h o o l s ?
+In2021,MarylandpassedT h eB l u e p r i n tf o rM a r y l a n d ’ sF u t u r e—legislationthathaspromisedtoinvestbillionsofdollarsinthestate’seducationsystem.Atthesametime,somedistrictsacrossthestatehavemadeheadlinesforthecutstheyaremakingtoeducationbudgets.1Why,amidhugefinancialinvestmentsineducation,aresomedistrictsstillstrugglingtofundtheirschools?
+Theanswertothisquestioniscomplicated.Inthisbrief,weprovideanoverviewofBlueprintfundingandexplorethefactorsdrivingdistricts’budgetcuts.OurfindingsarebasedonareviewofpublicdocumentsfromtheMarylandStateDepartmentofEducation(MSDE)andMaryland’sDepartmentofLegislativeServices(DLS),whichaddressBlueprintfundingrequirements,aswellasanalysesofdistricts’BlueprintimplementationplansconductedasapartofourB l u e p r i n tp o l i c yb r i e fs e r i e s.WeclosebyposingquestionsaboutBlueprintfundingthatarecriticaltothesuccessofthispotentiallytransformativereform.
+HOW
+DOES
+BLUEPRINT
+FUNDING
+WORK?
+WhiletheBlueprintisfacilitatingchangesinmanyareasofeducation,schoolfinancereformisakeycomponent.Atitscore,theBlueprintaimstoensureanadequateandequitableeducationforallMarylandstudents.Todoso,theBlueprintmodifiesstudentfundingformulas,whichwerelastrevisedin2002.2T h eB l u e p r i n tf u n d i n gf o r m u l ai n c r e a s e sb a s ea n dw e i g h t e dp e r - p u p i la m o u n t sa n ds u p p o r tf o rs p e c i f i cp r o g r a m s .
+MSDEreportsthatthenewBlueprintformulaincludesthreetypesoffunds:(1)baseper-pupilfunds,(2)weightedper-pupilfunds,and(3)programfunds.Alldollaramountsreportedinthisbriefarein2024realdollarsunlessspecifiedotherwise.3
+•Baseper-pupilfundingisacombinationofstateandlocalfundsthatprovidesaminimumlevelofsupportfordistricts.ItisthelargestcomponentoftheBlueprintfundingformula.Eachschoolreceivesthebaseamountperstudentperyear.TheformulaisdesignedtoprovideanadequateeducationtoallMarylandstudents.4PriortotheBlueprint(in2019-20),Maryland’sbaseamountofroughly$8,800wasinthetopquarterofstatesthatprovidebasefunding(Figure1).Thebaseamountisprojectedtoincreasebyapproximately25%(netofinflation)by2032-33.5
+•Weightedfundingincludesadditionalstateandlocalfundsforschoolsbasedontheenrollmentofcertaingroupsofstudents,includingthosewhoaremultilinguallearners,requirespecialeducationservices,andarelivinginpoverty.Thiscategoryalsoincludessupportforprekindergartenandanewlyimplementedteachercareerladder.6Table1displaysweightedfundingcategoriesandamounts.
+•Programfundingisbasedonfactorsotherthanstudentenrollment,includingregionaldifferencesintransportationneeds,costofliving,andwealth.Forexample,ConcentrationofPovertypersonnelgrantsprovidefundsforhigh-povertyschoolstohirecommunityschoolcoordinatorsandprofessionalhealthcarepractitioners.7
+AboutthisBrief.TheUniversityofMarylandCollegeofEducation’sM a r y l a n dE q u i t yP r o j e c t( M E P )seekstoimprovepubliceducationthroughresearchthatsupportsaninformedpublicpolicydebateaboutthequalityanddistributionofeducationalopportunitiesinMarylandandnationally.ThisbriefisoneinaseriesonT h eB l u e p r i n tf o rM a r y l a n d ’ sF u t u r e—asignificantstatewideinvestmenttotransformMaryland’spublicschoolsinserviceofeducationalequity.ThepurposeofthisbriefseriesistosupportdistrictsintheireffortstoplanandimplementBlueprintinitiativesthroughinformation-sharingandresearch-basedrecommendations.
+
+
+BLUEPRINTINVESTMENTSINEDUCATION
+Figure1.BasePer-pupilFundingbyState
+N o t e :S t a t e sn o ti n c l u d e di nt h i sa n a l y s i sd on o th a v eab a s ep e r - p u p i lf u n d i n ga m o u n t .B a s ef u n d i n ga m o u n t sr a n g ef r o mF i s c a lY e a r s2 0 2 0t o2 0 2 4( M a r y l a n di sf r o m2 0 2 0 )b u ta r er e p r e s e n t e di n2 0 2 4r e a ld o l l a r s .W h i l es o m es t a t e sh a v eu p d a t e db a s ef u n d i n gl e v e l ss i n c et h e s ed a t aw e r er e p o r t e d ,t h i sw a st h em o s tc o m p r e h e n s i v es o u r c eo fs t a t eb a s ef u n d i n ga m o u n t sw ec o u l df i n d .S o u r c e :E d B u i l d( n . d . )8
+P e r - p u p i lf u n d i n gc o m e sf r o mac o m b i n a t i o no ff e d e r a l ,s t a t e ,a n dl o c a ls o u r c e s .
+Federalsourcescomprisethesmallestshareandhavehistoricallyaccountedfor5%offundingforMarylandschoolsandstudents.SourcesoffederalaidincludeTitleIoftheElementaryandSecondaryEducationAct,whichaimstosupportstudentslivinginpoverty;theIndividualswithDisabilitiesEducationAct,whichaimstosupportstudentswithdisabilities;TitleII,whichaimstosupporteffectiveclassroominstruction;andtheCarlD.PerkinsCareerandTechnicalEducationAct,whichaimstosupportCareerandTechnicalEducationprograms.Districtsgenerallyhavediscretionoverhowthesefundsareused,aslongastheyfallwithinthepurposeofthefundingsourceanditsspecificrequirements.9Additionally,Marylandreceivedmorethan$3.2billioninfederalaidthroughElementaryandSecondarySchoolEmergencyRelief(ESSER)funds.DistrictsspentESSERfundsinvariousways,includingtopurchasesupplies(e.g.,PersonalProtectiveEquipment)andsupportstaffsalaries.10
+StateandlocalsourcescomprisethelargestsharesoffundingforMarylandschools,andundertheBlueprint,botharesettoincrease.Forexample,initscomprehensiveplanreleasedin2023,theAccountabilityandImplementationBoard(AIB)—whichoverseesBlueprintimplementation—reportedthattheStateofMarylandwillinvestanadditionalestimated$3.9billionineducationby2033-34—anincreaseof45%overpre-Blueprinteducationspending.Theplanalsospecifiedthatlocalfundingwillincreaseby8%comparedtopre-Blueprintlevels,amountingtoanapproximately$700million.11
+InMaryland,stateeducationaidtakesseveralforms.DLSdescribesfourtypesofstateaid,whichoverlapwithbutareseparatefromthethreecategoriesofBlueprintfundingdescribedintheprevioussection:(1)generaldirectaid,whichprovidesbasicresourceslikepersonnelandsupportsbaseper-pupilfundingandsomeprogramfundingcategories;(2)targeteddirectaid,whichprovidesadditionalfundingforcertaingroupsofstudents(e.g.,multilinguallearners)andsupportsmostweightedper-pupilfundingcategories;(3)retirementaid,whichsupportspensionsforpublicschoolemployees;and(4)otherdirectaid,whichprovidesfundingforresourcesnotrelatedtoinstructionandsupportsotherprogramfundingcategories12(Figure2).
+Figure2.TypesandSharesofMarylandStateEducationAidin2022-23
+Source:DLS(2022a)13
+Theamountofstateaiddistrictsreceive—andthustheamountoffundinglocalgovernmentsmustcontributetoeducation—generallydependsoncountywealth,whichvariessubstantially.AccordingtoDLS,thestatecontributes
+MARYLANDEQUITYPROJECT/ /go.umd.edu/marylandequityproject/ /mdequity@umd.edu
+
+
+BLUEPRINTINVESTMENTSINEDUCATION
+Table1.WeightedFundingCategoriesandAmounts(2024-25)
+CategoryAmountDescription
+Baseper-pupilfunding-$8,789-By2032-33,scaleduptoapprox.$11,200netofinflation-Providesminimumfundingfordistrictsbasedonstudentenrollment
+CompensatoryEducation-86%ofbaseper-pupilamount-Phaseddownto73%through2032-33andeachyearthereafter-Aimstoexpandresourcesforstudentslivinginpoverty,definedaseligibilityforFreeandReducedPriceMeals(FRPM)
+ConcentrationofPoverty*-$3,778per-pupilmaximum,adjustedforinflationeachsubsequentyear-$278,614personnelgrantpereligibleschoolandadjustedforinflationeachsubsequentyear-Aimstosupportschoolswithhighconcentrationsofstudentslivinginpovertytobecomecommunityschools**-Providesweightedper-pupilfundingforstudentslivinginpovertyandpersonnelgrantsforeligibleschoolstohirecommunityschoolcoordinatorsandprofessionalhealthcarepractitioners
+Prekindergarten-$13,003per-pupil-Scaledupto$19,526through2029-30andadjustedforinflationeachsubsequentyear-Aimstoprovideno-costPre-Kforfamilieswithincomesatorbelow300%oftheFederalPovertyLevel(FPL)andlow-costPre-Kforfamilieswithincomesupto600%oftheFPL
+MultilingualLearner-102%ofbaseper-pupilamount-Phaseddownto85%through2032-22andeachyearthereafter-AimstoprovideadditionalsupportforstudentswhoaredevelopingEnglishlanguageproficiency
+SpecialEducation-99%ofbaseper-pupilamount-Scaledupto148%through2032-33andeachyearthereafter-Aimstoprovideadditionalsupportforstudentswithspecialneeds
+TransitionalSupplementalInstruction-$522per-pupil-Phaseddownto$0in2026-27andeachyearthereafter-AimstoprovideadditionalsupportforstudentsinKindergartenthrough3rdgrade(e.g.,tutoring)whoarenotmeetingEnglishlanguageartsorreadingproficiencystandards
+CollegeandCareerReadiness-$579per-pupilamountandadjustedforinflationeachsubsequentyear-Aimstosupportdistricts'effortstoexpandCollegeandCareerReadiness(CCR)pathways(e.g.,CareerandTechnicalEducationopportunities)
+CareerLadder-$5,000-$15,000salaryincreasesforteachers/administratorsmovingupthecareerladder(e.g.,leadteachers)-$6,000-$8,000increasesforearningormaintainingNationalBoardCertification-10%salaryincreaseoverJuly1,2019salary-$60,000minimumteacherstartingsalary(notineffectuntilJuly1,2026)-Aimstosupportteacherdevelopmentandcareerladderopportunities-Establishesstateandlocalsharesofteachersalaryincreasesassociatedwithcareerladder(e.g.,$10,000salaryincreaseforearningNationalBoardCertification)
+Note:Weightedamountsareadditionalfundsontopofthebaseper-pupilamount.Insomecases,dollaramountsfor2024-25werereportedinstatutes;inothercases,weconvertedcurrentdollarsfromotheryearsto2024dollars.*Includedintheprogramfundingcategoryono n eM S D Ew e b s i t ebutincludedintheweightedfundingcategoryona n o t h e r.**Granteligibilityisdeterminedbyschools'povertyrates,whichareessentiallyratesofstudentsreceivingFRPM.In2021-22,schoolswithatleast80%ofstudentslivinginpovertywereeligible;in2024-25,schoolswithatleast65%ofstudentslivinginpovertywillbeeligible.S o u r c e :M S D E( 2 0 2 4 a )1 4
+moremoneytodistrictswithlesswealth.In2022-23,stateaidrangedfrom$12.3millioninKentCounty,whichhadaper-pupilwealthofapproximately$1million,to$1.43billioninPrinceGeorge’sCounty,whichhadaper-pupilwealthof$525,069.15Severalotherfactorsalsoaffecthowmuchthestateandlocalgovernmentscontributetoeducation.First,thestatemandatesthatcountiescontributeatleastasmuchper-pupilfundingasprovidedintheprioryear,knownasmaintenanceofeffort(MOE).16DLSprojectedthatthe
+MARYLANDEQUITYPROJECT/ /go.umd.edu/marylandequityproject/ /mdequity@umd.edu
+

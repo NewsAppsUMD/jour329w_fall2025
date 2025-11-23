@@ -1,0 +1,302 @@
+[
+  {
+    "county": "Caroline",
+    "full_code": "050301",
+    "name": "Denton Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0301/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050501",
+    "name": "Federalsburg Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0501/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050201",
+    "name": "Greensboro Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0201/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050401",
+    "name": "Preston Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0401/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050701",
+    "name": "Ridgely Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/05/0701/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050802",
+    "name": "Colonel Richardson Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0802/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050302",
+    "name": "Lockerman Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/05/0302/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050801",
+    "name": "Colonel Richardson High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0801/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050703",
+    "name": "North Caroline High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/05/0703/0"
+  },
+  {
+    "county": "Caroline",
+    "full_code": "050704",
+    "name": "Caroline Career & Technology Center",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/05/0704/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090716",
+    "name": "Choptank Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0716/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "091503",
+    "name": "Hurlock Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/1503/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090711",
+    "name": "Maple Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0711/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090710",
+    "name": "Sandy Hill Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0710/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090302",
+    "name": "Vienna Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0302/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090205",
+    "name": "Warwick Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/09/0205/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090508",
+    "name": "South Dorchester School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/09/0508/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090707",
+    "name": "Mace's Lane Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0707/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090208",
+    "name": "North Dorchester Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/09/0208/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090713",
+    "name": "Cambridge-South Dorchester High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0713/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090207",
+    "name": "North Dorchester High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/09/0207/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090714",
+    "name": "Dorchester County Career and Technology Center",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0714/0"
+  },
+  {
+    "county": "Dorchester",
+    "full_code": "090709",
+    "name": "Judith P. Hoyer Early Childhood Center",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/UC/1/09/0709/0"
+  },
+  {
+    "county": "Kent",
+    "full_code": "140105",
+    "name": "Galena Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0105/0"
+  },
+  {
+    "county": "Kent",
+    "full_code": "140403",
+    "name": "H. H. Garnett Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0403/0"
+  },
+  {
+    "county": "Kent",
+    "full_code": "140504",
+    "name": "Rock Hall Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/14/0504/0"
+  },
+  {
+    "county": "Kent",
+    "full_code": "140402",
+    "name": "Kent County Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/14/0402/0"
+  },
+  {
+    "county": "Kent",
+    "full_code": "140301",
+    "name": "Kent County High",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/14/0301/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170403",
+    "name": "Bayside Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0403/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170308",
+    "name": "Centreville Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0308/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170202",
+    "name": "Church Hill Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0202/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170503",
+    "name": "Grasonville Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0503/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170302",
+    "name": "Kennard Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0302/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170402",
+    "name": "Kent Island Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0402/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170406",
+    "name": "Matapeake Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0406/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170106",
+    "name": "Sudlersville Elementary School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/17/0106/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170101",
+    "name": "Sudlersville Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/EM/1/17/0101/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170303",
+    "name": "Centreville Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0303/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170407",
+    "name": "Matapeake Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0407/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170404",
+    "name": "Stevensville Middle School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/17/0404/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170405",
+    "name": "Kent Island High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0405/0"
+  },
+  {
+    "county": "Queen Anne's",
+    "full_code": "170301",
+    "name": "Queen Anne's County High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/17/0301/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200401",
+    "name": "Chapel District Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0401/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200104",
+    "name": "Easton Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0104/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200204",
+    "name": "St. Michaels Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0204/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200501",
+    "name": "Tilghman Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0501/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200302",
+    "name": "White Marsh Elementary",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/E/1/20/0302/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200106",
+    "name": "Easton Middle",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/M/1/20/0106/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200202",
+    "name": "St. Michaels Middle/High School",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/MH/1/20/0202/0"
+  },
+  {
+    "county": "Talbot",
+    "full_code": "200101",
+    "name": "Easton High",
+    "url": "https://reportcard.msde.maryland.gov/Graphs/#/ReportCards/ReportCardSchool/1/H/1/20/0101/0"
+  }
+]

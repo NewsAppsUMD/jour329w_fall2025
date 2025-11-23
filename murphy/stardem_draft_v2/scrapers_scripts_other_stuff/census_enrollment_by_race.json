@@ -1,0 +1,407 @@
+{
+  "Talbot": {
+    "county": "Talbot",
+    "enrollment_by_race": {
+      "White": {
+        "total_enrolled_all_ages": 4822,
+        "k12_enrolled": 3096,
+        "by_grade": {
+          "kindergarten": 203,
+          "grade_1": 267,
+          "grade_2": 244,
+          "grade_3": 247,
+          "grade_4": 326,
+          "grade_5": 223,
+          "grade_6": 357,
+          "grade_7": 265,
+          "grade_8": 171,
+          "grade_9": 213,
+          "grade_10": 299,
+          "grade_11": 281,
+          "grade_12": 0
+        }
+      },
+      "Black_or_African_American": {
+        "total_enrolled_all_ages": 869,
+        "k12_enrolled": 678,
+        "by_grade": {
+          "kindergarten": 97,
+          "grade_1": 55,
+          "grade_2": 13,
+          "grade_3": 25,
+          "grade_4": 56,
+          "grade_5": 59,
+          "grade_6": 122,
+          "grade_7": 13,
+          "grade_8": 55,
+          "grade_9": 47,
+          "grade_10": 59,
+          "grade_11": 77,
+          "grade_12": 0
+        }
+      },
+      "Asian": {
+        "total_enrolled_all_ages": 87,
+        "k12_enrolled": 40,
+        "by_grade": {
+          "kindergarten": 1,
+          "grade_1": 0,
+          "grade_2": 6,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 5,
+          "grade_6": 0,
+          "grade_7": 0,
+          "grade_8": 0,
+          "grade_9": 18,
+          "grade_10": 0,
+          "grade_11": 10,
+          "grade_12": 0
+        }
+      },
+      "Hispanic_or_Latino": {
+        "total_enrolled_all_ages": 1042,
+        "k12_enrolled": 715,
+        "by_grade": {
+          "kindergarten": 33,
+          "grade_1": 26,
+          "grade_2": 15,
+          "grade_3": 157,
+          "grade_4": 191,
+          "grade_5": 122,
+          "grade_6": 61,
+          "grade_7": 0,
+          "grade_8": 10,
+          "grade_9": 53,
+          "grade_10": 5,
+          "grade_11": 42,
+          "grade_12": 0
+        }
+      }
+    }
+  },
+  "Kent": {
+    "county": "Kent",
+    "enrollment_by_race": {
+      "White": {
+        "total_enrolled_all_ages": 2937,
+        "k12_enrolled": 1347,
+        "by_grade": {
+          "kindergarten": 122,
+          "grade_1": 116,
+          "grade_2": 39,
+          "grade_3": 179,
+          "grade_4": 111,
+          "grade_5": 125,
+          "grade_6": 113,
+          "grade_7": 125,
+          "grade_8": 42,
+          "grade_9": 97,
+          "grade_10": 85,
+          "grade_11": 193,
+          "grade_12": 0
+        }
+      },
+      "Black_or_African_American": {
+        "total_enrolled_all_ages": 676,
+        "k12_enrolled": 321,
+        "by_grade": {
+          "kindergarten": 7,
+          "grade_1": 77,
+          "grade_2": 4,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 5,
+          "grade_6": 51,
+          "grade_7": 51,
+          "grade_8": 7,
+          "grade_9": 13,
+          "grade_10": 82,
+          "grade_11": 24,
+          "grade_12": 0
+        }
+      },
+      "Asian": {
+        "total_enrolled_all_ages": 108,
+        "k12_enrolled": 0,
+        "by_grade": {
+          "kindergarten": 0,
+          "grade_1": 0,
+          "grade_2": 0,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 0,
+          "grade_6": 0,
+          "grade_7": 0,
+          "grade_8": 0,
+          "grade_9": 0,
+          "grade_10": 0,
+          "grade_11": 0,
+          "grade_12": 0
+        }
+      },
+      "Hispanic_or_Latino": {
+        "total_enrolled_all_ages": 404,
+        "k12_enrolled": 212,
+        "by_grade": {
+          "kindergarten": 32,
+          "grade_1": 21,
+          "grade_2": 8,
+          "grade_3": 7,
+          "grade_4": 0,
+          "grade_5": 53,
+          "grade_6": 16,
+          "grade_7": 11,
+          "grade_8": 0,
+          "grade_9": 0,
+          "grade_10": 35,
+          "grade_11": 29,
+          "grade_12": 0
+        }
+      }
+    }
+  },
+  "Dorchester": {
+    "county": "Dorchester",
+    "enrollment_by_race": {
+      "White": {
+        "total_enrolled_all_ages": 3254,
+        "k12_enrolled": 2297,
+        "by_grade": {
+          "kindergarten": 75,
+          "grade_1": 110,
+          "grade_2": 199,
+          "grade_3": 250,
+          "grade_4": 122,
+          "grade_5": 266,
+          "grade_6": 288,
+          "grade_7": 116,
+          "grade_8": 224,
+          "grade_9": 173,
+          "grade_10": 256,
+          "grade_11": 218,
+          "grade_12": 0
+        }
+      },
+      "Black_or_African_American": {
+        "total_enrolled_all_ages": 2315,
+        "k12_enrolled": 1427,
+        "by_grade": {
+          "kindergarten": 180,
+          "grade_1": 208,
+          "grade_2": 100,
+          "grade_3": 169,
+          "grade_4": 21,
+          "grade_5": 31,
+          "grade_6": 111,
+          "grade_7": 109,
+          "grade_8": 99,
+          "grade_9": 125,
+          "grade_10": 84,
+          "grade_11": 190,
+          "grade_12": 0
+        }
+      },
+      "Asian": {
+        "total_enrolled_all_ages": 164,
+        "k12_enrolled": 145,
+        "by_grade": {
+          "kindergarten": 0,
+          "grade_1": 2,
+          "grade_2": 0,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 0,
+          "grade_6": 57,
+          "grade_7": 0,
+          "grade_8": 0,
+          "grade_9": 0,
+          "grade_10": 58,
+          "grade_11": 28,
+          "grade_12": 0
+        }
+      },
+      "Hispanic_or_Latino": {
+        "total_enrolled_all_ages": 668,
+        "k12_enrolled": 484,
+        "by_grade": {
+          "kindergarten": 58,
+          "grade_1": 0,
+          "grade_2": 23,
+          "grade_3": 9,
+          "grade_4": 29,
+          "grade_5": 55,
+          "grade_6": 33,
+          "grade_7": 37,
+          "grade_8": 42,
+          "grade_9": 57,
+          "grade_10": 56,
+          "grade_11": 85,
+          "grade_12": 0
+        }
+      }
+    }
+  },
+  "Caroline": {
+    "county": "Caroline",
+    "enrollment_by_race": {
+      "White": {
+        "total_enrolled_all_ages": 5460,
+        "k12_enrolled": 3372,
+        "by_grade": {
+          "kindergarten": 271,
+          "grade_1": 324,
+          "grade_2": 329,
+          "grade_3": 249,
+          "grade_4": 392,
+          "grade_5": 186,
+          "grade_6": 224,
+          "grade_7": 284,
+          "grade_8": 301,
+          "grade_9": 388,
+          "grade_10": 225,
+          "grade_11": 199,
+          "grade_12": 0
+        }
+      },
+      "Black_or_African_American": {
+        "total_enrolled_all_ages": 1234,
+        "k12_enrolled": 706,
+        "by_grade": {
+          "kindergarten": 146,
+          "grade_1": 78,
+          "grade_2": 45,
+          "grade_3": 60,
+          "grade_4": 79,
+          "grade_5": 29,
+          "grade_6": 32,
+          "grade_7": 49,
+          "grade_8": 13,
+          "grade_9": 54,
+          "grade_10": 73,
+          "grade_11": 48,
+          "grade_12": 0
+        }
+      },
+      "Asian": {
+        "total_enrolled_all_ages": 52,
+        "k12_enrolled": 9,
+        "by_grade": {
+          "kindergarten": 0,
+          "grade_1": 0,
+          "grade_2": 0,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 0,
+          "grade_6": 0,
+          "grade_7": 0,
+          "grade_8": 3,
+          "grade_9": 0,
+          "grade_10": 6,
+          "grade_11": 0,
+          "grade_12": 0
+        }
+      },
+      "Hispanic_or_Latino": {
+        "total_enrolled_all_ages": 884,
+        "k12_enrolled": 694,
+        "by_grade": {
+          "kindergarten": 86,
+          "grade_1": 61,
+          "grade_2": 61,
+          "grade_3": 63,
+          "grade_4": 83,
+          "grade_5": 59,
+          "grade_6": 62,
+          "grade_7": 10,
+          "grade_8": 65,
+          "grade_9": 43,
+          "grade_10": 20,
+          "grade_11": 81,
+          "grade_12": 0
+        }
+      }
+    }
+  },
+  "Queen Anne's": {
+    "county": "Queen Anne's",
+    "enrollment_by_race": {
+      "White": {
+        "total_enrolled_all_ages": 8997,
+        "k12_enrolled": 5675,
+        "by_grade": {
+          "kindergarten": 434,
+          "grade_1": 590,
+          "grade_2": 404,
+          "grade_3": 281,
+          "grade_4": 484,
+          "grade_5": 347,
+          "grade_6": 448,
+          "grade_7": 600,
+          "grade_8": 423,
+          "grade_9": 465,
+          "grade_10": 756,
+          "grade_11": 443,
+          "grade_12": 0
+        }
+      },
+      "Black_or_African_American": {
+        "total_enrolled_all_ages": 577,
+        "k12_enrolled": 275,
+        "by_grade": {
+          "kindergarten": 3,
+          "grade_1": 47,
+          "grade_2": 0,
+          "grade_3": 0,
+          "grade_4": 0,
+          "grade_5": 0,
+          "grade_6": 95,
+          "grade_7": 54,
+          "grade_8": 23,
+          "grade_9": 49,
+          "grade_10": 0,
+          "grade_11": 4,
+          "grade_12": 0
+        }
+      },
+      "Asian": {
+        "total_enrolled_all_ages": 137,
+        "k12_enrolled": 86,
+        "by_grade": {
+          "kindergarten": 0,
+          "grade_1": 0,
+          "grade_2": 0,
+          "grade_3": 0,
+          "grade_4": 9,
+          "grade_5": 0,
+          "grade_6": 33,
+          "grade_7": 13,
+          "grade_8": 0,
+          "grade_9": 9,
+          "grade_10": 0,
+          "grade_11": 22,
+          "grade_12": 0
+        }
+      },
+      "Hispanic_or_Latino": {
+        "total_enrolled_all_ages": 686,
+        "k12_enrolled": 590,
+        "by_grade": {
+          "kindergarten": 13,
+          "grade_1": 76,
+          "grade_2": 36,
+          "grade_3": 64,
+          "grade_4": 57,
+          "grade_5": 64,
+          "grade_6": 26,
+          "grade_7": 79,
+          "grade_8": 14,
+          "grade_9": 94,
+          "grade_10": 20,
+          "grade_11": 47,
+          "grade_12": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "county": "Caroline",
+    "per_pupil_increase_percent": 40.3,
+    "per_pupil_increase_rank": null,
+    "base_year": 2019,
+    "comparison_year": 2024,
+    "strengths": [
+      "Caroline County has developed a comprehensive plan to increase pre-K enrollment for 3-year-olds and 4-year-olds.",
+      "Caroline County has strong K-12 curriculum plans for both math and literacy.",
+      "The college and career readiness plan does a good job in serving diverse student populations."
+    ],
+    "needs_improvement": [
+      "The district will work with the Accountability and Implementation Board to find ways to recruit and support educators from underrepresented communities as they pursue their National Board Certification.",
+      "The district is developing a career ladder to help teachers form a more coherent step by step plan. District officials are in need of technical assistance and guidance as they do this.",
+      "The timeline for the county\u2019s literacy plan, currently set at three years, \u201ccould be more ambitious.\u201d",
+      "The district is attempting to integrate regular peer collaborative work during the normal school week hours.",
+      "The district wants to have better advertising and data to show the high"
+    ],
+    "key_statistics": [
+      "State Funding Per-Pupil"
+    ]
+  },
+  {
+    "county": "Dorchester",
+    "per_pupil_increase_percent": 36.9,
+    "per_pupil_increase_rank": null,
+    "base_year": 2019,
+    "comparison_year": 2024,
+    "strengths": [
+      "Dorchester County Public Schools is collaborating with private providers to increase Pre-K enrollment among 3 and 4-year-olds and is communicating well with families about Pre-K enrollment."
+    ],
+    "needs_improvement": [
+      "Dorchester County Public Schools needs to improve its National Board Certification recruitment and support program so that more teachers get certification, giving them the ability to serve as teacher leaders.",
+      "The district should seek the opinions of stakeholders such as employees and parents as the implementation of the Blueprint continues.",
+      "A staffing shortage continues to be a roadblock to the Blueprint implementation. To address this shortage, the district may want to ensure that teacher leaders return to teach during part of the day. Dorchester also may want to increase tutoring and reallocate central office staff.",
+      "Dorchester County Public Schools is still working on its literacy and mathematics plans based on community and stakeholder input and must make sure those plans eventually meet expectations set by the Blueprint."
+    ],
+    "key_statistics": [
+      "State Funding Per Pupil"
+    ]
+  },
+  {
+    "county": "Kent",
+    "per_pupil_increase_percent": 33.8,
+    "per_pupil_increase_rank": null,
+    "base_year": 2019,
+    "comparison_year": 2024,
+    "strengths": [
+      "Kent County has an established universal pre-K program for 4-year-olds and has developed strategies to boost participation, including the inclusion of 3-year-olds.",
+      "The county engages with colleges and universities for support in various areas, including teacher certification, curriculum development and helping to staff advanced placement courses.",
+      "Building-based mentor programs have been developed to help recruit, support and retain teachers.",
+      "In effort to generate a more holistic understanding of individual student progress, attendance and behavior issues are included in academic mentoring.",
+      "Kent County and neighboring Cecil County are working together to organize community schools."
+    ],
+    "needs_improvement": [
+      "The district needs to reevaluate and expand its career ladder framework by focusing on more than National Board Certification for its educators.",
+      "Kent County should complete and implement a math plan in alignment with the Blueprint to improve student proficiency rates.",
+      "The district is revising its current literacy plan to align with the Blueprint,\u00a0 and it needs to refer to data to make sure the plan is working in every school.",
+      "Career and technical education programming needs to be expanded. The district can utilize technology to provide opportunities for learning, and given that there are no businesses nearby to assist, school"
+    ],
+    "key_statistics": [
+      "State Funding Per Pupil"
+    ]
+  },
+  {
+    "county": "Queen Anne's",
+    "per_pupil_increase_percent": 25.4,
+    "per_pupil_increase_rank": null,
+    "base_year": 2019,
+    "comparison_year": 2024,
+    "strengths": [
+      "Queen Anne\u2019s has created a continuous improvement process for its college and high school dual enrollment program. Data will be used to help students decide whether to participate and which classes to take.",
+      "Queen Anne\u2019s mathematics plan is comprehensive and has a strong emphasis on highly rated materials and tools. The district has also recently updated its literacy plan to fit with Blueprint requirements."
+    ],
+    "needs_improvement": [
+      "Queen Anne\u2019s County will not meet the necessary 10% teacher salary increase by the required date of June 30, 2024. Queen Anne\u2019s plans to reopen negotiations during the school year and its next arbitration agreement must be in line with Blueprint law.",
+      "Historically, Queen Anne\u2019s has trouble staffing math, world language and secondary education teaching positions, while recent shortages have caused hurdles in filling special education, elementary and secondary positions in all levels. The district needs to consider additional employment strategies, especially those targeting underrepresented populations.",
+      "Queen Anne\u2019s should reconsider its support strategies for students who are not on track to be college and career"
+    ],
+    "key_statistics": [
+      "State Funding Per Pupil"
+    ]
+  },
+  {
+    "county": "Talbot",
+    "per_pupil_increase_percent": 49.0,
+    "per_pupil_increase_rank": null,
+    "base_year": 2019,
+    "comparison_year": 2024,
+    "strengths": [
+      "Talbot County has a strong plan for Pillar 2 \u2013 recruiting high quality and diverse teachers and leaders \u2013 thanks to its connections with local higher education partners, recruitment efforts and the hiring of a diversity recruitment and retention facilitator.",
+      "Talbot has a comprehensive plan to monitor key data and intervene early for students not on track as they enter high school."
+    ],
+    "needs_improvement": [
+      "Because it\u2019s a small county, Talbot faces challenges in implementing parts of the Blueprint, such as expanding early education options and attracting the necessary faculty.",
+      "Talbot is still developing robust plans for literacy and math that align with the Blueprint.",
+      "The district could improve its post"
+    ],
+    "key_statistics": [
+      "State Funding Per Pupil"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "county": "Talbot",
+    "lss_code": "20",
+    "enrollment_data": {}
+  },
+  {
+    "county": "Kent",
+    "lss_code": "14",
+    "enrollment_data": {}
+  },
+  {
+    "county": "Dorchester",
+    "lss_code": "10",
+    "enrollment_data": {}
+  },
+  {
+    "county": "Caroline",
+    "lss_code": "07",
+    "enrollment_data": {}
+  },
+  {
+    "county": "Queen Anne's",
+    "lss_code": "18",
+    "enrollment_data": {}
+  }
+]

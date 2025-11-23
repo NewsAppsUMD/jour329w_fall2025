@@ -1,0 +1,32 @@
+[
+  {
+    "county": "Talbot",
+    "lss_code": "20",
+    "html_sample": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">\r\n<head prefix=\"og: http://ogp.me/ns#\">\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta http-equiv=\"CACHE-CONTROL\" content=\"NO-CACHE\" />\r\n    \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0\" />\r\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\r\n    <title></title>\r\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n    <script src=\"/Scripts/build/main-Bundle.js\"></script>\r\n    <!-- non-retina iPhone pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon-57x57.png\" sizes=\"57x57\">\r\n    <!-- non-retina iPad pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/Images/apple-touch-icon-72x72.png\" sizes=\"72x72\">\r\n    <!-- non-retina iPad iOS 7 --",
+    "note": "Page loaded but may need JavaScript execution"
+  },
+  {
+    "county": "Kent",
+    "lss_code": "14",
+    "html_sample": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">\r\n<head prefix=\"og: http://ogp.me/ns#\">\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta http-equiv=\"CACHE-CONTROL\" content=\"NO-CACHE\" />\r\n    \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0\" />\r\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\r\n    <title></title>\r\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n    <script src=\"/Scripts/build/main-Bundle.js\"></script>\r\n    <!-- non-retina iPhone pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon-57x57.png\" sizes=\"57x57\">\r\n    <!-- non-retina iPad pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/Images/apple-touch-icon-72x72.png\" sizes=\"72x72\">\r\n    <!-- non-retina iPad iOS 7 --",
+    "note": "Page loaded but may need JavaScript execution"
+  },
+  {
+    "county": "Dorchester",
+    "lss_code": "10",
+    "html_sample": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">\r\n<head prefix=\"og: http://ogp.me/ns#\">\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta http-equiv=\"CACHE-CONTROL\" content=\"NO-CACHE\" />\r\n    \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0\" />\r\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\r\n    <title></title>\r\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n    <script src=\"/Scripts/build/main-Bundle.js\"></script>\r\n    <!-- non-retina iPhone pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon-57x57.png\" sizes=\"57x57\">\r\n    <!-- non-retina iPad pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/Images/apple-touch-icon-72x72.png\" sizes=\"72x72\">\r\n    <!-- non-retina iPad iOS 7 --",
+    "note": "Page loaded but may need JavaScript execution"
+  },
+  {
+    "county": "Caroline",
+    "lss_code": "07",
+    "html_sample": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">\r\n<head prefix=\"og: http://ogp.me/ns#\">\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta http-equiv=\"CACHE-CONTROL\" content=\"NO-CACHE\" />\r\n    \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0\" />\r\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\r\n    <title></title>\r\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n    <script src=\"/Scripts/build/main-Bundle.js\"></script>\r\n    <!-- non-retina iPhone pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon-57x57.png\" sizes=\"57x57\">\r\n    <!-- non-retina iPad pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/Images/apple-touch-icon-72x72.png\" sizes=\"72x72\">\r\n    <!-- non-retina iPad iOS 7 --",
+    "note": "Page loaded but may need JavaScript execution"
+  },
+  {
+    "county": "Queen Anne's",
+    "lss_code": "18",
+    "html_sample": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">\r\n<head prefix=\"og: http://ogp.me/ns#\">\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta http-equiv=\"CACHE-CONTROL\" content=\"NO-CACHE\" />\r\n    \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0\" />\r\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\r\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\r\n    <title></title>\r\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\r\n    <script src=\"/Scripts/build/main-Bundle.js\"></script>\r\n    <!-- non-retina iPhone pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/images/apple-touch-icon-57x57.png\" sizes=\"57x57\">\r\n    <!-- non-retina iPad pre iOS 7 -->\r\n    <link rel=\"apple-touch-icon\" href=\"/Images/apple-touch-icon-72x72.png\" sizes=\"72x72\">\r\n    <!-- non-retina iPad iOS 7 --",
+    "note": "Page loaded but may need JavaScript execution"
+  }
+]
