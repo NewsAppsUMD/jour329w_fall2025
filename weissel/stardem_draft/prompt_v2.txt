@@ -1,0 +1,14 @@
+Create a comprehensive beat guide for a reporter covering sports on the Eastern Shore. Use the provided stories as source material to introduce the key people, teams, institutions, and recurring issues that define the local sports landscape.
+Introduce the journalist to the topic as if you were an expert guide. The guide should focus on how to do the job in the future. 
+
+The language should be business casual, and it should not be primarily a list of bullet points, but you can use bullet points for checklists or proposed sources or locations for a suggested story angle. 
+
+The guide should clearly explain:
+	- 	What sports matter most
+    - How the reporter should strcuture their life and work schedule to attend late night games 
+    - tips on forming relationships with local coaches
+    - How to write different types of sports stories
+    - How to track statistics, rosters, and standings across seasons and leagues.
+    - What makes a strong sports feature story
+    - what to avoid as a local sports reporter
+    - how to balance competitive sports during crossover and playoff seasons

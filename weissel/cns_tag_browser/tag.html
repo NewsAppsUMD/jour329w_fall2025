@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stories for Tag</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #0074d9; }
+    </style>
+</head>
+<body>
+    <h1 id="tagTitle">Stories for Tag</h1>
+        <div id="stories">
+                <ul id="storyList"></ul>
+        </div>
+        <script>
+        // Get tag slug from URL
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get('slug');
+        document.getElementById('tagTitle').textContent = `Stories for tag: ${slug}`;
+
+        // Placeholder: Example stories for demonstration
+        // In real use, fetch or load stories for the tag
+        const exampleStories = [
+            { title: "Sample Story 1", link: "https://example.com/story1" },
+            { title: "Sample Story 2", link: "https://example.com/story2" }
+        ];
+
+        const storyList = document.getElementById('storyList');
+        if (exampleStories.length === 0) {
+            storyList.innerHTML = '<li>No stories found for this tag.</li>';
+        } else {
+            for (const story of exampleStories) {
+                const li = document.createElement('li');
+                if (story.link) {
+                    li.innerHTML = `<a href="${story.link}" target="_blank">${story.title}</a>`;
+                } else {
+                    li.textContent = story.title || story.link;
+                }
+                storyList.appendChild(li);
+            }
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>CNS Tags List</title>
+        <style>
+                body { font-family: sans-serif; background: #fff; color: #222; margin: 0; padding: 2em; }
+                h1 { text-align: center; }
+                ul { max-width: 700px; margin: 2em auto; padding: 0; list-style: none; }
+                li { padding: 0.3em 0.5em; border-bottom: 1px solid #eee; font-size: 1.1em; }
+        </style>
+</head>
+<body>
+        <h1>All CNS Tags</h1>
+        <ul id="tagList" style="max-width:700px;margin:2em auto;padding:0;list-style:none;"></ul>
+            <script>
+            function renderTags(tags) {
+                const ul = document.getElementById('tagList');
+                tags
+                    .filter(tag => tag.name && tag.link && tag.count !== 0)
+                    .sort((a, b) => b.count - a.count)
+                    .forEach(tag => {
+                        const li = document.createElement('li');
+                        li.style.padding = '0.3em 0.5em';
+                        li.style.borderBottom = '1px solid #eee';
+                        const a = document.createElement('a');
+                        a.href = tag.link;
+                        a.target = '_blank';
+                        // Capitalize first letter of tag name
+                        let name = tag.name.trim();
+                        if (name.length > 0) {
+                            name = name.charAt(0).toUpperCase() + name.slice(1);
+                        }
+                        a.textContent = name;
+                        a.style.color = '#0074d9';
+                        a.style.textDecoration = 'none';
+                        a.style.fontSize = '1.1em';
+                        li.appendChild(a);
+                        // Add count (number of stories) next to tag name
+                        const countSpan = document.createElement('span');
+                        countSpan.textContent = ` (${tag.count})`;
+                        countSpan.style.color = '#000';
+                        countSpan.style.fontSize = '0.95em';
+                        li.appendChild(countSpan);
+                        ul.appendChild(li);
+                    });
+            }
+
+            function loadTags() {
+                // Try fetch first
+                fetch('/data/tags.json')
+                    .then(res => {
+                        if (!res.ok) throw new Error('HTTP error ' + res.status);
+                        return res.json();
+                    })
+                    .then(renderTags)
+                    .catch(fetchErr => {
+                        // If fetch fails (CORS, file://, etc), try XMLHttpRequest as fallback
+                        try {
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('GET', '/data/tags.json', true);
+                            xhr.onreadystatechange = function() {
+                                if (xhr.readyState === 4) {
+                                    if (xhr.status === 200) {
+                                        try {
+                                            var tags = JSON.parse(xhr.responseText);
+                                            renderTags(tags);
+                                        } catch (jsonErr) {
+                                            document.getElementById('tagList').innerHTML = '<li style="color:red;">Could not parse tags.json: ' + jsonErr.message + '</li>';
+                                        }
+                                    } else {
+                                        document.getElementById('tagList').innerHTML = '<li style="color:red;">Could not load tags.json (XHR): ' + xhr.status + '</li>';
+                                    }
+                                }
+                            };
+                            xhr.send();
+                        } catch (xhrErr) {
+                            document.getElementById('tagList').innerHTML = '<li style="color:red;">Could not load tags.json: ' + fetchErr.message + '</li>';
+                        }
+                    });
+            }
+            loadTags();
+            </script>
+</body>
+</html>

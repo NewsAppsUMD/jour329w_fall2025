@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>All CNS Tags</title>
+	<style>
+		body { background: #fff; color: #000; font-family: sans-serif; margin: 0; padding: 2em; }
+		.tag-list { margin: 0; padding: 0; list-style: none; }
+		.tag-list li { margin-bottom: 0.5em; font-size: 1.1em; }
+	</style>
+</head>
+<body>
+	<ul id="tagList" class="tag-list"></ul>
+	<script>
+	function formatTagName(name) {
+		let displayName = name;
+		if (displayName.startsWith('#')) displayName = displayName.slice(1).trim();
+		displayName = displayName.replace(/([a-z])([A-Z])/g, '$1 $2');
+		displayName = displayName.replace(/\b\w/g, c => c.toUpperCase());
+		return displayName;
+	}
+	fetch('/data/tags.json')
+		.then(res => res.json())
+		.then(tags => {
+			tags = tags.filter(tag => tag.name && tag.count !== 0);
+			tags.sort((a, b) => b.count - a.count);
+			const ul = document.getElementById('tagList');
+			ul.innerHTML = '';
+			tags.forEach(tag => {
+				const li = document.createElement('li');
+				li.textContent = formatTagName(tag.name);
+				ul.appendChild(li);
+			});
+		})
+		.catch(err => {
+			document.getElementById('tagList').innerHTML = '<li style="color:red;">Could not load tags.json: ' + err.message + '</li>';
+		});
+	</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CNS Tags Browser</title>
+	<style>
+		body { background: #181818; color: #fff; font-family: sans-serif; margin: 0; padding: 0; }
+		.container { max-width: 900px; margin: 2em auto; background: #222; border-radius: 1em; padding: 2em; box-shadow: 0 2px 16px #0008; }
+		h1 { text-align: center; font-size: 2.5em; margin-bottom: 0.2em; }
+		.search-row { display: flex; justify-content: center; margin-bottom: 1.5em; }
+		#search { width: 60%; font-size: 1.2em; padding: 0.5em 1em; border-radius: 1em; border: none; }
+		table { width: 100%; border-collapse: collapse; background: #222; margin-top: 1em; }
+		th, td { padding: 0.7em 0.5em; text-align: left; }
+		th { background: #333; cursor: pointer; user-select: none; }
+		tr:nth-child(even) { background: #232323; }
+		tr:hover { background: #2a2a2a; }
+		a { color: #ffb347; text-decoration: none; }
+		a:hover { text-decoration: underline; }
+		.sort-arrow { font-size: 0.9em; margin-left: 0.3em; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>CNS Tag Browser</h1>
+		<div class="search-row">
+			<input type="text" id="search" placeholder="Search tags..." />
+		</div>
+		<table id="tagsTable">
+			<thead>
+				<tr>
+					<th data-sort="name">Tag Name <span class="sort-arrow" id="sortName"></span></th>
+					<th data-sort="count">Count <span class="sort-arrow" id="sortCount">&#8595;</span></th>
+					<th>Link</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+	<script>
+	let tags = [];
+	let sortBy = 'count';
+	let sortDir = 'desc';
+
+	function formatTagName(name) {
+		let displayName = name;
+		if (displayName.startsWith('#')) displayName = displayName.slice(1).trim();
+		displayName = displayName.replace(/([a-z])([A-Z])/g, '$1 $2');
+		displayName = displayName.replace(/\b\w/g, c => c.toUpperCase());
+		return displayName;
+	}
+
+	function renderTable() {
+		const search = document.getElementById('search').value.toLowerCase();
+		let filtered = tags.filter(tag => tag.name && tag.count !== 0 && formatTagName(tag.name).toLowerCase().includes(search));
+		filtered.sort((a, b) => {
+			if (sortBy === 'name') {
+				return sortDir === 'asc' ? formatTagName(a.name).localeCompare(formatTagName(b.name)) : formatTagName(b.name).localeCompare(formatTagName(a.name));
+			} else {
+				return sortDir === 'asc' ? a.count - b.count : b.count - a.count;
+			}
+		});
+		const tbody = document.querySelector('#tagsTable tbody');
+		tbody.innerHTML = '';
+		filtered.forEach(tag => {
+			const tr = document.createElement('tr');
+			const tdName = document.createElement('td');
+			tdName.textContent = formatTagName(tag.name);
+			const tdCount = document.createElement('td');
+			tdCount.textContent = tag.count;
+			const tdLink = document.createElement('td');
+			const a = document.createElement('a');
+			a.href = tag.link;
+			a.target = '_blank';
+			a.textContent = 'View';
+			tdLink.appendChild(a);
+			tr.appendChild(tdName);
+			tr.appendChild(tdCount);
+			tr.appendChild(tdLink);
+			tbody.appendChild(tr);
+		});
+		// Update sort arrows
+		document.getElementById('sortName').textContent = sortBy === 'name' ? (sortDir === 'asc' ? '↑' : '↓') : '';
+		document.getElementById('sortCount').textContent = sortBy === 'count' ? (sortDir === 'asc' ? '↑' : '↓') : '';
+	}
+
+	document.getElementById('search').addEventListener('input', renderTable);
+	document.querySelectorAll('th[data-sort]').forEach(th => {
+		th.addEventListener('click', function() {
+			const sortField = th.getAttribute('data-sort');
+			if (sortBy === sortField) {
+				sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+			} else {
+				sortBy = sortField;
+				sortDir = sortField === 'name' ? 'asc' : 'desc';
+			}
+			renderTable();
+		});
+	});
+
+	fetch('/data/tags.json')
+		.then(res => res.json())
+		.then(data => {
+			tags = data;
+			renderTable();
+		})
+		.catch(err => {
+			document.querySelector('#tagsTable tbody').innerHTML = `<tr><td colspan="3" style="color:red;">Could not load tags.json: ${err.message}</td></tr>`;
+		});
+	</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CNS Tags Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="search-row">
+	<header class="main-header">
+		<h1>CNS Tag Browser</h1>
+	</header>
+	<div class="search-row-flex">
+		<input type="text" id="search" placeholder="Search tags..." />
+		<select id="categoryDropdown">
+			<option value="all">All Categories</option>
+		</select>
+	</div>
+	<ul id="tagsList" class="tags-list"></ul>
+	<div class="catchline" style="text-align:center;font-size:1.5em;margin-top:2em;color:#ffb347;">Explore Maryland news, topics, and trends with Capital News Service</div>
+		<script>
+		// --- Debounce helper ---
+		function debounce(fn, delay) {
+			let t;
+			return (...args) => {
+				clearTimeout(t);
+				t = setTimeout(() => fn(...args), delay);
+			// --- Tag rendering ---
+			const categoryDefs = [
+				{ name: 'Politics', keywords: ['politic', 'election', 'senate', 'congress', 'governor', 'legislature', 'law', 'bill', 'campaign', 'vote'] },
+				{ name: 'Cities', keywords: ['baltimore', 'annapolis', 'rockville', 'city', 'town', 'village'] },
+				{ name: 'Counties', keywords: ['county', 'montgomery', 'prince george', 'howard', 'anne arundel', 'frederick', 'carroll', 'harford', 'charles', 'calvert'] },
+				{ name: 'Education', keywords: ['school', 'college', 'university', 'education', 'student', 'teacher', 'classroom'] },
+				{ name: 'Health', keywords: ['health', 'hospital', 'doctor', 'nurse', 'covid', 'vaccine', 'mental', 'medical'] },
+				{ name: 'Crime & Justice', keywords: ['crime', 'police', 'court', 'judge', 'prison', 'jail', 'justice', 'law enforcement'] },
+				{ name: 'Environment', keywords: ['environment', 'climate', 'water', 'bay', 'river', 'forest', 'wildlife', 'nature'] },
+				{ name: 'Transportation', keywords: ['transport', 'bus', 'train', 'metro', 'road', 'highway', 'traffic', 'transit'] },
+				{ name: 'Business', keywords: ['business', 'company', 'industry', 'commerce', 'startup', 'market', 'trade'] },
+				{ name: 'Sports', keywords: ['sport', 'team', 'game', 'athlete', 'coach', 'league', 'tournament'] },
+				{ name: 'Arts & Culture', keywords: ['art', 'music', 'theater', 'film', 'museum', 'culture', 'festival'] },
+				{ name: 'Government', keywords: ['government', 'agency', 'public', 'official', 'mayor', 'council'] },
+				{ name: 'People', keywords: ['person', 'people', 'profile', 'biography', 'student', 'teacher'] },
+				{ name: 'Science & Tech', keywords: ['science', 'tech', 'technology', 'research', 'innovation', 'data', 'computer'] },
+				{ name: 'Housing', keywords: ['housing', 'home', 'apartment', 'real estate', 'rent', 'tenant'] },
+				{ name: 'Food', keywords: ['food', 'restaurant', 'bar', 'cafe', 'grocery', 'market'] },
+				{ name: 'Religion', keywords: ['religion', 'church', 'faith', 'mosque', 'temple', 'synagogue'] },
+				{ name: 'Military', keywords: ['military', 'army', 'navy', 'air force', 'marine', 'veteran'] },
+				{ name: 'Immigration', keywords: ['immigration', 'immigrant', 'refugee', 'asylum'] },
+				{ name: 'Other', keywords: [] }
+			];
+
+			let allTags = [];
+			let categorized = {};
+
+			function formatTagName(name) {
+				let displayName = name;
+				if (displayName.startsWith('#')) displayName = displayName.slice(1).trim();
+				displayName = displayName.replace(/([a-z])([A-Z])/g, '$1 $2');
+				displayName = displayName.replace(/\b\w/g, c => c.toUpperCase());
+
+			document.getElementById('categoryDropdown').addEventListener('change', filterAndRender);
