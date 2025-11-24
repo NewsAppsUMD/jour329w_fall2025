@@ -1,0 +1,9 @@
+Create a narrative guide in Markdown format that explains, using examples and lessons from the attached JSON, what is important for an early-career journalist who knows the basics to understand about that topic, including the key people, issues and institutions. 
+
+Taking into account the kinds of stories have been done, suggest other story ideas or undercovered angles. Introduce the journalist to the topic as if you were an expert guide. Be careful about stories that are not resolved, such as ongoing lawsuits or policy debates; include a caveat that these might already be completed, but identify unfinished stories. The guide should focus on how to do the job in the future and provide advice on how CNS can explore new ideas given the past coverage. Give more weight to more recent coverage.
+
+The language should be business casual, and it should not be primarily a list of bullet points, but you can use bullet points for checklists or proposed sources or locations for a suggested story angle. If a timeline is important for the overall topic, mention that, but don’t over-emphasize older elements. Also include information on what to avoid. 
+
+Make sure you introduce and explain ideas, people and issues with substantive but not overwrought language. Not too many adjectives. Include citations to stories that provide useful context.
+
+

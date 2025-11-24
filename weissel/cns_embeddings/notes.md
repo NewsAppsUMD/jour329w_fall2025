@@ -1,0 +1,3 @@
+CNS Metadata Brendan Weissel 9/24/25
+
+Embeddings are a way to organize and compare topics and ideas where similar ideas are places closer together and different ideas are places farther apart. In the case with news  stories those with similar themes are grouped together and labeled. When they are are placed for viewing on a map style platform this allows the viewer to see the simialr ideas by zooming in and out. These could be used to help news orgnization see what topics they are using the most frequently compared to all of their stories. 
