@@ -1,0 +1,72 @@
+{
+  "county_name": "Talbot",
+  "board_of_elections": {
+    "address": "215 Bay Street, Suite #1, Easton, MD 21601",
+    "phone": "(410) 822-0532",
+    "fax": "(410) 822-5192",
+    "email": "electionstc@talbotcountymd.gov",
+    "website": "https://talbotcountymd.gov/235/Board-of-Elections",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "director": "Contact local office for current director"
+  },
+  "voter_registration": {
+    "total_registered": "Approximately 25,000 (check current stats)",
+    "democrat": "~35%",
+    "republican": "~45%",
+    "unaffiliated": "~18%",
+    "other": "~2%",
+    "registration_deadline": "21 days before election"
+  },
+  "polling_locations": [
+    "Easton High School",
+    "St. Michaels Community Center",
+    "Tilghman Fire Hall",
+    "Oxford Community Center",
+    "Trappe Fire Hall"
+  ],
+  "recent_elections": [
+    {
+      "election": "2024 Presidential General Election",
+      "date": "November 5, 2024",
+      "results": {
+        "trump_donald_republican": "60.5%",
+        "harris_kamala_democrat": "38.1%",
+        "other": "1.4%",
+        "total_votes": "Approximately 18,500"
+      },
+      "turnout": "74%"
+    },
+    {
+      "election": "2022 Gubernatorial General Election",
+      "date": "November 8, 2022",
+      "results": {
+        "moore_wes_democrat": "38.2%",
+        "cox_dan_republican": "59.8%",
+        "other": "2.0%",
+        "total_votes": "Approximately 15,000"
+      },
+      "turnout": "60%"
+    }
+  ],
+  "upcoming_elections": [
+    {
+      "election": "2027 Local Elections",
+      "date": "November 2027 (date TBD)",
+      "offices": [
+        "County Council/Commissioners",
+        "Board of Education",
+        "Municipal offices"
+      ]
+    }
+  ],
+  "notes": [
+    "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+    "Local elections typically held in odd-numbered years",
+    "Early voting available at designated locations",
+    "Mail-in voting available upon request"
+  ],
+  "early_voting": {
+    "location": "Talbot County Community Center, 10028 Ocean Gateway, Easton, MD",
+    "schedule": "8 days before Election Day, including 2 Saturdays"
+  }
+}

@@ -1,0 +1,915 @@
+{
+  "Dorchester": {
+    "county_name": "Dorchester",
+    "municipalities": [
+      {
+        "place_name": "Brookview",
+        "place_fips": "10575",
+        "population": {
+          "total": 42,
+          "male": 20,
+          "female": 22,
+          "median_age": 37.5
+        },
+        "race_ethnicity": {
+          "white_alone": 38,
+          "black_alone": 3,
+          "hispanic_latino": 0
+        },
+        "economics": {
+          "median_household_income": 71250,
+          "median_home_value": 154200
+        },
+        "housing": {
+          "total_units": 28,
+          "occupied_units": 20,
+          "vacant_units": 8
+        }
+      },
+      {
+        "place_name": "Cambridge",
+        "place_fips": "12400",
+        "population": {
+          "total": 13058,
+          "male": 6307,
+          "female": 6751,
+          "median_age": 37.3
+        },
+        "race_ethnicity": {
+          "white_alone": 5071,
+          "black_alone": 5817,
+          "hispanic_latino": 1000
+        },
+        "economics": {
+          "median_household_income": 44114,
+          "median_home_value": 223200
+        },
+        "housing": {
+          "total_units": 6517,
+          "occupied_units": 5314,
+          "vacant_units": 1203
+        }
+      },
+      {
+        "place_name": "Church Creek",
+        "place_fips": "17050",
+        "population": {
+          "total": 90,
+          "male": 48,
+          "female": 42,
+          "median_age": 58.8
+        },
+        "race_ethnicity": {
+          "white_alone": 90,
+          "black_alone": 0,
+          "hispanic_latino": 0
+        },
+        "economics": {
+          "median_household_income": 56563,
+          "median_home_value": 210700
+        },
+        "housing": {
+          "total_units": 62,
+          "occupied_units": 53,
+          "vacant_units": 9
+        }
+      },
+      {
+        "place_name": "East New Market",
+        "place_fips": "24450",
+        "population": {
+          "total": 389,
+          "male": 189,
+          "female": 200,
+          "median_age": 45.3
+        },
+        "race_ethnicity": {
+          "white_alone": 309,
+          "black_alone": 71,
+          "hispanic_latino": 4
+        },
+        "economics": {
+          "median_household_income": 50417,
+          "median_home_value": 226800
+        },
+        "housing": {
+          "total_units": 178,
+          "occupied_units": 158,
+          "vacant_units": 20
+        }
+      },
+      {
+        "place_name": "Eldorado",
+        "place_fips": "25600",
+        "population": {
+          "total": 50,
+          "male": 26,
+          "female": 24,
+          "median_age": 47.0
+        },
+        "race_ethnicity": {
+          "white_alone": 46,
+          "black_alone": 0,
+          "hispanic_latino": 0
+        },
+        "economics": {
+          "median_household_income": 45500,
+          "median_home_value": 144600
+        },
+        "housing": {
+          "total_units": 24,
+          "occupied_units": 24,
+          "vacant_units": 0
+        }
+      },
+      {
+        "place_name": "Galestown",
+        "place_fips": "31250",
+        "population": {
+          "total": 74,
+          "male": 32,
+          "female": 42,
+          "median_age": 59.1
+        },
+        "race_ethnicity": {
+          "white_alone": 71,
+          "black_alone": 2,
+          "hispanic_latino": 0
+        },
+        "economics": {
+          "median_household_income": 36250,
+          "median_home_value": 228600
+        },
+        "housing": {
+          "total_units": 44,
+          "occupied_units": 34,
+          "vacant_units": 10
+        }
+      },
+      {
+        "place_name": "Hurlock",
+        "place_fips": "41125",
+        "population": {
+          "total": 2284,
+          "male": 982,
+          "female": 1302,
+          "median_age": 39.2
+        },
+        "race_ethnicity": {
+          "white_alone": 1199,
+          "black_alone": 705,
+          "hispanic_latino": 248
+        },
+        "economics": {
+          "median_household_income": 57313,
+          "median_home_value": 162200
+        },
+        "housing": {
+          "total_units": 955,
+          "occupied_units": 843,
+          "vacant_units": 112
+        }
+      },
+      {
+        "place_name": "Secretary",
+        "place_fips": "70900",
+        "population": {
+          "total": 642,
+          "male": 325,
+          "female": 317,
+          "median_age": 32.8
+        },
+        "race_ethnicity": {
+          "white_alone": 489,
+          "black_alone": 1,
+          "hispanic_latino": 154
+        },
+        "economics": {
+          "median_household_income": 66458,
+          "median_home_value": 162500
+        },
+        "housing": {
+          "total_units": 246,
+          "occupied_units": 214,
+          "vacant_units": 32
+        }
+      },
+      {
+        "place_name": "Vienna",
+        "place_fips": "80600",
+        "population": {
+          "total": 406,
+          "male": 175,
+          "female": 231,
+          "median_age": 31.5
+        },
+        "race_ethnicity": {
+          "white_alone": 279,
+          "black_alone": 27,
+          "hispanic_latino": 90
+        },
+        "economics": {
+          "median_household_income": 92778,
+          "median_home_value": 179400
+        },
+        "housing": {
+          "total_units": 141,
+          "occupied_units": 130,
+          "vacant_units": 11
+        }
+      }
+    ]
+  },
+  "Queen Annes": {
+    "county_name": "Queen Annes",
+    "municipalities": [
+      {
+        "place_name": "Barclay",
+        "place_fips": "04250",
+        "population": {
+          "total": 175,
+          "male": 79,
+          "female": 96,
+          "median_age": 23.0
+        },
+        "race_ethnicity": {
+          "white_alone": 75,
+          "black_alone": 10,
+          "hispanic_latino": 90
+        },
+        "economics": {
+          "median_household_income": 54276,
+          "median_home_value": 212500
+        },
+        "housing": {
+          "total_units": 83,
+          "occupied_units": 76,
+          "vacant_units": 7
+        }
+      },
+      {
+        "place_name": "Centreville",
+        "place_fips": "14950",
+        "population": {
+          "total": 4700,
+          "male": 2075,
+          "female": 2625,
+          "median_age": 40.4
+        },
+        "race_ethnicity": {
+          "white_alone": 4053,
+          "black_alone": 455,
+          "hispanic_latino": 48
+        },
+        "economics": {
+          "median_household_income": 101455,
+          "median_home_value": 413200
+        },
+        "housing": {
+          "total_units": 1900,
+          "occupied_units": 1748,
+          "vacant_units": 152
+        }
+      },
+      {
+        "place_name": "Church Hill",
+        "place_fips": "17100",
+        "population": {
+          "total": 1084,
+          "male": 497,
+          "female": 587,
+          "median_age": 32.6
+        },
+        "race_ethnicity": {
+          "white_alone": 669,
+          "black_alone": 86,
+          "hispanic_latino": 285
+        },
+        "economics": {
+          "median_household_income": 66432,
+          "median_home_value": 248200
+        },
+        "housing": {
+          "total_units": 484,
+          "occupied_units": 443,
+          "vacant_units": 41
+        }
+      },
+      {
+        "place_name": "Millington",
+        "place_fips": "52825",
+        "population": {
+          "total": 623,
+          "male": 330,
+          "female": 293,
+          "median_age": 38.2
+        },
+        "race_ethnicity": {
+          "white_alone": 453,
+          "black_alone": 94,
+          "hispanic_latino": 84
+        },
+        "economics": {
+          "median_household_income": 51016,
+          "median_home_value": 212000
+        },
+        "housing": {
+          "total_units": 304,
+          "occupied_units": 255,
+          "vacant_units": 49
+        }
+      },
+      {
+        "place_name": "Queen Anne",
+        "place_fips": "64495",
+        "population": {
+          "total": 1516,
+          "male": 829,
+          "female": 687,
+          "median_age": 53.3
+        },
+        "race_ethnicity": {
+          "white_alone": 435,
+          "black_alone": 1059,
+          "hispanic_latino": 22
+        },
+        "economics": {
+          "median_household_income": 179625,
+          "median_home_value": 752100
+        },
+        "housing": {
+          "total_units": 635,
+          "occupied_units": 581,
+          "vacant_units": 54
+        }
+      },
+      {
+        "place_name": "Queenstown",
+        "place_fips": "64600",
+        "population": {
+          "total": 815,
+          "male": 351,
+          "female": 464,
+          "median_age": 35.3
+        },
+        "race_ethnicity": {
+          "white_alone": 460,
+          "black_alone": 94,
+          "hispanic_latino": 250
+        },
+        "economics": {
+          "median_household_income": 101964,
+          "median_home_value": 336000
+        },
+        "housing": {
+          "total_units": 305,
+          "occupied_units": 273,
+          "vacant_units": 32
+        }
+      },
+      {
+        "place_name": "Sudlersville",
+        "place_fips": "75650",
+        "population": {
+          "total": 379,
+          "male": 154,
+          "female": 225,
+          "median_age": 44.4
+        },
+        "race_ethnicity": {
+          "white_alone": 299,
+          "black_alone": 25,
+          "hispanic_latino": 45
+        },
+        "economics": {
+          "median_household_income": 40000,
+          "median_home_value": 215600
+        },
+        "housing": {
+          "total_units": 197,
+          "occupied_units": 166,
+          "vacant_units": 31
+        }
+      },
+      {
+        "place_name": "Templeville",
+        "place_fips": "77200",
+        "population": {
+          "total": 182,
+          "male": 80,
+          "female": 102,
+          "median_age": 30.1
+        },
+        "race_ethnicity": {
+          "white_alone": 45,
+          "black_alone": 0,
+          "hispanic_latino": 159
+        },
+        "economics": {
+          "median_household_income": null,
+          "median_home_value": null
+        },
+        "housing": {
+          "total_units": 42,
+          "occupied_units": 36,
+          "vacant_units": 6
+        }
+      }
+    ]
+  },
+  "Talbot": {
+    "county_name": "Talbot",
+    "municipalities": [
+      {
+        "place_name": "Easton",
+        "place_fips": "24475",
+        "population": {
+          "total": 17118,
+          "male": 7941,
+          "female": 9177,
+          "median_age": 45.4
+        },
+        "race_ethnicity": {
+          "white_alone": 11972,
+          "black_alone": 2753,
+          "hispanic_latino": 1812
+        },
+        "economics": {
+          "median_household_income": 75198,
+          "median_home_value": 328000
+        },
+        "housing": {
+          "total_units": 7669,
+          "occupied_units": 7195,
+          "vacant_units": 474
+        }
+      },
+      {
+        "place_name": "Oxford",
+        "place_fips": "59450",
+        "population": {
+          "total": 817,
+          "male": 420,
+          "female": 397,
+          "median_age": 63.8
+        },
+        "race_ethnicity": {
+          "white_alone": 687,
+          "black_alone": 38,
+          "hispanic_latino": 104
+        },
+        "economics": {
+          "median_household_income": 77170,
+          "median_home_value": 669900
+        },
+        "housing": {
+          "total_units": 587,
+          "occupied_units": 426,
+          "vacant_units": 161
+        }
+      },
+      {
+        "place_name": "Queen Anne",
+        "place_fips": "64495",
+        "population": {
+          "total": 1516,
+          "male": 829,
+          "female": 687,
+          "median_age": 53.3
+        },
+        "race_ethnicity": {
+          "white_alone": 435,
+          "black_alone": 1059,
+          "hispanic_latino": 22
+        },
+        "economics": {
+          "median_household_income": 179625,
+          "median_home_value": 752100
+        },
+        "housing": {
+          "total_units": 635,
+          "occupied_units": 581,
+          "vacant_units": 54
+        }
+      },
+      {
+        "place_name": "St. Michaels",
+        "place_fips": "69825",
+        "population": {
+          "total": 1523,
+          "male": 629,
+          "female": 894,
+          "median_age": 49.8
+        },
+        "race_ethnicity": {
+          "white_alone": 1015,
+          "black_alone": 365,
+          "hispanic_latino": 123
+        },
+        "economics": {
+          "median_household_income": 73415,
+          "median_home_value": 486800
+        },
+        "housing": {
+          "total_units": 904,
+          "occupied_units": 667,
+          "vacant_units": 237
+        }
+      },
+      {
+        "place_name": "Trappe",
+        "place_fips": "78575",
+        "population": {
+          "total": 1019,
+          "male": 551,
+          "female": 468,
+          "median_age": 40.8
+        },
+        "race_ethnicity": {
+          "white_alone": 766,
+          "black_alone": 179,
+          "hispanic_latino": 124
+        },
+        "economics": {
+          "median_household_income": 65139,
+          "median_home_value": 239200
+        },
+        "housing": {
+          "total_units": 442,
+          "occupied_units": 423,
+          "vacant_units": 19
+        }
+      }
+    ]
+  },
+  "Kent": {
+    "county_name": "Kent",
+    "municipalities": [
+      {
+        "place_name": "Betterton",
+        "place_fips": "07200",
+        "population": {
+          "total": 363,
+          "male": 159,
+          "female": 204,
+          "median_age": 52.8
+        },
+        "race_ethnicity": {
+          "white_alone": 286,
+          "black_alone": 57,
+          "hispanic_latino": 24
+        },
+        "economics": {
+          "median_household_income": 62750,
+          "median_home_value": 235900
+        },
+        "housing": {
+          "total_units": 273,
+          "occupied_units": 157,
+          "vacant_units": 116
+        }
+      },
+      {
+        "place_name": "Chestertown",
+        "place_fips": "16225",
+        "population": {
+          "total": 5522,
+          "male": 2425,
+          "female": 3097,
+          "median_age": 32.9
+        },
+        "race_ethnicity": {
+          "white_alone": 3913,
+          "black_alone": 1326,
+          "hispanic_latino": 224
+        },
+        "economics": {
+          "median_household_income": 43980,
+          "median_home_value": 302200
+        },
+        "housing": {
+          "total_units": 2442,
+          "occupied_units": 2306,
+          "vacant_units": 136
+        }
+      },
+      {
+        "place_name": "Galena",
+        "place_fips": "31225",
+        "population": {
+          "total": 697,
+          "male": 312,
+          "female": 385,
+          "median_age": 38.7
+        },
+        "race_ethnicity": {
+          "white_alone": 659,
+          "black_alone": 13,
+          "hispanic_latino": 46
+        },
+        "economics": {
+          "median_household_income": 101458,
+          "median_home_value": 245800
+        },
+        "housing": {
+          "total_units": 361,
+          "occupied_units": 347,
+          "vacant_units": 14
+        }
+      },
+      {
+        "place_name": "Millington",
+        "place_fips": "52825",
+        "population": {
+          "total": 623,
+          "male": 330,
+          "female": 293,
+          "median_age": 38.2
+        },
+        "race_ethnicity": {
+          "white_alone": 453,
+          "black_alone": 94,
+          "hispanic_latino": 84
+        },
+        "economics": {
+          "median_household_income": 51016,
+          "median_home_value": 212000
+        },
+        "housing": {
+          "total_units": 304,
+          "occupied_units": 255,
+          "vacant_units": 49
+        }
+      },
+      {
+        "place_name": "Rock Hall",
+        "place_fips": "10150",
+        "population": {
+          "total": 12529,
+          "male": 6133,
+          "female": 6396,
+          "median_age": 40.9
+        },
+        "race_ethnicity": {
+          "white_alone": 663,
+          "black_alone": 11046,
+          "hispanic_latino": 277
+        },
+        "economics": {
+          "median_household_income": 188096,
+          "median_home_value": 563000
+        },
+        "housing": {
+          "total_units": 4266,
+          "occupied_units": 4201,
+          "vacant_units": 65
+        }
+      }
+    ]
+  },
+  "Caroline": {
+    "county_name": "Caroline",
+    "municipalities": [
+      {
+        "place_name": "Denton",
+        "place_fips": "22725",
+        "population": {
+          "total": 4836,
+          "male": 2359,
+          "female": 2477,
+          "median_age": 36.2
+        },
+        "race_ethnicity": {
+          "white_alone": 3208,
+          "black_alone": 1228,
+          "hispanic_latino": 161
+        },
+        "economics": {
+          "median_household_income": 59155,
+          "median_home_value": 225000
+        },
+        "housing": {
+          "total_units": 1642,
+          "occupied_units": 1530,
+          "vacant_units": 112
+        }
+      },
+      {
+        "place_name": "Federalsburg",
+        "place_fips": "27900",
+        "population": {
+          "total": 2818,
+          "male": 1180,
+          "female": 1638,
+          "median_age": 36.4
+        },
+        "race_ethnicity": {
+          "white_alone": 1168,
+          "black_alone": 1313,
+          "hispanic_latino": 117
+        },
+        "economics": {
+          "median_household_income": 33511,
+          "median_home_value": 121800
+        },
+        "housing": {
+          "total_units": 1201,
+          "occupied_units": 1067,
+          "vacant_units": 134
+        }
+      },
+      {
+        "place_name": "Goldsboro",
+        "place_fips": "33950",
+        "population": {
+          "total": 211,
+          "male": 129,
+          "female": 82,
+          "median_age": 29.9
+        },
+        "race_ethnicity": {
+          "white_alone": 98,
+          "black_alone": 2,
+          "hispanic_latino": 100
+        },
+        "economics": {
+          "median_household_income": 43750,
+          "median_home_value": 165000
+        },
+        "housing": {
+          "total_units": 95,
+          "occupied_units": 68,
+          "vacant_units": 27
+        }
+      },
+      {
+        "place_name": "Greensboro",
+        "place_fips": "35200",
+        "population": {
+          "total": 2780,
+          "male": 1300,
+          "female": 1480,
+          "median_age": 31.5
+        },
+        "race_ethnicity": {
+          "white_alone": 1721,
+          "black_alone": 349,
+          "hispanic_latino": 731
+        },
+        "economics": {
+          "median_household_income": 43750,
+          "median_home_value": 195000
+        },
+        "housing": {
+          "total_units": 929,
+          "occupied_units": 833,
+          "vacant_units": 96
+        }
+      },
+      {
+        "place_name": "Henderson",
+        "place_fips": "37925",
+        "population": {
+          "total": 149,
+          "male": 102,
+          "female": 47,
+          "median_age": 30.6
+        },
+        "race_ethnicity": {
+          "white_alone": 36,
+          "black_alone": 5,
+          "hispanic_latino": 108
+        },
+        "economics": {
+          "median_household_income": 93125,
+          "median_home_value": 66700
+        },
+        "housing": {
+          "total_units": 58,
+          "occupied_units": 40,
+          "vacant_units": 18
+        }
+      },
+      {
+        "place_name": "Hillsboro",
+        "place_fips": "39175",
+        "population": {
+          "total": 149,
+          "male": 57,
+          "female": 92,
+          "median_age": 48.2
+        },
+        "race_ethnicity": {
+          "white_alone": 147,
+          "black_alone": 2,
+          "hispanic_latino": 0
+        },
+        "economics": {
+          "median_household_income": 69375,
+          "median_home_value": 220800
+        },
+        "housing": {
+          "total_units": 80,
+          "occupied_units": 61,
+          "vacant_units": 19
+        }
+      },
+      {
+        "place_name": "Marydel",
+        "place_fips": "51025",
+        "population": {
+          "total": 129,
+          "male": 80,
+          "female": 49,
+          "median_age": 25.7
+        },
+        "race_ethnicity": {
+          "white_alone": 88,
+          "black_alone": 0,
+          "hispanic_latino": 79
+        },
+        "economics": {
+          "median_household_income": 45625,
+          "median_home_value": 177300
+        },
+        "housing": {
+          "total_units": 43,
+          "occupied_units": 36,
+          "vacant_units": 7
+        }
+      },
+      {
+        "place_name": "Preston",
+        "place_fips": "63825",
+        "population": {
+          "total": 816,
+          "male": 375,
+          "female": 441,
+          "median_age": 37.1
+        },
+        "race_ethnicity": {
+          "white_alone": 721,
+          "black_alone": 26,
+          "hispanic_latino": 6
+        },
+        "economics": {
+          "median_household_income": 65500,
+          "median_home_value": 237700
+        },
+        "housing": {
+          "total_units": 321,
+          "occupied_units": 294,
+          "vacant_units": 27
+        }
+      },
+      {
+        "place_name": "Ridgely",
+        "place_fips": "66000",
+        "population": {
+          "total": 1727,
+          "male": 697,
+          "female": 1030,
+          "median_age": 38.0
+        },
+        "race_ethnicity": {
+          "white_alone": 1293,
+          "black_alone": 224,
+          "hispanic_latino": 253
+        },
+        "economics": {
+          "median_household_income": 65060,
+          "median_home_value": 227300
+        },
+        "housing": {
+          "total_units": 691,
+          "occupied_units": 657,
+          "vacant_units": 34
+        }
+      },
+      {
+        "place_name": "Templeville",
+        "place_fips": "77200",
+        "population": {
+          "total": 182,
+          "male": 80,
+          "female": 102,
+          "median_age": 30.1
+        },
+        "race_ethnicity": {
+          "white_alone": 45,
+          "black_alone": 0,
+          "hispanic_latino": 159
+        },
+        "economics": {
+          "median_household_income": null,
+          "median_home_value": null
+        },
+        "housing": {
+          "total_units": 42,
+          "occupied_units": 36,
+          "vacant_units": 6
+        }
+      }
+    ]
+  }
+}

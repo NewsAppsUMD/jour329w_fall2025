@@ -1,0 +1,36 @@
+{
+  "origin": "Caroline County was created in 1773 from Dorchester and Queen Anne's counties (Chapter 10, Acts of 1773). Lady Caroline Eden (c.1745-1792) gave her name to the County. She was the wife of Maryland's last colonial governor, Sir Robert Eden (1741-1784); the daughter of Charles Calvert, 5th Lord Baltimore; and the sister of Frederick Calvert, 6th Lord Baltimore.",
+  "county_name": "Caroline",
+  "fips_code": "24011",
+  "census_api_data": {
+    "population": {
+      "total": 33320,
+      "male": 16414,
+      "female": 16906,
+      "median_age": 39.5
+    },
+    "race_ethnicity": {
+      "white_alone": 25025,
+      "black_alone": 4565,
+      "hispanic_latino": 2736
+    },
+    "economics": {
+      "median_household_income": 65326,
+      "median_home_value": 258800,
+      "labor_force": 16808,
+      "unemployed": 775
+    },
+    "education": {
+      "bachelors_degree": 2362,
+      "masters_degree": 1335,
+      "professional_degree": 259,
+      "doctorate_degree": 88
+    },
+    "housing": {
+      "total_units": 13473,
+      "occupied_units": 12013,
+      "vacant_units": 1460
+    }
+  },
+  "quickfacts": null
+}

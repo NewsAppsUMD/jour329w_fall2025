@@ -1,0 +1,125 @@
+{
+  "county_name": "Kent",
+  "municipalities": [
+    {
+      "place_name": "Betterton",
+      "place_fips": "07200",
+      "population": {
+        "total": 363,
+        "male": 159,
+        "female": 204,
+        "median_age": 52.8
+      },
+      "race_ethnicity": {
+        "white_alone": 286,
+        "black_alone": 57,
+        "hispanic_latino": 24
+      },
+      "economics": {
+        "median_household_income": 62750,
+        "median_home_value": 235900
+      },
+      "housing": {
+        "total_units": 273,
+        "occupied_units": 157,
+        "vacant_units": 116
+      }
+    },
+    {
+      "place_name": "Chestertown",
+      "place_fips": "16225",
+      "population": {
+        "total": 5522,
+        "male": 2425,
+        "female": 3097,
+        "median_age": 32.9
+      },
+      "race_ethnicity": {
+        "white_alone": 3913,
+        "black_alone": 1326,
+        "hispanic_latino": 224
+      },
+      "economics": {
+        "median_household_income": 43980,
+        "median_home_value": 302200
+      },
+      "housing": {
+        "total_units": 2442,
+        "occupied_units": 2306,
+        "vacant_units": 136
+      }
+    },
+    {
+      "place_name": "Galena",
+      "place_fips": "31225",
+      "population": {
+        "total": 697,
+        "male": 312,
+        "female": 385,
+        "median_age": 38.7
+      },
+      "race_ethnicity": {
+        "white_alone": 659,
+        "black_alone": 13,
+        "hispanic_latino": 46
+      },
+      "economics": {
+        "median_household_income": 101458,
+        "median_home_value": 245800
+      },
+      "housing": {
+        "total_units": 361,
+        "occupied_units": 347,
+        "vacant_units": 14
+      }
+    },
+    {
+      "place_name": "Millington",
+      "place_fips": "52825",
+      "population": {
+        "total": 623,
+        "male": 330,
+        "female": 293,
+        "median_age": 38.2
+      },
+      "race_ethnicity": {
+        "white_alone": 453,
+        "black_alone": 94,
+        "hispanic_latino": 84
+      },
+      "economics": {
+        "median_household_income": 51016,
+        "median_home_value": 212000
+      },
+      "housing": {
+        "total_units": 304,
+        "occupied_units": 255,
+        "vacant_units": 49
+      }
+    },
+    {
+      "place_name": "Rock Hall",
+      "place_fips": "10150",
+      "population": {
+        "total": 12529,
+        "male": 6133,
+        "female": 6396,
+        "median_age": 40.9
+      },
+      "race_ethnicity": {
+        "white_alone": 663,
+        "black_alone": 11046,
+        "hispanic_latino": 277
+      },
+      "economics": {
+        "median_household_income": 188096,
+        "median_home_value": 563000
+      },
+      "housing": {
+        "total_units": 4266,
+        "occupied_units": 4201,
+        "vacant_units": 65
+      }
+    }
+  ]
+}

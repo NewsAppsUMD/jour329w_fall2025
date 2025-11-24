@@ -1,0 +1,65 @@
+{
+  "county_name": "Caroline",
+  "schools": {
+    "district_name": "Caroline County Public Schools",
+    "superintendent": "Contact via district website",
+    "website": "https://www.carolineschools.org",
+    "schools": [
+      {
+        "name": "Denton Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 42
+      },
+      {
+        "name": "Federalsburg Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 17
+      },
+      {
+        "name": "Greensboro Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 49
+      },
+      {
+        "name": "Preston Elementary School",
+        "level": "Elementary",
+        "star_rating": 4,
+        "percentile": 67
+      },
+      {
+        "name": "Ridgely Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 34
+      },
+      {
+        "name": "Colonel Richardson Middle School",
+        "level": "Middle",
+        "star_rating": 3,
+        "percentile": 44
+      },
+      {
+        "name": "Lockerman Middle School",
+        "level": "Middle",
+        "star_rating": 3,
+        "percentile": 29
+      },
+      {
+        "name": "Colonel Richardson High School",
+        "level": "High",
+        "star_rating": 3,
+        "percentile": 54
+      },
+      {
+        "name": "North Caroline High School",
+        "level": "High",
+        "star_rating": 3,
+        "percentile": 38
+      }
+    ],
+    "total_enrollment": 4781
+  }
+}

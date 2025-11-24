@@ -1,0 +1,122 @@
+{
+  "county_name": "Talbot",
+  "fiscal_year": "FY2026",
+  "property_tax_rate": "0.812",
+  "tax_rate_notes": "Per $100 of assessed value (lowest rate in the 5 counties)",
+  "budget_website": "https://www.talbotcountymd.gov/fy2026budget",
+  "finance_department": {
+    "website": "https://www.talbotcountymd.gov/finance",
+    "phone": "410-770-8010"
+  },
+  "budget_documents": [
+    {
+      "title": "FY2026 Budget",
+      "url": "https://www.talbotcountymd.gov/fy2026budget"
+    },
+    {
+      "title": "Budget Archives",
+      "url": "https://www.talbotcountymd.gov/budgetarchives"
+    }
+  ],
+  "notes": [
+    "Current and historical budget documents available",
+    "Finance page includes audit reports"
+  ],
+  "detailed_budget": {
+    "county_name": "Talbot",
+    "fiscal_year": "2026",
+    "total_operating_budget": null,
+    "total_revenue": null,
+    "major_revenue_sources": {},
+    "major_expenditures": {},
+    "fund_balance": null,
+    "source_documents": [
+      {
+        "title": "FY 2026 Approved Workbook",
+        "url": "https://www.talbotcountymd.gov/uploads/File/finance/2026%20Budget/FY26 APPROVED Workbook.pdf"
+      },
+      {
+        "title": "FY 2026 Budget Summary",
+        "url": "https://www.talbotcountymd.gov/uploads/File/finance/2026%20Budget/FY26 APPROVED Budget Summary.pdf"
+      },
+      {
+        "title": "Budget Ordinance (Bill 1585)",
+        "url": "https://www.talbotcountymd.gov/uploads/File/Council_2022/Bills/Bill%201585%20(FY2025%20-2026%20Budget%20Ordinance)%20As%20Amended.pdf"
+      }
+    ],
+    "parsed_budget": {
+      "fiscal_year": "FY2026",
+      "total_revenue": 161117000,
+      "total_appropriations": 196506007,
+      "revenues": {
+        "Property Tax (Rate of $ .8032* per $100 of assessed valuation": 68661616,
+        "Income Tax (2.40% of MD Taxable Income)": 39500000,
+        "Other Local Taxes": 15905000,
+        "Interest Income": 5500000,
+        "General Government": 4591332,
+        "Federal and State Grants": 2365990,
+        "State Shared Taxes": 1238969,
+        "Licenses, Permits & Fees": 949400,
+        "Miscellaneous": 198000,
+        "Transfer from Development Impact  Fund": 550000,
+        "Unexpended Funds From Prior Years": 6302943,
+        "Unexpended Funds From Prior Years (for capital projects)": 15353750
+      },
+      "expenditures": {
+        "Board of Education": 55555778,
+        "Debt Service": 757058,
+        "Library": 2147977,
+        "Chesapeake College": 2047282,
+        "Emergency Medical Services": 11509378,
+        "Sheriff": 10376283,
+        "Detention Center": 7564279,
+        "Emergency Management": 5361254,
+        "Volunteer Fire Departments": 3347428,
+        "Permits & Inspections": 719886,
+        "Animal Control": 516280,
+        "School Crossing Guards": 75000,
+        "Hazardous Materials": 15700,
+        "County Roads Maintenance": 4875777,
+        "Public Landings & Wharves": 420470,
+        "HEALTH SERVICES": 3356417,
+        "Senior Services": 970756,
+        "Other Social Services": 716864,
+        "Housing": 80339,
+        "Parks & Recreation": 723176,
+        "Pools": 448150,
+        "Other Recreation": 15000,
+        "Employee Benefits": 2884450,
+        "Information Technology": 2063362,
+        "Financial Administration": 2011449,
+        "County Administration": 1619145,
+        "Planning & Zoning": 1469369,
+        "Facilities Maintenance": 1409834,
+        "Circuit Court": 1383036,
+        "Elections": 1004169,
+        "Assessment Office": 400000,
+        "County Council": 374744,
+        "County Attorney": 306917,
+        "Insurance": 298900,
+        "Board of Appeals": 158768,
+        "Police Accountability Board": 51684,
+        "Liquor Board": 18642,
+        "Payments to Municipalities": 1526535,
+        "Agricultural Extension Service": 271615,
+        "Weed Control": 120877,
+        "Natural Resources Conservation": 5000,
+        "RESERVE FOR CONTINGENCIES": 1750000,
+        "TRANSFER TO CAPITAL PROJECTS FUND": 13653750,
+        "TRANSFER TO RECREATION FUND": 2728761,
+        "TOTAL": 38710000,
+        "Operating Income": 2198000,
+        "County Appropriation": 261453,
+        "Salaries & Benefits": 1335053,
+        "Operating Expense": 4167000,
+        "Service Charges": 1779402,
+        "Operating Expenses": 917680,
+        "Administrative Expense": 200,
+        "Repair & Replacement": 25680
+      }
+    }
+  }
+}

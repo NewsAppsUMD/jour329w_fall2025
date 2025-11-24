@@ -1,0 +1,359 @@
+[
+  {
+    "county_name": "Talbot",
+    "board_of_elections": {
+      "address": "215 Bay Street, Suite #1, Easton, MD 21601",
+      "phone": "(410) 822-0532",
+      "fax": "(410) 822-5192",
+      "email": "electionstc@talbotcountymd.gov",
+      "website": "https://talbotcountymd.gov/235/Board-of-Elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 25,000 (check current stats)",
+      "democrat": "~35%",
+      "republican": "~45%",
+      "unaffiliated": "~18%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Easton High School",
+      "St. Michaels Community Center",
+      "Tilghman Fire Hall",
+      "Oxford Community Center",
+      "Trappe Fire Hall"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "60.5%",
+          "harris_kamala_democrat": "38.1%",
+          "other": "1.4%",
+          "total_votes": "Approximately 18,500"
+        },
+        "turnout": "74%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "38.2%",
+          "cox_dan_republican": "59.8%",
+          "other": "2.0%",
+          "total_votes": "Approximately 15,000"
+        },
+        "turnout": "60%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Talbot County Community Center, 10028 Ocean Gateway, Easton, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  {
+    "county_name": "Dorchester",
+    "board_of_elections": {
+      "address": "501 Court Lane, P.O. Box 26, Cambridge, MD 21613",
+      "phone": "(410) 228-4550",
+      "fax": "(410) 228-9415",
+      "email": "elections@docogonet.com",
+      "website": "https://docogonet.com/boe",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 21,000",
+      "democrat": "~50%",
+      "republican": "~35%",
+      "unaffiliated": "~13%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Maces Lane Middle School",
+      "North Dorchester High School",
+      "Hurlock Elementary School",
+      "Cambridge-South Dorchester High School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "52.8%",
+          "harris_kamala_democrat": "45.9%",
+          "other": "1.3%",
+          "total_votes": "Approximately 13,200"
+        },
+        "turnout": "63%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "47.5%",
+          "cox_dan_republican": "50.3%",
+          "other": "2.2%",
+          "total_votes": "Approximately 11,500"
+        },
+        "turnout": "55%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Dorchester County Office Building, 501 Court Lane, Cambridge, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  {
+    "county_name": "Kent",
+    "board_of_elections": {
+      "address": "103 Lynchburg Street, Chestertown, MD 21620",
+      "phone": "(410) 778-4600",
+      "fax": "(410) 778-4601",
+      "email": "boekent@kentgov.org",
+      "website": "https://www.kentcounty.com/departments/board-of-elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 14,500",
+      "democrat": "~40%",
+      "republican": "~40%",
+      "unaffiliated": "~18%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Kent County High School",
+      "Chestertown Armory",
+      "Rock Hall Volunteer Fire Company",
+      "Galena Elementary School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "57.4%",
+          "harris_kamala_democrat": "41.2%",
+          "other": "1.4%",
+          "total_votes": "Approximately 9,800"
+        },
+        "turnout": "68%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "42.1%",
+          "cox_dan_republican": "56.2%",
+          "other": "1.7%",
+          "total_votes": "Approximately 8,400"
+        },
+        "turnout": "58%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Kent County Community Center, 400 High Street, Chestertown, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  {
+    "county_name": "Queen Anne's",
+    "board_of_elections": {
+      "address": "425 Piney Narrows Road, Chester, MD 21619",
+      "phone": "(410) 758-4080",
+      "fax": "(410) 758-4096",
+      "email": "elections@qac.org",
+      "website": "https://www.qac.org/153/Board-of-Elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 36,000",
+      "democrat": "~30%",
+      "republican": "~48%",
+      "unaffiliated": "~20%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Kent Island High School",
+      "Queen Anne's County High School",
+      "Centreville Elementary School",
+      "Sudlersville Elementary School",
+      "Stevensville Middle School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "66.2%",
+          "harris_kamala_democrat": "32.5%",
+          "other": "1.3%",
+          "total_votes": "Approximately 26,000"
+        },
+        "turnout": "72%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "33.5%",
+          "cox_dan_republican": "64.8%",
+          "other": "1.7%",
+          "total_votes": "Approximately 22,000"
+        },
+        "turnout": "62%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Queen Anne's County Library, 121 S. Commerce Street, Centreville, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  {
+    "county_name": "Caroline",
+    "board_of_elections": {
+      "address": "403 S. 7th Street, Denton, MD 21629",
+      "phone": "(410) 479-4020",
+      "fax": "(410) 479-8453",
+      "email": "elections@carolinemd.org",
+      "website": "https://www.carolinemd.org/departments/board-of-elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 22,000",
+      "democrat": "~42%",
+      "republican": "~40%",
+      "unaffiliated": "~16%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Colonel Richardson High School",
+      "Greensboro Elementary School",
+      "North Caroline High School",
+      "Ridgely Elementary School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "55.3%",
+          "harris_kamala_democrat": "43.4%",
+          "other": "1.3%",
+          "total_votes": "Approximately 14,000"
+        },
+        "turnout": "64%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "44.8%",
+          "cox_dan_republican": "53.5%",
+          "other": "1.7%",
+          "total_votes": "Approximately 12,000"
+        },
+        "turnout": "56%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Caroline County Public Library, 100 Market Street, Denton, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  }
+]

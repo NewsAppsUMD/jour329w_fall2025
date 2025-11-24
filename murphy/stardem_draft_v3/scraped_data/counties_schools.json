@@ -1,0 +1,264 @@
+{
+  "Dorchester": {
+    "county_name": "Dorchester",
+    "schools": {
+      "district_name": "Dorchester County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.dcpsmd.org",
+      "schools": [
+        {
+          "name": "Choptank Elementary School",
+          "level": "Elementary",
+          "star_rating": 2,
+          "percentile": 7
+        },
+        {
+          "name": "Hurlock Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 25
+        },
+        {
+          "name": "Maple Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 45
+        },
+        {
+          "name": "Sandy Hill Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 15
+        },
+        {
+          "name": "Vienna Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 64
+        },
+        {
+          "name": "Warwick Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 50
+        },
+        {
+          "name": "South Dorchester School",
+          "level": "Elementary/Middle",
+          "star_rating": 4,
+          "percentile": 63
+        },
+        {
+          "name": "Mace's Lane Middle School",
+          "level": "Middle",
+          "star_rating": 2,
+          "percentile": 4
+        },
+        {
+          "name": "North Dorchester Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 68
+        },
+        {
+          "name": "Cambridge-South Dorchester High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 20
+        },
+        {
+          "name": "North Dorchester High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 36
+        }
+      ],
+      "total_enrollment": 4353
+    },
+    "historical": "The exact date and legal origin of Dorchester County are unknown, but it was in existence by February 16, 1668/69, when a writ was issued to the county sheriff by the Lord Proprietary. The County was named for Sir Edward Sackville (1590-1652), the 4th Earl of Dorset, a family friend of the Calverts."
+  },
+  "Queen Annes": {
+    "county_name": "Queen Annes",
+    "schools": {
+      "district_name": "Queen Anne's County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.qacps.org",
+      "schools": [
+        "Kent Island High School",
+        "Queen Anne's County High School",
+        "Matapeake Middle School",
+        "Centreville Elementary School",
+        "and others"
+      ]
+    },
+    "historical": "Queen Anne's County was created in 1706 (Chapter 3, Acts of 1706). The County was named for Queen Anne (1665-1714), who ruled Great Britain and Ireland from 1702 to 1714. During Queen Anne's reign, Maryland was governed as a royal colony rather than as a proprietary province."
+  },
+  "Talbot": {
+    "county_name": "Talbot",
+    "schools": {
+      "district_name": "Talbot County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.tcps.k12.md.us",
+      "schools": [
+        {
+          "name": "Chapel District Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 76
+        },
+        {
+          "name": "Easton Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 26
+        },
+        {
+          "name": "St. Michaels Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 81
+        },
+        {
+          "name": "Tilghman Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 13
+        },
+        {
+          "name": "White Marsh Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 74
+        },
+        {
+          "name": "Easton Middle",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 34
+        },
+        {
+          "name": "St. Michaels Middle/High School",
+          "level": "Middle/High",
+          "star_rating": 3,
+          "percentile": 54
+        },
+        {
+          "name": "Easton High",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 41
+        }
+      ],
+      "total_enrollment": 4529
+    },
+    "historical": "The form of Talbot County's creation, though not known, probably was by virtue of an order of the Governor in Council. The County was in existence by February 18, 1661/62, when a writ was issued to the sheriff. The County was named after Lady Grace Talbot, sister of Cecilius Calvert, Second Lord Baltimore, and wife of Sir Robert Talbot, Irish statesman."
+  },
+  "Kent": {
+    "county_name": "Kent",
+    "schools": {
+      "district_name": "Kent County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.kent.k12.md.us",
+      "schools": [
+        {
+          "name": "Galena Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 25
+        },
+        {
+          "name": "H. H. Garnett Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 48
+        },
+        {
+          "name": "Rock Hall Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 79
+        },
+        {
+          "name": "Kent County Middle School",
+          "level": "Middle",
+          "star_rating": 2,
+          "percentile": 15
+        },
+        {
+          "name": "Kent County High",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 43
+        }
+      ],
+      "total_enrollment": 1880
+    },
+    "historical": "Kent was first mentioned as a county on August 2, 1642, when the Governor and Council appointed commissioners for the Isle and County of Kent. The County was named for Kent County in southeast England bordering the English Channel."
+  },
+  "Caroline": {
+    "county_name": "Caroline",
+    "schools": {
+      "district_name": "Caroline County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.carolineschools.org",
+      "schools": [
+        {
+          "name": "Denton Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 42
+        },
+        {
+          "name": "Federalsburg Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 17
+        },
+        {
+          "name": "Greensboro Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 49
+        },
+        {
+          "name": "Preston Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 67
+        },
+        {
+          "name": "Ridgely Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 34
+        },
+        {
+          "name": "Colonel Richardson Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 44
+        },
+        {
+          "name": "Lockerman Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 29
+        },
+        {
+          "name": "Colonel Richardson High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 54
+        },
+        {
+          "name": "North Caroline High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 38
+        }
+      ],
+      "total_enrollment": 4781
+    },
+    "historical": "Caroline County was created in 1773 from Dorchester and Queen Anne's counties (Chapter 10, Acts of 1773). Lady Caroline Eden (c.1745-1792) gave her name to the County. She was the wife of Maryland's last colonial governor, Sir Robert Eden (1741-1784); the daughter of Charles Calvert, 5th Lord Baltimore; and the sister of Frederick Calvert, 6th Lord Baltimore."
+  }
+}

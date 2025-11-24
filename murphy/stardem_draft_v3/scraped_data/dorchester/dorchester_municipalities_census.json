@@ -1,0 +1,221 @@
+{
+  "county_name": "Dorchester",
+  "municipalities": [
+    {
+      "place_name": "Brookview",
+      "place_fips": "10575",
+      "population": {
+        "total": 42,
+        "male": 20,
+        "female": 22,
+        "median_age": 37.5
+      },
+      "race_ethnicity": {
+        "white_alone": 38,
+        "black_alone": 3,
+        "hispanic_latino": 0
+      },
+      "economics": {
+        "median_household_income": 71250,
+        "median_home_value": 154200
+      },
+      "housing": {
+        "total_units": 28,
+        "occupied_units": 20,
+        "vacant_units": 8
+      }
+    },
+    {
+      "place_name": "Cambridge",
+      "place_fips": "12400",
+      "population": {
+        "total": 13058,
+        "male": 6307,
+        "female": 6751,
+        "median_age": 37.3
+      },
+      "race_ethnicity": {
+        "white_alone": 5071,
+        "black_alone": 5817,
+        "hispanic_latino": 1000
+      },
+      "economics": {
+        "median_household_income": 44114,
+        "median_home_value": 223200
+      },
+      "housing": {
+        "total_units": 6517,
+        "occupied_units": 5314,
+        "vacant_units": 1203
+      }
+    },
+    {
+      "place_name": "Church Creek",
+      "place_fips": "17050",
+      "population": {
+        "total": 90,
+        "male": 48,
+        "female": 42,
+        "median_age": 58.8
+      },
+      "race_ethnicity": {
+        "white_alone": 90,
+        "black_alone": 0,
+        "hispanic_latino": 0
+      },
+      "economics": {
+        "median_household_income": 56563,
+        "median_home_value": 210700
+      },
+      "housing": {
+        "total_units": 62,
+        "occupied_units": 53,
+        "vacant_units": 9
+      }
+    },
+    {
+      "place_name": "East New Market",
+      "place_fips": "24450",
+      "population": {
+        "total": 389,
+        "male": 189,
+        "female": 200,
+        "median_age": 45.3
+      },
+      "race_ethnicity": {
+        "white_alone": 309,
+        "black_alone": 71,
+        "hispanic_latino": 4
+      },
+      "economics": {
+        "median_household_income": 50417,
+        "median_home_value": 226800
+      },
+      "housing": {
+        "total_units": 178,
+        "occupied_units": 158,
+        "vacant_units": 20
+      }
+    },
+    {
+      "place_name": "Eldorado",
+      "place_fips": "25600",
+      "population": {
+        "total": 50,
+        "male": 26,
+        "female": 24,
+        "median_age": 47.0
+      },
+      "race_ethnicity": {
+        "white_alone": 46,
+        "black_alone": 0,
+        "hispanic_latino": 0
+      },
+      "economics": {
+        "median_household_income": 45500,
+        "median_home_value": 144600
+      },
+      "housing": {
+        "total_units": 24,
+        "occupied_units": 24,
+        "vacant_units": 0
+      }
+    },
+    {
+      "place_name": "Galestown",
+      "place_fips": "31250",
+      "population": {
+        "total": 74,
+        "male": 32,
+        "female": 42,
+        "median_age": 59.1
+      },
+      "race_ethnicity": {
+        "white_alone": 71,
+        "black_alone": 2,
+        "hispanic_latino": 0
+      },
+      "economics": {
+        "median_household_income": 36250,
+        "median_home_value": 228600
+      },
+      "housing": {
+        "total_units": 44,
+        "occupied_units": 34,
+        "vacant_units": 10
+      }
+    },
+    {
+      "place_name": "Hurlock",
+      "place_fips": "41125",
+      "population": {
+        "total": 2284,
+        "male": 982,
+        "female": 1302,
+        "median_age": 39.2
+      },
+      "race_ethnicity": {
+        "white_alone": 1199,
+        "black_alone": 705,
+        "hispanic_latino": 248
+      },
+      "economics": {
+        "median_household_income": 57313,
+        "median_home_value": 162200
+      },
+      "housing": {
+        "total_units": 955,
+        "occupied_units": 843,
+        "vacant_units": 112
+      }
+    },
+    {
+      "place_name": "Secretary",
+      "place_fips": "70900",
+      "population": {
+        "total": 642,
+        "male": 325,
+        "female": 317,
+        "median_age": 32.8
+      },
+      "race_ethnicity": {
+        "white_alone": 489,
+        "black_alone": 1,
+        "hispanic_latino": 154
+      },
+      "economics": {
+        "median_household_income": 66458,
+        "median_home_value": 162500
+      },
+      "housing": {
+        "total_units": 246,
+        "occupied_units": 214,
+        "vacant_units": 32
+      }
+    },
+    {
+      "place_name": "Vienna",
+      "place_fips": "80600",
+      "population": {
+        "total": 406,
+        "male": 175,
+        "female": 231,
+        "median_age": 31.5
+      },
+      "race_ethnicity": {
+        "white_alone": 279,
+        "black_alone": 27,
+        "hispanic_latino": 90
+      },
+      "economics": {
+        "median_household_income": 92778,
+        "median_home_value": 179400
+      },
+      "housing": {
+        "total_units": 141,
+        "occupied_units": 130,
+        "vacant_units": 11
+      }
+    }
+  ]
+}

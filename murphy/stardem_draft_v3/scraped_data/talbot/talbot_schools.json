@@ -1,0 +1,59 @@
+{
+  "county_name": "Talbot",
+  "schools": {
+    "district_name": "Talbot County Public Schools",
+    "superintendent": "Contact via district website",
+    "website": "https://www.tcps.k12.md.us",
+    "schools": [
+      {
+        "name": "Chapel District Elementary",
+        "level": "Elementary",
+        "star_rating": 4,
+        "percentile": 76
+      },
+      {
+        "name": "Easton Elementary",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 26
+      },
+      {
+        "name": "St. Michaels Elementary",
+        "level": "Elementary",
+        "star_rating": 4,
+        "percentile": 81
+      },
+      {
+        "name": "Tilghman Elementary",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 13
+      },
+      {
+        "name": "White Marsh Elementary",
+        "level": "Elementary",
+        "star_rating": 4,
+        "percentile": 74
+      },
+      {
+        "name": "Easton Middle",
+        "level": "Middle",
+        "star_rating": 3,
+        "percentile": 34
+      },
+      {
+        "name": "St. Michaels Middle/High School",
+        "level": "Middle/High",
+        "star_rating": 3,
+        "percentile": 54
+      },
+      {
+        "name": "Easton High",
+        "level": "High",
+        "star_rating": 3,
+        "percentile": 41
+      }
+    ],
+    "total_enrollment": 4529
+  }
+}

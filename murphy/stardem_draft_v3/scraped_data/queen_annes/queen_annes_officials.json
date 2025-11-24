@@ -1,0 +1,45 @@
+{
+  "county_name": "Queen Annes",
+  "county_officials": {
+    "legislative_branch": [
+      {
+        "name": "Christopher M. Corchiarino",
+        "party": "Republican",
+        "title": "President",
+        "selection_method": "chosen by Board in Nov"
+      },
+      {
+        "name": "Philip L. Dumenil",
+        "party": "Republican",
+        "title": "Vice President",
+        "selection_method": "chosen by Board in Nov"
+      },
+      {
+        "name": "Jack N. Wilson, Jr.",
+        "party": "Republican",
+        "title": "Commissioner",
+        "district": "District 1"
+      },
+      {
+        "name": "James J. Moran",
+        "party": "Republican",
+        "title": "Commissioner At-Large"
+      }
+    ],
+    "judicial_branch": [
+      {
+        "name": "Cheryl B. Miller",
+        "title": "Judge"
+      }
+    ]
+  },
+  "municipalities": [],
+  "other_info": {
+    "meeting_schedule": "2nd & 4th Tuesday, 5:30 p.m (subject to change;",
+    "address": "107 North Liberty St., Centreville, MD 21617",
+    "phone": "(410) 758-4098",
+    "website": "www.qac.org/617/Board-of-County-Commissioners"
+  },
+  "county_seat": "Centreville",
+  "population_2020": "49,874"
+}

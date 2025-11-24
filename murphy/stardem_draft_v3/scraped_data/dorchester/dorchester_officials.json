@@ -1,0 +1,60 @@
+{
+  "county_name": "Dorchester",
+  "county_officials": {
+    "legislative_branch": [
+      {
+        "name": "George L. (Lenny) Pfeffer, Jr.",
+        "party": "Republican",
+        "title": "President",
+        "selection_method": "chosen by Council in Dec"
+      },
+      {
+        "name": "Michael W. Detmer",
+        "party": "Republican",
+        "title": "Vice President",
+        "selection_method": "chosen by Council in Dec"
+      },
+      {
+        "name": "Robert E. Kramer, Jr.",
+        "party": "Republican",
+        "title": "Council Member",
+        "district": "District 1"
+      },
+      {
+        "name": "William V. Nichols",
+        "party": "Democrat",
+        "title": "Council Member",
+        "district": "District 2"
+      },
+      {
+        "name": "Richard C. (Ricky) Travers",
+        "party": "Democrat",
+        "title": "Council Member",
+        "district": "District 3"
+      }
+    ],
+    "judicial_branch": [
+      {
+        "name": "Missy M. Gallagher",
+        "title": "Judge"
+      },
+      {
+        "name": "Kendall E. Timmons",
+        "title": "Judge"
+      },
+      {
+        "name": "Latasha S. Nichols",
+        "title": "Judge"
+      }
+    ]
+  },
+  "municipalities": [],
+  "other_info": {
+    "meeting_schedule": "1st & 3rd Tuesdays, 6:00 p.m.",
+    "address": "P. O. Box 26",
+    "phone": "(410) 228-1700",
+    "website": "www.dorchestercountymd.com/departments/councils-office/"
+  },
+  "county_seat": "Cambridge",
+  "population_2020": "32,531"
+}

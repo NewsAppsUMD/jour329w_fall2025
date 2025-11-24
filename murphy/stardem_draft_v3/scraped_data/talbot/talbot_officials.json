@@ -1,0 +1,50 @@
+{
+  "county_name": "Talbot",
+  "county_officials": {
+    "legislative_branch": [
+      {
+        "name": "Ronald E. (Pete) Lesher, Jr.",
+        "party": "Democrat",
+        "title": "Vice President",
+        "selection_method": "chosen by Council in Dec"
+      },
+      {
+        "name": "Keasha N. Haythe",
+        "party": "Democrat",
+        "title": "Council Member"
+      },
+      {
+        "name": "David C. Stepp",
+        "party": "Republican",
+        "title": "Council Member"
+      }
+    ],
+    "judicial_branch": [
+      {
+        "name": "Sonja M. Kerns",
+        "title": "Judge"
+      },
+      {
+        "name": "Philip T. Cronan",
+        "title": "Judge"
+      },
+      {
+        "name": "Patrick L. Johnson",
+        "title": "Judge"
+      },
+      {
+        "name": "Cheryl B. Miller",
+        "title": "Judge"
+      }
+    ]
+  },
+  "municipalities": [],
+  "other_info": {
+    "meeting_schedule": "2nd & 4th Tuesdays, 6:00 p.m.",
+    "address": "11 North Washington St., Easton, MD 21601",
+    "phone": "(410) 770-8010",
+    "website": "www.talbotcountymd.gov/index.php?page=County_Council"
+  },
+  "county_seat": "Easton",
+  "population_2020": "37,526"
+}

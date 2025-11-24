@@ -1,0 +1,125 @@
+{
+  "county_name": "Talbot",
+  "municipalities": [
+    {
+      "place_name": "Easton",
+      "place_fips": "24475",
+      "population": {
+        "total": 17118,
+        "male": 7941,
+        "female": 9177,
+        "median_age": 45.4
+      },
+      "race_ethnicity": {
+        "white_alone": 11972,
+        "black_alone": 2753,
+        "hispanic_latino": 1812
+      },
+      "economics": {
+        "median_household_income": 75198,
+        "median_home_value": 328000
+      },
+      "housing": {
+        "total_units": 7669,
+        "occupied_units": 7195,
+        "vacant_units": 474
+      }
+    },
+    {
+      "place_name": "Oxford",
+      "place_fips": "59450",
+      "population": {
+        "total": 817,
+        "male": 420,
+        "female": 397,
+        "median_age": 63.8
+      },
+      "race_ethnicity": {
+        "white_alone": 687,
+        "black_alone": 38,
+        "hispanic_latino": 104
+      },
+      "economics": {
+        "median_household_income": 77170,
+        "median_home_value": 669900
+      },
+      "housing": {
+        "total_units": 587,
+        "occupied_units": 426,
+        "vacant_units": 161
+      }
+    },
+    {
+      "place_name": "Queen Anne",
+      "place_fips": "64495",
+      "population": {
+        "total": 1516,
+        "male": 829,
+        "female": 687,
+        "median_age": 53.3
+      },
+      "race_ethnicity": {
+        "white_alone": 435,
+        "black_alone": 1059,
+        "hispanic_latino": 22
+      },
+      "economics": {
+        "median_household_income": 179625,
+        "median_home_value": 752100
+      },
+      "housing": {
+        "total_units": 635,
+        "occupied_units": 581,
+        "vacant_units": 54
+      }
+    },
+    {
+      "place_name": "St. Michaels",
+      "place_fips": "69825",
+      "population": {
+        "total": 1523,
+        "male": 629,
+        "female": 894,
+        "median_age": 49.8
+      },
+      "race_ethnicity": {
+        "white_alone": 1015,
+        "black_alone": 365,
+        "hispanic_latino": 123
+      },
+      "economics": {
+        "median_household_income": 73415,
+        "median_home_value": 486800
+      },
+      "housing": {
+        "total_units": 904,
+        "occupied_units": 667,
+        "vacant_units": 237
+      }
+    },
+    {
+      "place_name": "Trappe",
+      "place_fips": "78575",
+      "population": {
+        "total": 1019,
+        "male": 551,
+        "female": 468,
+        "median_age": 40.8
+      },
+      "race_ethnicity": {
+        "white_alone": 766,
+        "black_alone": 179,
+        "hispanic_latino": 124
+      },
+      "economics": {
+        "median_household_income": 65139,
+        "median_home_value": 239200
+      },
+      "housing": {
+        "total_units": 442,
+        "occupied_units": 423,
+        "vacant_units": 19
+      }
+    }
+  ]
+}

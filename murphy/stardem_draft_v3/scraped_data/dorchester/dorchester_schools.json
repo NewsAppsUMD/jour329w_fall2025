@@ -1,0 +1,77 @@
+{
+  "county_name": "Dorchester",
+  "schools": {
+    "district_name": "Dorchester County Public Schools",
+    "superintendent": "Contact via district website",
+    "website": "https://www.dcpsmd.org",
+    "schools": [
+      {
+        "name": "Choptank Elementary School",
+        "level": "Elementary",
+        "star_rating": 2,
+        "percentile": 7
+      },
+      {
+        "name": "Hurlock Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 25
+      },
+      {
+        "name": "Maple Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 45
+      },
+      {
+        "name": "Sandy Hill Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 15
+      },
+      {
+        "name": "Vienna Elementary School",
+        "level": "Elementary",
+        "star_rating": 4,
+        "percentile": 64
+      },
+      {
+        "name": "Warwick Elementary School",
+        "level": "Elementary",
+        "star_rating": 3,
+        "percentile": 50
+      },
+      {
+        "name": "South Dorchester School",
+        "level": "Elementary/Middle",
+        "star_rating": 4,
+        "percentile": 63
+      },
+      {
+        "name": "Mace's Lane Middle School",
+        "level": "Middle",
+        "star_rating": 2,
+        "percentile": 4
+      },
+      {
+        "name": "North Dorchester Middle School",
+        "level": "Middle",
+        "star_rating": 3,
+        "percentile": 68
+      },
+      {
+        "name": "Cambridge-South Dorchester High School",
+        "level": "High",
+        "star_rating": 3,
+        "percentile": 20
+      },
+      {
+        "name": "North Dorchester High School",
+        "level": "High",
+        "star_rating": 3,
+        "percentile": 36
+      }
+    ],
+    "total_enrollment": 4353
+  }
+}

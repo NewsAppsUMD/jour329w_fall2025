@@ -1,0 +1,33 @@
+{
+  "county_name": "Kent",
+  "county_officials": {
+    "legislative_branch": [
+      {
+        "name": "Ronald H. Fithian",
+        "party": "Republican",
+        "title": "President",
+        "selection_method": "chosen by Board in Dec"
+      },
+      {
+        "name": "Albert H. Nickerson",
+        "party": "Republican",
+        "title": "Commissioner"
+      }
+    ],
+    "judicial_branch": [
+      {
+        "name": "Cheryl B. Miller",
+        "title": "Judge"
+      }
+    ]
+  },
+  "municipalities": [],
+  "other_info": {
+    "meeting_schedule": "Tuesdays, 6:00 p.m.",
+    "address": "400 High St., Chestertown, MD 21620",
+    "phone": "(410) 810-2221",
+    "website": "www.kentcounty.com/commissioners"
+  },
+  "county_seat": "Chestertown",
+  "population_2020": "19,198"
+}

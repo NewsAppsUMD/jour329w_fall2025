@@ -1,0 +1,177 @@
+{
+  "Dorchester": {
+    "county_name": "Dorchester",
+    "fips_code": "24019",
+    "census_api_data": {
+      "population": {
+        "total": 32557,
+        "male": 15261,
+        "female": 17296,
+        "median_age": 43.8
+      },
+      "race_ethnicity": {
+        "white_alone": 20381,
+        "black_alone": 8342,
+        "hispanic_latino": 1992
+      },
+      "economics": {
+        "median_household_income": 57490,
+        "median_home_value": 226000,
+        "labor_force": 15877,
+        "unemployed": 870
+      },
+      "education": {
+        "bachelors_degree": 2425,
+        "masters_degree": 1381,
+        "professional_degree": 379,
+        "doctorate_degree": 283
+      },
+      "housing": {
+        "total_units": 16400,
+        "occupied_units": 13216,
+        "vacant_units": 3184
+      }
+    },
+    "quickfacts": null
+  },
+  "Queen Annes": {
+    "county_name": "Queen Annes",
+    "fips_code": "24035",
+    "census_api_data": {
+      "population": {
+        "total": 50316,
+        "male": 25045,
+        "female": 25271,
+        "median_age": 44.6
+      },
+      "race_ethnicity": {
+        "white_alone": 42958,
+        "black_alone": 2952,
+        "hispanic_latino": 2303
+      },
+      "economics": {
+        "median_household_income": 108332,
+        "median_home_value": 421900,
+        "labor_force": 27224,
+        "unemployed": 987
+      },
+      "education": {
+        "bachelors_degree": 8244,
+        "masters_degree": 3623,
+        "professional_degree": 774,
+        "doctorate_degree": 549
+      },
+      "housing": {
+        "total_units": 21405,
+        "occupied_units": 19351,
+        "vacant_units": 2054
+      }
+    },
+    "quickfacts": null
+  },
+  "Talbot": {
+    "county_name": "Talbot",
+    "fips_code": "24041",
+    "census_api_data": {
+      "population": {
+        "total": 37663,
+        "male": 18023,
+        "female": 19640,
+        "median_age": 51.4
+      },
+      "race_ethnicity": {
+        "white_alone": 29600,
+        "black_alone": 4593,
+        "hispanic_latino": 2744
+      },
+      "economics": {
+        "median_household_income": 81667,
+        "median_home_value": 382000,
+        "labor_force": 17654,
+        "unemployed": 559
+      },
+      "education": {
+        "bachelors_degree": 6565,
+        "masters_degree": 3227,
+        "professional_degree": 1424,
+        "doctorate_degree": 649
+      },
+      "housing": {
+        "total_units": 19606,
+        "occupied_units": 16270,
+        "vacant_units": 3336
+      }
+    },
+    "quickfacts": null
+  },
+  "Kent": {
+    "county_name": "Kent",
+    "fips_code": "24029",
+    "census_api_data": {
+      "population": {
+        "total": 19289,
+        "male": 9215,
+        "female": 10074,
+        "median_age": 48.5
+      },
+      "race_ethnicity": {
+        "white_alone": 15082,
+        "black_alone": 2729,
+        "hispanic_latino": 900
+      },
+      "economics": {
+        "median_household_income": 71635,
+        "median_home_value": 291900,
+        "labor_force": 9679,
+        "unemployed": 315
+      },
+      "education": {
+        "bachelors_degree": 2939,
+        "masters_degree": 1474,
+        "professional_degree": 404,
+        "doctorate_degree": 397
+      },
+      "housing": {
+        "total_units": 10320,
+        "occupied_units": 8375,
+        "vacant_units": 1945
+      }
+    },
+    "quickfacts": null
+  },
+  "Caroline": {
+    "county_name": "Caroline",
+    "fips_code": "24011",
+    "census_api_data": {
+      "population": {
+        "total": 33320,
+        "male": 16414,
+        "female": 16906,
+        "median_age": 39.5
+      },
+      "race_ethnicity": {
+        "white_alone": 25025,
+        "black_alone": 4565,
+        "hispanic_latino": 2736
+      },
+      "economics": {
+        "median_household_income": 65326,
+        "median_home_value": 258800,
+        "labor_force": 16808,
+        "unemployed": 775
+      },
+      "education": {
+        "bachelors_degree": 2362,
+        "masters_degree": 1335,
+        "professional_degree": 259,
+        "doctorate_degree": 88
+      },
+      "housing": {
+        "total_units": 13473,
+        "occupied_units": 12013,
+        "vacant_units": 1460
+      }
+    },
+    "quickfacts": null
+  }
+}

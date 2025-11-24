@@ -1,0 +1,36 @@
+{
+  "origin": "The exact date and legal origin of Dorchester County are unknown, but it was in existence by February 16, 1668/69, when a writ was issued to the county sheriff by the Lord Proprietary. The County was named for Sir Edward Sackville (1590-1652), the 4th Earl of Dorset, a family friend of the Calverts.",
+  "county_name": "Dorchester",
+  "fips_code": "24019",
+  "census_api_data": {
+    "population": {
+      "total": 32557,
+      "male": 15261,
+      "female": 17296,
+      "median_age": 43.8
+    },
+    "race_ethnicity": {
+      "white_alone": 20381,
+      "black_alone": 8342,
+      "hispanic_latino": 1992
+    },
+    "economics": {
+      "median_household_income": 57490,
+      "median_home_value": 226000,
+      "labor_force": 15877,
+      "unemployed": 870
+    },
+    "education": {
+      "bachelors_degree": 2425,
+      "masters_degree": 1381,
+      "professional_degree": 379,
+      "doctorate_degree": 283
+    },
+    "housing": {
+      "total_units": 16400,
+      "occupied_units": 13216,
+      "vacant_units": 3184
+    }
+  },
+  "quickfacts": null
+}

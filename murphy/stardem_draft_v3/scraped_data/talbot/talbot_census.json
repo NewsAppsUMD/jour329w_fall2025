@@ -1,0 +1,36 @@
+{
+  "origin": "The form of Talbot County's creation, though not known, probably was by virtue of an order of the Governor in Council. The County was in existence by February 18, 1661/62, when a writ was issued to the sheriff. The County was named after Lady Grace Talbot, sister of Cecilius Calvert, Second Lord Baltimore, and wife of Sir Robert Talbot, Irish statesman.",
+  "county_name": "Talbot",
+  "fips_code": "24041",
+  "census_api_data": {
+    "population": {
+      "total": 37663,
+      "male": 18023,
+      "female": 19640,
+      "median_age": 51.4
+    },
+    "race_ethnicity": {
+      "white_alone": 29600,
+      "black_alone": 4593,
+      "hispanic_latino": 2744
+    },
+    "economics": {
+      "median_household_income": 81667,
+      "median_home_value": 382000,
+      "labor_force": 17654,
+      "unemployed": 559
+    },
+    "education": {
+      "bachelors_degree": 6565,
+      "masters_degree": 3227,
+      "professional_degree": 1424,
+      "doctorate_degree": 649
+    },
+    "housing": {
+      "total_units": 19606,
+      "occupied_units": 16270,
+      "vacant_units": 3336
+    }
+  },
+  "quickfacts": null
+}

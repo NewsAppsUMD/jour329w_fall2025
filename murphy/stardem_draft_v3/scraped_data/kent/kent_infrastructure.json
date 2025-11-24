@@ -1,0 +1,59 @@
+{
+  "county_name": "Kent",
+  "public_works": {
+    "department": "Roads & Public Works",
+    "director": "Contact via county website",
+    "address": "103 Lynchburg Street, Chestertown, MD 21620",
+    "phone": "(410) 778-1996",
+    "website": "https://www.kentcounty.com/departments/roads-public-works",
+    "services": [
+      "Road maintenance",
+      "Snow removal",
+      "Drainage",
+      "County facilities"
+    ]
+  },
+  "transportation": {
+    "road_miles": "Approximately 475 miles of roads",
+    "major_routes": [
+      "US Route 301",
+      "MD Route 213",
+      "MD Route 291",
+      "MD Route 298"
+    ],
+    "bridges": "Multiple bridges including Chester River crossings",
+    "projects": [
+      "Route 213 improvements",
+      "Bridge maintenance program"
+    ]
+  },
+  "water_sewer": {
+    "provider": "Municipal systems and private wells",
+    "chestertown_water": "Town of Chestertown Water Department",
+    "rock_hall_water": "Town of Rock Hall utilities",
+    "sewer_districts": "Limited to municipalities",
+    "rural_areas": "Predominantly private wells and septic"
+  },
+  "parks_recreation": {
+    "department": "Parks & Recreation",
+    "phone": "(410) 778-1948",
+    "website": "https://www.kentcounty.com/departments/parks-recreation",
+    "facilities": [
+      "Kent County Community Center (Chestertown)",
+      "Betterton Beach",
+      "Rock Hall public beach and pier",
+      "Various community parks"
+    ]
+  },
+  "solid_waste": {
+    "landfill": "Kent County Landfill, Route 298",
+    "phone": "(410) 778-1596",
+    "recycling": "Recycling center at landfill",
+    "hours": "Check website for current hours"
+  },
+  "major_projects": [
+    "US 301 corridor management",
+    "Chestertown waterfront improvements",
+    "Rural broadband expansion"
+  ]
+}

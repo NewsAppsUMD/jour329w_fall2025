@@ -1,0 +1,245 @@
+{
+  "county_name": "Caroline",
+  "municipalities": [
+    {
+      "place_name": "Denton",
+      "place_fips": "22725",
+      "population": {
+        "total": 4836,
+        "male": 2359,
+        "female": 2477,
+        "median_age": 36.2
+      },
+      "race_ethnicity": {
+        "white_alone": 3208,
+        "black_alone": 1228,
+        "hispanic_latino": 161
+      },
+      "economics": {
+        "median_household_income": 59155,
+        "median_home_value": 225000
+      },
+      "housing": {
+        "total_units": 1642,
+        "occupied_units": 1530,
+        "vacant_units": 112
+      }
+    },
+    {
+      "place_name": "Federalsburg",
+      "place_fips": "27900",
+      "population": {
+        "total": 2818,
+        "male": 1180,
+        "female": 1638,
+        "median_age": 36.4
+      },
+      "race_ethnicity": {
+        "white_alone": 1168,
+        "black_alone": 1313,
+        "hispanic_latino": 117
+      },
+      "economics": {
+        "median_household_income": 33511,
+        "median_home_value": 121800
+      },
+      "housing": {
+        "total_units": 1201,
+        "occupied_units": 1067,
+        "vacant_units": 134
+      }
+    },
+    {
+      "place_name": "Goldsboro",
+      "place_fips": "33950",
+      "population": {
+        "total": 211,
+        "male": 129,
+        "female": 82,
+        "median_age": 29.9
+      },
+      "race_ethnicity": {
+        "white_alone": 98,
+        "black_alone": 2,
+        "hispanic_latino": 100
+      },
+      "economics": {
+        "median_household_income": 43750,
+        "median_home_value": 165000
+      },
+      "housing": {
+        "total_units": 95,
+        "occupied_units": 68,
+        "vacant_units": 27
+      }
+    },
+    {
+      "place_name": "Greensboro",
+      "place_fips": "35200",
+      "population": {
+        "total": 2780,
+        "male": 1300,
+        "female": 1480,
+        "median_age": 31.5
+      },
+      "race_ethnicity": {
+        "white_alone": 1721,
+        "black_alone": 349,
+        "hispanic_latino": 731
+      },
+      "economics": {
+        "median_household_income": 43750,
+        "median_home_value": 195000
+      },
+      "housing": {
+        "total_units": 929,
+        "occupied_units": 833,
+        "vacant_units": 96
+      }
+    },
+    {
+      "place_name": "Henderson",
+      "place_fips": "37925",
+      "population": {
+        "total": 149,
+        "male": 102,
+        "female": 47,
+        "median_age": 30.6
+      },
+      "race_ethnicity": {
+        "white_alone": 36,
+        "black_alone": 5,
+        "hispanic_latino": 108
+      },
+      "economics": {
+        "median_household_income": 93125,
+        "median_home_value": 66700
+      },
+      "housing": {
+        "total_units": 58,
+        "occupied_units": 40,
+        "vacant_units": 18
+      }
+    },
+    {
+      "place_name": "Hillsboro",
+      "place_fips": "39175",
+      "population": {
+        "total": 149,
+        "male": 57,
+        "female": 92,
+        "median_age": 48.2
+      },
+      "race_ethnicity": {
+        "white_alone": 147,
+        "black_alone": 2,
+        "hispanic_latino": 0
+      },
+      "economics": {
+        "median_household_income": 69375,
+        "median_home_value": 220800
+      },
+      "housing": {
+        "total_units": 80,
+        "occupied_units": 61,
+        "vacant_units": 19
+      }
+    },
+    {
+      "place_name": "Marydel",
+      "place_fips": "51025",
+      "population": {
+        "total": 129,
+        "male": 80,
+        "female": 49,
+        "median_age": 25.7
+      },
+      "race_ethnicity": {
+        "white_alone": 88,
+        "black_alone": 0,
+        "hispanic_latino": 79
+      },
+      "economics": {
+        "median_household_income": 45625,
+        "median_home_value": 177300
+      },
+      "housing": {
+        "total_units": 43,
+        "occupied_units": 36,
+        "vacant_units": 7
+      }
+    },
+    {
+      "place_name": "Preston",
+      "place_fips": "63825",
+      "population": {
+        "total": 816,
+        "male": 375,
+        "female": 441,
+        "median_age": 37.1
+      },
+      "race_ethnicity": {
+        "white_alone": 721,
+        "black_alone": 26,
+        "hispanic_latino": 6
+      },
+      "economics": {
+        "median_household_income": 65500,
+        "median_home_value": 237700
+      },
+      "housing": {
+        "total_units": 321,
+        "occupied_units": 294,
+        "vacant_units": 27
+      }
+    },
+    {
+      "place_name": "Ridgely",
+      "place_fips": "66000",
+      "population": {
+        "total": 1727,
+        "male": 697,
+        "female": 1030,
+        "median_age": 38.0
+      },
+      "race_ethnicity": {
+        "white_alone": 1293,
+        "black_alone": 224,
+        "hispanic_latino": 253
+      },
+      "economics": {
+        "median_household_income": 65060,
+        "median_home_value": 227300
+      },
+      "housing": {
+        "total_units": 691,
+        "occupied_units": 657,
+        "vacant_units": 34
+      }
+    },
+    {
+      "place_name": "Templeville",
+      "place_fips": "77200",
+      "population": {
+        "total": 182,
+        "male": 80,
+        "female": 102,
+        "median_age": 30.1
+      },
+      "race_ethnicity": {
+        "white_alone": 45,
+        "black_alone": 0,
+        "hispanic_latino": 159
+      },
+      "economics": {
+        "median_household_income": null,
+        "median_home_value": null
+      },
+      "housing": {
+        "total_units": 42,
+        "occupied_units": 36,
+        "vacant_units": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "origin": "Kent was first mentioned as a county on August 2, 1642, when the Governor and Council appointed commissioners for the Isle and County of Kent. The County was named for Kent County in southeast England bordering the English Channel.",
+  "county_name": "Kent",
+  "fips_code": "24029",
+  "census_api_data": {
+    "population": {
+      "total": 19289,
+      "male": 9215,
+      "female": 10074,
+      "median_age": 48.5
+    },
+    "race_ethnicity": {
+      "white_alone": 15082,
+      "black_alone": 2729,
+      "hispanic_latino": 900
+    },
+    "economics": {
+      "median_household_income": 71635,
+      "median_home_value": 291900,
+      "labor_force": 9679,
+      "unemployed": 315
+    },
+    "education": {
+      "bachelors_degree": 2939,
+      "masters_degree": 1474,
+      "professional_degree": 404,
+      "doctorate_degree": 397
+    },
+    "housing": {
+      "total_units": 10320,
+      "occupied_units": 8375,
+      "vacant_units": 1945
+    }
+  },
+  "quickfacts": null
+}

@@ -1,0 +1,71 @@
+{
+  "county_name": "Kent",
+  "board_of_elections": {
+    "address": "103 Lynchburg Street, Chestertown, MD 21620",
+    "phone": "(410) 778-4600",
+    "fax": "(410) 778-4601",
+    "email": "boekent@kentgov.org",
+    "website": "https://www.kentcounty.com/departments/board-of-elections",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "director": "Contact local office for current director"
+  },
+  "voter_registration": {
+    "total_registered": "Approximately 14,500",
+    "democrat": "~40%",
+    "republican": "~40%",
+    "unaffiliated": "~18%",
+    "other": "~2%",
+    "registration_deadline": "21 days before election"
+  },
+  "polling_locations": [
+    "Kent County High School",
+    "Chestertown Armory",
+    "Rock Hall Volunteer Fire Company",
+    "Galena Elementary School"
+  ],
+  "recent_elections": [
+    {
+      "election": "2024 Presidential General Election",
+      "date": "November 5, 2024",
+      "results": {
+        "trump_donald_republican": "57.4%",
+        "harris_kamala_democrat": "41.2%",
+        "other": "1.4%",
+        "total_votes": "Approximately 9,800"
+      },
+      "turnout": "68%"
+    },
+    {
+      "election": "2022 Gubernatorial General Election",
+      "date": "November 8, 2022",
+      "results": {
+        "moore_wes_democrat": "42.1%",
+        "cox_dan_republican": "56.2%",
+        "other": "1.7%",
+        "total_votes": "Approximately 8,400"
+      },
+      "turnout": "58%"
+    }
+  ],
+  "upcoming_elections": [
+    {
+      "election": "2027 Local Elections",
+      "date": "November 2027 (date TBD)",
+      "offices": [
+        "County Council/Commissioners",
+        "Board of Education",
+        "Municipal offices"
+      ]
+    }
+  ],
+  "notes": [
+    "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+    "Local elections typically held in odd-numbered years",
+    "Early voting available at designated locations",
+    "Mail-in voting available upon request"
+  ],
+  "early_voting": {
+    "location": "Kent County Community Center, 400 High Street, Chestertown, MD",
+    "schedule": "8 days before Election Day, including 2 Saturdays"
+  }
+}

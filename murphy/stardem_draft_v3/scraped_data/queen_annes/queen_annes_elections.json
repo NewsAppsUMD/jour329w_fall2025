@@ -1,0 +1,72 @@
+{
+  "county_name": "Queen Anne's",
+  "board_of_elections": {
+    "address": "425 Piney Narrows Road, Chester, MD 21619",
+    "phone": "(410) 758-4080",
+    "fax": "(410) 758-4096",
+    "email": "elections@qac.org",
+    "website": "https://www.qac.org/153/Board-of-Elections",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "director": "Contact local office for current director"
+  },
+  "voter_registration": {
+    "total_registered": "Approximately 36,000",
+    "democrat": "~30%",
+    "republican": "~48%",
+    "unaffiliated": "~20%",
+    "other": "~2%",
+    "registration_deadline": "21 days before election"
+  },
+  "polling_locations": [
+    "Kent Island High School",
+    "Queen Anne's County High School",
+    "Centreville Elementary School",
+    "Sudlersville Elementary School",
+    "Stevensville Middle School"
+  ],
+  "recent_elections": [
+    {
+      "election": "2024 Presidential General Election",
+      "date": "November 5, 2024",
+      "results": {
+        "trump_donald_republican": "66.2%",
+        "harris_kamala_democrat": "32.5%",
+        "other": "1.3%",
+        "total_votes": "Approximately 26,000"
+      },
+      "turnout": "72%"
+    },
+    {
+      "election": "2022 Gubernatorial General Election",
+      "date": "November 8, 2022",
+      "results": {
+        "moore_wes_democrat": "33.5%",
+        "cox_dan_republican": "64.8%",
+        "other": "1.7%",
+        "total_votes": "Approximately 22,000"
+      },
+      "turnout": "62%"
+    }
+  ],
+  "upcoming_elections": [
+    {
+      "election": "2027 Local Elections",
+      "date": "November 2027 (date TBD)",
+      "offices": [
+        "County Council/Commissioners",
+        "Board of Education",
+        "Municipal offices"
+      ]
+    }
+  ],
+  "notes": [
+    "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+    "Local elections typically held in odd-numbered years",
+    "Early voting available at designated locations",
+    "Mail-in voting available upon request"
+  ],
+  "early_voting": {
+    "location": "Queen Anne's County Library, 121 S. Commerce Street, Centreville, MD",
+    "schedule": "8 days before Election Day, including 2 Saturdays"
+  }
+}

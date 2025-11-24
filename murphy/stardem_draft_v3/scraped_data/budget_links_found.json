@@ -1,0 +1,63 @@
+{
+  "Dorchester": {
+    "main_site": "https://www.docogonet.com",
+    "budget_links": [
+      {
+        "text": "Finance",
+        "url": "https://dorchestermd.gov/departments/finance-treasury/finance/"
+      },
+      {
+        "text": "Budget Info",
+        "url": "https://dorchestermd.gov/budget-info/"
+      },
+      {
+        "text": "Fiscal Policies",
+        "url": "https://dorchestermd.gov/fiscal-policies/"
+      }
+    ]
+  },
+  "Queen Anne's": {
+    "main_site": "https://www.qac.org",
+    "budget_links": [
+      {
+        "text": "Budget Information",
+        "url": "http://www.qac.org/587/Budget-Section"
+      }
+    ]
+  },
+  "Talbot": {
+    "main_site": "https://www.talbotcountymd.gov",
+    "budget_links": [
+      {
+        "text": "Finance",
+        "url": "https://www.talbotcountymd.gov/finance"
+      },
+      {
+        "text": "Current Budget",
+        "url": "https://www.talbotcountymd.gov/fy2026budget"
+      },
+      {
+        "text": "Previous Budgets",
+        "url": "https://www.talbotcountymd.gov/budgetarchives"
+      }
+    ]
+  },
+  "Kent": {
+    "main_site": "https://www.kentcounty.com",
+    "budget_links": [
+      {
+        "text": "Finance",
+        "url": "https://www.kentcounty.comgovernment/departments/finance/index.php"
+      }
+    ]
+  },
+  "Caroline": {
+    "main_site": "https://www.carolinemd.org",
+    "budget_links": [
+      {
+        "text": "Budget",
+        "url": "https://www.carolinemd.org/178/Budget"
+      }
+    ]
+  }
+}

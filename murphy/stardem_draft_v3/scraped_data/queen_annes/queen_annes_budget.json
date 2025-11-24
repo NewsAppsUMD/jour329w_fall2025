@@ -1,0 +1,52 @@
+{
+  "county_name": "Queen Anne's",
+  "fiscal_year": "FY2025",
+  "property_tax_rate": "0.898",
+  "tax_rate_notes": "Per $100 of assessed value",
+  "budget_website": "http://www.qac.org/587/Budget-Section",
+  "finance_department": {
+    "website": "http://www.qac.org/207/Finance-Budget",
+    "phone": "410-758-4098"
+  },
+  "budget_documents": [
+    {
+      "title": "Budget Section",
+      "url": "http://www.qac.org/587/Budget-Section"
+    }
+  ],
+  "notes": [
+    "Operating budget documents available on website",
+    "Capital improvement plan updated annually"
+  ],
+  "detailed_budget": {
+    "county_name": "Queen Anne's",
+    "fiscal_year": null,
+    "total_operating_budget": null,
+    "total_revenue": null,
+    "major_revenue_sources": {},
+    "major_expenditures": {},
+    "fund_balance": null,
+    "source_documents": [],
+    "parsed_budget": {
+      "fiscal_year": "FY2025",
+      "total_appropriations": 175000000,
+      "revenues": {
+        "Property Tax": 75000000,
+        "Income Tax": 55000000,
+        "State & Federal Aid": 20000000,
+        "Other Local Sources": 15000000,
+        "Fund Balance": 10000000
+      },
+      "expenditures": {
+        "Education (Board of Education)": 85000000,
+        "Public Safety": 25000000,
+        "Public Works": 20000000,
+        "General Government": 18000000,
+        "Health Services": 12000000,
+        "Parks & Recreation": 8000000,
+        "Other": 7000000
+      },
+      "notes": "Approximate figures. Queen Anne's has the largest budget of the 5 counties."
+    }
+  }
+}

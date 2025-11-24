@@ -1,0 +1,60 @@
+{
+  "county_name": "Queen Anne's",
+  "public_works": {
+    "department": "Department of Public Works",
+    "director": "Contact via county website",
+    "address": "425 Piney Narrows Road, Chester, MD 21619",
+    "phone": "(410) 758-0720",
+    "website": "https://www.qac.org/172/Public-Works",
+    "services": [
+      "Road maintenance",
+      "Traffic management",
+      "Facilities",
+      "Fleet management"
+    ]
+  },
+  "transportation": {
+    "road_miles": "Approximately 900 miles of roads (most in region)",
+    "major_routes": [
+      "US Route 50/301",
+      "MD Route 18",
+      "MD Route 213",
+      "MD Route 404"
+    ],
+    "bridges": "Chesapeake Bay Bridge eastern terminus, Kent Narrows bridges",
+    "projects": [
+      "Kent Narrows area improvements",
+      "Route 50/301 safety upgrades"
+    ]
+  },
+  "water_sewer": {
+    "provider": "Multiple municipal systems and private wells",
+    "kent_island": "Kent Island area has public water/sewer",
+    "centreville": "Town of Centreville utilities",
+    "queenstown": "Town of Queenstown utilities",
+    "rural_areas": "Private wells common in rural areas"
+  },
+  "parks_recreation": {
+    "department": "Parks & Recreation",
+    "phone": "(410) 758-0835",
+    "website": "https://www.qac.org/151/Parks-Recreation",
+    "facilities": [
+      "Terrapin Nature Park",
+      "Matapeake State Park",
+      "County parks in Centreville and Kent Island",
+      "Multiple boat launches and fishing piers"
+    ]
+  },
+  "solid_waste": {
+    "convenience_centers": "Multiple centers throughout county",
+    "phone": "(410) 758-0720",
+    "recycling": "Recycling available at convenience centers",
+    "curbside": "Contracted private haulers in some areas"
+  },
+  "major_projects": [
+    "Bay Bridge traffic management (shared with state)",
+    "Kent Narrows infrastructure improvements",
+    "Broadband expansion countywide",
+    "School construction program"
+  ]
+}

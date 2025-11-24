@@ -1,0 +1,36 @@
+{
+  "origin": "Queen Anne's County was created in 1706 (Chapter 3, Acts of 1706). The County was named for Queen Anne (1665-1714), who ruled Great Britain and Ireland from 1702 to 1714. During Queen Anne's reign, Maryland was governed as a royal colony rather than as a proprietary province.",
+  "county_name": "Queen Annes",
+  "fips_code": "24035",
+  "census_api_data": {
+    "population": {
+      "total": 50316,
+      "male": 25045,
+      "female": 25271,
+      "median_age": 44.6
+    },
+    "race_ethnicity": {
+      "white_alone": 42958,
+      "black_alone": 2952,
+      "hispanic_latino": 2303
+    },
+    "economics": {
+      "median_household_income": 108332,
+      "median_home_value": 421900,
+      "labor_force": 27224,
+      "unemployed": 987
+    },
+    "education": {
+      "bachelors_degree": 8244,
+      "masters_degree": 3623,
+      "professional_degree": 774,
+      "doctorate_degree": 549
+    },
+    "housing": {
+      "total_units": 21405,
+      "occupied_units": 19351,
+      "vacant_units": 2054
+    }
+  },
+  "quickfacts": null
+}
