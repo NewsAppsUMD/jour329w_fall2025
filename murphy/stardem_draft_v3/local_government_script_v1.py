@@ -65,8 +65,8 @@ maryland_county_list = [
     {"county": "Harford County", "municipalities": "Aberdeen, Havre de Grace, Bel Air, Aldino, Benson, Berkley, Cardiff, Castleton, Churchville, Clayton, Constant Friendship, Creswell, Dublin, Darlington, Emmorton, Fairview, Forest Hill, Fountain Green, Glenwood, Hess, Hickory, Hopewell Village, Joppa, Kalmia, Level, Madonna, Norrisville, Shawsville, Street, Taylor, Whiteford, Aberdeen Proving Ground, Abingdon, Bel Air North, Bel Air South, Darlington, Edgewood, Fallston, Jarrettsville, Joppatowne, Perryman, Pleasant Hills, Pylesville, Riverside, Glenville"}
 ]
 
-INPUT_FILE = "data/local_government_stories.json"
-OUTPUT_FILE = "local_government_stories_with_entities_v1.json"
+INPUT_FILE = "local_government_secondary_stories.json"
+OUTPUT_FILE = "local_government_secondary_stories_with_entities_v1.json"
 LLM_MODEL = "groq/meta-llama/llama-4-maverick-17b-128e-instruct"
 
 # Helper to call LLM
