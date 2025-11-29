@@ -1,0 +1,81 @@
+[
+  {
+    "municipality_name": "Chestertown",
+    "county": "Kent",
+    "website": "https://www.chestertown.gov/",
+    "chief_executive": {
+      "name": "David Foster",
+      "title": "Mayor",
+      "term_ends": "2026",
+      "phone": "410-778-0500"
+    },
+    "council_members": [
+      {
+        "name": "Sheila Austrian",
+        "title": "Council Member, Ward 1",
+        "term_ends": "2026"
+      },
+      {
+        "name": "Thomas A. Herz, Jr.",
+        "title": "Council Member, Ward 2",
+        "term_ends": "2028"
+      },
+      {
+        "name": "Jose Medrano",
+        "title": "Council Member, Ward 3",
+        "term_ends": "2026"
+      },
+      {
+        "name": "Meghan E. Efland",
+        "title": "Council Member, Ward 4",
+        "term_ends": "2028"
+      }
+    ],
+    "source_urls": ["https://www.chestertown.gov/mayor-town-council"],
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Rock Hall",
+    "county": "Kent",
+    "website": "https://www.rockhallmd.com/",
+    "chief_executive": {
+      "name": "James Cook",
+      "title": "Mayor",
+      "term_ends": "2027",
+      "email": "jcook@rockhallmd.gov",
+      "responsibilities": "Sewer & Pump Stations"
+    },
+    "council_members": [
+      {
+        "name": "Carolyn Jones",
+        "title": "Vice Mayor",
+        "term_ends": "2027",
+        "email": "cjones@rockhallmd.gov",
+        "responsibilities": "Parks & Recreation and Streets"
+      },
+      {
+        "name": "Eleanor Collyer",
+        "title": "Council Member",
+        "term_ends": "2027",
+        "email": "ecollyer@rockhallmd.gov",
+        "responsibilities": "Planning & Zoning"
+      },
+      {
+        "name": "Tim Edwards",
+        "title": "Council Member",
+        "term_ends": "2029",
+        "email": "tedwards@rockhallmd.gov",
+        "responsibilities": "Water"
+      },
+      {
+        "name": "R. Faulkner",
+        "title": "Council Member",
+        "term_ends": "2029",
+        "email": "rfaulkner@rockhallmd.gov",
+        "responsibilities": "Ethics"
+      }
+    ],
+    "source_urls": ["https://www.rockhallmd.com/mayor-council"],
+    "scraped_date": "2025-11-29"
+  }
+]

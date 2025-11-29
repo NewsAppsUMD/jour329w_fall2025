@@ -1,0 +1,61 @@
+[
+  {
+    "municipality_name": "Centreville",
+    "county": "Queen Anne's",
+    "website": "https://www.townofcentreville.org/",
+    "chief_executive": null,
+    "council_members": [
+      {
+        "name": "Ashley H. Kaiser, Esq.",
+        "title": "Council President",
+        "term_ends": "October 2026",
+        "bio": "Ashley lives in the Providence Farms community with her husband and two sons. She is an attorney and non-profit professional with experience in advocacy at all levels of government. Ashley is a graduate of Queen Anne's County High School with a passion for preserving the quality of life in our community."
+      },
+      {
+        "name": "Jeff D. Kiel",
+        "title": "Council Vice President",
+        "term_ends": "October 2026"
+      },
+      {
+        "name": "Daniel B. Worth",
+        "title": "Council Member",
+        "term_ends": "October 2025",
+        "bio": "Dan grew up in Dundalk, a suburb of Baltimore. He attended Drexel University where he received a degree in Electrical Engineering in 1980. He moved to Centreville to start a family in 1998 and has three daughters. In 2017, he retired from NASA and began working part-time as a contractor at NASA."
+      },
+      {
+        "name": "Sandy L. Huffer",
+        "title": "Council Member",
+        "term_ends": "October 2027",
+        "bio": "Sandy grew up in Centreville where she developed her love for the Eastern Shore. Graduated from The University of Delaware with a Bachelor's degree majoring in Accounting. Retired in 2021 as Director of Financial Operations at Anne Arundel Medical Center in Annapolis. She and her partner restored and reside at one of the Captains Houses in Centreville on Corsica Creek which is on the National Register of Historic Places."
+      },
+      {
+        "name": "Jim A. Beauchamp",
+        "title": "Council Member",
+        "term_ends": "October 2025"
+      }
+    ],
+    "source_urls": ["https://www.townofcentreville.org/council"],
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Queenstown",
+    "county": "Queen Anne's",
+    "website": "http://www.queenstown-md.com/",
+    "chief_executive": {
+      "name": "Alton Hardee, Jr",
+      "title": "President"
+    },
+    "council_members": [
+      {
+        "name": "Thomas B. Willis, Jr",
+        "title": "Commissioner"
+      },
+      {
+        "name": "Bryon Callahan",
+        "title": "Commissioner"
+      }
+    ],
+    "source_urls": [],
+    "scraped_date": "2025-11-29"
+  }
+]

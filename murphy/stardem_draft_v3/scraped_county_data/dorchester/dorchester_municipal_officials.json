@@ -1,0 +1,75 @@
+[
+  {
+    "municipality_name": "Cambridge",
+    "county": "Dorchester",
+    "website": "https://www.choosecambridge.com/",
+    "chief_executive": {
+      "name": "Lajan Cephas",
+      "title": "Mayor"
+    },
+    "council_members": [
+      {"name": "Brett Summers", "title": "First Ward Commissioner"},
+      {"name": "Shay Lewis-Sisco", "title": "Second Ward Commissioner"},
+      {"name": "Frank Stout", "title": "Third Ward Commissioner"},
+      {"name": "Sputty Cephas", "title": "Fourth Ward Commissioner"},
+      {"name": "Brian Roche", "title": "Fifth Ward Commissioner"}
+    ],
+    "meeting_schedule": "2nd & 4th Mondays, 6:00 PM",
+    "contact": {
+      "address": "305 Gay Street, Cambridge, MD 21613",
+      "website": "https://www.choosecambridge.com/194/Mayor-Commissioners"
+    },
+    "source": "https://www.choosecambridge.com/194/Mayor-Commissioners",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Hurlock",
+    "county": "Dorchester",
+    "website": "https://www.hurlock-md.gov/",
+    "chief_executive": {
+      "name": "Rev. Charles Cephas",
+      "title": "Mayor",
+      "term_ends": "11/25",
+      "phone": "443-521-4737",
+      "email": "ccephas@townofhurlock.org"
+    },
+    "council_members": [
+      {
+        "name": "David Higgins",
+        "title": "District 1 Council Member",
+        "term_ends": "11/25",
+        "phone": "443-521-0979",
+        "email": "dhiggins@townofhurlock.org"
+      },
+      {
+        "name": "Bonnie Franz",
+        "title": "District 2 Council Member",
+        "term_ends": "11/25",
+        "phone": "443-521-7888",
+        "email": "bfranz@townofhurlock.org"
+      },
+      {
+        "name": "Russell Murphy",
+        "title": "District 3 Council Member",
+        "term_ends": "11/27",
+        "phone": "443-515-0304",
+        "email": "rmurphy@townofhurlock.org"
+      },
+      {
+        "name": "Cederick Turner",
+        "title": "District 4 Council Member",
+        "term_ends": "11/27",
+        "phone": "443-205-5752",
+        "email": "cturner@townofhurlock.org"
+      },
+      {
+        "name": "Earl Murphy, Jr.",
+        "title": "At Large Council Member",
+        "term_ends": "11/25",
+        "phone": "443-439-9091",
+        "email": "emurphy@townofhurlock.org"
+      }
+    ],
+    "scraped_date": "2025-11-29"
+  }
+]

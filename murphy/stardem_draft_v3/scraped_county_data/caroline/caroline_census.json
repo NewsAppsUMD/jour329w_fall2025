@@ -30,7 +30,72 @@
       "total_units": 13473,
       "occupied_units": 12013,
       "vacant_units": 1460
+    },
+    "enhanced": {
+      "poverty": {
+        "poverty_rate": 12.9,
+        "people_in_poverty": 4228,
+        "children_in_poverty": 218,
+        "children_poverty_rate": 0.7,
+        "seniors_in_poverty": 103,
+        "seniors_poverty_rate": 0.3
+      },
+      "housing_affordability": {
+        "homeownership_rate": 72.1,
+        "owner_occupied": 8658,
+        "renter_occupied": 3355,
+        "median_rent": 1074,
+        "renters_cost_burdened_30plus": 1619,
+        "renters_cost_burdened_30plus_pct": 48.3,
+        "renters_severely_cost_burdened_50plus": 650,
+        "renters_severely_cost_burdened_50plus_pct": 19.4,
+        "owners_cost_burdened_30plus": 1869,
+        "owners_cost_burdened_30plus_pct": 21.6,
+        "owners_severely_cost_burdened_50plus": 743,
+        "owners_severely_cost_burdened_50plus_pct": 8.6
+      },
+      "age_breakdown": {
+        "under_5_years": 0,
+        "under_5_pct": 0.0,
+        "school_age_5_17": 0,
+        "school_age_pct": 0.0,
+        "working_age_18_64": 33320,
+        "working_age_pct": 100.0,
+        "seniors_65_plus": 0,
+        "seniors_pct": 0.0
+      },
+      "broadband_access": {
+        "total_households": 12013,
+        "with_broadband": 10284,
+        "broadband_pct": 85.6,
+        "no_internet": 1365,
+        "no_internet_pct": 11.4
+      },
+      "education_attainment_full": {
+        "total_pop_25plus": 22837,
+        "less_than_high_school": 3558,
+        "less_than_high_school_pct": 15.6,
+        "high_school_graduate": 9012,
+        "high_school_graduate_pct": 39.5,
+        "some_college": 4772,
+        "some_college_pct": 20.9,
+        "associates_degree": 1451,
+        "associates_degree_pct": 6.4,
+        "bachelors_degree": 2362,
+        "bachelors_degree_pct": 10.3,
+        "graduate_degree": 1682,
+        "graduate_degree_pct": 7.4
+      },
+      "health_insurance": {
+        "uninsured_total": 1367,
+        "uninsured_rate": 4.1,
+        "children_uninsured": 190,
+        "children_uninsured_rate": 0.6,
+        "adults_18_64_uninsured": 1168,
+        "seniors_65plus_uninsured": 9
+      }
     }
   },
-  "quickfacts": null
+  "quickfacts": null,
+  "last_updated": "2025-11-29"
 }

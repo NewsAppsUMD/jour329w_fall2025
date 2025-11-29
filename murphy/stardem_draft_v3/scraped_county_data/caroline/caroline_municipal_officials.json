@@ -1,0 +1,87 @@
+[
+  {
+    "municipality_name": "Federalsburg",
+    "county": "Caroline",
+    "website": "https://www.townoffederalsburg.org/",
+    "chief_executive": {
+      "name": "Kimberly M. Jahnigen Abner",
+      "title": "Mayor (At-Large Representative)",
+      "email": "kmabner@federalsburg.org"
+    },
+    "council_members": [
+      {"name": "Brandy R. James", "title": "District 1 Council Representative", "email": "bjames@federalsburg.org"},
+      {"name": "Darlene M. Hammond", "title": "District 1 Council Representative", "email": "dhammond@federalsburg.org"},
+      {"name": "Debra V. Sewell", "title": "District 2 Council Representative", "email": "dsewell@federalsburg.org"},
+      {"name": "Ian Ferguson", "title": "District 2 Council Representative", "email": "iferguson@federalsburg.org"}
+    ],
+    "contact": {
+      "website": "https://www.townoffederalsburg.org/government/mayor_and_council.php"
+    },
+    "source": "https://www.townoffederalsburg.org/government/mayor_and_council.php",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Denton",
+    "county": "Caroline",
+    "website": "https://dentonmaryland.com/",
+    "chief_executive": {
+      "name": "Abigail W. McNinch",
+      "title": "Mayor",
+      "email": "amcninch@dentonmaryland.com",
+      "term_expires": "12/31/2028"
+    },
+    "council_members": [
+      {"name": "Dallas Lister", "title": "Council Member", "email": "dlister@dentonmaryland.com", "term_expires": "12/31/2025"},
+      {"name": "Walter Keith Johnson", "title": "Council Member", "email": "kjohnson@dentonmaryland.com", "term_expires": "12/31/2026"},
+      {"name": "Frank Taylor", "title": "Council Member", "email": "ftaylor@dentonmaryland.com", "term_expires": "12/31/2027"},
+      {"name": "Lester L. Branson", "title": "Council Member", "email": "Lbranson@dentonmaryland.com", "term_expires": "12/31/2029"}
+    ],
+    "contact": {
+      "website": "https://dentonmaryland.com/town-council/town-council-staff/"
+    },
+    "source": "https://dentonmaryland.com/town-council/town-council-staff/",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Greensboro",
+    "county": "Caroline",
+    "website": "https://www.greensboromd.org/",
+    "chief_executive": {
+      "name": "David Spencer",
+      "title": "Mayor"
+    },
+    "council_members": [
+      {"name": "Kimberly Ernest", "title": "Councilmember"},
+      {"name": "Pete Brelia", "title": "Councilmember"},
+      {"name": "Bob Harrison", "title": "Councilmember"},
+      {"name": "Joe Noon", "title": "Councilmember"}
+    ],
+    "contact": {
+      "website": "https://www.greensboromd.org/about-the-mayor-council/"
+    },
+    "source": "https://www.greensboromd.org/about-the-mayor-council/",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Ridgely",
+    "county": "Caroline",
+    "website": "https://ridgelymd.org/",
+    "government_type": "Three-member Board of Commissioners",
+    "council_members": [
+      {"name": "John Hurley", "title": "Commissioner", "term_expires": "May 2027"},
+      {"name": "Brad Sears", "title": "Commissioner", "elected": "July 2024"},
+      {"name": "Chad Leister", "title": "Commissioner"}
+    ],
+    "meeting_schedule": "First Monday of each month, 6:00 PM",
+    "contact": {
+      "address": "Town Office",
+      "clerk": "Stephanie Berkey",
+      "email": "sberkey@ridgelymd.org",
+      "phone": "(410) 634-2177",
+      "website": "https://ridgelymd.org/town-commissioners/"
+    },
+    "notes": "Commissioner in third year of term serves as Board President. Elections held fourth Monday in April.",
+    "source": "https://ridgelymd.org/town-commissioners/",
+    "scraped_date": "2025-11-29"
+  }
+]

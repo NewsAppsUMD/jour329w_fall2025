@@ -1,0 +1,84 @@
+[
+  {
+    "municipality_name": "Easton",
+    "county": "Talbot",
+    "website": "https://eastonmd.gov/",
+    "chief_executive": {
+      "name": "Megan JM Cook",
+      "title": "Mayor"
+    },
+    "council_members": [
+      {"name": "Don Abbatiello", "title": "Council President"},
+      {"name": "Maureen Curry", "title": "1st Ward Councilmember"},
+      {"name": "Robert Rankin", "title": "2nd Ward Councilmember"},
+      {"name": "David Montgomery", "title": "3rd Ward Councilmember"},
+      {"name": "Rev. Elmer Neal Davis Jr.", "title": "4th Ward Councilmember"}
+    ],
+    "meeting_schedule": "1st and 3rd Monday, 5:30 PM",
+    "contact": {
+      "address": "14 South Harrison St, Easton, MD 21601",
+      "email": "mayorandcouncil@EastonMD.gov",
+      "website": "https://eastonmd.gov/221/Mayor-Council"
+    },
+    "source": "https://eastonmd.gov/221/Mayor-Council",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "Oxford",
+    "county": "Talbot",
+    "website": "https://www.oxfordmd.net/",
+    "chief_executive": {
+      "name": "Katrina Greer",
+      "title": "Commission President",
+      "term_expires": "July 1, 2026"
+    },
+    "council_members": [
+      {
+        "name": "Norman Bell",
+        "title": "Commissioner",
+        "term_expires": "July 7, 2027"
+      },
+      {
+        "name": "David Donovan",
+        "title": "Commissioner",
+        "term_expires": "July 5, 2028"
+      }
+    ],
+    "meeting_schedule": "2nd and 4th Tuesdays, 6:00 PM",
+    "notes": "Term length: 3 years (Fiscal Year 7/1 - 6/30)",
+    "scraped_date": "2025-11-29"
+  },
+  {
+    "municipality_name": "St. Michaels",
+    "county": "Talbot",
+    "website": "https://www.stmichaelsmd.gov/",
+    "chief_executive": {
+      "name": "Jay Hudson",
+      "title": "President",
+      "term_expires": "2028"
+    },
+    "council_members": [
+      {
+        "name": "Katrina D. Whittington",
+        "title": "Vice President",
+        "term_expires": "2026"
+      },
+      {
+        "name": "Alexis Roiter",
+        "title": "Treasurer",
+        "term_expires": "2028"
+      },
+      {
+        "name": "Alfred R. Mercier",
+        "title": "Commissioner",
+        "term_expires": "2026"
+      },
+      {
+        "name": "David Wojciechowski",
+        "title": "Commissioner",
+        "term_expires": "2028"
+      }
+    ],
+    "scraped_date": "2025-11-29"
+  }
+]
