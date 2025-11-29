@@ -1,0 +1,1283 @@
+{
+  "Caroline County": [
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 24,
+      "date_range": "2025-05-23 to 2025-10-22",
+      "significance": "Effective governance is crucial for Caroline County's development and addressing resident concerns.",
+      "recent_developments": "Recent stories highlight ongoing debates, leadership changes, and commissioner activities across various towns in Caroline County.",
+      "story_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9,
+        13,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        29,
+        30,
+        32,
+        34,
+        36,
+        37,
+        38,
+        40,
+        46,
+        48,
+        50,
+        52,
+        58
+      ],
+      "story_references": [
+        {
+          "title": "Greensboro Candidate: William C. Schaffner",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "GREENSBORO CANDIDATE: Paula Turner",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Candidate: Pete Brelia",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Candidate: Kimberly 'Kim' Ernest",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/ Oct. 16, 2025",
+          "date": "2025-10-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Sees More Staff Turnover as Treasurer Leaves",
+          "date": "2025-10-15",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Council Member Confronts Colleagues Over Emails Calling Her 'Rogue'",
+          "date": "2025-10-07",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/ Sept. 23, 2025",
+          "date": "2025-09-24",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/Sept. 18, 2025",
+          "date": "2025-09-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Sept. 16, 2025",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/ Sept. 9, 2025",
+          "date": "2025-09-11",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners Advance Solar Ordinance with Amendments",
+          "date": "2025-09-10",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Chickens Find Community Support in Ridgely",
+          "date": "2025-09-09",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Denton Town Council/ Sept. 4, 2025",
+          "date": "2025-09-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Ex-Officers Sue Ridgely, Sheriff Over Disbanding Force",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline Commissioners Consider Committee to Review Their Pay",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Considers Former County Administrator for Contractual Town Manager Role",
+          "date": "2025-08-28",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/Aug. 21, 2025",
+          "date": "2025-08-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Aug. 19, 2025",
+          "date": "2025-08-20",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Potential Bill on Public Nuisances Workshopped at Caroline County Meeting",
+          "date": "2025-08-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "CPS Staff Under Investigation in Caroline County",
+          "date": "2025-08-06",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Town Council/Aug. 4, 2025",
+          "date": "2025-08-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Aug. 5, 2025",
+          "date": "2025-08-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/July 22, 2025",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/July 17, 2025",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Ridgley Town Commissioners/July 7, 2025",
+          "date": "2025-07-10",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/July 8, 2025",
+          "date": "2025-07-08",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Actions from Caroline County Commissioners June 24, 2025",
+          "date": "2025-06-24",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Actions from Caroline County Commissioners May 20, 2025",
+          "date": "2025-05-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure Development",
+      "story_count": 9,
+      "date_range": "2025-06-05 to 2025-10-17",
+      "significance": "Infrastructure development is essential for supporting growth, improving services, and enhancing quality of life in Caroline County.",
+      "recent_developments": "Recent stories discuss sewer line repairs, utility billing changes, park construction, and transportation funding discussions.",
+      "story_indices": [
+        7,
+        8,
+        11,
+        12,
+        17,
+        25,
+        46,
+        49,
+        56
+      ],
+      "story_references": [
+        {
+          "title": "Greensboro Moves Toward Monthly Utility Billing",
+          "date": "2025-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Faces $300,000 Sewer Line Repair Cost",
+          "date": "2025-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Subcontractor strike causes major sewer line break in Greensboro, town says",
+          "date": "2025-10-10",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Denton Approves Sharp Road Park Playground's First Phase",
+          "date": "2025-10-08",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Sharp Road Park Construction Underway",
+          "date": "2025-09-03",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Town Council/July 17, 2025",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Superintendent and Commissioners Discuss Lockerman",
+          "date": "2025-07-09",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Will Not Bring Northern Towns onto Wastewater System",
+          "date": "2025-06-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Finance",
+      "story_count": 4,
+      "date_range": "2025-06-10 to 2025-10-21",
+      "significance": "Budget and finance decisions directly impact Caroline County's ability to fund essential services and projects.",
+      "recent_developments": "Recent stories cover the passage of the FY 2026 budget, potential fee schedule raises, and grant receipts.",
+      "story_indices": [
+        4,
+        20,
+        39,
+        55
+      ],
+      "story_references": [
+        {
+          "title": "Sale of Daysprings Townhomes Will Come Soon Caroline County Says",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Fee Schedule Will Potentially See Multiple Raises",
+          "date": "2025-09-12",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Town of Greensboro Receives Almost $400,000 in Grants",
+          "date": "2025-07-30",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Passes Fiscal Year 2026 Budget",
+          "date": "2025-06-10",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "Dorchester County": [
+    {
+      "issue_name": "Budget and Financial Management",
+      "story_count": 14,
+      "date_range": "2025-02-20 to 2025-11 (implied, given the date of the task)",
+      "significance": "Budget decisions directly impact county services, tax rates, and overall financial health, affecting residents and businesses.",
+      "recent_developments": "Dorchester County Council proposed tax increases to balance the FY26 budget, and there were discussions around budget deficits, cost shifts from the state, and the impact of budget decisions on county services.",
+      "story_indices": [
+        28,
+        31,
+        33,
+        35,
+        36,
+        39,
+        40,
+        41,
+        43,
+        44,
+        48,
+        49,
+        51,
+        56
+      ],
+      "story_references": [
+        {
+          "title": "Cambridge City Council Passes Fiscal 2026 Budget",
+          "date": "2025-06-12",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Council Approves 2026 Budget",
+          "date": "2025-05-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Residents Frustrated with Dorchester Budget Proposal",
+          "date": "2025-05-15",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge, Hurlock Speak Out Against Dorchester Tax Differential Cut",
+          "date": "2025-05-09",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Retains Tax Differentials, at Least for This Year",
+          "date": "2025-05-08",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge City Manager Presents Balanced Draft Budget",
+          "date": "2025-04-30",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge City Council Calls on County for Tax Differential",
+          "date": "2025-04-29",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Makes Its Way Through Grueling Budget Process",
+          "date": "2025-04-23",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Proposes Tax Increases to Balance FY26 Budget",
+          "date": "2025-04-17",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge Moves Portion of Funds to State Investment Pool",
+          "date": "2025-03-26",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge Waterfront Development Inc. Passes Budget",
+          "date": "2025-03-22",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Council Introduces Bill to Raise 911 Fees More",
+          "date": "2025-03-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County and DCPS Working to Reduce FY26 Budget Deficits",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure and Development",
+      "story_count": 12,
+      "date_range": "2025-03-19 to 2025-10-21",
+      "significance": "Infrastructure projects and development initiatives shape the county's growth, quality of life, and economic prospects.",
+      "recent_developments": "Projects like the Cambridge Harbor Promenade and Cannery Park renovations are underway, and there are ongoing discussions around rezoning, waterfront development, and infrastructure repairs.",
+      "story_indices": [
+        0,
+        4,
+        8,
+        18,
+        20,
+        21,
+        27,
+        29,
+        30,
+        32,
+        37,
+        38
+      ],
+      "story_references": [
+        {
+          "title": "Sewage Seeping onto Streets Sparks Cambridge Flood Debate",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge City Hall Set to Get a Facelift",
+          "date": "2025-09-24",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge Harbor Promenade First Phase Over Halfway Done",
+          "date": "2025-07-28",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "'Light at the End of the Tunnel': Cambridge Sink Hole Repairs Finishing Soon",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Sinkhole in Cambridge Will Be Repaired by Friday, City Hopes",
+          "date": "2025-07-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Broadband Service Expands in Dorchester County",
+          "date": "2025-06-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge's Cannery Park Prepares to Renovate",
+          "date": "2025-05-31",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Stakeholders Meet to Discuss Cambridge Waterfront",
+          "date": "2025-05-23",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "The Big Pour: Cambridge Waterfront Development Inc. Promenade Makes Progress",
+          "date": "2025-05-19",
+          "url": "",
+          "beatbook_tag": "Economic Development"
+        },
+        {
+          "title": "State Highway Administration to Make Repairs to Cambridge Creek Drawbridge",
+          "date": "2025-05-01",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Groundbreaking Ceremony Held for Tides at River Marsh Housing Project in Cambridge",
+          "date": "2025-04-30",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 11,
+      "date_range": "2025-03-05 to 2025-10-08",
+      "significance": "Effective governance and leadership are crucial for addressing county challenges, making informed decisions, and ensuring accountability.",
+      "recent_developments": "There have been discussions around council decisions, legislative initiatives, and town incorporation, as well as concerns about cost shifts from the state and the impact of governance on county services.",
+      "story_indices": [
+        5,
+        6,
+        7,
+        12,
+        15,
+        17,
+        23,
+        24,
+        25,
+        26,
+        45
+      ],
+      "story_references": [
+        {
+          "title": "Cambridge City Council/Sept. 22",
+          "date": "2025-09-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "City of Cambridge Outlines Property Owners' Responsibilities",
+          "date": "2025-09-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester Council Talks Juvenile Crime, Other Priorities with State Legislators",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge City Council/Aug. 25",
+          "date": "2025-08-26",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge City Council/Aug. 11",
+          "date": "2025-08-12",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "City Manager: Tall Grass Has Become a 'Big Issue' in Cambridge",
+          "date": "2025-07-30",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester Board of Education/July 11",
+          "date": "2025-07-12",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester County Council June 1 Meeting",
+          "date": "2025-07-01",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester County Council to Submit Five Legislative Initiatives",
+          "date": "2025-06-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge steps up code enforcement",
+          "date": "2025-06-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Proposed Resolution Sets Off Tense Discussion at Cambridge Meeting",
+          "date": "2025-04-16",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    }
+  ],
+  "Kent County": [
+    {
+      "issue_name": "Environment and Solar Energy",
+      "story_count": 9,
+      "date_range": "2023-04-10 to 2025-10-08",
+      "significance": "The region is grappling with the balance between renewable energy and environmental concerns",
+      "recent_developments": "Proposed solar projects and their impact on local communities have been a major focus",
+      "story_indices": [
+        0,
+        2,
+        3,
+        5,
+        11,
+        12,
+        24,
+        27,
+        29
+      ],
+      "story_references": [
+        {
+          "title": "Betterton Pushes Back: Town Says Halo Solar Plan Would Threaten Safety, Growth and Historic Character",
+          "date": "2025-10-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Kent Commissioners Oppose Striped Bass Limits",
+          "date": "2025-09-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "As Solar Looming on Horizon, Betterton Residents Weigh in Ahead of Public Hearing",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Floating Solar Panels Could Power Chestertown's Future",
+          "date": "2025-06-10",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Residents Challenge Solar Project Over Zoning, Health Risks",
+          "date": "2025-02-28",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "'Just Not Here': Solar Project Tests Small Town's Growth Plans",
+          "date": "2025-02-14",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Kent County Solar Farm Back in the Conversation",
+          "date": "2024-07-03",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Caroline Commissioners Discuss Landfill, Solar Batteries",
+          "date": "2024-05-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Caroline Commissioners Hear Options for Landfill After 2030",
+          "date": "2024-04-10",
+          "url": "",
+          "beatbook_tag": "Environment"
+        }
+      ]
+    },
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 7,
+      "date_range": "2023-09-18 to 2025-07-09",
+      "significance": "Local governance and leadership decisions are shaping the region's development",
+      "recent_developments": "Commissioners have addressed various issues, including kennel licensing and regional detention centers",
+      "story_indices": [
+        4,
+        13,
+        15,
+        17,
+        18,
+        23,
+        28
+      ],
+      "story_references": [
+        {
+          "title": "Commissioners Holds Public Hearing on Licensing Kennels",
+          "date": "2025-07-09",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Historical Society Relationship and Regional Detention Center Update",
+          "date": "2025-01-31",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Kent County's Heller Presented MACo Professional Legislative Recognition Award",
+          "date": "2025-01-06",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Liquor License Discussion Draws Large Crowd",
+          "date": "2024-12-04",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Lawsuit Compels Chestertown Council Member to Resign",
+          "date": "2024-11-20",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Chestertown Moves to Change Regulations in Historic District",
+          "date": "2024-07-31",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Local legislators reflect on General Assembly",
+          "date": "2024-04-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Finance",
+      "story_count": 6,
+      "date_range": "2023-09-18 to 2025-04-19",
+      "significance": "Financial decisions are impacting the region's infrastructure and services",
+      "recent_developments": "Counties have approved budgets and shifted costs, affecting local services and infrastructure",
+      "story_indices": [
+        7,
+        8,
+        9,
+        10,
+        26,
+        33
+      ],
+      "story_references": [
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "How ARPA Funds Shaped Maryland's Mid-Shore",
+          "date": "2025-03-20",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Proposed Tax Breaks Could Mean Service Cuts in Lower-Income Counties",
+          "date": "2025-03-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "MACo Officials Say Cost Shifts from State to Counties Are 'Absurd,' Unfair",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Galena Passes Budget While Starting First Time Investment",
+          "date": "2024-06-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Salary, Retention Hot Topics Before Commissioners",
+          "date": "2023-09-18",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "Queen Anne's County": [
+    {
+      "issue_name": "Infrastructure Development and Capacity",
+      "story_count": 12,
+      "date_range": "2024-01-13 to 2025-08-28",
+      "significance": "Infrastructure development and capacity issues are crucial for Queen Anne's County as they directly impact growth, transportation, and public services. The county is experiencing growth pressures and needs to manage infrastructure to accommodate new developments while maintaining quality of life for residents.",
+      "recent_developments": "Recent developments include the consideration of a moratorium on new growth due to sewer capacity issues (2025-08-28), discussions on connecting county trails (2024-10-08), and the state plan to replace the Chesapeake Bay Bridge with two new spans (2024-11-12). The county is also upgrading wastewater handling in Centreville (2024-04-12).",
+      "story_indices": [
+        4,
+        13,
+        16,
+        19,
+        22,
+        24,
+        26,
+        27,
+        32,
+        38,
+        39,
+        51
+      ],
+      "story_references": [
+        {
+          "title": "QA County Halts New Growth: Moratorium Tied to Sewer Capacity; Land Preservation, Park Upgrades Approved",
+          "date": "2025-08-28",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Centreville Considers Sidewalk Repair and RV Parking",
+          "date": "2025-02-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "A Public Hearing Will Come for Potential Regional Detention Center",
+          "date": "2025-01-22",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Shore Residents Share Mixed Views on New Chesapeake Bay Bridge",
+          "date": "2024-12-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cost for Pedestrian Trail Bridge Connector Estimated at 8 Million",
+          "date": "2024-12-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "State Now Plans to Replace the Chesapeake Bay Bridge with Two New Spans",
+          "date": "2024-11-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Caroline Commissioners Talk New Regional Detention Center",
+          "date": "2024-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Queen Anne's Looking to Connect County Trails",
+          "date": "2024-10-08",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Ramp Closure Pilot Program Opening Weekend Sees Tentative Success",
+          "date": "2024-06-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Upgrades Needed to Handle Wastewater in Centreville",
+          "date": "2024-04-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Walk This Way: County Presents Draft Pedestrian and Bicycle Master Plan",
+          "date": "2024-04-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Queen Anne's County Fairgrounds Undergoing Facelift",
+          "date": "2024-01-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "issue_name": "Development and Zoning Regulations",
+      "story_count": 9,
+      "date_range": "2024-01-10 to 2025-04-19",
+      "significance": "Development and zoning regulations are significant for Queen Anne's County as they influence how land is used, affecting both economic development and quality of life. The county needs to balance growth with preserving its character and environment.",
+      "recent_developments": "Recent developments include the regulation of short-term rentals (2024-11-01, 2024-12-11), discussions on cannabis expansion (2025-01-29), and proposals for new developments such as the Chesapeake Beach Club Hotel (2024-12-27) and infill affordable housing in Grasonville (2024-12-26). Residents have protested certain developments, like the planned Royal Farms development (2025-04-19).",
+      "story_indices": [
+        8,
+        15,
+        17,
+        18,
+        25,
+        42,
+        44,
+        45,
+        53
+      ],
+      "story_references": [
+        {
+          "title": "Residents Protest Planned Royal Farms Development, Citing Safety Concerns",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Centreville Planning Commission Tables Cannabis Expansion",
+          "date": "2025-01-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Potential Chesapeake Beach Club Hotel Receives Major Site Plan Approval",
+          "date": "2024-12-27",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Grasonville proposal looks to develop farmland for infill affordable housing",
+          "date": "2024-12-26",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Public Hearing Discusses Short Term Rental Regulations",
+          "date": "2024-11-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Pier Length Changes Could Soon Require Variance",
+          "date": "2024-03-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Queenstown Commissioners Talk Cannabis and Chickens",
+          "date": "2024-03-21",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Town Keeping Watchful Eye on Centreville Mill",
+          "date": "2024-03-15",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Odor Lingers as Centreville Addresses Cannabis Facility",
+          "date": "2024-01-10",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Financial Management",
+      "story_count": 7,
+      "date_range": "2024-04-05 to 2025-04-19",
+      "significance": "Budget and financial management are critical for Queen Anne's County as they determine the county's ability to fund public services and infrastructure. The county faces challenges related to cost shifts from the state and potential service cuts due to tax breaks.",
+      "recent_developments": "Recent developments include the proposed FY25 budget (2024-04-05), discussions on cost shifts from the state to counties (2025-03-01), and concerns about the impact of proposed tax breaks on lower-income counties (2025-03-06). The county has also approved the Chesapeake College budget request (2025-04-19).",
+      "story_indices": [
+        9,
+        10,
+        11,
+        12,
+        21,
+        29,
+        41
+      ],
+      "story_references": [
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "How ARPA Funds Shaped Maryland's Mid-Shore",
+          "date": "2025-03-20",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Proposed Tax Breaks Could Mean Service Cuts in Lower-Income Counties",
+          "date": "2025-03-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "MACo Officials Say Cost Shifts from State to Counties Are 'Absurd,' Unfair",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "QAC Hears 5-Year Capital Project Preview",
+          "date": "2024-12-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Lack of funding a 'recipe of frustration'",
+          "date": "2024-08-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "QAC Hears Proposed FY25 Budget",
+          "date": "2024-04-05",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "Talbot County": [
+    {
+      "issue_name": "Cannabis Regulations and Funding",
+      "story_count": 6,
+      "date_range": "2025-07-17 to 2025-10-21",
+      "significance": "The county is debating and developing regulations around cannabis, which could have significant financial implications.",
+      "recent_developments": "Talbot County introduced a bill to begin accepting cannabis reinvestment funds, and the council discussed new cannabis legislation.",
+      "story_indices": [
+        0,
+        17,
+        31,
+        36,
+        45,
+        46
+      ],
+      "story_references": [
+        {
+          "title": "Talbot OKs Bill to Begin Accepting Cannabis Funds",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Talbot Introduces Bill to Begin Accepting Cannabis Reinvestment Funds",
+          "date": "2025-09-11",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Talbot County's Cannabis Bill Fails, Goes 'Back to the Drawing Board'",
+          "date": "2025-08-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot's Cannabis Regulations Draw Mixed Reviews from Residents, Operators",
+          "date": "2025-08-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot County Considering New Cannabis Legislation",
+          "date": "2025-07-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Fate of Talbot's Short-Term Rental Proposals Still Up in the Air",
+          "date": "2025-07-16",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Development and Zoning Regulations",
+      "story_count": 14,
+      "date_range": "2025-06-13 to 2025-10-16",
+      "significance": "The county is grappling with how to manage growth, balance housing needs, and update zoning regulations.",
+      "recent_developments": "Talbot County discussed short-term rental proposals, and Easton leaned away from annexing new land in its comprehensive plan update.",
+      "story_indices": [
+        1,
+        20,
+        23,
+        24,
+        25,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        44,
+        59
+      ],
+      "story_references": [
+        {
+          "title": "St. Michaels Commissioners Discuss Comprehensive Plan",
+          "date": "2025-10-16",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Easton Leans Away From Annexing New Land in Comprehensive Plan Update",
+          "date": "2025-09-10",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "How Much Growth Is Too Much for Easton? Balance Between Housing Needs, Infrastructure Unsettled",
+          "date": "2025-08-30",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "The 'Missing Middle': Why Some Town Leaders See a Gap in Easton's Housing Stock",
+          "date": "2025-08-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Here's where Easton leaders stand on growth",
+          "date": "2025-08-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Cannabis Zoning Bill Goes Back to Square One",
+          "date": "2025-08-15",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Easton Task Force Narrows List of Recommended Housing Solutions",
+          "date": "2025-08-14",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot County's Cannabis Bill Fails, Goes 'Back to the Drawing Board'",
+          "date": "2025-08-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Move-in Date for Doverbrook Apartments Uncertain Due to Snag with HUD",
+          "date": "2025-08-12",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Planners Send Short-Term Rental Regs to County Council with Major Revisions",
+          "date": "2025-08-08",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot's Cannabis Regulations Draw Mixed Reviews from Residents, Operators",
+          "date": "2025-08-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Proposal for More Public Input in Easton Housing Projects Gains Traction",
+          "date": "2025-07-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Planning Commission recommends against housing project",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot council, planning commission weigh in on controversial short-term rental restrictions",
+          "date": "2025-06-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure and Public Works",
+      "story_count": 9,
+      "date_range": "2025-07-04 to 2025-10-15",
+      "significance": "The county is dealing with various infrastructure challenges, including road safety, water supply, and beach projects.",
+      "recent_developments": "The Strand Beach project in Oxford faced controversy, and transportation officials toured the Eastern Shore to discuss funding and project statuses.",
+      "story_indices": [
+        4,
+        6,
+        11,
+        12,
+        13,
+        15,
+        41,
+        42,
+        52
+      ],
+      "story_references": [
+        {
+          "title": "Next Phase of Oxford's Strand Beach Project Poses Funding Hurdle",
+          "date": "2025-10-15",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "In Wake of Fatal Hit-and-Run, Route 50 Safety in Easton a Concern",
+          "date": "2025-10-07",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "St. Michaels Commissioners Discuss Sea Level Rise Projects",
+          "date": "2025-09-25",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Claiborne Residents, Operating Their Own Well, Look for Water Supply Solution",
+          "date": "2025-09-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "In Claiborne, Many Depend on Volunteer Efforts of a 'Water Czar'",
+          "date": "2025-09-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "The Strand Beach Project Faces More Controversy",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Oxford's Strand Beach Frustrations Grow as Fencing is Erected",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Trappe Volunteer Fire Company Seeks Funding for Firehouse",
+          "date": "2025-07-04",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    }
+  ]
+}

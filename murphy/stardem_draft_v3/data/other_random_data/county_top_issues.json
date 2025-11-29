@@ -1,0 +1,383 @@
+{
+  "summary": {
+    "total_stories": 1418,
+    "counties_analyzed": 5
+  },
+  "counties": {
+    "Talbot County": {
+      "story_count": 770,
+      "top_issues": [
+        {
+          "rank": 1,
+          "title": "Affordable Housing Initiatives",
+          "description": "Efforts to address housing affordability, including task forces, zoning changes, and development projects.",
+          "story_count": 43,
+          "significance": "High"
+        },
+        {
+          "rank": 2,
+          "title": "Lakeside Development Controversy",
+          "description": "Debate and decision-making around the Lakeside development project, including rezoning and infrastructure plans.",
+          "story_count": 31,
+          "significance": "High"
+        },
+        {
+          "rank": 3,
+          "title": "Cannabis Regulation and Zoning",
+          "description": "Discussion and decisions on regulating cannabis businesses, including zoning and licensing.",
+          "story_count": 28,
+          "significance": "High"
+        },
+        {
+          "rank": 4,
+          "title": "Election Integrity and Processes",
+          "description": "Concerns and changes related to election processes, including voter registration, election judges, and voting systems.",
+          "story_count": 25,
+          "significance": "High"
+        },
+        {
+          "rank": 5,
+          "title": "Easton Town Council Politics",
+          "description": "Council decisions, elections, and controversies within the Easton Town Council.",
+          "story_count": 45,
+          "significance": "High"
+        },
+        {
+          "rank": 6,
+          "title": "Infrastructure and Transportation",
+          "description": "Projects and discussions related to roads, bridges, and public transportation infrastructure.",
+          "story_count": 38,
+          "significance": "Medium"
+        },
+        {
+          "rank": 7,
+          "title": "Public Safety and Emergency Services",
+          "description": "Issues related to law enforcement, emergency services, and public safety initiatives.",
+          "story_count": 29,
+          "significance": "Medium"
+        },
+        {
+          "rank": 8,
+          "title": "Environmental Concerns",
+          "description": "Efforts to address environmental issues, including shoreline protection, sea level rise, and pollution.",
+          "story_count": 26,
+          "significance": "Medium"
+        },
+        {
+          "rank": 9,
+          "title": "Budget and Fiscal Management",
+          "description": "Talbot County's budget decisions, fiscal management, and discussions on taxation.",
+          "story_count": 34,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 10,
+          "title": "Community Development Projects",
+          "description": "Various community development initiatives, including parks, recreational facilities, and social programs.",
+          "story_count": 24,
+          "significance": "Moderate"
+        }
+      ]
+    },
+    "Kent County": {
+      "story_count": 62,
+      "top_issues": [
+        {
+          "rank": 1,
+          "title": "Solar Farm Controversies",
+          "description": "Debates and disputes surrounding solar farm projects, their impact on local communities, and zoning regulations.",
+          "story_count": 7,
+          "significance": "High"
+        },
+        {
+          "rank": 2,
+          "title": "Historic District Regulations",
+          "description": "Changes and disputes related to regulations in historic districts, particularly in Chestertown.",
+          "story_count": 6,
+          "significance": "High"
+        },
+        {
+          "rank": 3,
+          "title": "Infrastructure and Development",
+          "description": "Concerns and plans for infrastructure projects, such as the Heritage Trail, skate parks, and senior housing.",
+          "story_count": 8,
+          "significance": "High"
+        },
+        {
+          "rank": 4,
+          "title": "Land Use and Zoning Disputes",
+          "description": "Conflicts and discussions around land use, zoning, and development projects, including camping retreats and boutique hotels.",
+          "story_count": 6,
+          "significance": "High"
+        },
+        {
+          "rank": 5,
+          "title": "Budget and Funding Challenges",
+          "description": "Discussions and debates about budget allocations, funding for various projects, and financial challenges faced by Kent County.",
+          "story_count": 5,
+          "significance": "Medium"
+        },
+        {
+          "rank": 6,
+          "title": "Leadership and Governance",
+          "description": "Issues related to leadership changes, governance, and decision-making within Kent County government and its towns.",
+          "story_count": 8,
+          "significance": "Medium"
+        },
+        {
+          "rank": 7,
+          "title": "Community Development Initiatives",
+          "description": "Efforts and plans for community development, including economic development, tourism, and social programs.",
+          "story_count": 7,
+          "significance": "Medium"
+        },
+        {
+          "rank": 8,
+          "title": "Environmental Concerns",
+          "description": "Issues related to environmental protection, including discussions on fisheries management and conservation.",
+          "story_count": 4,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 9,
+          "title": "Public Services and Facilities",
+          "description": "Concerns and discussions around public services, including waste management, public safety, and community facilities.",
+          "story_count": 5,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 10,
+          "title": "Regional Cooperation",
+          "description": "Efforts and discussions around regional cooperation, including the potential regional detention center and other collaborative initiatives.",
+          "story_count": 4,
+          "significance": "Moderate"
+        }
+      ]
+    },
+    "Dorchester County": {
+      "story_count": 328,
+      "top_issues": [
+        {
+          "rank": 1,
+          "title": "Cambridge Harbor Development Project",
+          "description": "The Cambridge Harbor Development Project is a significant recurring issue in Dorchester County, involving the redevelopment of the Cambridge waterfront and associated controversies.",
+          "story_count": 43,
+          "significance": "High"
+        },
+        {
+          "rank": 2,
+          "title": "Dorchester County Budget and Finance",
+          "description": "Dorchester County's budget and financial management are ongoing concerns, including issues related to audits, funding, and financial transparency.",
+          "story_count": 35,
+          "significance": "High"
+        },
+        {
+          "rank": 3,
+          "title": "Local Government Transparency and Accountability",
+          "description": "Ensuring transparency and accountability in local government decision-making is a recurring issue, with concerns about open meetings, public access to information, and ethical governance.",
+          "story_count": 28,
+          "significance": "High"
+        },
+        {
+          "rank": 4,
+          "title": "Infrastructure Development and Maintenance",
+          "description": "Infrastructure development and maintenance, including roads, bridges, and public facilities, are significant concerns in Dorchester County.",
+          "story_count": 25,
+          "significance": "Medium"
+        },
+        {
+          "rank": 5,
+          "title": "Public Safety and Law Enforcement",
+          "description": "Public safety and law enforcement are ongoing issues, including concerns about crime rates, policing practices, and emergency response.",
+          "story_count": 22,
+          "significance": "Medium"
+        },
+        {
+          "rank": 6,
+          "title": "Housing and Affordable Development",
+          "description": "Housing and affordable development are recurring issues, with concerns about affordability, housing stock, and community development initiatives.",
+          "story_count": 20,
+          "significance": "Medium"
+        },
+        {
+          "rank": 7,
+          "title": "Environmental Concerns and Flooding",
+          "description": "Environmental concerns, including flooding and stormwater management, are significant issues in Dorchester County, with implications for infrastructure and community resilience.",
+          "story_count": 18,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 8,
+          "title": "Leadership Changes and Controversies",
+          "description": "Leadership changes and controversies, including those related to city and county management, are recurring issues that impact governance and policy.",
+          "story_count": 16,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 9,
+          "title": "Education and Schools",
+          "description": "Education and schools are ongoing concerns, including issues related to funding, facilities, and educational outcomes.",
+          "story_count": 14,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 10,
+          "title": "Community Development and Revitalization",
+          "description": "Community development and revitalization initiatives, including those related to downtown areas and neighborhood revitalization, are recurring issues.",
+          "story_count": 12,
+          "significance": "Moderate"
+        }
+      ]
+    },
+    "Caroline County": {
+      "story_count": 320,
+      "top_issues": [
+        {
+          "rank": 1,
+          "title": "Dissolved Air Flotation Storage Regulations",
+          "description": "The county commissioners implemented regulations on DAF storage due to environmental concerns and public outcry.",
+          "story_count": 25,
+          "significance": "High"
+        },
+        {
+          "rank": 2,
+          "title": "Solar Energy Development Debates",
+          "description": "Caroline County grapples with balancing solar energy development with environmental and community concerns.",
+          "story_count": 22,
+          "significance": "High"
+        },
+        {
+          "rank": 3,
+          "title": "Water and Sewer Infrastructure Issues",
+          "description": "Several towns in Caroline County face challenges with water and sewer infrastructure, including aging systems and funding.",
+          "story_count": 20,
+          "significance": "High"
+        },
+        {
+          "rank": 4,
+          "title": "Budget and Funding Challenges",
+          "description": "Caroline County and its towns face budget constraints, affecting various public services and infrastructure projects.",
+          "story_count": 18,
+          "significance": "High"
+        },
+        {
+          "rank": 5,
+          "title": "Law Enforcement and Public Safety",
+          "description": "The county and its towns deal with law enforcement issues, including police department suspensions and sheriff's office services.",
+          "story_count": 15,
+          "significance": "High"
+        },
+        {
+          "rank": 6,
+          "title": "Land Use and Zoning Disputes",
+          "description": "Caroline County experiences land use and zoning conflicts, particularly related to solar farms and agricultural land preservation.",
+          "story_count": 12,
+          "significance": "Medium"
+        },
+        {
+          "rank": 7,
+          "title": "Infrastructure Development and Maintenance",
+          "description": "The county and its towns work on various infrastructure projects, including roads, bridges, and public facilities.",
+          "story_count": 10,
+          "significance": "Medium"
+        },
+        {
+          "rank": 8,
+          "title": "Housing and Community Development",
+          "description": "Caroline County addresses housing issues, including affordable housing initiatives and community development projects.",
+          "story_count": 8,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 9,
+          "title": "Economic Development and Tourism",
+          "description": "The county promotes economic development and tourism, including initiatives to attract businesses and visitors.",
+          "story_count": 7,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 10,
+          "title": "Government Transparency and Accountability",
+          "description": "Caroline County residents and officials discuss the importance of government transparency and accountability.",
+          "story_count": 5,
+          "significance": "Moderate"
+        }
+      ]
+    },
+    "Queen Anne's County": {
+      "story_count": 96,
+      "top_issues": [
+        {
+          "rank": 1,
+          "title": "Chesapeake Bay Bridge Infrastructure Concerns",
+          "description": "Concerns and updates regarding the Chesapeake Bay Bridge's infrastructure, including replacement plans and traffic management.",
+          "story_count": 8,
+          "significance": "High"
+        },
+        {
+          "rank": 2,
+          "title": "Land Use and Development Debates",
+          "description": "Ongoing discussions and controversies surrounding land use, development projects, and zoning regulations in Queen Anne's County.",
+          "story_count": 12,
+          "significance": "High"
+        },
+        {
+          "rank": 3,
+          "title": "Waste Management and Landfill Issues",
+          "description": "Challenges and discussions related to waste management, landfill operations, and the proposed MidShore Level Three Landfill Project.",
+          "story_count": 5,
+          "significance": "High"
+        },
+        {
+          "rank": 4,
+          "title": "Budget and Funding Challenges",
+          "description": "Discussions and concerns about Queen Anne's County's budget, funding, and financial management, including the impact of state decisions.",
+          "story_count": 7,
+          "significance": "High"
+        },
+        {
+          "rank": 5,
+          "title": "Cannabis Regulations and Controversies",
+          "description": "Ongoing debates and regulatory discussions surrounding cannabis businesses and their impact on the community.",
+          "story_count": 5,
+          "significance": "Medium"
+        },
+        {
+          "rank": 6,
+          "title": "Infrastructure and Transportation Planning",
+          "description": "Efforts and discussions related to improving infrastructure, including pedestrian and bicycle plans, and transportation management.",
+          "story_count": 8,
+          "significance": "Medium"
+        },
+        {
+          "rank": 7,
+          "title": "Environmental and Conservation Efforts",
+          "description": "Various initiatives and discussions focused on environmental protection, conservation, and sustainability in Queen Anne's County.",
+          "story_count": 6,
+          "significance": "Medium"
+        },
+        {
+          "rank": 8,
+          "title": "Community Development and Recreation",
+          "description": "Projects and discussions related to community development, recreation facilities, and social services in Queen Anne's County.",
+          "story_count": 8,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 9,
+          "title": "Public Safety and Law Enforcement",
+          "description": "Issues and discussions related to public safety, law enforcement policies, and the 287(g) agreement.",
+          "story_count": 4,
+          "significance": "Moderate"
+        },
+        {
+          "rank": 10,
+          "title": "Leadership and Governance Matters",
+          "description": "Leadership changes, governance issues, and discussions about the roles of various officials and commissions in Queen Anne's County.",
+          "story_count": 6,
+          "significance": "Moderate"
+        }
+      ]
+    }
+  }
+}

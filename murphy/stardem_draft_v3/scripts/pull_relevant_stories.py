@@ -17,6 +17,7 @@ from time import perf_counter
 INPUT_FILE = "local_government_all_stories_combined.json"
 OUTPUT_FILE = "selected_local_government_stories.json"
 EXCLUDED_FILE = "excluded_local_government_stories.json"
+COUNTY_ISSUES_FILE = "county_top_issues.json"
 LLM_MODEL = "groq/meta-llama/llama-4-maverick-17b-128e-instruct"
 
 # Target counties for the beat book
@@ -30,9 +31,12 @@ TARGET_COUNTIES = [
 
 RELEVANCE_PROMPT = """You are helping to create a beat book for a reporter covering the local government beat across five Maryland counties: Talbot County, Kent County, Dorchester County, Caroline County, and Queen Anne's County.
 
-A beat book should help a reporter understand the TOP LOCAL GOVERNMENT ISSUES, KEY DECISION-MAKERS, and CRITICAL POLICIES in their coverage area. It is NOT a comprehensive archive of all local government stories.
+Based on comprehensive analysis of local news, the TOP ISSUES in each county are:
 
-Evaluate whether this story is ESSENTIAL for a beat book that helps a reporter cover major local government issues in these five counties.
+{county_issues}
+
+EVALUATION TASK:
+For EACH story, determine if it relates to ANY of the top issues listed above. If it does, identify which specific issue(s) it relates to.
 
 BEAT BOOK FOCUS - INCLUDE STORIES ABOUT:
 
@@ -109,38 +113,15 @@ ACCOUNTABILITY & TRANSPARENCY:
 - Lawsuits involving local government
 - Regional cooperation or conflicts
 
-EXCLUDE:
-- Stories ONLY about state/federal issues with no local angle
-- Pure opinion pieces without reporting on government action
-- Individual citizen complaints not involving government response
-- Routine announcements with no policy implications
-
-GEOGRAPHIC REQUIREMENT:
-Story MUST directly involve Talbot, Kent, Dorchester, Caroline, or Queen Anne's County local governments (towns, cities, or county governments). State-level stories are only relevant if they have clear, specific impact on these counties.
-
-BEAT BOOK TEST:
-Ask yourself: "Would a new local government reporter covering these five counties need to know this story to understand the major issues, key players, and policy landscape?" If not, exclude it.
-
-Story to evaluate (TITLE AND METADATA ONLY - make your decision based on these fields):
-Title: {title}
-Date: {date}
-Content Type: {content_type}
-Local Government Score: {local_gov_score}
-Topics: {topics}
-Counties: {counties}
-Key People: {key_people}
-Key Organizations: {key_organizations}
-Key Initiatives: {key_initiatives}
-
-Respond with a JSON object containing ONLY:
-- "relevant": true or false
+Respond with a JSON object containing:
+- "relevant": true if the story relates to ANY of the top issues above, false otherwise
+- "key_topic": the title of the top issue this story relates to (from the list above), or null if not relevant
 - "confidence": a number from 0.0 to 1.0
-- "reason": (if relevant=false) brief explanation categorized as one of: "too_niche", "wrong_jurisdiction", "opinion_only", "routine_announcement", "no_policy_impact", "other"
 
 Examples:
-{{"relevant": true, "confidence": 0.95}}
-{{"relevant": false, "confidence": 0.90, "reason": "too_niche"}}
-{{"relevant": false, "confidence": 0.85, "reason": "wrong_jurisdiction"}}
+{{"relevant": true, "key_topic": "Affordable Housing Initiatives", "confidence": 0.95}}
+{{"relevant": true, "key_topic": "Cannabis Regulation and Zoning", "confidence": 0.88}}
+{{"relevant": false, "key_topic": null, "confidence": 0.75}}
 
 Your response (JSON only):"""
 
@@ -149,6 +130,23 @@ def load_stories(input_path: Path) -> list:
     """Load stories from JSON file."""
     with open(input_path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+
+def load_county_issues(issues_path: Path) -> str:
+    """Load county issues and format them for the prompt."""
+    with open(issues_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    issues_text = []
+    for county, county_data in data.get('counties', {}).items():
+        issues_text.append(f"\n{county.upper()}:")
+        for issue in county_data.get('top_issues', []):
+            rank = issue.get('rank', '?')
+            title = issue.get('title', 'Unknown')
+            description = issue.get('description', '')
+            issues_text.append(f"  {rank}. {title}: {description}")
+    
+    return '\n'.join(issues_text)
 
 
 def save_stories(stories: list, output_path: Path):
@@ -209,14 +207,14 @@ Story {index}:
 """
 
 
-def evaluate_stories_batch(stories: list) -> list:
+def evaluate_stories_batch(stories: list, county_issues_text: str) -> list:
     """Evaluate a batch of stories at once using LLM."""
     
-    batch_prompt = RELEVANCE_PROMPT + "\n\n"
-    batch_prompt += "Evaluate the following stories. Respond with a JSON array containing one evaluation object for each story (in order), with ONLY these fields:\n"
-    batch_prompt += '- "relevant": true/false\n'
-    batch_prompt += '- "confidence": 0.0-1.0\n'
-    batch_prompt += '- "reason": (if relevant=false) categorize as: "too_niche", "wrong_jurisdiction", "opinion_only", "routine_announcement", "no_policy_impact", or "other"\n\n'
+    batch_prompt = RELEVANCE_PROMPT.format(county_issues=county_issues_text) + "\n\n"
+    batch_prompt += "Evaluate the following stories. Respond with a JSON array containing one evaluation object for each story (in order), with these fields:\n"
+    batch_prompt += '- "relevant": true/false (true if relates to ANY top issue)\n'
+    batch_prompt += '- "key_topic": the exact title of the top issue from the list above, or null if not relevant\n'
+    batch_prompt += '- "confidence": 0.0-1.0\n\n'
     
     for i, story in enumerate(stories, 1):
         batch_prompt += format_story_for_batch(story, i)
@@ -270,14 +268,28 @@ def main():
     
     input_path = Path(INPUT_FILE)
     output_path = Path(OUTPUT_FILE)
+    issues_path = Path(COUNTY_ISSUES_FILE)
     
     if not input_path.exists():
         print(f"Error: Input file not found: {input_path}", file=sys.stderr)
         sys.exit(1)
     
-    print(f"Loading stories from {input_path}...")
+    if not issues_path.exists():
+        print(f"Error: County issues file not found: {issues_path}", file=sys.stderr)
+        print(f"Run analyze_county_issues.py first to generate this file.", file=sys.stderr)
+        sys.exit(1)
+    
+    print(f"Loading county issues from {issues_path}...")
+    county_issues_text = load_county_issues(issues_path)
+    print(f"Loaded top issues for all counties")
+    
+    print(f"\nLoading stories from {input_path}...")
     stories = load_stories(input_path)
     print(f"Loaded {len(stories)} stories")
+    
+    # Reverse stories to process newest first
+    stories = list(reversed(stories))
+    print(f"Reversed stories to process newest first")
     
     # Apply skip and limit
     if args.skip > 0:
@@ -320,7 +332,7 @@ def main():
         print(f"{'='*80}")
         
         batch_start_time = perf_counter()
-        evaluations = evaluate_stories_batch(batch)
+        evaluations = evaluate_stories_batch(batch, county_issues_text)
         batch_time = perf_counter() - batch_start_time
         
         # Process results
@@ -331,22 +343,24 @@ def main():
             # Add evaluation to story
             story['beatbook_evaluation'] = evaluation
             
+            # Add key_topic field directly to story
+            key_topic = evaluation.get('key_topic')
+            if key_topic:
+                story['key_topic'] = key_topic
+            
             if evaluation.get('error'):
                 print(f"  [{processed}] ⚠️  {title[:70]}")
                 stats['errors'] += 1
                 excluded_stories.append(story)
-                reason = 'error'
-                excluded_by_reason[reason] = excluded_by_reason.get(reason, 0) + 1
             elif evaluation.get('relevant'):
-                print(f"  [{processed}] ✅ {title[:70]} (conf: {evaluation.get('confidence', 0):.2f})")
+                topic_display = f" [{key_topic}]" if key_topic else ""
+                print(f"  [{processed}] ✅ {title[:70]}{topic_display} (conf: {evaluation.get('confidence', 0):.2f})")
                 relevant_stories.append(story)
                 stats['relevant'] += 1
             else:
-                reason = evaluation.get('reason', 'other')
-                print(f"  [{processed}] ❌ {title[:70]} ({reason})")
+                print(f"  [{processed}] ❌ {title[:70]}")
                 stats['not_relevant'] += 1
                 excluded_stories.append(story)
-                excluded_by_reason[reason] = excluded_by_reason.get(reason, 0) + 1
         
         print(f"\nBatch completed in {batch_time:.1f}s ({batch_time/len(batch):.1f}s per story)")
         print(f"Running total: {stats['relevant']} relevant, {stats['not_relevant']} not relevant, {stats['errors']} errors")
@@ -369,11 +383,16 @@ def main():
     print(f"Errors: {stats['errors']}")
     print(f"Total time: {total_time:.1f}s ({total_time/stats['total']:.1f}s per story)")
     
-    # Print exclusion breakdown
-    if excluded_by_reason:
-        print("\nEXCLUSION BREAKDOWN:")
-        for reason, count in sorted(excluded_by_reason.items(), key=lambda x: x[1], reverse=True):
-            print(f"  {reason}: {count}")
+    # Print topic breakdown
+    topic_counts = {}
+    for story in relevant_stories:
+        topic = story.get('key_topic', 'Unknown')
+        topic_counts[topic] = topic_counts.get(topic, 0) + 1
+    
+    if topic_counts:
+        print("\nTOP ISSUES COVERAGE:")
+        for topic, count in sorted(topic_counts.items(), key=lambda x: x[1], reverse=True)[:15]:
+            print(f"  {topic}: {count} stories")
     
     if args.dry_run:
         print("\n🔍 DRY RUN - No files saved")
@@ -381,18 +400,10 @@ def main():
         print(f"\nSaving {len(relevant_stories)} relevant stories to {output_path}...")
         save_stories(relevant_stories, output_path)
         
-        # Group excluded stories by reason
-        excluded_grouped = {}
-        for story in excluded_stories:
-            reason = story.get('beatbook_evaluation', {}).get('reason', 'other')
-            if reason not in excluded_grouped:
-                excluded_grouped[reason] = []
-            excluded_grouped[reason].append(story)
-        
         # Save excluded stories
         excluded_path = Path(EXCLUDED_FILE)
         print(f"Saving {len(excluded_stories)} excluded stories to {excluded_path}...")
-        save_stories(excluded_grouped, excluded_path)
+        save_stories(excluded_stories, excluded_path)
         print("✅ Done!")
 
 
