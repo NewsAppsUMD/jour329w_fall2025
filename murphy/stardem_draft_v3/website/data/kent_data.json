@@ -1,0 +1,523 @@
+{
+  "census": {
+    "origin": "Kent was first mentioned as a county on August 2, 1642, when the Governor and Council appointed commissioners for the Isle and County of Kent. The County was named for Kent County in southeast England bordering the English Channel.",
+    "county_name": "Kent",
+    "fips_code": "24029",
+    "census_api_data": {
+      "population": {
+        "total": 19289,
+        "male": 9215,
+        "female": 10074,
+        "median_age": 48.5
+      },
+      "race_ethnicity": {
+        "white_alone": 15082,
+        "black_alone": 2729,
+        "hispanic_latino": 900
+      },
+      "economics": {
+        "median_household_income": 71635,
+        "median_home_value": 291900,
+        "labor_force": 9679,
+        "unemployed": 315
+      },
+      "education": {
+        "bachelors_degree": 2939,
+        "masters_degree": 1474,
+        "professional_degree": 404,
+        "doctorate_degree": 397
+      },
+      "housing": {
+        "total_units": 10320,
+        "occupied_units": 8375,
+        "vacant_units": 1945
+      },
+      "enhanced": {
+        "poverty": {
+          "poverty_rate": 9.5,
+          "people_in_poverty": 1693,
+          "children_in_poverty": 10,
+          "children_poverty_rate": 0.1,
+          "seniors_in_poverty": 49,
+          "seniors_poverty_rate": 0.3
+        },
+        "housing_affordability": {
+          "homeownership_rate": 69.8,
+          "owner_occupied": 5847,
+          "renter_occupied": 2528,
+          "median_rent": 1072,
+          "renters_cost_burdened_30plus": 1247,
+          "renters_cost_burdened_30plus_pct": 49.3,
+          "renters_severely_cost_burdened_50plus": 560,
+          "renters_severely_cost_burdened_50plus_pct": 22.2,
+          "owners_cost_burdened_30plus": 1303,
+          "owners_cost_burdened_30plus_pct": 22.3,
+          "owners_severely_cost_burdened_50plus": 435,
+          "owners_severely_cost_burdened_50plus_pct": 7.4
+        },
+        "age_breakdown": {
+          "under_5_years": 0,
+          "under_5_pct": 0.0,
+          "school_age_5_17": 0,
+          "school_age_pct": 0.0,
+          "working_age_18_64": 19289,
+          "working_age_pct": 100.0,
+          "seniors_65_plus": 0,
+          "seniors_pct": 0.0
+        },
+        "broadband_access": {
+          "total_households": 8375,
+          "with_broadband": 6650,
+          "broadband_pct": 79.4,
+          "no_internet": 1320,
+          "no_internet_pct": 15.8
+        },
+        "education_attainment_full": {
+          "total_pop_25plus": 13958,
+          "less_than_high_school": 1321,
+          "less_than_high_school_pct": 9.5,
+          "high_school_graduate": 4502,
+          "high_school_graduate_pct": 32.3,
+          "some_college": 2141,
+          "some_college_pct": 15.3,
+          "associates_degree": 780,
+          "associates_degree_pct": 5.6,
+          "bachelors_degree": 2939,
+          "bachelors_degree_pct": 21.1,
+          "graduate_degree": 2275,
+          "graduate_degree_pct": 16.3
+        },
+        "health_insurance": {
+          "uninsured_total": 294,
+          "uninsured_rate": 1.6,
+          "children_uninsured": 111,
+          "children_uninsured_rate": 0.6,
+          "adults_18_64_uninsured": 175,
+          "seniors_65plus_uninsured": 8
+        }
+      }
+    },
+    "quickfacts": null,
+    "last_updated": "2025-11-29"
+  },
+  "officials": {
+    "county_name": "Kent",
+    "county_officials": {
+      "legislative_branch": [
+        {
+          "name": "Ronald H. Fithian",
+          "party": "Republican",
+          "title": "President",
+          "selection_method": "chosen by Board in Dec"
+        },
+        {
+          "name": "Albert H. Nickerson",
+          "party": "Republican",
+          "title": "Commissioner"
+        }
+      ],
+      "judicial_branch": [
+        {
+          "name": "Cheryl B. Miller",
+          "title": "Judge"
+        }
+      ]
+    },
+    "municipalities": [],
+    "other_info": {
+      "meeting_schedule": "Tuesdays, 6:00 p.m.",
+      "address": "400 High St., Chestertown, MD 21620",
+      "phone": "(410) 810-2221",
+      "website": "www.kentcounty.com/commissioners"
+    },
+    "county_seat": "Chestertown",
+    "population_2020": "19,198"
+  },
+  "municipal_officials": [
+    {
+      "municipality_name": "Chestertown",
+      "county": "Kent",
+      "website": "https://www.chestertown.gov/",
+      "chief_executive": {
+        "name": "David Foster",
+        "title": "Mayor",
+        "term_ends": "2026",
+        "phone": "410-778-0500"
+      },
+      "council_members": [
+        {
+          "name": "Sheila Austrian",
+          "title": "Council Member, Ward 1",
+          "term_ends": "2026"
+        },
+        {
+          "name": "Thomas A. Herz, Jr.",
+          "title": "Council Member, Ward 2",
+          "term_ends": "2028"
+        },
+        {
+          "name": "Jose Medrano",
+          "title": "Council Member, Ward 3",
+          "term_ends": "2026"
+        },
+        {
+          "name": "Meghan E. Efland",
+          "title": "Council Member, Ward 4",
+          "term_ends": "2028"
+        }
+      ],
+      "source_urls": [
+        "https://www.chestertown.gov/mayor-town-council"
+      ],
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Rock Hall",
+      "county": "Kent",
+      "website": "https://www.rockhallmd.com/",
+      "chief_executive": {
+        "name": "James Cook",
+        "title": "Mayor",
+        "term_ends": "2027",
+        "email": "jcook@rockhallmd.gov",
+        "responsibilities": "Sewer & Pump Stations"
+      },
+      "council_members": [
+        {
+          "name": "Carolyn Jones",
+          "title": "Vice Mayor",
+          "term_ends": "2027",
+          "email": "cjones@rockhallmd.gov",
+          "responsibilities": "Parks & Recreation and Streets"
+        },
+        {
+          "name": "Eleanor Collyer",
+          "title": "Council Member",
+          "term_ends": "2027",
+          "email": "ecollyer@rockhallmd.gov",
+          "responsibilities": "Planning & Zoning"
+        },
+        {
+          "name": "Tim Edwards",
+          "title": "Council Member",
+          "term_ends": "2029",
+          "email": "tedwards@rockhallmd.gov",
+          "responsibilities": "Water"
+        },
+        {
+          "name": "R. Faulkner",
+          "title": "Council Member",
+          "term_ends": "2029",
+          "email": "rfaulkner@rockhallmd.gov",
+          "responsibilities": "Ethics"
+        }
+      ],
+      "source_urls": [
+        "https://www.rockhallmd.com/mayor-council"
+      ],
+      "scraped_date": "2025-11-29"
+    }
+  ],
+  "schools": {
+    "county_name": "Kent",
+    "schools": {
+      "district_name": "Kent County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.kent.k12.md.us",
+      "schools": [
+        {
+          "name": "Galena Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 25
+        },
+        {
+          "name": "H. H. Garnett Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 48
+        },
+        {
+          "name": "Rock Hall Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 79
+        },
+        {
+          "name": "Kent County Middle School",
+          "level": "Middle",
+          "star_rating": 2,
+          "percentile": 15
+        },
+        {
+          "name": "Kent County High",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 43
+        }
+      ],
+      "total_enrollment": 1880
+    }
+  },
+  "elections": {
+    "county_name": "Kent",
+    "board_of_elections": {
+      "address": "103 Lynchburg Street, Chestertown, MD 21620",
+      "phone": "(410) 778-4600",
+      "fax": "(410) 778-4601",
+      "email": "boekent@kentgov.org",
+      "website": "https://www.kentcounty.com/departments/board-of-elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 14,500",
+      "democrat": "~40%",
+      "republican": "~40%",
+      "unaffiliated": "~18%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Kent County High School",
+      "Chestertown Armory",
+      "Rock Hall Volunteer Fire Company",
+      "Galena Elementary School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "57.4%",
+          "harris_kamala_democrat": "41.2%",
+          "other": "1.4%",
+          "total_votes": "Approximately 9,800"
+        },
+        "turnout": "68%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "42.1%",
+          "cox_dan_republican": "56.2%",
+          "other": "1.7%",
+          "total_votes": "Approximately 8,400"
+        },
+        "turnout": "58%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Kent County Community Center, 400 High Street, Chestertown, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  "top_issues": [
+    {
+      "issue_name": "Environment and Solar Energy",
+      "story_count": 9,
+      "date_range": "2023-04-10 to 2025-10-08",
+      "significance": "The region is grappling with the balance between renewable energy and environmental concerns",
+      "recent_developments": "Proposed solar projects and their impact on local communities have been a major focus",
+      "story_indices": [
+        0,
+        2,
+        3,
+        5,
+        11,
+        12,
+        24,
+        27,
+        29
+      ],
+      "story_references": [
+        {
+          "title": "Betterton Pushes Back: Town Says Halo Solar Plan Would Threaten Safety, Growth and Historic Character",
+          "date": "2025-10-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Kent Commissioners Oppose Striped Bass Limits",
+          "date": "2025-09-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "As Solar Looming on Horizon, Betterton Residents Weigh in Ahead of Public Hearing",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Floating Solar Panels Could Power Chestertown's Future",
+          "date": "2025-06-10",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Residents Challenge Solar Project Over Zoning, Health Risks",
+          "date": "2025-02-28",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "'Just Not Here': Solar Project Tests Small Town's Growth Plans",
+          "date": "2025-02-14",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Kent County Solar Farm Back in the Conversation",
+          "date": "2024-07-03",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Caroline Commissioners Discuss Landfill, Solar Batteries",
+          "date": "2024-05-08",
+          "url": "",
+          "beatbook_tag": "Environment"
+        },
+        {
+          "title": "Caroline Commissioners Hear Options for Landfill After 2030",
+          "date": "2024-04-10",
+          "url": "",
+          "beatbook_tag": "Environment"
+        }
+      ]
+    },
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 7,
+      "date_range": "2023-09-18 to 2025-07-09",
+      "significance": "Local governance and leadership decisions are shaping the region's development",
+      "recent_developments": "Commissioners have addressed various issues, including kennel licensing and regional detention centers",
+      "story_indices": [
+        4,
+        13,
+        15,
+        17,
+        18,
+        23,
+        28
+      ],
+      "story_references": [
+        {
+          "title": "Commissioners Holds Public Hearing on Licensing Kennels",
+          "date": "2025-07-09",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Historical Society Relationship and Regional Detention Center Update",
+          "date": "2025-01-31",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Kent County's Heller Presented MACo Professional Legislative Recognition Award",
+          "date": "2025-01-06",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Liquor License Discussion Draws Large Crowd",
+          "date": "2024-12-04",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Lawsuit Compels Chestertown Council Member to Resign",
+          "date": "2024-11-20",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Chestertown Moves to Change Regulations in Historic District",
+          "date": "2024-07-31",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Local legislators reflect on General Assembly",
+          "date": "2024-04-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Finance",
+      "story_count": 6,
+      "date_range": "2023-09-18 to 2025-04-19",
+      "significance": "Financial decisions are impacting the region's infrastructure and services",
+      "recent_developments": "Counties have approved budgets and shifted costs, affecting local services and infrastructure",
+      "story_indices": [
+        7,
+        8,
+        9,
+        10,
+        26,
+        33
+      ],
+      "story_references": [
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "How ARPA Funds Shaped Maryland's Mid-Shore",
+          "date": "2025-03-20",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Proposed Tax Breaks Could Mean Service Cuts in Lower-Income Counties",
+          "date": "2025-03-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "MACo Officials Say Cost Shifts from State to Counties Are 'Absurd,' Unfair",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Galena Passes Budget While Starting First Time Investment",
+          "date": "2024-06-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Salary, Retention Hot Topics Before Commissioners",
+          "date": "2023-09-18",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "budget_summary": "# Kent County FY2026 Budget: Facts & Analysis\n\n## Core Numbers\n\n**Total General Fund Budget:** $85,275,779  \n**Revenues from Operations:** $67,973,525  \n**Transfers from Fund Balance:** $17,302,254 (20.3% of budget)  \n**Transfers from Other Funds:** $0\n\n**Critical Finding:** Kent County is using **$17.3 million in fund balance** (savings/reserves) to balance the budget - nearly one-fifth of total spending.\n\n## Revenue Breakdown\n\n| Source | Amount | % of Operating Revenue |\n|--------|---------|--..."
+}

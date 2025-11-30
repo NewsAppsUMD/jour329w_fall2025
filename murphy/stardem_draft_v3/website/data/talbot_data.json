@@ -1,0 +1,622 @@
+{
+  "census": {
+    "origin": "The form of Talbot County's creation, though not known, probably was by virtue of an order of the Governor in Council. The County was in existence by February 18, 1661/62, when a writ was issued to the sheriff. The County was named after Lady Grace Talbot, sister of Cecilius Calvert, Second Lord Baltimore, and wife of Sir Robert Talbot, Irish statesman.",
+    "county_name": "Talbot",
+    "fips_code": "24041",
+    "census_api_data": {
+      "population": {
+        "total": 37663,
+        "male": 18023,
+        "female": 19640,
+        "median_age": 51.4
+      },
+      "race_ethnicity": {
+        "white_alone": 29600,
+        "black_alone": 4593,
+        "hispanic_latino": 2744
+      },
+      "economics": {
+        "median_household_income": 81667,
+        "median_home_value": 382000,
+        "labor_force": 17654,
+        "unemployed": 559
+      },
+      "education": {
+        "bachelors_degree": 6565,
+        "masters_degree": 3227,
+        "professional_degree": 1424,
+        "doctorate_degree": 649
+      },
+      "housing": {
+        "total_units": 19606,
+        "occupied_units": 16270,
+        "vacant_units": 3336
+      },
+      "enhanced": {
+        "poverty": {
+          "poverty_rate": 9.3,
+          "people_in_poverty": 3460,
+          "children_in_poverty": 148,
+          "children_poverty_rate": 0.4,
+          "seniors_in_poverty": 145,
+          "seniors_poverty_rate": 0.4
+        },
+        "housing_affordability": {
+          "homeownership_rate": 72.9,
+          "owner_occupied": 11868,
+          "renter_occupied": 4402,
+          "median_rent": 1204,
+          "renters_cost_burdened_30plus": 1881,
+          "renters_cost_burdened_30plus_pct": 42.7,
+          "renters_severely_cost_burdened_50plus": 1021,
+          "renters_severely_cost_burdened_50plus_pct": 23.2,
+          "owners_cost_burdened_30plus": 2393,
+          "owners_cost_burdened_30plus_pct": 20.2,
+          "owners_severely_cost_burdened_50plus": 1040,
+          "owners_severely_cost_burdened_50plus_pct": 8.8
+        },
+        "age_breakdown": {
+          "under_5_years": 0,
+          "under_5_pct": 0.0,
+          "school_age_5_17": 0,
+          "school_age_pct": 0.0,
+          "working_age_18_64": 37663,
+          "working_age_pct": 100.0,
+          "seniors_65_plus": 0,
+          "seniors_pct": 0.0
+        },
+        "broadband_access": {
+          "total_households": 16270,
+          "with_broadband": 14330,
+          "broadband_pct": 88.1,
+          "no_internet": 1660,
+          "no_internet_pct": 10.2
+        },
+        "education_attainment_full": {
+          "total_pop_25plus": 28623,
+          "less_than_high_school": 2232,
+          "less_than_high_school_pct": 7.8,
+          "high_school_graduate": 6838,
+          "high_school_graduate_pct": 23.9,
+          "some_college": 5604,
+          "some_college_pct": 19.6,
+          "associates_degree": 2084,
+          "associates_degree_pct": 7.3,
+          "bachelors_degree": 6565,
+          "bachelors_degree_pct": 22.9,
+          "graduate_degree": 5300,
+          "graduate_degree_pct": 18.5
+        },
+        "health_insurance": {
+          "uninsured_total": 918,
+          "uninsured_rate": 2.5,
+          "children_uninsured": 142,
+          "children_uninsured_rate": 0.4,
+          "adults_18_64_uninsured": 750,
+          "seniors_65plus_uninsured": 26
+        }
+      }
+    },
+    "quickfacts": null,
+    "last_updated": "2025-11-29"
+  },
+  "officials": {
+    "county_name": "Talbot",
+    "county_officials": {
+      "legislative_branch": [
+        {
+          "name": "Ronald E. (Pete) Lesher, Jr.",
+          "party": "Democrat",
+          "title": "Vice President",
+          "selection_method": "chosen by Council in Dec"
+        },
+        {
+          "name": "Keasha N. Haythe",
+          "party": "Democrat",
+          "title": "Council Member"
+        },
+        {
+          "name": "David C. Stepp",
+          "party": "Republican",
+          "title": "Council Member"
+        }
+      ],
+      "judicial_branch": [
+        {
+          "name": "Sonja M. Kerns",
+          "title": "Judge"
+        },
+        {
+          "name": "Philip T. Cronan",
+          "title": "Judge"
+        },
+        {
+          "name": "Patrick L. Johnson",
+          "title": "Judge"
+        },
+        {
+          "name": "Cheryl B. Miller",
+          "title": "Judge"
+        }
+      ]
+    },
+    "municipalities": [],
+    "other_info": {
+      "meeting_schedule": "2nd & 4th Tuesdays, 6:00 p.m.",
+      "address": "11 North Washington St., Easton, MD 21601",
+      "phone": "(410) 770-8010",
+      "website": "www.talbotcountymd.gov/index.php?page=County_Council"
+    },
+    "county_seat": "Easton",
+    "population_2020": "37,526"
+  },
+  "municipal_officials": [
+    {
+      "municipality_name": "Easton",
+      "county": "Talbot",
+      "website": "https://eastonmd.gov/",
+      "chief_executive": {
+        "name": "Megan JM Cook",
+        "title": "Mayor"
+      },
+      "council_members": [
+        {
+          "name": "Don Abbatiello",
+          "title": "Council President"
+        },
+        {
+          "name": "Maureen Curry",
+          "title": "1st Ward Councilmember"
+        },
+        {
+          "name": "Robert Rankin",
+          "title": "2nd Ward Councilmember"
+        },
+        {
+          "name": "David Montgomery",
+          "title": "3rd Ward Councilmember"
+        },
+        {
+          "name": "Rev. Elmer Neal Davis Jr.",
+          "title": "4th Ward Councilmember"
+        }
+      ],
+      "meeting_schedule": "1st and 3rd Monday, 5:30 PM",
+      "contact": {
+        "address": "14 South Harrison St, Easton, MD 21601",
+        "email": "mayorandcouncil@EastonMD.gov",
+        "website": "https://eastonmd.gov/221/Mayor-Council"
+      },
+      "source": "https://eastonmd.gov/221/Mayor-Council",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Oxford",
+      "county": "Talbot",
+      "website": "https://www.oxfordmd.net/",
+      "chief_executive": {
+        "name": "Katrina Greer",
+        "title": "Commission President",
+        "term_expires": "July 1, 2026"
+      },
+      "council_members": [
+        {
+          "name": "Norman Bell",
+          "title": "Commissioner",
+          "term_expires": "July 7, 2027"
+        },
+        {
+          "name": "David Donovan",
+          "title": "Commissioner",
+          "term_expires": "July 5, 2028"
+        }
+      ],
+      "meeting_schedule": "2nd and 4th Tuesdays, 6:00 PM",
+      "notes": "Term length: 3 years (Fiscal Year 7/1 - 6/30)",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "St. Michaels",
+      "county": "Talbot",
+      "website": "https://www.stmichaelsmd.gov/",
+      "chief_executive": {
+        "name": "Jay Hudson",
+        "title": "President",
+        "term_expires": "2028"
+      },
+      "council_members": [
+        {
+          "name": "Katrina D. Whittington",
+          "title": "Vice President",
+          "term_expires": "2026"
+        },
+        {
+          "name": "Alexis Roiter",
+          "title": "Treasurer",
+          "term_expires": "2028"
+        },
+        {
+          "name": "Alfred R. Mercier",
+          "title": "Commissioner",
+          "term_expires": "2026"
+        },
+        {
+          "name": "David Wojciechowski",
+          "title": "Commissioner",
+          "term_expires": "2028"
+        }
+      ],
+      "scraped_date": "2025-11-29"
+    }
+  ],
+  "schools": {
+    "county_name": "Talbot",
+    "schools": {
+      "district_name": "Talbot County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.tcps.k12.md.us",
+      "schools": [
+        {
+          "name": "Chapel District Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 76
+        },
+        {
+          "name": "Easton Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 26
+        },
+        {
+          "name": "St. Michaels Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 81
+        },
+        {
+          "name": "Tilghman Elementary",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 13
+        },
+        {
+          "name": "White Marsh Elementary",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 74
+        },
+        {
+          "name": "Easton Middle",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 34
+        },
+        {
+          "name": "St. Michaels Middle/High School",
+          "level": "Middle/High",
+          "star_rating": 3,
+          "percentile": 54
+        },
+        {
+          "name": "Easton High",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 41
+        }
+      ],
+      "total_enrollment": 4529
+    }
+  },
+  "elections": {
+    "county_name": "Talbot",
+    "board_of_elections": {
+      "address": "215 Bay Street, Suite #1, Easton, MD 21601",
+      "phone": "(410) 822-0532",
+      "fax": "(410) 822-5192",
+      "email": "electionstc@talbotcountymd.gov",
+      "website": "https://talbotcountymd.gov/235/Board-of-Elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 25,000 (check current stats)",
+      "democrat": "~35%",
+      "republican": "~45%",
+      "unaffiliated": "~18%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Easton High School",
+      "St. Michaels Community Center",
+      "Tilghman Fire Hall",
+      "Oxford Community Center",
+      "Trappe Fire Hall"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "60.5%",
+          "harris_kamala_democrat": "38.1%",
+          "other": "1.4%",
+          "total_votes": "Approximately 18,500"
+        },
+        "turnout": "74%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "38.2%",
+          "cox_dan_republican": "59.8%",
+          "other": "2.0%",
+          "total_votes": "Approximately 15,000"
+        },
+        "turnout": "60%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Talbot County Community Center, 10028 Ocean Gateway, Easton, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  "top_issues": [
+    {
+      "issue_name": "Cannabis Regulations and Funding",
+      "story_count": 6,
+      "date_range": "2025-07-17 to 2025-10-21",
+      "significance": "The county is debating and developing regulations around cannabis, which could have significant financial implications.",
+      "recent_developments": "Talbot County introduced a bill to begin accepting cannabis reinvestment funds, and the council discussed new cannabis legislation.",
+      "story_indices": [
+        0,
+        17,
+        31,
+        36,
+        45,
+        46
+      ],
+      "story_references": [
+        {
+          "title": "Talbot OKs Bill to Begin Accepting Cannabis Funds",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Talbot Introduces Bill to Begin Accepting Cannabis Reinvestment Funds",
+          "date": "2025-09-11",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Talbot County's Cannabis Bill Fails, Goes 'Back to the Drawing Board'",
+          "date": "2025-08-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot's Cannabis Regulations Draw Mixed Reviews from Residents, Operators",
+          "date": "2025-08-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot County Considering New Cannabis Legislation",
+          "date": "2025-07-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Fate of Talbot's Short-Term Rental Proposals Still Up in the Air",
+          "date": "2025-07-16",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Development and Zoning Regulations",
+      "story_count": 14,
+      "date_range": "2025-06-13 to 2025-10-16",
+      "significance": "The county is grappling with how to manage growth, balance housing needs, and update zoning regulations.",
+      "recent_developments": "Talbot County discussed short-term rental proposals, and Easton leaned away from annexing new land in its comprehensive plan update.",
+      "story_indices": [
+        1,
+        20,
+        23,
+        24,
+        25,
+        28,
+        29,
+        31,
+        33,
+        34,
+        36,
+        38,
+        44,
+        59
+      ],
+      "story_references": [
+        {
+          "title": "St. Michaels Commissioners Discuss Comprehensive Plan",
+          "date": "2025-10-16",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Easton Leans Away From Annexing New Land in Comprehensive Plan Update",
+          "date": "2025-09-10",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "How Much Growth Is Too Much for Easton? Balance Between Housing Needs, Infrastructure Unsettled",
+          "date": "2025-08-30",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "The 'Missing Middle': Why Some Town Leaders See a Gap in Easton's Housing Stock",
+          "date": "2025-08-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Here's where Easton leaders stand on growth",
+          "date": "2025-08-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Cannabis Zoning Bill Goes Back to Square One",
+          "date": "2025-08-15",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Easton Task Force Narrows List of Recommended Housing Solutions",
+          "date": "2025-08-14",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot County's Cannabis Bill Fails, Goes 'Back to the Drawing Board'",
+          "date": "2025-08-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Move-in Date for Doverbrook Apartments Uncertain Due to Snag with HUD",
+          "date": "2025-08-12",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Planners Send Short-Term Rental Regs to County Council with Major Revisions",
+          "date": "2025-08-08",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot's Cannabis Regulations Draw Mixed Reviews from Residents, Operators",
+          "date": "2025-08-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Proposal for More Public Input in Easton Housing Projects Gains Traction",
+          "date": "2025-07-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Planning Commission recommends against housing project",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Talbot council, planning commission weigh in on controversial short-term rental restrictions",
+          "date": "2025-06-13",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure and Public Works",
+      "story_count": 9,
+      "date_range": "2025-07-04 to 2025-10-15",
+      "significance": "The county is dealing with various infrastructure challenges, including road safety, water supply, and beach projects.",
+      "recent_developments": "The Strand Beach project in Oxford faced controversy, and transportation officials toured the Eastern Shore to discuss funding and project statuses.",
+      "story_indices": [
+        4,
+        6,
+        11,
+        12,
+        13,
+        15,
+        41,
+        42,
+        52
+      ],
+      "story_references": [
+        {
+          "title": "Next Phase of Oxford's Strand Beach Project Poses Funding Hurdle",
+          "date": "2025-10-15",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "In Wake of Fatal Hit-and-Run, Route 50 Safety in Easton a Concern",
+          "date": "2025-10-07",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "St. Michaels Commissioners Discuss Sea Level Rise Projects",
+          "date": "2025-09-25",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Claiborne Residents, Operating Their Own Well, Look for Water Supply Solution",
+          "date": "2025-09-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "In Claiborne, Many Depend on Volunteer Efforts of a 'Water Czar'",
+          "date": "2025-09-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "The Strand Beach Project Faces More Controversy",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Oxford's Strand Beach Frustrations Grow as Fencing is Erected",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Trappe Volunteer Fire Company Seeks Funding for Firehouse",
+          "date": "2025-07-04",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    }
+  ],
+  "budget_summary": "# Talbot County FY2026 Budget Analysis\n\n## Executive Summary\n\nTalbot County approved a $161.1 million budget for fiscal year 2026 (beginning July 1, 2025), representing a modest increase from the previous year. The budget introduces slight adjustments to property tax rates while significantly investing in education and infrastructure projects.\n\n## Tax Rate Structure\n\n| Tax Type | Rate | Key Details |\n|----------|------|-------------|\n| **Real Property Tax (County)** | $0.7926 per $100 | Lower ra..."
+}

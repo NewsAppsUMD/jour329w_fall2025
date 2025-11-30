@@ -1,0 +1,696 @@
+{
+  "census": {
+    "origin": "The exact date and legal origin of Dorchester County are unknown, but it was in existence by February 16, 1668/69, when a writ was issued to the county sheriff by the Lord Proprietary. The County was named for Sir Edward Sackville (1590-1652), the 4th Earl of Dorset, a family friend of the Calverts.",
+    "county_name": "Dorchester",
+    "fips_code": "24019",
+    "census_api_data": {
+      "population": {
+        "total": 32557,
+        "male": 15261,
+        "female": 17296,
+        "median_age": 43.8
+      },
+      "race_ethnicity": {
+        "white_alone": 20381,
+        "black_alone": 8342,
+        "hispanic_latino": 1992
+      },
+      "economics": {
+        "median_household_income": 57490,
+        "median_home_value": 226000,
+        "labor_force": 15877,
+        "unemployed": 870
+      },
+      "education": {
+        "bachelors_degree": 2425,
+        "masters_degree": 1381,
+        "professional_degree": 379,
+        "doctorate_degree": 283
+      },
+      "housing": {
+        "total_units": 16400,
+        "occupied_units": 13216,
+        "vacant_units": 3184
+      },
+      "enhanced": {
+        "poverty": {
+          "poverty_rate": 15.4,
+          "people_in_poverty": 4951,
+          "children_in_poverty": 335,
+          "children_poverty_rate": 1.0,
+          "seniors_in_poverty": 251,
+          "seniors_poverty_rate": 0.8
+        },
+        "housing_affordability": {
+          "homeownership_rate": 68.4,
+          "owner_occupied": 9046,
+          "renter_occupied": 4170,
+          "median_rent": 968,
+          "renters_cost_burdened_30plus": 1977,
+          "renters_cost_burdened_30plus_pct": 47.4,
+          "renters_severely_cost_burdened_50plus": 934,
+          "renters_severely_cost_burdened_50plus_pct": 22.4,
+          "owners_cost_burdened_30plus": 1593,
+          "owners_cost_burdened_30plus_pct": 17.6,
+          "owners_severely_cost_burdened_50plus": 721,
+          "owners_severely_cost_burdened_50plus_pct": 8.0
+        },
+        "age_breakdown": {
+          "under_5_years": 0,
+          "under_5_pct": 0.0,
+          "school_age_5_17": 0,
+          "school_age_pct": 0.0,
+          "working_age_18_64": 32557,
+          "working_age_pct": 100.0,
+          "seniors_65_plus": 0,
+          "seniors_pct": 0.0
+        },
+        "broadband_access": {
+          "total_households": 13216,
+          "with_broadband": 11328,
+          "broadband_pct": 85.7,
+          "no_internet": 1657,
+          "no_internet_pct": 12.5
+        },
+        "education_attainment_full": {
+          "total_pop_25plus": 23327,
+          "less_than_high_school": 2855,
+          "less_than_high_school_pct": 12.2,
+          "high_school_graduate": 9410,
+          "high_school_graduate_pct": 40.3,
+          "some_college": 4914,
+          "some_college_pct": 21.1,
+          "associates_degree": 1680,
+          "associates_degree_pct": 7.2,
+          "bachelors_degree": 2425,
+          "bachelors_degree_pct": 10.4,
+          "graduate_degree": 2043,
+          "graduate_degree_pct": 8.8
+        },
+        "health_insurance": {
+          "uninsured_total": 1097,
+          "uninsured_rate": 3.4,
+          "children_uninsured": 273,
+          "children_uninsured_rate": 0.8,
+          "adults_18_64_uninsured": 753,
+          "seniors_65plus_uninsured": 71
+        }
+      }
+    },
+    "quickfacts": null,
+    "last_updated": "2025-11-29"
+  },
+  "officials": {
+    "county_name": "Dorchester",
+    "county_officials": {
+      "legislative_branch": [
+        {
+          "name": "George L. (Lenny) Pfeffer, Jr.",
+          "party": "Republican",
+          "title": "President",
+          "selection_method": "chosen by Council in Dec"
+        },
+        {
+          "name": "Michael W. Detmer",
+          "party": "Republican",
+          "title": "Vice President",
+          "selection_method": "chosen by Council in Dec"
+        },
+        {
+          "name": "Robert E. Kramer, Jr.",
+          "party": "Republican",
+          "title": "Council Member",
+          "district": "District 1"
+        },
+        {
+          "name": "William V. Nichols",
+          "party": "Democrat",
+          "title": "Council Member",
+          "district": "District 2"
+        },
+        {
+          "name": "Richard C. (Ricky) Travers",
+          "party": "Democrat",
+          "title": "Council Member",
+          "district": "District 3"
+        }
+      ],
+      "judicial_branch": [
+        {
+          "name": "Missy M. Gallagher",
+          "title": "Judge"
+        },
+        {
+          "name": "Kendall E. Timmons",
+          "title": "Judge"
+        },
+        {
+          "name": "Latasha S. Nichols",
+          "title": "Judge"
+        }
+      ]
+    },
+    "municipalities": [],
+    "other_info": {
+      "meeting_schedule": "1st & 3rd Tuesdays, 6:00 p.m.",
+      "address": "P. O. Box 26",
+      "phone": "(410) 228-1700",
+      "website": "www.dorchestercountymd.com/departments/councils-office/"
+    },
+    "county_seat": "Cambridge",
+    "population_2020": "32,531"
+  },
+  "municipal_officials": [
+    {
+      "municipality_name": "Cambridge",
+      "county": "Dorchester",
+      "website": "https://www.choosecambridge.com/",
+      "chief_executive": {
+        "name": "Lajan Cephas",
+        "title": "Mayor"
+      },
+      "council_members": [
+        {
+          "name": "Brett Summers",
+          "title": "First Ward Commissioner"
+        },
+        {
+          "name": "Shay Lewis-Sisco",
+          "title": "Second Ward Commissioner"
+        },
+        {
+          "name": "Frank Stout",
+          "title": "Third Ward Commissioner"
+        },
+        {
+          "name": "Sputty Cephas",
+          "title": "Fourth Ward Commissioner"
+        },
+        {
+          "name": "Brian Roche",
+          "title": "Fifth Ward Commissioner"
+        }
+      ],
+      "meeting_schedule": "2nd & 4th Mondays, 6:00 PM",
+      "contact": {
+        "address": "305 Gay Street, Cambridge, MD 21613",
+        "website": "https://www.choosecambridge.com/194/Mayor-Commissioners"
+      },
+      "source": "https://www.choosecambridge.com/194/Mayor-Commissioners",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Hurlock",
+      "county": "Dorchester",
+      "website": "https://www.hurlock-md.gov/",
+      "chief_executive": {
+        "name": "Rev. Charles Cephas",
+        "title": "Mayor",
+        "term_ends": "11/25",
+        "phone": "443-521-4737",
+        "email": "ccephas@townofhurlock.org"
+      },
+      "council_members": [
+        {
+          "name": "David Higgins",
+          "title": "District 1 Council Member",
+          "term_ends": "11/25",
+          "phone": "443-521-0979",
+          "email": "dhiggins@townofhurlock.org"
+        },
+        {
+          "name": "Bonnie Franz",
+          "title": "District 2 Council Member",
+          "term_ends": "11/25",
+          "phone": "443-521-7888",
+          "email": "bfranz@townofhurlock.org"
+        },
+        {
+          "name": "Russell Murphy",
+          "title": "District 3 Council Member",
+          "term_ends": "11/27",
+          "phone": "443-515-0304",
+          "email": "rmurphy@townofhurlock.org"
+        },
+        {
+          "name": "Cederick Turner",
+          "title": "District 4 Council Member",
+          "term_ends": "11/27",
+          "phone": "443-205-5752",
+          "email": "cturner@townofhurlock.org"
+        },
+        {
+          "name": "Earl Murphy, Jr.",
+          "title": "At Large Council Member",
+          "term_ends": "11/25",
+          "phone": "443-439-9091",
+          "email": "emurphy@townofhurlock.org"
+        }
+      ],
+      "scraped_date": "2025-11-29"
+    }
+  ],
+  "schools": {
+    "county_name": "Dorchester",
+    "schools": {
+      "district_name": "Dorchester County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.dcpsmd.org",
+      "schools": [
+        {
+          "name": "Choptank Elementary School",
+          "level": "Elementary",
+          "star_rating": 2,
+          "percentile": 7
+        },
+        {
+          "name": "Hurlock Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 25
+        },
+        {
+          "name": "Maple Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 45
+        },
+        {
+          "name": "Sandy Hill Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 15
+        },
+        {
+          "name": "Vienna Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 64
+        },
+        {
+          "name": "Warwick Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 50
+        },
+        {
+          "name": "South Dorchester School",
+          "level": "Elementary/Middle",
+          "star_rating": 4,
+          "percentile": 63
+        },
+        {
+          "name": "Mace's Lane Middle School",
+          "level": "Middle",
+          "star_rating": 2,
+          "percentile": 4
+        },
+        {
+          "name": "North Dorchester Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 68
+        },
+        {
+          "name": "Cambridge-South Dorchester High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 20
+        },
+        {
+          "name": "North Dorchester High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 36
+        }
+      ],
+      "total_enrollment": 4353
+    }
+  },
+  "elections": {
+    "county_name": "Dorchester",
+    "board_of_elections": {
+      "address": "501 Court Lane, P.O. Box 26, Cambridge, MD 21613",
+      "phone": "(410) 228-4550",
+      "fax": "(410) 228-9415",
+      "email": "elections@docogonet.com",
+      "website": "https://docogonet.com/boe",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 21,000",
+      "democrat": "~50%",
+      "republican": "~35%",
+      "unaffiliated": "~13%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Maces Lane Middle School",
+      "North Dorchester High School",
+      "Hurlock Elementary School",
+      "Cambridge-South Dorchester High School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "52.8%",
+          "harris_kamala_democrat": "45.9%",
+          "other": "1.3%",
+          "total_votes": "Approximately 13,200"
+        },
+        "turnout": "63%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "47.5%",
+          "cox_dan_republican": "50.3%",
+          "other": "2.2%",
+          "total_votes": "Approximately 11,500"
+        },
+        "turnout": "55%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Dorchester County Office Building, 501 Court Lane, Cambridge, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  "top_issues": [
+    {
+      "issue_name": "Budget and Financial Management",
+      "story_count": 14,
+      "date_range": "2025-02-20 to 2025-11 (implied, given the date of the task)",
+      "significance": "Budget decisions directly impact county services, tax rates, and overall financial health, affecting residents and businesses.",
+      "recent_developments": "Dorchester County Council proposed tax increases to balance the FY26 budget, and there were discussions around budget deficits, cost shifts from the state, and the impact of budget decisions on county services.",
+      "story_indices": [
+        28,
+        31,
+        33,
+        35,
+        36,
+        39,
+        40,
+        41,
+        43,
+        44,
+        48,
+        49,
+        51,
+        56
+      ],
+      "story_references": [
+        {
+          "title": "Cambridge City Council Passes Fiscal 2026 Budget",
+          "date": "2025-06-12",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Council Approves 2026 Budget",
+          "date": "2025-05-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Residents Frustrated with Dorchester Budget Proposal",
+          "date": "2025-05-15",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge, Hurlock Speak Out Against Dorchester Tax Differential Cut",
+          "date": "2025-05-09",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Retains Tax Differentials, at Least for This Year",
+          "date": "2025-05-08",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge City Manager Presents Balanced Draft Budget",
+          "date": "2025-04-30",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge City Council Calls on County for Tax Differential",
+          "date": "2025-04-29",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Makes Its Way Through Grueling Budget Process",
+          "date": "2025-04-23",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Proposes Tax Increases to Balance FY26 Budget",
+          "date": "2025-04-17",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge Moves Portion of Funds to State Investment Pool",
+          "date": "2025-03-26",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Cambridge Waterfront Development Inc. Passes Budget",
+          "date": "2025-03-22",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County Council Introduces Bill to Raise 911 Fees More",
+          "date": "2025-03-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Dorchester County and DCPS Working to Reduce FY26 Budget Deficits",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure and Development",
+      "story_count": 12,
+      "date_range": "2025-03-19 to 2025-10-21",
+      "significance": "Infrastructure projects and development initiatives shape the county's growth, quality of life, and economic prospects.",
+      "recent_developments": "Projects like the Cambridge Harbor Promenade and Cannery Park renovations are underway, and there are ongoing discussions around rezoning, waterfront development, and infrastructure repairs.",
+      "story_indices": [
+        0,
+        4,
+        8,
+        18,
+        20,
+        21,
+        27,
+        29,
+        30,
+        32,
+        37,
+        38
+      ],
+      "story_references": [
+        {
+          "title": "Sewage Seeping onto Streets Sparks Cambridge Flood Debate",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge City Hall Set to Get a Facelift",
+          "date": "2025-09-24",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge Harbor Promenade First Phase Over Halfway Done",
+          "date": "2025-07-28",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "'Light at the End of the Tunnel': Cambridge Sink Hole Repairs Finishing Soon",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Sinkhole in Cambridge Will Be Repaired by Friday, City Hopes",
+          "date": "2025-07-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Broadband Service Expands in Dorchester County",
+          "date": "2025-06-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cambridge's Cannery Park Prepares to Renovate",
+          "date": "2025-05-31",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Stakeholders Meet to Discuss Cambridge Waterfront",
+          "date": "2025-05-23",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "The Big Pour: Cambridge Waterfront Development Inc. Promenade Makes Progress",
+          "date": "2025-05-19",
+          "url": "",
+          "beatbook_tag": "Economic Development"
+        },
+        {
+          "title": "State Highway Administration to Make Repairs to Cambridge Creek Drawbridge",
+          "date": "2025-05-01",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Groundbreaking Ceremony Held for Tides at River Marsh Housing Project in Cambridge",
+          "date": "2025-04-30",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 11,
+      "date_range": "2025-03-05 to 2025-10-08",
+      "significance": "Effective governance and leadership are crucial for addressing county challenges, making informed decisions, and ensuring accountability.",
+      "recent_developments": "There have been discussions around council decisions, legislative initiatives, and town incorporation, as well as concerns about cost shifts from the state and the impact of governance on county services.",
+      "story_indices": [
+        5,
+        6,
+        7,
+        12,
+        15,
+        17,
+        23,
+        24,
+        25,
+        26,
+        45
+      ],
+      "story_references": [
+        {
+          "title": "Cambridge City Council/Sept. 22",
+          "date": "2025-09-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "City of Cambridge Outlines Property Owners' Responsibilities",
+          "date": "2025-09-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester Council Talks Juvenile Crime, Other Priorities with State Legislators",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge City Council/Aug. 25",
+          "date": "2025-08-26",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge City Council/Aug. 11",
+          "date": "2025-08-12",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "City Manager: Tall Grass Has Become a 'Big Issue' in Cambridge",
+          "date": "2025-07-30",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester Board of Education/July 11",
+          "date": "2025-07-12",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester County Council June 1 Meeting",
+          "date": "2025-07-01",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Dorchester County Council to Submit Five Legislative Initiatives",
+          "date": "2025-06-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Cambridge steps up code enforcement",
+          "date": "2025-06-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Proposed Resolution Sets Off Tense Discussion at Cambridge Meeting",
+          "date": "2025-04-16",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    }
+  ],
+  "budget_summary": "# Dorchester County FY2026 Budget: Facts & Analysis\n\n## Core Numbers\n\n**Operating Budget:** $91,963,965 (up $9,997,971 or +12.2% from FY2025)  \n**Capital Budget:** $1,689,838 (down $2,894,873 or -63.2% from FY2025)  \n**Grants Budget:** $10,598,167 (up $6,620,368 or +166.4% from FY2025)  \n**Total Budget:** $104,251,970 (up $13,723,466 or +15.2% from FY2025)\n\n## Tax Rate Changes: INCREASES FOR FY2026\n\n| Tax Type | FY2025 | FY2026 | Change |\n|----------|---------|---------|---------|\n| **Real Prope..."
+}

@@ -1,0 +1,375 @@
+
+You are a professional journalist creating a local government beat book for Caroline County.
+
+You have been provided with:
+1. Verified demographic and political facts
+2. Budget summary and analysis
+3. Recent meeting minutes summary
+4. Story coverage patterns
+5. Pre-built key sources table
+
+
+## VERIFIED FACTS: CAROLINE COUNTY
+
+### Demographics (U.S. Census Bureau, 2025)
+- **Total Population**: 33,320
+- **Median Age**: 39.5
+- **Racial Composition**: 
+  - White: 25,025 (75.1%)
+  - Black: 4,565 (13.7%)
+  - Hispanic/Latino: 2,736 (8.2%)
+
+### Economics
+- **Median Household Income**: $65,326
+- **Median Home Value**: $258,800
+- **Poverty Rate**: 12.9% (4,228 people)
+- **Unemployment**: 775 (labor force: 16,808)
+
+### Housing
+- **Total Housing Units**: 13,473
+- **Homeownership Rate**: 72.1%
+- **Renters Cost-Burdened (≥30%)**: 1,619 (48.3%)
+- **Broadband Access**: 10,284 of 12,013 households (85.6%)
+
+### County Leadership
+- **Travis Breeding**: President (Republican) — chosen by County Commissioners in Nov
+- **Larry C. Porter**: Vice President (Republican) — chosen by County Commissioners in Nov
+- **Franklin Bartz**: Commissioner (Republican)
+
+### Judicial Officials
+- **Heather Lynne Price**: Judge
+- **Michelle Bethke**: Judge
+- **Logan R. Rogers**: Judge
+- **Cheryl B. Miller**: Judge
+
+### Voter Registration
+- **Total Registered**: Approximately 22,000
+- **Party Split**: Democrat ~42%, Republican ~40%, Unaffiliated ~16%
+
+### Recent Elections
+- **2024 Presidential General Election**: Trump 55.3%, Harris 43.4% (turnout 64%)
+- **2022 Gubernatorial General Election**: Moore 44.8%, Cox 53.5% (turnout 56%)
+
+### Municipalities (10 incorporated towns)
+- **Denton**: pop. 4,836, median income $59,155
+- **Federalsburg**: pop. 2,818, median income $33,511
+- **Greensboro**: pop. 2,780, median income $43,750
+- **Ridgely**: pop. 1,727, median income $65,060
+- **Preston**: pop. 816, median income $65,500
+
+**CRITICAL RULE**: You may ONLY cite facts that appear in this block. Do not invent names, numbers, or details.
+
+
+### Budget Summary (FY2026)
+- **Operating Budget**: $79,208,471
+- **Capital Budget**: $22,443,227
+- **Total Budget**: $101,651,698
+
+### Key Budget Insights
+
+**The Revenue Paradox**
+Property and income tax revenue increased by **$6 million combined** despite flat rates. This isn't magic—it reflects:
+- Rising property assessments (home values up)
+- Higher income tax collections (wage growth or more jobs)
+
+**Education Cost Acceleration**
+K-12 spending jumped **$2.7 million (13%)** in one year—the fastest growth of any major category. This outpaces overall budget growth of 9.5%.
+
+**Capital Investment Priorities**
+The county is spending more on recreation/parks ($6M) than any other capital category this year, while education capital is minimal ($532K).
+
+**Public Safety Dominance**
+Sheriff, Jail, Courts, and Emergency Services combined: **$26.2 million (33% of operating budget)**. This is up $1.1 million from FY2025.
+
+**The Reserve Burn Question**
+Total revenue increased 9.5%, but commissioners explicitly state this pace is "unsustainable." They're using 15 years of accumulated surplus to bridge the gap.
+
+
+### Key Issues from Recent County Meetings
+
+**Detention Center Crisis and the Path Toward a $32–$40 Million Replacement**
+The crisis surrounding Caroline County’s detention center was the most far-reaching issue of the fall cycle. The building’s age, structural weaknesses, and inability to support modern correctional healthcare—especially MAT requirements—forced the Commissioners to reconsider earlier renovation plans. What had once been pitched as an $8 million rehabilitation effort was revealed to be only a partial fix, one that would leave major systems untouched and would not create the space or design required for enhanced medical services, behavioral-health programming, or state oversight expectations.
+
+---
+
+**Solar & Wastewater Regulatory Overhaul Under State Mandates**
+Caroline County advanced a major legislative package modernizing solar and wastewater facility regulations. This overhaul was driven entirely by the need to comply with the Maryland Renewable Energy Certainty Act, which imposed new statewide definitions, siting rules, and review processes.
+
+---
+
+**Opioid Settlement Funding and MAT Requirements in the Detention Center**
+Caroline County held required hearings on opioid settlement allocations, with stakeholders emphasizing the importance of the Problem Solving Court and community-based treatment. This discussion was inseparable from the detention center crisis, as MAT obligations drive both operational and capital needs.
+
+---
+
+**Mobile Integrated Health (MIH) Program – A New Approach to High EMS Utilization**
+The MIH program was one of the most forward-looking initiatives unveiled this fall. Through a collaboration between Emergency Services and the Health Department, the county will send a nurse-paramedic team to visit residents who have called 911 five or more times in a six-month period.
+
+---
+
+**Dog Licensing Reform and the Emerging Pattern of Low Civic Engagement**
+One of the smaller but symbolically important issues involved the county’s request for state authorization to make annual dog licensing optional. Although state law requires all dogs older than six months to be licensed, only about **100 licenses** are purchased annually.
+
+---
+
+
+**Public Engagement Pattern**
+Public participation during the fall session was extremely limited. Key themes:
+
+- Residents did not comment on the detention center crisis.
+- No comments were offered on solar regulations or wastewater updates.
+- Opioid funding discussions attracted stakeholders but no citizens.
+- MIH and dog licensing legislation received no public input.
+
+Demographically, typical resident groups—young families, renters, small business owners—were consistently absent. Organizational representatives dominated t...
+
+
+### Recent News Coverage for Caroline County
+
+- **Total stories**: 174
+- **Beatbook-relevant stories**: 174
+- **Date range**: 2023-08-16 to 2025-10-22
+
+**Coverage by Topic**:
+- Local Government: 160 stories
+- Public Safety: 12 stories
+- Race & Diversity: 2 stories
+
+**Most-Mentioned Officials/Figures** (across all stories):
+- Larry Porter — Commission Vice President, Caroline County Commission: mentioned in 50 stories
+- Travis Breeding — County Commissioner, Caroline County Commissioners: mentioned in 44 stories
+- Frank Bartz — Commissioner, Caroline County: mentioned in 18 stories
+- Stewart Barroll — Attorney, Caroline County: mentioned in 18 stories
+- Daniel Fox — Deputy County Administrator, Caroline County: mentioned in 18 stories
+- Kim Abner — Mayor, Town of Federalsburg: mentioned in 11 stories
+- Kathleen Freeman — Unidentified Title, Caroline County Government: mentioned in 9 stories
+- Wes Moore — Governor, State of Maryland: mentioned in 9 stories
+- Donnie Baker — Sheriff, Caroline County Sheriff: mentioned in 8 stories
+- Cindy Yost — Town Manager, Town of Greensboro: mentioned in 8 stories
+
+**Most-Mentioned Organizations**:
+- Caroline County Commissioners: 90 stories
+- Maryland General Assembly: 32 stories
+- Caroline County Sheriff's Office: 22 stories
+- Greensboro Town Council: 19 stories
+- Caroline County Government: 16 stories
+- Caroline County Planning Commission: 11 stories
+- Town of Federalsburg: 10 stories
+- Federalsburg Town Council: 9 stories
+
+**Recurring Events/Issues**:
+- Caroline County Commissioners Meeting: 68 mentions
+- Greensboro Town Council Meeting: 10 mentions
+- Caroline County Commission Meeting: 6 mentions
+- Denton Town Council Meeting: 5 mentions
+- Caroline County Commissioners Public Hearing: 5 mentions
+- Federalsburg Town Council Meeting: 4 mentions
+- Dorchester County Council Meeting: 3 mentions
+- Caroline County Planning Commission Meeting: 3 mentions
+
+**Key Initiatives/Projects**:
+- Senate Bill 931: 5 mentions
+- Caroline County Compensation Review Commission: 3 mentions
+- Consolidated Transportation Program: 3 mentions
+- Blueprint for Maryland's Future: 3 mentions
+- Regional Detention Center: 2 mentions
+- Solar Energy Ordinance: 2 mentions
+- Caroline County Community Reinvestment and Repair Fund: 2 mentions
+- House Bill 991: 2 mentions
+
+**Sample High-Priority Stories** (for narrative context):
+
+**Story 1**: "Caroline County Passes Fiscal Year 2026 Budget"
+- Date: 2025-06-10 | Author: Ahmad Garnett | Topic: Local Government
+- Key people: Daniel Fox — Deputy County Administrator, Caroline County, Frank Bartz — Commissioner, Caroline County, Larry Porter — Commission Vice President, Caroline County Commission
+- Key organizations: Big Brothers Big Sisters of the Eastern Shore, Caroline County Commissioners, Caroline County Government
+- Key events: Caroline County Commissioners Meeting
+
+**Story 2**: "Settlement Calls for Apology, Restorative Measures in Federalsburg Voting Rights Case"
+- Date: 2024-04-07 | Author: Maggie Trovato | Topic: Race & Diversity
+- Key people: Brandy James — District 1 Councilwoman, Town of Federalsburg Town Council, Carl Snowden — Convener, Caucus of African American Leaders, Darlene Pitt Hammond — Council Member, Town of Federalsburg Town Council
+- Key organizations: American Civil Liberties Union of Maryland Foundation, Caroline County Branch of the NAACP, Caucus of African American Leaders
+- Key events: Federalsburg Town Council Election
+
+**Story 3**: "Commissioners Approve Extended MOU with Sheriff's Office for Ridgely Policing"
+- Date: 2024-05-08 | Author: Tom McCall | Topic: Public Safety
+- Key people: Donald L. Baker — Sheriff, Caroline County Sheriff's Office, Frank Bartz — Commissioner, Caroline County, Larry Porter — Commission Vice President, Caroline County Commission
+- Key organizations: Caroline County Commissioners, Caroline County Sheriff's Office, Ridgely Town Commissioners
+- Key events: Caroline County Commissioners Meeting, Ridgely Commissioners Meeting
+
+**Story 4**: "Federalsburg Sees More Staff Turnover as Treasurer Leaves"
+- Date: 2025-10-15 | Author: Ahmad Garnett agarnett@chespub.com | Topic: Local Government
+- Key people: Debbie Lawler — Former Town Treasurer, Town of Federalsburg, Jamie Washington — Treasurer, Town of Federalsburg, Kim Abner — Mayor, Town of Federalsburg
+- Key organizations: Caroline County, Federalsburg Mayor and Council, Federalsburg Police Department
+
+**Story 5**: "Federalsburg Council Member Confronts Colleagues Over Emails Calling Her 'Rogue'"
+- Date: 2025-10-07 | Author: Ahmad Garnett agarnett@chespub.com | Topic: Local Government
+- Key people: Brandy James — District 1 Councilwoman, Town of Federalsburg Town Council, Ian Ferguson — Council Member, Town of Federalsburg Town Council, Ken Decker — Former County Administrator, Caroline County
+- Key organizations: Federalsburg Town Council, Federalsburg Town Government
+- Key events: Federalsburg Town Council Meeting, Public Hearing on Water and Sewer Rate Increase
+
+**Story 6**: "Caroline County Commissioners/Sept. 16, 2025"
+- Date: 2025-09-17 | Author: Ahmad Garnett agarnett@chespub.com | Topic: Local Government
+- Key people: County Administrator — Caroline County Administration, State Legislators — Maryland General Assembly
+- Key organizations: Caroline County Administration, Caroline County Commissioners, Consolidated Transportation Program
+- Key events: Caroline County Commissioners Meeting, Public Hearing for Legislative Bill #2025-009
+
+**Story 7**: "Caroline County Commissioners/ Sept. 9, 2025"
+- Date: 2025-09-11 | Author: Ahmad Garnett agarnett@chespub.com | Topic: Local Government
+- Key people: Joshua Parker — Director of Environmental Health, Caroline County, Robin Cahall — Health Officer, Caroline County
+- Key organizations: Caroline County Commissioners, Caroline County Environmental Health Office, Caroline County Health Department
+- Key events: Caroline County Commissioners Meeting
+
+**Story 8**: "Denton Town Council/ Sept. 4, 2025"
+- Date: 2025-09-05 | Author: Ahmad Garnett | Topic: Local Government
+- Key organizations: Denton Planning Commission, Denton Town Council
+- Key events: Denton Town Council Meeting
+
+**Most-Covered Municipalities**:
+- Denton: 85 stories
+- Greensboro: 34 stories
+- Federalsburg: 31 stories
+- Ridgely: 23 stories
+- Easton: 11 stories
+- Preston: 7 stories
+- Cambridge: 7 stories
+- Goldsboro: 5 stories
+- Hurlock: 4 stories
+- St. Michaels: 3 stories
+
+
+### Story-to-Meeting Connections
+
+*Use these to strengthen Section 7 by showing which issues got media coverage*
+
+**Meeting Topic**: Detention Center Crisis and the Path Toward a $32–$40 Million Replacement
+**Related Stories** (5 found):
+  - "Caroline Commissioners OK Reallocation Bill" (2023-09-13) by Connie Connolly; cconnolly@chespub.com
+  - "Historical Society Relationship and Regional Detention Center Update" (2025-01-31) by Ahmad Garnett agarnett@chespub.com
+  - "Caroline Commissioners Talk New Regional Detention Center" (2024-10-17) by Tom McCall
+
+**Meeting Topic**: Solar & Wastewater Regulatory Overhaul Under State Mandates
+**Related Stories** (3 found):
+  - "Governor Proposes Over $60M in Capital Funding for Mid-Shore Projects" (2024-01-21) by Natalie Jones
+  - "Caroline County Worried Solar Concerns Will Grow Bigger if Proposed Bills Are Passed" (2025-03-05) by Ahmad Garnett agarnett@chespub.com
+  - "As Pressures to Increase Solar Mount, Caroline County Examines Options to Hold Its Ground" (2024-12-20) by Ahmad Garnett agarnett@chespub.com
+
+**Meeting Topic**: Opioid Settlement Funding and MAT Requirements in the Detention Center
+**Related Stories** (5 found):
+  - "Historical Society Relationship and Regional Detention Center Update" (2025-01-31) by Ahmad Garnett agarnett@chespub.com
+  - "Settlement Calls for Apology, Restorative Measures in Federalsburg Voting Rights Case" (2024-04-07) by Maggie Trovato
+  - "Caroline Commissioners Talk New Regional Detention Center" (2024-10-17) by Tom McCall
+
+
+
+## Key Sources — Caroline County
+
+### County Commissioners/Council
+
+| Name | Position | Party | Stories Mentioning | Notes |
+|------|----------|-------|-------------------|-------|
+| Travis Breeding | President | Republican | 0 |  |
+| Larry C. Porter | Vice President | Republican | 0 |  |
+| Franklin Bartz | Commissioner | Republican | 0 |  |
+
+**County Contact**: Phone: (410) 479-0660 | Website: www.carolinemd.org/132/County-Commissioners-Office
+
+### Judicial Officials
+
+| Name | Position |
+|------|----------|
+| Heather Lynne Price | Judge |
+| Michelle Bethke | Judge |
+| Logan R. Rogers | Judge |
+| Cheryl B. Miller | Judge |
+
+### Municipal Leadership
+
+| Municipality | Chief Executive | Council Members | Stories | Website |
+|--------------|-----------------|-----------------|---------|----------|
+| Federalsburg | Kimberly M. Jahnigen Abner (Mayor (At-Large Representative)) | Brandy R. James, Darlene M. Hammond, Debra V. Sewell (+1 more) | 31 | https://www.townoffederalsburg.org/ |
+| Denton | Abigail W. McNinch (Mayor) | Dallas Lister, Walter Keith Johnson, Frank Taylor (+1 more) | 85 | https://dentonmaryland.com/ |
+| Greensboro | David Spencer (Mayor) | Kimberly Ernest, Pete Brelia, Bob Harrison (+1 more) | 34 | https://www.greensboromd.org/ |
+| Ridgely | No data | John Hurley, Brad Sears, Chad Leister | 23 | https://ridgelymd.org/ |
+
+### Other Key Figures (from story coverage)
+
+| Name | Story Mentions | Likely Role |
+|------|----------------|-------------|
+| Travis Breeding — County Commissioner, Caroline County Commissioners | 54 | (staff/advocate/stakeholder) |
+| Larry Porter — Commission Vice President, Caroline County Commission | 52 | (staff/advocate/stakeholder) |
+| Frank Bartz — Commissioner, Caroline County | 18 | (staff/advocate/stakeholder) |
+| Stewart Barroll — Attorney, Caroline County | 18 | (staff/advocate/stakeholder) |
+| Daniel Fox — Deputy County Administrator, Caroline County | 18 | (staff/advocate/stakeholder) |
+| Kim Abner — Mayor, Town of Federalsburg | 12 | (staff/advocate/stakeholder) |
+| Wes Moore — Governor, State of Maryland | 11 | (staff/advocate/stakeholder) |
+| Kathleen Freeman — Unidentified Title, Caroline County Government | 9 | (staff/advocate/stakeholder) |
+| Donnie Baker — Sheriff, Caroline County Sheriff | 8 | (staff/advocate/stakeholder) |
+| Cindy Yost — Town Manager, Town of Greensboro | 8 | (staff/advocate/stakeholder) |
+
+*Note: Story mention counts based on analysis of local news coverage. Roles for non-officials inferred from context.*
+
+
+---
+
+
+## SECTION 7: Key Local Government Issues to Watch
+
+Identify 4-6 major issues by synthesizing:
+1. Issues from the Meeting Minutes summary
+2. Recurring themes in the Story Coverage (check "Recurring Events/Issues" and "Key Initiatives/Projects")
+3. Warnings from the Budget Insights
+
+For EACH issue, write EXACTLY 3 paragraphs (130-160 words each):
+
+**Paragraph 1: What's Happening**
+- State the issue clearly with a strong topic sentence
+- Cite specific meeting dates and votes from the minutes
+- Reference story titles/dates that covered this issue
+- Include key people involved (from both minutes and story data)
+- Give concrete numbers: dollar amounts, vote counts, project timelines, affected populations
+
+**Paragraph 2: Why It Matters**
+- Explain fiscal implications (budget impact, tax consequences, debt)
+- Describe service delivery impacts (who benefits, who's affected)
+- Note quality-of-life or economic development effects
+- Connect to broader county challenges (aging infrastructure, demographic shifts, etc.)
+- Explain political significance (election implications, state mandate pressure)
+
+**Paragraph 3: Stakeholder Tensions**
+- Name specific officials and their positions (use names from minutes and stories)
+- Identify advocacy groups, developers, or community organizations involved
+- Describe the nature of the conflict (fiscal vs. service, growth vs. preservation, local vs. state)
+- Note what's at stake for different groups
+- End with an accountability question: What should reporters watch? What records should be requested?
+
+**Issue Selection Priority**:
+- Issues mentioned in BOTH minutes and multiple news stories (highest priority)
+- Budget red flags that appear in multiple budget insights
+- Topics with the most story coverage or mentions in "Key Initiatives/Projects"
+- Issues involving named officials who appear frequently
+
+**Format**:
+- Use H3 headings for each issue: "### Issue Name"
+- Lead each issue with a compelling, specific title (not "Budget Concerns" but "County Faces $17M Structural Deficit Despite Tax Increases")
+- Connect stories to official actions whenever possible
+- Use past tense for events that happened, present tense for ongoing situations
+
+**Evidence Requirements**:
+Every claim must be anchored in:
+- A specific meeting date and vote from the minutes, OR
+- A story title and date from the coverage summary, OR  
+- A dollar amount or percentage from the budget analysis
+
+Do NOT speculate or invent tensions that aren't documented.
+
+
+**CRITICAL RULES**:
+1. Use ONLY facts from the data blocks above
+2. Do NOT invent names, numbers, dates, or organizations
+3. If something is not in the data, omit it (do NOT write "not provided in dataset")
+4. Write in past tense (events already happened)
+5. Be specific: use actual names, dollar amounts, and dates
+6. Focus on what IS known, not what's missing
+
+Begin writing Section 7 now.

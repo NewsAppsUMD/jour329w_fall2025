@@ -1,0 +1,598 @@
+{
+  "census": {
+    "origin": "Queen Anne's County was created in 1706 (Chapter 3, Acts of 1706). The County was named for Queen Anne (1665-1714), who ruled Great Britain and Ireland from 1702 to 1714. During Queen Anne's reign, Maryland was governed as a royal colony rather than as a proprietary province.",
+    "county_name": "Queen Annes",
+    "fips_code": "24035",
+    "census_api_data": {
+      "population": {
+        "total": 50316,
+        "male": 25045,
+        "female": 25271,
+        "median_age": 44.6
+      },
+      "race_ethnicity": {
+        "white_alone": 42958,
+        "black_alone": 2952,
+        "hispanic_latino": 2303
+      },
+      "economics": {
+        "median_household_income": 108332,
+        "median_home_value": 421900,
+        "labor_force": 27224,
+        "unemployed": 987
+      },
+      "education": {
+        "bachelors_degree": 8244,
+        "masters_degree": 3623,
+        "professional_degree": 774,
+        "doctorate_degree": 549
+      },
+      "housing": {
+        "total_units": 21405,
+        "occupied_units": 19351,
+        "vacant_units": 2054
+      },
+      "enhanced": {
+        "poverty": {
+          "poverty_rate": 6.9,
+          "people_in_poverty": 3419,
+          "children_in_poverty": 143,
+          "children_poverty_rate": 0.3,
+          "seniors_in_poverty": 108,
+          "seniors_poverty_rate": 0.2
+        },
+        "housing_affordability": {
+          "homeownership_rate": 81.4,
+          "owner_occupied": 15760,
+          "renter_occupied": 3591,
+          "median_rent": 1600,
+          "renters_cost_burdened_30plus": 1719,
+          "renters_cost_burdened_30plus_pct": 47.9,
+          "renters_severely_cost_burdened_50plus": 737,
+          "renters_severely_cost_burdened_50plus_pct": 20.5,
+          "owners_cost_burdened_30plus": 3586,
+          "owners_cost_burdened_30plus_pct": 22.8,
+          "owners_severely_cost_burdened_50plus": 1345,
+          "owners_severely_cost_burdened_50plus_pct": 8.5
+        },
+        "age_breakdown": {
+          "under_5_years": 0,
+          "under_5_pct": 0.0,
+          "school_age_5_17": 0,
+          "school_age_pct": 0.0,
+          "working_age_18_64": 50316,
+          "working_age_pct": 100.0,
+          "seniors_65_plus": 0,
+          "seniors_pct": 0.0
+        },
+        "broadband_access": {
+          "total_households": 19351,
+          "with_broadband": 16725,
+          "broadband_pct": 86.4,
+          "no_internet": 1314,
+          "no_internet_pct": 6.8
+        },
+        "education_attainment_full": {
+          "total_pop_25plus": 36066,
+          "less_than_high_school": 2430,
+          "less_than_high_school_pct": 6.7,
+          "high_school_graduate": 10461,
+          "high_school_graduate_pct": 29.0,
+          "some_college": 7193,
+          "some_college_pct": 19.9,
+          "associates_degree": 2792,
+          "associates_degree_pct": 7.7,
+          "bachelors_degree": 8244,
+          "bachelors_degree_pct": 22.9,
+          "graduate_degree": 4946,
+          "graduate_degree_pct": 13.7
+        },
+        "health_insurance": {
+          "uninsured_total": 1449,
+          "uninsured_rate": 2.9,
+          "children_uninsured": 123,
+          "children_uninsured_rate": 0.2,
+          "adults_18_64_uninsured": 1296,
+          "seniors_65plus_uninsured": 30
+        }
+      }
+    },
+    "quickfacts": null,
+    "last_updated": "2025-11-29"
+  },
+  "officials": {
+    "county_name": "Queen Annes",
+    "county_officials": {
+      "legislative_branch": [
+        {
+          "name": "Christopher M. Corchiarino",
+          "party": "Republican",
+          "title": "President",
+          "selection_method": "chosen by Board in Nov"
+        },
+        {
+          "name": "Philip L. Dumenil",
+          "party": "Republican",
+          "title": "Vice President",
+          "selection_method": "chosen by Board in Nov"
+        },
+        {
+          "name": "Jack N. Wilson, Jr.",
+          "party": "Republican",
+          "title": "Commissioner",
+          "district": "District 1"
+        },
+        {
+          "name": "James J. Moran",
+          "party": "Republican",
+          "title": "Commissioner At-Large"
+        }
+      ],
+      "judicial_branch": [
+        {
+          "name": "Cheryl B. Miller",
+          "title": "Judge"
+        }
+      ]
+    },
+    "municipalities": [],
+    "other_info": {
+      "meeting_schedule": "2nd & 4th Tuesday, 5:30 p.m (subject to change;",
+      "address": "107 North Liberty St., Centreville, MD 21617",
+      "phone": "(410) 758-4098",
+      "website": "www.qac.org/617/Board-of-County-Commissioners"
+    },
+    "county_seat": "Centreville",
+    "population_2020": "49,874"
+  },
+  "municipal_officials": [
+    {
+      "municipality_name": "Centreville",
+      "county": "Queen Anne's",
+      "website": "https://www.townofcentreville.org/",
+      "chief_executive": null,
+      "council_members": [
+        {
+          "name": "Ashley H. Kaiser, Esq.",
+          "title": "Council President",
+          "term_ends": "October 2026",
+          "bio": "Ashley lives in the Providence Farms community with her husband and two sons. She is an attorney and non-profit professional with experience in advocacy at all levels of government. Ashley is a graduate of Queen Anne's County High School with a passion for preserving the quality of life in our community."
+        },
+        {
+          "name": "Jeff D. Kiel",
+          "title": "Council Vice President",
+          "term_ends": "October 2026"
+        },
+        {
+          "name": "Daniel B. Worth",
+          "title": "Council Member",
+          "term_ends": "October 2025",
+          "bio": "Dan grew up in Dundalk, a suburb of Baltimore. He attended Drexel University where he received a degree in Electrical Engineering in 1980. He moved to Centreville to start a family in 1998 and has three daughters. In 2017, he retired from NASA and began working part-time as a contractor at NASA."
+        },
+        {
+          "name": "Sandy L. Huffer",
+          "title": "Council Member",
+          "term_ends": "October 2027",
+          "bio": "Sandy grew up in Centreville where she developed her love for the Eastern Shore. Graduated from The University of Delaware with a Bachelor's degree majoring in Accounting. Retired in 2021 as Director of Financial Operations at Anne Arundel Medical Center in Annapolis. She and her partner restored and reside at one of the Captains Houses in Centreville on Corsica Creek which is on the National Register of Historic Places."
+        },
+        {
+          "name": "Jim A. Beauchamp",
+          "title": "Council Member",
+          "term_ends": "October 2025"
+        }
+      ],
+      "source_urls": [
+        "https://www.townofcentreville.org/council"
+      ],
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Queenstown",
+      "county": "Queen Anne's",
+      "website": "http://www.queenstown-md.com/",
+      "chief_executive": {
+        "name": "Alton Hardee, Jr",
+        "title": "President"
+      },
+      "council_members": [
+        {
+          "name": "Thomas B. Willis, Jr",
+          "title": "Commissioner"
+        },
+        {
+          "name": "Bryon Callahan",
+          "title": "Commissioner"
+        }
+      ],
+      "source_urls": [],
+      "scraped_date": "2025-11-29"
+    }
+  ],
+  "schools": {
+    "county_name": "Queen Annes",
+    "schools": {
+      "district_name": "Queen Anne's County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.qacps.org",
+      "schools": [
+        {
+          "name": "Bayside Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 65
+        },
+        {
+          "name": "Church Hill Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 45
+        },
+        {
+          "name": "Grasonville Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 54
+        },
+        {
+          "name": "Kennard Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 48
+        },
+        {
+          "name": "Matapeake Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 79
+        },
+        {
+          "name": "Sudlersville Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 54
+        },
+        {
+          "name": "Sudlersville Middle School",
+          "level": "Elementary/Middle",
+          "star_rating": 3,
+          "percentile": 11
+        },
+        {
+          "name": "Centreville Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 53
+        },
+        {
+          "name": "Matapeake Middle School",
+          "level": "Middle",
+          "star_rating": 4,
+          "percentile": 75
+        },
+        {
+          "name": "Stevensville Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 48
+        },
+        {
+          "name": "Kent Island High School",
+          "level": "High",
+          "star_rating": 4,
+          "percentile": 72
+        },
+        {
+          "name": "Queen Anne's County High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 58
+        }
+      ],
+      "total_enrollment": 6626
+    }
+  },
+  "elections": {
+    "county_name": "Queen Anne's",
+    "board_of_elections": {
+      "address": "425 Piney Narrows Road, Chester, MD 21619",
+      "phone": "(410) 758-4080",
+      "fax": "(410) 758-4096",
+      "email": "elections@qac.org",
+      "website": "https://www.qac.org/153/Board-of-Elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 36,000",
+      "democrat": "~30%",
+      "republican": "~48%",
+      "unaffiliated": "~20%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Kent Island High School",
+      "Queen Anne's County High School",
+      "Centreville Elementary School",
+      "Sudlersville Elementary School",
+      "Stevensville Middle School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "66.2%",
+          "harris_kamala_democrat": "32.5%",
+          "other": "1.3%",
+          "total_votes": "Approximately 26,000"
+        },
+        "turnout": "72%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "33.5%",
+          "cox_dan_republican": "64.8%",
+          "other": "1.7%",
+          "total_votes": "Approximately 22,000"
+        },
+        "turnout": "62%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Queen Anne's County Library, 121 S. Commerce Street, Centreville, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  "top_issues": [
+    {
+      "issue_name": "Infrastructure Development and Capacity",
+      "story_count": 12,
+      "date_range": "2024-01-13 to 2025-08-28",
+      "significance": "Infrastructure development and capacity issues are crucial for Queen Anne's County as they directly impact growth, transportation, and public services. The county is experiencing growth pressures and needs to manage infrastructure to accommodate new developments while maintaining quality of life for residents.",
+      "recent_developments": "Recent developments include the consideration of a moratorium on new growth due to sewer capacity issues (2025-08-28), discussions on connecting county trails (2024-10-08), and the state plan to replace the Chesapeake Bay Bridge with two new spans (2024-11-12). The county is also upgrading wastewater handling in Centreville (2024-04-12).",
+      "story_indices": [
+        4,
+        13,
+        16,
+        19,
+        22,
+        24,
+        26,
+        27,
+        32,
+        38,
+        39,
+        51
+      ],
+      "story_references": [
+        {
+          "title": "QA County Halts New Growth: Moratorium Tied to Sewer Capacity; Land Preservation, Park Upgrades Approved",
+          "date": "2025-08-28",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Centreville Considers Sidewalk Repair and RV Parking",
+          "date": "2025-02-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "A Public Hearing Will Come for Potential Regional Detention Center",
+          "date": "2025-01-22",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Shore Residents Share Mixed Views on New Chesapeake Bay Bridge",
+          "date": "2024-12-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Cost for Pedestrian Trail Bridge Connector Estimated at 8 Million",
+          "date": "2024-12-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "State Now Plans to Replace the Chesapeake Bay Bridge with Two New Spans",
+          "date": "2024-11-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Caroline Commissioners Talk New Regional Detention Center",
+          "date": "2024-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Queen Anne's Looking to Connect County Trails",
+          "date": "2024-10-08",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Ramp Closure Pilot Program Opening Weekend Sees Tentative Success",
+          "date": "2024-06-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Upgrades Needed to Handle Wastewater in Centreville",
+          "date": "2024-04-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Walk This Way: County Presents Draft Pedestrian and Bicycle Master Plan",
+          "date": "2024-04-12",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Queen Anne's County Fairgrounds Undergoing Facelift",
+          "date": "2024-01-13",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "issue_name": "Development and Zoning Regulations",
+      "story_count": 9,
+      "date_range": "2024-01-10 to 2025-04-19",
+      "significance": "Development and zoning regulations are significant for Queen Anne's County as they influence how land is used, affecting both economic development and quality of life. The county needs to balance growth with preserving its character and environment.",
+      "recent_developments": "Recent developments include the regulation of short-term rentals (2024-11-01, 2024-12-11), discussions on cannabis expansion (2025-01-29), and proposals for new developments such as the Chesapeake Beach Club Hotel (2024-12-27) and infill affordable housing in Grasonville (2024-12-26). Residents have protested certain developments, like the planned Royal Farms development (2025-04-19).",
+      "story_indices": [
+        8,
+        15,
+        17,
+        18,
+        25,
+        42,
+        44,
+        45,
+        53
+      ],
+      "story_references": [
+        {
+          "title": "Residents Protest Planned Royal Farms Development, Citing Safety Concerns",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Centreville Planning Commission Tables Cannabis Expansion",
+          "date": "2025-01-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Potential Chesapeake Beach Club Hotel Receives Major Site Plan Approval",
+          "date": "2024-12-27",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Grasonville proposal looks to develop farmland for infill affordable housing",
+          "date": "2024-12-26",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Public Hearing Discusses Short Term Rental Regulations",
+          "date": "2024-11-01",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Pier Length Changes Could Soon Require Variance",
+          "date": "2024-03-29",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Queenstown Commissioners Talk Cannabis and Chickens",
+          "date": "2024-03-21",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Town Keeping Watchful Eye on Centreville Mill",
+          "date": "2024-03-15",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        },
+        {
+          "title": "Odor Lingers as Centreville Addresses Cannabis Facility",
+          "date": "2024-01-10",
+          "url": "",
+          "beatbook_tag": "Development & Zoning"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Financial Management",
+      "story_count": 7,
+      "date_range": "2024-04-05 to 2025-04-19",
+      "significance": "Budget and financial management are critical for Queen Anne's County as they determine the county's ability to fund public services and infrastructure. The county faces challenges related to cost shifts from the state and potential service cuts due to tax breaks.",
+      "recent_developments": "Recent developments include the proposed FY25 budget (2024-04-05), discussions on cost shifts from the state to counties (2025-03-01), and concerns about the impact of proposed tax breaks on lower-income counties (2025-03-06). The county has also approved the Chesapeake College budget request (2025-04-19).",
+      "story_indices": [
+        9,
+        10,
+        11,
+        12,
+        21,
+        29,
+        41
+      ],
+      "story_references": [
+        {
+          "title": "Counties Approve Chesapeake College Budget Request, Shift Cost of Tech Center",
+          "date": "2025-04-19",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "How ARPA Funds Shaped Maryland's Mid-Shore",
+          "date": "2025-03-20",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Proposed Tax Breaks Could Mean Service Cuts in Lower-Income Counties",
+          "date": "2025-03-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "MACo Officials Say Cost Shifts from State to Counties Are 'Absurd,' Unfair",
+          "date": "2025-03-01",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "QAC Hears 5-Year Capital Project Preview",
+          "date": "2024-12-06",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Lack of funding a 'recipe of frustration'",
+          "date": "2024-08-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "QAC Hears Proposed FY25 Budget",
+          "date": "2024-04-05",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "budget_summary": "# Queen Anne's County FY2026 Budget Analysis\n\n## Executive Summary\n\nQueen Anne's County approved a $209 million budget for fiscal year 2026 (beginning July 1, 2025), representing an 8.2% increase from the FY2025 revised budget of $193.1 million. The budget maintains all existing tax rates while significantly increasing funding for education and public safety.\n\n## Tax Rates (Unchanged from FY2025)\n\n| Tax Type | Rate | Notes |\n|----------|------|-------|\n| **Real Property Tax** | $0.83 per $100 as..."
+}

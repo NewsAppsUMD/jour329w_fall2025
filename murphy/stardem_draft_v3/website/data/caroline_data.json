@@ -1,0 +1,766 @@
+{
+  "census": {
+    "origin": "Caroline County was created in 1773 from Dorchester and Queen Anne's counties (Chapter 10, Acts of 1773). Lady Caroline Eden (c.1745-1792) gave her name to the County. She was the wife of Maryland's last colonial governor, Sir Robert Eden (1741-1784); the daughter of Charles Calvert, 5th Lord Baltimore; and the sister of Frederick Calvert, 6th Lord Baltimore.",
+    "county_name": "Caroline",
+    "fips_code": "24011",
+    "census_api_data": {
+      "population": {
+        "total": 33320,
+        "male": 16414,
+        "female": 16906,
+        "median_age": 39.5
+      },
+      "race_ethnicity": {
+        "white_alone": 25025,
+        "black_alone": 4565,
+        "hispanic_latino": 2736
+      },
+      "economics": {
+        "median_household_income": 65326,
+        "median_home_value": 258800,
+        "labor_force": 16808,
+        "unemployed": 775
+      },
+      "education": {
+        "bachelors_degree": 2362,
+        "masters_degree": 1335,
+        "professional_degree": 259,
+        "doctorate_degree": 88
+      },
+      "housing": {
+        "total_units": 13473,
+        "occupied_units": 12013,
+        "vacant_units": 1460
+      },
+      "enhanced": {
+        "poverty": {
+          "poverty_rate": 12.9,
+          "people_in_poverty": 4228,
+          "children_in_poverty": 218,
+          "children_poverty_rate": 0.7,
+          "seniors_in_poverty": 103,
+          "seniors_poverty_rate": 0.3
+        },
+        "housing_affordability": {
+          "homeownership_rate": 72.1,
+          "owner_occupied": 8658,
+          "renter_occupied": 3355,
+          "median_rent": 1074,
+          "renters_cost_burdened_30plus": 1619,
+          "renters_cost_burdened_30plus_pct": 48.3,
+          "renters_severely_cost_burdened_50plus": 650,
+          "renters_severely_cost_burdened_50plus_pct": 19.4,
+          "owners_cost_burdened_30plus": 1869,
+          "owners_cost_burdened_30plus_pct": 21.6,
+          "owners_severely_cost_burdened_50plus": 743,
+          "owners_severely_cost_burdened_50plus_pct": 8.6
+        },
+        "age_breakdown": {
+          "under_5_years": 0,
+          "under_5_pct": 0.0,
+          "school_age_5_17": 0,
+          "school_age_pct": 0.0,
+          "working_age_18_64": 33320,
+          "working_age_pct": 100.0,
+          "seniors_65_plus": 0,
+          "seniors_pct": 0.0
+        },
+        "broadband_access": {
+          "total_households": 12013,
+          "with_broadband": 10284,
+          "broadband_pct": 85.6,
+          "no_internet": 1365,
+          "no_internet_pct": 11.4
+        },
+        "education_attainment_full": {
+          "total_pop_25plus": 22837,
+          "less_than_high_school": 3558,
+          "less_than_high_school_pct": 15.6,
+          "high_school_graduate": 9012,
+          "high_school_graduate_pct": 39.5,
+          "some_college": 4772,
+          "some_college_pct": 20.9,
+          "associates_degree": 1451,
+          "associates_degree_pct": 6.4,
+          "bachelors_degree": 2362,
+          "bachelors_degree_pct": 10.3,
+          "graduate_degree": 1682,
+          "graduate_degree_pct": 7.4
+        },
+        "health_insurance": {
+          "uninsured_total": 1367,
+          "uninsured_rate": 4.1,
+          "children_uninsured": 190,
+          "children_uninsured_rate": 0.6,
+          "adults_18_64_uninsured": 1168,
+          "seniors_65plus_uninsured": 9
+        }
+      }
+    },
+    "quickfacts": null,
+    "last_updated": "2025-11-29"
+  },
+  "officials": {
+    "county_name": "Caroline",
+    "county_officials": {
+      "legislative_branch": [
+        {
+          "name": "Travis Breeding",
+          "party": "Republican",
+          "title": "President",
+          "selection_method": "chosen by County Commissioners in Nov"
+        },
+        {
+          "name": "Larry C. Porter",
+          "party": "Republican",
+          "title": "Vice President",
+          "selection_method": "chosen by County Commissioners in Nov"
+        },
+        {
+          "name": "Franklin Bartz",
+          "party": "Republican",
+          "title": "Commissioner"
+        }
+      ],
+      "judicial_branch": [
+        {
+          "name": "Heather Lynne Price",
+          "title": "Judge"
+        },
+        {
+          "name": "Michelle Bethke",
+          "title": "Judge"
+        },
+        {
+          "name": "Logan R. Rogers",
+          "title": "Judge"
+        },
+        {
+          "name": "Cheryl B. Miller",
+          "title": "Judge"
+        }
+      ]
+    },
+    "municipalities": [],
+    "other_info": {
+      "meeting_schedule": "Tuesdays, 9:00 a.m. (except for 5th Tuesday)",
+      "address": "123, 109 Market St., Denton, MD 21629",
+      "phone": "(410) 479-0660",
+      "website": "www.carolinemd.org/132/County-Commissioners-Office"
+    },
+    "county_seat": "Denton",
+    "population_2020": "33,293"
+  },
+  "municipal_officials": [
+    {
+      "municipality_name": "Federalsburg",
+      "county": "Caroline",
+      "website": "https://www.townoffederalsburg.org/",
+      "chief_executive": {
+        "name": "Kimberly M. Jahnigen Abner",
+        "title": "Mayor (At-Large Representative)",
+        "email": "kmabner@federalsburg.org"
+      },
+      "council_members": [
+        {
+          "name": "Brandy R. James",
+          "title": "District 1 Council Representative",
+          "email": "bjames@federalsburg.org"
+        },
+        {
+          "name": "Darlene M. Hammond",
+          "title": "District 1 Council Representative",
+          "email": "dhammond@federalsburg.org"
+        },
+        {
+          "name": "Debra V. Sewell",
+          "title": "District 2 Council Representative",
+          "email": "dsewell@federalsburg.org"
+        },
+        {
+          "name": "Ian Ferguson",
+          "title": "District 2 Council Representative",
+          "email": "iferguson@federalsburg.org"
+        }
+      ],
+      "contact": {
+        "website": "https://www.townoffederalsburg.org/government/mayor_and_council.php"
+      },
+      "source": "https://www.townoffederalsburg.org/government/mayor_and_council.php",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Denton",
+      "county": "Caroline",
+      "website": "https://dentonmaryland.com/",
+      "chief_executive": {
+        "name": "Abigail W. McNinch",
+        "title": "Mayor",
+        "email": "amcninch@dentonmaryland.com",
+        "term_expires": "12/31/2028"
+      },
+      "council_members": [
+        {
+          "name": "Dallas Lister",
+          "title": "Council Member",
+          "email": "dlister@dentonmaryland.com",
+          "term_expires": "12/31/2025"
+        },
+        {
+          "name": "Walter Keith Johnson",
+          "title": "Council Member",
+          "email": "kjohnson@dentonmaryland.com",
+          "term_expires": "12/31/2026"
+        },
+        {
+          "name": "Frank Taylor",
+          "title": "Council Member",
+          "email": "ftaylor@dentonmaryland.com",
+          "term_expires": "12/31/2027"
+        },
+        {
+          "name": "Lester L. Branson",
+          "title": "Council Member",
+          "email": "Lbranson@dentonmaryland.com",
+          "term_expires": "12/31/2029"
+        }
+      ],
+      "contact": {
+        "website": "https://dentonmaryland.com/town-council/town-council-staff/"
+      },
+      "source": "https://dentonmaryland.com/town-council/town-council-staff/",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Greensboro",
+      "county": "Caroline",
+      "website": "https://www.greensboromd.org/",
+      "chief_executive": {
+        "name": "David Spencer",
+        "title": "Mayor"
+      },
+      "council_members": [
+        {
+          "name": "Kimberly Ernest",
+          "title": "Councilmember"
+        },
+        {
+          "name": "Pete Brelia",
+          "title": "Councilmember"
+        },
+        {
+          "name": "Bob Harrison",
+          "title": "Councilmember"
+        },
+        {
+          "name": "Joe Noon",
+          "title": "Councilmember"
+        }
+      ],
+      "contact": {
+        "website": "https://www.greensboromd.org/about-the-mayor-council/"
+      },
+      "source": "https://www.greensboromd.org/about-the-mayor-council/",
+      "scraped_date": "2025-11-29"
+    },
+    {
+      "municipality_name": "Ridgely",
+      "county": "Caroline",
+      "website": "https://ridgelymd.org/",
+      "government_type": "Three-member Board of Commissioners",
+      "council_members": [
+        {
+          "name": "John Hurley",
+          "title": "Commissioner",
+          "term_expires": "May 2027"
+        },
+        {
+          "name": "Brad Sears",
+          "title": "Commissioner",
+          "elected": "July 2024"
+        },
+        {
+          "name": "Chad Leister",
+          "title": "Commissioner"
+        }
+      ],
+      "meeting_schedule": "First Monday of each month, 6:00 PM",
+      "contact": {
+        "address": "Town Office",
+        "clerk": "Stephanie Berkey",
+        "email": "sberkey@ridgelymd.org",
+        "phone": "(410) 634-2177",
+        "website": "https://ridgelymd.org/town-commissioners/"
+      },
+      "notes": "Commissioner in third year of term serves as Board President. Elections held fourth Monday in April.",
+      "source": "https://ridgelymd.org/town-commissioners/",
+      "scraped_date": "2025-11-29"
+    }
+  ],
+  "schools": {
+    "county_name": "Caroline",
+    "schools": {
+      "district_name": "Caroline County Public Schools",
+      "superintendent": "Contact via district website",
+      "website": "https://www.carolineschools.org",
+      "schools": [
+        {
+          "name": "Denton Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 42
+        },
+        {
+          "name": "Federalsburg Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 17
+        },
+        {
+          "name": "Greensboro Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 49
+        },
+        {
+          "name": "Preston Elementary School",
+          "level": "Elementary",
+          "star_rating": 4,
+          "percentile": 67
+        },
+        {
+          "name": "Ridgely Elementary School",
+          "level": "Elementary",
+          "star_rating": 3,
+          "percentile": 34
+        },
+        {
+          "name": "Colonel Richardson Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 44
+        },
+        {
+          "name": "Lockerman Middle School",
+          "level": "Middle",
+          "star_rating": 3,
+          "percentile": 29
+        },
+        {
+          "name": "Colonel Richardson High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 54
+        },
+        {
+          "name": "North Caroline High School",
+          "level": "High",
+          "star_rating": 3,
+          "percentile": 38
+        }
+      ],
+      "total_enrollment": 4781
+    }
+  },
+  "elections": {
+    "county_name": "Caroline",
+    "board_of_elections": {
+      "address": "403 S. 7th Street, Denton, MD 21629",
+      "phone": "(410) 479-4020",
+      "fax": "(410) 479-8453",
+      "email": "elections@carolinemd.org",
+      "website": "https://www.carolinemd.org/departments/board-of-elections",
+      "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+      "director": "Contact local office for current director"
+    },
+    "voter_registration": {
+      "total_registered": "Approximately 22,000",
+      "democrat": "~42%",
+      "republican": "~40%",
+      "unaffiliated": "~16%",
+      "other": "~2%",
+      "registration_deadline": "21 days before election"
+    },
+    "polling_locations": [
+      "Colonel Richardson High School",
+      "Greensboro Elementary School",
+      "North Caroline High School",
+      "Ridgely Elementary School"
+    ],
+    "recent_elections": [
+      {
+        "election": "2024 Presidential General Election",
+        "date": "November 5, 2024",
+        "results": {
+          "trump_donald_republican": "55.3%",
+          "harris_kamala_democrat": "43.4%",
+          "other": "1.3%",
+          "total_votes": "Approximately 14,000"
+        },
+        "turnout": "64%"
+      },
+      {
+        "election": "2022 Gubernatorial General Election",
+        "date": "November 8, 2022",
+        "results": {
+          "moore_wes_democrat": "44.8%",
+          "cox_dan_republican": "53.5%",
+          "other": "1.7%",
+          "total_votes": "Approximately 12,000"
+        },
+        "turnout": "56%"
+      }
+    ],
+    "upcoming_elections": [
+      {
+        "election": "2027 Local Elections",
+        "date": "November 2027 (date TBD)",
+        "offices": [
+          "County Council/Commissioners",
+          "Board of Education",
+          "Municipal offices"
+        ]
+      }
+    ],
+    "notes": [
+      "2026 Gubernatorial Election: Primary June 24, 2026; General Election November 3, 2026",
+      "Local elections typically held in odd-numbered years",
+      "Early voting available at designated locations",
+      "Mail-in voting available upon request"
+    ],
+    "early_voting": {
+      "location": "Caroline County Public Library, 100 Market Street, Denton, MD",
+      "schedule": "8 days before Election Day, including 2 Saturdays"
+    }
+  },
+  "top_issues": [
+    {
+      "issue_name": "Governance and Leadership",
+      "story_count": 24,
+      "date_range": "2025-05-23 to 2025-10-22",
+      "significance": "Effective governance is crucial for Caroline County's development and addressing resident concerns.",
+      "recent_developments": "Recent stories highlight ongoing debates, leadership changes, and commissioner activities across various towns in Caroline County.",
+      "story_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9,
+        13,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        29,
+        30,
+        32,
+        34,
+        36,
+        37,
+        38,
+        40,
+        46,
+        48,
+        50,
+        52,
+        58
+      ],
+      "story_references": [
+        {
+          "title": "Greensboro Candidate: William C. Schaffner",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "GREENSBORO CANDIDATE: Paula Turner",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Candidate: Pete Brelia",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Candidate: Kimberly 'Kim' Ernest",
+          "date": "2025-10-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/ Oct. 16, 2025",
+          "date": "2025-10-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Sees More Staff Turnover as Treasurer Leaves",
+          "date": "2025-10-15",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Council Member Confronts Colleagues Over Emails Calling Her 'Rogue'",
+          "date": "2025-10-07",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/ Sept. 23, 2025",
+          "date": "2025-09-24",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/Sept. 18, 2025",
+          "date": "2025-09-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Sept. 16, 2025",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/ Sept. 9, 2025",
+          "date": "2025-09-11",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners Advance Solar Ordinance with Amendments",
+          "date": "2025-09-10",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Chickens Find Community Support in Ridgely",
+          "date": "2025-09-09",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Denton Town Council/ Sept. 4, 2025",
+          "date": "2025-09-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Ex-Officers Sue Ridgely, Sheriff Over Disbanding Force",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline Commissioners Consider Committee to Review Their Pay",
+          "date": "2025-09-02",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Considers Former County Administrator for Contractual Town Manager Role",
+          "date": "2025-08-28",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/Aug. 21, 2025",
+          "date": "2025-08-22",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Aug. 19, 2025",
+          "date": "2025-08-20",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Potential Bill on Public Nuisances Workshopped at Caroline County Meeting",
+          "date": "2025-08-19",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "CPS Staff Under Investigation in Caroline County",
+          "date": "2025-08-06",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Federalsburg Town Council/Aug. 4, 2025",
+          "date": "2025-08-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/Aug. 5, 2025",
+          "date": "2025-08-05",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/July 22, 2025",
+          "date": "2025-07-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Greensboro Town Council/July 17, 2025",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Ridgley Town Commissioners/July 7, 2025",
+          "date": "2025-07-10",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Caroline County Commissioners/July 8, 2025",
+          "date": "2025-07-08",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Actions from Caroline County Commissioners June 24, 2025",
+          "date": "2025-06-24",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Actions from Caroline County Commissioners May 20, 2025",
+          "date": "2025-05-23",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        }
+      ]
+    },
+    {
+      "issue_name": "Infrastructure Development",
+      "story_count": 9,
+      "date_range": "2025-06-05 to 2025-10-17",
+      "significance": "Infrastructure development is essential for supporting growth, improving services, and enhancing quality of life in Caroline County.",
+      "recent_developments": "Recent stories discuss sewer line repairs, utility billing changes, park construction, and transportation funding discussions.",
+      "story_indices": [
+        7,
+        8,
+        11,
+        12,
+        17,
+        25,
+        46,
+        49,
+        56
+      ],
+      "story_references": [
+        {
+          "title": "Greensboro Moves Toward Monthly Utility Billing",
+          "date": "2025-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Faces $300,000 Sewer Line Repair Cost",
+          "date": "2025-10-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Subcontractor strike causes major sewer line break in Greensboro, town says",
+          "date": "2025-10-10",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Denton Approves Sharp Road Park Playground's First Phase",
+          "date": "2025-10-08",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Transportation Officials Tour Eastern Shore to Discuss Funding and Project Statuses",
+          "date": "2025-09-17",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Sharp Road Park Construction Underway",
+          "date": "2025-09-03",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Town Council/July 17, 2025",
+          "date": "2025-07-18",
+          "url": "",
+          "beatbook_tag": "Governance & Leadership"
+        },
+        {
+          "title": "Superintendent and Commissioners Discuss Lockerman",
+          "date": "2025-07-09",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        },
+        {
+          "title": "Greensboro Will Not Bring Northern Towns onto Wastewater System",
+          "date": "2025-06-05",
+          "url": "",
+          "beatbook_tag": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "issue_name": "Budget and Finance",
+      "story_count": 4,
+      "date_range": "2025-06-10 to 2025-10-21",
+      "significance": "Budget and finance decisions directly impact Caroline County's ability to fund essential services and projects.",
+      "recent_developments": "Recent stories cover the passage of the FY 2026 budget, potential fee schedule raises, and grant receipts.",
+      "story_indices": [
+        4,
+        20,
+        39,
+        55
+      ],
+      "story_references": [
+        {
+          "title": "Sale of Daysprings Townhomes Will Come Soon Caroline County Says",
+          "date": "2025-10-21",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Fee Schedule Will Potentially See Multiple Raises",
+          "date": "2025-09-12",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Town of Greensboro Receives Almost $400,000 in Grants",
+          "date": "2025-07-30",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        },
+        {
+          "title": "Caroline County Passes Fiscal Year 2026 Budget",
+          "date": "2025-06-10",
+          "url": "",
+          "beatbook_tag": "Budget & Finance"
+        }
+      ]
+    }
+  ],
+  "budget_summary": "# Caroline County FY2026 Budget: Facts & Analysis\n\n## Core Numbers\n\n**Operating Budget:** $79,208,471  \n**Capital Budget:** $22,443,227  \n**Total Budget:** $101,651,698\n\n**Tax Rates (unchanged):**\n- Property: $0.98 per $100 assessed value\n- Income: 3.2%\n\n## Revenue Breakdown (General Fund)\n\n| Source | FY2026 | FY2025 | Change |\n|--------|---------|---------|---------|\n| Property Taxes | $35,429,300 | $32,939,300 | +$2,490,000 (+7.6%) |\n| Income Taxes | $26,075,901 | $22,550,000 | +$3,525,901 (+1..."
+}

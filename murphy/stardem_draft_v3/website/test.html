@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Data Loading</title>
+</head>
+<body>
+    <h1>Testing Data Load</h1>
+    <div id="status">Checking...</div>
+    <pre id="output"></pre>
+    
+    <script>
+        async function testLoad() {
+            const status = document.getElementById('status');
+            const output = document.getElementById('output');
+            
+            try {
+                status.textContent = 'Fetching stories.json...';
+                const response = await fetch('data/stories.json');
+                status.textContent = `Response status: ${response.status}`;
+                
+                const data = await response.json();
+                status.textContent = `SUCCESS! Loaded ${data.length} stories`;
+                output.textContent = JSON.stringify(data[0], null, 2).substring(0, 500);
+            } catch (error) {
+                status.textContent = 'ERROR: ' + error.message;
+                output.textContent = error.stack;
+            }
+        }
+        
+        testLoad();
+    </script>
+</body>
+</html>

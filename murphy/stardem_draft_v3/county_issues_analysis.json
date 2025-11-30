@@ -1,0 +1,182 @@
+{
+  "Talbot": {
+    "recurring_issues": [
+      {
+        "issue_name": "Education as dominant budget item",
+        "evidence": "Board of Education receives $61.4\u202fM, representing 38.1% of the FY2026 general fund budget.",
+        "significance": "Absorbs a large share of revenues, limiting flexibility for other services and increasing sensitivity to state education mandates."
+      },
+      {
+        "issue_name": "Infrastructure catch\u2011up and capital spending",
+        "evidence": "Capital Projects Program $15.9\u202fM includes a $5\u202fM water/sewer extension, $1.3\u202fM 911/CAD replacement, $1\u202fM road work, and a $2.8\u202fM bridge project.",
+        "significance": "Repeated investments signal ongoing deferred\u2011maintenance pressures that compete with operating needs."
+      },
+      {
+        "issue_name": "Dependence on prior\u2011year reserves for balance",
+        "evidence": "Budget relies on $21.7\u202fM in prior\u2011year fund balances and only a $1.75\u202fM (1.1% of budget) contingency reserve.",
+        "significance": "Structural reliance on reserves raises sustainability concerns if revenue growth stalls."
+      }
+    ],
+    "emerging_issues": [
+      {
+        "issue_name": "Rising housing cost\u2011burden",
+        "evidence": "Renters cost\u2011burdened 42.7% (30%+ threshold) and owners 20.2%; 2025 news articles highlight affordability pressures.",
+        "significance": "Housing affordability is becoming a political priority and may drive future policy or fee adjustments."
+      },
+      {
+        "issue_name": "Growing senior services demand",
+        "evidence": "Senior Services budget $970,756 amid a median age of 51.4 and recent council discussions on aging\u2011population programs.",
+        "significance": "An older demographic will increase demand for health, transportation, and social services, stretching the budget."
+      },
+      {
+        "issue_name": "Tourism and airport development",
+        "evidence": "Tourism budget $756,312 and $10.6\u202fM runway improvement at Easton Airport funded largely by federal grants.",
+        "significance": "Local leaders are emphasizing tourism\u2011driven economic development, creating new revenue opportunities but also new capital costs."
+      }
+    ]
+  },
+  "Dorchester": {
+    "recurring_issues": [
+      {
+        "issue_name": "Tax rate increases after years of stability",
+        "evidence": "FY2026 real\u2011property tax rose 3% to $1.03/ $100 and income tax increased to 3.30%, the state maximum.",
+        "significance": "Higher rates reflect fiscal pressure and may face voter resistance, influencing future budgeting decisions."
+      },
+      {
+        "issue_name": "Sharp decline in capital budget and shift to PAYGO",
+        "evidence": "Capital budget fell 63% to $1.69\u202fM (FY2025 $4.58\u202fM) with no grant funding; most projects funded from general fund cash.",
+        "significance": "Reduces long\u2011term investment capacity and increases reliance on operating cash flow for infrastructure."
+      },
+      {
+        "issue_name": "High housing cost\u2011burden for renters and owners",
+        "evidence": "Renters 47.4% cost\u2011burdened; owners 17.6% cost\u2011burdened; both metrics exceed state affordability thresholds.",
+        "significance": "Housing stress is a persistent community concern that can drive policy on affordable housing and rent assistance."
+      }
+    ],
+    "emerging_issues": [
+      {
+        "issue_name": "Explosive growth in grant revenue",
+        "evidence": "Grants increased 166% YoY to $10.6\u202fM in FY2026, becoming a major new revenue stream.",
+        "significance": "County officials are now more dependent on grant cycles, prompting discussions on grant\u2011capture capacity and sustainability."
+      },
+      {
+        "issue_name": "New EMS ambulance acquisition and upgrades",
+        "evidence": "FY2026 capital line includes a $490\u202fK ambulance purchase and $522\u202fK EMS capital budget.",
+        "significance": "Signals heightened focus on emergency response capability, likely driven by community safety concerns."
+      },
+      {
+        "issue_name": "Increased 911 and communications fees",
+        "evidence": "911 fees rose to $1.87\u202fM (up from $0.455\u202fM) and the Communications Division budget grew $91\u202fK.",
+        "significance": "Reflects growing demand for public\u2011safety communications infrastructure and potential fee\u2011based revenue growth."
+      }
+    ]
+  },
+  "Caroline": {
+    "recurring_issues": [
+      {
+        "issue_name": "Education spending outpacing overall budget growth",
+        "evidence": "Board of Education $23.1\u202fM (29.2% of budget) \u2013 a 13% increase year\u2011over\u2011year, the fastest growth among major categories.",
+        "significance": "Creates pressure on the county\u2019s fiscal capacity and may lead to future tax or service adjustments."
+      },
+      {
+        "issue_name": "Public safety costs dominate the budget",
+        "evidence": "Sheriff, Jail, and EMS together consume $15.0\u202fM (19% of operating budget).",
+        "significance": "Fixed staffing and facility costs limit flexibility for cuts and drive the county\u2019s long\u2011term cost structure."
+      },
+      {
+        "issue_name": "Road and infrastructure maintenance backlog",
+        "evidence": "Operating Roads $2.51\u202fM plus $7.61\u202fM capital; multi\u2011year plan cites $38.8\u202fM deferred public\u2011works needs.",
+        "significance": "Deferred maintenance will require larger future capital outlays, stressing the budget and potentially affecting service levels."
+      }
+    ],
+    "emerging_issues": [
+      {
+        "issue_name": "Accelerated recreation and park capital projects",
+        "evidence": "FY2026 recreation & parks capital $6.06\u202fM (major upgrades to sports fields and facilities).",
+        "significance": "Reflects a new policy focus on quality\u2011of\u2011life amenities, creating additional operating maintenance obligations."
+      },
+      {
+        "issue_name": "Rising property\u2011tax revenue despite flat rates",
+        "evidence": "Property\u2011tax receipts up $2.49\u202fM (+7.6%) driven by higher assessments, not rate changes.",
+        "significance": "Indicates economic growth but also means taxpayers are paying more without explicit rate hikes, a point of public interest."
+      },
+      {
+        "issue_name": "Reserve depletion and fiscal sustainability debate",
+        "evidence": "Budget notes use of 15 years of accumulated surplus to cover operating gaps; debt service stable but reserves shrinking.",
+        "significance": "County officials are confronting long\u2011term solvency questions, likely prompting future tax or expenditure reforms."
+      }
+    ]
+  },
+  "Queen Anne's": {
+    "recurring_issues": [
+      {
+        "issue_name": "Education as the largest and growing budget share",
+        "evidence": "Board of Education $83.4\u202fM (39.9% of FY2026 budget), up $8.3\u202fM (+11%) YoY.",
+        "significance": "Heavy education spending limits discretionary funds and makes the county vulnerable to state mandate changes."
+      },
+      {
+        "issue_name": "Heavy infrastructure investment in roads and sanitary districts",
+        "evidence": "Capital allocation $9.26\u202fM for roads and $12.35\u202fM for sanitary districts; six\u2011year capital plan totals $466.3\u202fM.",
+        "significance": "Infrastructure upgrades are a long\u2011term fiscal commitment that competes with operating needs."
+      },
+      {
+        "issue_name": "Reliance on property and income taxes for the bulk of revenue",
+        "evidence": "Property taxes $89.5\u202fM (42.8%) and income taxes $89.5\u202fM (42.8%) together provide 85.6% of total revenue.",
+        "significance": "Revenue concentration makes the county sensitive to real\u2011estate market swings and statewide income\u2011tax policy."
+      }
+    ],
+    "emerging_issues": [
+      {
+        "issue_name": "Workforce development earmarked from recordation tax",
+        "evidence": "$0.15 of each $4.95 recordation tax is dedicated to the Critical Workforce Program.",
+        "significance": "Shows a new targeted use of transaction taxes to address local labor\u2011market gaps and may influence future tax\u2011policy debates."
+      },
+      {
+        "issue_name": "Expansion of community services for an aging population",
+        "evidence": "Community Services budget grew 19.4% to $5.67\u202fM, with the Area Agency on Aging receiving a $408\u202fK increase.",
+        "significance": "Demographic pressure from older residents is driving service expansion and could increase future staffing and facility costs."
+      },
+      {
+        "issue_name": "Agricultural and farmland preservation funding",
+        "evidence": "Solar generation tax revenue and a $1.5\u202fM agricultural transfer tax are earmarked for farmland preservation programs.",
+        "significance": "Reflects a policy shift toward protecting open space, creating new grant\u2011seeking and compliance activities."
+      }
+    ]
+  },
+  "Kent": {
+    "recurring_issues": [
+      {
+        "issue_name": "Structural deficit covered by large fund\u2011balance draw",
+        "evidence": "Budget uses $17.3\u202fM (20.3% of total) from the fund balance to close a $17.3\u202fM operating gap.",
+        "significance": "Unsustainable reliance on reserves threatens fiscal health; reserves could be exhausted in 2\u20113 years at current burn rate."
+      },
+      {
+        "issue_name": "High spending concentration on education and public safety with limited revenue diversification",
+        "evidence": "Education 26.1% and Public Safety 19.4% of total budget; property taxes 56% and income taxes 32% of operating revenue.",
+        "significance": "Large mandatory expenditures leave little room for other services and make the county vulnerable to tax\u2011base fluctuations."
+      },
+      {
+        "issue_name": "Minimal intergovernmental aid and low fee\u2011based revenue",
+        "evidence": "Intergovernmental revenue $1.6\u202fM (2.4% of operating revenue); service charges and licenses together <2% of revenue.",
+        "significance": "Limited external funding and under\u2011utilized user fees reduce flexibility to fund services without raising taxes."
+      }
+    ],
+    "emerging_issues": [
+      {
+        "issue_name": "Potential tax\u2011rate reforms to address the deficit",
+        "evidence": "No tax\u2011rate changes in FY2026 despite a $17.3\u202fM deficit; 2025 council minutes reference upcoming finance hearings on tax options.",
+        "significance": "Future debates on property or income tax adjustments will be central to restoring structural balance."
+      },
+      {
+        "issue_name": "Capital projects funded from reserves despite operating shortfall",
+        "evidence": "$16\u202fM transferred to capital projects while the county draws $17.3\u202fM from the fund balance for operations.",
+        "significance": "Raises concerns about the prudence of simultaneous capital spending and deficit financing, likely to spark policy scrutiny."
+      },
+      {
+        "issue_name": "Broadband access gaps in rural areas",
+        "evidence": "15.8% of households (1,320) lack broadband service; recent community\u2011meeting notes cite digital\u2011divide initiatives.",
+        "significance": "Digital connectivity is becoming a priority for economic development and resident services, potentially prompting grant pursuits."
+      }
+    ]
+  }
+}
