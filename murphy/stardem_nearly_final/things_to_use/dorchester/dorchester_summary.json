@@ -1,0 +1,229 @@
+{
+  "Dorchester": {
+    "demographics": {
+      "total_population": 32557,
+      "school_age_population_5_17": 5100,
+      "total_k12_enrollment": 4353,
+      "enrollment_by_race": {
+        "White": {
+          "count": 2297,
+          "percentage": 52.8
+        },
+        "Black_or_African_American": {
+          "count": 1427,
+          "percentage": 32.8
+        },
+        "Asian": {
+          "count": 145,
+          "percentage": 3.3
+        },
+        "Hispanic_or_Latino": {
+          "count": 484,
+          "percentage": 11.1
+        }
+      },
+      "poverty_rate_percent": 15.4,
+      "median_household_income": 57490,
+      "broadband_access_rate_percent": 85.7,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 22.1,
+        "adult_education_25_and_over": {
+          "total_population": 23327,
+          "high_school_graduate": 8376,
+          "bachelors_degree": 2425,
+          "masters_degree": 1381,
+          "professional_degree": 379,
+          "doctorate": 283
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Jymil Thompson",
+        "website": "https://www.dcpsmd.org/",
+        "board_members": []
+      },
+      "board_meetings": {
+        "meeting_schedules": [
+          {
+            "county": "Dorchester",
+            "district": "Dorchester County Public Schools",
+            "regular_meetings": {
+              "schedule": "3rd Thursday of each month",
+              "time": "6:00 PM",
+              "location": "700 Glasgow St, Cambridge, MD 21613",
+              "phone": "410-228-4747",
+              "notes": "Monthly meetings"
+            },
+            "upcoming_meetings": [
+              {
+                "date": "September 18, 2025",
+                "day": "Thursday",
+                "type": "Monthly Meeting",
+                "time": "6:00 PM"
+              },
+              {
+                "date": "October 23, 2025",
+                "day": "Thursday",
+                "type": "Monthly Meeting",
+                "time": "6:00 PM"
+              },
+              {
+                "date": "November 20, 2025",
+                "day": "Thursday",
+                "type": "Monthly Meeting",
+                "time": "6:00 PM"
+              }
+            ],
+            "source": "https://go.boarddocs.com/mabe/dcps/Board.nsf/Public"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 353,
+        "year_over_year_change_pct": -1.7,
+        "new_hires": 48,
+        "new_hires_pct": 13.6,
+        "student_teacher_ratio": 19.8
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Choptank Elementary School (0716)",
+        "Hurlock Elementary School (1503)",
+        "Maple Elementary School (0711)",
+        "Sandy Hill Elementary School (0710)",
+        "Vienna Elementary School (0302)",
+        "Warwick Elementary School (0205)"
+      ],
+      "middle": [
+        "Mace's Lane Middle School (0707)",
+        "North Dorchester Middle School (0208)"
+      ],
+      "high": [
+        "Cambridge-South Dorchester High School (0713)",
+        "North Dorchester High School (0207)"
+      ],
+      "other": [
+        "South Dorchester School (0508)",
+        "Dorchester County Career and Technology Center (0714)",
+        "Judith P. Hoyer Early Childhood Center (0709)"
+      ]
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 38.0,
+            "state_average": 45.0,
+            "comparison": "-7.0 below state",
+            "schools_counted": 6
+          },
+          "Math": {
+            "average_rate": 18.2,
+            "state_average": 30.7,
+            "comparison": "-12.5 below state",
+            "schools_counted": 6
+          },
+          "Science": {
+            "average_rate": 16.1,
+            "state_average": 25.6,
+            "comparison": "-9.5 below state",
+            "schools_counted": 6
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 40.1,
+            "state_average": 48.4,
+            "comparison": "-8.3 below state",
+            "schools_counted": 2
+          },
+          "Math": {
+            "average_rate": 9.9,
+            "state_average": 8.7,
+            "comparison": "+1.2 above state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 15.6,
+            "state_average": 31.4,
+            "comparison": "-15.8 below state",
+            "schools_counted": 2
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 35.7,
+            "state_average": 59.5,
+            "comparison": "-23.8 below state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 5.0,
+            "state_average": 21.4,
+            "comparison": "-16.4 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 31.8,
+            "state_average": 44.2,
+            "comparison": "-12.4 below state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Dorchester",
+      "school_name": "Dorchester County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "out_of_school",
+      "total_suspensions": 1547,
+      "gender": {
+        "male": 985,
+        "male_pct": 63.7,
+        "female": 562,
+        "female_pct": 36.3
+      },
+      "race": {
+        "asian": 6,
+        "asian_pct": 0.4,
+        "black": 1149,
+        "black_pct": 74.3,
+        "hispanic": 58,
+        "hispanic_pct": 3.7,
+        "white": 198,
+        "white_pct": 12.8,
+        "two_or_more": 136,
+        "two_or_more_pct": 8.8
+      },
+      "disability": {
+        "students_with_disabilities": 163,
+        "students_with_disabilities_pct": 10.5
+      },
+      "offense": {
+        "attendance": 0,
+        "attendance_pct": 0.0,
+        "dangerous_substances": 103,
+        "dangerous_substances_pct": 6.7,
+        "weapons": 12,
+        "weapons_pct": 0.8,
+        "attacks_threats_fighting": 856,
+        "attacks_threats_fighting_pct": 55.3,
+        "arson_fire_explosives": 3,
+        "arson_fire_explosives_pct": 0.2,
+        "sex_offenses": 20,
+        "sex_offenses_pct": 1.3,
+        "disrespect_disruption": 490,
+        "disrespect_disruption_pct": 31.7,
+        "other": 63,
+        "other_pct": 4.1
+      }
+    }
+  }
+}
