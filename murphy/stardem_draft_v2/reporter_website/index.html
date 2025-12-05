@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryland Eastern Shore Education Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        nav {
+            background: white;
+            padding: 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        .nav-btn {
+            padding: 1rem 1.5rem;
+            border: none;
+            background: white;
+            cursor: pointer;
+            font-size: 1rem;
+            white-space: nowrap;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .nav-btn:hover {
+            background: #f8f9fa;
+        }
+
+        .nav-btn.active {
+            color: #3498db;
+            border-bottom-color: #3498db;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .county-section {
+            display: none;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        .county-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        .card h3 {
+            color: #34495e;
+            margin: 1.5rem 0 1rem;
+            font-size: 1.2rem;
+        }
+
+        .card h4 {
+            color: #555;
+            margin: 1rem 0 0.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-box {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+
+        .stat-box .label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-box .value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .school-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .school-item {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        .mcap-item {
+            background: #f8f9fa;
+            padding: 0.75rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .mcap-subject {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .mcap-score {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .mcap-comparison {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .mcap-comparison.above {
+            color: #27ae60;
+        }
+
+        .mcap-comparison.below {
+            color: #e74c3c;
+        }
+
+        .board-member {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .budget-section {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .blueprint-section {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196f3;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .info-box strong {
+            color: #1976d2;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .school-group {
+            margin-bottom: 0.5rem;
+        }
+
+        .clickable-school {
+            background: #f8f9fa;
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+            border-left: 4px solid transparent;
+        }
+
+        .clickable-school:hover {
+            background: #e9ecef;
+            border-left-color: #3498db;
+        }
+
+        .school-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .school-arrow {
+            color: #3498db;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .school-detail {
+            margin: 0;
+        }
+
+        .school-detail table {
+            font-size: 0.9rem;
+        }
+
+        .school-detail h4 {
+            font-size: 0.95rem;
+            color: #2c3e50;
+        }
+
+        .markdown-content {
+            line-height: 1.7;
+        }
+
+        .markdown-content h2 {
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #2c3e50;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        .markdown-content h3 {
+            font-size: 1.1rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: #34495e;
+        }
+
+        .markdown-content h4 {
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        .markdown-content p {
+            margin: 0.75rem 0;
+        }
+
+        .markdown-content ul {
+            margin: 0.75rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .markdown-content li {
+            margin: 0.5rem 0;
+        }
+
+        .markdown-content strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .demographic-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .demo-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .demo-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .alert {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #721c24;
+        }
+
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            color: #155724;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            .nav-btn {
+                padding: 0.75rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+
+        .comparison-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .county-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .county-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .county-card h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .county-card .enrollment {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #3498db;
+            margin: 0.5rem 0;
+        }
+
+        .county-card .detail {
+            font-size: 0.85rem;
+            color: #666;
+            margin: 0.25rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maryland Eastern Shore Education Data</h1>
+        <p>Comprehensive education data for Caroline, Dorchester, Kent, Queen Anne's, and Talbot counties</p>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <button class="nav-btn active" onclick="showSection('overview')">Overview</button>
+            <button class="nav-btn" onclick="showSection('caroline')">Caroline</button>
+            <button class="nav-btn" onclick="showSection('dorchester')">Dorchester</button>
+            <button class="nav-btn" onclick="showSection('kent')">Kent</button>
+            <button class="nav-btn" onclick="showSection('queen-annes')">Queen Anne's</button>
+            <button class="nav-btn" onclick="showSection('talbot')">Talbot</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="overview" class="county-section active">
+            <div class="card">
+                <h2>Five-County Overview</h2>
+                <div class="comparison-overview" id="county-cards"></div>
+            </div>
+
+            <div class="card">
+                <h2>Key Findings Across Counties</h2>
+                
+                <div class="info-box">
+                    <strong>Total K-12 Enrollment:</strong> Approximately 22,000 students across five counties
+                </div>
+
+                <h3>MCAP Performance Patterns</h3>
+                <ul>
+                    <li><strong>Queen Anne's County</strong> leads in test scores across all grade levels</li>
+                    <li><strong>High school math (Algebra 1)</strong> is a weakness across all counties - all performing 15+ points below state average</li>
+                    <li><strong>Middle school performance</strong> varies significantly, with some counties above state average in specific subjects</li>
+                </ul>
+
+                <h3>Blueprint for Maryland's Future</h3>
+                <ul>
+                    <li><strong>Highest funding increase:</strong> Talbot County (49.0% per-pupil increase FY2019-FY2024)</li>
+                    <li><strong>Lowest funding increase:</strong> Queen Anne's County (25.4% per-pupil increase)</li>
+                    <li>All counties face challenges with teacher recruitment, especially for underrepresented communities</li>
+                    <li>Common needs: expanding Pre-K, improving literacy/math plans, career technical education</li>
+                </ul>
+
+                <h3>Demographics</h3>
+                <ul>
+                    <li><strong>Wealthiest:</strong> Queen Anne's (median income $108,332)</li>
+                    <li><strong>Highest poverty rate:</strong> Dorchester (15.4%)</li>
+                    <li><strong>Most diverse enrollment:</strong> Dorchester (52.8% white, 32.8% Black, 11.1% Hispanic)</li>
+                    <li><strong>Least diverse:</strong> Queen Anne's (85.6% white)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="county-content"></div>
+    </div>
+
+    <script>
+        const countyData = {
+            caroline: {
+                name: "Caroline County",
+                key: "caroline",
+                demographics: {
+                    population: 33320,
+                    schoolAge: 5791,
+                    enrollment: 4781,
+                    povertyRate: 12.9,
+                    medianIncome: 65326,
+                    broadband: 85.6
+                },
+                superintendent: "Derek L. Simmons",
+                teachers: 431,
+                studentTeacherRatio: 18.7,
+                teacherChange: 3.1,
+                newHires: 60,
+                schools: {
+                    elementary: ["Denton Elementary", "Federalsburg Elementary", "Greensboro Elementary", "Preston Elementary", "Ridgely Elementary"],
+                    middle: ["Colonel Richardson Middle", "Lockerman Middle"],
+                    high: ["Colonel Richardson High", "North Caroline High"]
+                },
+                blueprintIncrease: "40.3%",
+                suspensions: 937,
+                budgetHighlight: "Education spending: $23.1M (29.2% of county budget), up 13.0% from FY2025"
+            },
+            dorchester: {
+                name: "Dorchester County",
+                key: "dorchester",
+                demographics: {
+                    population: 32557,
+                    schoolAge: 5100,
+                    enrollment: 4353,
+                    povertyRate: 15.4,
+                    medianIncome: 57490,
+                    broadband: 85.7
+                },
+                superintendent: "Dr. Jymil Thompson",
+                teachers: 353,
+                studentTeacherRatio: 19.8,
+                teacherChange: -1.7,
+                newHires: 48,
+                schools: {
+                    elementary: ["Choptank Elementary", "Hurlock Elementary", "Maple Elementary", "Sandy Hill Elementary", "Vienna Elementary", "Warwick Elementary"],
+                    middle: ["Mace's Lane Middle", "North Dorchester Middle"],
+                    high: ["Cambridge-South Dorchester High", "North Dorchester High"]
+                },
+                blueprintIncrease: "36.9%",
+                suspensions: 1547,
+                budgetHighlight: "Most diverse student population; highest suspension rate"
+            },
+            kent: {
+                name: "Kent County",
+                key: "kent",
+                demographics: {
+                    population: 19289,
+                    schoolAge: 2311,
+                    enrollment: 1880,
+                    povertyRate: 9.5,
+                    medianIncome: 71635,
+                    broadband: 79.4
+                },
+                superintendent: "Dr. Mary McComas",
+                teachers: 158,
+                studentTeacherRatio: 27.1,
+                teacherChange: 2.5,
+                newHires: 4,
+                schools: {
+                    elementary: ["Galena Elementary", "H. H. Garnett Elementary", "Rock Hall Elementary"],
+                    middle: ["Kent County Middle"],
+                    high: ["Kent County High"]
+                },
+                blueprintIncrease: "33.8%",
+                suspensions: 518,
+                budgetHighlight: "Smallest county; highest student-teacher ratio (27.1)"
+            },
+            "queen-annes": {
+                name: "Queen Anne's County",
+                key: "queen_annes",
+                demographics: {
+                    population: 50316,
+                    schoolAge: 8146,
+                    enrollment: 6626,
+                    povertyRate: 6.9,
+                    medianIncome: 108332,
+                    broadband: 86.4
+                },
+                superintendent: "Dr. Matthew Kibler (Interim)",
+                teachers: 552,
+                studentTeacherRatio: 20.4,
+                teacherChange: 4.3,
+                newHires: 0,
+                schools: {
+                    elementary: ["Bayside Elementary", "Centreville Elementary", "Church Hill Elementary", "Grasonville Elementary", "Kennard Elementary", "Kent Island Elementary", "Matapeake Elementary", "Sudlersville Elementary"],
+                    middle: ["Centreville Middle", "Matapeake Middle", "Stevensville Middle", "Sudlersville Middle"],
+                    high: ["Kent Island High", "Queen Anne's County High"]
+                },
+                blueprintIncrease: "25.4%",
+                suspensions: 464,
+                budgetHighlight: "Wealthiest county; lowest Blueprint funding increase; highest MCAP scores"
+            },
+            talbot: {
+                name: "Talbot County",
+                key: "talbot",
+                demographics: {
+                    population: 37663,
+                    schoolAge: 5280,
+                    enrollment: 4529,
+                    povertyRate: 9.3,
+                    medianIncome: 81667,
+                    broadband: 88.1
+                },
+                superintendent: "Dr. Sharon Pepukayi",
+                teachers: 345,
+                studentTeacherRatio: 20.6,
+                teacherChange: 1.8,
+                newHires: 51,
+                schools: {
+                    elementary: ["Chapel District Elementary", "Easton Elementary", "St. Michaels Elementary", "Tilghman Elementary", "White Marsh Elementary"],
+                    middle: ["Easton Middle", "St. Michaels Middle/High"],
+                    high: ["Easton High"]
+                },
+                blueprintIncrease: "49.0%",
+                suspensions: 357,
+                budgetHighlight: "Highest Blueprint funding increase (49.0%); strong teacher recruitment plan"
+            }
+        };
+
+        function convertMarkdownToHTML(markdown) {
+            let html = markdown
+                // Headers
+                .replace(/^### (.*$)/gm, '<h4>$1</h4>')
+                .replace(/^## (.*$)/gm, '<h3>$1</h3>')
+                .replace(/^# (.*$)/gm, '<h2>$1</h2>')
+                // Bold
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                // Bullet lists
+                .replace(/^\* (.*$)/gm, '<li>$1</li>')
+                .replace(/^- (.*$)/gm, '<li>$1</li>')
+                // Line breaks
+                .replace(/\n\n/g, '</p><p>')
+                // Escape remaining HTML
+                .replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                // Restore our HTML tags
+                .replace(/&lt;h2&gt;/g, '<h2>').replace(/&lt;\/h2&gt;/g, '</h2>')
+                .replace(/&lt;h3&gt;/g, '<h3>').replace(/&lt;\/h3&gt;/g, '</h3>')
+                .replace(/&lt;h4&gt;/g, '<h4>').replace(/&lt;\/h4&gt;/g, '</h4>')
+                .replace(/&lt;strong&gt;/g, '<strong>').replace(/&lt;\/strong&gt;/g, '</strong>')
+                .replace(/&lt;li&gt;/g, '<li>').replace(/&lt;\/li&gt;/g, '</li>')
+                .replace(/&lt;p&gt;/g, '<p>').replace(/&lt;\/p&gt;/g, '</p>');
+            
+            // Wrap lists
+            html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+            // Wrap in paragraphs
+            html = '<p>' + html + '</p>';
+            
+            return html;
+        }
+
+        function showSection(sectionId) {
+            // Update nav buttons
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Update sections
+            document.querySelectorAll('.county-section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            if (sectionId === 'overview') {
+                document.getElementById('overview').classList.add('active');
+            } else {
+                loadCountyData(sectionId);
+            }
+        }
+
+        async function loadCountyData(countyKey) {
+            const county = countyData[countyKey];
+            const contentDiv = document.getElementById('county-content');
+            
+            // Show loading state
+            contentDiv.innerHTML = `
+                <div class="county-section active">
+                    <div class="loading">Loading ${county.name} data...</div>
+                </div>
+            `;
+
+            // Load actual data files
+            const dataPath = `../county_files/${county.key}`;
+            let mcapData = null;
+            let censusData = null;
+            let budgetData = null;
+            let blueprintData = null;
+            let suspensionData = null;
+
+            try {
+                // Load MCAP data
+                const mcapResponse = await fetch(`${dataPath}/${county.key}_mcap_highest_grades.json`);
+                if (mcapResponse.ok) mcapData = await mcapResponse.json();
+
+                // Load suspension data
+                const suspensionResponse = await fetch(`${dataPath}/${county.key}_county_level_suspensions_2023_2024.json`);
+                if (suspensionResponse.ok) suspensionData = await suspensionResponse.json();
+
+                // Load budget data - using things_to_use for markdown files
+                const budgetResponse = await fetch(`../things_to_use/${county.key}/${county.key}_education_budget.md`);
+                if (budgetResponse.ok) budgetData = await budgetResponse.text();
+
+                // Load blueprint data - using things_to_use for markdown files
+                const blueprintResponse = await fetch(`../things_to_use/${county.key}/${county.key}_blueprint_summary.md`);
+                if (blueprintResponse.ok) blueprintData = await blueprintResponse.text();
+
+                // Load census data
+                const censusResponse = await fetch(`${dataPath}/${county.key}_census_education_data.json`);
+                if (censusResponse.ok) censusData = await censusResponse.json();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+            
+            contentDiv.innerHTML = `
+                <div class="county-section active">
+                    <div class="card">
+                        <h2>${county.name}</h2>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="label">Total Population</div>
+                                <div class="value">${county.demographics.population.toLocaleString()}</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="label">K-12 Enrollment</div>
+                                <div class="value">${county.demographics.enrollment.toLocaleString()}</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="label">Poverty Rate</div>
+                                <div class="value">${county.demographics.povertyRate}%</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="label">Median Income</div>
+                                <div class="value">$${county.demographics.medianIncome.toLocaleString()}</div>
+                            </div>
+                        </div>
+
+                        <div class="blueprint-section">
+                            <strong>Blueprint Funding Increase (FY2019-FY2024):</strong> ${county.blueprintIncrease}
+                        </div>
+
+                        ${county.budgetHighlight ? `<div class="budget-section"><strong>Budget Note:</strong> ${county.budgetHighlight}</div>` : ''}
+                    </div>
+
+                    <div class="card">
+                        <h2>District Leadership</h2>
+                        <h3>Superintendent</h3>
+                        <p><strong>${county.superintendent}</strong></p>
+
+                        <h3>Teacher Staffing (2024)</h3>
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="label">Total Teachers</div>
+                                <div class="value">${county.teachers}</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="label">Student-Teacher Ratio</div>
+                                <div class="value">${county.studentTeacherRatio}:1</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="label">Year-over-Year Change</div>
+                                <div class="value">${county.teacherChange > 0 ? '+' : ''}${county.teacherChange}%</div>
+                            </div>
+                            ${county.newHires > 0 ? `
+                            <div class="stat-box">
+                                <div class="label">New Hires</div>
+                                <div class="value">${county.newHires}</div>
+                            </div>
+                            ` : ''}
+                        </div>
+                    </div>
+
+                    ${mcapData ? generateSchoolsWithMCAP(county.schools, mcapData) : `
+                    <div class="card">
+                        <h2>Schools</h2>
+                        <h3>Elementary Schools (${county.schools.elementary.length})</h3>
+                        <div class="school-list">
+                            ${county.schools.elementary.map(school => `<div class="school-item">${school}</div>`).join('')}
+                        </div>
+
+                        <h3>Middle Schools (${county.schools.middle.length})</h3>
+                        <div class="school-list">
+                            ${county.schools.middle.map(school => `<div class="school-item">${school}</div>`).join('')}
+                        </div>
+
+                        <h3>High Schools (${county.schools.high.length})</h3>
+                        <div class="school-list">
+                            ${county.schools.high.map(school => `<div class="school-item">${school}</div>`).join('')}
+                        </div>
+                    </div>
+                    `}
+
+                    ${suspensionData && suspensionData[0] ? generateSuspensionDetails(suspensionData[0]) : `
+                    <div class="card">
+                        <h2>Discipline Data (2023-2024)</h2>
+                        <div class="stat-box">
+                            <div class="label">Total Suspensions</div>
+                            <div class="value">${county.suspensions}</div>
+                        </div>
+                        <p style="margin-top: 1rem;"><em>View detailed suspension breakdowns by race, gender, and offense type in the complete data files.</em></p>
+                    </div>
+                    `}
+
+                    ${budgetData ? `
+                    <div class="card">
+                        <h2>Education Budget Analysis</h2>
+                        <div class="budget-section">
+                            <details>
+                                <summary style="cursor: pointer; font-weight: 600; padding: 0.5rem 0;">Click to view full budget analysis</summary>
+                                <div class="markdown-content" style="margin-top: 1rem;">
+                                    ${convertMarkdownToHTML(budgetData)}
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    ${blueprintData ? `
+                    <div class="card">
+                        <h2>Blueprint Implementation Details</h2>
+                        <div class="blueprint-section">
+                            <details>
+                                <summary style="cursor: pointer; font-weight: 600; padding: 0.5rem 0;">Click to view full Blueprint assessment</summary>
+                                <div class="markdown-content" style="margin-top: 1rem;">
+                                    ${convertMarkdownToHTML(blueprintData)}
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    <div class="card">
+                        <h2>Available Data Files</h2>
+                        <ul>
+                            <li><a href="../county_files/${county.key}/${county.key}_census_education_data.json" target="_blank">Census and demographic data (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_mcap_highest_grades.json" target="_blank">School-by-school MCAP performance (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_teacher_data.json" target="_blank">Teacher staffing details (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_board_meeting_schedules_complete.json" target="_blank">Board meeting schedules (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_county_level_suspensions_2023_2024.json" target="_blank">County suspension data (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_school_level_suspensions_2023_2024.json" target="_blank">School-level suspension data (JSON)</a></li>
+                            <li><a href="../things_to_use/${county.key}/${county.key}_blueprint_summary.md" target="_blank">Blueprint implementation (Markdown)</a></li>
+                            <li><a href="../things_to_use/${county.key}/${county.key}_education_budget.md" target="_blank">Education budget analysis (Markdown)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_enrollment_by_race_percentages.json" target="_blank">Enrollment by race (JSON)</a></li>
+                            <li><a href="../county_files/${county.key}/${county.key}_schools_enhanced_data.json" target="_blank">Enhanced school data (JSON)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+        }
+
+        function generateSchoolsWithMCAP(schools, mcapData) {
+            // Group MCAP data by school
+            const bySchool = {};
+            mcapData.forEach(item => {
+                const school = item.school_name.split('(')[0].trim();
+                if (!bySchool[school]) bySchool[school] = [];
+                bySchool[school].push(item);
+            });
+            
+            console.log('MCAP schools found:', Object.keys(bySchool));
+            console.log('School list:', schools);
+
+            // Create a map for fuzzy matching school names
+            const schoolNameMap = {};
+            Object.keys(bySchool).forEach(mcapSchool => {
+                const cleanName = mcapSchool.toLowerCase().replace(/[^a-z0-9]/g, '');
+                schoolNameMap[cleanName] = mcapSchool;
+            });
+
+            // Organize schools by level with MCAP data
+            const schoolsByLevel = {
+                'Elementary Schools': schools.elementary,
+                'Middle Schools': schools.middle,
+                'High Schools': schools.high
+            };
+
+            let html = '<div class="card"><h2>Schools & MCAP Performance</h2>';
+            html += '<p style="margin-bottom: 1rem;"><em>Click on any school name to see test scores</em></p>';
+            
+            for (const [levelName, schoolList] of Object.entries(schoolsByLevel)) {
+                html += `<h3>${levelName} (${schoolList.length})</h3>`;
+                
+                schoolList.forEach(schoolFullName => {
+                    const schoolName = schoolFullName;
+                    const schoolId = schoolName.replace(/[^a-zA-Z0-9]/g, '_');
+                    // Try to match school name
+                    const cleanName = schoolName.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    const matchedMCAPSchool = schoolNameMap[cleanName];
+                    const hasMCAP = matchedMCAPSchool ? bySchool[matchedMCAPSchool] : null;
+                    
+                    html += `
+                        <div class="school-group">
+                            <div class="clickable-school" onclick="toggleSchoolDetail('${schoolId}', '${matchedMCAPSchool ? matchedMCAPSchool.replace(/'/g, "\\'") : ''}')">
+                                <span class="school-name">${schoolName}</span>
+                                ${hasMCAP ? '<span class="school-arrow" id="arrow_' + schoolId + '">▼</span>' : '<span style="color: #999; font-size: 0.85rem;">(no MCAP data)</span>'}
+                            </div>
+                            ${hasMCAP ? `<div class="school-detail" id="detail_${schoolId}" style="display: none;"></div>` : ''}
+                        </div>
+                    `;
+                });
+            }
+            
+            html += '</div>';
+            
+            // Store data for detail view
+            window.mcapBySchool = bySchool;
+            
+            return html;
+        }
+
+        function toggleSchoolDetail(schoolId, mcapSchoolName) {
+            const detailDiv = document.getElementById('detail_' + schoolId);
+            const arrow = document.getElementById('arrow_' + schoolId);
+            
+            if (!detailDiv) return;
+            
+            if (detailDiv.style.display === 'none') {
+                // Use the passed-in MCAP school name
+                if (!mcapSchoolName || !window.mcapBySchool[mcapSchoolName]) {
+                    console.log('No MCAP data for:', schoolId, mcapSchoolName);
+                    return;
+                }
+                
+                const data = window.mcapBySchool[mcapSchoolName];
+                
+                // Group by grade
+                const byGrade = {};
+                data.forEach(item => {
+                    if (!byGrade[item.grade]) byGrade[item.grade] = [];
+                    byGrade[item.grade].push(item);
+                });
+                
+                let html = '<div style="padding: 1rem; background: #f9fafb; border-left: 4px solid #3498db; margin-top: 0.5rem; margin-bottom: 1rem;">';
+                
+                for (const [grade, tests] of Object.entries(byGrade).sort()) {
+                    html += `<h4 style="margin: 0.75rem 0 0.5rem;">Grade ${grade}</h4>`;
+                    html += '<table style="margin: 0.5rem 0;"><tr><th>Subject</th><th>Proficiency Rate</th></tr>';
+                    tests.forEach(test => {
+                        html += `<tr><td>${test.subject}</td><td><strong>${test.proficiency_rate}%</strong></td></tr>`;
+                    });
+                    html += '</table>';
+                }
+                
+                html += '</div>';
+                
+                detailDiv.innerHTML = html;
+                detailDiv.style.display = 'block';
+                arrow.textContent = '▲';
+            } else {
+                detailDiv.style.display = 'none';
+                arrow.textContent = '▼';
+            }
+        }
+
+        function generateSuspensionDetails(data) {
+            window.suspensionData = data;
+            
+            return `
+                <div class="card">
+                    <h2>Suspension Data (2023-2024)</h2>
+                    <p style="margin-bottom: 1rem;"><em>Click on any demographic category to explore details</em></p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="label">Total Suspensions</div>
+                            <div class="value">${data.total_suspensions}</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="label">Suspension Type</div>
+                            <div class="value">${data.suspension_type}</div>
+                        </div>
+                    </div>
+
+                    <h3>Browse by Demographics</h3>
+                    <div class="demographic-nav">
+                        <button class="demo-btn" onclick="showDemographicDetail('gender')">By Gender</button>
+                        <button class="demo-btn" onclick="showDemographicDetail('race')">By Race/Ethnicity</button>
+                        <button class="demo-btn" onclick="showDemographicDetail('offense')">By Offense Type</button>
+                        ${data.disability ? `<button class="demo-btn" onclick="showDemographicDetail('disability')">Students with Disabilities</button>` : ''}
+                    </div>
+
+                    <div id="suspension-detail" style="margin-top: 1.5rem;"></div>
+                </div>
+            `;
+        }
+
+        function showDemographicDetail(category) {
+            const data = window.suspensionData;
+            const detailDiv = document.getElementById('suspension-detail');
+            
+            let html = '';
+            
+            if (category === 'gender') {
+                html = `
+                    <div style="padding: 1.5rem; background: #f9fafb; border-radius: 8px;">
+                        <h3 style="margin-bottom: 1rem;">Suspensions by Gender</h3>
+                        <table>
+                            <tr>
+                                <th>Gender</th>
+                                <th>Count</th>
+                                <th>Percentage</th>
+                            </tr>
+                            <tr>
+                                <td>Male</td>
+                                <td><strong>${data.gender.male}</strong></td>
+                                <td>${data.gender.male_pct}%</td>
+                            </tr>
+                            <tr>
+                                <td>Female</td>
+                                <td><strong>${data.gender.female}</strong></td>
+                                <td>${data.gender.female_pct}%</td>
+                            </tr>
+                        </table>
+                        <p style="margin-top: 1rem; color: #666;">
+                            <em>Males represent ${data.gender.male_pct}% of all suspensions (${data.gender.male} out of ${data.total_suspensions} total).</em>
+                        </p>
+                    </div>
+                `;
+            } else if (category === 'race') {
+                html = `
+                    <div style="padding: 1.5rem; background: #f9fafb; border-radius: 8px;">
+                        <h3 style="margin-bottom: 1rem;">Suspensions by Race/Ethnicity</h3>
+                        <table>
+                            <tr>
+                                <th>Race/Ethnicity</th>
+                                <th>Count</th>
+                                <th>Percentage</th>
+                            </tr>
+                            ${data.race.asian > 0 ? `<tr><td>Asian</td><td><strong>${data.race.asian}</strong></td><td>${data.race.asian_pct}%</td></tr>` : ''}
+                            <tr><td>Black or African American</td><td><strong>${data.race.black}</strong></td><td>${data.race.black_pct}%</td></tr>
+                            <tr><td>Hispanic or Latino</td><td><strong>${data.race.hispanic}</strong></td><td>${data.race.hispanic_pct}%</td></tr>
+                            ${data.race.native_american > 0 ? `<tr><td>American Indian/Alaska Native</td><td><strong>${data.race.native_american}</strong></td><td>${data.race.native_american_pct}%</td></tr>` : ''}
+                            <tr><td>White</td><td><strong>${data.race.white}</strong></td><td>${data.race.white_pct}%</td></tr>
+                            <tr><td>Two or More Races</td><td><strong>${data.race.two_or_more}</strong></td><td>${data.race.two_or_more_pct}%</td></tr>
+                        </table>
+                        <p style="margin-top: 1rem; color: #666;">
+                            <em>Black or African American students account for the highest percentage at ${data.race.black_pct}% (${data.race.black} suspensions).</em>
+                        </p>
+                    </div>
+                `;
+            } else if (category === 'offense') {
+                html = `
+                    <div style="padding: 1.5rem; background: #f9fafb; border-radius: 8px;">
+                        <h3 style="margin-bottom: 1rem;">Suspensions by Offense Type</h3>
+                        <table>
+                            <tr>
+                                <th>Offense Category</th>
+                                <th>Count</th>
+                                <th>Percentage</th>
+                            </tr>
+                            ${data.offense.attacks_threats_fighting > 0 ? `<tr><td>Attacks, Threats, Fighting</td><td><strong>${data.offense.attacks_threats_fighting}</strong></td><td>${data.offense.attacks_threats_fighting_pct}%</td></tr>` : ''}
+                            ${data.offense.disrespect_disruption > 0 ? `<tr><td>Disrespect & Disruption</td><td><strong>${data.offense.disrespect_disruption}</strong></td><td>${data.offense.disrespect_disruption_pct}%</td></tr>` : ''}
+                            ${data.offense.dangerous_substances > 0 ? `<tr><td>Dangerous Substances</td><td><strong>${data.offense.dangerous_substances}</strong></td><td>${data.offense.dangerous_substances_pct}%</td></tr>` : ''}
+                            ${data.offense.attendance > 0 ? `<tr><td>Attendance</td><td><strong>${data.offense.attendance}</strong></td><td>${data.offense.attendance_pct}%</td></tr>` : ''}
+                            ${data.offense.weapons > 0 ? `<tr><td>Weapons</td><td><strong>${data.offense.weapons}</strong></td><td>${data.offense.weapons_pct}%</td></tr>` : ''}
+                            ${data.offense.sexual_offense > 0 ? `<tr><td>Sexual Offense</td><td><strong>${data.offense.sexual_offense}</strong></td><td>${data.offense.sexual_offense_pct}%</td></tr>` : ''}
+                            ${data.offense.other > 0 ? `<tr><td>Other</td><td><strong>${data.offense.other}</strong></td><td>${data.offense.other_pct}%</td></tr>` : ''}
+                        </table>
+                    </div>
+                `;
+            } else if (category === 'disability' && data.disability) {
+                html = `
+                    <div style="padding: 1.5rem; background: #f9fafb; border-radius: 8px;">
+                        <h3 style="margin-bottom: 1rem;">Students with Disabilities</h3>
+                        <div class="stat-box">
+                            <div class="label">Total Suspensions of Students with Disabilities</div>
+                            <div class="value">${data.disability.students_with_disabilities}</div>
+                        </div>
+                        <p style="margin-top: 1rem; color: #666;">
+                            <em>Students with disabilities represent ${data.disability.students_with_disabilities_pct}% of all suspensions (${data.disability.students_with_disabilities} out of ${data.total_suspensions} total).</em>
+                        </p>
+                    </div>
+                `;
+            }
+            
+            detailDiv.innerHTML = html;
+            detailDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Load county cards on overview
+        function loadCountyCards() {
+            const container = document.getElementById('county-cards');
+            Object.entries(countyData).forEach(([key, county]) => {
+                const card = document.createElement('div');
+                card.className = 'county-card';
+                card.onclick = () => {
+                    document.querySelector('.nav-btn.active').classList.remove('active');
+                    document.querySelectorAll('.nav-btn')[Object.keys(countyData).indexOf(key) + 1].classList.add('active');
+                    showSection(key);
+                };
+                card.innerHTML = `
+                    <h3>${county.name}</h3>
+                    <div class="enrollment">${county.demographics.enrollment.toLocaleString()}</div>
+                    <div class="detail">students</div>
+                    <div class="detail">${county.teachers} teachers</div>
+                    <div class="detail">Blueprint: ${county.blueprintIncrease}</div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Initialize
+        loadCountyCards();
+    </script>
+</body>
+</html>

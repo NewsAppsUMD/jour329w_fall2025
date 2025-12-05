@@ -1,0 +1,24 @@
+{
+  "Dorchester": {
+    "county": "Dorchester",
+    "total_k12_enrollment": 4353,
+    "enrollment_by_race": {
+      "White": {
+        "count": 2297,
+        "percentage": 52.8
+      },
+      "Black_or_African_American": {
+        "count": 1427,
+        "percentage": 32.8
+      },
+      "Asian": {
+        "count": 145,
+        "percentage": 3.3
+      },
+      "Hispanic_or_Latino": {
+        "count": 484,
+        "percentage": 11.1
+      }
+    }
+  }
+}

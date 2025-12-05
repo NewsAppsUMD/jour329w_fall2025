@@ -1,0 +1,848 @@
+[
+  {
+    "county": "Caroline",
+    "school_name": "Greensboro Elementary School",
+    "school_number": "0201",
+    "suspension_type": "in_school",
+    "total_suspensions": 41,
+    "gender": {
+      "male": 35,
+      "male_pct": 85.4,
+      "female": 6,
+      "female_pct": 14.6
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 14.6,
+      "hispanic": 6,
+      "hispanic_pct": 14.6,
+      "white": 28,
+      "white_pct": 68.3,
+      "two_or_more": 1,
+      "two_or_more_pct": 2.4
+    },
+    "disability": {
+      "students_with_disabilities": 11,
+      "students_with_disabilities_pct": 26.8
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 29,
+      "attacks_threats_fighting_pct": 70.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 2.4,
+      "disrespect_disruption": 10,
+      "disrespect_disruption_pct": 24.4,
+      "other": 1,
+      "other_pct": 2.4
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Greensboro Elementary School",
+    "school_number": "0201",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 29,
+    "gender": {
+      "male": 19,
+      "male_pct": 65.5,
+      "female": 10,
+      "female_pct": 34.5
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 5,
+      "black_pct": 17.2,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 24,
+      "white_pct": 82.8,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 11,
+      "students_with_disabilities_pct": 37.9
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 17,
+      "attacks_threats_fighting_pct": 58.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 12,
+      "disrespect_disruption_pct": 41.4,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Denton Elementary School",
+    "school_number": "0301",
+    "suspension_type": "in_school",
+    "total_suspensions": 20,
+    "gender": {
+      "male": 17,
+      "male_pct": 85.0,
+      "female": 3,
+      "female_pct": 15.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 11,
+      "black_pct": 55.0,
+      "hispanic": 2,
+      "hispanic_pct": 10.0,
+      "white": 4,
+      "white_pct": 20.0,
+      "two_or_more": 3,
+      "two_or_more_pct": 15.0
+    },
+    "disability": {
+      "students_with_disabilities": 14,
+      "students_with_disabilities_pct": 70.0
+    },
+    "offense": {
+      "attendance": 1,
+      "attendance_pct": 5.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 16,
+      "attacks_threats_fighting_pct": 80.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 3,
+      "disrespect_disruption_pct": 15.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Denton Elementary School",
+    "school_number": "0301",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 14,
+    "gender": {
+      "male": 14,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 42.9,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 3,
+      "white_pct": 21.4,
+      "two_or_more": 5,
+      "two_or_more_pct": 35.7
+    },
+    "disability": {
+      "students_with_disabilities": 12,
+      "students_with_disabilities_pct": 85.7
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 12,
+      "attacks_threats_fighting_pct": 85.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 7.1,
+      "other": 1,
+      "other_pct": 7.1
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Lockerman Middle School",
+    "school_number": "0302",
+    "suspension_type": "in_school",
+    "total_suspensions": 118,
+    "gender": {
+      "male": 80,
+      "male_pct": 67.8,
+      "female": 38,
+      "female_pct": 32.2
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 47,
+      "black_pct": 39.8,
+      "hispanic": 11,
+      "hispanic_pct": 9.3,
+      "white": 50,
+      "white_pct": 42.4,
+      "two_or_more": 10,
+      "two_or_more_pct": 8.5
+    },
+    "disability": {
+      "students_with_disabilities": 16,
+      "students_with_disabilities_pct": 13.6
+    },
+    "offense": {
+      "attendance": 2,
+      "attendance_pct": 1.7,
+      "dangerous_substances": 8,
+      "dangerous_substances_pct": 6.8,
+      "weapons": 1,
+      "weapons_pct": 0.8,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 0.8,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 99,
+      "disrespect_disruption_pct": 83.9,
+      "other": 7,
+      "other_pct": 5.9
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Lockerman Middle School",
+    "school_number": "0302",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 202,
+    "gender": {
+      "male": 144,
+      "male_pct": 71.3,
+      "female": 58,
+      "female_pct": 28.7
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 78,
+      "black_pct": 38.6,
+      "hispanic": 13,
+      "hispanic_pct": 6.4,
+      "white": 96,
+      "white_pct": 47.5,
+      "two_or_more": 15,
+      "two_or_more_pct": 7.4
+    },
+    "disability": {
+      "students_with_disabilities": 56,
+      "students_with_disabilities_pct": 27.7
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 10,
+      "dangerous_substances_pct": 5.0,
+      "weapons": 1,
+      "weapons_pct": 0.5,
+      "attacks_threats_fighting": 141,
+      "attacks_threats_fighting_pct": 69.8,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 46,
+      "disrespect_disruption_pct": 22.8,
+      "other": 4,
+      "other_pct": 2.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Preston Elementary School",
+    "school_number": "0401",
+    "suspension_type": "in_school",
+    "total_suspensions": 11,
+    "gender": {
+      "male": 10,
+      "male_pct": 90.9,
+      "female": 1,
+      "female_pct": 9.1
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 1,
+      "black_pct": 9.1,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 8,
+      "white_pct": 72.7,
+      "two_or_more": 2,
+      "two_or_more_pct": 18.2
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 9.1
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 1,
+      "weapons_pct": 9.1,
+      "attacks_threats_fighting": 5,
+      "attacks_threats_fighting_pct": 45.5,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 4,
+      "disrespect_disruption_pct": 36.4,
+      "other": 1,
+      "other_pct": 9.1
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Preston Elementary School",
+    "school_number": "0401",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 9,
+    "gender": {
+      "male": 9,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 6,
+      "white_pct": 66.7,
+      "two_or_more": 3,
+      "two_or_more_pct": 33.3
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 11.1
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 1,
+      "weapons_pct": 11.1,
+      "attacks_threats_fighting": 5,
+      "attacks_threats_fighting_pct": 55.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 2,
+      "disrespect_disruption_pct": 22.2,
+      "other": 1,
+      "other_pct": 11.1
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Federalsburg Elementary School",
+    "school_number": "0501",
+    "suspension_type": "in_school",
+    "total_suspensions": 8,
+    "gender": {
+      "male": 6,
+      "male_pct": 75.0,
+      "female": 2,
+      "female_pct": 25.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 75.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 2,
+      "two_or_more_pct": 25.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 4,
+      "attacks_threats_fighting_pct": 50.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 4,
+      "disrespect_disruption_pct": 50.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Federalsburg Elementary School",
+    "school_number": "0501",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 35,
+    "gender": {
+      "male": 21,
+      "male_pct": 60.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 31,
+      "attacks_threats_fighting_pct": 88.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 2.9,
+      "disrespect_disruption": 3,
+      "disrespect_disruption_pct": 8.6,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Ridgely Elementary School",
+    "school_number": "0701",
+    "suspension_type": "in_school",
+    "total_suspensions": 17,
+    "gender": {
+      "male": 15,
+      "male_pct": 88.2,
+      "female": 2,
+      "female_pct": 11.8
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 35.3,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 9,
+      "white_pct": 52.9,
+      "two_or_more": 2,
+      "two_or_more_pct": 11.8
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 5.9
+    },
+    "offense": {
+      "attendance": 1,
+      "attendance_pct": 5.9,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 9,
+      "attacks_threats_fighting_pct": 52.9,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 5.9,
+      "disrespect_disruption": 6,
+      "disrespect_disruption_pct": 35.3,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Ridgely Elementary School",
+    "school_number": "0701",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 7,
+    "gender": {
+      "male": 7,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 3,
+      "black_pct": 42.9,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 4,
+      "white_pct": 57.1,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 14.3
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 4,
+      "dangerous_substances_pct": 57.1,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 2,
+      "attacks_threats_fighting_pct": 28.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 14.3,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "North Caroline High School",
+    "school_number": "0703",
+    "suspension_type": "in_school",
+    "total_suspensions": 43,
+    "gender": {
+      "male": 33,
+      "male_pct": 76.7,
+      "female": 10,
+      "female_pct": 23.3
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 2,
+      "dangerous_substances_pct": 4.7,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 2.3,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 31,
+      "disrespect_disruption_pct": 72.1,
+      "other": 9,
+      "other_pct": 20.9
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "North Caroline High School",
+    "school_number": "0703",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 155,
+    "gender": {
+      "male": 105,
+      "male_pct": 67.7,
+      "female": 50,
+      "female_pct": 32.3
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 48,
+      "dangerous_substances_pct": 31.0,
+      "weapons": 3,
+      "weapons_pct": 1.9,
+      "attacks_threats_fighting": 71,
+      "attacks_threats_fighting_pct": 45.8,
+      "arson_fire_explosives": 1,
+      "arson_fire_explosives_pct": 0.6,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 0.6,
+      "disrespect_disruption": 28,
+      "disrespect_disruption_pct": 18.1,
+      "other": 3,
+      "other_pct": 1.9
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Colonel Richardson High School",
+    "school_number": "0801",
+    "suspension_type": "in_school",
+    "total_suspensions": 58,
+    "gender": {
+      "male": 33,
+      "male_pct": 56.9,
+      "female": 25,
+      "female_pct": 43.1
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 19,
+      "black_pct": 32.8,
+      "hispanic": 11,
+      "hispanic_pct": 19.0,
+      "white": 22,
+      "white_pct": 37.9,
+      "two_or_more": 6,
+      "two_or_more_pct": 10.3
+    },
+    "disability": {
+      "students_with_disabilities": 6,
+      "students_with_disabilities_pct": 10.3
+    },
+    "offense": {
+      "attendance": 14,
+      "attendance_pct": 24.1,
+      "dangerous_substances": 6,
+      "dangerous_substances_pct": 10.3,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 6,
+      "attacks_threats_fighting_pct": 10.3,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 30,
+      "disrespect_disruption_pct": 51.7,
+      "other": 2,
+      "other_pct": 3.4
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Colonel Richardson High School",
+    "school_number": "0801",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 62,
+    "gender": {
+      "male": 25,
+      "male_pct": 40.3,
+      "female": 37,
+      "female_pct": 59.7
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 25,
+      "black_pct": 40.3,
+      "hispanic": 2,
+      "hispanic_pct": 3.2,
+      "white": 28,
+      "white_pct": 45.2,
+      "two_or_more": 7,
+      "two_or_more_pct": 11.3
+    },
+    "disability": {
+      "students_with_disabilities": 7,
+      "students_with_disabilities_pct": 11.3
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 6,
+      "dangerous_substances_pct": 9.7,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 32,
+      "attacks_threats_fighting_pct": 51.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 24,
+      "disrespect_disruption_pct": 38.7,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Colonel Richardson Middle School",
+    "school_number": "0802",
+    "suspension_type": "in_school",
+    "total_suspensions": 55,
+    "gender": {
+      "male": 45,
+      "male_pct": 81.8,
+      "female": 10,
+      "female_pct": 18.2
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 32,
+      "black_pct": 58.2,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 20,
+      "white_pct": 36.4,
+      "two_or_more": 3,
+      "two_or_more_pct": 5.5
+    },
+    "disability": {
+      "students_with_disabilities": 5,
+      "students_with_disabilities_pct": 9.1
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 2,
+      "dangerous_substances_pct": 3.6,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 13,
+      "attacks_threats_fighting_pct": 23.6,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 3.6,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 1.8,
+      "disrespect_disruption": 37,
+      "disrespect_disruption_pct": 67.3,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Caroline",
+    "school_name": "Colonel Richardson Middle School",
+    "school_number": "0802",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 53,
+    "gender": {
+      "male": 43,
+      "male_pct": 81.1,
+      "female": 10,
+      "female_pct": 18.9
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 25,
+      "black_pct": 47.2,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 21,
+      "white_pct": 39.6,
+      "two_or_more": 7,
+      "two_or_more_pct": 13.2
+    },
+    "disability": {
+      "students_with_disabilities": 3,
+      "students_with_disabilities_pct": 5.7
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 7,
+      "dangerous_substances_pct": 13.2,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 44,
+      "attacks_threats_fighting_pct": 83.0,
+      "arson_fire_explosives": 1,
+      "arson_fire_explosives_pct": 1.9,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 1.9,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  }
+]

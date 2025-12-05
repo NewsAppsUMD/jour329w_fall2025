@@ -1,0 +1,107 @@
+[
+  {
+    "school_name": "Galena Elementary School (0105)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 27.0
+  },
+  {
+    "school_name": "Galena Elementary School (0105)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 8.3
+  },
+  {
+    "school_name": "Galena Elementary School (0105)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 10.5
+  },
+  {
+    "school_name": "H. H. Garnett Elementary (0403)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 47.2
+  },
+  {
+    "school_name": "H. H. Garnett Elementary (0403)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 15.1
+  },
+  {
+    "school_name": "H. H. Garnett Elementary (0403)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 11.3
+  },
+  {
+    "school_name": "Kent County High (0301)",
+    "county": "Kent",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 53.5
+  },
+  {
+    "school_name": "Kent County High (0301)",
+    "county": "Kent",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 6.1
+  },
+  {
+    "school_name": "Kent County High (0301)",
+    "county": "Kent",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 27.7
+  },
+  {
+    "school_name": "Kent County Middle School (0402)",
+    "county": "Kent",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 25.0
+  },
+  {
+    "school_name": "Kent County Middle School (0402)",
+    "county": "Kent",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Kent County Middle School (0402)",
+    "county": "Kent",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 16.8
+  },
+  {
+    "school_name": "Rock Hall Elementary (0504)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 36.0
+  },
+  {
+    "school_name": "Rock Hall Elementary (0504)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 36.0
+  },
+  {
+    "school_name": "Rock Hall Elementary (0504)",
+    "county": "Kent",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 58.3
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "school_name": "Williamsport High",
+  "school_code": "0204",
+  "county_code": "21",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 1061,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": 11,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 118,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 190,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 667,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Am.Ind/AK",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 73,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 1061,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 532,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 529,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 1061,
+      "year": "2025"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "county": "Dorchester",
+    "school_name": "Dorchester County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 1547,
+    "gender": {
+      "male": 985,
+      "male_pct": 63.7,
+      "female": 562,
+      "female_pct": 36.3
+    },
+    "race": {
+      "asian": 6,
+      "asian_pct": 0.4,
+      "black": 1149,
+      "black_pct": 74.3,
+      "hispanic": 58,
+      "hispanic_pct": 3.7,
+      "white": 198,
+      "white_pct": 12.8,
+      "two_or_more": 136,
+      "two_or_more_pct": 8.8
+    },
+    "disability": {
+      "students_with_disabilities": 163,
+      "students_with_disabilities_pct": 10.5
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 103,
+      "dangerous_substances_pct": 6.7,
+      "weapons": 12,
+      "weapons_pct": 0.8,
+      "attacks_threats_fighting": 856,
+      "attacks_threats_fighting_pct": 55.3,
+      "arson_fire_explosives": 3,
+      "arson_fire_explosives_pct": 0.2,
+      "sex_offenses": 20,
+      "sex_offenses_pct": 1.3,
+      "disrespect_disruption": 490,
+      "disrespect_disruption_pct": 31.7,
+      "other": 63,
+      "other_pct": 4.1
+    }
+  },
+  {
+    "county": "Dorchester",
+    "school_name": "Dorchester County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "total",
+    "total_suspensions": 1547,
+    "gender": {
+      "male": 985,
+      "male_pct": 63.7,
+      "female": 562,
+      "female_pct": 36.3
+    },
+    "race": {
+      "asian": 6,
+      "asian_pct": 0.4,
+      "black": 1149,
+      "black_pct": 74.3,
+      "hispanic": 58,
+      "hispanic_pct": 3.7,
+      "white": 198,
+      "white_pct": 12.8,
+      "two_or_more": 136,
+      "two_or_more_pct": 8.8
+    },
+    "disability": {
+      "students_with_disabilities": 163,
+      "students_with_disabilities_pct": 10.5
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 103,
+      "dangerous_substances_pct": 6.7,
+      "weapons": 12,
+      "weapons_pct": 0.8,
+      "attacks_threats_fighting": 856,
+      "attacks_threats_fighting_pct": 55.3,
+      "arson_fire_explosives": 3,
+      "arson_fire_explosives_pct": 0.2,
+      "sex_offenses": 20,
+      "sex_offenses_pct": 1.3,
+      "disrespect_disruption": 490,
+      "disrespect_disruption_pct": 31.7,
+      "other": 63,
+      "other_pct": 4.1
+    }
+  }
+]

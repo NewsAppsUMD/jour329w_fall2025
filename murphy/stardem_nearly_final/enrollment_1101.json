@@ -1,0 +1,115 @@
+{
+  "school_name": "Pleasant Valley Elementary",
+  "school_code": "1101",
+  "county_code": "21",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 186,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 16,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 158,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 186,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 94,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 92,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 186,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Pre-Kindergarten",
+      "enrollment": 19,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Kindergarten",
+      "enrollment": 23,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 1",
+      "enrollment": 30,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 2",
+      "enrollment": 31,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 3",
+      "enrollment": 30,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 4",
+      "enrollment": 30,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 5",
+      "enrollment": 23,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Elementary",
+      "enrollment": 144,
+      "year": "2025"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "school_name": "William A. Diggs Elementary",
+  "school_code": "0624",
+  "county_code": "08",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 876,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": 33,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 595,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 124,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 67,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Am.Ind/AK",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "HI/Pac.Isl.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 54,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 876,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 457,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 419,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 876,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Pre-Kindergarten",
+      "enrollment": 57,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Kindergarten",
+      "enrollment": 101,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 1",
+      "enrollment": 141,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 2",
+      "enrollment": 140,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 3",
+      "enrollment": 144,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 4",
+      "enrollment": 147,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 5",
+      "enrollment": 146,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Elementary",
+      "enrollment": 718,
+      "year": "2025"
+    }
+  ]
+}

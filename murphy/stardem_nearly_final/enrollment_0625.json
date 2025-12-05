@@ -1,0 +1,79 @@
+{
+  "school_name": "Theodore G. Davis Middle School",
+  "school_code": "0625",
+  "county_code": "08",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 999,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": 56,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 696,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 115,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 49,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Am.Ind/AK",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "HI/Pac.Isl.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 77,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 999,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 505,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 494,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 999,
+      "year": "2025"
+    }
+  ]
+}

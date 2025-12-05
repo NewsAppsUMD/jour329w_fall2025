@@ -1,0 +1,96 @@
+[
+  {
+    "county": "Talbot",
+    "school_name": "Talbot County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 357,
+    "gender": {
+      "male": 251,
+      "male_pct": 70.3,
+      "female": 106,
+      "female_pct": 29.7
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 0.3,
+      "black": 171,
+      "black_pct": 47.9,
+      "hispanic": 43,
+      "hispanic_pct": 12.0,
+      "white": 101,
+      "white_pct": 28.3,
+      "two_or_more": 41,
+      "two_or_more_pct": 11.5
+    },
+    "disability": {
+      "students_with_disabilities": 87,
+      "students_with_disabilities_pct": 24.4
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 49,
+      "dangerous_substances_pct": 13.7,
+      "weapons": 11,
+      "weapons_pct": 3.1,
+      "attacks_threats_fighting": 194,
+      "attacks_threats_fighting_pct": 54.3,
+      "arson_fire_explosives": 3,
+      "arson_fire_explosives_pct": 0.8,
+      "sex_offenses": 2,
+      "sex_offenses_pct": 0.6,
+      "disrespect_disruption": 88,
+      "disrespect_disruption_pct": 24.6,
+      "other": 10,
+      "other_pct": 2.8
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "Talbot County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "total",
+    "total_suspensions": 357,
+    "gender": {
+      "male": 251,
+      "male_pct": 70.3,
+      "female": 106,
+      "female_pct": 29.7
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 0.3,
+      "black": 171,
+      "black_pct": 47.9,
+      "hispanic": 43,
+      "hispanic_pct": 12.0,
+      "white": 101,
+      "white_pct": 28.3,
+      "two_or_more": 41,
+      "two_or_more_pct": 11.5
+    },
+    "disability": {
+      "students_with_disabilities": 87,
+      "students_with_disabilities_pct": 24.4
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 49,
+      "dangerous_substances_pct": 13.7,
+      "weapons": 11,
+      "weapons_pct": 3.1,
+      "attacks_threats_fighting": 194,
+      "attacks_threats_fighting_pct": 54.3,
+      "arson_fire_explosives": 3,
+      "arson_fire_explosives_pct": 0.8,
+      "sex_offenses": 2,
+      "sex_offenses_pct": 0.6,
+      "disrespect_disruption": 88,
+      "disrespect_disruption_pct": 24.6,
+      "other": 10,
+      "other_pct": 2.8
+    }
+  }
+]

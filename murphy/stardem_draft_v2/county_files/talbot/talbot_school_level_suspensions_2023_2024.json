@@ -1,0 +1,284 @@
+[
+  {
+    "county": "Talbot",
+    "school_name": "Easton High",
+    "school_number": "0101",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 170,
+    "gender": {
+      "male": 116,
+      "male_pct": 68.2,
+      "female": 54,
+      "female_pct": 31.8
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 0.6,
+      "black": 94,
+      "black_pct": 55.3,
+      "hispanic": 20,
+      "hispanic_pct": 11.8,
+      "white": 39,
+      "white_pct": 22.9,
+      "two_or_more": 16,
+      "two_or_more_pct": 9.4
+    },
+    "disability": {
+      "students_with_disabilities": 34,
+      "students_with_disabilities_pct": 20.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 41,
+      "dangerous_substances_pct": 24.1,
+      "weapons": 5,
+      "weapons_pct": 2.9,
+      "attacks_threats_fighting": 76,
+      "attacks_threats_fighting_pct": 44.7,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 1.2,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 41,
+      "disrespect_disruption_pct": 24.1,
+      "other": 5,
+      "other_pct": 2.9
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "Easton Elementary",
+    "school_number": "0104",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 40,
+    "gender": {
+      "male": 31,
+      "male_pct": 77.5,
+      "female": 9,
+      "female_pct": 22.5
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 16,
+      "black_pct": 40.0,
+      "hispanic": 4,
+      "hispanic_pct": 10.0,
+      "white": 13,
+      "white_pct": 32.5,
+      "two_or_more": 7,
+      "two_or_more_pct": 17.5
+    },
+    "disability": {
+      "students_with_disabilities": 18,
+      "students_with_disabilities_pct": 45.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 2,
+      "weapons_pct": 5.0,
+      "attacks_threats_fighting": 30,
+      "attacks_threats_fighting_pct": 75.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 2.5,
+      "disrespect_disruption": 6,
+      "disrespect_disruption_pct": 15.0,
+      "other": 1,
+      "other_pct": 2.5
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "Easton Middle",
+    "school_number": "0106",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 94,
+    "gender": {
+      "male": 63,
+      "male_pct": 67.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 5,
+      "dangerous_substances_pct": 5.3,
+      "weapons": 2,
+      "weapons_pct": 2.1,
+      "attacks_threats_fighting": 60,
+      "attacks_threats_fighting_pct": 63.8,
+      "arson_fire_explosives": 1,
+      "arson_fire_explosives_pct": 1.1,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 1.1,
+      "disrespect_disruption": 25,
+      "disrespect_disruption_pct": 26.6,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "St. Michaels Middle/High School",
+    "school_number": "0202",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 40,
+    "gender": {
+      "male": 29,
+      "male_pct": 72.5,
+      "female": 11,
+      "female_pct": 27.5
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 20,
+      "black_pct": 50.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 15,
+      "white_pct": 37.5,
+      "two_or_more": 5,
+      "two_or_more_pct": 12.5
+    },
+    "disability": {
+      "students_with_disabilities": 8,
+      "students_with_disabilities_pct": 20.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 3,
+      "dangerous_substances_pct": 7.5,
+      "weapons": 1,
+      "weapons_pct": 2.5,
+      "attacks_threats_fighting": 18,
+      "attacks_threats_fighting_pct": 45.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 14,
+      "disrespect_disruption_pct": 35.0,
+      "other": 4,
+      "other_pct": 10.0
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "White Marsh Elementary",
+    "school_number": "0302",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 5,
+    "gender": {
+      "male": 4,
+      "male_pct": 80.0,
+      "female": 1,
+      "female_pct": 20.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 2,
+      "white_pct": 40.0,
+      "two_or_more": 3,
+      "two_or_more_pct": 60.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 20.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 1,
+      "weapons_pct": 20.0,
+      "attacks_threats_fighting": 2,
+      "attacks_threats_fighting_pct": 40.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 2,
+      "disrespect_disruption_pct": 40.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Talbot",
+    "school_name": "Chapel District Elementary",
+    "school_number": "0401",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 8,
+    "gender": {
+      "male": 8,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 8,
+      "white_pct": 100.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 5,
+      "students_with_disabilities_pct": 62.5
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 8,
+      "attacks_threats_fighting_pct": 100.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  }
+]

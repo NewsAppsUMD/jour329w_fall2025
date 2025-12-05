@@ -1,0 +1,66 @@
+{
+  "Caroline County": {
+    "Total Population": 33320,
+    "Male Under 5 years": 1022,
+    "Male 5 to 9 years": 1203,
+    "Male 10 to 14 years": 1025,
+    "Male 15 to 17 years": 722,
+    "Male 18 and 19 years": 388,
+    "Female Under 5 years": 1004,
+    "Female 5 to 9 years": 1271,
+    "Female 10 to 14 years": 893,
+    "Female 15 to 17 years": 677,
+    "Female 18 and 19 years": 442,
+    "White alone": 25025,
+    "Black or African American alone": 4565,
+    "Asian alone": 153,
+    "Hispanic or Latino": 2736,
+    "Total population 25 years and over": 22837,
+    "High school graduate": 8201,
+    "Bachelor's degree": 2362,
+    "Master's degree": 1335,
+    "Professional school degree": 259,
+    "Doctorate degree": 88,
+    "Total population 3 years and over": 32018,
+    "Enrolled in school": 8080,
+    "Enrolled in nursery school, preschool": 471,
+    "Enrolled in kindergarten": 496,
+    "Enrolled in grade 1 to grade 4": 1955,
+    "Enrolled in grade 5 to grade 8": 1482,
+    "Enrolled in grade 9 to grade 12": 1891,
+    "Enrolled in college, undergraduate": 1471,
+    "Total population for poverty determination": 32727,
+    "Income below poverty level": 4228,
+    "Median household income": 65326,
+    "Total population 5 years and over": null,
+    "Speak only English": null,
+    "Speak Spanish": null,
+    "Total households": 12013,
+    "Has computer, has broadband internet": 10284,
+    "Has computer, no internet": 6599,
+    "No computer": 1365,
+    "School-Age Population (5-17)": 5791,
+    "Poverty Rate (%)": 12.9,
+    "School Enrollment Rate (%)": 25.2,
+    "Broadband Access Rate (%)": 85.6,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3372,
+        "percentage": 70.5
+      },
+      "Black_or_African_American": {
+        "count": 706,
+        "percentage": 14.8
+      },
+      "Asian": {
+        "count": 9,
+        "percentage": 0.2
+      },
+      "Hispanic_or_Latino": {
+        "count": 694,
+        "percentage": 14.5
+      }
+    },
+    "total_k12_enrollment": 4781
+  }
+}

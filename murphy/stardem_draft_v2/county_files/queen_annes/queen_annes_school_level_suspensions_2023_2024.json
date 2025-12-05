@@ -1,0 +1,942 @@
+[
+  {
+    "county": "Queen Anne's",
+    "school_name": "Sudlersville Middle School",
+    "school_number": "0101",
+    "suspension_type": "in_school",
+    "total_suspensions": 2,
+    "gender": {
+      "male": 2,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 1,
+      "white_pct": 50.0,
+      "two_or_more": 1,
+      "two_or_more_pct": 50.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 0,
+      "attacks_threats_fighting_pct": 0.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 2,
+      "disrespect_disruption_pct": 100.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Sudlersville Middle School",
+    "school_number": "0101",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 36,
+    "gender": {
+      "male": 24,
+      "male_pct": 66.7,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 2,
+      "dangerous_substances_pct": 5.6,
+      "weapons": 1,
+      "weapons_pct": 2.8,
+      "attacks_threats_fighting": 18,
+      "attacks_threats_fighting_pct": 50.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 2.8,
+      "disrespect_disruption": 10,
+      "disrespect_disruption_pct": 27.8,
+      "other": 4,
+      "other_pct": 11.1
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Sudlersville Elementary School",
+    "school_number": "0106",
+    "suspension_type": "in_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 1,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 1,
+      "white_pct": 100.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 100.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Church Hill Elementary School",
+    "school_number": "0202",
+    "suspension_type": "in_school",
+    "total_suspensions": 2,
+    "gender": {
+      "male": 2,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 1,
+      "white_pct": 50.0,
+      "two_or_more": 1,
+      "two_or_more_pct": 50.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 50.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 0,
+      "attacks_threats_fighting_pct": 0.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 50.0,
+      "other": 1,
+      "other_pct": 50.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Church Hill Elementary School",
+    "school_number": "0202",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 8,
+    "gender": {
+      "male": 8,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 3,
+      "black_pct": 37.5,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 4,
+      "white_pct": 50.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 2,
+      "dangerous_substances_pct": 25.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 3,
+      "attacks_threats_fighting_pct": 37.5,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 3,
+      "disrespect_disruption_pct": 37.5,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Queen Anne's County High School",
+    "school_number": "0301",
+    "suspension_type": "in_school",
+    "total_suspensions": 6,
+    "gender": {
+      "male": 6,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 5,
+      "white_pct": 83.3,
+      "two_or_more": 1,
+      "two_or_more_pct": 16.7
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 16.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 5,
+      "disrespect_disruption_pct": 83.3,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Queen Anne's County High School",
+    "school_number": "0301",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 130,
+    "gender": {
+      "male": 84,
+      "male_pct": 64.6,
+      "female": 46,
+      "female_pct": 35.4
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 23,
+      "black_pct": 17.7,
+      "hispanic": 20,
+      "hispanic_pct": 15.4,
+      "white": 70,
+      "white_pct": 53.8,
+      "two_or_more": 17,
+      "two_or_more_pct": 13.1
+    },
+    "disability": {
+      "students_with_disabilities": 52,
+      "students_with_disabilities_pct": 40.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 32,
+      "dangerous_substances_pct": 24.6,
+      "weapons": 2,
+      "weapons_pct": 1.5,
+      "attacks_threats_fighting": 34,
+      "attacks_threats_fighting_pct": 26.2,
+      "arson_fire_explosives": 4,
+      "arson_fire_explosives_pct": 3.1,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 0.8,
+      "disrespect_disruption": 55,
+      "disrespect_disruption_pct": 42.3,
+      "other": 2,
+      "other_pct": 1.5
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Kennard Elementary School",
+    "school_number": "0302",
+    "suspension_type": "in_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 1,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 1,
+      "two_or_more_pct": 100.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 0,
+      "attacks_threats_fighting_pct": 0.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 100.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Centreville Middle School",
+    "school_number": "0303",
+    "suspension_type": "in_school",
+    "total_suspensions": 18,
+    "gender": {
+      "male": 13,
+      "male_pct": 72.2,
+      "female": 5,
+      "female_pct": 27.8
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 33.3,
+      "hispanic": 1,
+      "hispanic_pct": 5.6,
+      "white": 11,
+      "white_pct": 61.1,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 5.6
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 12,
+      "attacks_threats_fighting_pct": 66.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 5,
+      "disrespect_disruption_pct": 27.8,
+      "other": 1,
+      "other_pct": 5.6
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Centreville Middle School",
+    "school_number": "0303",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 12,
+    "gender": {
+      "male": 10,
+      "male_pct": 83.3,
+      "female": 2,
+      "female_pct": 16.7
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 2,
+      "black_pct": 16.7,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 8,
+      "white_pct": 66.7,
+      "two_or_more": 2,
+      "two_or_more_pct": 16.7
+    },
+    "disability": {
+      "students_with_disabilities": 4,
+      "students_with_disabilities_pct": 33.3
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 9,
+      "attacks_threats_fighting_pct": 75.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 3,
+      "disrespect_disruption_pct": 25.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Centreville Elementary School",
+    "school_number": "0308",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 1,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 1,
+      "black_pct": 100.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 100.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 100.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Kent Island Elementary School",
+    "school_number": "0402",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 0,
+      "male_pct": 0.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 0,
+      "attacks_threats_fighting_pct": 0.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 100.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Stevensville Middle School",
+    "school_number": "0404",
+    "suspension_type": "in_school",
+    "total_suspensions": 31,
+    "gender": {
+      "male": 25,
+      "male_pct": 80.6,
+      "female": 6,
+      "female_pct": 19.4
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 7,
+      "black_pct": 22.6,
+      "hispanic": 3,
+      "hispanic_pct": 9.7,
+      "white": 20,
+      "white_pct": 64.5,
+      "two_or_more": 1,
+      "two_or_more_pct": 3.2
+    },
+    "disability": {
+      "students_with_disabilities": 8,
+      "students_with_disabilities_pct": 25.8
+    },
+    "offense": {
+      "attendance": 1,
+      "attendance_pct": 3.2,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 15,
+      "attacks_threats_fighting_pct": 48.4,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 12,
+      "disrespect_disruption_pct": 38.7,
+      "other": 3,
+      "other_pct": 9.7
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Stevensville Middle School",
+    "school_number": "0404",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 18,
+    "gender": {
+      "male": 13,
+      "male_pct": 72.2,
+      "female": 5,
+      "female_pct": 27.8
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 2,
+      "black_pct": 11.1,
+      "hispanic": 1,
+      "hispanic_pct": 5.6,
+      "white": 12,
+      "white_pct": 66.7,
+      "two_or_more": 3,
+      "two_or_more_pct": 16.7
+    },
+    "disability": {
+      "students_with_disabilities": 3,
+      "students_with_disabilities_pct": 16.7
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 13,
+      "attacks_threats_fighting_pct": 72.2,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 1,
+      "disrespect_disruption_pct": 5.6,
+      "other": 4,
+      "other_pct": 22.2
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Kent Island High School",
+    "school_number": "0405",
+    "suspension_type": "in_school",
+    "total_suspensions": 43,
+    "gender": {
+      "male": 25,
+      "male_pct": 58.1,
+      "female": 18,
+      "female_pct": 41.9
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 6,
+      "black_pct": 14.0,
+      "hispanic": 5,
+      "hispanic_pct": 11.6,
+      "white": 24,
+      "white_pct": 55.8,
+      "two_or_more": 8,
+      "two_or_more_pct": 18.6
+    },
+    "disability": {
+      "students_with_disabilities": 7,
+      "students_with_disabilities_pct": 16.3
+    },
+    "offense": {
+      "attendance": 21,
+      "attendance_pct": 48.8,
+      "dangerous_substances": 3,
+      "dangerous_substances_pct": 7.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 5,
+      "attacks_threats_fighting_pct": 11.6,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 14,
+      "disrespect_disruption_pct": 32.6,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Kent Island High School",
+    "school_number": "0405",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 72,
+    "gender": {
+      "male": 51,
+      "male_pct": 70.8,
+      "female": 21,
+      "female_pct": 29.2
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 1.4,
+      "black": 14,
+      "black_pct": 19.4,
+      "hispanic": 7,
+      "hispanic_pct": 9.7,
+      "white": 37,
+      "white_pct": 51.4,
+      "two_or_more": 11,
+      "two_or_more_pct": 15.3
+    },
+    "disability": {
+      "students_with_disabilities": 9,
+      "students_with_disabilities_pct": 12.5
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 11,
+      "dangerous_substances_pct": 15.3,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 41,
+      "attacks_threats_fighting_pct": 56.9,
+      "arson_fire_explosives": 1,
+      "arson_fire_explosives_pct": 1.4,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 19,
+      "disrespect_disruption_pct": 26.4,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Matapeake Elementary School",
+    "school_number": "0406",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 12,
+    "gender": {
+      "male": 10,
+      "male_pct": 83.3,
+      "female": 2,
+      "female_pct": 16.7
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 1,
+      "hispanic_pct": 8.3,
+      "white": 10,
+      "white_pct": 83.3,
+      "two_or_more": 1,
+      "two_or_more_pct": 8.3
+    },
+    "disability": {
+      "students_with_disabilities": 5,
+      "students_with_disabilities_pct": 41.7
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 2,
+      "attacks_threats_fighting_pct": 16.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 10,
+      "disrespect_disruption_pct": 83.3,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Matapeake Middle School",
+    "school_number": "0407",
+    "suspension_type": "in_school",
+    "total_suspensions": 20,
+    "gender": {
+      "male": 16,
+      "male_pct": 80.0,
+      "female": 4,
+      "female_pct": 20.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 1,
+      "black_pct": 5.0,
+      "hispanic": 2,
+      "hispanic_pct": 10.0,
+      "white": 15,
+      "white_pct": 75.0,
+      "two_or_more": 2,
+      "two_or_more_pct": 10.0
+    },
+    "disability": {
+      "students_with_disabilities": 6,
+      "students_with_disabilities_pct": 30.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 1,
+      "weapons_pct": 5.0,
+      "attacks_threats_fighting": 7,
+      "attacks_threats_fighting_pct": 35.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 3,
+      "sex_offenses_pct": 15.0,
+      "disrespect_disruption": 9,
+      "disrespect_disruption_pct": 45.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Matapeake Middle School",
+    "school_number": "0407",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 37,
+    "gender": {
+      "male": 27,
+      "male_pct": 73.0,
+      "female": 10,
+      "female_pct": 27.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 2,
+      "black_pct": 5.4,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 5,
+      "dangerous_substances_pct": 13.5,
+      "weapons": 1,
+      "weapons_pct": 2.7,
+      "attacks_threats_fighting": 23,
+      "attacks_threats_fighting_pct": 62.2,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 2.7,
+      "disrespect_disruption": 7,
+      "disrespect_disruption_pct": 18.9,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Queen Anne's",
+    "school_name": "Grasonville Elementary School",
+    "school_number": "0503",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 13,
+    "gender": {
+      "male": 11,
+      "male_pct": 84.6,
+      "female": 2,
+      "female_pct": 15.4
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 11,
+      "black_pct": 84.6,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 2,
+      "white_pct": 15.4,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 6,
+      "students_with_disabilities_pct": 46.2
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 6,
+      "attacks_threats_fighting_pct": 46.2,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 15.4,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 5,
+      "disrespect_disruption_pct": 38.5,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  }
+]

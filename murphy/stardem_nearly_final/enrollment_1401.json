@@ -1,0 +1,121 @@
+{
+  "school_name": "Cascade Elementary",
+  "school_code": "1401",
+  "county_code": "21",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 137,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 12,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 108,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "HI/Pac.Isl.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 12,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 137,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 66,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 71,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 137,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Pre-Kindergarten",
+      "enrollment": 15,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Kindergarten",
+      "enrollment": 17,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 1",
+      "enrollment": 22,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 2",
+      "enrollment": 22,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 3",
+      "enrollment": 18,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 4",
+      "enrollment": 25,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 5",
+      "enrollment": 18,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Elementary",
+      "enrollment": 105,
+      "year": "2025"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "county": "Kent",
+    "teachers": 158,
+    "teacher_change_pct": 2.5,
+    "new_hires": 4,
+    "new_hires_pct": 2.5,
+    "student_enrollment": 4279,
+    "student_teacher_ratio": 27.1
+  }
+]

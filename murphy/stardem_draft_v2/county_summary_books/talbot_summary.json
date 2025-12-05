@@ -1,0 +1,263 @@
+{
+  "Talbot": {
+    "demographics": {
+      "total_population": 37663,
+      "school_age_population_5_17": 5280,
+      "total_k12_enrollment": 4529,
+      "enrollment_by_race": {
+        "White": {
+          "count": 3096,
+          "percentage": 68.4
+        },
+        "Black_or_African_American": {
+          "count": 678,
+          "percentage": 15.0
+        },
+        "Asian": {
+          "count": 40,
+          "percentage": 0.9
+        },
+        "Hispanic_or_Latino": {
+          "count": 715,
+          "percentage": 15.8
+        }
+      },
+      "poverty_rate_percent": 9.3,
+      "median_household_income": 81667,
+      "broadband_access_rate_percent": 88.1,
+      "education_metrics": {
+        "school_enrollment_rate_percent": 19.5,
+        "adult_education_25_and_over": {
+          "total_population": 28623,
+          "high_school_graduate": 6023,
+          "bachelors_degree": 6565,
+          "masters_degree": 3227,
+          "professional_degree": 1424,
+          "doctorate": 649
+        }
+      }
+    },
+    "district": {
+      "leadership": {
+        "superintendent": "Dr. Sharon Pepukayi",
+        "website": "https://www.tcps.k12.md.us/",
+        "board_members": [
+          {
+            "name": "Emily Jackson",
+            "position": "President",
+            "district": "District 4"
+          },
+          {
+            "name": "Amy Dodson",
+            "position": "Vice President",
+            "district": "District 3"
+          },
+          {
+            "name": "Dyshekia W. M. Strawberry",
+            "position": "Board Member",
+            "district": "District 1"
+          },
+          {
+            "name": "Ann O'Connor",
+            "position": "Board Member",
+            "district": "District 2"
+          },
+          {
+            "name": "Karla Wieland-Cherry",
+            "position": "Board Member",
+            "district": "District 5"
+          },
+          {
+            "name": "Cynthia M. Jurrius",
+            "position": "Board Member",
+            "district": "District 6"
+          },
+          {
+            "name": "Deborah Bridges",
+            "position": "Board Member",
+            "district": "District 7"
+          }
+        ]
+      },
+      "board_meetings": {
+        "meeting_schedules": [
+          {
+            "county": "Talbot",
+            "district": "Talbot County Public Schools",
+            "regular_meetings": {
+              "schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+              "location": "Talbot County Education Center",
+              "notes": "Pattern varies monthly, not strictly 1st/2nd/3rd week"
+            },
+            "upcoming_meetings": [
+              {
+                "date": "November 17, 2025",
+                "day": "Monday",
+                "type": "Work Session",
+                "time": "5:00 PM"
+              },
+              {
+                "date": "November 19, 2025",
+                "day": "Wednesday",
+                "type": "Regular Meeting",
+                "time": "7:00 PM"
+              },
+              {
+                "date": "December 15, 2025",
+                "day": "Monday",
+                "type": "Work Session",
+                "time": "TBA"
+              },
+              {
+                "date": "December 17, 2025",
+                "day": "Wednesday",
+                "type": "Regular Meeting",
+                "time": "TBA"
+              }
+            ],
+            "source": "https://www.tcps.k12.md.us"
+          }
+        ]
+      },
+      "teacher_data": {
+        "total_teachers": 345,
+        "year_over_year_change_pct": 1.8,
+        "new_hires": 51,
+        "new_hires_pct": 14.8,
+        "student_teacher_ratio": 20.6
+      }
+    },
+    "schools": {
+      "elementary": [
+        "Chapel District Elementary (0401)",
+        "Easton Elementary (0104)",
+        "St. Michaels Elementary (0204)",
+        "Tilghman Elementary (0501)",
+        "White Marsh Elementary (0302)"
+      ],
+      "middle": [
+        "Easton Middle (0106)",
+        "St. Michaels Middle/High School (0202)"
+      ],
+      "high": [
+        "Easton High (0101)"
+      ],
+      "other": []
+    },
+    "mcap_averages_by_school_level": {
+      "elementary": {
+        "5": {
+          "ELA": {
+            "average_rate": 42.6,
+            "state_average": 45.0,
+            "comparison": "-2.4 below state",
+            "schools_counted": 5
+          },
+          "Math": {
+            "average_rate": 27.6,
+            "state_average": 30.7,
+            "comparison": "-3.1 below state",
+            "schools_counted": 5
+          },
+          "Science": {
+            "average_rate": 29.2,
+            "state_average": 25.6,
+            "comparison": "+3.6 above state",
+            "schools_counted": 5
+          }
+        }
+      },
+      "middle": {
+        "8": {
+          "ELA": {
+            "average_rate": 33.2,
+            "state_average": 48.4,
+            "comparison": "-15.2 below state",
+            "schools_counted": 1
+          },
+          "Math": {
+            "average_rate": 5.2,
+            "state_average": 8.7,
+            "comparison": "-3.5 below state",
+            "schools_counted": 1
+          },
+          "Science": {
+            "average_rate": 18.1,
+            "state_average": 31.4,
+            "comparison": "-13.3 below state",
+            "schools_counted": 1
+          }
+        }
+      },
+      "high": {
+        "High School": {
+          "ELA": {
+            "average_rate": 66.7,
+            "state_average": 59.5,
+            "comparison": "+7.2 above state",
+            "schools_counted": 2
+          },
+          "Math (Algebra 1)": {
+            "average_rate": 6.1,
+            "state_average": 21.4,
+            "comparison": "-15.3 below state",
+            "schools_counted": 2
+          },
+          "Science": {
+            "average_rate": 46.1,
+            "state_average": 44.2,
+            "comparison": "+1.9 above state",
+            "schools_counted": 2
+          }
+        }
+      }
+    },
+    "suspension_data": {
+      "county": "Talbot",
+      "school_name": "Talbot County (All Schools)",
+      "school_number": "COUNTY",
+      "suspension_type": "out_of_school",
+      "total_suspensions": 357,
+      "gender": {
+        "male": 251,
+        "male_pct": 70.3,
+        "female": 106,
+        "female_pct": 29.7
+      },
+      "race": {
+        "asian": 1,
+        "asian_pct": 0.3,
+        "black": 171,
+        "black_pct": 47.9,
+        "hispanic": 43,
+        "hispanic_pct": 12.0,
+        "white": 101,
+        "white_pct": 28.3,
+        "two_or_more": 41,
+        "two_or_more_pct": 11.5
+      },
+      "disability": {
+        "students_with_disabilities": 87,
+        "students_with_disabilities_pct": 24.4
+      },
+      "offense": {
+        "attendance": 0,
+        "attendance_pct": 0.0,
+        "dangerous_substances": 49,
+        "dangerous_substances_pct": 13.7,
+        "weapons": 11,
+        "weapons_pct": 3.1,
+        "attacks_threats_fighting": 194,
+        "attacks_threats_fighting_pct": 54.3,
+        "arson_fire_explosives": 3,
+        "arson_fire_explosives_pct": 0.8,
+        "sex_offenses": 2,
+        "sex_offenses_pct": 0.6,
+        "disrespect_disruption": 88,
+        "disrespect_disruption_pct": 24.6,
+        "other": 10,
+        "other_pct": 2.8
+      }
+    }
+  }
+}

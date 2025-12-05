@@ -1,0 +1,121 @@
+{
+  "school_name": "Old Forge Elementary",
+  "school_code": "0903",
+  "county_code": "21",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 354,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 35,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 291,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Am.Ind/AK",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 15,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 354,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 198,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 156,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 354,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Pre-Kindergarten",
+      "enrollment": 36,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Kindergarten",
+      "enrollment": 55,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 1",
+      "enrollment": 50,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 2",
+      "enrollment": 54,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 3",
+      "enrollment": 50,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 4",
+      "enrollment": 57,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 5",
+      "enrollment": 52,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Elementary",
+      "enrollment": 263,
+      "year": "2025"
+    }
+  ]
+}

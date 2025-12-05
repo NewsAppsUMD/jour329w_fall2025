@@ -1,0 +1,66 @@
+{
+  "Dorchester County": {
+    "Total Population": 32557,
+    "Male Under 5 years": 919,
+    "Male 5 to 9 years": 881,
+    "Male 10 to 14 years": 1036,
+    "Male 15 to 17 years": 568,
+    "Male 18 and 19 years": 396,
+    "Female Under 5 years": 833,
+    "Female 5 to 9 years": 968,
+    "Female 10 to 14 years": 838,
+    "Female 15 to 17 years": 809,
+    "Female 18 and 19 years": 272,
+    "White alone": 20381,
+    "Black or African American alone": 8342,
+    "Asian alone": 438,
+    "Hispanic or Latino": 1992,
+    "Total population 25 years and over": 23327,
+    "High school graduate": 8376,
+    "Bachelor's degree": 2425,
+    "Master's degree": 1381,
+    "Professional school degree": 379,
+    "Doctorate degree": 283,
+    "Total population 3 years and over": 31743,
+    "Enrolled in school": 7006,
+    "Enrolled in nursery school, preschool": 442,
+    "Enrolled in kindergarten": 361,
+    "Enrolled in grade 1 to grade 4": 1512,
+    "Enrolled in grade 5 to grade 8": 1507,
+    "Enrolled in grade 9 to grade 12": 1799,
+    "Enrolled in college, undergraduate": 1179,
+    "Total population for poverty determination": 32157,
+    "Income below poverty level": 4951,
+    "Median household income": 57490,
+    "Total population 5 years and over": null,
+    "Speak only English": null,
+    "Speak Spanish": null,
+    "Total households": 13216,
+    "Has computer, has broadband internet": 11328,
+    "Has computer, no internet": 7659,
+    "No computer": 1657,
+    "School-Age Population (5-17)": 5100,
+    "Poverty Rate (%)": 15.4,
+    "School Enrollment Rate (%)": 22.1,
+    "Broadband Access Rate (%)": 85.7,
+    "enrollment_by_race": {
+      "White": {
+        "count": 2297,
+        "percentage": 52.8
+      },
+      "Black_or_African_American": {
+        "count": 1427,
+        "percentage": 32.8
+      },
+      "Asian": {
+        "count": 145,
+        "percentage": 3.3
+      },
+      "Hispanic_or_Latino": {
+        "count": 484,
+        "percentage": 11.1
+      }
+    },
+    "total_k12_enrollment": 4353
+  }
+}

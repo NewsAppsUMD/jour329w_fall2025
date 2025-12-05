@@ -1,0 +1,191 @@
+[
+  {
+    "school_name": "Colonel Richardson High School (0801)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 63.5
+  },
+  {
+    "school_name": "Colonel Richardson High School (0801)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Colonel Richardson High School (0801)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 28.3
+  },
+  {
+    "school_name": "Colonel Richardson Middle School (0802)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 60.0
+  },
+  {
+    "school_name": "Colonel Richardson Middle School (0802)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.9
+  },
+  {
+    "school_name": "Colonel Richardson Middle School (0802)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 27.8
+  },
+  {
+    "school_name": "Denton Elementary School (0301)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 36.0
+  },
+  {
+    "school_name": "Denton Elementary School (0301)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 25.8
+  },
+  {
+    "school_name": "Denton Elementary School (0301)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 17.8
+  },
+  {
+    "school_name": "Federalsburg Elementary School (0501)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 26.5
+  },
+  {
+    "school_name": "Federalsburg Elementary School (0501)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 16.7
+  },
+  {
+    "school_name": "Federalsburg Elementary School (0501)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 8.0
+  },
+  {
+    "school_name": "Greensboro Elementary School (0201)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 42.5
+  },
+  {
+    "school_name": "Greensboro Elementary School (0201)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 26.5
+  },
+  {
+    "school_name": "Greensboro Elementary School (0201)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 26.1
+  },
+  {
+    "school_name": "Lockerman Middle School (0302)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 45.0
+  },
+  {
+    "school_name": "Lockerman Middle School (0302)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Lockerman Middle School (0302)",
+    "county": "Caroline",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 22.0
+  },
+  {
+    "school_name": "North Caroline High School (0703)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 63.4
+  },
+  {
+    "school_name": "North Caroline High School (0703)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.2
+  },
+  {
+    "school_name": "North Caroline High School (0703)",
+    "county": "Caroline",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 49.4
+  },
+  {
+    "school_name": "Preston Elementary School (0401)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 47.3
+  },
+  {
+    "school_name": "Preston Elementary School (0401)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 38.2
+  },
+  {
+    "school_name": "Preston Elementary School (0401)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 21.4
+  },
+  {
+    "school_name": "Ridgely Elementary School (0701)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 36.1
+  },
+  {
+    "school_name": "Ridgely Elementary School (0701)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 26.4
+  },
+  {
+    "school_name": "Ridgely Elementary School (0701)",
+    "county": "Caroline",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 15.3
+  }
+]

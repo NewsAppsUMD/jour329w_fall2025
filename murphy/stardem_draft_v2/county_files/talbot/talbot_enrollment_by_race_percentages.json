@@ -1,0 +1,24 @@
+{
+  "Talbot": {
+    "county": "Talbot",
+    "total_k12_enrollment": 4529,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3096,
+        "percentage": 68.4
+      },
+      "Black_or_African_American": {
+        "count": 678,
+        "percentage": 15.0
+      },
+      "Asian": {
+        "count": 40,
+        "percentage": 0.9
+      },
+      "Hispanic_or_Latino": {
+        "count": 715,
+        "percentage": 15.8
+      }
+    }
+  }
+}

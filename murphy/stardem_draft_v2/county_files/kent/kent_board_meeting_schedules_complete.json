@@ -1,0 +1,27 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Kent",
+      "district": "Kent County Public Schools",
+      "regular_meetings": {
+        "schedule": "2nd Monday of each month",
+        "location": "5608 Boundary Ave, Rock Hall, MD 21661",
+        "phone": "410-778-1595",
+        "notes": "Open Session meetings"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 10, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        },
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Open Session Meeting"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/kcps/Board.nsf/Public"
+    }
+  ]
+}

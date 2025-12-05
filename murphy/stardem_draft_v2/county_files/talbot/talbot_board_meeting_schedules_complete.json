@@ -1,0 +1,40 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Talbot",
+      "district": "Talbot County Public Schools",
+      "regular_meetings": {
+        "schedule": "Work Session on Monday (varies), Regular Meeting on Wednesday (varies)",
+        "location": "Talbot County Education Center",
+        "notes": "Pattern varies monthly, not strictly 1st/2nd/3rd week"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 17, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "5:00 PM"
+        },
+        {
+          "date": "November 19, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "7:00 PM"
+        },
+        {
+          "date": "December 15, 2025",
+          "day": "Monday",
+          "type": "Work Session",
+          "time": "TBA"
+        },
+        {
+          "date": "December 17, 2025",
+          "day": "Wednesday",
+          "type": "Regular Meeting",
+          "time": "TBA"
+        }
+      ],
+      "source": "https://www.tcps.k12.md.us"
+    }
+  ]
+}

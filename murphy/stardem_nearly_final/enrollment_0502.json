@@ -1,0 +1,115 @@
+{
+  "school_name": "Hancock Elementary",
+  "school_code": "0502",
+  "county_code": "21",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 193,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 176,
+      "year": "2025"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": "*",
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "All Students",
+      "enrollment": 193,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Male",
+      "enrollment": 93,
+      "year": "2025"
+    },
+    {
+      "category": "Gender",
+      "group": "Female",
+      "enrollment": 100,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "All Students",
+      "enrollment": 193,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Pre-Kindergarten",
+      "enrollment": 20,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Kindergarten",
+      "enrollment": 23,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 1",
+      "enrollment": 16,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 2",
+      "enrollment": 26,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 3",
+      "enrollment": 32,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 4",
+      "enrollment": 36,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Grade 5",
+      "enrollment": 40,
+      "year": "2025"
+    },
+    {
+      "category": "Grade",
+      "group": "Elementary",
+      "enrollment": 150,
+      "year": "2025"
+    }
+  ]
+}

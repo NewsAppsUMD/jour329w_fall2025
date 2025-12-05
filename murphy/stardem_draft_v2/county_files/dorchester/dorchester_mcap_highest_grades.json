@@ -1,0 +1,212 @@
+[
+  {
+    "school_name": "Cambridge-South Dorchester High School (0713)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 32.3
+  },
+  {
+    "school_name": "Cambridge-South Dorchester High School (0713)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Cambridge-South Dorchester High School (0713)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 24.9
+  },
+  {
+    "school_name": "Choptank Elementary School (0716)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 21.2
+  },
+  {
+    "school_name": "Choptank Elementary School (0716)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Choptank Elementary School (0716)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 8.9
+  },
+  {
+    "school_name": "Hurlock Elementary School (1503)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 43.3
+  },
+  {
+    "school_name": "Hurlock Elementary School (1503)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 23.8
+  },
+  {
+    "school_name": "Hurlock Elementary School (1503)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 21.3
+  },
+  {
+    "school_name": "Mace's Lane Middle School (0707)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 27.5
+  },
+  {
+    "school_name": "Mace's Lane Middle School (0707)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Mace's Lane Middle School (0707)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 6.5
+  },
+  {
+    "school_name": "Maple Elementary School (0711)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 32.1
+  },
+  {
+    "school_name": "Maple Elementary School (0711)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 5.1
+  },
+  {
+    "school_name": "Maple Elementary School (0711)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "North Dorchester High School (0207)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 39.1
+  },
+  {
+    "school_name": "North Dorchester High School (0207)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "North Dorchester High School (0207)",
+    "county": "Dorchester",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 38.6
+  },
+  {
+    "school_name": "North Dorchester Middle School (0208)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 52.7
+  },
+  {
+    "school_name": "North Dorchester Middle School (0208)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 14.9
+  },
+  {
+    "school_name": "North Dorchester Middle School (0208)",
+    "county": "Dorchester",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 24.6
+  },
+  {
+    "school_name": "Sandy Hill Elementary School (0710)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 20.9
+  },
+  {
+    "school_name": "Sandy Hill Elementary School (0710)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 9.3
+  },
+  {
+    "school_name": "Sandy Hill Elementary School (0710)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 9.1
+  },
+  {
+    "school_name": "Vienna Elementary School (0302)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 59.3
+  },
+  {
+    "school_name": "Vienna Elementary School (0302)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 25.9
+  },
+  {
+    "school_name": "Vienna Elementary School (0302)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 18.5
+  },
+  {
+    "school_name": "Warwick Elementary School (0205)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 51.1
+  },
+  {
+    "school_name": "Warwick Elementary School (0205)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 40.4
+  },
+  {
+    "school_name": "Warwick Elementary School (0205)",
+    "county": "Dorchester",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 34.0
+  }
+]

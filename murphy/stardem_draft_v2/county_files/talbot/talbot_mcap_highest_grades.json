@@ -1,0 +1,191 @@
+[
+  {
+    "school_name": "Chapel District Elementary (0401)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 67.5
+  },
+  {
+    "school_name": "Chapel District Elementary (0401)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 55.0
+  },
+  {
+    "school_name": "Chapel District Elementary (0401)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 45.0
+  },
+  {
+    "school_name": "Easton Elementary (0104)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 19.8
+  },
+  {
+    "school_name": "Easton Elementary (0104)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 11.9
+  },
+  {
+    "school_name": "Easton Elementary (0104)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 11.9
+  },
+  {
+    "school_name": "Easton High (0101)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 56.6
+  },
+  {
+    "school_name": "Easton High (0101)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Easton High (0101)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 49.4
+  },
+  {
+    "school_name": "Easton Middle (0106)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 33.2
+  },
+  {
+    "school_name": "Easton Middle (0106)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.2
+  },
+  {
+    "school_name": "Easton Middle (0106)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 18.1
+  },
+  {
+    "school_name": "St. Michaels Elementary (0204)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 38.0
+  },
+  {
+    "school_name": "St. Michaels Elementary (0204)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 26.0
+  },
+  {
+    "school_name": "St. Michaels Elementary (0204)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 30.0
+  },
+  {
+    "school_name": "Tilghman Elementary (0501)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 29.4
+  },
+  {
+    "school_name": "Tilghman Elementary (0501)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 5.9
+  },
+  {
+    "school_name": "Tilghman Elementary (0501)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 17.6
+  },
+  {
+    "school_name": "White Marsh Elementary (0302)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 58.5
+  },
+  {
+    "school_name": "White Marsh Elementary (0302)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 39.0
+  },
+  {
+    "school_name": "White Marsh Elementary (0302)",
+    "county": "Talbot",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 41.5
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 49.2
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 23.8
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 76.7
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 7.2
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 42.9
+  }
+]

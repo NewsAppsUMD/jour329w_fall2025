@@ -1,0 +1,20 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Caroline",
+      "district": "Caroline County Public Schools",
+      "regular_meetings": {
+        "schedule": "1st Tuesday of each month (Regular Meeting), 3rd Thursday of each month (Work Session)",
+        "location": "Caroline County Board of Education",
+        "notes": "Closed sessions scheduled for personnel matters, property acquisition, collective bargaining, and legal advice"
+      },
+      "public_comment": {
+        "process": "Sign up in advance by emailing publiccomment@ccpsstaff.org",
+        "requirement": "Must sign in at podium before meeting starts",
+        "priority": "Those who email in advance called first"
+      },
+      "upcoming_meetings": [],
+      "source": "https://www.carolineschools.org/o/ccps/page/board"
+    }
+  ]
+}

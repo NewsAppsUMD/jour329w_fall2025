@@ -1,0 +1,24 @@
+{
+  "Caroline": {
+    "county": "Caroline",
+    "total_k12_enrollment": 4781,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3372,
+        "percentage": 70.5
+      },
+      "Black_or_African_American": {
+        "count": 706,
+        "percentage": 14.8
+      },
+      "Asian": {
+        "count": 9,
+        "percentage": 0.2
+      },
+      "Hispanic_or_Latino": {
+        "count": 694,
+        "percentage": 14.5
+      }
+    }
+  }
+}

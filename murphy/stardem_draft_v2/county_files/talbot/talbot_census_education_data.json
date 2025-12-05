@@ -1,0 +1,66 @@
+{
+  "Talbot County": {
+    "Total Population": 37663,
+    "Male Under 5 years": 870,
+    "Male 5 to 9 years": 1110,
+    "Male 10 to 14 years": 1045,
+    "Male 15 to 17 years": 612,
+    "Male 18 and 19 years": 337,
+    "Female Under 5 years": 714,
+    "Female 5 to 9 years": 1001,
+    "Female 10 to 14 years": 910,
+    "Female 15 to 17 years": 602,
+    "Female 18 and 19 years": 194,
+    "White alone": 29600,
+    "Black or African American alone": 4593,
+    "Asian alone": 488,
+    "Hispanic or Latino": 2744,
+    "Total population 25 years and over": 28623,
+    "High school graduate": 6023,
+    "Bachelor's degree": 6565,
+    "Master's degree": 3227,
+    "Professional school degree": 1424,
+    "Doctorate degree": 649,
+    "Total population 3 years and over": 36533,
+    "Enrolled in school": 7122,
+    "Enrolled in nursery school, preschool": 487,
+    "Enrolled in kindergarten": 321,
+    "Enrolled in grade 1 to grade 4": 1735,
+    "Enrolled in grade 5 to grade 8": 1477,
+    "Enrolled in grade 9 to grade 12": 1533,
+    "Enrolled in college, undergraduate": 1264,
+    "Total population for poverty determination": 37175,
+    "Income below poverty level": 3460,
+    "Median household income": 81667,
+    "Total population 5 years and over": null,
+    "Speak only English": null,
+    "Speak Spanish": null,
+    "Total households": 16270,
+    "Has computer, has broadband internet": 14330,
+    "Has computer, no internet": 11531,
+    "No computer": 1660,
+    "School-Age Population (5-17)": 5280,
+    "Poverty Rate (%)": 9.3,
+    "School Enrollment Rate (%)": 19.5,
+    "Broadband Access Rate (%)": 88.1,
+    "enrollment_by_race": {
+      "White": {
+        "count": 3096,
+        "percentage": 68.4
+      },
+      "Black_or_African_American": {
+        "count": 678,
+        "percentage": 15.0
+      },
+      "Asian": {
+        "count": 40,
+        "percentage": 0.9
+      },
+      "Hispanic_or_Latino": {
+        "count": 715,
+        "percentage": 15.8
+      }
+    },
+    "total_k12_enrollment": 4529
+  }
+}

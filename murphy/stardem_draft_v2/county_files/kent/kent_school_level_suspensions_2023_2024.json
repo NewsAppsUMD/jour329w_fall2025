@@ -1,0 +1,378 @@
+[
+  {
+    "county": "Kent",
+    "school_name": "Galena Elementary School",
+    "school_number": "0105",
+    "suspension_type": "in_school",
+    "total_suspensions": 7,
+    "gender": {
+      "male": 7,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 3,
+      "black_pct": 42.9,
+      "hispanic": 1,
+      "hispanic_pct": 14.3,
+      "white": 1,
+      "white_pct": 14.3,
+      "two_or_more": 2,
+      "two_or_more_pct": 28.6
+    },
+    "disability": {
+      "students_with_disabilities": 2,
+      "students_with_disabilities_pct": 28.6
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 5,
+      "attacks_threats_fighting_pct": 71.4,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 2,
+      "disrespect_disruption_pct": 28.6,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Galena Elementary School",
+    "school_number": "0105",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 4,
+    "gender": {
+      "male": 4,
+      "male_pct": 100.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 2,
+      "black_pct": 50.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 2,
+      "white_pct": 50.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 1,
+      "students_with_disabilities_pct": 25.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 2,
+      "attacks_threats_fighting_pct": 50.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 2,
+      "disrespect_disruption_pct": 50.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County High",
+    "school_number": "0301",
+    "suspension_type": "in_school",
+    "total_suspensions": 133,
+    "gender": {
+      "male": 96,
+      "male_pct": 72.2,
+      "female": 37,
+      "female_pct": 27.8
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 59,
+      "black_pct": 44.4,
+      "hispanic": 12,
+      "hispanic_pct": 9.0,
+      "white": 34,
+      "white_pct": 25.6,
+      "two_or_more": 28,
+      "two_or_more_pct": 21.1
+    },
+    "disability": {
+      "students_with_disabilities": 28,
+      "students_with_disabilities_pct": 21.1
+    },
+    "offense": {
+      "attendance": 43,
+      "attendance_pct": 32.3,
+      "dangerous_substances": 15,
+      "dangerous_substances_pct": 11.3,
+      "weapons": 2,
+      "weapons_pct": 1.5,
+      "attacks_threats_fighting": 7,
+      "attacks_threats_fighting_pct": 5.3,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 64,
+      "disrespect_disruption_pct": 48.1,
+      "other": 2,
+      "other_pct": 1.5
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County High",
+    "school_number": "0301",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 94,
+    "gender": {
+      "male": 78,
+      "male_pct": 83.0,
+      "female": 16,
+      "female_pct": 17.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 44,
+      "black_pct": 46.8,
+      "hispanic": 5,
+      "hispanic_pct": 5.3,
+      "white": 34,
+      "white_pct": 36.2,
+      "two_or_more": 11,
+      "two_or_more_pct": 11.7
+    },
+    "disability": {
+      "students_with_disabilities": 30,
+      "students_with_disabilities_pct": 31.9
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 4,
+      "dangerous_substances_pct": 4.3,
+      "weapons": 3,
+      "weapons_pct": 3.2,
+      "attacks_threats_fighting": 21,
+      "attacks_threats_fighting_pct": 22.3,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 2,
+      "sex_offenses_pct": 2.1,
+      "disrespect_disruption": 63,
+      "disrespect_disruption_pct": 67.0,
+      "other": 1,
+      "other_pct": 1.1
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County Middle School",
+    "school_number": "0402",
+    "suspension_type": "in_school",
+    "total_suspensions": 143,
+    "gender": {
+      "male": 101,
+      "male_pct": 70.6,
+      "female": 42,
+      "female_pct": 29.4
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 62,
+      "black_pct": 43.4,
+      "hispanic": 17,
+      "hispanic_pct": 11.9,
+      "white": 48,
+      "white_pct": 33.6,
+      "two_or_more": 16,
+      "two_or_more_pct": 11.2
+    },
+    "disability": {
+      "students_with_disabilities": 19,
+      "students_with_disabilities_pct": 13.3
+    },
+    "offense": {
+      "attendance": 15,
+      "attendance_pct": 10.5,
+      "dangerous_substances": 8,
+      "dangerous_substances_pct": 5.6,
+      "weapons": 1,
+      "weapons_pct": 0.7,
+      "attacks_threats_fighting": 23,
+      "attacks_threats_fighting_pct": 16.1,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 92,
+      "disrespect_disruption_pct": 64.3,
+      "other": 4,
+      "other_pct": 2.8
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County Middle School",
+    "school_number": "0402",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 135,
+    "gender": {
+      "male": 79,
+      "male_pct": 58.5,
+      "female": 56,
+      "female_pct": 41.5
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 62,
+      "black_pct": 45.9,
+      "hispanic": 14,
+      "hispanic_pct": 10.4,
+      "white": 28,
+      "white_pct": 20.7,
+      "two_or_more": 30,
+      "two_or_more_pct": 22.2
+    },
+    "disability": {
+      "students_with_disabilities": 20,
+      "students_with_disabilities_pct": 14.8
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 7,
+      "dangerous_substances_pct": 5.2,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 67,
+      "attacks_threats_fighting_pct": 49.6,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 1.5,
+      "sex_offenses": 1,
+      "sex_offenses_pct": 0.7,
+      "disrespect_disruption": 55,
+      "disrespect_disruption_pct": 40.7,
+      "other": 3,
+      "other_pct": 2.2
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Rock Hall Elementary",
+    "school_number": "0504",
+    "suspension_type": "in_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 0,
+      "male_pct": 0.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 100.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Rock Hall Elementary",
+    "school_number": "0504",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 1,
+    "gender": {
+      "male": 0,
+      "male_pct": 0.0,
+      "female": 0,
+      "female_pct": 0.0
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 0,
+      "black_pct": 0.0,
+      "hispanic": 0,
+      "hispanic_pct": 0.0,
+      "white": 0,
+      "white_pct": 0.0,
+      "two_or_more": 0,
+      "two_or_more_pct": 0.0
+    },
+    "disability": {
+      "students_with_disabilities": 0,
+      "students_with_disabilities_pct": 0.0
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 0,
+      "dangerous_substances_pct": 0.0,
+      "weapons": 0,
+      "weapons_pct": 0.0,
+      "attacks_threats_fighting": 1,
+      "attacks_threats_fighting_pct": 100.0,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 0,
+      "disrespect_disruption_pct": 0.0,
+      "other": 0,
+      "other_pct": 0.0
+    }
+  }
+]

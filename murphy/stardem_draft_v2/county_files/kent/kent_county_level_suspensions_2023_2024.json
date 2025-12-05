@@ -1,0 +1,143 @@
+[
+  {
+    "county": "Kent",
+    "school_name": "Kent County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "in_school",
+    "total_suspensions": 284,
+    "gender": {
+      "male": 204,
+      "male_pct": 71.8,
+      "female": 80,
+      "female_pct": 28.2
+    },
+    "race": {
+      "asian": 0,
+      "asian_pct": 0.0,
+      "black": 125,
+      "black_pct": 44.0,
+      "hispanic": 30,
+      "hispanic_pct": 10.6,
+      "white": 83,
+      "white_pct": 29.2,
+      "two_or_more": 46,
+      "two_or_more_pct": 16.2
+    },
+    "disability": {
+      "students_with_disabilities": 49,
+      "students_with_disabilities_pct": 17.3
+    },
+    "offense": {
+      "attendance": 58,
+      "attendance_pct": 20.4,
+      "dangerous_substances": 23,
+      "dangerous_substances_pct": 8.1,
+      "weapons": 3,
+      "weapons_pct": 1.1,
+      "attacks_threats_fighting": 36,
+      "attacks_threats_fighting_pct": 12.7,
+      "arson_fire_explosives": 0,
+      "arson_fire_explosives_pct": 0.0,
+      "sex_offenses": 0,
+      "sex_offenses_pct": 0.0,
+      "disrespect_disruption": 158,
+      "disrespect_disruption_pct": 55.6,
+      "other": 6,
+      "other_pct": 2.1
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "out_of_school",
+    "total_suspensions": 234,
+    "gender": {
+      "male": 161,
+      "male_pct": 68.8,
+      "female": 73,
+      "female_pct": 31.2
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 0.4,
+      "black": 109,
+      "black_pct": 46.6,
+      "hispanic": 19,
+      "hispanic_pct": 8.1,
+      "white": 64,
+      "white_pct": 27.4,
+      "two_or_more": 41,
+      "two_or_more_pct": 17.5
+    },
+    "disability": {
+      "students_with_disabilities": 51,
+      "students_with_disabilities_pct": 21.8
+    },
+    "offense": {
+      "attendance": 0,
+      "attendance_pct": 0.0,
+      "dangerous_substances": 11,
+      "dangerous_substances_pct": 4.7,
+      "weapons": 3,
+      "weapons_pct": 1.3,
+      "attacks_threats_fighting": 91,
+      "attacks_threats_fighting_pct": 38.9,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 0.9,
+      "sex_offenses": 3,
+      "sex_offenses_pct": 1.3,
+      "disrespect_disruption": 120,
+      "disrespect_disruption_pct": 51.3,
+      "other": 4,
+      "other_pct": 1.7
+    }
+  },
+  {
+    "county": "Kent",
+    "school_name": "Kent County (All Schools)",
+    "school_number": "COUNTY",
+    "suspension_type": "total",
+    "total_suspensions": 518,
+    "gender": {
+      "male": 365,
+      "male_pct": 70.5,
+      "female": 153,
+      "female_pct": 29.5
+    },
+    "race": {
+      "asian": 1,
+      "asian_pct": 0.2,
+      "black": 234,
+      "black_pct": 45.2,
+      "hispanic": 49,
+      "hispanic_pct": 9.5,
+      "white": 147,
+      "white_pct": 28.4,
+      "two_or_more": 87,
+      "two_or_more_pct": 16.8
+    },
+    "disability": {
+      "students_with_disabilities": 100,
+      "students_with_disabilities_pct": 19.3
+    },
+    "offense": {
+      "attendance": 58,
+      "attendance_pct": 11.2,
+      "dangerous_substances": 34,
+      "dangerous_substances_pct": 6.6,
+      "weapons": 6,
+      "weapons_pct": 1.2,
+      "attacks_threats_fighting": 127,
+      "attacks_threats_fighting_pct": 24.5,
+      "arson_fire_explosives": 2,
+      "arson_fire_explosives_pct": 0.4,
+      "sex_offenses": 3,
+      "sex_offenses_pct": 0.6,
+      "disrespect_disruption": 278,
+      "disrespect_disruption_pct": 53.7,
+      "other": 10,
+      "other_pct": 1.9
+    }
+  }
+]

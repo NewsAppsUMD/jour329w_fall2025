@@ -1,0 +1,36 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Dorchester",
+      "district": "Dorchester County Public Schools",
+      "regular_meetings": {
+        "schedule": "3rd Thursday of each month",
+        "time": "6:00 PM",
+        "location": "700 Glasgow St, Cambridge, MD 21613",
+        "phone": "410-228-4747",
+        "notes": "Monthly meetings"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "September 18, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "October 23, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        },
+        {
+          "date": "November 20, 2025",
+          "day": "Thursday",
+          "type": "Monthly Meeting",
+          "time": "6:00 PM"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/dcps/Board.nsf/Public"
+    }
+  ]
+}

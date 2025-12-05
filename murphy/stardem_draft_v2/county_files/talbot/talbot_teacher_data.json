@@ -1,0 +1,11 @@
+[
+  {
+    "county": "Talbot",
+    "teachers": 345,
+    "teacher_change_pct": 1.8,
+    "new_hires": 51,
+    "new_hires_pct": 14.8,
+    "student_enrollment": 7122,
+    "student_teacher_ratio": 20.6
+  }
+]

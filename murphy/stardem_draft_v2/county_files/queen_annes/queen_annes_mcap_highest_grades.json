@@ -1,0 +1,296 @@
+[
+  {
+    "school_name": "Bayside Elementary School (0403)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 59.7
+  },
+  {
+    "school_name": "Bayside Elementary School (0403)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 50.0
+  },
+  {
+    "school_name": "Bayside Elementary School (0403)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 44.1
+  },
+  {
+    "school_name": "Centreville Elementary School (0308)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Centreville Elementary School (0308)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Centreville Elementary School (0308)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Centreville Middle School (0303)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 48.3
+  },
+  {
+    "school_name": "Centreville Middle School (0303)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 6.6
+  },
+  {
+    "school_name": "Centreville Middle School (0303)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 44.3
+  },
+  {
+    "school_name": "Church Hill Elementary School (0202)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 45.3
+  },
+  {
+    "school_name": "Church Hill Elementary School (0202)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 39.6
+  },
+  {
+    "school_name": "Church Hill Elementary School (0202)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Grasonville Elementary School (0503)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 43.2
+  },
+  {
+    "school_name": "Grasonville Elementary School (0503)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 40.9
+  },
+  {
+    "school_name": "Grasonville Elementary School (0503)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 25.3
+  },
+  {
+    "school_name": "Kennard Elementary School (0302)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 49.7
+  },
+  {
+    "school_name": "Kennard Elementary School (0302)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 36.7
+  },
+  {
+    "school_name": "Kennard Elementary School (0302)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 27.9
+  },
+  {
+    "school_name": "Kent Island Elementary School (0402)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Kent Island Elementary School (0402)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Kent Island Elementary School (0402)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Kent Island High School (0405)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 75.9
+  },
+  {
+    "school_name": "Kent Island High School (0405)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 5.1
+  },
+  {
+    "school_name": "Kent Island High School (0405)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 53.1
+  },
+  {
+    "school_name": "Matapeake Elementary School (0406)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 58.6
+  },
+  {
+    "school_name": "Matapeake Elementary School (0406)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 42.9
+  },
+  {
+    "school_name": "Matapeake Elementary School (0406)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": 31.4
+  },
+  {
+    "school_name": "Matapeake Middle School (0407)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 73.6
+  },
+  {
+    "school_name": "Matapeake Middle School (0407)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 22.5
+  },
+  {
+    "school_name": "Matapeake Middle School (0407)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 52.5
+  },
+  {
+    "school_name": "Queen Anne's County High School (0301)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "ELA",
+    "proficiency_rate": 69.5
+  },
+  {
+    "school_name": "Queen Anne's County High School (0301)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "Math (Algebra 1)",
+    "proficiency_rate": 6.2
+  },
+  {
+    "school_name": "Queen Anne's County High School (0301)",
+    "county": "Queen Anne's",
+    "grade": "High School",
+    "subject": "Science",
+    "proficiency_rate": 46.6
+  },
+  {
+    "school_name": "Stevensville Middle School (0404)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 55.2
+  },
+  {
+    "school_name": "Stevensville Middle School (0404)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 18.5
+  },
+  {
+    "school_name": "Stevensville Middle School (0404)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 42.9
+  },
+  {
+    "school_name": "Sudlersville Elementary School (0106)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "ELA",
+    "proficiency_rate": 18.3
+  },
+  {
+    "school_name": "Sudlersville Elementary School (0106)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Math",
+    "proficiency_rate": 20.0
+  },
+  {
+    "school_name": "Sudlersville Elementary School (0106)",
+    "county": "Queen Anne's",
+    "grade": 5,
+    "subject": "Science",
+    "proficiency_rate": null
+  },
+  {
+    "school_name": "Sudlersville Middle School (0101)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "ELA",
+    "proficiency_rate": 46.2
+  },
+  {
+    "school_name": "Sudlersville Middle School (0101)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Math",
+    "proficiency_rate": 5.0
+  },
+  {
+    "school_name": "Sudlersville Middle School (0101)",
+    "county": "Queen Anne's",
+    "grade": 8,
+    "subject": "Science",
+    "proficiency_rate": 16.8
+  }
+]

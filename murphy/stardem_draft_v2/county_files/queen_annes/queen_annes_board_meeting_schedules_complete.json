@@ -1,0 +1,31 @@
+{
+  "meeting_schedules": [
+    {
+      "county": "Queen Anne's",
+      "district": "Queen Anne's County Public Schools",
+      "regular_meetings": {
+        "schedule": "1st Wednesday of each month",
+        "closed_session_time": "4:30 PM",
+        "open_session_time": "6:00 PM",
+        "location": "202 Chesterfield Avenue, Centreville, MD 21617",
+        "phone": "410-758-2403",
+        "notes": "Closed session followed by open session same day"
+      },
+      "upcoming_meetings": [
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Closed Session",
+          "time": "4:30 PM"
+        },
+        {
+          "date": "November 5, 2025",
+          "day": "Wednesday",
+          "type": "School Board Meeting - Open Session",
+          "time": "6:00 PM"
+        }
+      ],
+      "source": "https://go.boarddocs.com/mabe/qacps/Board.nsf/Public"
+    }
+  ]
+}

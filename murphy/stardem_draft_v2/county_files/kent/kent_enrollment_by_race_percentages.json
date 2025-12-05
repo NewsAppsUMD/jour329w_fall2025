@@ -1,0 +1,24 @@
+{
+  "Kent": {
+    "county": "Kent",
+    "total_k12_enrollment": 1880,
+    "enrollment_by_race": {
+      "White": {
+        "count": 1347,
+        "percentage": 71.6
+      },
+      "Black_or_African_American": {
+        "count": 321,
+        "percentage": 17.1
+      },
+      "Asian": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Hispanic_or_Latino": {
+        "count": 212,
+        "percentage": 11.3
+      }
+    }
+  }
+}
