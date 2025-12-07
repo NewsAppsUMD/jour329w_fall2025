@@ -38,5 +38,24 @@ so when i got bored of that ...
 
 ## i switched gears again and decided to make another narrative beat book
 
-here was my thought process: if i have it make a narrative beat book with only some data elements, then i can have claude focus on formatting the data and 
+here was my thought process: if i have it make a narrative beat book with only some data elements, then i can have claude focus on formatting the data and pass it the narratives to add in afterward. for some inexplicable reason, the narrative beat books i was getting today were FIRE. the ones from the random groq model it was using at first were, like, pretty good — honestly, better than some other beat books i've spent hours trying to get right. but then i switched to gpt-oss-120b and it was INSANE. i don't know what changed. i have a feeling it was at least in part because of the budget data, but the dramatic improvement in quality floored me — and also kind of pissed me off, because, like, really? now you work? great.
 
+but by the time i was done with this, i had to go back to ...
+
+## i went back to claude and begged for forgiveness
+
+i mean, the h2 says it all, right?
+
+i had very little hope at this point that i was going to be able to pull off the website i wanted. VERY. LITTLE.
+
+it just — nothing up to this point had worked in the way that i had wanted, and everything was simply too large for claude to manage.
+
+but on a whim i tried one last time ... and it worked.
+
+it required a fair amount of tweaking, but i got it to give me a narrative analysis of the five key issues on the education beat on the eastern shore, with a "critical findings" subhead to sum up the main point, plus two paragraphs and a table. on another table i got it to give me a narrative breakdown of count-level issues, alongside key statistics relevant to each county, like enrollment, budget, state funding, etc.
+
+after many back and forths, i got claude to give me a schools dashboard. all 47 schools that i scraped from msde's website. an interactive interface that lets you click through each county and view all of the schools with their enrollment and the largest demographic, and you can click on each one of those to get a line-by-line of enrollment, male/female, race and student groups (swd, farms, multilingual, economically disadvantaged). i tried to get it to include mcap data, and it says it does, but the script was already 4000+ lines long, i wasnt going to push my luck.
+
+and, finally, i had it give me a searchable sources table. ultimately, i ended up with 58 source cards, including the 26 key figures my copilot script pulled out earlier, plus some other district officials i scraped a couple weeks ago. it includes their titles, orgs, the topics they're quoted on and the number of times they've been quoted (when applicable).
+
+ok, but like, BOOYAH. i'm genuinely so happy with how it came out. i have a lot more that i want to add — oh, and jesus, i need to get rid of the heinous inline css and js. but that's a next week problem.
