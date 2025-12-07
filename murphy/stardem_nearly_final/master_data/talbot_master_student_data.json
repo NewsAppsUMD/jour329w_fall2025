@@ -1,6 +1,137 @@
 {
   "county_name": "Talbot",
   "county_code": "20",
+  "county_totals": {
+    "total_enrollment": 4485,
+    "enrollment_breakdown": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 4485,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 668,
+        "year": "2025",
+        "percentage": 14.89
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 1232,
+        "year": "2025",
+        "percentage": 27.47
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 2216,
+        "year": "2025",
+        "percentage": 49.41
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 273,
+        "year": "2025",
+        "percentage": 6.09
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 68,
+        "year": "2025",
+        "percentage": 1.52
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 4485,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 2314,
+        "year": "2025",
+        "percentage": 51.59
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 2171,
+        "year": "2025",
+        "percentage": 48.41
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 4485,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 319,
+        "year": "2025",
+        "percentage": 7.11
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 273,
+        "year": "2025",
+        "percentage": 6.09
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 293,
+        "year": "2025",
+        "percentage": 6.53
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 342,
+        "year": "2025",
+        "percentage": 7.63
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 320,
+        "year": "2025",
+        "percentage": 7.13
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 265,
+        "year": "2025",
+        "percentage": 5.91
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 326,
+        "year": "2025",
+        "percentage": 7.27
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 1554,
+        "year": "2025",
+        "percentage": 34.65
+      }
+    ]
+  },
   "elementary_schools": [
     {
       "school_name": "Chapel District Elementary",

@@ -1,6 +1,137 @@
 {
   "county_name": "Caroline",
   "county_code": "05",
+  "county_totals": {
+    "total_enrollment": 5648,
+    "enrollment_breakdown": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 5648,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 67,
+        "year": "2025",
+        "percentage": 1.19
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 798,
+        "year": "2025",
+        "percentage": 14.13
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 1205,
+        "year": "2025",
+        "percentage": 21.33
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 3058,
+        "year": "2025",
+        "percentage": 54.14
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 503,
+        "year": "2025",
+        "percentage": 8.91
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 5648,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 2844,
+        "year": "2025",
+        "percentage": 50.35
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 2804,
+        "year": "2025",
+        "percentage": 49.65
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 5648,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 314,
+        "year": "2025",
+        "percentage": 5.56
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 404,
+        "year": "2025",
+        "percentage": 7.15
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 398,
+        "year": "2025",
+        "percentage": 7.05
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 386,
+        "year": "2025",
+        "percentage": 6.83
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 383,
+        "year": "2025",
+        "percentage": 6.78
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 400,
+        "year": "2025",
+        "percentage": 7.08
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 380,
+        "year": "2025",
+        "percentage": 6.73
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 1947,
+        "year": "2025",
+        "percentage": 34.47
+      }
+    ]
+  },
   "elementary_schools": [
     {
       "school_name": "Denton Elementary School",

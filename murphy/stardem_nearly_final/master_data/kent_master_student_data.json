@@ -1,6 +1,137 @@
 {
   "county_name": "Kent",
   "county_code": "14",
+  "county_totals": {
+    "total_enrollment": 1694,
+    "enrollment_breakdown": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 1694,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 384,
+        "year": "2025",
+        "percentage": 22.67
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 226,
+        "year": "2025",
+        "percentage": 13.34
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 905,
+        "year": "2025",
+        "percentage": 53.42
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 152,
+        "year": "2025",
+        "percentage": 8.97
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 10,
+        "year": "2025",
+        "percentage": 0.59
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 1694,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 863,
+        "year": "2025",
+        "percentage": 50.94
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 831,
+        "year": "2025",
+        "percentage": 49.06
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 1694,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 103,
+        "year": "2025",
+        "percentage": 6.08
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 122,
+        "year": "2025",
+        "percentage": 7.2
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 126,
+        "year": "2025",
+        "percentage": 7.44
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 121,
+        "year": "2025",
+        "percentage": 7.14
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 120,
+        "year": "2025",
+        "percentage": 7.08
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 120,
+        "year": "2025",
+        "percentage": 7.08
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 117,
+        "year": "2025",
+        "percentage": 6.91
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 604,
+        "year": "2025",
+        "percentage": 35.66
+      }
+    ]
+  },
   "elementary_schools": [
     {
       "school_name": "Galena Elementary School",

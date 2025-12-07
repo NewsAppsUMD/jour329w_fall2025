@@ -1,0 +1,786 @@
+[
+  {
+    "school_name": "Chapel District Elementary",
+    "school_code": "0401",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 359,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 11,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 42,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 278,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 26,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 359,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 175,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 184,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 359,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 58,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 40,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 67,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 54,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 51,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 39,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 251,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "Easton Elementary",
+    "school_code": "0104",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 1075,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 35,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 192,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 486,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 294,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 68,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 1075,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 560,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 515,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 1075,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 167,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 145,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 139,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 167,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 149,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 129,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 179,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 763,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "St. Michaels Elementary",
+    "school_code": "0204",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 332,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 44,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 33,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 234,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 16,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 332,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 163,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 169,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 332,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 44,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 40,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 44,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 47,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 59,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 47,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 51,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 248,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "Tilghman Elementary",
+    "school_code": "0501",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 99,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 92,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 99,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 51,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 48,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 99,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 17,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 20,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 16,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 13,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 17,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 74,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "White Marsh Elementary",
+    "school_code": "0302",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 289,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 32,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 55,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 178,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 16,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 289,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 141,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 148,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 289,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 41,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 30,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 45,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 45,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 38,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 40,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 218,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "Easton Middle",
+    "school_code": "0106",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 703,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 10,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 128,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 232,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 270,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 63,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 703,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 365,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 338,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 703,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "St. Michaels Middle/High School",
+    "school_code": "0202",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 449,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 53,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 309,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 31,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 449,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 246,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 203,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 449,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  },
+  {
+    "school_name": "Easton High",
+    "school_code": "0101",
+    "county_code": "20",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 1179,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 23,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 208,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 334,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 561,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 53,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 1179,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 613,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 566,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 1179,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Talbot County"
+  }
+]

@@ -1,0 +1,12 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,All Students,528,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,Asian,13,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,African Am.,128,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,Hispanic,50,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,White,291,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,Am.Ind/AK,*,2025
+Colonel Richardson High School,0801,05,Caroline County,Race/Ethnicity,2+,45,2025
+Colonel Richardson High School,0801,05,Caroline County,Gender,All Students,528,2025
+Colonel Richardson High School,0801,05,Caroline County,Gender,Male,253,2025
+Colonel Richardson High School,0801,05,Caroline County,Gender,Female,275,2025
+Colonel Richardson High School,0801,05,Caroline County,Grade,All Students,528,2025

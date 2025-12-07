@@ -1,6 +1,137 @@
 {
   "county_name": "Queen Annes",
   "county_code": "17",
+  "county_totals": {
+    "total_enrollment": 7478,
+    "enrollment_breakdown": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 7478,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 39,
+        "year": "2025",
+        "percentage": 0.52
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 1030,
+        "year": "2025",
+        "percentage": 13.77
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 5433,
+        "year": "2025",
+        "percentage": 72.65
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 478,
+        "year": "2025",
+        "percentage": 6.39
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 431,
+        "year": "2025",
+        "percentage": 5.76
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 7478,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 3835,
+        "year": "2025",
+        "percentage": 51.28
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 3641,
+        "year": "2025",
+        "percentage": 48.69
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 7478,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 560,
+        "year": "2025",
+        "percentage": 7.49
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 526,
+        "year": "2025",
+        "percentage": 7.03
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 538,
+        "year": "2025",
+        "percentage": 7.19
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 2680,
+        "year": "2025",
+        "percentage": 35.84
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 323,
+        "year": "2025",
+        "percentage": 4.32
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 532,
+        "year": "2025",
+        "percentage": 7.11
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 533,
+        "year": "2025",
+        "percentage": 7.13
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 523,
+        "year": "2025",
+        "percentage": 6.99
+      }
+    ]
+  },
   "elementary_schools": [
     {
       "school_name": "Bayside Elementary School",

@@ -1,6 +1,130 @@
 {
   "county_name": "Dorchester",
   "county_code": "09",
+  "county_totals": {
+    "total_enrollment": 4586,
+    "enrollment_breakdown": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 4586,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 1785,
+        "year": "2025",
+        "percentage": 38.92
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 638,
+        "year": "2025",
+        "percentage": 13.91
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 1755,
+        "year": "2025",
+        "percentage": 38.27
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 358,
+        "year": "2025",
+        "percentage": 7.81
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 4586,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 2333,
+        "year": "2025",
+        "percentage": 50.87
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 2249,
+        "year": "2025",
+        "percentage": 49.04
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 4586,
+        "year": "2025",
+        "percentage": 100.0
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 326,
+        "year": "2025",
+        "percentage": 7.11
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 306,
+        "year": "2025",
+        "percentage": 6.67
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 343,
+        "year": "2025",
+        "percentage": 7.48
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 286,
+        "year": "2025",
+        "percentage": 6.24
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 361,
+        "year": "2025",
+        "percentage": 7.87
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 320,
+        "year": "2025",
+        "percentage": 6.98
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 328,
+        "year": "2025",
+        "percentage": 7.15
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 1638,
+        "year": "2025",
+        "percentage": 35.72
+      }
+    ]
+  },
   "elementary_schools": [
     {
       "school_name": "Choptank Elementary School",

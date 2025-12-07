@@ -1,0 +1,12 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Kent County High,0301,14,Kent County,Race/Ethnicity,All Students,511,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,Asian,*,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,African Am.,128,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,Hispanic,64,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,White,279,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,Am.Ind/AK,*,2025
+Kent County High,0301,14,Kent County,Race/Ethnicity,2+,35,2025
+Kent County High,0301,14,Kent County,Gender,All Students,511,2025
+Kent County High,0301,14,Kent County,Gender,Male,252,2025
+Kent County High,0301,14,Kent County,Gender,Female,259,2025
+Kent County High,0301,14,Kent County,Grade,All Students,511,2025

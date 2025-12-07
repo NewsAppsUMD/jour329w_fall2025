@@ -1,0 +1,12 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,All Students,1238,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,Asian,16,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,African Am.,137,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,Hispanic,307,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,White,686,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,Am.Ind/AK,*,2025
+North Caroline High School,0703,05,Caroline County,Race/Ethnicity,2+,91,2025
+North Caroline High School,0703,05,Caroline County,Gender,All Students,1238,2025
+North Caroline High School,0703,05,Caroline County,Gender,Male,633,2025
+North Caroline High School,0703,05,Caroline County,Gender,Female,605,2025
+North Caroline High School,0703,05,Caroline County,Grade,All Students,1238,2025
