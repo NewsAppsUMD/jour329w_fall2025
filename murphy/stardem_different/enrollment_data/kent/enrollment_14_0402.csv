@@ -1,0 +1,11 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,All Students,354,2025
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,African Am.,90,2025
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,Hispanic,52,2025
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,White,176,2025
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,Am.Ind/AK,*,2025
+Kent County Middle School,0402,14,Kent County,Race/Ethnicity,2+,34,2025
+Kent County Middle School,0402,14,Kent County,Gender,All Students,354,2025
+Kent County Middle School,0402,14,Kent County,Gender,Male,179,2025
+Kent County Middle School,0402,14,Kent County,Gender,Female,175,2025
+Kent County Middle School,0402,14,Kent County,Grade,All Students,354,2025

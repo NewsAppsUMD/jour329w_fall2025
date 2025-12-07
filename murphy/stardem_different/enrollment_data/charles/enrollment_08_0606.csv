@@ -1,0 +1,19 @@
+category,group,enrollment,year
+Race/Ethnicity,All Students,640,2025
+Race/Ethnicity,Asian,*,2025
+Race/Ethnicity,African Am.,366,2025
+Race/Ethnicity,Hispanic,186,2025
+Race/Ethnicity,White,31,2025
+Race/Ethnicity,2+,49,2025
+Gender,All Students,640,2025
+Gender,Male,302,2025
+Gender,Female,338,2025
+Grade,All Students,640,2025
+Grade,Pre-Kindergarten,70,2025
+Grade,Kindergarten,88,2025
+Grade,Grade 1,69,2025
+Grade,Grade 2,118,2025
+Grade,Grade 3,105,2025
+Grade,Grade 4,82,2025
+Grade,Grade 5,108,2025
+Grade,Elementary,482,2025

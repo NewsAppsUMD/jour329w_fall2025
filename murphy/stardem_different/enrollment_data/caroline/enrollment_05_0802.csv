@@ -1,0 +1,12 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,All Students,390,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,Asian,*,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,African Am.,84,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,Hispanic,37,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,White,220,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,Am.Ind/AK,*,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Race/Ethnicity,2+,44,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Gender,All Students,390,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Gender,Male,189,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Gender,Female,201,2025
+Colonel Richardson Middle School,0802,05,Caroline County,Grade,All Students,390,2025

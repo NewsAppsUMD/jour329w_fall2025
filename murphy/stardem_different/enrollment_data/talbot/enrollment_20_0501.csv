@@ -1,0 +1,18 @@
+category,group,enrollment,year
+Race/Ethnicity,All Students,99,2025
+Race/Ethnicity,African Am.,*,2025
+Race/Ethnicity,Hispanic,*,2025
+Race/Ethnicity,White,92,2025
+Race/Ethnicity,2+,*,2025
+Gender,All Students,99,2025
+Gender,Male,51,2025
+Gender,Female,48,2025
+Grade,All Students,99,2025
+Grade,Pre-Kindergarten,17,2025
+Grade,Kindergarten,*,2025
+Grade,Grade 1,20,2025
+Grade,Grade 2,16,2025
+Grade,Grade 3,13,2025
+Grade,Grade 4,*,2025
+Grade,Grade 5,17,2025
+Grade,Elementary,74,2025
