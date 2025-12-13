@@ -1,0 +1,38 @@
+{
+  "school_name": "Sudlersville Middle School",
+  "school_code": "0101",
+  "county_code": "17",
+  "year": "2024",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 415,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 30,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 84,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 276,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 25,
+      "year": "2024"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "school_name": "Stevensville Middle School",
+  "school_code": "0404",
+  "county_code": "17",
+  "year": "2023",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 496,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": 10,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 32,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 48,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 370,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 36,
+      "year": "2023"
+    }
+  ]
+}

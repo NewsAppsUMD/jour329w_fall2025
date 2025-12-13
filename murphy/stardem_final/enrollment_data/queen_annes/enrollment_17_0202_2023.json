@@ -1,0 +1,38 @@
+{
+  "school_name": "Church Hill Elementary School",
+  "school_code": "0202",
+  "county_code": "17",
+  "year": "2023",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 256,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 12,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 30,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 188,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 26,
+      "year": "2023"
+    }
+  ]
+}

@@ -1,0 +1,1314 @@
+[
+  {
+    "school_name": "Bayside Elementary School",
+    "school_code": "0403",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 368,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 14,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 45,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 280,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 23,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 368,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 193,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 175,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 368,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 135,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 112,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 121,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 368,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Centreville Elementary School",
+    "school_code": "0308",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 535,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 20,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 65,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 415,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 32,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 535,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 282,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 253,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 535,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 86,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 150,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 149,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 150,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 299,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Church Hill Elementary School",
+    "school_code": "0202",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 329,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 20,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 53,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 225,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "HI/Pac.Isl.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 24,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 329,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 163,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 166,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 329,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 57,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 55,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 56,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 61,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 217,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Grasonville Elementary School",
+    "school_code": "0503",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 50,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 80,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 293,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "HI/Pac.Isl.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 39,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 222,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 250,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 34,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 66,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 70,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 75,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 76,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 70,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 81,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 372,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Kennard Elementary School",
+    "school_code": "0302",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 477,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 38,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 43,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 355,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 35,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 477,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 244,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 233,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 477,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 161,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 166,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 150,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 477,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Kent Island Elementary School",
+    "school_code": "0402",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 18,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 66,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 324,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 39,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 238,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 214,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 63,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 136,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 141,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 112,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 253,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Matapeake Elementary School",
+    "school_code": "0406",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 34,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 392,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 34,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 229,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 243,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 472,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 36,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 77,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 69,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 77,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 73,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 69,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 71,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 359,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Sudlersville Elementary School",
+    "school_code": "0106",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 315,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 20,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 115,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 164,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 15,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 315,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 158,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 157,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 315,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Pre-Kindergarten",
+        "enrollment": 47,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Kindergarten",
+        "enrollment": 48,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 1",
+        "enrollment": 48,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 2",
+        "enrollment": 59,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 3",
+        "enrollment": 65,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 4",
+        "enrollment": 48,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 220,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Sudlersville Middle School",
+    "school_code": "0101",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 447,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 28,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 115,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 272,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 32,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 447,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 256,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 191,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 447,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Grade 5",
+        "enrollment": 115,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "Elementary",
+        "enrollment": 115,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Centreville Middle School",
+    "school_code": "0303",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 501,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 38,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 41,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 385,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 33,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 501,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 255,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 245,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 501,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Matapeake Middle School",
+    "school_code": "0407",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 360,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 12,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 38,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 284,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 22,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 360,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 205,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 155,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 360,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Stevensville Middle School",
+    "school_code": "0404",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 29,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 59,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 331,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 29,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 223,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 228,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 452,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Kent Island High School",
+    "school_code": "0405",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 1153,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 15,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 61,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 122,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 888,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "HI/Pac.Isl.",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 63,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 1153,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 609,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 544,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 1153,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  },
+  {
+    "school_name": "Queen Anne's County High School",
+    "school_code": "0301",
+    "county_code": "17",
+    "enrollment_data": [
+      {
+        "category": "Race/Ethnicity",
+        "group": "All Students",
+        "enrollment": 1145,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Asian",
+        "enrollment": 10,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "African Am.",
+        "enrollment": 97,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Hispanic",
+        "enrollment": 154,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "White",
+        "enrollment": 825,
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "Am.Ind/AK",
+        "enrollment": "*",
+        "year": "2025"
+      },
+      {
+        "category": "Race/Ethnicity",
+        "group": "2+",
+        "enrollment": 58,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "All Students",
+        "enrollment": 1145,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Male",
+        "enrollment": 558,
+        "year": "2025"
+      },
+      {
+        "category": "Gender",
+        "group": "Female",
+        "enrollment": 587,
+        "year": "2025"
+      },
+      {
+        "category": "Grade",
+        "group": "All Students",
+        "enrollment": 1145,
+        "year": "2025"
+      }
+    ],
+    "county_name": "Queen Anne's County"
+  }
+]

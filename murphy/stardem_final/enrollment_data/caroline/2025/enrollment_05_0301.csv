@@ -1,0 +1,21 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,All Students,596,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,Asian,17,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,African Am.,91,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,Hispanic,58,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,White,351,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,Am.Ind/AK,*,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,HI/Pac.Isl.,*,2025
+Denton Elementary School,0301,05,Caroline County,Race/Ethnicity,2+,77,2025
+Denton Elementary School,0301,05,Caroline County,Gender,All Students,596,2025
+Denton Elementary School,0301,05,Caroline County,Gender,Male,309,2025
+Denton Elementary School,0301,05,Caroline County,Gender,Female,287,2025
+Denton Elementary School,0301,05,Caroline County,Grade,All Students,596,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Pre-Kindergarten,47,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Kindergarten,86,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Grade 1,99,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Grade 2,92,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Grade 3,85,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Grade 4,92,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Grade 5,95,2025
+Denton Elementary School,0301,05,Caroline County,Grade,Elementary,463,2025

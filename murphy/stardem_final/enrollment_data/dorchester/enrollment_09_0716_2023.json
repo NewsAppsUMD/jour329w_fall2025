@@ -1,0 +1,38 @@
+{
+  "school_name": "Choptank Elementary School",
+  "school_code": "0716",
+  "county_code": "09",
+  "year": "2023",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 375,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 282,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 51,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 22,
+      "year": "2023"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 20,
+      "year": "2023"
+    }
+  ]
+}

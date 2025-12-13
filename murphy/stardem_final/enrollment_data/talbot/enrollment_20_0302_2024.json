@@ -1,0 +1,44 @@
+{
+  "school_name": "White Marsh Elementary",
+  "school_code": "0302",
+  "county_code": "20",
+  "year": "2024",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 278,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Asian",
+      "enrollment": "*",
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 38,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 39,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 178,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 18,
+      "year": "2024"
+    }
+  ]
+}

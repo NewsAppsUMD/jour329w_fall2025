@@ -1,0 +1,44 @@
+{
+  "school_name": "Sudlersville Elementary School",
+  "school_code": "0106",
+  "county_code": "17",
+  "year": "2024",
+  "enrollment_data": [
+    {
+      "category": "Race/Ethnicity",
+      "group": "All Students",
+      "enrollment": 315,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "African Am.",
+      "enrollment": 19,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Hispanic",
+      "enrollment": 117,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "White",
+      "enrollment": 157,
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "Am.Ind/AK",
+      "enrollment": "*",
+      "year": "2024"
+    },
+    {
+      "category": "Race/Ethnicity",
+      "group": "2+",
+      "enrollment": 21,
+      "year": "2024"
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern Shore Education Beat Book</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --paper: #f5f3ed;
+            --white: #ffffff;
+            --ink: #1a1a1a;
+            --gray: #6b6b6b;
+            --light-gray: #d4d2c8;
+            --accent: #2c5f8d;
+            --shadow: rgba(0, 0, 0, 0.12);
+            --talbot: #2c5f8d;
+            --kent: #3a7d7c;
+            --dorchester: #d4880f;
+            --caroline: #a3333d;
+            --queen-annes: #7b5d8c;
+        }
+        body { font-family: 'Merriweather', serif; background: var(--paper); color: var(--ink); line-height: 1.7; font-size: 17px; }
+        header { background: var(--ink); color: var(--white); padding: 2rem 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .header-content { max-width: 1400px; margin: 0 auto; padding: 0 2rem; }
+        header h1 { font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem; }
+        header .subtitle { font-family: 'Work Sans', sans-serif; font-size: 0.95rem; opacity: 0.75; text-transform: uppercase; letter-spacing: 3px; }
+        .county-selector { background: var(--white); padding: 1.5rem 0; border-bottom: 1px solid var(--light-gray); position: sticky; top: 88px; z-index: 99; }
+        .county-buttons { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
+        .county-btn { padding: 0.75rem 1.5rem; background: transparent; border: 2px solid var(--light-gray); cursor: pointer; font-family: 'Work Sans', sans-serif; font-weight: 600; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s; }
+        .county-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px var(--shadow); }
+        .county-btn.active { color: white; }
+        .county-btn[data-county="talbot"].active { background: var(--talbot); border-color: var(--talbot); }
+        .county-btn[data-county="kent"].active { background: var(--kent); border-color: var(--kent); }
+        .county-btn[data-county="dorchester"].active { background: var(--dorchester); border-color: var(--dorchester); }
+        .county-btn[data-county="caroline"].active { background: var(--caroline); border-color: var(--caroline); }
+        .county-btn[data-county="queen-annes"].active { background: var(--queen-annes); border-color: var(--queen-annes); }
+        .county-btn[data-county="all"].active { background: var(--ink); border-color: var(--ink); }
+        nav { background: var(--white); border-bottom: 3px solid var(--ink); }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; }
+        .nav-tabs { display: flex; gap: 0; overflow-x: auto; }
+        .nav-tab { padding: 1rem 1.5rem; background: transparent; border: none; border-bottom: 3px solid transparent; cursor: pointer; font-weight: 600; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 1.5px; font-family: 'Work Sans', sans-serif; color: var(--gray); transition: all 0.3s; }
+        .nav-tab:hover { color: var(--ink); background: rgba(0,0,0,0.02); }
+        .nav-tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+        .container { max-width: 1400px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { display: none; }
+        .section.active { display: block; animation: fadeIn 0.4s; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        h2 { font-size: 2.5rem; font-weight: 900; margin-bottom: 2rem; border-bottom: 4px solid var(--ink); padding-bottom: 0.75rem; }
+        h3 { font-size: 1.75rem; font-weight: 700; margin: 2.5rem 0 1rem; }
+        .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0 3rem; }
+        .chart-card { background: var(--white); padding: 2rem; box-shadow: 0 4px 16px var(--shadow); border-top: 4px solid var(--accent); }
+        .chart-card h3 { font-family: 'Work Sans', sans-serif; font-size: 1.25rem; margin: 0 0 1.5rem; }
+        .chart-canvas { position: relative; height: 300px; }
+        .data-table { background: var(--white); padding: 2rem; margin: 2rem 0; overflow-x: auto; box-shadow: 0 2px 12px var(--shadow); }
+        .data-table table { width: 100%; border-collapse: collapse; font-family: 'Work Sans', sans-serif; font-size: 0.9rem; }
+        .data-table th { background: var(--ink); color: var(--white); padding: 1rem; text-align: left; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem; }
+        .data-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--light-gray); }
+        .data-table tr:hover { background: rgba(44, 95, 141, 0.05); }
+        .issue-box { background: var(--white); padding: 2.5rem; margin: 2rem 0 3rem; border-left: 6px solid var(--accent); box-shadow: 0 2px 12px var(--shadow); }
+        .issue-box h3 { margin-top: 0; color: var(--accent); font-size: 2rem; }
+        .county-dropdown { margin: 2rem 0; }
+        .county-dropdown-header { background: var(--light-gray); padding: 1rem 1.5rem; cursor: pointer; font-family: 'Work Sans', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s; border-left: 4px solid; }
+        .county-dropdown-header:hover { background: rgba(212, 210, 200, 0.7); }
+        .county-dropdown-header.talbot { border-left-color: var(--talbot); }
+        .county-dropdown-header.kent { border-left-color: var(--kent); }
+        .county-dropdown-header.dorchester { border-left-color: var(--dorchester); }
+        .county-dropdown-header.caroline { border-left-color: var(--caroline); }
+        .county-dropdown-header.queen-annes { border-left-color: var(--queen-annes); }
+        .county-dropdown-header .arrow { font-size: 1.5rem; transition: transform 0.3s; }
+        .county-dropdown-header.open .arrow { transform: rotate(180deg); }
+        .county-dropdown-content { max-height: 0; overflow: hidden; transition: max-height 0.5s ease; background: rgba(245, 243, 237, 0.5); border-left: 4px solid; }
+        .county-dropdown-content.talbot { border-left-color: var(--talbot); }
+        .county-dropdown-content.kent { border-left-color: var(--kent); }
+        .county-dropdown-content.dorchester { border-left-color: var(--dorchester); }
+        .county-dropdown-content.caroline { border-left-color: var(--caroline); }
+        .county-dropdown-content.queen-annes { border-left-color: var(--queen-annes); }
+        .county-dropdown-content.open { max-height: 2000px; padding: 2rem; }
+        .county-stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+        .county-stat { background: var(--white); padding: 1.25rem; border-radius: 4px; box-shadow: 0 2px 8px var(--shadow); }
+        .county-stat-label { font-family: 'Work Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 0.5rem; }
+        .county-stat-value { font-size: 1.75rem; font-weight: 700; }
+        .county-context { margin-top: 1.5rem; font-family: 'Work Sans', sans-serif; font-size: 0.95rem; line-height: 1.8; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .card { background: var(--white); padding: 1.5rem; cursor: pointer; transition: all 0.3s; box-shadow: 0 2px 8px var(--shadow); border-top: 4px solid var(--accent); }
+        .card:hover { box-shadow: 0 8px 24px var(--shadow); transform: translateY(-4px); }
+        .card h3 { font-size: 1.5rem; margin: 0 0 0.5rem; }
+        .card .role { color: var(--gray); font-size: 0.95rem; margin-bottom: 1rem; font-style: italic; }
+        .card .county-tag { display: inline-block; font-family: 'Work Sans', sans-serif; font-size: 0.75rem; padding: 0.25rem 0.75rem; margin-bottom: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: white; }
+        .card[data-county="talbot"] .county-tag { background: var(--talbot); }
+        .card[data-county="kent"] .county-tag { background: var(--kent); }
+        .card[data-county="dorchester"] .county-tag { background: var(--dorchester); }
+        .card[data-county="caroline"] .county-tag { background: var(--caroline); }
+        .card[data-county="queen-annes"] .county-tag { background: var(--queen-annes); }
+        .card .contact { font-family: 'Work Sans', sans-serif; font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem; }
+        .search-bar { margin: 2rem 0; }
+        .search-bar input { width: 100%; padding: 1rem 1.5rem; font-size: 1rem; font-family: 'Work Sans', sans-serif; border: 2px solid var(--light-gray); background: var(--white); }
+        .search-bar input:focus { outline: none; border-color: var(--accent); }
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(26, 26, 26, 0.9); z-index: 200; padding: 2rem; overflow-y: auto; }
+        .modal.active { display: flex; align-items: center; justify-content: center; }
+        .modal-content { background: var(--white); max-width: 900px; width: 100%; max-height: 90vh; overflow-y: auto; }
+        .modal-header { background: var(--ink); color: var(--white); padding: 2.5rem; border-top: 6px solid var(--accent); }
+        .modal-header h2 { font-size: 2rem; margin: 0 0 0.5rem; border: none; padding: 0; color: var(--white); }
+        .modal-header .role { font-size: 1.1rem; opacity: 0.8; font-style: italic; }
+        .modal-body { padding: 2.5rem; }
+        .modal-section { margin-bottom: 2.5rem; }
+        .modal-section h3 { font-family: 'Work Sans', sans-serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin: 0 0 1rem; border-bottom: 2px solid var(--light-gray); padding-bottom: 0.5rem; }
+        .close-modal { position: absolute; top: 2rem; right: 2rem; background: rgba(255,255,255,0.2); border: none; color: white; font-size: 2rem; width: 45px; height: 45px; cursor: pointer; }
+        .close-modal:hover { background: rgba(255,255,255,0.3); transform: rotate(90deg); }
+        .hidden { display: none !important; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            h2 { font-size: 2rem; }
+            .cards-grid { grid-template-columns: 1fr; }
+            .dashboard { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Eastern Shore Education Beat Book</h1>
+            <p class="subtitle">Five County Comprehensive Guide</p>
+        </div>
+    </header>
+
+    <div class="county-selector">
+        <div class="county-buttons">
+            <button class="county-btn active" data-county="all">All Counties</button>
+            <button class="county-btn" data-county="talbot">Talbot</button>
+            <button class="county-btn" data-county="kent">Kent</button>
+            <button class="county-btn" data-county="dorchester">Dorchester</button>
+            <button class="county-btn" data-county="caroline">Caroline</button>
+            <button class="county-btn" data-county="queen-annes">Queen Anne's</button>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-section="dashboard">Data Dashboard</button>
+                <button class="nav-tab" data-section="issues">Five Key Issues</button>
+                <button class="nav-tab" data-section="sources">Sources</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Dashboard Section -->
+        <div class="section active" id="dashboard">
+            <h2>Education Data Dashboard</h2>
+            
+            <div class="dashboard">
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Education Budget ($ Millions)</h3>
+                    <div class="chart-canvas"><canvas id="budgetChart"></canvas></div>
+                </div>
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Local vs State Funding Share (%)</h3>
+                    <div class="chart-canvas"><canvas id="fundingShareChart"></canvas></div>
+                </div>
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Per-Pupil Spending</h3>
+                    <div class="chart-canvas"><canvas id="perPupilChart"></canvas></div>
+                </div>
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Student-Teacher Ratio</h3>
+                    <div class="chart-canvas"><canvas id="ratioChart"></canvas></div>
+                </div>
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Total Suspensions (2023-24)</h3>
+                    <div class="chart-canvas"><canvas id="suspensionChart"></canvas></div>
+                </div>
+                <div class="chart-card county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                    <h3>Student Enrollment</h3>
+                    <div class="chart-canvas"><canvas id="enrollmentChart"></canvas></div>
+                </div>
+            </div>
+
+            <div class="data-table county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                <h3 style="margin-bottom: 1.5rem;">Fiscal Profile by County (FY 2026)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>County</th>
+                            <th>Total Ed Budget</th>
+                            <th>Local $</th>
+                            <th>State $</th>
+                            <th>Local %</th>
+                            <th>State %</th>
+                            <th>Per-Pupil</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="county-row" data-county="caroline">
+                            <td><strong>Caroline</strong></td>
+                            <td>$100.4M</td>
+                            <td>$20.3M</td>
+                            <td>$79.0M</td>
+                            <td>20.2%</td>
+                            <td>78.8%</td>
+                            <td>$18,600</td>
+                        </tr>
+                        <tr class="county-row" data-county="dorchester">
+                            <td><strong>Dorchester</strong></td>
+                            <td>$87.6M</td>
+                            <td>$26.3M</td>
+                            <td>$60.4M</td>
+                            <td>30.0%</td>
+                            <td>69.0%</td>
+                            <td>$19,400</td>
+                        </tr>
+                        <tr class="county-row" data-county="kent">
+                            <td><strong>Kent</strong></td>
+                            <td>$35.0M</td>
+                            <td>$21.5M</td>
+                            <td>$11.7M</td>
+                            <td>61.4%</td>
+                            <td>33.5%</td>
+                            <td>$19,460</td>
+                        </tr>
+                        <tr class="county-row" data-county="queen-annes">
+                            <td><strong>Queen Anne's</strong></td>
+                            <td>$127.5M</td>
+                            <td>$82.7M</td>
+                            <td>$43.6M</td>
+                            <td>64.9%</td>
+                            <td>34.2%</td>
+                            <td>$15,940</td>
+                        </tr>
+                        <tr class="county-row" data-county="talbot">
+                            <td><strong>Talbot</strong></td>
+                            <td>$91.4M</td>
+                            <td>$32.7M</td>
+                            <td>$48.1M</td>
+                            <td>35.8%</td>
+                            <td>55.6%</td>
+                            <td>$21,240</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="data-table county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                <h3 style="margin-bottom: 1.5rem;">MCAP Performance - Grade 5</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>County</th>
+                            <th>ELA %</th>
+                            <th>vs State</th>
+                            <th>Math %</th>
+                            <th>vs State</th>
+                            <th>Science %</th>
+                            <th>vs State</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="county-row" data-county="caroline">
+                            <td><strong>Caroline</strong></td>
+                            <td>37.7%</td>
+                            <td>-7.3</td>
+                            <td>26.7%</td>
+                            <td>-4.0</td>
+                            <td>17.7%</td>
+                            <td>-7.9</td>
+                        </tr>
+                        <tr class="county-row" data-county="dorchester">
+                            <td><strong>Dorchester</strong></td>
+                            <td>38.0%</td>
+                            <td>-7.0</td>
+                            <td>18.2%</td>
+                            <td>-12.5</td>
+                            <td>16.1%</td>
+                            <td>-9.5</td>
+                        </tr>
+                        <tr class="county-row" data-county="kent">
+                            <td><strong>Kent</strong></td>
+                            <td>36.7%</td>
+                            <td>-8.3</td>
+                            <td>19.8%</td>
+                            <td>-10.9</td>
+                            <td>26.7%</td>
+                            <td>+1.1</td>
+                        </tr>
+                        <tr class="county-row" data-county="queen-annes">
+                            <td><strong>Queen Anne's</strong></td>
+                            <td>45.8%</td>
+                            <td>+0.8</td>
+                            <td>38.4%</td>
+                            <td>+7.7</td>
+                            <td>32.2%</td>
+                            <td>+6.6</td>
+                        </tr>
+                        <tr class="county-row" data-county="talbot">
+                            <td><strong>Talbot</strong></td>
+                            <td>42.6%</td>
+                            <td>-2.4</td>
+                            <td>27.6%</td>
+                            <td>-3.1</td>
+                            <td>29.2%</td>
+                            <td>+3.6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="data-table county-filterable" data-counties="all,talbot,kent,dorchester,caroline,queen-annes">
+                <h3 style="margin-bottom: 1.5rem;">Suspension Disparities (2023-24)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>County</th>
+                            <th>Total Suspensions</th>
+                            <th>Black Suspended %</th>
+                            <th>Black Enrollment %</th>
+                            <th>Disparity Ratio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="county-row" data-county="caroline">
+                            <td><strong>Caroline</strong></td>
+                            <td>371</td>
+                            <td>38.0%</td>
+                            <td>14.8%</td>
+                            <td>2.6x</td>
+                        </tr>
+                        <tr class="county-row" data-county="dorchester">
+                            <td><strong>Dorchester</strong></td>
+                            <td>1,547</td>
+                            <td>74.3%</td>
+                            <td>32.8%</td>
+                            <td>2.3x</td>
+                        </tr>
+                        <tr class="county-row" data-county="kent">
+                            <td><strong>Kent</strong></td>
+                            <td>284</td>
+                            <td>44.0%</td>
+                            <td>17.1%</td>
+                            <td>2.6x</td>
+                        </tr>
+                        <tr class="county-row" data-county="queen-annes">
+                            <td><strong>Queen Anne's</strong></td>
+                            <td>124</td>
+                            <td>16.1%</td>
+                            <td>4.2%</td>
+                            <td>3.8x</td>
+                        </tr>
+                        <tr class="county-row" data-county="talbot">
+                            <td><strong>Talbot</strong></td>
+                            <td>357</td>
+                            <td>47.9%</td>
+                            <td>15.0%</td>
+                            <td>3.2x</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Five Key Issues Section -->
+        <div class="section" id="issues">
+            <h2>Five Key Issues Across the Eastern Shore</h2>
+
+            <div class="issue-box">
+                <h3>1. Achievement Gaps and Math Crisis</h3>
+                <p>All five counties score 5-6.1% in high school algebra proficiency, 15-16 points below the 21.4% state average. This represents a region-wide crisis in math achievement.</p>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header queen-annes" onclick="toggleDropdown(this)">
+                        <span>Queen Anne's County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content queen-annes">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Enrollment</div><div class="county-stat-value">8,000</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 5 ELA</div><div class="county-stat-value">45.8%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 5 Math</div><div class="county-stat-value">38.4%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">HS Algebra</div><div class="county-stat-value">5.7%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Strongest performer but algebra crisis persists.</strong> High school ELA 72.7% (+13.2 vs state), but algebra only 5.7% (-15.7).</p>
+                            <p><strong>Budget:</strong> $127.5M total, $15,940 per pupil (lowest), 64.9% local funded.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header talbot" onclick="toggleDropdown(this)">
+                        <span>Talbot County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content talbot">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Enrollment</div><div class="county-stat-value">4,300</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Within-School Gap</div><div class="county-stat-value">47.7 pts</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Per-Pupil</div><div class="county-stat-value">$21,240</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Reserve Use</div><div class="county-stat-value">$21.7M</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Stark within-district gaps.</strong> Chapel District Elementary: Grade 5 ELA 67.5% vs Easton Elementary 19.8%—a 47.7 point gap.</p>
+                            <p><strong>Budget:</strong> $91.4M total, highest per-pupil spending ($21,240). Using $21.7M reserves to balance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header dorchester" onclick="toggleDropdown(this)">
+                        <span>Dorchester County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content dorchester">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">State Rank</div><div class="county-stat-value">19/24</div></div>
+                            <div class="county-stat"><div class="county-stat-label">HS ELA</div><div class="county-stat-value">35.7%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 5 Math</div><div class="county-stat-value">18.2%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Funding</div><div class="county-stat-value">69%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Lowest regional performer.</strong> High school ELA 35.7% (-23.8 vs state). Ranked 19th of 24 Maryland counties.</p>
+                            <p><strong>Budget:</strong> $87.6M total, education budget nearly equals county general fund ($92M). Blueprint-dependent (69% state).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header kent" onclick="toggleDropdown(this)">
+                        <span>Kent County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content kent">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Enrollment</div><div class="county-stat-value">1,800</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 8 ELA</div><div class="county-stat-value">25.0%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 8 Math</div><div class="county-stat-value">5.0%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Local Funding</div><div class="county-stat-value">61.4%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Below state across most measures.</strong> Grade 8 ELA 25% (-23.4 vs state). Smallest enrollment (1,800).</p>
+                            <p><strong>Budget:</strong> $35.0M total, 61.4% local funded due to low Blueprint aid. Structural deficit $17.3M.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header caroline" onclick="toggleDropdown(this)">
+                        <span>Caroline County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content caroline">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Enrollment</div><div class="county-stat-value">5,400</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Grade 8 ELA</div><div class="county-stat-value">52.5%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Funding</div><div class="county-stat-value">78.8%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Capital Deferred</div><div class="county-stat-value">$71M</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Grade 8 ELA bright spot.</strong> 52.5% (+4.1 vs state) bucks regional trend. But algebra 5.1% (-16.3).</p>
+                            <p><strong>Budget:</strong> $100.4M total (exceeds county budget), 78.8% state funded (highest dependency). Deferring $71M capital.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issue-box">
+                <h3>2. Blueprint Costs and Fiscal Sustainability</h3>
+                <p>Per-pupil funding increases range from 25.4% (Queen Anne's) to 49% (Talbot) over FY2019-2024. Counties face dramatically different fiscal models and pressures.</p>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header caroline" onclick="toggleDropdown(this)">
+                        <span>Caroline County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content caroline">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Ed Budget</div><div class="county-stat-value">$100.4M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">County Budget</div><div class="county-stat-value">$79.2M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Share</div><div class="county-stat-value">78.8%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Blueprint ↑</div><div class="county-stat-value">40.3%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>School budget exceeds county general fund.</strong> Most Blueprint-dependent system (78.8% state). Education jumped 13% in one year—fastest growth.</p>
+                            <p><strong>Fiscal stress:</strong> Burning 15-year surplus, deferring $71M capital. Commissioners note state grants "entirely offset by mandated costs."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header kent" onclick="toggleDropdown(this)">
+                        <span>Kent County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content kent">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Local Share</div><div class="county-stat-value">61.4%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Structural Deficit</div><div class="county-stat-value">$17.3M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Revenue</div><div class="county-stat-value">2.4%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">S-T Ratio</div><div class="county-stat-value">27.1</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Structural inefficiencies of small size.</strong> Only 1,800 students. Fixed costs consume disproportionate share. 61.4% local funded (highest).</p>
+                            <p><strong>Fiscal crisis:</strong> Using $17.3M reserves to balance. Minimal state support (2.4%). High costs spread across too few students.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header queen-annes" onclick="toggleDropdown(this)">
+                        <span>Queen Anne's County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content queen-annes">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Ed % of County</div><div class="county-stat-value">39.6%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Local Share</div><div class="county-stat-value">64.9%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Blueprint ↑</div><div class="county-stat-value">25.4%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Salary Deadline</div><div class="county-stat-value">MISSED</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Highest local capacity.</strong> Nearly 40% of county budget to schools. Local dollars cover 64.9%. Strong property wealth enables flexibility.</p>
+                            <p><strong>Challenge:</strong> Lowest Blueprint increase (25.4%). Will miss 10% teacher salary deadline (June 30, 2024). Enrollment growth straining capacity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header talbot" onclick="toggleDropdown(this)">
+                        <span>Talbot County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content talbot">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Blueprint ↑</div><div class="county-stat-value">49.0%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Reserve Use</div><div class="county-stat-value">$21.7M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Per-Pupil</div><div class="county-stat-value">$21,240</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Share</div><div class="county-stat-value">55.6%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Hybrid model with highest Blueprint increase.</strong> 49% per-pupil increase (FY19-24). Dedicated education surtax plus strong state aid (55.6%).</p>
+                            <p><strong>Path forward:</strong> Using $21.7M reserves (13.4% of budget). Blueprint mandates will steadily increase costs. Capital modernization cycle approaching.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header dorchester" onclick="toggleDropdown(this)">
+                        <span>Dorchester County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content dorchester">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Ed Budget</div><div class="county-stat-value">$87.6M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">County Budget</div><div class="county-stat-value">$92.0M</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Share</div><div class="county-stat-value">69.0%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Tax Increases</div><div class="county-stat-value">3%/3.1%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Education budget nearly equals county GF.</strong> Extremely state-dependent (69%). Local capacity limited.</p>
+                            <p><strong>Anomaly:</strong> Budget appears flat despite Blueprint mandates—requires investigation. Raised property tax 3%, income tax 3.1% (state max).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issue-box">
+                <h3>3. Suspension Disparities</h3>
+                <p>Black students overrepresented in suspensions by 2.3x to 3.8x across all counties. Talbot commissioned cross-county discipline audit October 2025.</p>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header dorchester" onclick="toggleDropdown(this)">
+                        <span>Dorchester County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content dorchester">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Total Suspensions</div><div class="county-stat-value">1,547</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Black Suspended</div><div class="county-stat-value">74.3%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Black Enrollment</div><div class="county-stat-value">32.8%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Disparity</div><div class="county-stat-value">2.3x</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Highest total suspensions.</strong> 74.3% Black students suspended vs 32.8% enrollment. 55.3% for attacks/fighting.</p>
+                            <p>Sheriff disputes with superintendent over Juvenile Justice Reform Bill impact.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header queen-annes" onclick="toggleDropdown(this)">
+                        <span>Queen Anne's County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content queen-annes">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Total Suspensions</div><div class="county-stat-value">124</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Disparity Ratio</div><div class="county-stat-value">3.8x</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Black Suspended</div><div class="county-stat-value">16.1%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Black Enrollment</div><div class="county-stat-value">4.2%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Lowest total but highest disparity.</strong> 3.8x overrepresentation—worst ratio despite smallest numbers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header talbot" onclick="toggleDropdown(this)">
+                        <span>Talbot County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content talbot">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Total Suspensions</div><div class="county-stat-value">357</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Disparity Ratio</div><div class="county-stat-value">3.2x</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Easton High</div><div class="county-stat-value">170</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Chapel Elem</div><div class="county-stat-value">8</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Second-highest disparity.</strong> 47.9% Black suspended vs 15% enrollment. School gaps: Easton High 170 vs Chapel 8.</p>
+                            <p>October 2025: Board commissioned district-wide discipline audit examining racial/socioeconomic bias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issue-box">
+                <h3>4. Teacher Staffing Crisis</h3>
+                <p>Student-teacher ratios range from 18.7 (Caroline) to 27.1 (Kent). Blueprint salary mandates ($60K minimum by July 2026) add pressure.</p>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header kent" onclick="toggleDropdown(this)">
+                        <span>Kent County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content kent">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">S-T Ratio</div><div class="county-stat-value">27.1</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Total Teachers</div><div class="county-stat-value">158</div></div>
+                            <div class="county-stat"><div class="county-stat-label">New Hires</div><div class="county-stat-value">4</div></div>
+                            <div class="county-stat"><div class="county-stat-label">New Hire %</div><div class="county-stat-value">2.5%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Highest ratio, lowest recruitment.</strong> 27.1 students per teacher—45% higher than Caroline's 18.7. Only 4 new hires.</p>
+                            <p>Blueprint: Career ladder needs expansion, math plan incomplete, literacy plan revision needed.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header dorchester" onclick="toggleDropdown(this)">
+                        <span>Dorchester County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content dorchester">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Total Teachers</div><div class="county-stat-value">353</div></div>
+                            <div class="county-stat"><div class="county-stat-label">YoY Change</div><div class="county-stat-value">-1.7%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">New Hires</div><div class="county-stat-value">48</div></div>
+                            <div class="county-stat"><div class="county-stat-label">S-T Ratio</div><div class="county-stat-value">19.8</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Only county with teacher decline.</strong> -1.7% year-over-year. "Staffing shortage continues to be roadblock" per Blueprint.</p>
+                            <p>National Board Certification recruitment weak. Literacy/math plans incomplete.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issue-box">
+                <h3>5. Wealth and Opportunity Gaps</h3>
+                <p>Median income ranges from $57,490 (Dorchester) to $108,332 (Queen Anne's)—nearly 2x gap. Resource disparities correlate with achievement.</p>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header queen-annes" onclick="toggleDropdown(this)">
+                        <span>Queen Anne's County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content queen-annes">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Median Income</div><div class="county-stat-value">$108,332</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Poverty Rate</div><div class="county-stat-value">6.9%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">HS ELA</div><div class="county-stat-value">72.7%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Ed Budget %</div><div class="county-stat-value">39.6%</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Wealthiest county, strongest results.</strong> High school ELA 72.7% (+13.2 vs state). Strong local capacity enables programming beyond Blueprint.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="county-dropdown">
+                    <div class="county-dropdown-header dorchester" onclick="toggleDropdown(this)">
+                        <span>Dorchester County</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="county-dropdown-content dorchester">
+                        <div class="county-stat-grid">
+                            <div class="county-stat"><div class="county-stat-label">Median Income</div><div class="county-stat-value">$57,490</div></div>
+                            <div class="county-stat"><div class="county-stat-label">Poverty Rate</div><div class="county-stat-value">15.4%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">HS ELA</div><div class="county-stat-value">35.7%</div></div>
+                            <div class="county-stat"><div class="county-stat-label">State Rank</div><div class="county-stat-value">19/24</div></div>
+                        </div>
+                        <div class="county-context">
+                            <p><strong>Poorest county, lowest scores.</strong> HS ELA 35.7% (-23.8 vs state). Ranked 19/24 statewide. Highest Black enrollment (32.8%).</p>
+                            <p>Resource gap: QA income ($108K) is 1.88x Dorchester ($57K). Achievement gap mirrors wealth gap.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sources Section -->
+        <div class="section" id="sources">
+            <h2>Key Sources Directory</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name, role, county...">
+            </div>
+            <div class="cards-grid" id="sourcesCards"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">×</button>
+            <div class="modal-header">
+                <h2 id="modalName"></h2>
+                <p class="role" id="modalRole"></p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Contact Information</h3>
+                    <p id="modalContact"></p>
+                </div>
+                <div class="modal-section">
+                    <h3>Details</h3>
+                    <p id="modalDetails"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const countyData = {
+            labels: ['Caroline', 'Dorchester', 'Kent', 'Queen Anne\'s', 'Talbot'],
+            budget: [100.4, 87.6, 35.0, 127.5, 91.4],
+            localShare: [20.2, 30.0, 61.4, 64.9, 35.8],
+            stateShare: [78.8, 69.0, 33.5, 34.2, 55.6],
+            perPupil: [18600, 19400, 19460, 15940, 21240],
+            ratio: [18.7, 19.8, 27.1, 20.4, 20.6],
+            suspensions: [371, 1547, 284, 124, 357],
+            enrollment: [5400, 4500, 1800, 8000, 4300]
+        };
+
+        const chartColors = ['#a3333d', '#d4880f', '#3a7d7c', '#7b5d8c', '#2c5f8d'];
+
+        new Chart(document.getElementById('budgetChart'), {
+            type: 'bar',
+            data: { labels: countyData.labels, datasets: [{ label: 'Budget ($M)', data: countyData.budget, backgroundColor: chartColors }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        new Chart(document.getElementById('fundingShareChart'), {
+            type: 'bar',
+            data: {
+                labels: countyData.labels,
+                datasets: [
+                    { label: 'Local %', data: countyData.localShare, backgroundColor: 'rgba(44,95,141,0.8)' },
+                    { label: 'State %', data: countyData.stateShare, backgroundColor: 'rgba(163,51,61,0.8)' }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, max: 100 } } }
+        });
+
+        new Chart(document.getElementById('perPupilChart'), {
+            type: 'bar',
+            data: { labels: countyData.labels, datasets: [{ label: 'Per-Pupil ($)', data: countyData.perPupil, backgroundColor: chartColors }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        new Chart(document.getElementById('ratioChart'), {
+            type: 'bar',
+            data: { labels: countyData.labels, datasets: [{ label: 'Students per Teacher', data: countyData.ratio, backgroundColor: chartColors }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        new Chart(document.getElementById('suspensionChart'), {
+            type: 'bar',
+            data: { labels: countyData.labels, datasets: [{ label: 'Total Suspensions', data: countyData.suspensions, backgroundColor: chartColors }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        new Chart(document.getElementById('enrollmentChart'), {
+            type: 'bar',
+            data: { labels: countyData.labels, datasets: [{ label: 'Enrollment', data: countyData.enrollment, backgroundColor: chartColors }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
+
+        const contacts = [
+            { county: 'talbot', name: 'Dr. Sharon Pepukayi', role: 'Superintendent, Talbot County Public Schools', phone: '(410) 822-0540', details: 'Oversees all district operations, curriculum, budget, and Blueprint implementation.' },
+            { county: 'talbot', name: 'Emily Jackson', role: 'President, Talbot County Board of Education', phone: '(410) 822-0540', details: 'District 4. Vocal on equity issues, facility safety, discipline, and academic accountability.' },
+            { county: 'talbot', name: 'Lori Julian', role: 'Coordinator, Tilghman Elementary Judy Center', phone: 'Via (410) 822-0540', details: 'Early learning hub coordinator. Focuses on grant funding and family readiness for Tilghman Island.' },
+            { county: 'kent', name: 'Dr. Mary McComas', role: 'Superintendent, Kent County Public Schools', phone: '(410) 778-1595', details: 'Manages curriculum, budget, personnel, and state policy implementation.' },
+            { county: 'dorchester', name: 'Dr. Jymil Thompson', role: 'Superintendent, Dorchester County Public Schools', phone: '(410) 228-4747', details: 'Led "23 No More, Believe in Us" reform initiative. Oversees district turnaround efforts.' },
+            { county: 'caroline', name: 'Derek L. Simmons', role: 'Superintendent, Caroline County Public Schools', phone: '(410) 479-1660', details: 'Directs district operations and Blueprint compliance.' },
+            { county: 'queen-annes', name: 'Dr. Matthew Kibler', role: 'Interim Superintendent, Queen Anne\'s County Public Schools', phone: '(410) 758-2403', details: 'Interim superintendent managing largest regional budget.' },
+            { county: 'queen-annes', name: 'Ashley MacLeay', role: 'President, Charter Committee Board of Directors', phone: 'Via (410) 758-2403', details: 'Advocates for classical charter school proposal. Focuses on parent choice and holistic education.' },
+            { county: 'talbot', name: 'Mark DeMorra', role: 'STEM Specialist, Maryland 4-H', phone: 'Via University of MD Extension', details: 'Partners with Eastern Shore schools on hands-on STEM programming. Focuses on gender equity in math/science.' }
+        ];
+
+        let currentCounty = 'all';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderSources();
+            setupTabs();
+            setupCountySelector();
+            setupSearch();
+        });
+
+        function setupCountySelector() {
+            document.querySelectorAll('.county-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentCounty = btn.dataset.county;
+                    document.querySelectorAll('.county-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    filterContent();
+                    renderSources();
+                });
+            });
+        }
+
+        function filterContent() {
+            document.querySelectorAll('.county-filterable').forEach(el => {
+                const counties = el.dataset.counties ? el.dataset.counties.split(',') : [];
+                if (currentCounty === 'all' || counties.includes(currentCounty)) {
+                    el.classList.remove('hidden');
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+
+            document.querySelectorAll('.county-row').forEach(row => {
+                if (currentCounty === 'all' || row.dataset.county === currentCounty) {
+                    row.classList.remove('hidden');
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+        }
+
+        function setupTabs() {
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const section = tab.dataset.section;
+                    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+                    document.getElementById(section).classList.add('active');
+                });
+            });
+        }
+
+        function renderSources(filtered = null) {
+            let contactsToRender = filtered || contacts;
+            if (currentCounty !== 'all') {
+                contactsToRender = contactsToRender.filter(c => c.county === currentCounty);
+            }
+
+            const container = document.getElementById('sourcesCards');
+            if (contactsToRender.length === 0) {
+                container.innerHTML = '<p>No sources found.</p>';
+                return;
+            }
+
+            container.innerHTML = contactsToRender.map((c, idx) => `
+                <div class="card" data-county="${c.county}" onclick="openModal(${contacts.indexOf(c)})">
+                    <div class="county-tag">${c.county.replace('-', ' ')}</div>
+                    <h3>${c.name}</h3>
+                    <p class="role">${c.role}</p>
+                    <div class="contact">${c.phone}</div>
+                </div>
+            `).join('');
+        }
+
+        function setupSearch() {
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                if (query.length < 2) { renderSources(); return; }
+                let filtered = contacts.filter(c =>
+                    c.name.toLowerCase().includes(query) ||
+                    c.role.toLowerCase().includes(query) ||
+                    c.county.toLowerCase().includes(query)
+                );
+                if (currentCounty !== 'all') filtered = filtered.filter(c => c.county === currentCounty);
+                renderSources(filtered);
+            });
+        }
+
+        function toggleDropdown(header) {
+            const content = header.nextElementSibling;
+            const isOpen = header.classList.contains('open');
+            
+            document.querySelectorAll('.county-dropdown-header').forEach(h => h.classList.remove('open'));
+            document.querySelectorAll('.county-dropdown-content').forEach(c => c.classList.remove('open'));
+            
+            if (!isOpen) {
+                header.classList.add('open');
+                content.classList.add('open');
+            }
+        }
+
+        function openModal(idx) {
+            const c = contacts[idx];
+            document.getElementById('modalName').textContent = c.name;
+            document.getElementById('modalRole').textContent = c.role;
+            document.getElementById('modalContact').textContent = c.phone;
+            document.getElementById('modalDetails').textContent = c.details;
+            document.getElementById('modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') closeModal();
+        });
+    </script>
+</body>
+</html>

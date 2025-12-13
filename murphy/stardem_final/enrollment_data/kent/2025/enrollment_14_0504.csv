@@ -1,0 +1,19 @@
+school_name,school_code,county_code,county_name,category,group,enrollment,year
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,All Students,198,2025
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,African Am.,49,2025
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,Hispanic,*,2025
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,White,116,2025
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,Am.Ind/AK,*,2025
+Rock Hall Elementary,0504,14,Kent County,Race/Ethnicity,2+,23,2025
+Rock Hall Elementary,0504,14,Kent County,Gender,All Students,198,2025
+Rock Hall Elementary,0504,14,Kent County,Gender,Male,108,2025
+Rock Hall Elementary,0504,14,Kent County,Gender,Female,90,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,All Students,198,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Pre-Kindergarten,20,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Kindergarten,31,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Grade 1,29,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Grade 2,30,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Grade 3,31,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Grade 4,34,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Grade 5,23,2025
+Rock Hall Elementary,0504,14,Kent County,Grade,Elementary,147,2025
