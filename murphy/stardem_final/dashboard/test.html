@@ -42,7 +42,7 @@
         
         .analysis-highlight { background: #fff9e6; border-left: 4px solid #d4880f; padding: 1.5rem; margin: 1.5rem 0; font-family: 'Work Sans', sans-serif; font-size: 0.95rem; line-height: 1.8; }
         .analysis-highlight strong { color: #d4880f; }
-        
+
         .why-matters-box { background: #fff3cd; border-left: 5px solid #d4880f; padding: 1.5rem; margin: 1.5rem 0; }
         .why-matters-box h4 { margin: 0 0 1rem; color: #d4880f; font-size: 1.2rem; }
         .why-matters-box .big-picture { font-weight: 600; margin-bottom: 1rem; color: var(--gray); font-style: italic; }
@@ -62,7 +62,7 @@
         
         .editable-section { border: 2px dashed var(--light-gray); padding: 2rem; margin: 1rem 0; background: rgba(255, 255, 255, 0.5); border-radius: 4px; min-height: 100px; }
         .editable-section .placeholder { color: var(--gray); font-style: italic; line-height: 1.8; }
-        
+
         .county-dropdown { margin: 2rem 0; }
         .county-dropdown-header { background: var(--light-gray); padding: 1rem 1.5rem; cursor: pointer; font-family: 'Work Sans', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s; border-left: 4px solid; }
         .county-dropdown-header:hover { background: rgba(212, 210, 200, 0.7); }
@@ -91,7 +91,28 @@
         .data-table th { background: var(--ink); color: var(--white); padding: 1rem; text-align: left; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem; }
         .data-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--light-gray); }
         .data-table tr:hover { background: rgba(44, 95, 141, 0.05); }
-
+        
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .card { background: var(--white); padding: 1.5rem; cursor: pointer; transition: all 0.3s; box-shadow: 0 2px 8px var(--shadow); border-top: 4px solid; }
+        .card:hover { box-shadow: 0 8px 24px var(--shadow); transform: translateY(-4px); }
+        .card[data-county="talbot"] { border-top-color: var(--talbot); }
+        .card[data-county="kent"] { border-top-color: var(--kent); }
+        .card[data-county="dorchester"] { border-top-color: var(--dorchester); }
+        .card[data-county="caroline"] { border-top-color: var(--caroline); }
+        .card[data-county="queen-annes"] { border-top-color: var(--queen-annes); }
+        .card[data-county="regional"] { border-top-color: var(--accent); }
+        .card h3 { font-size: 1.4rem; margin: 0 0 0.5rem; }
+        .card .role { color: var(--gray); font-size: 0.9rem; margin-bottom: 0.75rem; font-style: italic; }
+        .card .topics { font-family: 'Work Sans', sans-serif; font-size: 0.85rem; color: var(--accent); margin-top: 0.75rem; line-height: 1.5; }
+        .card .quote-count { font-family: 'Work Sans', sans-serif; font-size: 0.85rem; color: var(--gray); margin-top: 0.5rem; font-weight: 600; }
+        
+        .search-bar { margin: 2rem 0; }
+        .search-bar input { width: 100%; padding: 1rem 1.5rem; font-size: 1rem; font-family: 'Work Sans', sans-serif; border: 2px solid var(--light-gray); background: var(--white); }
+        .search-bar input:focus { outline: none; border-color: var(--accent); }
+        
+        .hidden { display: none !important; }
+        
+        /* School Cards */
         .schools-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
         .school-card { background: var(--white); border-radius: 6px; box-shadow: 0 2px 8px var(--shadow); transition: all 0.3s; cursor: pointer; overflow: hidden; border-top: 3px solid; }
         .school-card.talbot { border-top-color: var(--talbot); }
@@ -112,17 +133,37 @@
         .detail-stat { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid rgba(212, 210, 200, 0.3); font-family: 'Work Sans', sans-serif; font-size: 0.85rem; }
         .detail-label { color: var(--gray); }
         .detail-value { font-weight: 600; }
-        
-        .search-bar { margin: 2rem 0; }
-        .search-bar input { width: 100%; padding: 1rem 1.5rem; font-size: 1rem; font-family: 'Work Sans', sans-serif; border: 2px solid var(--light-gray); background: var(--white); }
-        .search-bar input:focus { outline: none; border-color: var(--accent); }
-        
-        .hidden { display: none !important; }
+
+        /* Chatbot Styles */
+        .chatbot-button { position: fixed; bottom: 2rem; right: 2rem; width: 60px; height: 60px; border-radius: 50%; background: var(--accent); color: white; border: none; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; z-index: 1000; transition: all 0.3s; }
+        .chatbot-button:hover { transform: scale(1.1); background: #1e4d6e; }
+        .chatbot-container { position: fixed; bottom: 2rem; right: 2rem; width: 400px; height: 600px; background: white; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); display: none; flex-direction: column; z-index: 1001; overflow: hidden; }
+        .chatbot-container.open { display: flex; animation: slideUp 0.3s ease; }
+        @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .chatbot-header { background: var(--accent); color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+        .chatbot-header h3 { margin: 0; font-size: 1.1rem; font-family: 'Work Sans', sans-serif; }
+        .chatbot-close { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; }
+        .chatbot-messages { flex: 1; overflow-y: auto; padding: 1rem; display: flex; flex-direction: column; gap: 1rem; background: var(--paper); }
+        .chatbot-message { padding: 0.75rem 1rem; border-radius: 12px; max-width: 80%; font-size: 0.9rem; line-height: 1.5; }
+        .chatbot-message.bot { background: white; align-self: flex-start; border: 1px solid var(--light-gray); }
+        .chatbot-message.user { background: var(--accent); color: white; align-self: flex-end; }
+        .chatbot-input-container { padding: 1rem; background: white; border-top: 1px solid var(--light-gray); display: flex; gap: 0.5rem; }
+        .chatbot-input { flex: 1; padding: 0.75rem; border: 1px solid var(--light-gray); border-radius: 8px; font-family: 'Work Sans', sans-serif; font-size: 0.9rem; }
+        .chatbot-input:focus { outline: none; border-color: var(--accent); }
+        .chatbot-send { background: var(--accent); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; cursor: pointer; font-weight: 600; font-family: 'Work Sans', sans-serif; }
+        .chatbot-send:hover { background: #1e4d6e; }
+        .chatbot-suggestions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+        .chatbot-suggestion { background: var(--paper); border: 1px solid var(--light-gray); padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem; cursor: pointer; font-family: 'Work Sans', sans-serif; }
+        .chatbot-suggestion:hover { background: var(--light-gray); }
+
+@media (max-width: 768px) {
+    .chatbot-container { width: calc(100vw - 2rem); height: calc(100vh - 4rem); bottom: 1rem; right: 1rem; }
+}
         
         @media (max-width: 768px) {
             header h1 { font-size: 2rem; }
             h2 { font-size: 2rem; }
-            .cards-grid { grid-template-columns: 1fr; }
+            .cards-grid, .schools-card-grid { grid-template-columns: 1fr; }
             .nav-tabs { overflow-x: scroll; }
         }
     </style>
@@ -143,15 +184,13 @@
                 <button class="nav-tab" data-section="schools">Schools</button>
                 <button class="nav-tab" data-section="sources">Sources</button>
                 <button class="nav-tab" data-section="calendar">Meeting Calendar</button>
-                <button class="nav-tab" data-section="foia">FOIA Contacts</button>
-                <button class="nav-tab" data-section="community">Community Voices</button>
             </div>
         </div>
     </nav>
+        
 
     <div class="container">
         <!-- FIVE KEY ISSUES TAB -->
-       
         <section id="issues" class="section active">
             <h2>Five Key Issues</h2>
 
@@ -613,305 +652,6 @@
             </div>
         </section>
 
-        <!-- MEETING CALENDAR TAB -->
-        <section id="calendar" class="section">
-            <h2>Meeting Calendar & Key Dates</h2>
-            
-            <p>Board meeting schedules, budget approval timelines, public hearing dates, and annual events across all five counties.</p>
-
-            <div class="info-grid">
-                <div class="info-card caroline">
-                    <h3>Caroline County</h3>
-                    <div class="detail-line">
-                        <strong>Board Meetings</strong>
-                        [Add: Day, time, location, livestream info]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Budget Timeline</strong>
-                        [Add: Key dates from preliminary budget through approval]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Public Comment</strong>
-                        [Add: How to sign up, time limits, procedures]
-                    </div>
-                </div>
-
-                <div class="info-card dorchester">
-                    <h3>Dorchester County</h3>
-                    <div class="detail-line">
-                        <strong>Board Meetings</strong>
-                        [Add: Day, time, location, livestream info]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Budget Timeline</strong>
-                        [Add: Key dates from preliminary budget through approval]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Public Comment</strong>
-                        [Add: How to sign up, time limits, procedures]
-                    </div>
-                </div>
-
-                <div class="info-card kent">
-                    <h3>Kent County</h3>
-                    <div class="detail-line">
-                        <strong>Board Meetings</strong>
-                        [Add: Day, time, location, livestream info]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Budget Timeline</strong>
-                        [Add: Key dates from preliminary budget through approval]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Public Comment</strong>
-                        [Add: How to sign up, time limits, procedures]
-                    </div>
-                </div>
-
-                <div class="info-card queen-annes">
-                    <h3>Queen Anne's County</h3>
-                    <div class="detail-line">
-                        <strong>Board Meetings</strong>
-                        [Add: Day, time, location, livestream info]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Budget Timeline</strong>
-                        [Add: Key dates from preliminary budget through approval]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Public Comment</strong>
-                        [Add: How to sign up, time limits, procedures]
-                    </div>
-                </div>
-
-                <div class="info-card talbot">
-                    <h3>Talbot County</h3>
-                    <div class="detail-line">
-                        <strong>Board Meetings</strong>
-                        [Add: Day, time, location, livestream info]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Budget Timeline</strong>
-                        [Add: Key dates from preliminary budget through approval]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Public Comment</strong>
-                        [Add: How to sign up, time limits, procedures]
-                    </div>
-                </div>
-            </div>
-
-            <h3>Annual Events Across All Counties</h3>
-            <div class="editable-section">
-                <div class="placeholder">
-                    Add key annual events here:<br>
-                    • August: Back to school dates<br>
-                    • September: MCAP results release<br>
-                    • October: Board election cycles<br>
-                    • December-May: Budget season milestones<br>
-                    • March: MCAP testing windows<br>
-                    • June: Graduation dates
-                </div>
-            </div>
-        </section>
-
-        <!-- FOIA CONTACTS TAB -->
-        <section id="foia" class="section">
-            <h2>FOIA Contacts & Procedures</h2>
-            
-            <p>Public records request contacts for each district and county government, including response times, fee structures, and tips for effective requests.</p>
-
-            <div class="info-grid">
-                <div class="info-card caroline">
-                    <h3>Caroline County Schools</h3>
-                    <div class="detail-line">
-                        <strong>FOIA Officer</strong>
-                        [Add: Name, title]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Contact</strong>
-                        [Add: Email, phone, address]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Response Time</strong>
-                        [Add: Standard timeframe]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Fees</strong>
-                        [Add: Fee structure]
-                    </div>
-                </div>
-
-                <div class="info-card dorchester">
-                    <h3>Dorchester County Schools</h3>
-                    <div class="detail-line">
-                        <strong>FOIA Officer</strong>
-                        [Add: Name, title]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Contact</strong>
-                        [Add: Email, phone, address]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Response Time</strong>
-                        [Add: Standard timeframe]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Fees</strong>
-                        [Add: Fee structure]
-                    </div>
-                </div>
-
-                <div class="info-card kent">
-                    <h3>Kent County Schools</h3>
-                    <div class="detail-line">
-                        <strong>FOIA Officer</strong>
-                        [Add: Name, title]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Contact</strong>
-                        [Add: Email, phone, address]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Response Time</strong>
-                        [Add: Standard timeframe]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Fees</strong>
-                        [Add: Fee structure]
-                    </div>
-                </div>
-
-                <div class="info-card queen-annes">
-                    <h3>Queen Anne's County Schools</h3>
-                    <div class="detail-line">
-                        <strong>FOIA Officer</strong>
-                        [Add: Name, title]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Contact</strong>
-                        [Add: Email, phone, address]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Response Time</strong>
-                        [Add: Standard timeframe]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Fees</strong>
-                        [Add: Fee structure]
-                    </div>
-                </div>
-
-                <div class="info-card talbot">
-                    <h3>Talbot County Schools</h3>
-                    <div class="detail-line">
-                        <strong>FOIA Officer</strong>
-                        [Add: Name, title]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Contact</strong>
-                        [Add: Email, phone, address]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Response Time</strong>
-                        [Add: Standard timeframe]
-                    </div>
-                    <div class="detail-line">
-                        <strong>Fees</strong>
-                        [Add: Fee structure]
-                    </div>
-                </div>
-            </div>
-
-            <h3>FOIA Best Practices</h3>
-            <div class="narrative-box">
-                <p><strong>Tips for effective public records requests:</strong></p>
-                <div class="editable-section">
-                    <div class="placeholder">
-                        Add best practices here:<br>
-                        • Always request in writing<br>
-                        • Be specific about date ranges and topics<br>
-                        • Ask for electronic format<br>
-                        • Common useful requests (contracts, salary schedules, etc.)<br>
-                        • Appeal procedures if denied
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- COMMUNITY VOICES TAB -->
-        <section id="community" class="section">
-            <h2>Community Voices & Organizations</h2>
-            
-            <p>Parent groups, teacher unions, student leaders, advocacy organizations, and community stakeholders beyond official school district sources.</p>
-
-            <h3>Teacher Unions & Associations</h3>
-            <div class="editable-section">
-                <div class="placeholder">
-                    Add teacher union contacts for each county:<br>
-                    • Local chapter names<br>
-                    • Union presidents/representatives<br>
-                    • Contact information<br>
-                    • MSEA regional office info
-                </div>
-            </div>
-
-            <h3>Parent & Family Organizations</h3>
-            <div class="info-grid">
-                <div class="info-card caroline">
-                    <h3>Caroline County</h3>
-                    <div class="editable-section">
-                        <div class="placeholder">
-                            Add: PTA councils, parent advisory groups, key parent leaders
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card dorchester">
-                    <h3>Dorchester County</h3>
-                    <div class="editable-section">
-                        <div class="placeholder">
-                            Add: PTA councils, parent advisory groups, key parent leaders
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card kent">
-                    <h3>Kent County</h3>
-                    <div class="editable-section">
-                        <div class="placeholder">
-                            Add: PTA councils, parent advisory groups, key parent leaders
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card queen-annes">
-                    <h3>Queen Anne's County</h3>
-                    <div class="editable-section">
-                        <div class="placeholder">
-                            Add: PTA councils, parent advisory groups, key parent leaders
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card talbot">
-                    <h3>Talbot County</h3>
-                    <div class="editable-section">
-                        <div class="placeholder">
-                            Add: PTA councils, parent advisory groups, key parent leaders
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h3>Student Voices & Community Groups</h3>
-            <div class="editable-section">
-                <div class="placeholder">
-                    Add community organizations and student contacts
-                </div>
-            </div>
-        </section>
-
         <!-- COUNTY PROFILES TAB -->
         <section id="counties" class="section">
             <h2>County Profiles</h2>
@@ -1164,6 +904,22 @@
                                         <span class="detail-value">6.0% (n=31)</span>
                                     </div>
                                 </div>
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">63.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">28.3% Proficient</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="school-card caroline" onclick="toggleSchoolDetails(this)">
@@ -1230,7 +986,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">56.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">10.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">48.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">19.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">60.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.8% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1306,7 +1109,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">60.2% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">53.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">54.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">33.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">36.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.8% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1382,7 +1232,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">9.3% (n=39)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">36.4% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">42.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">23.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">15.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">26.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">16.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1454,7 +1351,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">26.9% (n=229)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">41.5% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">26.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">39.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">35.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">26.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">42.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">26.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">26.1% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1526,7 +1470,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">9.8% (n=81)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">48.6% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">11.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">22.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">51.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">22.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">22.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">45.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">22.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1598,7 +1589,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">10.1% (n=125)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">63.4% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">49.4% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1670,7 +1678,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">56.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.4% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">56.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">47.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.4% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">38.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.4% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1742,7 +1797,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">56.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">33.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">15.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">29.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">15.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">36.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">26.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">15.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1821,7 +1923,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">6.0% (n=47)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">32.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">24.9% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1893,7 +2012,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">5.5% (n=18)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">29.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">13.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">30.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">21.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">8.9% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -1965,7 +2131,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">7.6% (n=29)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">50.0% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">36.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">26.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">23.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">43.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">23.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">21.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2033,7 +2246,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">9.2% (n=43)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">18.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">6.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">20.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">6.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">27.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">6.5% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2105,7 +2365,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">19.4% (n=94)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">42.9% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">38.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">15.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">32.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2173,7 +2480,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">39.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">38.6% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2241,7 +2565,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">61.7% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">15.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">24.6% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">65.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">24.6% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">52.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">14.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">24.6% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2313,7 +2684,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">5.9% (n=23)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">30.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">19.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">9.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">26.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">10.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">9.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">20.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">9.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">9.1% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2373,7 +2791,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Students with Disabilities</span>
                                         <span class="detail-value">9.4% (n=22)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">52.2% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">60.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">37.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">59.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">54.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">37.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">48.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">37.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2441,7 +2906,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">5.9% (n=11)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">73.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">66.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">59.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.5% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2505,7 +3017,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Students with Disabilities</span>
                                         <span class="detail-value">7.8% (n=27)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">75.4% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">69.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">34.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">34.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">51.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">40.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">34.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2588,7 +3147,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">8.0% (n=25)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">35.6% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">26.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">10.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">35.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">10.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">10.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">27.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">8.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">10.5% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2664,7 +3270,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">9.5% (n=31)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">39.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">63.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">31.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">15.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2732,7 +3385,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">53.5% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">6.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.7% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2804,7 +3474,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">7.7% (n=28)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">33.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">8.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">10.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">25.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2868,7 +3585,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Title 1</span>
                                         <span class="detail-value">≥ 95.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">40.6% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">53.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">58.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">51.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">44.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">58.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">36.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">36.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">58.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -2947,7 +3711,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">5.6% (n=21)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">58.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">52.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">65.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">60.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">59.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">50.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.1% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3083,7 +3894,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">58.6% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">67.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">25.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">48.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">6.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">44.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3155,7 +4013,42 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">5.9% (n=20)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">45.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">39.6% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">35.4% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">45.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">39.6% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3227,7 +4120,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">10.2% (n=50)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">47.4% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">54.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">25.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">56.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">47.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">25.3% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">43.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">40.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">25.3% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3295,7 +4235,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">45.2% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">38.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">42.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">37.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">49.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">36.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">27.9% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3435,7 +4422,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">75.9% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">53.1% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3495,7 +4499,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Students with Disabilities</span>
                                         <span class="detail-value">9.7% (n=46)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">67.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">69.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">31.4% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">62.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">57.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">31.4% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">58.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">42.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">31.4% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3559,7 +4610,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Students with Disabilities</span>
                                         <span class="detail-value">8.7% (n=31)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">81.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">32.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">52.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">65.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">27.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">52.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">73.6% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">22.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">52.5% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3631,7 +4729,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">69.5% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">6.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">46.6% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3699,7 +4814,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">6.5% (n=30)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">54.7% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">27.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">42.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">54.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">30.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">42.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">55.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">18.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">42.9% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3771,7 +4933,42 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">26.2% (n=81)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">18.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">20.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">40.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">18.3% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">20.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3843,7 +5040,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">12.1% (n=53)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">52.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.7% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">48.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">28.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">46.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">16.8% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -3926,7 +5170,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">6.0% (n=22)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">67.3% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">53.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">45.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">60.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">43.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">45.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">67.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">55.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">45.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4002,7 +5293,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">30.1% (n=327)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">29.1% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">20.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">42.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">21.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.9% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">19.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">11.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">11.9% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4074,7 +5412,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">13.7% (n=161)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">56.6% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">49.4% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4146,7 +5501,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">15.8% (n=110)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 6:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">42.4% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">11.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 7:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">16.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.1% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 8:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">33.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.2% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">18.1% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4218,7 +5620,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">50.8% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">45.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">30.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">50.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">31.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">30.0% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">38.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">26.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">30.0% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4286,7 +5735,24 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">≤ 5.0% (n=*)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 10:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">76.7% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">13.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">23.8% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4342,7 +5808,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Title 1</span>
                                         <span class="detail-value">27.7% (n=28)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">25.0% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">23.1% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.6% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">10.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">10.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.6% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">29.4% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">5.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">17.6% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4414,7 +5927,54 @@
                                     <div class="detail-stat">
                                         <span class="detail-label">Multilingual Learner</span>
                                         <span class="detail-value">11.6% (n=33)</span>
+                                    
+                                <h5>📈 MCAP Performance (2024-25)</h5>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 3:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">60.0% Proficient</span>
                                     </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">47.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 4:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">65.8% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">57.9% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                </div>
+                                <p style="margin: 0.5rem 0; font-weight: 600;">Grade 5:</p>
+                                <div class="detail-stats">
+                                    <div class="detail-stat">
+                                        <span class="detail-label">ELA</span>
+                                        <span class="detail-value">58.5% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Math</span>
+                                        <span class="detail-value">39.0% Proficient</span>
+                                    </div>
+                                    <div class="detail-stat">
+                                        <span class="detail-label">Science</span>
+                                        <span class="detail-value">41.5% Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -4779,17 +6339,144 @@
 
             </div>
         </section>
-    </div>
+
+        <!-- MEETING CALENDAR TAB -->
+        <section id="calendar" class="section">
+            <h2>Meeting Calendar & Key Dates</h2>
+            
+            <p>Board meeting schedules, budget approval timelines, public hearing dates, and annual events across all five counties.</p>
+
+            <div class="info-grid">
+                <div class="info-card caroline">
+                    <h3>Caroline County</h3>
+                    <div class="detail-line">
+                        <strong>Board Meetings</strong>
+                        [Add: Day, time, location, livestream info]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Budget Timeline</strong>
+                        [Add: Key dates from preliminary budget through approval]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Public Comment</strong>
+                        [Add: How to sign up, time limits, procedures]
+                    </div>
+                </div>
+
+                <div class="info-card dorchester">
+                    <h3>Dorchester County</h3>
+                    <div class="detail-line">
+                        <strong>Board Meetings</strong>
+                        [Add: Day, time, location, livestream info]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Budget Timeline</strong>
+                        [Add: Key dates from preliminary budget through approval]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Public Comment</strong>
+                        [Add: How to sign up, time limits, procedures]
+                    </div>
+                </div>
+
+                <div class="info-card kent">
+                    <h3>Kent County</h3>
+                    <div class="detail-line">
+                        <strong>Board Meetings</strong>
+                        [Add: Day, time, location, livestream info]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Budget Timeline</strong>
+                        [Add: Key dates from preliminary budget through approval]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Public Comment</strong>
+                        [Add: How to sign up, time limits, procedures]
+                    </div>
+                </div>
+
+                <div class="info-card queen-annes">
+                    <h3>Queen Anne's County</h3>
+                    <div class="detail-line">
+                        <strong>Board Meetings</strong>
+                        [Add: Day, time, location, livestream info]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Budget Timeline</strong>
+                        [Add: Key dates from preliminary budget through approval]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Public Comment</strong>
+                        [Add: How to sign up, time limits, procedures]
+                    </div>
+                </div>
+
+                <div class="info-card talbot">
+                    <h3>Talbot County</h3>
+                    <div class="detail-line">
+                        <strong>Board Meetings</strong>
+                        [Add: Day, time, location, livestream info]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Budget Timeline</strong>
+                        [Add: Key dates from preliminary budget through approval]
+                    </div>
+                    <div class="detail-line">
+                        <strong>Public Comment</strong>
+                        [Add: How to sign up, time limits, procedures]
+                    </div>
+                </div>
+            </div>
+
+            <h3>Annual Events Across All Counties</h3>
+            <div class="editable-section">
+                <div class="placeholder">
+                    Add key annual events here:<br>
+                    • August: Back to school dates<br>
+                    • September: MCAP results release<br>
+                    • October: Board election cycles<br>
+                    • December-May: Budget season milestones<br>
+                    • March: MCAP testing windows<br>
+                    • June: Graduation dates
+                </div>
+            </div>
+        </section>
+
+        <!-- CHATBOT -->
+        <button class="chatbot-button" onclick="toggleChatbot()">💬</button>
+        
+        <div class="chatbot-container" id="chatbot">
+            <div class="chatbot-header">
+                <h3>Beat Book Assistant</h3>
+                <button class="chatbot-close" onclick="toggleChatbot()">×</button>
+            </div>
+            <div class="chatbot-messages" id="chatMessages">
+                <div class="chatbot-message bot">
+                    Hi! I can help you find information in the Eastern Shore Education Beat Book. Try asking me about:
+                    <div class="chatbot-suggestions">
+                        <div class="chatbot-suggestion" onclick="askQuestion('What is the algebra proficiency rate?')">Algebra crisis</div>
+                        <div class="chatbot-suggestion" onclick="askQuestion('Compare county budgets')">County budgets</div>
+                        <div class="chatbot-suggestion" onclick="askQuestion('Discipline disparities')">Discipline data</div>
+                        <div class="chatbot-suggestion" onclick="askQuestion('Teacher retention')">Teacher staffing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" class="chatbot-input" id="chatInput" placeholder="Ask about the data..." onkeypress="if(event.key==='Enter') sendMessage()">
+                <button class="chatbot-send" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        </div>
 
     <script>
         // Tab Navigation
         document.querySelectorAll('.nav-tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                const section = tab.dataset.section;
-                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-                document.getElementById(section).classList.add('active');
+        tab.addEventListener('click', () => {
+            const section = tab.dataset.section;
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(section).classList.add('active');
             });
         });
 
@@ -4805,6 +6492,139 @@
                 header.classList.remove('open');
                 content.classList.remove('open');
             }
+        }
+
+        // School Card Details Toggle
+        function toggleSchoolDetails(card) {
+            const details = card.querySelector('.school-details');
+            if (details.style.display === 'none') {
+                details.style.display = 'block';
+            } else {
+                details.style.display = 'none';
+            }
+        }
+
+        // Source Search Filter
+        function filterSources() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('#sourcesCards .card');
+            
+            cards.forEach(card => {
+                const name = card.dataset.name || '';
+                const role = card.dataset.role || '';
+                const topics = card.dataset.topics || '';
+                const county = card.dataset.county || '';
+                
+                if (query === '' || name.includes(query) || role.includes(query) || topics.includes(query) || county.includes(query)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // Chatbot Functions
+        function toggleChatbot() {
+            const chatbot = document.getElementById('chatbot');
+            chatbot.classList.toggle('open');
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            addMessage(message, 'user');
+            input.value = '';
+            
+            // Simulate thinking
+            setTimeout(() => {
+                const response = getBotResponse(message);
+                addMessage(response, 'bot');
+            }, 500);
+        }
+
+        function askQuestion(question) {
+            document.getElementById('chatInput').value = question;
+            sendMessage();
+        }
+
+        function addMessage(text, sender) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chatbot-message ${sender}`;
+            messageDiv.textContent = text;
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function getBotResponse(message) {
+            const msg = message.toLowerCase();
+            
+            // Algebra/Achievement questions
+            if (msg.includes('algebra') || msg.includes('math proficiency')) {
+                return "Algebra proficiency is uniformly low across all counties: Caroline 5.0%, Dorchester 6.1%, Kent 5.8%, Queen Anne's 5.4%, Talbot 5.2%. This suggests a systemic instructional crisis, not a funding problem.";
+            }
+            
+            // Budget questions
+            if (msg.includes('budget') || msg.includes('spending') || msg.includes('funding')) {
+                return "Per-pupil spending varies widely: Talbot leads at $21,240, followed by Kent ($19,460), Dorchester ($19,400), Caroline ($18,600), and Queen Anne's ($15,940). Blueprint increases ranged from 25.4% (Queen Anne's) to 49% (Talbot).";
+            }
+            
+            // Discipline questions
+            if (msg.includes('discipline') || msg.includes('suspension')) {
+                return "Black students face suspension disparities in all counties: Queen Anne's shows the highest at 3.8x their enrollment rate, followed by Talbot (3.0x), Kent (2.6x), Dorchester (2.3x), and Caroline (2.2x). This persists regardless of county wealth.";
+            }
+            
+            // Teacher/Staffing questions
+            if (msg.includes('teacher') || msg.includes('staffing') || msg.includes('retention')) {
+                return "Student-teacher ratios vary from 15.2:1 (Talbot, best) to 27.1:1 (Kent, worst). Dorchester is the only county losing teachers (-1.7%). All counties face the $60K minimum salary mandate by July 2026.";
+            }
+            
+            // County-specific questions
+            if (msg.includes('caroline')) {
+                return "Caroline County: 5,400 students, $18,600 per-pupil spending, 78.8% state-funded. School budget ($100.4M) exceeds county general fund ($79.2M). Received 40.3% Blueprint increase.";
+            }
+            if (msg.includes('dorchester')) {
+                return "Dorchester County: 4,500 students, $19,400 per-pupil spending, lowest median income ($57K). Posted strongest MCAP gains through '23 No More, Believe in Us' initiative. 69% state-funded.";
+            }
+            if (msg.includes('kent')) {
+                return "Kent County: 1,800 students (smallest), $19,460 per-pupil spending. 61.4% locally funded (highest). Structural inefficiency from small size creates worst student-teacher ratio (27.1:1).";
+            }
+            if (msg.includes('queen') || msg.includes('anne')) {
+                return "Queen Anne's County: 8,000 students, wealthiest ($108K median income), 64.9% locally funded. Allocates 39.6% of county budget to education. Posted highest regional MCAP growth in 2025.";
+            }
+            if (msg.includes('talbot')) {
+                return "Talbot County: 4,300 students, highest per-pupil spending ($21,240), best student-teacher ratio (15.2:1). Received largest Blueprint increase (49%). Hybrid state/local funding model (55.6% state).";
+            }
+            
+            // Wealth gap questions
+            if (msg.includes('wealth') || msg.includes('equity') || msg.includes('gap')) {
+                return "Queen Anne's median income ($108K) is 1.88x Dorchester's ($57K). This creates a 37-point achievement gap in HS ELA. Local wealth determines opportunity despite Blueprint equalization attempts.";
+            }
+            
+            // School questions
+            if (msg.includes('school') && !msg.includes('high school')) {
+                return "The region has 47 schools across 5 counties. Check the Schools tab for detailed data on enrollment, demographics, FARMS rates, and student groups for each school.";
+            }
+            
+            // Source questions
+            if (msg.includes('source') || msg.includes('contact') || msg.includes('superintendent')) {
+                return "The Sources tab has 58 contacts including superintendents, board members, county officials, and community advocates. Use the search bar to find specific people by name, role, or topic.";
+            }
+            
+            // FOIA questions
+            if (msg.includes('foia') || msg.includes('records') || msg.includes('public records')) {
+                return "Check the FOIA Contacts tab for public records request information for each district. Remember to request in writing, be specific about dates/topics, and ask for electronic format.";
+            }
+            
+            // Meeting questions
+            if (msg.includes('meeting') || msg.includes('calendar') || msg.includes('board meeting')) {
+                return "Check the Meeting Calendar tab for board meeting schedules, budget timelines, and public comment procedures for each county.";
+            }
+            
+            // Default response
+            return "I can help you find information about: student achievement, budgets, discipline disparities, teacher staffing, wealth gaps, or specific counties. Try asking about one of these topics, or check the tabs for detailed data.";
         }
     </script>
 </body>
