@@ -1,0 +1,3565 @@
+[
+  {
+    "school_name": "Chapel District Elementary (0401)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0401",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 67.3,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 53.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 45.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 60.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 43.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 45.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 67.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 55.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 45.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0401"
+      }
+    ]
+  },
+  {
+    "school_name": "Easton Elementary (0104)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0104",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 29.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 20.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 11.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 42.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 21.2,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 11.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 19.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 11.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 11.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0104"
+      }
+    ]
+  },
+  {
+    "school_name": "St. Michaels Elementary (0204)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0204",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 50.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 45.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 30.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 50.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 31.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 30.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 38.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 26.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 30.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0204"
+      }
+    ]
+  },
+  {
+    "school_name": "Tilghman Elementary (0501)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0501",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 25.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 23.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 17.6,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 10.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 10.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 17.6,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 29.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 5.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 17.6,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0501"
+      }
+    ]
+  },
+  {
+    "school_name": "White Marsh Elementary (0302)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0302",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 60.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 47.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 65.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 57.9,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 58.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 39.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0302"
+      }
+    ]
+  },
+  {
+    "school_name": "Easton Middle (0106)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0106",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 42.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 11.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 18.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 16.5,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 18.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 33.2,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.2,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 18.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0106"
+      }
+    ]
+  },
+  {
+    "school_name": "St. Michaels Middle/High School (0202)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0202",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 76.7,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0202"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 13.1,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0202"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 23.8,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0202"
+      }
+    ]
+  },
+  {
+    "school_name": "Easton High (0101)",
+    "county": "Talbot",
+    "county_code": "20",
+    "school_code": "0101",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 56.6,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0101"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0101"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 49.4,
+        "error": null,
+        "county_code": "20",
+        "school_code": "0101"
+      }
+    ]
+  },
+  {
+    "school_name": "Galena Elementary School (0105)",
+    "county": "Kent",
+    "county_code": "14",
+    "school_code": "0105",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 35.6,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 26.7,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 10.5,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 35.9,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 10.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 10.5,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 27.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 8.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 10.5,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0105"
+      }
+    ]
+  },
+  {
+    "school_name": "H. H. Garnett Elementary (0403)",
+    "county": "Kent",
+    "county_code": "14",
+    "school_code": "0403",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 47.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 39.1,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 11.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 63.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 31.9,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 11.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 47.2,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 15.1,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 11.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0403"
+      }
+    ]
+  },
+  {
+    "school_name": "Rock Hall Elementary (0504)",
+    "county": "Kent",
+    "county_code": "14",
+    "school_code": "0504",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 40.6,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 53.1,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 58.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 51.7,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 44.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 58.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 36.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 36.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 58.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0504"
+      }
+    ]
+  },
+  {
+    "school_name": "Kent County Middle School (0402)",
+    "county": "Kent",
+    "county_code": "14",
+    "school_code": "0402",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 33.1,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 8.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 10.3,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 25.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0402"
+      }
+    ]
+  },
+  {
+    "school_name": "Kent County High (0301)",
+    "county": "Kent",
+    "county_code": "14",
+    "school_code": "0301",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 53.5,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0301"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 6.1,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0301"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 27.7,
+        "error": null,
+        "county_code": "14",
+        "school_code": "0301"
+      }
+    ]
+  },
+  {
+    "school_name": "Choptank Elementary School (0716)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0716",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 29.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 13.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 8.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 30.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 8.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 21.2,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 8.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0716"
+      }
+    ]
+  },
+  {
+    "school_name": "Hurlock Elementary School (1503)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "1503",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 50.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 36.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 21.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 26.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 23.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 21.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 43.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 23.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 21.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "1503"
+      }
+    ]
+  },
+  {
+    "school_name": "Maple Elementary School (0711)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0711",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 25.4,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 38.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 15.4,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 32.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 5.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0711"
+      }
+    ]
+  },
+  {
+    "school_name": "Sandy Hill Elementary School (0710)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0710",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 30.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 19.2,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 9.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 26.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 10.2,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 9.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 20.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 9.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 9.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0710"
+      }
+    ]
+  },
+  {
+    "school_name": "Vienna Elementary School (0302)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0302",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 73.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 66.7,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 18.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 47.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 28.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 18.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 59.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 25.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 18.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0302"
+      }
+    ]
+  },
+  {
+    "school_name": "Warwick Elementary School (0205)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0205",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 75.4,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 69.2,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 34.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 47.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 28.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 34.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 51.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 40.4,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 34.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0205"
+      }
+    ]
+  },
+  {
+    "school_name": "South Dorchester School (0508)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0508",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 52.2,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 60.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 59.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 54.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 48.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 25.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0508"
+      }
+    ]
+  },
+  {
+    "school_name": "Mace's Lane Middle School (0707)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0707",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 18.8,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 6.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 20.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 6.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 27.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 6.5,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0707"
+      }
+    ]
+  },
+  {
+    "school_name": "North Dorchester Middle School (0208)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0208",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 61.7,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 15.4,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 24.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 65.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 28.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 24.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 52.7,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 14.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 24.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0208"
+      }
+    ]
+  },
+  {
+    "school_name": "Cambridge-South Dorchester High School (0713)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0713",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 32.3,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0713"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0713"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 24.9,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0713"
+      }
+    ]
+  },
+  {
+    "school_name": "North Dorchester High School (0207)",
+    "county": "Dorchester",
+    "county_code": "09",
+    "school_code": "0207",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 39.1,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0207"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0207"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 38.6,
+        "error": null,
+        "county_code": "09",
+        "school_code": "0207"
+      }
+    ]
+  },
+  {
+    "school_name": "Dorchester County Career and Technology Center (0714)",
+    "county": "Dorchester",
+    "school_type": "no_mcap",
+    "scores": []
+  },
+  {
+    "school_name": "Judith P. Hoyer Early Childhood Center (0709)",
+    "county": "Dorchester",
+    "school_type": "no_mcap",
+    "scores": []
+  },
+  {
+    "school_name": "Denton Elementary School (0301)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0301",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 60.2,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 53.7,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 17.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 54.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 33.7,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 17.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 36.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 25.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 17.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0301"
+      }
+    ]
+  },
+  {
+    "school_name": "Federalsburg Elementary School (0501)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0501",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 36.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 8.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 23.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 15.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 8.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 26.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 16.7,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 8.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0501"
+      }
+    ]
+  },
+  {
+    "school_name": "Greensboro Elementary School (0201)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0201",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 26.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 39.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 35.9,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 26.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 42.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 26.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 26.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0201"
+      }
+    ]
+  },
+  {
+    "school_name": "Preston Elementary School (0401)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0401",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 47.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 56.7,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 21.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 56.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 47.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 21.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 47.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 38.2,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 21.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0401"
+      }
+    ]
+  },
+  {
+    "school_name": "Ridgely Elementary School (0701)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0701",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 56.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 33.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 15.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 29.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 25.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 15.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 36.1,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 26.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 15.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0701"
+      }
+    ]
+  },
+  {
+    "school_name": "Colonel Richardson Middle School (0802)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0802",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 56.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 10.6,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 27.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 48.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 19.2,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 27.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 60.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.9,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 27.8,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0802"
+      }
+    ]
+  },
+  {
+    "school_name": "Lockerman Middle School (0302)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0302",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 48.6,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 11.7,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 22.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 51.6,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 22.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 22.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 45.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 22.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0302"
+      }
+    ]
+  },
+  {
+    "school_name": "Colonel Richardson High School (0801)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0801",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 63.5,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0801"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0801"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 28.3,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0801"
+      }
+    ]
+  },
+  {
+    "school_name": "North Caroline High School (0703)",
+    "county": "Caroline",
+    "county_code": "05",
+    "school_code": "0703",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 63.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0703"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.2,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0703"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 49.4,
+        "error": null,
+        "county_code": "05",
+        "school_code": "0703"
+      }
+    ]
+  },
+  {
+    "school_name": "Caroline Career & Technology Center (0704)",
+    "county": "Caroline",
+    "school_type": "no_mcap",
+    "scores": []
+  },
+  {
+    "school_name": "Bayside Elementary School (0403)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0403",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 58.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 52.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 44.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 65.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 60.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 44.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 59.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 50.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 44.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0403"
+      }
+    ]
+  },
+  {
+    "school_name": "Centreville Elementary School (0308)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0308",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0308"
+      }
+    ]
+  },
+  {
+    "school_name": "Church Hill Elementary School (0202)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0202",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 45.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 39.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 41.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 35.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 45.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 39.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0202"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0202"
+      }
+    ]
+  },
+  {
+    "school_name": "Grasonville Elementary School (0503)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0503",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 47.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 54.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 25.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 56.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 47.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 25.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 43.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 40.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 25.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0503"
+      }
+    ]
+  },
+  {
+    "school_name": "Kennard Elementary School (0302)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0302",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 45.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 38.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 27.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 42.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 37.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 27.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 49.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 36.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 27.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0302"
+      }
+    ]
+  },
+  {
+    "school_name": "Kent Island Elementary School (0402)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0402",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0402"
+      }
+    ]
+  },
+  {
+    "school_name": "Matapeake Elementary School (0406)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0406",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 67.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 69.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": 31.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 62.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 57.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": 31.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 58.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": 31.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0406"
+      }
+    ]
+  },
+  {
+    "school_name": "Sudlersville Elementary School (0106)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0106",
+    "grades_tested": [
+      3,
+      4,
+      5
+    ],
+    "scores": [
+      {
+        "grade": 3,
+        "subject": "ELA",
+        "proficient_pct": 18.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 3,
+        "subject": "Math",
+        "proficient_pct": 20.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 3,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 4,
+        "subject": "ELA",
+        "proficient_pct": 40.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 4,
+        "subject": "Math",
+        "proficient_pct": 28.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 4,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 5,
+        "subject": "ELA",
+        "proficient_pct": 18.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 5,
+        "subject": "Math",
+        "proficient_pct": 20.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0106"
+      },
+      {
+        "grade": 5,
+        "subject": "Science",
+        "proficient_pct": null,
+        "error": "No data found",
+        "county_code": "17",
+        "school_code": "0106"
+      }
+    ]
+  },
+  {
+    "school_name": "Sudlersville Middle School (0101)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0101",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 52.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 28.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 48.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 28.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 46.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 16.8,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0101"
+      }
+    ]
+  },
+  {
+    "school_name": "Centreville Middle School (0303)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0303",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 58.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 25.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 44.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 67.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 25.0,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 44.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 48.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 6.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 44.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0303"
+      }
+    ]
+  },
+  {
+    "school_name": "Matapeake Middle School (0407)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0407",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 81.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 32.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 52.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 65.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 27.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 52.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 73.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 22.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 52.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0407"
+      }
+    ]
+  },
+  {
+    "school_name": "Stevensville Middle School (0404)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0404",
+    "grades_tested": [
+      6,
+      7,
+      8
+    ],
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 54.7,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 27.3,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 54.4,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 30.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 55.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 18.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 42.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0404"
+      }
+    ]
+  },
+  {
+    "school_name": "Kent Island High School (0405)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0405",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 75.9,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0405"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 5.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0405"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 53.1,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0405"
+      }
+    ]
+  },
+  {
+    "school_name": "Queen Anne's County High School (0301)",
+    "county": "Queen Anne's",
+    "county_code": "17",
+    "school_code": "0301",
+    "grades_tested": [
+      10
+    ],
+    "scores": [
+      {
+        "grade": 10,
+        "subject": "ELA",
+        "proficient_pct": 69.5,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0301"
+      },
+      {
+        "grade": 10,
+        "subject": "Math",
+        "proficient_pct": 6.2,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0301"
+      },
+      {
+        "grade": 10,
+        "subject": "Science",
+        "proficient_pct": 46.6,
+        "error": null,
+        "county_code": "17",
+        "school_code": "0301"
+      }
+    ]
+  }
+]
