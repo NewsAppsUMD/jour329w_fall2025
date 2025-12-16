@@ -81,6 +81,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         buildStories();
         console.log("✓ Stories built");
         
+        buildArchive();
+        console.log("✓ Archive built");
+        
         buildSources();
         console.log("✓ Sources built");
         
@@ -381,6 +384,180 @@ function renderStories(stories) {
         `;
 
         grid.appendChild(card);
+    });
+}
+
+/* ============================================================
+   STORY ARCHIVE
+===============================================================*/
+function buildArchive() {
+    const stories = STATE.data.stories || [];
+    if (!Array.isArray(stories)) return;
+
+    // Populate filters
+    populateArchiveFilters(stories);
+
+    // Setup filter handlers
+    document.getElementById('archive-county-filter').addEventListener('change', filterArchive);
+    document.getElementById('archive-date-filter').addEventListener('change', filterArchive);
+    document.getElementById('archive-author-filter').addEventListener('change', filterArchive);
+    document.getElementById('archive-search').addEventListener('input', filterArchive);
+    document.getElementById('archive-sort').addEventListener('change', filterArchive);
+
+    // Initial render
+    renderArchive(stories);
+}
+
+function populateArchiveFilters(stories) {
+    const counties = new Set();
+    const authors = new Set();
+
+    stories.forEach(story => {
+        if (story.counties) {
+            story.counties.forEach(c => counties.add(c));
+        }
+        if (story.author) {
+            authors.add(story.author);
+        }
+    });
+
+    const countySelect = document.getElementById('archive-county-filter');
+    Array.from(counties).sort().forEach(county => {
+        const opt = document.createElement('option');
+        opt.value = county;
+        opt.textContent = county;
+        countySelect.appendChild(opt);
+    });
+
+    const authorSelect = document.getElementById('archive-author-filter');
+    Array.from(authors).sort().forEach(author => {
+        const opt = document.createElement('option');
+        opt.value = author;
+        opt.textContent = author;
+        authorSelect.appendChild(opt);
+    });
+}
+
+function filterArchive() {
+    const countyFilter = document.getElementById('archive-county-filter').value;
+    const dateFilter = document.getElementById('archive-date-filter').value;
+    const authorFilter = document.getElementById('archive-author-filter').value;
+    const searchTerm = document.getElementById('archive-search').value.toLowerCase();
+    const sortBy = document.getElementById('archive-sort').value;
+
+    const stories = STATE.data.stories || [];
+    
+    // Filter
+    let filtered = stories.filter(story => {
+        // County filter
+        if (countyFilter && (!story.counties || !story.counties.includes(countyFilter))) {
+            return false;
+        }
+
+        // Author filter
+        if (authorFilter && story.author !== authorFilter) {
+            return false;
+        }
+
+        // Date filter
+        if (dateFilter && story.date) {
+            const storyDate = new Date(story.date);
+            const today = new Date();
+            const daysAgo = parseInt(dateFilter);
+            const cutoffDate = new Date(today.getTime() - daysAgo * 24 * 60 * 60 * 1000);
+            if (storyDate < cutoffDate) {
+                return false;
+            }
+        }
+
+        // Search term
+        if (searchTerm) {
+            const searchable = `${story.title} ${story.summary || story.content || ''} ${(story.key_people || []).join(' ')}`.toLowerCase();
+            if (!searchable.includes(searchTerm)) {
+                return false;
+            }
+        }
+
+        return true;
+    });
+
+    // Sort
+    filtered.sort((a, b) => {
+        switch(sortBy) {
+            case 'date-desc':
+                return new Date(b.date) - new Date(a.date);
+            case 'date-asc':
+                return new Date(a.date) - new Date(b.date);
+            case 'score-desc':
+                const scoreA = a.beatbook_evaluation?.score || 0;
+                const scoreB = b.beatbook_evaluation?.score || 0;
+                return scoreB - scoreA;
+            default:
+                return 0;
+        }
+    });
+
+    renderArchive(filtered);
+}
+
+function renderArchive(stories) {
+    const grid = document.getElementById('archive-grid');
+    const countSpan = document.getElementById('archive-count');
+    
+    countSpan.textContent = `${stories.length} ${stories.length === 1 ? 'story' : 'stories'}`;
+    
+    grid.innerHTML = '';
+
+    if (stories.length === 0) {
+        grid.innerHTML = '<p style="text-align: center; padding: 2rem; color: var(--gray);">No stories found matching your criteria.</p>';
+        return;
+    }
+
+    stories.forEach(story => {
+        const item = document.createElement('div');
+        item.className = 'archive-item';
+        
+        // Extract data
+        const date = story.date ? new Date(story.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Unknown date';
+        const author = story.author || 'Unknown author';
+        const summary = story.summary || story.content?.substring(0, 300) + '...' || 'No summary available';
+        const score = story.beatbook_evaluation?.score || 0;
+        const counties = story.counties || [];
+        const people = story.key_people || [];
+        
+        // Determine score class
+        let scoreClass = 'score-low';
+        if (score >= 4) scoreClass = 'score-high';
+        else if (score >= 3) scoreClass = 'score-medium';
+        
+        item.innerHTML = `
+            <div class="archive-item-header">
+                <h3 class="archive-item-title">${story.title}</h3>
+            </div>
+            
+            <div class="archive-item-meta">
+                <span>📅 ${date}</span>
+                <span>✍️ ${author}</span>
+                ${score > 0 ? `<span>⭐ Quality: ${score}/5</span>` : ''}
+            </div>
+            
+            <div class="archive-item-summary">${summary}</div>
+            
+            <div class="archive-item-tags">
+                ${counties.map(c => `<span class="archive-tag county">${c}</span>`).join('')}
+                ${score > 0 ? `<span class="archive-tag ${scoreClass}">Score: ${score}/5</span>` : ''}
+            </div>
+            
+            ${people.length > 0 ? `
+                <div class="archive-item-footer">
+                    <div class="people-list">
+                        <strong>Sources:</strong> ${people.slice(0, 3).join(', ')}${people.length > 3 ? ` +${people.length - 3} more` : ''}
+                    </div>
+                </div>
+            ` : ''}
+        `;
+
+        grid.appendChild(item);
     });
 }
 

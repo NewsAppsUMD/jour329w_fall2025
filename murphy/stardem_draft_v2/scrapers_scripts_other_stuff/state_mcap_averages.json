@@ -1,0 +1,17 @@
+{
+  "ELA_5": 45.0,
+  "ELA_8": 48.4,
+  "ELA_10": 59.5,
+  "Math_5": 30.7,
+  "Math_8": 8.7,
+  "Math_Algebra_1": 21.4,
+  "Science_5": 25.6,
+  "Science_8": 25.6,
+  "Science_All_High": 25.6,
+  "metadata": {
+    "source": "Maryland Report Card",
+    "date_scraped": "2025-12-14",
+    "url": "https://reportcard.msde.maryland.gov/",
+    "note": "Statewide MCAP proficiency rates (PL 3/4)"
+  }
+}

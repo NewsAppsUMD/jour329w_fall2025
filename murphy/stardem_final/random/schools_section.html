@@ -1,0 +1,312 @@
+        <!-- SCHOOLS TAB -->
+        <section id="schools" class="section">
+            <h2>Schools Dashboard</h2>
+
+            <p>Complete school-level directory for all 47 schools across the five-county region. Use the filters below to find schools by type, county, or sort by different metrics. Click any school card to view detailed enrollment, demographics, student groups (FARMS, Title I, Students with Disabilities), and MCAP performance data.</p>
+
+            <div class="narrative-box">
+                <p><strong>School-level data reveals significant within-school and between-school disparities.</strong> At Chapel District Elementary in Talbot County, white students score 67.5% proficient in 5th grade ELA while Black students in the same building score just 18.2%—a 49.3-point gap. These within-school achievement gaps demonstrate that equity challenges persist even in well-funded, high-performing schools.</p>
+                
+                <p><strong>Between-school differences are equally stark.</strong> Elementary schools across the region serve significantly different populations. Some schools have Free and Reduced Meals (FARMS) rates below 20%, while others exceed 70%. These demographic differences correlate with achievement outcomes, creating opportunity gaps within individual counties that mirror the cross-county disparities documented in the Five Key Issues section.</p>
+            </div>
+
+            <!-- School Filters -->
+            <div class="school-filters">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>School Type</label>
+                        <div class="filter-tabs">
+                            <button class="filter-tab active" data-filter-type="type" data-value="all">All Schools</button>
+                            <button class="filter-tab" data-filter-type="type" data-value="Elementary">Elementary</button>
+                            <button class="filter-tab" data-filter-type="type" data-value="Middle">Middle Schools</button>
+                            <button class="filter-tab" data-filter-type="type" data-value="High">High Schools</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>County</label>
+                        <div class="filter-tabs">
+                            <button class="filter-tab active" data-filter-type="county" data-value="all">All Counties</button>
+                            <button class="filter-tab" data-filter-type="county" data-value="caroline">Caroline</button>
+                            <button class="filter-tab" data-filter-type="county" data-value="dorchester">Dorchester</button>
+                            <button class="filter-tab" data-filter-type="county" data-value="kent">Kent</button>
+                            <button class="filter-tab" data-filter-type="county" data-value="queen-annes">Queen Anne's</button>
+                            <button class="filter-tab" data-filter-type="county" data-value="talbot">Talbot</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select class="filter-select" id="schoolSortSelect">
+                            <option value="name">School Name (A-Z)</option>
+                            <option value="enrollment-desc">Enrollment (High to Low)</option>
+                            <option value="enrollment-asc">Enrollment (Low to High)</option>
+                            <option value="farms-desc">FARMS Rate (High to Low)</option>
+                            <option value="farms-asc">FARMS Rate (Low to High)</option>
+                            <option value="econ-desc">Economically Disadvantaged (High to Low)</option>
+                            <option value="econ-asc">Economically Disadvantaged (Low to High)</option>
+                            <option value="white-desc">% White (High to Low)</option>
+                            <option value="black-desc">% Black (High to Low)</option>
+                            <option value="hispanic-desc">% Hispanic (High to Low)</option>
+                            <option value="ela-desc">ELA Proficiency (High to Low)</option>
+                            <option value="math-desc">Math Proficiency (High to Low)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Schools Grid -->
+            <div class="schools-card-grid" id="schoolsGrid">
+                <div class="school-card caroline" data-school-type="High" data-county="caroline" data-enrollment="528" data-farms="64.8" data-econ="59.5" data-white="55.1" data-black="24.2" data-hispanic="9.5" data-ela="63.5" data-math="5.0" data-name="Colonel Richardson High School" data-male="47.9%" data-female="52.1%" data-race-white="55.1%" data-race-african-am="24.2%" data-race-hispanic="9.5%" data-race-asian="2.5%" data-race-2+="8.5%" data-farms-full="64.8%" data-econ-disadv="59.5%" data-swd="5.8%" data-ml="6.0%" data-mcap-ela="63.5% Proficient" data-mcap-math="5.0% Proficient" data-mcap-science="28.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Colonel Richardson High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Middle" data-county="caroline" data-enrollment="390" data-farms="68.6" data-econ="63.6" data-white="56.4" data-black="21.5" data-hispanic="9.5" data-ela="56.8" data-math="10.6" data-name="Colonel Richardson Middle School" data-male="48.5%" data-female="51.5%" data-race-white="56.4%" data-race-african-am="21.5%" data-race-hispanic="9.5%" data-race-2+="11.3%" data-farms-full="68.6%" data-econ-disadv="63.6%" data-swd="7.3%" data-ml="≤ 5.0%" data-mcap-ela="56.8% Proficient" data-mcap-math="10.6% Proficient" data-mcap-science="27.8% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Colonel Richardson Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Elementary" data-county="caroline" data-enrollment="596" data-farms="58.8" data-econ="56.2" data-white="58.9" data-black="15.3" data-hispanic="9.7" data-ela="60.2" data-math="53.7" data-name="Denton Elementary School" data-male="51.9%" data-female="48.1%" data-race-white="58.9%" data-race-african-am="15.3%" data-race-hispanic="9.7%" data-race-asian="2.9%" data-race-2+="12.9%" data-farms-full="58.8%" data-econ-disadv="56.2%" data-swd="13.6%" data-ml="≤ 5.0%" data-mcap-ela="60.2% Proficient" data-mcap-math="53.7% Proficient" data-mcap-science="17.8% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Denton Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Elementary" data-county="caroline" data-enrollment="415" data-farms="81.3" data-econ="78.2" data-white="35.7" data-black="38.5" data-hispanic="7.0" data-ela="36.4" data-math="42.9" data-name="Federalsburg Elementary School" data-male="51.8%" data-female="48.2%" data-race-white="35.7%" data-race-african-am="38.5%" data-race-hispanic="7.0%" data-race-asian="2.6%" data-race-2+="16.1%" data-farms-full="81.3%" data-econ-disadv="78.2%" data-swd="12.7%" data-ml="9.3%" data-mcap-ela="36.4% Proficient" data-mcap-math="42.9% Proficient" data-mcap-science="8.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Federalsburg Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Elementary" data-county="caroline" data-enrollment="840" data-farms="76.9" data-econ="71.6" data-white="39.9" data-black="3.7" data-hispanic="50.1" data-ela="41.5" data-math="41.5" data-name="Greensboro Elementary School" data-male="50.4%" data-female="49.6%" data-race-white="39.9%" data-race-african-am="3.7%" data-race-hispanic="50.1%" data-race-2+="6.1%" data-farms-full="76.9%" data-econ-disadv="71.6%" data-swd="9.9%" data-ml="26.9%" data-mcap-ela="41.5% Proficient" data-mcap-math="41.5% Proficient" data-mcap-science="26.1% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Greensboro Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Middle" data-county="caroline" data-enrollment="827" data-farms="56.8" data-econ="55.3" data-white="55.4" data-black="10.5" data-hispanic="24.6" data-ela="48.6" data-math="11.7" data-name="Lockerman Middle School" data-male="49.7%" data-female="50.3%" data-race-white="55.4%" data-race-african-am="10.5%" data-race-hispanic="24.6%" data-race-asian="1.2%" data-race-2+="8.3%" data-farms-full="56.8%" data-econ-disadv="55.3%" data-swd="10.6%" data-ml="9.8%" data-mcap-ela="48.6% Proficient" data-mcap-math="11.7% Proficient" data-mcap-science="22.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Lockerman Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="High" data-county="caroline" data-enrollment="1238" data-farms="56.2" data-econ="53.9" data-white="55.4" data-black="11.1" data-hispanic="24.8" data-ela="63.4" data-math="5.2" data-name="North Caroline High School" data-male="51.1%" data-female="48.9%" data-race-white="55.4%" data-race-african-am="11.1%" data-race-hispanic="24.8%" data-race-asian="1.3%" data-race-2+="7.3%" data-farms-full="56.2%" data-econ-disadv="53.9%" data-swd="7.9%" data-ml="10.1%" data-mcap-ela="63.4% Proficient" data-mcap-math="5.2% Proficient" data-mcap-science="49.4% Proficient" onclick="openSchoolModal(this)">
+                    <h4>North Caroline High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Elementary" data-county="caroline" data-enrollment="381" data-farms="58.6" data-econ="54.5" data-white="71.1" data-black="8.4" data-hispanic="12.1" data-ela="47.8" data-math="56.7" data-name="Preston Elementary School" data-male="53.0%" data-female="47.0%" data-race-white="71.1%" data-race-african-am="8.4%" data-race-hispanic="12.1%" data-race-2+="7.3%" data-farms-full="58.6%" data-econ-disadv="54.5%" data-swd="10.5%" data-ml="≤ 5.0%" data-mcap-ela="47.8% Proficient" data-mcap-math="56.7% Proficient" data-mcap-science="21.4% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Preston Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card caroline" data-school-type="Elementary" data-county="caroline" data-enrollment="433" data-farms="55.6" data-econ="54.7" data-white="68.8" data-black="11.1" data-hispanic="12.5" data-ela="56.1" data-math="33.3" data-name="Ridgely Elementary School" data-male="48.3%" data-female="51.7%" data-race-white="68.8%" data-race-african-am="11.1%" data-race-hispanic="12.5%" data-race-2+="7.2%" data-farms-full="55.6%" data-econ-disadv="54.7%" data-swd="12.4%" data-ml="≤ 5.0%" data-mcap-ela="56.1% Proficient" data-mcap-math="33.3% Proficient" data-mcap-science="15.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Ridgely Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Caroline County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="High" data-county="dorchester" data-enrollment="811" data-farms="75.5" data-econ="73.5" data-white="24.4" data-black="56.8" data-hispanic="12.0" data-ela="32.3" data-math="5.0" data-name="Cambridge-South Dorchester High School" data-male="52.3%" data-female="47.2%" data-race-white="24.4%" data-race-african-am="56.8%" data-race-hispanic="12.0%" data-race-2+="6.0%" data-farms-full="75.5%" data-econ-disadv="73.5%" data-swd="8.8%" data-ml="6.0%" data-mcap-ela="32.3% Proficient" data-mcap-math="5.0% Proficient" data-mcap-science="24.9% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Cambridge-South Dorchester High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="319" data-farms="90.5" data-econ="89.9" data-white="5.0" data-black="72.1" data-hispanic="14.4" data-ela="29.8" data-math="13.8" data-name="Choptank Elementary School" data-male="49.8%" data-female="50.2%" data-race-white="5.0%" data-race-african-am="72.1%" data-race-hispanic="14.4%" data-race-2+="7.8%" data-farms-full="90.5%" data-econ-disadv="89.9%" data-swd="11.0%" data-ml="5.5%" data-mcap-ela="29.8% Proficient" data-mcap-math="13.8% Proficient" data-mcap-science="8.9% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Choptank Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="391" data-farms="75.9" data-econ="74.8" data-white="38.1" data-black="37.1" data-hispanic="12.3" data-ela="50.0" data-math="36.8" data-name="Hurlock Elementary School" data-male="52.4%" data-female="47.6%" data-race-white="38.1%" data-race-african-am="37.1%" data-race-hispanic="12.3%" data-race-2+="11.5%" data-farms-full="75.9%" data-econ-disadv="74.8%" data-swd="11.8%" data-ml="7.6%" data-mcap-ela="50.0% Proficient" data-mcap-math="36.8% Proficient" data-mcap-science="21.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Hurlock Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Middle" data-county="dorchester" data-enrollment="490" data-farms="84.7" data-econ="82.6" data-white="12.7" data-black="58.6" data-hispanic="18.2" data-ela="18.8" data-math="5.0" data-name="Mace's Lane Middle School" data-male="54.9%" data-female="45.1%" data-race-white="12.7%" data-race-african-am="58.6%" data-race-hispanic="18.2%" data-race-2+="10.0%" data-farms-full="84.7%" data-econ-disadv="82.6%" data-swd="9.9%" data-ml="9.2%" data-mcap-ela="18.8% Proficient" data-mcap-math="5.0% Proficient" data-mcap-science="6.5% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Mace's Lane Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="483" data-farms="83.1" data-econ="80.0" data-white="20.1" data-black="37.9" data-hispanic="33.1" data-ela="42.9" data-math="25.4" data-name="Maple Elementary School" data-male="50.1%" data-female="49.9%" data-race-white="20.1%" data-race-african-am="37.9%" data-race-hispanic="33.1%" data-race-2+="7.9%" data-farms-full="83.1%" data-econ-disadv="80.0%" data-swd="8.5%" data-ml="19.4%" data-mcap-ela="42.9% Proficient" data-mcap-math="25.4% Proficient" data-mcap-science="5.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Maple Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="High" data-county="dorchester" data-enrollment="526" data-farms="56.3" data-econ="54.2" data-white="56.8" data-black="23.0" data-hispanic="11.4" data-ela="39.1" data-math="5.0" data-name="North Dorchester High School" data-male="48.9%" data-female="51.1%" data-race-white="56.8%" data-race-african-am="23.0%" data-race-hispanic="11.4%" data-race-2+="7.2%" data-farms-full="56.3%" data-econ-disadv="54.2%" data-swd="5.8%" data-ml="≤ 5.0%" data-mcap-ela="39.1% Proficient" data-mcap-math="5.0% Proficient" data-mcap-science="38.6% Proficient" onclick="openSchoolModal(this)">
+                    <h4>North Dorchester High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Middle" data-county="dorchester" data-enrollment="414" data-farms="59.4" data-econ="58.2" data-white="61.1" data-black="19.6" data-hispanic="10.4" data-ela="61.7" data-math="15.4" data-name="North Dorchester Middle School" data-male="49.8%" data-female="50.2%" data-race-white="61.1%" data-race-african-am="19.6%" data-race-hispanic="10.4%" data-race-2+="7.2%" data-farms-full="59.4%" data-econ-disadv="58.2%" data-swd="10.9%" data-ml="≤ 5.0%" data-mcap-ela="61.7% Proficient" data-mcap-math="15.4% Proficient" data-mcap-science="24.6% Proficient" onclick="openSchoolModal(this)">
+                    <h4>North Dorchester Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="393" data-farms="83.7" data-econ="82.2" data-white="18.8" data-black="59.5" data-hispanic="12.7" data-ela="30.8" data-math="19.2" data-name="Sandy Hill Elementary School" data-male="46.8%" data-female="53.2%" data-race-white="18.8%" data-race-african-am="59.5%" data-race-hispanic="12.7%" data-race-2+="8.4%" data-farms-full="83.7%" data-econ-disadv="82.2%" data-swd="9.2%" data-ml="5.9%" data-mcap-ela="30.8% Proficient" data-mcap-math="19.2% Proficient" data-mcap-science="9.1% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Sandy Hill Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Other" data-county="dorchester" data-enrollment="230" data-farms="44.4" data-econ="43.6" data-white="85.7" data-black="0" data-hispanic="4.8" data-ela="52.2" data-math="60.9" data-name="South Dorchester School" data-male="47.0%" data-female="53.0%" data-race-white="85.7%" data-race-hispanic="4.8%" data-race-2+="4.8%" data-farms-full="44.4%" data-econ-disadv="43.6%" data-swd="9.4%" data-mcap-ela="52.2% Proficient" data-mcap-math="60.9% Proficient" data-mcap-science="37.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>South Dorchester School</h4>
+                    <span class="school-type">Other</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="183" data-farms="59.7" data-econ="56.5" data-white="69.4" data-black="10.9" data-hispanic="9.3" data-ela="73.3" data-math="66.7" data-name="Vienna Elementary School" data-male="51.4%" data-female="48.6%" data-race-white="69.4%" data-race-african-am="10.9%" data-race-hispanic="9.3%" data-race-2+="9.8%" data-farms-full="59.7%" data-econ-disadv="56.5%" data-swd="5.4%" data-ml="5.9%" data-mcap-ela="73.3% Proficient" data-mcap-math="66.7% Proficient" data-mcap-science="18.5% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Vienna Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card dorchester" data-school-type="Elementary" data-county="dorchester" data-enrollment="346" data-farms="47.3" data-econ="44.4" data-white="81.8" data-black="6.7" data-hispanic="4.9" data-ela="75.4" data-math="69.2" data-name="Warwick Elementary School" data-male="53.5%" data-female="46.5%" data-race-white="81.8%" data-race-african-am="6.7%" data-race-hispanic="4.9%" data-race-2+="6.4%" data-farms-full="47.3%" data-econ-disadv="44.4%" data-swd="7.8%" data-mcap-ela="75.4% Proficient" data-mcap-math="69.2% Proficient" data-mcap-science="34.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Warwick Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Dorchester County</div>
+                </div>
+                <div class="school-card kent" data-school-type="Elementary" data-county="kent" data-enrollment="309" data-farms="57.6" data-econ="49.4" data-white="65.0" data-black="7.1" data-hispanic="20.4" data-ela="35.6" data-math="26.7" data-name="Galena Elementary School" data-male="49.2%" data-female="50.8%" data-race-white="65.0%" data-race-african-am="7.1%" data-race-hispanic="20.4%" data-race-2+="7.4%" data-farms-full="57.6%" data-econ-disadv="49.4%" data-swd="11.5%" data-ml="8.0%" data-mcap-ela="35.6% Proficient" data-mcap-math="26.7% Proficient" data-mcap-science="10.5% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Galena Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Kent County</div>
+                </div>
+                <div class="school-card kent" data-school-type="Elementary" data-county="kent" data-enrollment="322" data-farms="73.1" data-econ="66.7" data-white="41.3" data-black="29.5" data-hispanic="14.6" data-ela="47.8" data-math="39.1" data-name="H. H. Garnett Elementary" data-male="53.4%" data-female="46.6%" data-race-white="41.3%" data-race-african-am="29.5%" data-race-hispanic="14.6%" data-race-asian="3.1%" data-race-2+="11.5%" data-farms-full="73.1%" data-econ-disadv="66.7%" data-swd="10.7%" data-ml="9.5%" data-mcap-ela="47.8% Proficient" data-mcap-math="39.1% Proficient" data-mcap-science="11.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>H. H. Garnett Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Kent County</div>
+                </div>
+                <div class="school-card kent" data-school-type="High" data-county="kent" data-enrollment="511" data-farms="62.0" data-econ="59.4" data-white="54.6" data-black="25.1" data-hispanic="12.5" data-ela="53.5" data-math="6.1" data-name="Kent County High" data-male="49.3%" data-female="50.7%" data-race-white="54.6%" data-race-african-am="25.1%" data-race-hispanic="12.5%" data-race-2+="6.8%" data-farms-full="62.0%" data-econ-disadv="59.4%" data-swd="13.5%" data-ml="≤ 5.0%" data-mcap-ela="53.5% Proficient" data-mcap-math="6.1% Proficient" data-mcap-science="27.7% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Kent County High</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Kent County</div>
+                </div>
+                <div class="school-card kent" data-school-type="Middle" data-county="kent" data-enrollment="354" data-farms="74.6" data-econ="68.2" data-white="49.7" data-black="25.4" data-hispanic="14.7" data-ela="33.1" data-math="8.0" data-name="Kent County Middle School" data-male="50.6%" data-female="49.4%" data-race-white="49.7%" data-race-african-am="25.4%" data-race-hispanic="14.7%" data-race-2+="9.6%" data-farms-full="74.6%" data-econ-disadv="68.2%" data-swd="14.1%" data-ml="7.7%" data-mcap-ela="33.1% Proficient" data-mcap-math="8.0% Proficient" data-mcap-science="16.8% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Kent County Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Kent County</div>
+                </div>
+                <div class="school-card kent" data-school-type="Elementary" data-county="kent" data-enrollment="198" data-farms="75.8" data-econ="67.5" data-white="58.6" data-black="24.8" data-hispanic="0" data-ela="40.6" data-math="53.1" data-name="Rock Hall Elementary" data-male="54.5%" data-female="45.5%" data-race-white="58.6%" data-race-african-am="24.8%" data-race-2+="11.6%" data-farms-full="75.8%" data-econ-disadv="67.5%" data-swd="16.0%" data-mcap-ela="40.6% Proficient" data-mcap-math="53.1% Proficient" data-mcap-science="58.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Rock Hall Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Kent County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="368" data-farms="30.3" data-econ="22.0" data-white="76.1" data-black="0" data-hispanic="12.2" data-ela="58.1" data-math="52.2" data-name="Bayside Elementary School" data-male="52.5%" data-female="47.5%" data-race-white="76.1%" data-race-hispanic="12.2%" data-race-asian="3.8%" data-race-2+="6.2%" data-farms-full="30.3%" data-econ-disadv="22.0%" data-swd="12.6%" data-ml="5.6%" data-mcap-ela="58.1% Proficient" data-mcap-math="52.2% Proficient" data-mcap-science="44.1% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Bayside Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="535" data-farms="34.6" data-econ="26.9" data-white="77.6" data-black="3.7" data-hispanic="12.2" data-ela="0" data-math="0" data-name="Centreville Elementary School" data-male="52.7%" data-female="47.3%" data-race-white="77.6%" data-race-african-am="3.7%" data-race-hispanic="12.2%" data-race-2+="6.0%" data-farms-full="34.6%" data-econ-disadv="26.9%" data-swd="15.7%" data-ml="≤ 5.0%" onclick="openSchoolModal(this)">
+                    <h4>Centreville Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Middle" data-county="queen-annes" data-enrollment="501" data-farms="34.3" data-econ="25.0" data-white="76.8" data-black="7.6" data-hispanic="8.2" data-ela="58.6" data-math="25.5" data-name="Centreville Middle School" data-male="50.9%" data-female="48.9%" data-race-white="76.8%" data-race-african-am="7.6%" data-race-hispanic="8.2%" data-race-2+="6.6%" data-farms-full="34.3%" data-econ-disadv="25.0%" data-swd="9.5%" data-ml="≤ 5.0%" data-mcap-ela="58.6% Proficient" data-mcap-math="25.5% Proficient" data-mcap-science="44.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Centreville Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="329" data-farms="46.4" data-econ="34.3" data-white="68.4" data-black="6.1" data-hispanic="16.1" data-ela="45.3" data-math="39.6" data-name="Church Hill Elementary School" data-male="49.5%" data-female="50.5%" data-race-white="68.4%" data-race-african-am="6.1%" data-race-hispanic="16.1%" data-race-2+="7.3%" data-farms-full="46.4%" data-econ-disadv="34.3%" data-swd="13.3%" data-ml="5.9%" data-mcap-ela="45.3% Proficient" data-mcap-math="39.6% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Church Hill Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="472" data-farms="47.9" data-econ="34.4" data-white="62.1" data-black="10.6" data-hispanic="16.9" data-ela="47.4" data-math="54.5" data-name="Grasonville Elementary School" data-male="47.0%" data-female="53.0%" data-race-white="62.1%" data-race-african-am="10.6%" data-race-hispanic="16.9%" data-race-2+="8.3%" data-farms-full="47.9%" data-econ-disadv="34.4%" data-swd="10.4%" data-ml="10.2%" data-mcap-ela="47.4% Proficient" data-mcap-math="54.5% Proficient" data-mcap-science="25.3% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Grasonville Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="477" data-farms="35.1" data-econ="27.4" data-white="74.4" data-black="8.0" data-hispanic="9.0" data-ela="45.2" data-math="38.2" data-name="Kennard Elementary School" data-male="51.1%" data-female="48.9%" data-race-white="74.4%" data-race-african-am="8.0%" data-race-hispanic="9.0%" data-race-2+="7.3%" data-farms-full="35.1%" data-econ-disadv="27.4%" data-swd="11.3%" data-ml="≤ 5.0%" data-mcap-ela="45.2% Proficient" data-mcap-math="38.2% Proficient" data-mcap-science="27.9% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Kennard Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="452" data-farms="35.3" data-econ="28.6" data-white="71.7" data-black="4.0" data-hispanic="14.6" data-ela="0" data-math="0" data-name="Kent Island Elementary School" data-male="52.6%" data-female="47.4%" data-race-white="71.7%" data-race-african-am="4.0%" data-race-hispanic="14.6%" data-race-2+="8.6%" data-farms-full="35.3%" data-econ-disadv="28.6%" data-swd="15.2%" data-ml="≤ 5.0%" onclick="openSchoolModal(this)">
+                    <h4>Kent Island Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="High" data-county="queen-annes" data-enrollment="1153" data-farms="30.8" data-econ="24.1" data-white="77.0" data-black="5.3" data-hispanic="10.6" data-ela="75.9" data-math="5.1" data-name="Kent Island High School" data-male="52.8%" data-female="47.2%" data-race-white="77.0%" data-race-african-am="5.3%" data-race-hispanic="10.6%" data-race-asian="1.3%" data-race-2+="5.5%" data-farms-full="30.8%" data-econ-disadv="24.1%" data-swd="7.5%" data-ml="≤ 5.0%" data-mcap-ela="75.9% Proficient" data-mcap-math="5.1% Proficient" data-mcap-science="53.1% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Kent Island High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="472" data-farms="25.4" data-econ="21.6" data-white="83.0" data-black="0" data-hispanic="7.2" data-ela="67.1" data-math="69.9" data-name="Matapeake Elementary School" data-male="48.5%" data-female="51.5%" data-race-white="83.0%" data-race-hispanic="7.2%" data-race-2+="7.2%" data-farms-full="25.4%" data-econ-disadv="21.6%" data-swd="9.7%" data-mcap-ela="67.1% Proficient" data-mcap-math="69.9% Proficient" data-mcap-science="31.4% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Matapeake Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Middle" data-county="queen-annes" data-enrollment="360" data-farms="31.2" data-econ="25.3" data-white="78.9" data-black="3.3" data-hispanic="10.6" data-ela="81.1" data-math="32.4" data-name="Matapeake Middle School" data-male="56.9%" data-female="43.1%" data-race-white="78.9%" data-race-african-am="3.3%" data-race-hispanic="10.6%" data-race-2+="6.1%" data-farms-full="31.2%" data-econ-disadv="25.3%" data-swd="8.7%" data-mcap-ela="81.1% Proficient" data-mcap-math="32.4% Proficient" data-mcap-science="52.5% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Matapeake Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="High" data-county="queen-annes" data-enrollment="1145" data-farms="40.2" data-econ="30.5" data-white="72.0" data-black="8.5" data-hispanic="13.4" data-ela="69.5" data-math="6.2" data-name="Queen Anne's County High School" data-male="48.7%" data-female="51.3%" data-race-white="72.0%" data-race-african-am="8.5%" data-race-hispanic="13.4%" data-race-asian="0.9%" data-race-2+="5.1%" data-farms-full="40.2%" data-econ-disadv="30.5%" data-swd="9.5%" data-ml="≤ 5.0%" data-mcap-ela="69.5% Proficient" data-mcap-math="6.2% Proficient" data-mcap-science="46.6% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Queen Anne's County High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Middle" data-county="queen-annes" data-enrollment="452" data-farms="38.5" data-econ="27.2" data-white="73.2" data-black="6.4" data-hispanic="13.1" data-ela="54.7" data-math="27.3" data-name="Stevensville Middle School" data-male="49.3%" data-female="50.4%" data-race-white="73.2%" data-race-african-am="6.4%" data-race-hispanic="13.1%" data-race-2+="6.4%" data-farms-full="38.5%" data-econ-disadv="27.2%" data-swd="10.9%" data-ml="6.5%" data-mcap-ela="54.7% Proficient" data-mcap-math="27.3% Proficient" data-mcap-science="42.9% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Stevensville Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Elementary" data-county="queen-annes" data-enrollment="315" data-farms="68.0" data-econ="45.3" data-white="52.1" data-black="6.3" data-hispanic="36.5" data-ela="18.3" data-math="20.0" data-name="Sudlersville Elementary School" data-male="50.2%" data-female="49.8%" data-race-white="52.1%" data-race-african-am="6.3%" data-race-hispanic="36.5%" data-race-2+="4.8%" data-farms-full="68.0%" data-econ-disadv="45.3%" data-swd="13.6%" data-ml="26.2%" data-mcap-ela="18.3% Proficient" data-mcap-math="20.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Sudlersville Elementary School</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card queen-annes" data-school-type="Middle" data-county="queen-annes" data-enrollment="447" data-farms="57.6" data-econ="39.4" data-white="60.9" data-black="6.3" data-hispanic="25.7" data-ela="52.3" data-math="28.7" data-name="Sudlersville Middle School" data-male="57.3%" data-female="42.7%" data-race-white="60.9%" data-race-african-am="6.3%" data-race-hispanic="25.7%" data-race-2+="7.2%" data-farms-full="57.6%" data-econ-disadv="39.4%" data-swd="16.2%" data-ml="12.1%" data-mcap-ela="52.3% Proficient" data-mcap-math="28.7% Proficient" data-mcap-science="16.8% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Sudlersville Middle School</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Queen Anne's County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Elementary" data-county="talbot" data-enrollment="359" data-farms="42.0" data-econ="35.7" data-white="77.4" data-black="3.1" data-hispanic="11.7" data-ela="67.3" data-math="53.8" data-name="Chapel District Elementary" data-male="48.8%" data-female="51.2%" data-race-white="77.4%" data-race-african-am="3.1%" data-race-hispanic="11.7%" data-race-2+="7.2%" data-farms-full="42.0%" data-econ-disadv="35.7%" data-swd="12.3%" data-ml="6.0%" data-mcap-ela="67.3% Proficient" data-mcap-math="53.8% Proficient" data-mcap-science="45.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Chapel District Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Elementary" data-county="talbot" data-enrollment="1075" data-farms="74.9" data-econ="60.8" data-white="27.4" data-black="17.9" data-hispanic="45.2" data-ela="29.1" data-math="20.1" data-name="Easton Elementary" data-male="52.1%" data-female="47.9%" data-race-white="27.4%" data-race-african-am="17.9%" data-race-hispanic="45.2%" data-race-asian="3.3%" data-race-2+="6.3%" data-farms-full="74.9%" data-econ-disadv="60.8%" data-swd="13.1%" data-ml="30.1%" data-mcap-ela="29.1% Proficient" data-mcap-math="20.1% Proficient" data-mcap-science="11.9% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Easton Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="High" data-county="talbot" data-enrollment="1179" data-farms="58.4" data-econ="47.6" data-white="47.6" data-black="17.6" data-hispanic="28.3" data-ela="56.6" data-math="5.0" data-name="Easton High" data-male="52.0%" data-female="48.0%" data-race-white="47.6%" data-race-african-am="17.6%" data-race-hispanic="28.3%" data-race-asian="1.9%" data-race-2+="4.5%" data-farms-full="58.4%" data-econ-disadv="47.6%" data-swd="8.8%" data-ml="13.7%" data-mcap-ela="56.6% Proficient" data-mcap-math="5.0% Proficient" data-mcap-science="49.4% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Easton High</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Middle" data-county="talbot" data-enrollment="703" data-farms="67.8" data-econ="54.7" data-white="38.4" data-black="18.2" data-hispanic="33.0" data-ela="42.4" data-math="11.1" data-name="Easton Middle" data-male="51.9%" data-female="48.1%" data-race-white="38.4%" data-race-african-am="18.2%" data-race-hispanic="33.0%" data-race-asian="1.4%" data-race-2+="9.0%" data-farms-full="67.8%" data-econ-disadv="54.7%" data-swd="13.3%" data-ml="15.8%" data-mcap-ela="42.4% Proficient" data-mcap-math="11.1% Proficient" data-mcap-science="18.1% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Easton Middle</h4>
+                    <span class="school-type">Middle</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Elementary" data-county="talbot" data-enrollment="332" data-farms="48.0" data-econ="43.4" data-white="70.5" data-black="13.2" data-hispanic="9.9" data-ela="50.8" data-math="45.9" data-name="St. Michaels Elementary" data-male="49.1%" data-female="50.9%" data-race-white="70.5%" data-race-african-am="13.2%" data-race-hispanic="9.9%" data-race-2+="4.8%" data-farms-full="48.0%" data-econ-disadv="43.4%" data-swd="16.5%" data-ml="≤ 5.0%" data-mcap-ela="50.8% Proficient" data-mcap-math="45.9% Proficient" data-mcap-science="30.0% Proficient" onclick="openSchoolModal(this)">
+                    <h4>St. Michaels Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="High" data-county="talbot" data-enrollment="449" data-farms="46.4" data-econ="41.6" data-white="68.8" data-black="11.8" data-hispanic="11.1" data-ela="76.7" data-math="13.1" data-name="St. Michaels Middle/High School" data-male="54.8%" data-female="45.2%" data-race-white="68.8%" data-race-african-am="11.8%" data-race-hispanic="11.1%" data-race-2+="6.9%" data-farms-full="46.4%" data-econ-disadv="41.6%" data-swd="10.2%" data-ml="≤ 5.0%" data-mcap-ela="76.7% Proficient" data-mcap-math="13.1% Proficient" data-mcap-science="23.8% Proficient" onclick="openSchoolModal(this)">
+                    <h4>St. Michaels Middle/High School</h4>
+                    <span class="school-type">High</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Elementary" data-county="talbot" data-enrollment="99" data-farms="63.4" data-econ="58.4" data-white="92.9" data-black="0" data-hispanic="0" data-ela="25.0" data-math="23.1" data-name="Tilghman Elementary" data-male="51.5%" data-female="48.5%" data-race-white="92.9%" data-farms-full="63.4%" data-econ-disadv="58.4%" data-swd="13.9%" data-mcap-ela="25.0% Proficient" data-mcap-math="23.1% Proficient" data-mcap-science="17.6% Proficient" onclick="openSchoolModal(this)">
+                    <h4>Tilghman Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+                <div class="school-card talbot" data-school-type="Elementary" data-county="talbot" data-enrollment="289" data-farms="56.1" data-econ="46.3" data-white="61.6" data-black="11.1" data-hispanic="19.0" data-ela="60.0" data-math="47.8" data-name="White Marsh Elementary" data-male="48.8%" data-female="51.2%" data-race-white="61.6%" data-race-african-am="11.1%" data-race-hispanic="19.0%" data-race-2+="5.5%" data-farms-full="56.1%" data-econ-disadv="46.3%" data-swd="7.7%" data-ml="11.6%" data-mcap-ela="60.0% Proficient" data-mcap-math="47.8% Proficient" data-mcap-science="41.5% Proficient" onclick="openSchoolModal(this)">
+                    <h4>White Marsh Elementary</h4>
+                    <span class="school-type">Elementary</span>
+                    <div class="school-card-county">Talbot County</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- School Modal -->
+        <div id="schoolModal" class="school-modal" onclick="closeSchoolModal(event)">
+            <div class="school-modal-content" onclick="event.stopPropagation()">
+                <div class="school-modal-header">
+                    <button class="school-modal-close" onclick="closeSchoolModal()">&times;</button>
+                    <h3 id="modalSchoolName">School Name</h3>
+                    <div class="school-info" id="modalSchoolInfo">County • Type</div>
+                </div>
+                <div class="school-modal-body" id="modalSchoolBody">
+                    <!-- Content populated by JavaScript -->
+                </div>
+            </div>
+        </div>

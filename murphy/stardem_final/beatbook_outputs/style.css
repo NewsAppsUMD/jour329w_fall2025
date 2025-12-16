@@ -475,3 +475,130 @@ footer p {
 .hidden {
     display: none;
 }
+
+/* ============================================
+   STORY ARCHIVE SPECIFIC
+============================================ */
+.archive-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.archive-item {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--accent);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.archive-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.archive-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.archive-item-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0 0 0.5rem 0;
+    flex: 1;
+}
+
+.archive-item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.archive-item-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.archive-item-summary {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ink);
+    margin-bottom: 1rem;
+}
+
+.archive-item-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.archive-tag {
+    background: var(--light-gray);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--ink);
+}
+
+.archive-tag.county {
+    background: var(--accent);
+    color: var(--white);
+}
+
+.archive-tag.score-high {
+    background: #2d7a2d;
+    color: var(--white);
+}
+
+.archive-tag.score-medium {
+    background: var(--dorchester);
+    color: var(--white);
+}
+
+.archive-tag.score-low {
+    background: var(--gray);
+    color: var(--white);
+}
+
+.result-count {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 0.95rem;
+}
+
+.archive-item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--light-gray);
+}
+
+.archive-item-footer .people-list {
+    font-size: 0.85rem;
+    color: var(--gray);
+    font-family: "Work Sans", sans-serif;
+}
+
+.archive-item-footer .people-list strong {
+    color: var(--ink);
+}
+}

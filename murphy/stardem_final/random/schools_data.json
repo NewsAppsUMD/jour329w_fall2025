@@ -1,0 +1,1166 @@
+[
+  {
+    "county": "caroline",
+    "name": "Colonel Richardson High School",
+    "type": "High",
+    "enrollment": "528",
+    "male_pct": "47.9%",
+    "female_pct": "52.1%",
+    "race": {
+      "White": "55.1% (291)",
+      "African Am.": "24.2% (128)",
+      "Hispanic": "9.5% (50)",
+      "Asian": "2.5% (13)",
+      "2+": "8.5% (45)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "64.8% (n=333)",
+      "Economically Disadvantaged": "59.5% (n=306)",
+      "Students with Disabilities": "5.8% (n=30)",
+      "Multilingual Learner": "6.0% (n=31)"
+    },
+    "mcap": {
+      "ELA": "63.5% Proficient",
+      "Math": "5.0% Proficient",
+      "Science": "28.3% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Colonel Richardson Middle School",
+    "type": "Middle",
+    "enrollment": "390",
+    "male_pct": "48.5%",
+    "female_pct": "51.5%",
+    "race": {
+      "White": "56.4% (220)",
+      "African Am.": "21.5% (84)",
+      "Hispanic": "9.5% (37)",
+      "2+": "11.3% (44)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "68.6% (n=264)",
+      "Economically Disadvantaged": "63.6% (n=245)",
+      "Students with Disabilities": "7.3% (n=28)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "56.8% Proficient",
+      "Math": "10.6% Proficient",
+      "Science": "27.8% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Denton Elementary School",
+    "type": "Elementary",
+    "enrollment": "596",
+    "male_pct": "51.9%",
+    "female_pct": "48.1%",
+    "race": {
+      "White": "58.9% (351)",
+      "African Am.": "15.3% (91)",
+      "Hispanic": "9.7% (58)",
+      "Asian": "2.9% (17)",
+      "2+": "12.9% (77)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "58.8% (n=349)",
+      "Economically Disadvantaged": "56.2% (n=334)",
+      "Students with Disabilities": "13.6% (n=81)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "60.2% Proficient",
+      "Math": "53.7% Proficient",
+      "Science": "17.8% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Federalsburg Elementary School",
+    "type": "Elementary",
+    "enrollment": "415",
+    "male_pct": "51.8%",
+    "female_pct": "48.2%",
+    "race": {
+      "White": "35.7% (148)",
+      "African Am.": "38.5% (160)",
+      "Hispanic": "7.0% (29)",
+      "Asian": "2.6% (11)",
+      "2+": "16.1% (67)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "81.3% (n=340)",
+      "Economically Disadvantaged": "78.2% (n=327)",
+      "Students with Disabilities": "12.7% (n=53)",
+      "Multilingual Learner": "9.3% (n=39)"
+    },
+    "mcap": {
+      "ELA": "36.4% Proficient",
+      "Math": "42.9% Proficient",
+      "Science": "8.0% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Greensboro Elementary School",
+    "type": "Elementary",
+    "enrollment": "840",
+    "male_pct": "50.4%",
+    "female_pct": "49.6%",
+    "race": {
+      "White": "39.9% (335)",
+      "African Am.": "3.7% (31)",
+      "Hispanic": "50.1% (421)",
+      "2+": "6.1% (51)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "76.9% (n=655)",
+      "Economically Disadvantaged": "71.6% (n=610)",
+      "Students with Disabilities": "9.9% (n=84)",
+      "Multilingual Learner": "26.9% (n=229)"
+    },
+    "mcap": {
+      "ELA": "41.5% Proficient",
+      "Math": "41.5% Proficient",
+      "Science": "26.1% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Lockerman Middle School",
+    "type": "Middle",
+    "enrollment": "827",
+    "male_pct": "49.7%",
+    "female_pct": "50.3%",
+    "race": {
+      "White": "55.4% (458)",
+      "African Am.": "10.5% (87)",
+      "Hispanic": "24.6% (203)",
+      "Asian": "1.2% (10)",
+      "2+": "8.3% (69)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "56.8% (n=470)",
+      "Economically Disadvantaged": "55.3% (n=458)",
+      "Students with Disabilities": "10.6% (n=88)",
+      "Multilingual Learner": "9.8% (n=81)"
+    },
+    "mcap": {
+      "ELA": "48.6% Proficient",
+      "Math": "11.7% Proficient",
+      "Science": "22.0% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "North Caroline High School",
+    "type": "High",
+    "enrollment": "1238",
+    "male_pct": "51.1%",
+    "female_pct": "48.9%",
+    "race": {
+      "White": "55.4% (686)",
+      "African Am.": "11.1% (137)",
+      "Hispanic": "24.8% (307)",
+      "Asian": "1.3% (16)",
+      "2+": "7.3% (91)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "56.2% (n=693)",
+      "Economically Disadvantaged": "53.9% (n=664)",
+      "Students with Disabilities": "7.9% (n=97)",
+      "Multilingual Learner": "10.1% (n=125)"
+    },
+    "mcap": {
+      "ELA": "63.4% Proficient",
+      "Math": "5.2% Proficient",
+      "Science": "49.4% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Preston Elementary School",
+    "type": "Elementary",
+    "enrollment": "381",
+    "male_pct": "53.0%",
+    "female_pct": "47.0%",
+    "race": {
+      "White": "71.1% (271)",
+      "African Am.": "8.4% (32)",
+      "Hispanic": "12.1% (46)",
+      "2+": "7.3% (28)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "58.6% (n=224)",
+      "Economically Disadvantaged": "54.5% (n=208)",
+      "Students with Disabilities": "10.5% (n=40)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "47.8% Proficient",
+      "Math": "56.7% Proficient",
+      "Science": "21.4% Proficient"
+    }
+  },
+  {
+    "county": "caroline",
+    "name": "Ridgely Elementary School",
+    "type": "Elementary",
+    "enrollment": "433",
+    "male_pct": "48.3%",
+    "female_pct": "51.7%",
+    "race": {
+      "White": "68.8% (298)",
+      "African Am.": "11.1% (48)",
+      "Hispanic": "12.5% (54)",
+      "2+": "7.2% (31)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "55.6% (n=242)",
+      "Economically Disadvantaged": "54.7% (n=238)",
+      "Students with Disabilities": "12.4% (n=54)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "56.1% Proficient",
+      "Math": "33.3% Proficient",
+      "Science": "15.3% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Cambridge-South Dorchester High School",
+    "type": "High",
+    "enrollment": "811",
+    "male_pct": "52.3%",
+    "female_pct": "47.2%",
+    "race": {
+      "White": "24.4% (198)",
+      "African Am.": "56.8% (461)",
+      "Hispanic": "12.0% (97)",
+      "2+": "6.0% (49)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "75.5% (n=595)",
+      "Economically Disadvantaged": "73.5% (n=579)",
+      "Students with Disabilities": "8.8% (n=69)",
+      "Multilingual Learner": "6.0% (n=47)"
+    },
+    "mcap": {
+      "ELA": "32.3% Proficient",
+      "Math": "5.0% Proficient",
+      "Science": "24.9% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Choptank Elementary School",
+    "type": "Elementary",
+    "enrollment": "319",
+    "male_pct": "49.8%",
+    "female_pct": "50.2%",
+    "race": {
+      "White": "5.0% (16)",
+      "African Am.": "72.1% (230)",
+      "Hispanic": "14.4% (46)",
+      "2+": "7.8% (25)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "90.5% (n=295)",
+      "Economically Disadvantaged": "89.9% (n=293)",
+      "Students with Disabilities": "11.0% (n=36)",
+      "Multilingual Learner": "5.5% (n=18)"
+    },
+    "mcap": {
+      "ELA": "29.8% Proficient",
+      "Math": "13.8% Proficient",
+      "Science": "8.9% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Hurlock Elementary School",
+    "type": "Elementary",
+    "enrollment": "391",
+    "male_pct": "52.4%",
+    "female_pct": "47.6%",
+    "race": {
+      "White": "38.1% (149)",
+      "African Am.": "37.1% (145)",
+      "Hispanic": "12.3% (48)",
+      "2+": "11.5% (45)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "75.9% (n=289)",
+      "Economically Disadvantaged": "74.8% (n=285)",
+      "Students with Disabilities": "11.8% (n=45)",
+      "Multilingual Learner": "7.6% (n=29)"
+    },
+    "mcap": {
+      "ELA": "50.0% Proficient",
+      "Math": "36.8% Proficient",
+      "Science": "21.3% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Mace's Lane Middle School",
+    "type": "Middle",
+    "enrollment": "490",
+    "male_pct": "54.9%",
+    "female_pct": "45.1%",
+    "race": {
+      "White": "12.7% (62)",
+      "African Am.": "58.6% (287)",
+      "Hispanic": "18.2% (89)",
+      "2+": "10.0% (49)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "84.7% (n=394)",
+      "Economically Disadvantaged": "82.6% (n=384)",
+      "Students with Disabilities": "9.9% (n=46)",
+      "Multilingual Learner": "9.2% (n=43)"
+    },
+    "mcap": {
+      "ELA": "18.8% Proficient",
+      "Math": "5.0% Proficient",
+      "Science": "6.5% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Maple Elementary School",
+    "type": "Elementary",
+    "enrollment": "483",
+    "male_pct": "50.1%",
+    "female_pct": "49.9%",
+    "race": {
+      "White": "20.1% (97)",
+      "African Am.": "37.9% (183)",
+      "Hispanic": "33.1% (160)",
+      "2+": "7.9% (38)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "83.1% (n=402)",
+      "Economically Disadvantaged": "80.0% (n=387)",
+      "Students with Disabilities": "8.5% (n=41)",
+      "Multilingual Learner": "19.4% (n=94)"
+    },
+    "mcap": {
+      "ELA": "42.9% Proficient",
+      "Math": "25.4% Proficient",
+      "Science": "5.0% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "North Dorchester High School",
+    "type": "High",
+    "enrollment": "526",
+    "male_pct": "48.9%",
+    "female_pct": "51.1%",
+    "race": {
+      "White": "56.8% (299)",
+      "African Am.": "23.0% (121)",
+      "Hispanic": "11.4% (60)",
+      "2+": "7.2% (38)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "56.3% (n=290)",
+      "Economically Disadvantaged": "54.2% (n=279)",
+      "Students with Disabilities": "5.8% (n=30)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "39.1% Proficient",
+      "Math": "5.0% Proficient",
+      "Science": "38.6% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "North Dorchester Middle School",
+    "type": "Middle",
+    "enrollment": "414",
+    "male_pct": "49.8%",
+    "female_pct": "50.2%",
+    "race": {
+      "White": "61.1% (253)",
+      "African Am.": "19.6% (81)",
+      "Hispanic": "10.4% (43)",
+      "2+": "7.2% (30)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "59.4% (n=244)",
+      "Economically Disadvantaged": "58.2% (n=239)",
+      "Students with Disabilities": "10.9% (n=45)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "61.7% Proficient",
+      "Math": "15.4% Proficient",
+      "Science": "24.6% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Sandy Hill Elementary School",
+    "type": "Elementary",
+    "enrollment": "393",
+    "male_pct": "46.8%",
+    "female_pct": "53.2%",
+    "race": {
+      "White": "18.8% (74)",
+      "African Am.": "59.5% (234)",
+      "Hispanic": "12.7% (50)",
+      "2+": "8.4% (33)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "83.7% (n=329)",
+      "Economically Disadvantaged": "82.2% (n=323)",
+      "Students with Disabilities": "9.2% (n=36)",
+      "Multilingual Learner": "5.9% (n=23)"
+    },
+    "mcap": {
+      "ELA": "30.8% Proficient",
+      "Math": "19.2% Proficient",
+      "Science": "9.1% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "South Dorchester School",
+    "type": "Other",
+    "enrollment": "230",
+    "male_pct": "47.0%",
+    "female_pct": "53.0%",
+    "race": {
+      "White": "85.7% (197)",
+      "Hispanic": "4.8% (11)",
+      "2+": "4.8% (11)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "44.4% (n=104)",
+      "Economically Disadvantaged": "43.6% (n=102)",
+      "Students with Disabilities": "9.4% (n=22)"
+    },
+    "mcap": {
+      "ELA": "52.2% Proficient",
+      "Math": "60.9% Proficient",
+      "Science": "37.0% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Vienna Elementary School",
+    "type": "Elementary",
+    "enrollment": "183",
+    "male_pct": "51.4%",
+    "female_pct": "48.6%",
+    "race": {
+      "White": "69.4% (127)",
+      "African Am.": "10.9% (20)",
+      "Hispanic": "9.3% (17)",
+      "2+": "9.8% (18)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "59.7% (n=111)",
+      "Economically Disadvantaged": "56.5% (n=105)",
+      "Students with Disabilities": "5.4% (n=10)",
+      "Multilingual Learner": "5.9% (n=11)"
+    },
+    "mcap": {
+      "ELA": "73.3% Proficient",
+      "Math": "66.7% Proficient",
+      "Science": "18.5% Proficient"
+    }
+  },
+  {
+    "county": "dorchester",
+    "name": "Warwick Elementary School",
+    "type": "Elementary",
+    "enrollment": "346",
+    "male_pct": "53.5%",
+    "female_pct": "46.5%",
+    "race": {
+      "White": "81.8% (283)",
+      "African Am.": "6.7% (23)",
+      "Hispanic": "4.9% (17)",
+      "2+": "6.4% (22)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "47.3% (n=164)",
+      "Economically Disadvantaged": "44.4% (n=154)",
+      "Students with Disabilities": "7.8% (n=27)"
+    },
+    "mcap": {
+      "ELA": "75.4% Proficient",
+      "Math": "69.2% Proficient",
+      "Science": "34.0% Proficient"
+    }
+  },
+  {
+    "county": "kent",
+    "name": "Galena Elementary School",
+    "type": "Elementary",
+    "enrollment": "309",
+    "male_pct": "49.2%",
+    "female_pct": "50.8%",
+    "race": {
+      "White": "65.0% (201)",
+      "African Am.": "7.1% (22)",
+      "Hispanic": "20.4% (63)",
+      "2+": "7.4% (23)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "57.6% (n=181)",
+      "Economically Disadvantaged": "49.4% (n=155)",
+      "Students with Disabilities": "11.5% (n=36)",
+      "Multilingual Learner": "8.0% (n=25)"
+    },
+    "mcap": {
+      "ELA": "35.6% Proficient",
+      "Math": "26.7% Proficient",
+      "Science": "10.5% Proficient"
+    }
+  },
+  {
+    "county": "kent",
+    "name": "H. H. Garnett Elementary",
+    "type": "Elementary",
+    "enrollment": "322",
+    "male_pct": "53.4%",
+    "female_pct": "46.6%",
+    "race": {
+      "White": "41.3% (133)",
+      "African Am.": "29.5% (95)",
+      "Hispanic": "14.6% (47)",
+      "Asian": "3.1% (10)",
+      "2+": "11.5% (37)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "73.1% (n=239)",
+      "Economically Disadvantaged": "66.7% (n=218)",
+      "Students with Disabilities": "10.7% (n=35)",
+      "Multilingual Learner": "9.5% (n=31)"
+    },
+    "mcap": {
+      "ELA": "47.8% Proficient",
+      "Math": "39.1% Proficient",
+      "Science": "11.3% Proficient"
+    }
+  },
+  {
+    "county": "kent",
+    "name": "Kent County High",
+    "type": "High",
+    "enrollment": "511",
+    "male_pct": "49.3%",
+    "female_pct": "50.7%",
+    "race": {
+      "White": "54.6% (279)",
+      "African Am.": "25.1% (128)",
+      "Hispanic": "12.5% (64)",
+      "2+": "6.8% (35)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "62.0% (n=313)",
+      "Economically Disadvantaged": "59.4% (n=300)",
+      "Students with Disabilities": "13.5% (n=68)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "53.5% Proficient",
+      "Math": "6.1% Proficient",
+      "Science": "27.7% Proficient"
+    }
+  },
+  {
+    "county": "kent",
+    "name": "Kent County Middle School",
+    "type": "Middle",
+    "enrollment": "354",
+    "male_pct": "50.6%",
+    "female_pct": "49.4%",
+    "race": {
+      "White": "49.7% (176)",
+      "African Am.": "25.4% (90)",
+      "Hispanic": "14.7% (52)",
+      "2+": "9.6% (34)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "74.6% (n=270)",
+      "Economically Disadvantaged": "68.2% (n=247)",
+      "Students with Disabilities": "14.1% (n=51)",
+      "Multilingual Learner": "7.7% (n=28)"
+    },
+    "mcap": {
+      "ELA": "33.1% Proficient",
+      "Math": "8.0% Proficient",
+      "Science": "16.8% Proficient"
+    }
+  },
+  {
+    "county": "kent",
+    "name": "Rock Hall Elementary",
+    "type": "Elementary",
+    "enrollment": "198",
+    "male_pct": "54.5%",
+    "female_pct": "45.5%",
+    "race": {
+      "White": "58.6% (116)",
+      "African Am.": "24.8% (49)",
+      "2+": "11.6% (23)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "75.8% (n=147)",
+      "Economically Disadvantaged": "67.5% (n=131)",
+      "Students with Disabilities": "16.0% (n=31)"
+    },
+    "mcap": {
+      "ELA": "40.6% Proficient",
+      "Math": "53.1% Proficient",
+      "Science": "58.3% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Bayside Elementary School",
+    "type": "Elementary",
+    "enrollment": "368",
+    "male_pct": "52.5%",
+    "female_pct": "47.5%",
+    "race": {
+      "White": "76.1% (280)",
+      "Hispanic": "12.2% (45)",
+      "Asian": "3.8% (14)",
+      "2+": "6.2% (23)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "30.3% (n=113)",
+      "Economically Disadvantaged": "22.0% (n=82)",
+      "Students with Disabilities": "12.6% (n=47)",
+      "Multilingual Learner": "5.6% (n=21)"
+    },
+    "mcap": {
+      "ELA": "58.1% Proficient",
+      "Math": "52.2% Proficient",
+      "Science": "44.1% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Centreville Elementary School",
+    "type": "Elementary",
+    "enrollment": "535",
+    "male_pct": "52.7%",
+    "female_pct": "47.3%",
+    "race": {
+      "White": "77.6% (415)",
+      "African Am.": "3.7% (20)",
+      "Hispanic": "12.2% (65)",
+      "2+": "6.0% (32)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "34.6% (n=187)",
+      "Economically Disadvantaged": "26.9% (n=145)",
+      "Students with Disabilities": "15.7% (n=85)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {}
+  },
+  {
+    "county": "queen-annes",
+    "name": "Centreville Middle School",
+    "type": "Middle",
+    "enrollment": "501",
+    "male_pct": "50.9%",
+    "female_pct": "48.9%",
+    "race": {
+      "White": "76.8% (385)",
+      "African Am.": "7.6% (38)",
+      "Hispanic": "8.2% (41)",
+      "2+": "6.6% (33)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "34.3% (n=174)",
+      "Economically Disadvantaged": "25.0% (n=127)",
+      "Students with Disabilities": "9.5% (n=48)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "58.6% Proficient",
+      "Math": "25.5% Proficient",
+      "Science": "44.3% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Church Hill Elementary School",
+    "type": "Elementary",
+    "enrollment": "329",
+    "male_pct": "49.5%",
+    "female_pct": "50.5%",
+    "race": {
+      "White": "68.4% (225)",
+      "African Am.": "6.1% (20)",
+      "Hispanic": "16.1% (53)",
+      "2+": "7.3% (24)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "46.4% (n=157)",
+      "Economically Disadvantaged": "34.3% (n=116)",
+      "Students with Disabilities": "13.3% (n=45)",
+      "Multilingual Learner": "5.9% (n=20)"
+    },
+    "mcap": {
+      "ELA": "45.3% Proficient",
+      "Math": "39.6% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Grasonville Elementary School",
+    "type": "Elementary",
+    "enrollment": "472",
+    "male_pct": "47.0%",
+    "female_pct": "53.0%",
+    "race": {
+      "White": "62.1% (293)",
+      "African Am.": "10.6% (50)",
+      "Hispanic": "16.9% (80)",
+      "2+": "8.3% (39)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "47.9% (n=234)",
+      "Economically Disadvantaged": "34.4% (n=168)",
+      "Students with Disabilities": "10.4% (n=51)",
+      "Multilingual Learner": "10.2% (n=50)"
+    },
+    "mcap": {
+      "ELA": "47.4% Proficient",
+      "Math": "54.5% Proficient",
+      "Science": "25.3% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Kennard Elementary School",
+    "type": "Elementary",
+    "enrollment": "477",
+    "male_pct": "51.1%",
+    "female_pct": "48.9%",
+    "race": {
+      "White": "74.4% (355)",
+      "African Am.": "8.0% (38)",
+      "Hispanic": "9.0% (43)",
+      "2+": "7.3% (35)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "35.1% (n=165)",
+      "Economically Disadvantaged": "27.4% (n=129)",
+      "Students with Disabilities": "11.3% (n=53)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "45.2% Proficient",
+      "Math": "38.2% Proficient",
+      "Science": "27.9% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Kent Island Elementary School",
+    "type": "Elementary",
+    "enrollment": "452",
+    "male_pct": "52.6%",
+    "female_pct": "47.4%",
+    "race": {
+      "White": "71.7% (324)",
+      "African Am.": "4.0% (18)",
+      "Hispanic": "14.6% (66)",
+      "2+": "8.6% (39)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "35.3% (n=163)",
+      "Economically Disadvantaged": "28.6% (n=132)",
+      "Students with Disabilities": "15.2% (n=70)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {}
+  },
+  {
+    "county": "queen-annes",
+    "name": "Kent Island High School",
+    "type": "High",
+    "enrollment": "1153",
+    "male_pct": "52.8%",
+    "female_pct": "47.2%",
+    "race": {
+      "White": "77.0% (888)",
+      "African Am.": "5.3% (61)",
+      "Hispanic": "10.6% (122)",
+      "Asian": "1.3% (15)",
+      "2+": "5.5% (63)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "30.8% (n=355)",
+      "Economically Disadvantaged": "24.1% (n=278)",
+      "Students with Disabilities": "7.5% (n=86)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "75.9% Proficient",
+      "Math": "5.1% Proficient",
+      "Science": "53.1% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Matapeake Elementary School",
+    "type": "Elementary",
+    "enrollment": "472",
+    "male_pct": "48.5%",
+    "female_pct": "51.5%",
+    "race": {
+      "White": "83.0% (392)",
+      "Hispanic": "7.2% (34)",
+      "2+": "7.2% (34)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "25.4% (n=120)",
+      "Economically Disadvantaged": "21.6% (n=102)",
+      "Students with Disabilities": "9.7% (n=46)"
+    },
+    "mcap": {
+      "ELA": "67.1% Proficient",
+      "Math": "69.9% Proficient",
+      "Science": "31.4% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Matapeake Middle School",
+    "type": "Middle",
+    "enrollment": "360",
+    "male_pct": "56.9%",
+    "female_pct": "43.1%",
+    "race": {
+      "White": "78.9% (284)",
+      "African Am.": "3.3% (12)",
+      "Hispanic": "10.6% (38)",
+      "2+": "6.1% (22)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "31.2% (n=111)",
+      "Economically Disadvantaged": "25.3% (n=90)",
+      "Students with Disabilities": "8.7% (n=31)"
+    },
+    "mcap": {
+      "ELA": "81.1% Proficient",
+      "Math": "32.4% Proficient",
+      "Science": "52.5% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Queen Anne's County High School",
+    "type": "High",
+    "enrollment": "1145",
+    "male_pct": "48.7%",
+    "female_pct": "51.3%",
+    "race": {
+      "White": "72.0% (825)",
+      "African Am.": "8.5% (97)",
+      "Hispanic": "13.4% (154)",
+      "Asian": "0.9% (10)",
+      "2+": "5.1% (58)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "40.2% (n=458)",
+      "Economically Disadvantaged": "30.5% (n=347)",
+      "Students with Disabilities": "9.5% (n=108)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "69.5% Proficient",
+      "Math": "6.2% Proficient",
+      "Science": "46.6% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Stevensville Middle School",
+    "type": "Middle",
+    "enrollment": "452",
+    "male_pct": "49.3%",
+    "female_pct": "50.4%",
+    "race": {
+      "White": "73.2% (331)",
+      "African Am.": "6.4% (29)",
+      "Hispanic": "13.1% (59)",
+      "2+": "6.4% (29)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "38.5% (n=177)",
+      "Economically Disadvantaged": "27.2% (n=125)",
+      "Students with Disabilities": "10.9% (n=50)",
+      "Multilingual Learner": "6.5% (n=30)"
+    },
+    "mcap": {
+      "ELA": "54.7% Proficient",
+      "Math": "27.3% Proficient",
+      "Science": "42.9% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Sudlersville Elementary School",
+    "type": "Elementary",
+    "enrollment": "315",
+    "male_pct": "50.2%",
+    "female_pct": "49.8%",
+    "race": {
+      "White": "52.1% (164)",
+      "African Am.": "6.3% (20)",
+      "Hispanic": "36.5% (115)",
+      "2+": "4.8% (15)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "68.0% (n=210)",
+      "Economically Disadvantaged": "45.3% (n=140)",
+      "Students with Disabilities": "13.6% (n=42)",
+      "Multilingual Learner": "26.2% (n=81)"
+    },
+    "mcap": {
+      "ELA": "18.3% Proficient",
+      "Math": "20.0% Proficient"
+    }
+  },
+  {
+    "county": "queen-annes",
+    "name": "Sudlersville Middle School",
+    "type": "Middle",
+    "enrollment": "447",
+    "male_pct": "57.3%",
+    "female_pct": "42.7%",
+    "race": {
+      "White": "60.9% (272)",
+      "African Am.": "6.3% (28)",
+      "Hispanic": "25.7% (115)",
+      "2+": "7.2% (32)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "57.6% (n=253)",
+      "Economically Disadvantaged": "39.4% (n=173)",
+      "Students with Disabilities": "16.2% (n=71)",
+      "Multilingual Learner": "12.1% (n=53)"
+    },
+    "mcap": {
+      "ELA": "52.3% Proficient",
+      "Math": "28.7% Proficient",
+      "Science": "16.8% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "Chapel District Elementary",
+    "type": "Elementary",
+    "enrollment": "359",
+    "male_pct": "48.8%",
+    "female_pct": "51.2%",
+    "race": {
+      "White": "77.4% (278)",
+      "African Am.": "3.1% (11)",
+      "Hispanic": "11.7% (42)",
+      "2+": "7.2% (26)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "42.0% (n=154)",
+      "Economically Disadvantaged": "35.7% (n=131)",
+      "Students with Disabilities": "12.3% (n=45)",
+      "Multilingual Learner": "6.0% (n=22)"
+    },
+    "mcap": {
+      "ELA": "67.3% Proficient",
+      "Math": "53.8% Proficient",
+      "Science": "45.0% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "Easton Elementary",
+    "type": "Elementary",
+    "enrollment": "1075",
+    "male_pct": "52.1%",
+    "female_pct": "47.9%",
+    "race": {
+      "White": "27.4% (294)",
+      "African Am.": "17.9% (192)",
+      "Hispanic": "45.2% (486)",
+      "Asian": "3.3% (35)",
+      "2+": "6.3% (68)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "74.9% (n=813)",
+      "Economically Disadvantaged": "60.8% (n=660)",
+      "Students with Disabilities": "13.1% (n=142)",
+      "Multilingual Learner": "30.1% (n=327)"
+    },
+    "mcap": {
+      "ELA": "29.1% Proficient",
+      "Math": "20.1% Proficient",
+      "Science": "11.9% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "Easton High",
+    "type": "High",
+    "enrollment": "1179",
+    "male_pct": "52.0%",
+    "female_pct": "48.0%",
+    "race": {
+      "White": "47.6% (561)",
+      "African Am.": "17.6% (208)",
+      "Hispanic": "28.3% (334)",
+      "Asian": "1.9% (23)",
+      "2+": "4.5% (53)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "58.4% (n=684)",
+      "Economically Disadvantaged": "47.6% (n=557)",
+      "Students with Disabilities": "8.8% (n=103)",
+      "Multilingual Learner": "13.7% (n=161)"
+    },
+    "mcap": {
+      "ELA": "56.6% Proficient",
+      "Math": "5.0% Proficient",
+      "Science": "49.4% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "Easton Middle",
+    "type": "Middle",
+    "enrollment": "703",
+    "male_pct": "51.9%",
+    "female_pct": "48.1%",
+    "race": {
+      "White": "38.4% (270)",
+      "African Am.": "18.2% (128)",
+      "Hispanic": "33.0% (232)",
+      "Asian": "1.4% (10)",
+      "2+": "9.0% (63)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "67.8% (n=473)",
+      "Economically Disadvantaged": "54.7% (n=382)",
+      "Students with Disabilities": "13.3% (n=93)",
+      "Multilingual Learner": "15.8% (n=110)"
+    },
+    "mcap": {
+      "ELA": "42.4% Proficient",
+      "Math": "11.1% Proficient",
+      "Science": "18.1% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "St. Michaels Elementary",
+    "type": "Elementary",
+    "enrollment": "332",
+    "male_pct": "49.1%",
+    "female_pct": "50.9%",
+    "race": {
+      "White": "70.5% (234)",
+      "African Am.": "13.2% (44)",
+      "Hispanic": "9.9% (33)",
+      "2+": "4.8% (16)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "48.0% (n=157)",
+      "Economically Disadvantaged": "43.4% (n=142)",
+      "Students with Disabilities": "16.5% (n=54)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "50.8% Proficient",
+      "Math": "45.9% Proficient",
+      "Science": "30.0% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "St. Michaels Middle/High School",
+    "type": "High",
+    "enrollment": "449",
+    "male_pct": "54.8%",
+    "female_pct": "45.2%",
+    "race": {
+      "White": "68.8% (309)",
+      "African Am.": "11.8% (53)",
+      "Hispanic": "11.1% (50)",
+      "2+": "6.9% (31)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "46.4% (n=204)",
+      "Economically Disadvantaged": "41.6% (n=183)",
+      "Students with Disabilities": "10.2% (n=45)",
+      "Multilingual Learner": "\u2264 5.0% (n=*)"
+    },
+    "mcap": {
+      "ELA": "76.7% Proficient",
+      "Math": "13.1% Proficient",
+      "Science": "23.8% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "Tilghman Elementary",
+    "type": "Elementary",
+    "enrollment": "99",
+    "male_pct": "51.5%",
+    "female_pct": "48.5%",
+    "race": {
+      "White": "92.9% (92)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "63.4% (n=64)",
+      "Economically Disadvantaged": "58.4% (n=59)",
+      "Students with Disabilities": "13.9% (n=14)"
+    },
+    "mcap": {
+      "ELA": "25.0% Proficient",
+      "Math": "23.1% Proficient",
+      "Science": "17.6% Proficient"
+    }
+  },
+  {
+    "county": "talbot",
+    "name": "White Marsh Elementary",
+    "type": "Elementary",
+    "enrollment": "289",
+    "male_pct": "48.8%",
+    "female_pct": "51.2%",
+    "race": {
+      "White": "61.6% (178)",
+      "African Am.": "11.1% (32)",
+      "Hispanic": "19.0% (55)",
+      "2+": "5.5% (16)"
+    },
+    "student_groups": {
+      "Free and Reduced Meals Students": "56.1% (n=160)",
+      "Economically Disadvantaged": "46.3% (n=132)",
+      "Students with Disabilities": "7.7% (n=22)",
+      "Multilingual Learner": "11.6% (n=33)"
+    },
+    "mcap": {
+      "ELA": "60.0% Proficient",
+      "Math": "47.8% Proficient",
+      "Science": "41.5% Proficient"
+    }
+  }
+]

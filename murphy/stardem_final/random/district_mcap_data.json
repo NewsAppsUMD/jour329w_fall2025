@@ -1,0 +1,62 @@
+{
+  "Caroline": {
+    "ELA": 49.0,
+    "Math": 22.2,
+    "Graduation_Rate": 91.3,
+    "metadata": {
+      "district_code": "05",
+      "source": "Maryland Report Card",
+      "date_scraped": "2025-12-15",
+      "url": "https://reportcard.msde.maryland.gov/",
+      "note": "District MCAP proficiency rates (PL 3/4) for All Students, 2025; Graduation Rate 2024"
+    }
+  },
+  "Dorchester": {
+    "ELA": 41.3,
+    "Math": 16.4,
+    "Graduation_Rate": 88.9,
+    "metadata": {
+      "district_code": "09",
+      "source": "Maryland Report Card",
+      "date_scraped": "2025-12-15",
+      "url": "https://reportcard.msde.maryland.gov/",
+      "note": "District MCAP proficiency rates (PL 3/4) for All Students, 2025; Graduation Rate 2024"
+    }
+  },
+  "Kent": {
+    "ELA": 40.7,
+    "Math": 16.3,
+    "Graduation_Rate": 92.0,
+    "metadata": {
+      "district_code": "14",
+      "source": "Maryland Report Card",
+      "date_scraped": "2025-12-15",
+      "url": "https://reportcard.msde.maryland.gov/",
+      "note": "District MCAP proficiency rates (PL 3/4) for All Students, 2025; Graduation Rate 2024"
+    }
+  },
+  "Queen Anne's": {
+    "ELA": 57.0,
+    "Math": 31.6,
+    "Graduation_Rate": 94.7,
+    "metadata": {
+      "district_code": "17",
+      "source": "Maryland Report Card",
+      "date_scraped": "2025-12-15",
+      "url": "https://reportcard.msde.maryland.gov/",
+      "note": "District MCAP proficiency rates (PL 3/4) for All Students, 2025; Graduation Rate 2024"
+    }
+  },
+  "Talbot": {
+    "ELA": 45.4,
+    "Math": 18.9,
+    "Graduation_Rate": 96.4,
+    "metadata": {
+      "district_code": "20",
+      "source": "Maryland Report Card",
+      "date_scraped": "2025-12-15",
+      "url": "https://reportcard.msde.maryland.gov/",
+      "note": "District MCAP proficiency rates (PL 3/4) for All Students, 2025; Graduation Rate 2024"
+    }
+  }
+}

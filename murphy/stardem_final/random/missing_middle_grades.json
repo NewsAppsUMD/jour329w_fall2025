@@ -1,0 +1,122 @@
+{
+  "St. Michaels Middle/High School": {
+    "county_code": "20",
+    "school_code": "0202",
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 49.2,
+        "error": null
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 13.1,
+        "error": null
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 23.8,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 69.7,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 19.7,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 23.8,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 49.2,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 5.0,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 23.8,
+        "error": null
+      }
+    ]
+  },
+  "South Dorchester School": {
+    "county_code": "09",
+    "school_code": "0508",
+    "scores": [
+      {
+        "grade": 6,
+        "subject": "ELA",
+        "proficient_pct": 87.0,
+        "error": null
+      },
+      {
+        "grade": 6,
+        "subject": "Math",
+        "proficient_pct": 30.4,
+        "error": null
+      },
+      {
+        "grade": 6,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "ELA",
+        "proficient_pct": 82.1,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "Math",
+        "proficient_pct": 35.7,
+        "error": null
+      },
+      {
+        "grade": 7,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "ELA",
+        "proficient_pct": 88.5,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "Math",
+        "proficient_pct": 9.1,
+        "error": null
+      },
+      {
+        "grade": 8,
+        "subject": "Science",
+        "proficient_pct": 37.0,
+        "error": null
+      }
+    ]
+  }
+}

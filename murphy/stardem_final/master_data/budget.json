@@ -13,7 +13,7 @@
     },
     "enrollment_per_pupil": {
       "enrollment": 5400,
-      "total_per_pupil": 18600,
+      "total_per_pupil": 19796,
       "local_per_pupil": 3760,
       "state_per_pupil": 14630
     },
@@ -49,7 +49,7 @@
     },
     "enrollment_per_pupil": {
       "enrollment": 4500,
-      "total_per_pupil": 19400,
+      "total_per_pupil": 21009,
       "local_per_pupil": 5850,
       "state_per_pupil": 13430
     },
@@ -85,7 +85,7 @@
     },
     "enrollment_per_pupil": {
       "enrollment": 1800,
-      "total_per_pupil": 19460,
+      "total_per_pupil": 21188,
       "local_per_pupil": 11940,
       "state_per_pupil": 6510
     },
@@ -120,7 +120,7 @@
     },
     "enrollment_per_pupil": {
       "enrollment": 8000,
-      "total_per_pupil": 15940,
+      "total_per_pupil": 17662,
       "local_per_pupil": 10340,
       "state_per_pupil": 5440
     },
@@ -156,7 +156,7 @@
     },
     "enrollment_per_pupil": {
       "enrollment": 4300,
-      "total_per_pupil": 21240,
+      "total_per_pupil": 19238,
       "local_per_pupil": 7600,
       "state_per_pupil": 11180
     },
@@ -187,11 +187,11 @@
       { "county": "Talbot", "county_budget": 161.12, "local_to_schools": 32.70, "pct": 20.3 }
     ],
     "per_pupil_spending": [
-      { "county": "Caroline", "total": 18600, "local": 3760, "state": 14630 },
-      { "county": "Dorchester", "total": 19400, "local": 5850, "state": 13430 },
-      { "county": "Kent", "total": 19460, "local": 11940, "state": 6510 },
-      { "county": "Queen Anne's", "total": 15940, "local": 10340, "state": 5440 },
-      { "county": "Talbot", "total": 21240, "local": 7600, "state": 11180 }
+      { "county": "Caroline", "total": 19796, "local": 3760, "state": 14630 },
+      { "county": "Dorchester", "total": 21009, "local": 5850, "state": 13430 },
+      { "county": "Kent", "total": 21188, "local": 11940, "state": 6510 },
+      { "county": "Queen Anne's", "total": 17662, "local": 10340, "state": 5440 },
+      { "county": "Talbot", "total": 19238, "local": 7600, "state": 11180 }
     ],
     "enrollment": [
       { "county": "Caroline", "enrollment": 5400 },

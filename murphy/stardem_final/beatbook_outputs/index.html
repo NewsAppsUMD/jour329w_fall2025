@@ -34,6 +34,7 @@
             <button class="nav-tab active" data-tab="dashboard">Overview Dashboard</button>
             <button class="nav-tab" data-tab="counties">County Profiles</button>
             <button class="nav-tab" data-tab="stories">Recent Stories</button>
+            <button class="nav-tab" data-tab="archive">Story Archive</button>
             <button class="nav-tab" data-tab="sources">Key Sources</button>
             <button class="nav-tab" data-tab="quotes">Quote Database</button>
         </div>
@@ -134,7 +135,67 @@
             </div>
         </section>
 
+        <!-- =======STORY ARCHIVE
+        ============================ -->
+        <section id="archive" class="tab-section">
+            <div class="container">
+                <h2>Story Archive</h2>
+                <p class="section-intro">
+                    Comprehensive archive of education coverage with advanced filtering and search.
+                </p>
+
+                <!-- Advanced Filters -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="archive-county-filter">County:</label>
+                        <select id="archive-county-filter">
+                            <option value="">All Counties</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="archive-date-filter">Time Period:</label>
+                        <select id="archive-date-filter">
+                            <option value="">All Time</option>
+                            <option value="30">Last 30 Days</option>
+                 6          <option value="60">Last 60 Days</option>
+                            <option value="90">Last 90 Days</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="archive-author-filter">Author:</label>
+                        <select id="archive-author-filter">
+                            <option value="">All Authors</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <input type="text" id="archive-search" placeholder="Search by title, content, or keywords..." />
+                    </div>
+                </div>
+
+                <!-- Sort Options -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="archive-sort">Sort By:</label>
+                        <select id="archive-sort">
+                            <option value="date-desc">Newest First</option>
+                            <option value="date-asc">Oldest First</option>
+                            <option value="score-desc">Quality Score (High to Low)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <span id="archive-count" class="result-count">0 stories</span>
+                    </div>
+                </div>
+
+                <!-- Archive Grid -->
+                <div id="archive-grid" class="archive-grid">
+                    <!-- JS will inject stories here -->
+                </div>
+            </div>
+        </section>
+
         <!-- ===========================
+             TAB 5: ====================
              TAB 4: KEY SOURCES
         ============================ -->
         <section id="sources" class="tab-section">
