@@ -86,10 +86,113 @@
             background: rgba(44, 95, 141, 0.05);
         }
         
+        .prompt-button {
+            display: inline-block;
+            margin: 0.5rem 0.5rem 0.5rem 0;
+            padding: 0.75rem 1.25rem;
+            background: var(--accent);
+            color: var(--white);
+            border: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .prompt-button:hover {
+            background: #1a4d6b;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .page-wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+        }
         .container {
+            flex: 0 1 900px;
             max-width: 900px;
             margin: 0 auto;
-            padding: 3rem 2rem;
+            padding: 3rem;
+        }
+        .side-panel {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.95);
+            width: 95%;
+            max-width: 1200px;
+            max-height: 90vh;
+            background: var(--white);
+            border: 3px solid var(--ink);
+            border-radius: 4px;
+            overflow-y: auto;
+            padding: 0;
+            opacity: 0;
+            transition: all 0.25s ease-out;
+            pointer-events: none;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            z-index: 1001;
+        }
+        .side-panel.active {
+            transform: translate(-50%, -50%) scale(1);
+            padding: 3rem;
+            opacity: 1;
+            pointer-events: all;
+        }
+        .side-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 2rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 3px solid var(--ink);
+        }
+        .side-panel-header h3 {
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+        .close-panel {
+            background: var(--ink);
+            color: var(--white);
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            line-height: 1;
+        }
+        .close-panel:hover {
+            background: var(--accent);
+            transform: rotate(90deg);
+        }
+        .prompt-link {
+            display: block;
+            margin: 1rem 0;
+            color: var(--ink);
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+        .prompt-link::before {
+            content: '→ ';
+            margin-right: 0.25rem;
+        }
+        .prompt-link:hover {
+            color: var(--accent);
+            transform: translateX(4px);
         }
         .section {
             display: none;
@@ -103,13 +206,25 @@
             to { opacity: 1; transform: translateY(0); }
         }
         
-        h1 { font-size: 2.5rem; font-weight: 900; margin: 2rem 0 1rem; }
-        h2 { font-size: 2rem; font-weight: 900; margin: 2.5rem 0 1.5rem; border-bottom: 4px solid var(--ink); padding-bottom: 0.75rem; }
-        h3 { font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem; }
-        h4 { font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem; }
+        h1 { font-size: 2.5rem; font-weight: 900; margin: 2rem 0 1.5rem; }
+        h2 { font-size: 2rem; font-weight: 900; margin: 2rem 0 2rem; border-bottom: 4px solid var(--ink); padding-bottom: 0.75rem; }
+        h3 { 
+            font-size: 1.85rem; 
+            font-weight: 800; 
+            margin: 3rem 0 1.5rem; 
+            padding: 1.25rem 0 0.75rem 0; 
+            border-top: 3px solid var(--ink);
+            border-bottom: 1px solid var(--light-gray);
+        }
+        h4 { 
+            font-size: 1.3rem; 
+            font-weight: 700; 
+            margin: 2rem 0 1rem; 
+            color: var(--ink);
+        }
         p { margin-bottom: 1.25rem; }
-        ul, ol { margin: 1rem 0 1rem 2rem; }
-        li { margin-bottom: 0.5rem; }
+        ul, ol { margin: 1rem 0 2rem 2rem; }
+        li { margin-bottom: 0.5rem; line-height: 1.8; }
         strong { font-weight: 700; }
         em { font-style: italic; }
         hr { border: none; border-top: 2px solid var(--light-gray); margin: 2rem 0; }
@@ -138,6 +253,24 @@
             padding: 0;
         }
         
+        @media (max-width: 1200px) {
+            .page-wrapper {
+                flex-direction: column;
+            }
+            .container {
+                max-width: 100%;
+                padding: 3rem 2rem;
+            }
+            .side-panel {
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 90%;
+                max-width: 500px;
+                height: 100vh;
+                z-index: 1000;
+            }
+        }
         @media (max-width: 768px) {
             header h1 { font-size: 1.5rem; }
             h1 { font-size: 1.875rem; }
@@ -145,6 +278,10 @@
             h3 { font-size: 1.375rem; }
             .container { padding: 2rem 1.5rem; }
             .nav-tab { font-size: 0.75rem; padding: 0.875rem 1rem; }
+            .side-panel {
+                width: 100%;
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -164,34 +301,31 @@
         </div>
     </nav>
     
-    <div class="container">
+    <div class="page-wrapper">
+        <div class="container">
         <div id="guide" class="section active">
             <h1>How to Build a Beat Book: A Practical Guide</h1>
 
 <em>Lessons from building an interactive education beatbook over four months</em>
 
-<hr>
-
-<h2>What This Guide Is</h2>
-
-<p>This is a practical guide for building a beatbook. It tells you what works, what doesn't, and how to avoid common mistakes. No coding experience required—though you'll need to work with AI tools and organize data carefully.</p>
-
-<hr>
-
 <h2>The Core Workflow</h2>
 
-<p><strong>Timeline Note:</strong> You'll work on gathering external data while also extracting information from stories. Both need to be done before you generate the final beatbook.</p>
+<p>Building a beatbook is a six-ish-phase process that takes your raw story archive and transforms it into a somewhat organized, searchable resource. You'll start by classifying stories by topic, gather external data to provide context, extract key information like people and places, have AI generate the actual beatbook content, fact-check everything, and finally build an interface for reporters to use. And then, if you want, you can have AI generate a beat book guide just like this one ... oh, wait.</p>
 
-<h3>Phase 1: Collection & Classification (Weeks 1-2)</h3>
+<p>In any event, know that the process isn't strictly linear. Or even close, actually. You'll work on gathering external data (census statistics, budget documents, demographic information) at the same time you're extracting people and organizations from your stories. Both of these need to be completed before you can generate the beatbook itself—the AI needs both the story content and the contextual data to write accurate summaries.</p>
 
-<p><strong>1. Pull stories broadly</strong></p>
+<p>Expect to iterate. Your first attempt at classifying stories won't be perfect. Your first extraction of entities will miss things or grab too much. Your first generated beatbook will have errors. This is normal. The key is building in phases, testing each piece, and refining before moving forward.</p>
+
+<h3>Phase 1: Collection & Classification</h3>
+
+<h4>1. Pull stories broadly</h4>
 <ul>
 <li>Cast a wide net at first</li>
 <li>Include anything that might be relevant</li>
 <li>Don't worry about being perfect yet</li>
 </ul>
 
-<p><strong>2. Classify stories by topic</strong></p>
+<h4>2. Classify stories by topic</h4>
 
 <p>This takes multiple attempts to get right. Here's what worked:</p>
 
@@ -201,16 +335,18 @@
 
 <p><strong>Third attempt:</strong> I added categories for content type (News vs. Opinion vs. Calendar) and allowed stories to have a secondary topic. I also included examples in my instructions to the AI. This got me to 90%+ accuracy.</p>
 
+<a class="prompt-link" onclick="showPrompt('Topic Classification Prompt', 'classification')">View the classification prompt</a>
+
 <p><strong>Key lesson:</strong> You'll need to refine your categories and instructions multiple times before the AI understands what you want.</p>
 
-<p><strong>3. Filter to your best stories</strong></p>
+<h4>3. Filter to your best stories</h4>
 <ul>
 <li>Define what "relevant" means for your beat</li>
 <li>Remove calendars, briefs, unrelated content</li>
 <li>Aim for quality over quantity</li>
 </ul>
 
-<p><strong>4. Decide on your data structure early</strong></p>
+<h4>4. Decide on your data structure early</h4>
 
 <p>Figure out what information you need for each story:</p>
 <ul>
@@ -225,13 +361,13 @@
 
 <p><strong>Once you settle on this structure, don't change it.</strong> Every change means re-processing all your stories.</p>
 
-<hr>
+<h3>Phase 2: Gather External Data</h3>
 
-<h3>Phase 2: Gather External Data (Weeks 3-4)</h3>
+<p><strong>Timeline Note:</strong> You'll work on gathering external data while also extracting information from stories. Both need to be done before you generate the final beatbook.</p>
 
 <p><strong>Start this early.</strong> Your stories reference things they don't fully explain. You need to go get that context.</p>
 
-<p><strong>What data to gather:</strong></p>
+<h4>What data to gather</h4>
 
 <p><strong>For your region:</strong></p>
 <ul>
@@ -274,27 +410,26 @@
 <li>Note important metrics (test scores, spending per pupil, etc.)</li>
 </ul>
 
-<p><strong>If you're working with huge budget documents:</strong></p>
+<h4>If you're working with huge documents</h4>
 
 <p>Don't feed a 1,000-page PDF to an AI. Instead:</p>
 <ol>
 <li>Use ChatGPT or Claude to summarize the key points</li>
 <li>Create a structured summary with tables comparing jurisdictions</li>
-<li>Focus on: main budget numbers, major changes from last year, new initiatives, capital projects</li>
+<li>Focus on: main budget numbers, major changes from last year, new initiatives, capital projects, etc.</li>
 <li>This makes generation much faster and more accurate</li>
 </ol>
 
-<hr>
-
-<h3>Phase 3: Extract Key Information from Stories (Weeks 3-5)</h3>
+<h3>Phase 3: Extract Key Information from Stories</h3>
 
 <p><strong>Do this while gathering external data. Start after your stories are classified.</strong></p>
 
-<p><strong>The goal:</strong> Pull out people, places, organizations, and events mentioned in your stories.</p>
+<h4>The goal</h4>
+<p>Pull out people, places, organizations, and events mentioned in your stories.</p>
 
 <p><strong>Key lesson:</strong> Being too specific means you'll miss things. Being too broad means you'll get junk.</p>
 
-<p><strong>What to extract:</strong></p>
+<h4>What to extract</h4>
 
 <p>For an education beat:</p>
 <ul>
@@ -304,14 +439,14 @@
 <li>Major initiatives (like "Blueprint for Maryland's Future")</li>
 </ul>
 
-<p><strong>What NOT to extract:</strong></p>
+<h4>What NOT to extract</h4>
 <ul>
 <li>Parents quoted only once</li>
 <li>Students</li>
 <li>The reporter who wrote the story</li>
 </ul>
 
-<p><strong>How to stay organized:</strong></p>
+<h4>How to stay organized</h4>
 
 <p>Create a lookup list of all towns/cities in your coverage area. This helps the AI tag locations consistently.</p>
 
@@ -319,17 +454,17 @@
 
 <p>After extraction, count how many times each person/place appears. The most-mentioned ones are your key sources.</p>
 
+<a class="prompt-link" onclick="showPrompt('Entity Extraction Prompt', 'extraction')">View the entity extraction prompt</a>
+
 <p><strong>Expect to iterate:</strong> You'll probably need to adjust your instructions 2-3 times before you get clean results.</p>
 
 <p><strong>Be prepared for rate limits:</strong> If you're processing hundreds of stories, you might hit daily limits on free AI tools. Plan for this to take a few days.</p>
 
-<hr>
-
-<h3>Phase 4: Generate Your Beatbook (Weeks 6-7)</h3>
+<h3>Phase 4: Generate Your Beatbook</h3>
 
 <p><strong>Now you're ready to have AI write your beatbook.</strong></p>
 
-<p><strong>What to give the AI:</strong></p>
+<h4>What to give the AI</h4>
 
 <ol>
 <li>Your county/jurisdiction data summaries</li>
@@ -338,16 +473,20 @@
 <li>Clear instructions about what you want</li>
 </ol>
 
-<p><strong>What to ask for:</strong></p>
+<h4>What to ask for</h4>
 
 <ol>
-<li>Three major issues affecting your beat overall</li>
-<li>Breakdown by county/jurisdiction with specific coverage themes</li>
-<li>List of key sources (with their titles and what they're quoted about)</li>
-<li>List of key documents (budget reports, meeting minutes, etc.)</li>
+<li>Three major issues affecting your beat overall
+<a class="prompt-link" onclick="showPrompt('Top Issues Prompt', 'issues')">View prompt</a></li>
+<li>Breakdown by county/jurisdiction with specific coverage themes
+<a class="prompt-link" onclick="showPrompt('Coverage Themes Prompt', 'themes')">View prompt</a></li>
+<li>List of key sources (with their titles and what they're quoted about)
+<a class="prompt-link" onclick="showPrompt('Key Sources Prompt', 'sources')">View prompt</a></li>
+<li>County/jurisdiction overview with demographics and context
+<a class="prompt-link" onclick="showPrompt('County Overview Prompt', 'overview')">View prompt</a></li>
 </ol>
 
-<p><strong>Critical rules for the AI:</strong></p>
+<h4>Critical rules for the AI</h4>
 
 <ul>
 <li>Use specific numbers from the data you provided</li>
@@ -361,8 +500,6 @@
 <p><strong>Important:</strong> Keep your instructions simple. 10 rules maximum. If you give the AI 30 different rules, it'll ignore half of them or start making things up to fill gaps.</p>
 
 <p><strong>For multi-county beats:</strong> Start with an overview section covering issues that affect all areas. This prevents you from repeating the same thing five times.</p>
-
-<hr>
 
 <h3>Phase 5: Fact-Checking</h3>
 
@@ -405,11 +542,9 @@
 <li>Always verify anything a reporter will rely on</li>
 </ol>
 
-<hr>
+<h3>Phase 6: Build Your Interface</h3>
 
-<h3>Phase 6: Build Your Interface (Week 8+)</h3>
-
-<p><strong>You have two options:</strong></p>
+<h4>You have two options</h4>
 
 <p><strong>Option 1: Simple document (PDF or Google Doc)</strong></p>
 <ul>
@@ -427,11 +562,11 @@
 <li>Requires more work to build</li>
 </ul>
 
-<p><strong>If you build a website:</strong></p>
+<h4>If you build a website</h4>
 
 <p>You don't need a database or complex backend. A simple HTML page with JavaScript can do everything you need.</p>
 
-<p><strong>Essential features:</strong></p>
+<h4>Essential features</h4>
 <ul>
 <li>Search bar AND filters (let users find things multiple ways)</li>
 <li>Visual indicators for different counties/beats</li>
@@ -439,7 +574,7 @@
 <li>Click to expand details (don't show everything at once)</li>
 </ul>
 
-<p><strong>Nice-to-have features:</strong></p>
+<h4>Nice-to-have features</h4>
 <ul>
 <li>Sortable tables</li>
 <li>Charts showing trends</li>
@@ -448,153 +583,6 @@
 <li>Meeting calendar</li>
 <li>Simple chatbot to help navigate</li>
 </ul>
-
-<hr>
-
-<h2>Common Mistakes to Avoid</h2>
-
-<h3>Mistake 1: Starting with generation</h3>
-<p>Don't ask AI to write your beatbook before you have clean, organized data.</p>
-
-<h3>Mistake 2: Trusting the first attempt</h3>
-<p>Your first pass at extracting information will be messy. Plan to refine and re-run.</p>
-
-<h3>Mistake 3: Adding more rules when things fail</h3>
-<p>If 10 instructions didn't work, 30 instructions won't either. Simplify your approach instead.</p>
-
-<h3>Mistake 4: Trying to do everything at once</h3>
-<p>Build one piece at a time. Test it. Then move to the next piece.</p>
-
-<h3>Mistake 5: Assuming AI will figure it out</h3>
-<p>AI needs clear structure, examples, and specific instructions.</p>
-
-<h3>Mistake 6: Defining topics by what they're NOT</h3>
-<p>Don't say "all stories except calendars and sports." Say "stories about budget decisions and policy changes."</p>
-
-<h3>Mistake 7: Ignoring rate limits</h3>
-<p>Free AI tools have daily limits. If you have 500 stories, this will take multiple days.</p>
-
-<h3>Mistake 8: Waiting to fact-check</h3>
-<p>Check a sample section early. Don't discover problems after generating everything.</p>
-
-<h3>Mistake 9: Not including an overview</h3>
-<p>For multi-county beats, write one overview section covering issues that affect everyone. Otherwise you'll repeat yourself.</p>
-
-<hr>
-
-<h2>When Beatbooks Are Most Valuable</h2>
-
-<p><strong>Local journalism:</strong> When you don't have a reporter or editor who's been covering the area for generations, beatbooks become essential reference.</p>
-
-<p><strong>College newspapers:</strong> Student journalists graduate and subject matter expertise disappears. Beatbooks preserve institutional knowledge.</p>
-
-<p><strong>New reporters:</strong> Getting up to speed on complex beats without a months-long learning curve.</p>
-
-<p><strong>Investigative projects:</strong> Having comprehensive source lists and historical context at your fingertips.</p>
-
-<p><strong>Not as valuable:</strong> Large metro papers where reporters already have deep beat knowledge and extensive contacts.</p>
-
-<hr>
-
-<h2>The Non-Negotiables</h2>
-
-<h3>1. Clean data is everything</h3>
-<p>You cannot build a useful beatbook without organized, consistent data. Spend most of your time getting this right.</p>
-
-<h3>2. External data makes it valuable</h3>
-<p>Stories mention things without explaining them. Go find the actual numbers and context.</p>
-
-<h3>3. AI makes up quotes</h3>
-<p>Don't ask AI to include quotes unless you plan to verify every single one.</p>
-
-<h3>4. Expect to re-run things multiple times</h3>
-<p>Your first attempt won't be perfect. Build in time to refine and improve.</p>
-
-<h3>5. Start narrow</h3>
-<p>One beat. One county. Get that working, then expand.</p>
-
-<h3>6. Always spot-check</h3>
-<p>Manually verify samples. Expect 5-15% of AI output to have errors.</p>
-
-<hr>
-
-<h2>Tools You'll Need</h2>
-
-<p><strong>AI Tools:</strong></p>
-<ul>
-<li>ChatGPT, Claude, or similar for generating summaries and beatbook text</li>
-<li>Free tiers work but have daily limits</li>
-<li>Budget $10-20 if you want faster processing</li>
-</ul>
-
-<p><strong>For gathering data:</strong></p>
-<ul>
-<li>Web scraping tools (if you're technical)</li>
-<li>Manual copy/paste into spreadsheets (if you're not)</li>
-<li>Sometimes you'll need to screenshot and OCR difficult interfaces</li>
-</ul>
-
-<p><strong>For organizing:</strong></p>
-<ul>
-<li>Excel or Google Sheets</li>
-<li>JSON files (simple text format for data)</li>
-<li>Any text editor</li>
-</ul>
-
-<p><strong>For building a website (optional):</strong></p>
-<ul>
-<li>Basic HTML and JavaScript</li>
-<li>GitHub Pages for free hosting</li>
-<li>Chart libraries like Chart.js for visualizations</li>
-</ul>
-
-<hr>
-
-<h2>Time & Cost</h2>
-
-<p><strong>Time:</strong> Plan for 100 hours spread over 3-4 months</p>
-<ul>
-<li>Gathering and classifying stories: 20 hours</li>
-<li>Finding external data: 30 hours</li>
-<li>Extracting information from stories: 25 hours</li>
-<li>Generating and refining beatbook: 15 hours</li>
-<li>Building interface: 10 hours</li>
-</ul>
-
-<p><strong>Cost:</strong> $10-20 for AI tools (if using paid options)</p>
-<ul>
-<li>Free options work fine but are slower</li>
-</ul>
-
-<p><strong>Ongoing:</strong> ~3 hours every few months to update</p>
-
-<hr>
-
-<h2>What Success Looks Like</h2>
-
-<p><strong>Reporters actually use it:</strong></p>
-<ul>
-<li>They visit weekly when working on beat stories</li>
-<li>They spend 5+ minutes (not just quick lookups)</li>
-<li>They come back multiple times while writing</li>
-</ul>
-
-<p><strong>Quality indicators:</strong></p>
-<ul>
-<li>Reporters ask follow-up questions about beatbook info</li>
-<li>Stories cite specific stats from the beatbook</li>
-<li>Other reporters ask for access</li>
-<li>Editors reference it in story assignments</li>
-</ul>
-
-<p><strong>Long-term value:</strong></p>
-<ul>
-<li>After 6 months, it saves more time than you spent building it</li>
-<li>Better, more informed stories</li>
-<li>Faster turnaround on breaking news</li>
-</ul>
-
-<hr>
 
 <h2>Final Principles</h2>
 
@@ -617,7 +605,6 @@
 
 <p><strong>Updated December 16, 2025</strong> — This version includes additional details from the actual notes: specific script names, model switches mid-extraction, classification failures with calendars and "Today in History", token limit issues, hallucinated links, spelling errors, dating problems, tone issues, the quote extraction breakthrough context, and more accurate descriptions of what actually happened at each stage.</p>
 
-<hr>
 
 <h2>Introduction</h2>
 
@@ -631,148 +618,49 @@
 
 <p>This is the story of what broke, why it broke, and what I learned from breaking it.</p>
 
-<hr>
 
 <h2>Iteration One: Topics (Or: Why "Other" Is a Trap)</h2>
 
 <p><strong>November 1. The assignment: classify 200 stories by topic.</strong></p>
 
-<p>I started confident. I created a CSV with 13 topics and detailed descriptions:</p>
+<p>I started confident. I created a CSV with 13 topics and detailed descriptions. My last topic was "Other" — defined as "obituaries, legal notices, calendars, columns, editorials and any articles that do not otherwise fall under a defined topic."</p>
 
-<pre><code>"Local Government","News articles, excluding obituaries, legal notices, calendars, columns and editorials, that center around and primarily discuss the members and actions of a local government..."
-</code></pre>
+<p>I ran the script.</p>
 
-<p>My last topic was "Other" — defined as "obituaries, legal notices, calendars, columns, editorials and any articles that do not otherwise fall under a defined topic."</p>
-
-<p>I ran the script (<code>classify_topics_1.py</code>).</p>
-
-<p><strong>The LLM classified all 200 stories as "Other."</strong></p>
-
-<p>Every. Single. One.</p>
+<p><strong>The LLM classified all 200 stories as "Other." Every. Single. One.</strong></p>
 
 <p>(The funny thing? I can't replicate this now. I've rerun the script and it classifies the first three stories and then fails. But that first time, it worked — just catastrophically wrong.)</p>
 
-<h3>What Went Wrong</h3>
+<p><strong>The problem:</strong> I had defined a category by what it's NOT. The LLM saw my list of exclusions in every topic definition and thought, "Oh, these must all be excluded things."</p>
 
-<p>I had defined a category by what it's NOT. The LLM saw my list of exclusions in every topic definition and thought, "Oh, these must all be excluded things."</p>
+<p><strong>First fix attempt:</strong> I rewrote the prompts to provide positive definitions only. No more "excluding X, Y, Z" language. Instead: "Articles that center around and primarily discuss..." I also gave the LLM examples. Second run got maybe 40-50% right, but there were issues: "EDITORIAL: 10-cent paper bag fee" → classified as "Environment" (not wrong, but it's an EDITORIAL). All the "Today in History" articles → classified as "Columns & Editorials" (no). And I got 40+ variations of what should have been the same topic ("Test Results", "MCAP Scores", "Assessment", "Student Performance") all for test score stories.</p>
 
-<h3>The Fix (Attempt 1)</h3>
+<p><strong>The multi-pass strategy:</strong> This is where I discovered single-pass classification will fail. AI is probabilistic. Without constraints, you get chaos. Third attempt was major restructuring: added <code>content_type</code> (to distinguish news from opinion) and <code>secondary_topic</code> (for stories about multiple things). Gave it examples. This took 90 minutes to run but got me 144 News, 18 Opinion, 17 Miscellaneous. Out of 200 stories, I disagreed with maybe 10. Good enough.</p>
 
-<p>I rewrote the prompts to provide positive definitions only. No more "excluding X, Y, Z" language. Instead: "Articles that center around and primarily discuss..."</p>
+<p><strong>Validation:</strong> Manually checked 20 stories per category. The third attempt was good enough that I stopped.</p>
 
-<p>I also gave the LLM examples.</p>
+<p><strong>Key lessons:</strong> Never define a category by exclusion. Adding structured fields (content_type, secondary_topic) improves accuracy dramatically. Slower models sometimes equal better results (90 min vs 5 min, but 95% accurate vs 50%). Manual validation required even with good scripts.</p>
 
-<p><strong>Second run: Still not great.</strong></p>
-
-<p>It got maybe 40-50% right. But there were issues:</p>
-
-<ul>
-<li>"EDITORIAL: 10-cent paper bag fee should be optional" → classified as "Environment" (not wrong, but it's an EDITORIAL)</li>
-<li>"SPRING TRAINING GLANCE 3-10-24" → classified as "Sports" (it's a table/calendar)</li>
-<li>All the "Today in History" articles → classified as "Columns & Editorials" (no)</li>
-</ul>
-
-<p>And I got 40+ variations of what should have been the same topic:</p>
-<ul>
-<li>"Test Results"</li>
-<li>"MCAP Scores"  </li>
-<li>"Assessment"</li>
-<li>"Student Performance"</li>
-<li>"Achievement Data"</li>
-</ul>
-
-<p>All for test score stories.</p>
-
-<h3>The Multi-Pass Strategy (Born From Necessity)</h3>
-
-This is where I discovered: <strong>single-pass classification will fail.</strong></p>
-
-<p>AI is probabilistic. Without constraints, you get chaos.</p>
-
-<p><strong>First attempt:</strong></p>
-<p>I had 18 predefined topics with definitions that said what they WEREN'T ("Articles, excluding obituaries, legal notices, calendars, columns and editorials...").</p>
-
-<p><strong>Result:</strong> Classified all 200 stories as "Other" because every definition listed exclusions.</p>
-
-<p><strong>Second attempt:</strong></p>
-<p>Rewrote all definitions to say what topics ARE. Same 18 topics, removed "excluding..." language.</p>
-
-<p><strong>Result:</strong> 40-50% accuracy. Got "EDITORIAL: 10-cent paper bag fee" as "Environment" (not wrong, but it's an editorial). Got "Today in History" as "Columns & Editorials" (no).</p>
-
-<p><strong>Third attempt:</strong></p>
-<p>Major restructuring. Added two new categories: <code>content_type</code> (to distinguish news from opinion) and <code>secondary_topic</code> (for stories about multiple things).</p>
-
-<p>I gave it examples:</p>
-<pre><code>- "Robbins YMCA opening reading hub to tackle childhood illiteracy" = News, Education, Arts & Culture
-- "TV LISTINGS 7-19-24" = Miscellaneous, Other, None
-</code></pre>
-
-<p>This took 90 minutes to run.</p>
-
-<p><strong>Results:</strong></p>
-<ul>
-<li>Content type breakdown: 144 News, 18 Opinion, 17 Miscellaneous, 9 Calendars, 6 blank, 5 Obituaries, 1 Legal Notice</li>
-<li>Primary topic: 57 Arts & Culture, 24 Public Safety, 19 Sports, 18 Other, etc.</li>
-<li>Out of 200 stories, I disagreed with maybe 10</li>
-</ul>
-
-<p><strong>Fourth attempt:</strong></p>
-<p>I tried letting the AI generate its own topic names. Failed every time. Gave up on this.</p>
-
-<p><strong>Validation:</strong></p>
-<p>Manually checked 20 stories per category. The third attempt was good enough that I stopped.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Never define a category by exclusion ("articles excluding X, Y, Z")</li>
-<li>Adding structured fields (content_type, secondary_topic) improves accuracy dramatically</li>
-<li>Including examples in prompts helps</li>
-<li>Different models have different strengths - test multiple</li>
-<li>Slower models sometimes = better results (90 min vs 5 min, but 95% accurate vs 50%)</li>
-<li>Manual validation required even with good scripts</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Two: Entities (Or: When Specificity Backfires)</h2>
 
 <p><strong>November 5. The assignment: extract people, places, and organizations.</strong></p>
 
-<p>I overloaded Copilot. Twice.</p>
+<p>I overloaded Copilot. Twice. Got rate-limited three times on my FIRST attempt. Had to switch AI models mid-extraction after 55 stories because I hit rate limits again.</p>
 
-<p>I got rate-limited three times on my FIRST attempt.</p>
+<p><strong>The ambitious plan:</strong> I decided to be comprehensive. Seven new categories: Content type, People, Locations, Institutions, Events, Municipalities, County. I was proud of this. Especially the municipalities—I spent hours building a comprehensive list of every town in all five counties the Star-Dem covers, plus all 19 other Maryland counties just in case stories mentioned them. It rate-limited me after 55 stories.</p>
 
-<p>I also had to switch AI models mid-extraction after 55 stories because I hit rate limits again.</p>
-
-<h3>The Ambitious Plan</h3>
-
-<p>I decided to be comprehensive. Seven new categories:</p>
-<ul>
-<li>Content type (News, Calendar, Sports, etc.)</li>
-<li>People</li>
-<li>Locations </li>
-<li>Institutions</li>
-<li>Events</li>
-<li>Municipalities</li>
-<li>County</li>
-</ul>
-
-<p>I was proud of this. Especially the municipalities—I spent hours building a comprehensive list of every town in all five counties the Star-Dem covers, plus all 19 other Maryland counties just in case stories mentioned them.</p>
-
-<p><strong>It rate-limited me after 55 stories.</strong></p>
-
-<h3>What I Got: A Beautiful Mess</h3>
+<p><strong>What I got:</strong> A beautiful mess.
 
 <p>When it worked, it worked beautifully:</p>
 
 <pre><code>{
-<p>    "people": ["Albert C. Jones Jr.", "Veronica Taylor"],</p>
-<p>    "sources": ["politicians", "community leaders"],</p>
-<p>    "municipalities": ["Cambridge"],</p>
-<p>    "county": ["Dorchester County"],</p>
-<p>    "institutions": ["Groove City Black Heritage and Cultural Group Inc."]</p>
-<p>}</p>
+    "people": ["Albert C. Jones Jr.", "Veronica Taylor"],
+    "sources": ["politicians", "community leaders"],
+    "municipalities": ["Cambridge"],
+    "county": ["Dorchester County"],
+    "institutions": ["Groove City Black Heritage and Cultural Group Inc."]
+}
 </code></pre>
 
 <p>Perfect. Exactly what I wanted.</p>
@@ -780,13 +668,13 @@ This is where I discovered: <strong>single-pass classification will fail.</stron
 <p>But then I'd get locations like this:</p>
 
 <pre><code>"locations": ["Annapolis", "Arundel Olympic Swim Center (Annapolis)", 
-<p>"Rams Head Tavern (Annapolis)", "Island Pub (Stevensville)", </p>
-<p>"Rehoboth Ale House On the Mile (Rehoboth Beach)", "Lefty's Alley & Eats (Lewes)", </p>
-<p>"Market Street Public House (Denton)", "Cult Classic Brewing (Stevensville)", </p>
-<p>"USA Dance Eastern Shore (Easton)", "YMCA Washington (Easton)", </p>
-<p>"Nanticoke Sportsmen's Club (Seaford)", "Severna Park", </p>
-<p>"Jones Station Rd (Severna Park)", "25 Jones Station Rd (Severna Park)", </p>
-<p>"Buckingham Elementary School (Berlin)"]</p>
+"Rams Head Tavern (Annapolis)", "Island Pub (Stevensville)", 
+"Rehoboth Ale House On the Mile (Rehoboth Beach)", "Lefty's Alley & Eats (Lewes)", 
+"Market Street Public House (Denton)", "Cult Classic Brewing (Stevensville)", 
+"USA Dance Eastern Shore (Easton)", "YMCA Washington (Easton)", 
+"Nanticoke Sportsmen's Club (Seaford)", "Severna Park", 
+"Jones Station Rd (Severna Park)", "25 Jones Station Rd (Severna Park)", 
+"Buckingham Elementary School (Berlin)"]
 </code></pre>
 
 <p><strong>Thirty-five locations. For one calendar listing.</strong></p>
@@ -794,586 +682,101 @@ This is where I discovered: <strong>single-pass classification will fail.</stron
 <p>And events like this:</p>
 
 <pre><code>["Tuskegee syphilis experiment", "in vitro fertilization", "Woolworth's sit-in protests", 
-<p>"Air France Concorde crash", "Wikileaks Afghanistan war records", </p>
-<p>"Ukrainian presidential phone call", "Indigenous residential schools apology"]</p>
+"Air France Concorde crash", "Wikileaks Afghanistan war records", 
+"Ukrainian presidential phone call", "Indigenous residential schools apology"]
 </code></pre>
 
 <p>Yeah.</p>
 
-<h3>What I Learned</h3>
-
-<p><strong>The problem wasn't the prompt.</strong> It was that I was feeding it calendars and expecting news analysis.</p>
-
-<p>The Star-Dem data was organized terribly. News mixed with calendars mixed with sports briefs. The LLM couldn't distinguish what mattered because I hadn't distinguished what mattered.</p>
-
-<p>Also: asking for "locations" in a beat where schools ARE the locations is circular.</p>
-
-<p><strong>Key insight:</strong> Garbage in, garbage out. Even with good prompts.</p>
-
-<h3>Datasette Kept Crashing</h3>
+<p><strong>The problem:</strong> The problem wasn't the prompt. It was that I was feeding it calendars and expecting news analysis. The Star-Dem data was organized terribly. News mixed with calendars mixed with sports briefs. The LLM couldn't distinguish what mattered because I hadn't distinguished what mattered. Also: asking for "locations" in a beat where schools ARE the locations is circular. Key insight: Garbage in, garbage out. Even with good prompts.</p>
 
 <p>Oh, and Datasette crashed every time I tried to facet using its clickable "suggested" facets. Made it even harder to analyze the data.</p>
 
-<h3>Lessons Learned</h3>
+<p><strong>Key lessons:</strong> Clean your data before extraction. Some categories don't make sense for every beat. Rate limits are real (plan for them). Microsoft Power BI interfaces are terrible for scraping.</p>
 
-<ul>
-<li>Clean your data before extraction</li>
-<li>Some categories don't make sense for every beat</li>
-<li>Rate limits are real (plan for them)</li>
-<li>Microsoft Power BI interfaces are terrible for scraping</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Three: Topic + Entities (Or: The Importance of Narrowing Scope)</h2>
 
 <p><strong>November 10. I chose education as my focus.</strong></p>
 
-<p>I could have done local government — it had 1,324 stories. But local government is sprawling. Everything from budgets to zoning to public works to elections.</p>
+<p>I could have done local government — it had 1,324 stories. But local government is sprawling. Everything from budgets to zoning to public works to elections. Education had 779 stories (after merging primary + secondary topic classifications). More manageable. More importantly: I cared about education. When you're spending weeks on entity extraction, work on something you actually want to understand.</p>
 
-<p>Education had 779 stories (after merging primary + secondary topic classifications). More manageable.</p>
+<p><strong>The ultra-specific prompt strategy:</strong>
 
-<p>More importantly: <strong>I cared about education.</strong> When you're spending weeks on entity extraction, work on something you actually want to understand.</p>
+<p>Because I was focusing on ONE topic, I could be incredibly specific: "Extract superintendents, Board of Education members (with specific titles), principals, state officials directly involved in education policy, MSDE officials. Do NOT extract: Parents quoted once, students, the story author, generic 'officials'." This worked far better than my generic "important people" approach from Iteration 2.</p>
 
-<h3>The Ultra-Specific Prompt Strategy</h3>
+<p><strong>What worked:</strong> Consistent county/municipality extraction. By providing that absurdly long list of Maryland towns, it nailed geography. Every "Easton" was formatted identically. The municipality list was worth every hour I spent building it. I also broke "organizations" into five categories (events, initiatives, establishments, organizations, bodies) which produced clean output like "Blueprint for Maryland's Future" (initiative), "Empowerment Academy" (establishment), "Maryland Association of Secondary School Principals" (organization), "Talbot County Board of Education" (body).</p>
 
-<p>Because I was focusing on ONE topic, I could be incredibly specific:</p>
+<p><strong>What didn't work:</strong> The regions field was hit or miss. Title format inconsistency ("Sharon Pepukayi (Superintendent of Talbot County Public Schools)" vs "Sharon Pepukayi (Superintendent, Talbot County Public Schools)" - one comma difference, infuriating). Inference failures: someone called "Board Vice President" didn't get extracted because "education" wasn't explicit. False negatives everywhere from the ultra-specific prompt excluding people whose relationship to education was implied rather than stated.</p>
 
-<pre><code>"""
-<p>Extract these people and only these people:</p>
-<ul>
-<li>Superintendents</li>
-<li>Board of Education members (with specific titles: President, Vice President, Member)</li>
-<li>Principals</li>
-<li>State officials directly involved in education policy</li>
-<li>MSDE officials</li>
-</ul>
+<p><strong>The patterns:</strong> Most frequently mentioned: Sharon Pepukayi (Talbot County Superintendent, 7 stories), Emily Jackson (Talbot County Board President, 7 stories), Dr. Derek Simmons (Caroline County Superintendent, 6 stories). Counties covered: Talbot (111 stories), Caroline (54), Dorchester (41). The consistency was reassuring—it meant extraction was working reliably.</p>
 
-<p>Do NOT extract:</p>
-<ul>
-<li>Parents quoted once</li>
-<li>Students</li>
-<li>The story author</li>
-<li>Generic "officials"</li>
-</ul>
-<p>"""</p>
-</code></pre>
+<p><strong>Key lessons:</strong> Narrow your scope before extraction (one beat, not all beats). Be specific about format in your prompts. Build lookup tables for standardization. Accept that ultra-specific prompts create false negatives. Some manual cleanup is inevitable.</p>
 
-<p>This worked far better than my generic "important people" approach from Iteration 2.</p>
-
-<h3>What Worked</h3>
-
-<p><strong>Consistent county/municipality extraction:</strong> By providing that absurdly long list of Maryland towns, it nailed geography. Every "Easton" was formatted identically. Every "Talbot County" was consistent.</p>
-
-<p>The municipality list was worth every hour I spent building it. Official Maryland websites only list official municipalities, not unincorporated communities or CDPs, so I used Wikipedia's lists for all 24 Maryland counties.</p>
-
-<p><strong>Organizational split:</strong> I broke "organizations" into five categories:</p>
-<ul>
-<li>Key events</li>
-<li>Key initiatives  </li>
-<li>Key establishments (physical places)</li>
-<li>Key organizations (non-government)</li>
-<li>Key bodies (government institutions)</li>
-</ul>
-
-<p>Example output:</p>
-<ul>
-<li>"Blueprint for Maryland's Future" (initiative)</li>
-<li>"Empowerment Academy" (establishment)</li>
-<li>"Maryland Association of Secondary School Principals" (organization)</li>
-<li>"Talbot County Board of Education" (body)</li>
-</ul>
-
-<h3>What Didn't Work  </h3>
-
-<p><strong>The regions field was hit or miss.</strong> I added it to find stories that mentioned other states, but it often extracted irrelevant stuff. Like, a teacher gets an award and she served on a board in Delaware years ago, so Delaware gets extracted as a region. I told it to exclude those, and it was okay with organizations but the regions field was messy.</p>
-
-<p><strong>The locations field was too broad.</strong> The idea worked better for non-education stories. For education, the locations WERE the establishments (schools), so it was just duplicate, niche information.</p>
-
-<p><strong>Title format inconsistency:</strong></p>
-Sometimes: <code>"Sharon Pepukayi (Superintendent of Talbot County Public Schools)"</code>  
-Other times: <code>"Sharon Pepukayi (Superintendent, Talbot County Public Schools)"</code>
-
-<p>One comma difference. Same person. Infuriating.</p>
-
-<p><strong>Inference failures:</strong></p>
-<p>Someone called "Board Vice President" didn't get extracted because "education" wasn't explicit in the title, even though I'd extracted this same person in other stories where they were called "Vice President, Board of Education."</p>
-
-<p><strong>False negatives everywhere:</strong> The ultra-specific prompt excluded people whose relationship to education was implied rather than stated.</p>
-
-<h3>The Patterns</h3>
-
-<p>Most frequently mentioned:</p>
-<ul>
-<li>Sharon Pepukayi, Superintendent, Talbot County (7 stories)</li>
-<li>Emily Jackson, President, Talbot County Board of Education (7 stories)</li>
-<li>Dr. Derek Simmons, Superintendent, Caroline County (6 stories)</li>
-</ul>
-
-<p>Counties covered:</p>
-<ul>
-<li>Talbot County (111 stories)</li>
-<li>Caroline County (54 stories)</li>
-<li>Dorchester County (41 stories)</li>
-</ul>
-
-<p>The consistency was reassuring — it meant the extraction was working reliably across stories.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Narrow your scope before extraction (one beat, not all beats)</li>
-<li>Be specific about format in your prompts</li>
-<li>Build lookup tables for standardization</li>
-<li>Accept that ultra-specific prompts create false negatives</li>
-<li>Some manual cleanup is inevitable</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Four: Choice & First Draft (Or: When More Data ≠ Better Output)</h2>
 
 <p><strong>November 12. I merged everything and ran it all.</strong></p>
 
-<p>I pulled education stories from other topic files (local government, health, public safety) where education appeared as a secondary topic.</p>
+<p>I pulled education stories from other topic files (local government, health, public safety) where education appeared as a secondary topic. Set confidence thresholds: >0.8 for primary education stories, >0.65 for secondary. Ended up with 779 stories. Re-ran entity extraction on all of them. Got rate-limited so many times I created six Groq accounts. After removing duplicates and failures: 754 unique entries with full metadata.</p>
 
-<p>Set confidence thresholds:</p>
-<ul>
-<li>>0.8 for primary education stories</li>
-<li>>0.65 for secondary education stories</li>
-</ul>
+<p><strong>Filtering down:</strong> Then I wrote a script to filter to beat book-worthy stories. Defined "relevant" as: News stories (not calendars, obituaries, legal notices), related to the five covered counties, about boards of education, public officials, funding, policy. This eliminated 2/3 of entries, left me with 278 stories.</p>
 
-<p>Ended up with 779 stories. Re-ran entity extraction on all of them.</p>
+<p><strong>My first beatbook generation attempt:</strong> I gave ChatGPT my metadata schema and asked it to write a beatbook generation script. The prompt said: use entity metadata AND full story content, generate county-by-county sections, create three main outputs (Top 3 Issues, Key Sources, Key Documents), write in narrative prose (no bullets), make it "feel like a newsroom beat memo." It generated 42 pages. I used model <code>meta-llama/llama-4-maverick-17b-128e-instruct</code> initially, but hit the token limit. Switched to <code>openai/gpt-oss-120b</code> and it worked.</p>
 
-<p><strong>Got rate-limited so many times I created six Groq accounts.</strong></p>
+<p><strong>What worked:</strong> Data/Documents section was really impressive. 8-11 categories of records per county (MSDE Report Card Data, Board of Education Meeting Minutes, Superintendent Contracts, Facility Master Plans, Annual Budget Books). I had never even considered some of the data sources it listed. The LLM was better at finding documents than I was—rude. Source sections (when it wasn't hallucinating) looked good.</p>
 
-<p>After removing duplicates and failures: 754 unique entries with full metadata.</p>
+<p><strong>What didn't work:</strong> Sometimes it just didn't include names ("Principal, Kent County High School" - what's their name?). Wes Moore appeared constantly (he's the governor, tangentially related to education, not a beat source). Hallucinations: Facts were mostly accurate, but quotes were invented or badly paraphrased. It hallucinated some links though got major state websites right. Spelling errors: "Talton County" and "Talark County" instead of "Talbot County." Dating issues: no comprehension of time or chronology. Tone problems: would slip into "proved pivotal" and "could redefine Talbot County's educational trajectory" nonsense. Too lofty. Length: 42 pages was too long for a reference document.</p>
 
-<h3>Filtering Down</h3>
+<p><strong>Draft two (the overcorrection):</strong> I asked Copilot to simplify and shorten (max 3 paragraphs per issue), remove "why this matters" sections, use titles and metadata ONLY (no full story content), use <code>groq/qwen/qwen3-32b</code>. It generated 16 pages. Better length. But now it was repetitive and shallow. Every county's "pandemic recovery" section looked identical because it didn't have story details to differentiate them. Same with Blueprint for Maryland's Future rollout. It also focused on bizarre sources like "Julie Hickey – Coordinator of Food Services" (she appeared in stories but she's not a key education beat source).</p>
 
-<p>Then I wrote a script to filter to beat book-worthy stories. I defined "relevant" as:</p>
-<ul>
-<li>News stories (not calendars, obituaries, legal notices)</li>
-<li>Related to the five covered counties</li>
-<li>About boards of education, public officials, funding, policy</li>
-</ul>
+<p><strong>Key lessons:</strong> Metadata-only = shallow and repetitive. Full content without limits = bloated. You need external data to contextualize stories. Length is a design choice, not an accident. LLMs will hallucinate quotes unless constrained.</p>
 
-<p>This eliminated 2/3 of entries. Left me with 278 stories.</p>
-
-<h3>My First Beatbook Generation Attempt</h3>
-
-<p>I gave ChatGPT my metadata schema and asked it to write a beatbook generation script based on the example from class.</p>
-
-<p>(Chat log: https://chatgpt.com/share/6918d97e-5d48-800c-890b-bdc2e50300de)</p>
-
-<p>The prompt said:</p>
-<ul>
-<li>Use entity metadata AND full story content</li>
-<li>Generate county-by-county sections</li>
-<li>Create three main outputs: Top 3 Issues, Key Sources, Key Documents</li>
-<li>Write in narrative prose (no bullets)</li>
-<li>Make it "feel like a newsroom beat memo"</li>
-</ul>
-
-<p><strong>It generated 42 pages.</strong></p>
-
-<p>I used model <code>meta-llama/llama-4-maverick-17b-128e-instruct</code> initially, but hit the token limit. Switched to <code>openai/gpt-oss-120b</code> and it worked.</p>
-
-<h3>What Worked</h3>
-
-<p><strong>Data/Documents section:</strong> Really impressive. 8-11 categories of records per county. Some I didn't even know existed:</p>
-<ul>
-<li>MSDE Report Card Data (school-level)</li>
-<li>Board of Education Meeting Minutes  </li>
-<li>Superintendent Contracts</li>
-<li>Facility Master Plans</li>
-<li>Annual Budget Books</li>
-</ul>
-
-<p>The LLM was better at finding documents than I was.</p>
-
-<p><strong>Source sections (when it wasn't hallucinating):</strong></p>
-
-<pre><code><strong>Richard Barton – Board President</strong>  
-<p>Sets board agenda, presides over meetings, champions fiscal stewardship.  </p>
-<em>Reporter hook:</em> Comments on board approvals, textbook adoption, calendar changes.
-</code></pre>
-
-<p>When it looked like this, I liked it.</p>
-
-<h3>What Didn't Work</h3>
-
-<p><strong>Sometimes it just... didn't include names:</strong></p>
-
-<pre><code><strong>Principal, Kent County High School</strong>  
-<p>Oversees secondary curriculum, CTE programs, facility needs.</p>
-</code></pre>
-
-<p>Cool. What's their name?</p>
-
-<p><strong>Wes Moore appeared constantly.</strong> He's the governor. He's tangentially related to education. He's not a beat source.</p>
-
-<p><strong>Hallucinations:</strong> Facts were mostly accurate, but quotes were invented or badly paraphrased. It also hallucinated some links (tcps.org, uppershorewib.org, kent.k12.md.us) though it got major state websites right (mgaleg.maryland.gov).</p>
-
-<p><strong>Names I thought were hallucinated but weren't:</strong> Kept seeing "Mark Jones" and "Sarah Jones" and thought it was making them up. Nope. Those really are their names.</p>
-
-<p><strong>Spelling errors:</strong> "Talton County" and "Talark County" instead of "Talbot County."</p>
-
-<p><strong>Dating issues:</strong> No comprehension of time or chronology. Things were out of order and at times completely wrong.</p>
-
-<p><strong>Tone problems:</strong> Would slip into "proved pivotal" and "could redefine Talbot County's educational trajectory" nonsense. Too lofty and presumptive.</p>
-
-<p><strong>Length:</strong> 42 pages was too long for a reference document.</p>
-
-<h3>Draft Two: The Overcorrection</h3>
-
-<p>I asked Copilot to:</p>
-<ul>
-<li>Simplify and shorten (max 3 paragraphs per issue)</li>
-<li>Remove "why this matters" sections</li>
-<li>Use titles and metadata ONLY (no full story content)</li>
-<li>Strip out the content in <code><think></think></code> tags</li>
-<li>Use <code>groq/qwen/qwen3-32b</code></li>
-</ul>
-
-<p><strong>It generated 16 pages.</strong></p>
-
-<p>100% expected this to bomb. I really didn't think titles and metadata would be enough information.</p>
-
-<p>Better length. But now it was repetitive and shallow. Every county's "pandemic recovery" section looked identical because it didn't have story details to differentiate them. The pandemic was a central issue for basically every county, but without specific information, the summaries all looked the same.</p>
-
-<p>Same with Blueprint for Maryland's Future rollout — incredibly repetitive across counties.</p>
-
-<p>It also focused on bizarre sources:</p>
-
-<pre><code><strong>Julie Hickey</strong> – Coordinator of Food Services, Queen Anne's County Public Schools
-</code></pre>
-
-<p>Sure, she appeared in stories. But she's not a key education beat source.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Metadata-only = shallow and repetitive</li>
-<li>Full content without limits = bloated</li>
-<li>You need external data to contextualize stories</li>
-<li>Length is a design choice, not an accident</li>
-<li>LLMs will hallucinate quotes unless constrained</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Five: Draft V2 (Or: Data Changes Everything)</h2>
 
 <p><strong>November 22. I went and got the actual data.</strong></p>
 
-<p>My first drafts kept referencing things they couldn't explain:</p>
-<ul>
-<li>"Blueprint for Maryland's Future funding increased..."</li>
-<li>"MCAP scores declined..."</li>
-<li>"Student discipline rates rose..."</li>
-</ul>
+<p>My first drafts kept referencing things they couldn't explain: "Blueprint for Maryland's Future funding increased..." "MCAP scores declined..." "Student discipline rates rose..." Stories mentioned these things but didn't provide full context. So I went scraping.</p>
 
-<p>Stories mentioned these things but didn't provide full context. So I went scraping.</p>
+<p><strong>What I scraped (and why it was painful):</strong> School discipline data—huge hassle, got numbers by county, school, type, race, gender, disability, and offense. Worth it. Teacher data—number of teachers per county, % increase/decrease from prior year, number of new teachers. Microsoft Power BI interface wouldn't scrape properly, so I <strong>screenshotted and OCR'd it.</strong> MCAP scores, Blueprint funding (had to pull summaries from local news network since actual budget documents were disasters), Census data (already had this).</p>
 
-<h3>What I Scraped (And Why It Was Painful)</h3>
+<p><strong>The county summary book strategy:</strong> Instead of hardcoding stats into my generation prompts, I created two summary files: <code>county_summary_book.json</code> (county- and district-level data) and <code>school_summary_book.json</code> (school-level data, 47 schools). Then I passed these TO the LLM during generation.</p>
 
-<p><strong>School discipline data:</strong> Huge hassle. Got numbers by county, school, type, race, gender, disability, and offense. Worth it.</p>
+<p><strong>What changed:</strong> The LLM wrote things like: "Despite Talbot County's median income of $81,667 suggesting resources to address the 9.3% poverty rate, MCAP math proficiency remains at 5.2%—below the state average of 15.3%." Far more sophisticated than my first draft's vague references to "declining scores."</p>
 
-<p><strong>Teacher data:</strong> Number of teachers per county, % increase/decrease from prior year, number of new teachers, % of all teachers who are new.</p>
+<p><strong>What still sucked:</strong> I gave it too many instructions. My prompt adjustments: exclude candidates, exclude star dem writers, get rid of regional education partners, use footnotes not title references, make SURE you are referencing the correct dates, include science in MCAP data, include state-level figures separately, do not include the governor, do not include neighboring district superintendents, no community organizations, no law enforcement, no state education agency... and more. <strong>Result:</strong> The LLM started ignoring rules and hallucinating to fill gaps. It wrote: "Specific principal names were not provided in the source data" when I HAD PROVIDED PRINCIPAL NAMES in my county summary book. It just couldn't find them in the wall of instructions. Formatting degraded.</p>
 
-Microsoft Power BI interface wouldn't scrape properly, so I <strong>screenshotted and OCR'd it.</strong></p>
+<p><strong>I switched models:</strong> Tried <code>groq/meta-llama/llama-4-maverick-17b-128e-instruct</code> instead of GPT. Better organization and citations. Slightly more reasonable length. But still not great.</p>
 
-<p><strong>MCAP scores:</strong> Statewide data to show how Eastern Shore schools perform comparatively.</p>
+<p><strong>Key lessons:</strong> External data makes narratives 10x better. Create summary books BEFORE generation. Too many prompt rules = LLM confusion. Model choice matters for different tasks. You'll always realize you're missing data.</p>
 
-<p><strong>Blueprint funding:</strong> Had to pull summaries from local news network since actual budget documents were disasters.</p>
-
-<p><strong>Census data:</strong> Already had this (population, poverty, median income, demographics).</p>
-
-<p>This took FOREVER. Scrapers kept outputting duplicates or misinterpreting tables. Manual verification required.</p>
-
-<p>Getting the school budgets was "nearly impossible" — when you CAN get them, they're such a disaster it's not even worth it. So I pulled Blueprint funding summaries from the local news network instead.</p>
-
-<h3>The County Summary Book Strategy</h3>
-
-<p>Instead of hardcoding stats into my generation prompts, I created two summary files:</p>
-
-<p><strong><code>county_summary_book.json</code>:</strong> County- and district-level data</p>
-
-<p><strong><code>school_summary_book.json</code>:</strong> School-level data (47 schools)</p>
-
-<p>Then I passed these TO the LLM during generation.</p>
-
-<h3>What Changed</h3>
-
-<p>The LLM wrote things like:</p>
-
-<p>> "Despite Talbot County's median income of $81,667 suggesting resources to address the 9.3% poverty rate, MCAP math proficiency remains at 5.2% — below the state average of 15.3%."</p>
-
-<p>Far more sophisticated than my first draft's vague references to "declining scores."</p>
-
-<h3>What Still Sucked</h3>
-
-<p><strong>I gave it too many instructions.</strong> My prompt adjustments:</p>
-
-<pre><code>exclude candidates from district leadership source lists
-<p>exclude star dem writers</p>
-<p>get rid of regional education partners and media sections</p>
-<p>use footnotes not title references</p>
-<p>make SURE you are referencing the correct dates</p>
-<p>include science in MCAP data</p>
-<p>include state-level figures separately not in each county</p>
-<p>do not include the governor except for bill signings</p>
-<p>do not include "Neighboring District Superintendents"</p>
-<p>do not include "Community & Service Organizations"</p>
-<p>no "Law Enforcement & Public Safety"</p>
-<p>no "State Education Agency"</p>
-</code></pre>
-
-<p>...and more.</p>
-
-<p><strong>Result:</strong> The LLM started ignoring rules and hallucinating to fill gaps.</p>
-
-<p>It wrote: "Specific principal names were not provided in the source data; please refer to the Kent County Public Schools website..."</p>
-
-<p><strong>I HAD PROVIDED PRINCIPAL NAMES.</strong> They were in my county summary book. It just couldn't find them in the wall of instructions.</p>
-
-<p><strong>Formatting degraded.</strong> Instead of lists, it gave me semicolon-separated strings.</p>
-
-<h3>I Switched Models</h3>
-
-<p>Tried <code>groq/meta-llama/llama-4-maverick-17b-128e-instruct</code> instead of GPT.</p>
-
-<p>Better organization and citations. Slightly more reasonable length. But still not great.</p>
-
-<p>Also realized I was still missing key data — specifically enrollment broken down by race and special populations. Tried to scrape it from MSDE but Microsoft Power BI proved "very difficult" to scrape. Moved on to easier data for now.</p>
-
-<h3>Key Realization</h3>
-
-<p>I was still missing enrollment broken down by race and special populations. Needed this for context on suspension rates.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>External data makes narratives 10x better</li>
-<li>Create summary books BEFORE generation</li>
-<li>Too many prompt rules = LLM confusion</li>
-<li>Model choice matters for different tasks</li>
-<li>You'll always realize you're missing data</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Six: Draft V3 & The Local Government Disaster</h2>
 
 <p><strong>November 29. I tried to do local government. It broke everything.</strong></p>
 
-<p>I thought: if education worked, local government will too. Just... more of it.</p>
+<p>I thought: if education worked, local government will too. Just... more of it. I processed 748 local government stories, whittled down to the ~170 most relevant and timely. I went out and got MORE data: Budget analysis for each county, census data (already had this), county and municipal officials, election data, <strong>recent council meeting minutes for EVERY county</strong>. I asked Claude to generate enormous summary documents analyzing each county's budget and meeting minutes. I downloaded all of this <strong>by hand.</strong> I manually fed it names and titles of government officials when town websites had Cloudflare systems that blocked my scrapers. <strong>It became too much.</strong></p>
 
-<p>I processed 748 local government stories, whittled down to the ~170 most relevant and timely.</p>
+<p><strong>What went wrong:</strong> Information overload. I had so much data the LLM couldn't process it meaningfully. Organizing into folders didn't help. The prompts couldn't handle "look at these 15 different file types and synthesize them." Every draft sucked. Some worse than others. I generated five versions. Hated all of them. Hallucinations increased (example: "Municipal leaders, notably Federalsburg's mayor, act as advocates for town-level concerns such as tax differentials and service parity." No shit, really? This is filler garbage). Length was WRONG. I expected 60+ pages given the data volume. Got 25 pages. Half-empty tables. Full tables that just repeated the paragraph above them. Generation was suspiciously fast. Education beatbook took appropriate time to generate. Local government ones spit out 25 pages in 12 seconds. The LLM wasn't "trying." It was just filling space.</p>
 
-<p>I went out and got MORE data:</p>
-<ul>
-<li>Budget analysis for each county</li>
-<li>Census data (already had this)</li>
-<li>County and municipal officials</li>
-<li>Election data  </li>
-<li><strong>Recent council meeting minutes for EVERY county</strong></li>
-</ul>
+<p><strong>The AI intervention chain:</strong> Frustrated, I tried a new strategy: LLM collaboration. (1) Fed terrible output to ChatGPT. It said: "The beatbook is pretty strong structurally but nowhere near the standard you want (both for your own reporting and for Howard Center/NYT-style clarity)." ChatGPT was brutal: "this reads like you're tripping on acid" (paraphrasing). (2) ChatGPT gave me a new script. (3) Copilot had to fix it because it had 25 issues. (4) Ran the script. Gave output to Claude. Claude said: "Your prompt is burying the model under too much instruction and not enough clear signal about what matters." Also: "Use a better model - groq/openai/gpt-oss-120b is not ideal for this. Try claude-3-5-sonnet-20241022 via the Anthropic API directly." (5) Claude wrote a script. Produced 82 pages. Considerably better quality, but still redundant and weird. (6) Gave feedback to Claude. Rewrote script. <strong>102 pages.</strong> 12-point font. And it included gems like word salad with no spaces.</p>
 
-<p>I asked Claude to generate enormous summary documents analyzing each county's budget and meeting minutes.</p>
+<p><strong>What I learned from failure:</strong> More data ≠ better output. There's a sweet spot. I exceeded it dramatically. Local government is too sprawling. Unlike education (which focuses on schools, boards, test scores), local government covers EVERYTHING. Budget, zoning, public works, elections, crime, development, infrastructure... Each subtopic needed its own beatbook. I was trying to do 7 beatbooks in one. I kept trying to add story ideas. Every LLM wanted to suggest investigations and FOIA requests. I kept telling them: this is a GUIDE, not a pitch document. But when I removed that, they invented new unnecessary sections.</p>
 
-I downloaded all of this <strong>by hand.</strong></p>
+<p><strong>Key lessons:</strong> Some beats are too broad for one beatbook. There IS such a thing as too much context. Fast generation = shallow analysis. Sometimes you need to walk away and start over.</p>
 
-<p>I manually fed it names and titles of government officials when town websites had Cloudflare systems that blocked my scrapers.</p>
-
-<p><strong>It became too much.</strong></p>
-
-<h3>What Went Wrong</h3>
-
-<p><strong>Information overload.</strong> I had so much data the LLM couldn't process it meaningfully.</p>
-
-<p><strong>Organizing into folders didn't help.</strong> The prompts couldn't handle "look at these 15 different file types and synthesize them."</p>
-
-<p><strong>Every draft sucked.</strong> Some worse than others. I generated five versions. Hated all of them.</p>
-
-<p><strong>Hallucinations increased.</strong> Example from v2:</p>
-
-<p>> "Municipal leaders, notably Federalsburg's mayor, act as advocates for town-level concerns such as tax differentials and service parity."</p>
-
-<p>No shit, really? This is filler garbage.</p>
-
-<p><strong>Length was WRONG.</strong> I expected 60+ pages given the data volume. Got 25 pages. Half-empty tables. Full tables that just repeated the paragraph above them.</p>
-
-<p><strong>Generation was suspiciously fast.</strong> Education beatbook took appropriate time to generate. Local government ones spit out 25 pages in 12 seconds.</p>
-
-<p>The LLM wasn't "trying." It was just filling space.</p>
-
-<h3>The AI Intervention Chain</h3>
-
-Frustrated, I tried a new strategy: <strong>LLM collaboration.</strong></p>
-
-<p><strong>1. Fed terrible output to ChatGPT</strong></p>
-
-<p>It said:</p>
-
-<p>> "The beatbook is pretty strong structurally but nowhere near the standard you want (both for your own reporting and for Howard Center/NYT-style clarity)."</p>
-
-<p>(Thanks, OpenAI memory feature from when I practiced resume writing with you two weeks ago.)</p>
-
-<p>ChatGPT was brutal: "this reads like you're tripping on acid" (paraphrasing).</p>
-
-<p><strong>2. ChatGPT gave me a new script</strong></p>
-
-<p><strong>3. Copilot had to fix it</strong> because it had 25 issues.</p>
-
-<p><strong>4. Ran the script. Gave output to Claude.</strong></p>
-
-<p>Claude said:</p>
-
-<p>> "Your prompt is burying the model under too much instruction and not enough clear signal about what matters."</p>
-
-<p>Also:</p>
-
-<p>> "Use a better model - groq/openai/gpt-oss-120b is not ideal for this. Try claude-3-5-sonnet-20241022 via the Anthropic API directly."</p>
-
-<p>(Nice "please don't use our competitor's model" touch, Claude.)</p>
-
-<p><strong>5. Claude wrote a script. Produced 82 pages.</strong></p>
-
-<p>Considerably better quality, but still redundant and weird.</p>
-
-<p><strong>6. Gave feedback to Claude. Rewrote script.</strong></p>
-
-<p><strong>102 pages.</strong> 12-point font.</p>
-
-<p>And it included gems like this:</p>
-
-<pre><code>1. Trace the $1.2‑million‑pluscostofthe287(g)ICE‑enforcementmodelmentionedonSeptember 30 2025;theFY 2026budgetshowsnoallocation,suggestingahiddenfundingsource.2. ComparethevoteontheAugust 28 2025sewer‑capacitymoratorium(reportedinStory 8)withtheabsenceofarecordedroll‑call;identifyanycommissionerswhorepeatedlyabstainedwithoutexplanation.3. ExaminetheRoyal FarmsdevelopmentapprovalprocessonApril...
-</code></pre>
-
-<p>Yeah. Word salad with no spaces.</p>
-
-<h3>What I Learned From Failure</h3>
-
-<p><strong>More data ≠ better output.</strong> There's a sweet spot. I exceeded it dramatically.</p>
-
-<p><strong>Local government is too sprawling.</strong> Unlike education (which focuses on schools, boards, test scores), local government covers EVERYTHING. Budget, zoning, public works, elections, crime, development, infrastructure...</p>
-
-<p>Each subtopic needed its own beatbook. I was trying to do 7 beatbooks in one.</p>
-
-<p><strong>I kept trying to add story ideas.</strong> Every LLM wanted to suggest investigations and FOIA requests. I kept telling them: this is a GUIDE, not a pitch document. But when I removed that, they invented new unnecessary sections.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Some beats are too broad for one beatbook</li>
-<li>There IS such a thing as too much context</li>
-<li>Fast generation = shallow analysis</li>
-<li>Sometimes you need to walk away and start over</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Seven: Different (Or: Building the Website)</h2>
 
 <p><strong>December 6. I pivoted to building a browser-based interface.</strong></p>
 
-<p>Narrative beatbooks are fine. But what if reporters could INTERACT with the data?</p>
+<p>Narrative beatbooks are fine. But what if reporters could INTERACT with the data? Early versions had tabs: Data Dashboard (suspension data, MCAP visualizations), Five Key Issues, Sources, Six county filters (five counties + "all counties"). This worked great... at first. Then I tried adding more. Created budget summaries. Asked Claude to integrate them. <strong>Claude couldn't handle the file sizes.</strong> It literally stopped working. Repeatedly. Tried ChatGPT and Copilot to fix the HTML. Neither could. Everything broke. Tabs wouldn't switch. Data wouldn't load. HTML files were too large.</p>
 
-<h3>The Early Versions</h3>
+<p><strong>The parallel experiments:</strong> While fighting with the website, I tried other things. (1) Asked ChatGPT to create a comprehensive budget databook. ChatGPT crushed it—sections per county: Core fiscal table, enrollment & per-pupil spending, Blueprint drivers, capital outlook, emerging fiscal/policy issues, narrative summary, plus cross-county comparison tables and regional takeaways. (2) Asked Copilot to extract all quotes and generate source profiles. Problem: Generated beatbooks kept hallucinating quotes. Script extracted quotes and generated 26 profiles—one for every key player quoted 5+ times. (3) Went back to Claude and made a narrative beatbook (again). For some reason, the narrative beatbooks I generated THIS time were fire. Switched to <code>gpt-oss-120b</code>: INSANE quality. I think it was the budget data. But the dramatic improvement floored me—and pissed me off. <strong>NOW you work?</strong> (4) One more try at the website. I had very little hope. Everything was too large. Claude kept breaking. <strong>But it worked.</strong> After many tweaks: Five key issues with "critical findings" summaries, paragraphs, and data tables. County-level narrative breakdowns. Interactive schools dashboard (all 47 schools). Searchable sources table (58 source cards).</p>
 
-<p>Tabs:</p>
-<ul>
-<li>Data Dashboard (suspension data, MCAP visualizations)</li>
-<li>Five Key Issues</li>
-<li>Sources</li>
-<li>Six county filters (five counties + "all counties")</li>
-</ul>
+<p><strong>Key lessons:</strong> Sometimes you need to abandon an approach entirely. Build components separately, then integrate. Source verification requires pre-extraction. The right model + right data = dramatic quality jumps. Persistence eventually pays off (or you hit your breaking point).</p>
 
-<p>This worked great... at first.</p>
-
-<p>Then I tried adding more. Created budget summaries. Asked Claude to integrate them.</p>
-
-<p><strong>Claude couldn't handle the file sizes.</strong> It literally stopped working. Repeatedly.</p>
-
-<p>Tried ChatGPT and Copilot to fix the HTML. Neither could.</p>
-
-<p>Everything broke. Tabs wouldn't switch. Data wouldn't load. HTML files were too large.</p>
-
-<h3>The Parallel Experiments</h3>
-
-<p>While fighting with the website, I tried other things:</p>
-
-<p><strong>1. Asked ChatGPT to create a comprehensive budget databook</strong></p>
-
-<p>In an effort to compress 10 massive budget documents into a single file, I had ChatGPT generate a comprehensive but succinct data book. </p>
-
-<p>I tried using Gemini to compare results, but ChatGPT's was far and away better in terms of quality, structure, consistency, and relevance. Took some back and forth, but the final product had:</p>
-
-<p>Sections per county:</p>
-<ul>
-<li>Core fiscal table</li>
-<li>Enrollment & per-pupil spending</li>
-<li>Blueprint drivers</li>
-<li>Capital outlook</li>
-<li>Emerging fiscal/policy issues</li>
-<li>Narrative summary</li>
-</ul>
-
-<p>Plus two additional chapters at the end:</p>
-<ul>
-<li>Cross-county comparison tables</li>
-<li>Regional takeaways</li>
-</ul>
-
-<p>This was one of the best summary books I made. ChatGPT crushed it.</p>
-
-<p><strong>2. Asked Copilot to extract all quotes and generate source profiles</strong></p>
-
-<p>Problem: Generated beatbooks kept hallucinating quotes. Badly paraphrased, nonsensical, or fully invented.</p>
-
-<p>I realized during fact-checking that quotes were GARBAGE. Everything from badly paraphrased to utterly nonsensical to pure hallucination. But the data it used (when I provided it separately) was completely accurate.</p>
-
-<p>The solution: If I pre-extract quotes and provide them to the LLM as structured data (like I do with test scores), it should handle them better.</p>
-
-<p>Script extracted quotes and generated 26 profiles — one for every key player quoted 5+ times. Initially it kept hallucinating quotes IN the profiles, so I had to keep tweaking to get it to pull ONLY relevant quotes and use ONLY those quotes plus story content for the bios.</p>
-
-<p><strong>3. Went back to Claude and made a narrative beatbook (again)</strong></p>
-
-<p>For some reason, the narrative beatbooks I generated THIS time were fire.</p>
-
-<p>Random Groq model: pretty good.</p>
-
-<p>Switched to <code>gpt-oss-120b</code>: INSANE quality.</p>
-
-I think it was the budget data. But the dramatic improvement floored me — and pissed me off. <strong>NOW you work?</strong></p>
-
-<p><strong>4. One more try at the website</strong></p>
-
-<p>I had very little hope. Everything was too large. Claude kept breaking.</p>
-
-<p><strong>But it worked.</strong></p>
-
-<p>After many tweaks:</p>
-<ul>
-<li>Five key issues with "critical findings" summaries, paragraphs, and data tables</li>
-<li>County-level narrative breakdowns with key statistics (enrollment, budget, state funding)</li>
-<li><strong>Interactive schools dashboard:</strong> All 47 schools. Filter by county. Click to see enrollment, demographics, student groups.</li>
-<li><strong>Searchable sources table:</strong> 58 source cards with titles, organizations, topics quoted on, number of quotes.</li>
-</ul>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Sometimes you need to abandon an approach entirely</li>
-<li>Build components separately, then integrate</li>
-<li>Source verification requires pre-extraction</li>
-<li>The right model + right data = dramatic quality jumps</li>
-<li>Persistence eventually pays off (or you hit your breaking point)</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Eight: Nearly Final (Or: Fact-Checking Reveals Everything)</h2>
 
@@ -1381,153 +784,33 @@ I think it was the budget data. But the dramatic improvement floored me — and 
 
 <p>My draft was 40+ pages. Each county chapter had the same structure. I fact-checked the first chapter completely.</p>
 
-<h3>What Was Accurate</h3>
+<p><strong>What was accurate:</strong> Data I provided separately: Near-perfect. MCAP scores, demographic info, enrollment figures—all correct when I'd given the LLM clean summary books. Data from story content: Good, but not perfect. One instance: cited 45% increase in student homelessness when the article clearly said 39%.</p>
 
-<p><strong>Data I provided separately:</strong> Near-perfect. MCAP scores, demographic info, enrollment figures — all correct when I'd given the LLM clean summary books.</p>
+<p><strong>What was garbage:</strong> Quotes and citations. This was the fatal flaw. I don't think ANY of the "direct quotes" were entirely accurate. All were at least partially wrong. Favorite LLM mistake: Directly quoting paraphrases. Stories structured like: "Superintendent Jane Doe emphasized that test scores are concerning." LLM quoted: <code>"Test scores are concerning," Superintendent Jane Doe said.</code> Technically accurate sentiment. Not an actual quote. Also: It preferred quoting LLM-generated summaries over actual articles. And: It just straight-up invented some quotes. Citations: Kept referencing stories using "footnotes" but never defined the footnotes. When it tried to reference headlines, it would misstate them or quote parts while paraphrasing the rest.</p>
 
-<p><strong>Data from story content:</strong> Good, but not perfect. One instance: cited 45% increase in student homelessness when the article clearly said 39%.</p>
+<p><strong>The structural problem:</strong> Too repetitive. County-by-county structure meant saying the same thing five times with minor variations. Better structure: Three key issues for Eastern Shore education overall, then county-by-county section with recent coverage themes specific to each.</p>
 
-<h3>What Was Garbage</h3>
+<p><strong>Ideas for improvement:</strong> Pull quotes into separate document organized by topic. Assign full names to quotes. Prompt to cite by row ID: "Story #25" instead of trying to reference headlines. Build a Datasette so reporters can look up Story #25. Add school-level enrollment data with census tract data.</p>
 
-<p><strong>Quotes and citations:</strong> This was the fatal flaw.</p>
+<p><strong>Key lessons:</strong> LLMs are great with structured data you provide. LLMs are terrible with quotes. Pre-extract quotes if accuracy matters. Verify everything a human will rely on. Structure determines repetition.</p>
 
-<p>I don't think ANY of the "direct quotes" were entirely accurate. All were at least partially wrong.</p>
-
-<p><strong>Favorite LLM mistake:</strong> Directly quoting paraphrases.</p>
-
-<p>Stories structured like: "Superintendent Jane Doe emphasized that test scores are concerning."</p>
-
-LLM quoted: <code>"Test scores are concerning," Superintendent Jane Doe said.</code>
-
-<p>Technically accurate sentiment. Not an actual quote.</p>
-
-<p><strong>Also:</strong> It preferred quoting LLM-generated summaries over actual articles.</p>
-
-<p><strong>And:</strong> It just straight-up invented some quotes.</p>
-
-<p><strong>Citations:</strong> Kept referencing stories using "footnotes" but never defined the footnotes. When it tried to reference headlines, it would misstate them or quote parts while paraphrasing the rest.</p>
-
-<h3>The Structural Problem</h3>
-
-<p><strong>Too repetitive.</strong> County-by-county structure meant saying the same thing five times with minor variations.</p>
-
-<p>Better structure:</p>
-<ul>
-<li>Three key issues for Eastern Shore education overall</li>
-<li>Then county-by-county section with recent coverage themes specific to each</li>
-</ul>
-
-<h3>Ideas for Improvement</h3>
-
-<p><strong>Pull quotes into separate document</strong> organized by topic. Assign full names to quotes.</p>
-
-<p><strong>Prompt to cite by row ID:</strong> "Story #25" instead of trying to reference headlines. Build a Datasette so reporters can look up Story #25.</p>
-
-<p><strong>Add school-level enrollment data</strong> with census tract data.</p>
-
-<p>(I tried scraping from MSDE but Microsoft Power BI is terrible. Eventually built JavaScript scrapers with Claude's help.)</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>LLMs are great with structured data you provide</li>
-<li>LLMs are terrible with quotes</li>
-<li>Pre-extract quotes if accuracy matters</li>
-<li>Verify everything a human will rely on</li>
-<li>Structure determines repetition</li>
-</ul>
-
-<hr>
 
 <h2>Iteration Nine: Final (Or: The One That Actually Works)</h2>
 
 <p><strong>December 15. This is it.</strong></p>
 
-<p>I was pleased with Nearly Final structurally. Didn't want to overhaul anything.</p>
+<p>I was pleased with Nearly Final structurally. Didn't want to overhaul anything. Just build out specific features and improve navigation.</p>
 
-<p>Just build out specific features and improve navigation.</p>
+<p><strong>What I built:</strong> (1) Reorganized schools page: Added MCAP data that was missing, added +/- indicators comparing to state averages, changed dropdowns to popups (less clunky), added county and school-level filters, added sortable columns. (2) Fixed source directory: Subject and county filters, eventually got dynamic loading working (Copilot kept hardcoding them instead of loading dynamically, which took forever to fix), 58 source cards total (26 from quote extraction + district officials I'd scraped earlier). (3) Story archive (the ambitious one): Formatted like an email inbox, filter by county and year, sort by publication date, search full text, click article to open in side panel. Had to remove some irrelevant stories (board meeting overviews, newsletter intros). Biggest challenge: formatting. JSON had <code>\n</code> everywhere. Future goal: Sort by metadata topics and mentioned people. (4) Meeting calendar: Claude did deep research and filled it in. Easy addition. (5) Local impact sections: Added clickable tabs showing county-specific implications for each major issue. (6) More demographic data: Required more scraping (graduation rates, additional breakdowns). (7) The chatbot (frustrating): Started okay. Tried to improve it. Lost all functionality. Tried integrating Groq. Disaster. Ended up with mediocre chatbot. Want better one. Need more time.</p>
 
-<h3>What I Built</h3>
+<p><strong>What I didn't get to:</strong> Document repository—ran out of time.</p>
 
-<p><strong>1. Reorganized schools page</strong></p>
-<ul>
-<li>Added MCAP data that was missing</li>
-<li>Added +/- indicators comparing to state averages</li>
-<li>Changed dropdowns to popups (less clunky)</li>
-<li>Added county and school-level filters</li>
-<li>Added sortable columns</li>
-</ul>
+<p><strong>What I'm proud of:</strong> Navigability: Organization, structure, user experience. Data integration: Everything connects. Stories → sources → schools → counties. Interactivity: Can actually explore, not just read.</p>
 
-<p><strong>2. Fixed source directory</strong></p>
-<ul>
-<li>Subject and county filters</li>
-<li>Eventually got dynamic loading working (Copilot kept hardcoding them instead of loading dynamically, which took forever to fix)</li>
-<li>58 source cards total (26 from quote extraction + district officials I'd scraped earlier)</li>
-</ul>
+<p><strong>What needs work:</strong> JavaScript cleanup: Inline CSS/JS needs refactoring. Chatbot: Needs to actually be good. More features: Ideas for spring.</p>
 
-<p><strong>3. Story archive (the ambitious one)</strong></p>
-<ul>
-<li>Formatted like an email inbox</li>
-<li>Filter by county and year</li>
-<li>Sort by publication date</li>
-<li>Search full text</li>
-<li>Click article to open in side panel</li>
-</ul>
+<p><strong>Key lessons:</strong> Feature creep is real (manage it). Sometimes "good enough" ships. Iterative improvement beats perfection. User testing would have helped (didn't do it—should have watched real reporters use it). Interactive > static for beat books. Inline CSS/JS is heinous (clean it up before showing anyone).</p>
 
-<p>Had to remove some irrelevant stories (board meeting overviews, newsletter intros).</p>
-
-<p>Biggest challenge: formatting. JSON had <code>\n</code> everywhere.</p>
-
-<p><strong>Future goal:</strong> Sort by metadata topics and mentioned people.</p>
-
-<p><strong>4. Meeting calendar</strong></p>
-<p>Claude did deep research and filled it in. Easy addition.</p>
-
-<p><strong>5. Local impact sections</strong></p>
-<p>Added clickable tabs showing county-specific implications for each major issue.</p>
-
-<p><strong>6. More demographic data</strong></p>
-<p>Required more scraping (graduation rates, additional breakdowns).</p>
-
-<p><strong>7. The chatbot (frustrating)</strong></p>
-<p>Started okay. Tried to improve it. Lost all functionality.</p>
-
-<p>Tried integrating Groq. Disaster.</p>
-
-<p>Ended up with mediocre chatbot. Want better one. Need more time.</p>
-
-<h3>What I Didn't Get To</h3>
-
-<p><strong>Document repository:</strong> Ran out of time.</p>
-
-<h3>What I'm Proud Of</h3>
-
-<p><strong>Navigability:</strong> Organization, structure, user experience.</p>
-
-<p><strong>Data integration:</strong> Everything connects. Stories → sources → schools → counties.</p>
-
-<p><strong>Interactivity:</strong> Can actually explore, not just read.</p>
-
-<h3>What Needs Work</h3>
-
-<p><strong>JavaScript cleanup:</strong> Inline CSS/JS needs refactoring.</p>
-
-<p><strong>Chatbot:</strong> Needs to actually be good.</p>
-
-<p><strong>More features:</strong> Ideas for spring.</p>
-
-<h3>Lessons Learned</h3>
-
-<ul>
-<li>Feature creep is real (manage it)</li>
-<li>Sometimes "good enough" ships</li>
-<li>Iterative improvement beats perfection</li>
-<li>User testing would have helped (didn't do it — should have watched real reporters use it)</li>
-<li>Interactive > static for beat books</li>
-<li>Inline CSS/JS is heinous (clean it up before showing anyone)</li>
-</ul>
-
-<hr>
 
 <h2>What I Wish I'd Known</h2>
 
@@ -1553,150 +836,212 @@ LLM quoted: <code>"Test scores are concerning," Superintendent Jane Doe said.</c
 
 <p><strong>Document your failures.</strong> They're more valuable than your successes.</p>
 
-<hr>
-
-<h2>What I Wish I'd Known</h2>
-
-<p>Looking back at the entire journey, here's what I'd tell myself in November:</p>
-
-<p><strong>You will break it. Multiple times.</strong> That's fine. That's the process.</p>
-
-<p><strong>The first model that works isn't the best model.</strong> Keep testing.</p>
-
-<p><strong>External data is the difference between "okay" and "actually useful."</strong> Get it early.</p>
-
-<p><strong>LLMs are terrible with time.</strong> Dates will be wrong. Chronology will be confused. Check everything.</p>
-
-<p><strong>You cannot prompt your way out of structural problems.</strong> Fix the data, don't add more instructions.</p>
-
-<p><strong>Some beats are too big for one beatbook.</strong> Education worked. Local government was too sprawling.</p>
-
-<p><strong>Fact-check early, not at the end.</strong> Discover problems when you can still fix them easily.</p>
-
-<p><strong>Git from day one.</strong> Folders are not version control.</p>
-
-<p><strong>The chatbot will be harder than you think.</strong> Start with pattern-matching, not AI integration.</p>
-
-<p><strong>Document your failures.</strong> They're more valuable than your successes.</p>
-
-<hr>
 
 <h2>Reflection: What Actually Matters</h2>
 
-<p>After nine iterations, six Groq accounts, countless Claude rate limits, and one near-total disaster with local government:</p>
+<p>After nine iterations, six Groq accounts, countless Claude rate limits, and one near-total disaster with local government, here are the three most important lessons:</p>
 
-<h3>The Three Most Important Lessons</h3>
+<p><strong>1. Start with the end user, not the data.</strong> Before one line of code, ask: Who will use this? (Beat reporters on deadline). When will they use it? (Writing stories, needing quick facts). What questions does it answer? (Who's the super? What are scores? Who do I call?). I didn't do this. I started classifying stories and figured out the purpose later. Wasted weeks.</p>
 
-<p><strong>1. Start With the End User, Not The Data</strong></p>
+<p><strong>2. Iterate based on real failures.</strong> Version 1 wasn't bad because I'm a bad coder. It was bad because I didn't know what good looked like yet. Each iteration taught me something I couldn't have learned without building and breaking things.</p>
 
-<p>Before one line of code:</p>
-<ul>
-<li>Who will use this? (Beat reporters on deadline)</li>
-<li>When will they use it? (Writing stories, needing quick facts)</li>
-<li>What questions does it answer? (Who's the super? What are scores? Who do I call?)</li>
-</ul>
-
-<p>I didn't do this. I started classifying stories and figured out the purpose later. Wasted weeks.</p>
-
-<p><strong>2. Iterate Based on Real Failures</strong></p>
-
-<p>Version 1 wasn't bad because I'm a bad coder. It was bad because I didn't know what good looked like yet.</p>
-
-<p>Each iteration taught me something I couldn't have learned without building and breaking things.</p>
-
-<p><strong>3. LLMs Require Humans in the Loop</strong></p>
-
-<p>I thought AI would "replace" journalism grunt work. It doesn't.</p>
-
-<p>It requires:</p>
-<ul>
-<li>Humans to curate data</li>
-<li>Humans to write prompts</li>
-<li>Humans to validate outputs</li>
-<li>Humans to fact-check quotes</li>
-<li>Humans to decide what matters</li>
-</ul>
-
-<p>But it enables:</p>
-<ul>
-<li>Pattern detection across hundreds of stories</li>
-<li>Synthesis no human could do manually</li>
-<li>Extraction at scale</li>
-<li>Interactive interfaces</li>
-</ul>
-
-<p><strong>AI is a tool, not a replacement. Use it like one.</strong></p>
-
-<hr>
-
-<h2>The Honest ROI</h2>
-
-<p><strong>Time invested:</strong> ~100 hours over 4 months</p>
-
-<p><strong>Money spent:</strong> ~$15</p>
-
-<p><strong>What it does:</strong></p>
-<ul>
-<li>Saves ~30 minutes per story on background research</li>
-<li>Provides instant source contacts</li>
-<li>Contextualizes test scores/budgets/demographics</li>
-<li>Shows coverage patterns</li>
-</ul>
-
-<p><strong>Would I do it again?</strong> Yes.</p>
-
-<p><strong>Would I do it the same way?</strong> God, no.</p>
-
-<hr>
+<p><strong>3. LLMs require humans in the loop.</strong> I thought AI would "replace" journalism grunt work. It doesn't. It requires: Humans to curate data, write prompts, validate outputs, fact-check quotes, decide what matters. But it enables: Pattern detection across hundreds of stories, synthesis no human could do manually, extraction at scale, interactive interfaces. <strong>AI is a tool, not a replacement. Use it like one.</strong></p>
 
 <h2>Final Thoughts</h2>
 
-<p>This beatbook took four months. The final version is 100x better than v1.</p>
-
-<p>Not because I learned to code better.</p>
-
-<p>Because I learned what actually matters:</p>
-
-<ul>
-<li>Clean metadata > clever prompts</li>
-<li>Narrow scope > comprehensive coverage</li>
-<li>External data > more stories</li>
-<li>Fact-checking > trusting AI</li>
-<li>Iteration > perfection</li>
-</ul>
-
-<p>If you're building a beatbook:</p>
-
-<p><strong>Start small.</strong> One beat. One county. One type of story.</p>
-
-<p><strong>Expect failure.</strong> Your first draft will suck. That's fine.</p>
-
-<p><strong>Fact-check ruthlessly.</strong> LLMs hallucinate quotes. Always.</p>
-
-<p><strong>Ship when good enough.</strong> Perfect is the enemy of useful.</p>
-
-<p><strong>Learn from what breaks.</strong> Every failure teaches something essential.</p>
-
-<p>Good luck. You'll need it. But you'll build something valuable.</p>
+<p><strong>Clean metadata > clever prompts</strong></p>
+<p><strong>Narrow scope > comprehensive coverage</strong></p>
+<p><strong>External data > more stories</strong></p>
+<p><strong>Fact-checking > trusting AI</strong></p>
+<p><strong>Iteration > perfection</strong></p>
 
         </div>
+        
+        <div id="prompts" class="section">
+            <h1>Prompt Engineering & Data Pipeline</h1>
+            
+            <p>This project used multiple LLM prompts at different stages. Click any prompt below to view the full text in the side panel.</p>
+            
+            <h2>Stage 1: Classification & Extraction</h2>
+            <button class="prompt-button" onclick="showPrompt('Classification Prompt', 'classification')">📋 View Classification Prompt</button>
+            <button class="prompt-button" onclick="showPrompt('Entity Extraction Prompt', 'extraction')">🏷️ View Extraction Prompt</button>
+            
+            <h2>Stage 2: Story Refinement</h2>
+            <button class="prompt-button" onclick="showPrompt('Pruning Prompt', 'pruning')">✂️ View Pruning Prompt</button>
+            <button class="prompt-button" onclick="showPrompt('Discovery Prompt', 'discovery')">🔍 View Discovery Prompt</button>
+            
+            <h2>Stage 3: Beatbook Generation</h2>
+            <button class="prompt-button" onclick="showPrompt('County Overview Prompt', 'overview')">📊 View Overview Prompt</button>
+            <button class="prompt-button" onclick="showPrompt('Top Issues Prompt', 'issues')">⚠️ View Issues Prompt</button>
+            <button class="prompt-button" onclick="showPrompt('Key Sources Prompt', 'sources')">👥 View Sources Prompt</button>
+            <button class="prompt-button" onclick="showPrompt('Coverage Themes Prompt', 'themes')">📰 View Themes Prompt</button>
+        </div>
+        
+        <div class="side-panel" id="sidePanel">
+            <div class="side-panel-header">
+                <h3 id="panelTitle">Prompt</h3>
+                <button class="close-panel" onclick="closePanel()" aria-label="Close panel">×</button>
+            </div>
+            <div id="panelContent"></div>
+        </div>
     </div>
-    
+  
     <script>
-        function showTab(tabName) {
-            // Hide all sections
+        const PROMPTS = {
+            classification: '<p><strong>Purpose:</strong> This prompt classified all Star-Dem articles into 13 content-type and topic categories, using both primary and secondary topic assignments to capture stories with mixed relevance.</p>' +
+'<pre><code>You are a local news classification assistant.\n\n' +
+'Given the following news story, do the following:\n' +
+'1. Assign a single content_type from this list (with definitions):\n' +
+'- News: Full articles, excluding calendars, obituaries, legal notices and opinion pieces\n' +
+'- Calendars: Calendars\n' +
+'- Obituaries: Obituaries\n' +
+'- Legal Notices: Legal notices\n' +
+'- Opinion: Columns, editorials, letters to the editor\n' +
+'- Miscellaneous: TV listings, Today in History articles\n\n' +
+'2. Assign a single primary_topic from this list:\n' +
+'- Local Government, Economy & Budget, Planning & Development\n' +
+'- Housing, Transportation/Infrastructure, Public Safety & Crime\n' +
+'- Arts & Culture, Education, Environment\n' +
+'- Elections & Politics, Agriculture, Sports, Other\n\n' +
+'3. If content_type is "News" and story is also relevant to one additional topic,\n' +
+'   assign a secondary_topic (maximum one, or "None")\n\n' +
+'Return valid JSON: {content_type, primary_topic, secondary_topic}\n\n' +
+'Examples:\n' +
+'- "Robbins YMCA opening reading hub" = News, Education, Arts & Culture\n' +
+'- "TV LISTINGS 7-19-24" = Miscellaneous, Other, None</code></pre>',
+
+            extraction: '<p><strong>Purpose:</strong> This prompt extracted structured metadata from all 754 education stories, identifying key people, organizations, and initiatives with explicit EDUCATION-RELATED ONLY filtering.</p>' +
+'<pre><code>You are an expert news data annotator specializing in EDUCATION stories.\n\n' +
+'EDUCATION-RELATED ONLY: Only extract entities directly relevant to education.\n\n' +
+'Extract these categories:\n' +
+'- key_people: Superintendents, board members (with titles), principals, state officials\n' +
+'- key_organizations: School boards, education nonprofits, advocacy groups\n' +
+'- key_initiatives: Specific programs (e.g., "Blueprint for Maryland\'s Future")\n' +
+'- key_establishments: Individual schools, district offices\n' +
+'- municipalities: Towns/cities mentioned (standardized format)\n' +
+'- counties: Counties mentioned (always include "County")\n\n' +
+'EXCLUDE: Parents, students, teachers quoted once, reporters, generic officials\n\n' +
+'Return valid JSON with all original fields plus new entity fields.</code></pre>',
+
+            pruning: '<p><strong>Purpose:</strong> First pass of refinement - removed stories with minimal educational relevance, duplicates, and minor briefs.</p>' +
+'<pre><code>You are reviewing education stories to identify which should be REMOVED.\n\n' +
+'REMOVE stories that are:\n' +
+'- Minor briefs with no substantive information\n' +
+'- Duplicates covering the same event\n' +
+'- Tangentially related (mention schools but aren\'t about education)\n' +
+'- Calendars or event listings\n' +
+'- Stories where education is mentioned in passing\n\n' +
+'KEEP stories that are:\n' +
+'- About policy decisions, budget matters, curriculum changes\n' +
+'- About school board actions, superintendent decisions\n' +
+'- About significant events affecting students or schools\n' +
+'- About test scores, performance data, demographic changes\n' +
+'- About controversies, conflicts, major initiatives\n\n' +
+'Return: {story_id, action: "KEEP" or "REMOVE", reason}</code></pre>',
+
+            discovery: '<p><strong>Purpose:</strong> Second pass of refinement - found important stories the pruning pass might have incorrectly removed.</p>' +
+'<pre><code>You are reviewing stories marked for REMOVAL to find incorrectly excluded ones.\n\n' +
+'RESTORE stories that are:\n' +
+'- Major policy decisions or changes\n' +
+'- Significant budget decisions affecting education\n' +
+'- Controversial issues generating ongoing coverage\n' +
+'- Important initiatives or programs being launched\n' +
+'- Significant personnel changes (superintendent, board leadership)\n\n' +
+'Return: {story_id, action: "RESTORE" or "CONFIRM_REMOVAL", reason}</code></pre>',
+
+            overview: '<p><strong>Purpose:</strong> Generated county overviews with demographics, district structure, and recent developments. Call #1 of 4 per county.</p>' +
+'<pre><code>You are writing the "County Overview" section for {county}, Maryland.\n\n' +
+'County Data: {county_data_text}\n' +
+'School Data: {school_data_text}\n' +
+'Story Coverage: {story_count} stories analyzed\n' +
+'Recent Stories: {recent_stories_text}\n\n' +
+'Write a comprehensive overview including:\n' +
+'1. Basic Demographics (population, poverty, median income, composition)\n' +
+'2. Education System Structure (schools, enrollment, demographics, spending)\n' +
+'3. Governance (superintendent, board members, recent changes)\n' +
+'4. Recent Developments (initiatives, policy changes, controversies)\n\n' +
+'Use specific examples from stories. Cite story titles.\n' +
+'Write 3-4 paragraphs. Be factual and specific.</code></pre>',
+
+            issues: '<p><strong>Purpose:</strong> Identified the top three issues affecting education in each county. Call #2 of 4 per county.</p>' +
+'<pre><code>You are writing the "Top Three Issues" section for {county}, Maryland.\n\n' +
+'Based on stories, identify the three most significant education issues.\n\n' +
+'For each issue:\n' +
+'1. Name it clearly (2-4 words)\n' +
+'2. Explain what it is (1-2 sentences)\n' +
+'3. Note which stories covered it (cite by title)\n' +
+'4. Explain why it matters (impact on students, budget, operations)\n\n' +
+'Prioritize by:\n' +
+'- Number of stories covering it\n' +
+'- Scope of impact (district-wide vs. single school)\n' +
+'- Ongoing nature (recurring vs. one-time)\n\n' +
+'Be specific. Use concrete examples. Avoid generic issues.</code></pre>',
+
+            sources: '<p><strong>Purpose:</strong> Built contact directory of essential sources organized by role categories. Call #3 of 4 per county.</p>' +
+'<pre><code>You are writing the "Key Sources to Know" section for {county}, Maryland.\n\n' +
+'Create directory of essential contacts organized by role categories:\n\n' +
+'District Leadership: Superintendent, key central office staff\n' +
+'School Principals: Those mentioned in multiple stories\n' +
+'State Legislators: Only if they have education roles (explain connection)\n' +
+'Board of Education Members: Name, title, which stories\n\n' +
+'DO NOT include: Parents, students, teachers (unless union leaders),\n' +
+'political candidates, reporters, people from other districts\n\n' +
+'For each person:\n' +
+'- Full name and current title\n' +
+'- What they influence or decide\n' +
+'- Which stories they appeared in (cite by title)\n\n' +
+'Keep bullets concise and factual.</code></pre>',
+
+            themes: '<p><strong>Purpose:</strong> Analyzed coverage patterns to identify what angles dominated and what perspectives were missing. Call #4 of 4 per county.</p>' +
+'<pre><code>You are analyzing education coverage in {county}, Maryland.\n\n' +
+'Identify 3-5 major themes running through coverage. For each:\n' +
+'1. Name it (2-4 words)\n' +
+'2. Explain what types of stories contribute\n' +
+'3. Note what angles/perspectives are represented\n' +
+'4. Note what angles/perspectives are missing\n\n' +
+'Possible themes: Budget pressures, test scores/accountability,\n' +
+'equity gaps, infrastructure, leadership changes, curriculum debates,\n' +
+'student discipline\n\n' +
+'Cite specific story examples by title.\n' +
+'Help reporters understand coverage patterns and gaps.</code></pre>'
+        };
+        
+        function showTab(tabName, event) {
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            // Remove active from all tabs
             document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
             
-            // Show selected section
             document.getElementById(tabName).classList.add('active');
-            // Activate clicked tab
-            event.target.classList.add('active');
+            if (event && event.target) {
+                event.target.classList.add('active');
+            }
             
-            // Scroll to top
+            closePanel();
             window.scrollTo(0, 0);
         }
+        
+        function showPrompt(title, promptKey) {
+            const panel = document.getElementById('sidePanel');
+            const panelTitle = document.getElementById('panelTitle');
+            const panelContent = document.getElementById('panelContent');
+            
+            panelTitle.textContent = title;
+            panelContent.innerHTML = PROMPTS[promptKey];
+            panel.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closePanel() {
+            const panel = document.getElementById('sidePanel');
+            
+            panel.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePanel();
+            }
+        });
     </script>
 </body>
 </html>
