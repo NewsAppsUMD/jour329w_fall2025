@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eastern Shore Education Beatbook</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- ===========================
+         HEADER
+    ============================ -->
+    <header id="main-header">
+        <div class="header-content">
+            <h1>Eastern Shore Education Beatbook</h1>
+            <div class="subtitle">Caroline • Dorchester • Kent • Queen Anne's • Talbot</div>
+        </div>
+    </header>
+
+    <!-- ===========================
+         MAIN NAVIGATION TABS
+    ============================ -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <button class="nav-tab active" data-tab="dashboard">Overview Dashboard</button>
+            <button class="nav-tab" data-tab="counties">County Profiles</button>
+            <button class="nav-tab" data-tab="stories">Recent Stories</button>
+            <button class="nav-tab" data-tab="archive">Story Archive</button>
+            <button class="nav-tab" data-tab="sources">Key Sources</button>
+            <button class="nav-tab" data-tab="quotes">Quote Database</button>
+        </div>
+    </nav>
+
+    <!-- ===========================
+         MAIN CONTENT WRAPPER
+    ============================ -->
+    <main id="content">
+
+        <!-- ===========================
+             TAB 1: DASHBOARD
+        ============================ -->
+        <section id="dashboard" class="tab-section active">
+            <div class="container">
+                <h2>Overview Dashboard</h2>
+
+                <!-- Chart Row -->
+                <div class="dashboard-grid">
+                    <div class="chart-card">
+                        <h3>Enrollment by County</h3>
+                        <canvas id="enrollmentChart"></canvas>
+                    </div>
+
+                    <div class="chart-card">
+                        <h3>Total Education Budgets</h3>
+                        <canvas id="budgetChart"></canvas>
+                    </div>
+
+                    <div class="chart-card">
+                        <h3>Per-Pupil Spending</h3>
+                        <canvas id="ppChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Summary narrative -->
+                <div class="narrative-box">
+                    <h3>Topline Summary</h3>
+                    <p id="dashboard-summary">
+                        The Eastern Shore region exhibits profound differences in local revenue capacity, 
+                        student demographics, and per-pupil spending. Queen Anne's leads in local contributions, 
+                        while Caroline and Dorchester depend heavily on Blueprint state aid. Enrollment trends 
+                        diverge sharply, as do capital needs and staffing pressures.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================
+             TAB 2: COUNTY PROFILES
+        ============================ -->
+        <section id="counties" class="tab-section">
+            <div class="container">
+                <h2>County Profiles</h2>
+                <p class="section-intro">
+                    Explore county-by-county conditions across Maryland's Mid–Shore region.
+                </p>
+
+                <div class="accordion" id="countyAccordion">
+                    <!-- JS will inject county accordions here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================
+             TAB 3: RECENT STORIES
+        ============================ -->
+        <section id="stories" class="tab-section">
+            <div class="container">
+                <h2>Recent Stories</h2>
+                <p class="section-intro">
+                    Browse the latest education coverage from across the Eastern Shore.
+                </p>
+
+                <!-- Story Filters -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="story-county-filter">County:</label>
+                        <select id="story-county-filter">
+                            <option value="">All Counties</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="story-topic-filter">Topic:</label>
+                        <select id="story-topic-filter">
+                            <option value="">All Topics</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <input type="text" id="story-search" placeholder="Search stories..." />
+                    </div>
+                </div>
+
+                <!-- Story Grid -->
+                <div id="story-grid" class="story-grid">
+                    <!-- JS will inject stories here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =======STORY ARCHIVE
+        ============================ -->
+        <section id="archive" class="tab-section">
+            <div class="container">
+                <h2>Story Archive</h2>
+                <p class="section-intro">
+                    Comprehensive archive of education coverage with advanced filtering and search.
+                </p>
+
+                <!-- Advanced Filters -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="archive-county-filter">County:</label>
+                        <select id="archive-county-filter">
+                            <option value="">All Counties</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="archive-date-filter">Time Period:</label>
+                        <select id="archive-date-filter">
+                            <option value="">All Time</option>
+                            <option value="30">Last 30 Days</option>
+                            <option value="60">Last 60 Days</option>
+                            <option value="90">Last 90 Days</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="archive-author-filter">Author:</label>
+                        <select id="archive-author-filter">
+                            <option value="">All Authors</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <input type="text" id="archive-search" placeholder="Search by title, content, or keywords..." />
+                    </div>
+                </div>
+
+                <!-- Sort Options -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="archive-sort">Sort By:</label>
+                        <select id="archive-sort">
+                            <option value="date-desc">Newest First</option>
+                            <option value="date-asc">Oldest First</option>
+                            <option value="score-desc">Quality Score (High to Low)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <span id="archive-count" class="result-count">0 stories</span>
+                    </div>
+                </div>
+
+                <!-- Archive Grid -->
+                <div id="archive-grid" class="archive-grid">
+                    <!-- JS will inject stories here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================
+             TAB 5: ====================
+             TAB 4: KEY SOURCES
+        ============================ -->
+        <section id="sources" class="tab-section">
+            <div class="container">
+                <h2>Key Sources</h2>
+                <p class="section-intro">
+                    Comprehensive profiles of education leaders across the Eastern Shore.
+                </p>
+
+                <!-- Source Search -->
+                <div class="filter-bar">
+                    <input type="text" id="source-search" placeholder="Search sources by name, title, or topic..." />
+                </div>
+
+                <!-- Source Grid -->
+                <div id="source-grid" class="source-grid">
+                    <!-- JS will inject source profiles here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================
+             TAB 5: QUOTE DATABASE
+        ============================ -->
+        <section id="quotes" class="tab-section">
+            <div class="container">
+                <h2>Quote Database</h2>
+                <p class="section-intro">
+                    Search through thousands of quotes from education leaders.
+                </p>
+
+                <!-- Quote Filters -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="quote-speaker-filter">Speaker:</label>
+                        <select id="quote-speaker-filter">
+                            <option value="">All Speakers</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="quote-topic-filter">Topic:</label>
+                        <select id="quote-topic-filter">
+                            <option value="">All Topics</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <input type="text" id="quote-search" placeholder="Search quotes..." />
+                    </div>
+                </div>
+
+                <!-- Quote Results -->
+                <div id="quote-results" class="quote-results">
+                    <!-- JS will inject quotes here -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Eastern Shore Education Beatbook | Generated December 07, 2025</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
