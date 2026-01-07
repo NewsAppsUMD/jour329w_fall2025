@@ -617,8 +617,7 @@ function renderSources(profiles) {
                 <details>
                     <summary>Read Full Profile</summary>
                     <div style="margin-top: 1rem;">
-                        ${profile.beatbook_summary.replace(/
-/g, '<br>')}
+                        ${profile.beatbook_summary.replace(/\n/g, '<br>')}
                     </div>
                 </details>
             </div>
